@@ -1,11 +1,10 @@
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
         "pk": 393,
         "fields": {
             "priority": 0,
-            "description": "What will be the main theme of your acceptance speech at the Republican National Convention in Philadelphia?",
+            "description": "What is your opinion of the numerous scandals Bill Clinton has experienced during his time in office?",
             "likelihood": 1
         }
     },
@@ -697,15 +696,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3396,
         "fields": {
             "question": 366,
-            "description": "As President, I will work with Republicans and Democrats to advocate for programs that all Americans can approve of. We need to move past the divisiveness of recent years and strengthen our economy, Social Security, education, and Medicare. I would prefer to return some of the budget surplus to the people, but I am willing to compromise to get things done."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3405,
-        "fields": {
-            "question": 369,
-            "description": "John Ashcroft has served the people of Missouri well as Governor and Senator. I couldn't think of a better person to be Vice President."
+            "description": "As much as it pains me, I think it would be best to stay silent. Clinton's still popular, after all."
         }
     },
     {
@@ -713,15 +704,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3406,
         "fields": {
             "question": 369,
-            "description": "It is important to nail down our conservative base by emphasizing tax cuts, my evangelical background, opposition to abortion, a strong defense, and limits to government spending. We will ignore Bill Clinton, but paint Al Gore as out of touch."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3407,
-        "fields": {
-            "question": 369,
-            "description": "We need to run an attacking campaign against Al Gore. We will expose his misstatements and emphasize that his proposals will squander our budget surplus and greatly increase the size and scope of government."
+            "description": "John Ashcroft is a fantastic conservative. Throughout his career he has stood for religious freedom and family values, and i'm proud to have him by my side."
         }
     },
     {
@@ -729,7 +712,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3408,
         "fields": {
             "question": 369,
-            "description": "I will campaign as a conciliatory, moderate conservative. I will emphasize my record as the Governor of Texas, and my support across different groups and parties. We will minimize any talk of budget cuts or overturning existing programs. We will resist the temptation to criticize Bill Clinton."
+            "description": "John Ashcroft has served the people of Missouri well as Governor and Senator. I couldn't think of a better person to be Vice President."
         }
     },
     {
@@ -945,7 +928,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3493,
         "fields": {
             "question": 393,
-            "description": "Even though Communism has fallen, we must not give up our position on the world stage. We must pursue a more active foreign policy."
+            "description": " Bill Clinton has squandered our superpower status with his weak foreign policy. This has to change. I have the experience and judgement to lead on the world stage. "
         }
     },
     {
@@ -953,7 +936,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3494,
         "fields": {
             "question": 393,
-            "description": "We are at a moral crisis in this nation. Faith is declining. We have a President who shows flagrant contempt for the law. But it doesn't have to be like this. As president, I will put values first."
+            "description": "We are at a moral crisis in this nation. The President and the other liberal elites show flagrant disregard for the values that made our nation great. I have fought for these values my whole political career, and I'll continue to do so from the White House!"
         }
     },
     {
@@ -961,7 +944,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12240,
         "fields": {
             "question": 393,
-            "description": "put description here"
+            "description": "Excessive regulations and taxes are choking our citizens, and Bill Clinton and Al Gore are continuing it. Not me. The first thing I'll do in office will be to cut taxes by 30%. I will dismantle the big government that Clinton built."
         }
     }
 ]
@@ -1716,11 +1699,11 @@ campaignTrail_temp.issues_json = [
             "stance_desc_3": 0,
             "stance_4": "Moderate",
             "stance_desc_4": 0,
-            "stance_5": "Liberal",
+            "stance_5": "Dovish",
             "stance_desc_5": 0,
-            "stance_6": "Liberal",
+            "stance_6": "Dovish",
             "stance_desc_6": 0,
-            "stance_7": "Very Liberal",
+            "stance_7": "Very Dovish",
             "stance_desc_7": 0,
             "election": 9
         }
@@ -6017,7 +6000,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 192,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.001
         }
     },
     {
@@ -6197,7 +6180,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 80,
             "state": 212,
-            "state_multiplier": 0.014
+            "state_multiplier": 0.015
         }
     },
     {
@@ -6376,16 +6359,6 @@ campaignTrail_temp.candidate_state_multiplier_json = [
 campaignTrail_temp.answer_score_global_json = [
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 995,
-        "fields": {
-            "answer": 3493,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1016,
         "fields": {
             "answer": 3394,
@@ -6412,56 +6385,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": 0.4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1019,
-        "fields": {
-            "answer": 3396,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1020,
-        "fields": {
-            "answer": 3396,
-            "candidate": 77,
-            "affected_candidate": 80,
-            "global_multiplier": 0.75
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1031,
-        "fields": {
-            "answer": 3407,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1032,
-        "fields": {
-            "answer": 3407,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "global_multiplier": -0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1033,
-        "fields": {
-            "answer": 3408,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.0025
         }
     },
     {
@@ -8092,49 +8015,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 771,
         "fields": {
             "answer": 3493,
-            "issue": 27,
-            "issue_score": -0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 772,
-        "fields": {
-            "answer": 3493,
-            "issue": 28,
-            "issue_score": -0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 773,
-        "fields": {
-            "answer": 3493,
-            "issue": 29,
-            "issue_score": -0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 774,
-        "fields": {
-            "answer": 3493,
             "issue": 30,
-            "issue_score": -0.65,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 775,
-        "fields": {
-            "answer": 3493,
-            "issue": 31,
-            "issue_score": -0.65,
-            "issue_importance": 2
+            "issue_score": -0.6,
+            "issue_importance": 1
         }
     },
     {
@@ -8279,102 +8162,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 824,
-        "fields": {
-            "answer": 3396,
-            "issue": 27,
-            "issue_score": -0.15,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 825,
-        "fields": {
-            "answer": 3396,
-            "issue": 28,
-            "issue_score": 0,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 826,
-        "fields": {
-            "answer": 3396,
-            "issue": 29,
-            "issue_score": 0,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 827,
-        "fields": {
-            "answer": 3396,
-            "issue": 30,
-            "issue_score": -0.15,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 828,
         "fields": {
             "answer": 3396,
             "issue": 31,
             "issue_score": -0.05,
             "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 849,
-        "fields": {
-            "answer": 3405,
-            "issue": 27,
-            "issue_score": -0.625,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 850,
-        "fields": {
-            "answer": 3405,
-            "issue": 28,
-            "issue_score": -0.625,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 851,
-        "fields": {
-            "answer": 3405,
-            "issue": 29,
-            "issue_score": -0.625,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 852,
-        "fields": {
-            "answer": 3405,
-            "issue": 30,
-            "issue_score": -0.625,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 853,
-        "fields": {
-            "answer": 3405,
-            "issue": 31,
-            "issue_score": -0.625,
-            "issue_importance": 2
         }
     },
     {
@@ -8414,76 +8207,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3406,
             "issue": 30,
             "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 858,
-        "fields": {
-            "answer": 3407,
-            "issue": 27,
-            "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 859,
-        "fields": {
-            "answer": 3407,
-            "issue": 28,
-            "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 860,
-        "fields": {
-            "answer": 3407,
-            "issue": 29,
-            "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 861,
-        "fields": {
-            "answer": 3408,
-            "issue": 27,
-            "issue_score": -0.25,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 862,
-        "fields": {
-            "answer": 3408,
-            "issue": 28,
-            "issue_score": -0.25,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 863,
-        "fields": {
-            "answer": 3408,
-            "issue": 29,
-            "issue_score": -0.1,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 864,
-        "fields": {
-            "answer": 3408,
-            "issue": 30,
-            "issue_score": -0.33,
             "issue_importance": 2
         }
     },
@@ -9396,54 +9119,30 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.65,
             "issue_importance": 1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12243,
+        "fields": {
+            "answer": 3494,
+            "issue": 31,
+            "issue_score": 0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12244,
+        "fields": {
+            "answer": 12240,
+            "issue": 27,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
     }
 ]
 
 campaignTrail_temp.answer_score_state_json = [
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8842,
-        "fields": {
-            "answer": 3493,
-            "state": 223,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8843,
-        "fields": {
-            "answer": 3493,
-            "state": 231,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8844,
-        "fields": {
-            "answer": 3494,
-            "state": 223,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8845,
-        "fields": {
-            "answer": 3494,
-            "state": 231,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.01
-        }
-    },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 8930,
@@ -32169,6 +31868,28 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 78,
             "state_multiplier": 0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12247,
+        "fields": {
+            "answer": 3408,
+            "state": 205,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": 0.0225
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12248,
+        "fields": {
+            "answer": 3406,
+            "state": 205,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": 0.0225
+        }
     }
 ]
 
@@ -32634,29 +32355,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 775,
-        "fields": {
-            "answer": 3405,
-            "candidate": 77,
-            "answer_feedback": "It is probably a bad idea to run against the record of Bill Clinton, given his popularity. Better to just ignore him and focus on other issues."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 776,
         "fields": {
             "answer": 3406,
             "candidate": 77,
-            "answer_feedback": "Ignoring Clinton is a good idea, and the rest of this strategy establishes your conservative bona fides. It could be interesting."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 777,
-        "fields": {
-            "answer": 3407,
-            "candidate": 77,
-            "answer_feedback": "It is risky to run an overtly negative campaign after the recent Clinton-Gingrich battles. It might be better to focus on your own plans for government."
+            "answer_feedback": "This galvanizes the Religious Right, and turns off moderates."
         }
     },
     {
@@ -32665,7 +32368,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3408,
             "candidate": 77,
-            "answer_feedback": "This is a good strategy, if the goal is moving past the Clinton years and presenting yourself as an acceptable mainstream leader."
+            "answer_feedback": "This doubles down on the experience angle, but some feel like you could have said more."
         }
     },
     {
@@ -33736,7 +33439,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3494,
             "candidate": 77,
-            "answer_feedback": "You're definitely drawing the battle lines sharply here. The Religious Right love this speech, liberals hate it. "
+            "answer_feedback": "You're definitely drawing the battle lines sharply here. The Religious Right love this speech, but some Independents are uneasy with this sort of rhetoric."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12242,
+        "fields": {
+            "answer": 3493,
+            "candidate": 77,
+            "answer_feedback": "Foreign affairs aren't that big an issue right now, but maybe you can change that?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12249,
+        "fields": {
+            "answer": 12240,
+            "candidate": 77,
+            "answer_feedback": "A fiscally-conservative pitch, though delivered with your usual populist flair, that appeases most Republicans. "
         }
     }
 ]
@@ -33763,6 +33484,25 @@ campaignTrail_temp.jet_data = [{
         "78": "Gore",
         "79": "Nader",
         "80": "Trump"
+    },
+    "endings_enabled": false,
+    "ending_data": {
+        "1717531096405": {
+            "id": 1717531096405,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "Put ending text here, you can and should use <p>HTML tags</p>!"
+        },
+        "1717531097157": {
+            "id": 1717531097157,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "",
+            "endingText": "Put ending text here, you can and should use <p>HTML tags</p>!"
+        }
     }
 }
 ]
