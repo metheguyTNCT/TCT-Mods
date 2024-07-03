@@ -7971,22 +7971,22 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 12250,
-        "fields": {
-            "answer": 3494,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "global_multiplier": 0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 12251,
         "fields": {
             "answer": 12240,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12252,
+        "fields": {
+            "answer": 3493,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.001
         }
     }
 ]
@@ -9000,6 +9000,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 27,
             "issue_score": 0.15,
             "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12253,
+        "fields": {
+            "answer": 3494,
+            "issue": "27",
+            "issue_score": 0,
+            "issue_importance": 0
         }
     }
 ]
@@ -33338,7 +33348,7 @@ campaignTrail_temp.jet_data = [{
         "79": "Nader",
         "80": "Trump"
     },
-    "endings_enabled": false,
+    "endings_enabled": true,
     "ending_data": {
         "1717531096405": {
             "id": 1717531096405,
