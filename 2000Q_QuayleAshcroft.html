@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 393,
         "fields": {
             "priority": 0,
-            "description": "What will be the main theme of your acceptance speech at the Republican National Convention in Philadelphia?\"",
+            "description": "What will be the main theme of your acceptance speech at the Republican National Convention in Philadelphia?",
             "likelihood": 1
         }
     },
@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 366,
         "fields": {
             "priority": 1,
-            "description": "What is your opinion of the numerous scandals Bill Clinton has experienced during his time in office?",
+            "description": "Bill Clinton has experienced numerous scandals during his time in office, from affairs with Gennifer Flowers and Monica Lewinsky to bribing donors with stays in the Lincoln Bedroom. What is your opinion on all this?",
             "likelihood": 1
         }
     },
@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 343,
         "fields": {
             "priority": 2,
-            "description": "Which of the following best describes your position on the $200 billion surplus that is projected for this year?",
+            "description": "The United States has a budget surplus of 230 billion dollars. What should be done with this money?",
             "likelihood": 1
         }
     },
@@ -6351,16 +6351,6 @@ campaignTrail_temp.candidate_state_multiplier_json = [
 campaignTrail_temp.answer_score_global_json = [
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1016,
-        "fields": {
-            "answer": 3394,
-            "candidate": 77,
-            "affected_candidate": 78,
-            "global_multiplier": -0.0025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1041,
         "fields": {
             "answer": 3464,
@@ -7978,6 +7968,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 79,
             "global_multiplier": -0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12250,
+        "fields": {
+            "answer": 3494,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12251,
+        "fields": {
+            "answer": 12240,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.05
+        }
     }
 ]
 
@@ -7999,46 +8009,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3393,
             "issue": 31,
             "issue_score": -0.045,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 815,
-        "fields": {
-            "answer": 3394,
-            "issue": 27,
-            "issue_score": -0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 816,
-        "fields": {
-            "answer": 3394,
-            "issue": 28,
-            "issue_score": -0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 817,
-        "fields": {
-            "answer": 3394,
-            "issue": 29,
-            "issue_score": -0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 818,
-        "fields": {
-            "answer": 3394,
-            "issue": 30,
-            "issue_score": -0.625,
             "issue_importance": 3
         }
     },
@@ -32224,7 +32194,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3394,
             "candidate": 77,
-            "answer_feedback": "This is definitely a bit too extreme a stance for most people."
+            "answer_feedback": "Your base heartily agrees, but this is definitely a bit too extreme a stance for most people."
         }
     },
     {
@@ -32233,7 +32203,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3396,
             "candidate": 77,
-            "answer_feedback": "Americans dislike partisan rancor, but is your speech the answer? What are the details? You also have to worry about alienating conservative supporters."
+            "answer_feedback": "This is a cautious course of action, which isn't a bad thing."
         }
     },
     {
