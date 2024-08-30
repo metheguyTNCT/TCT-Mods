@@ -175,7 +175,7 @@ endingPicker = (out, totv, aa, quickstats) => {
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 265 && out == "tie") { 
         e.header = "<h2>No Loyalty in Politics</h2>"
         e.pages = ["<p> 'They're double crossing us!' John yells as hears the word from his insiders on the Republican Party. Already word's going around of forgoing any negotiations with the Democrats or S.R.P in the House so that they can easily nominate Saltonstall in the Senate for the presidency. Thanks to Wallace's own Running Mate, the greenhorn Estes Kefauver. Even most Democrats are on board with promoting a sensible moderate over the untested New Deal Representative. Even many in your own camp are open to the idea after you've managed to alienate a good number of them with your own controversial decisions during the campaign. Your inability to compromise or make amends with the party coming back to bite you right in keister.</p><p>Things only get worse when you confront Leverett a few days after the election at his home in Massachusetts where he tells you in no uncertain terms, 'I've already discussed the idea with Senate Majority Leader White, and he's told me that they've already secured the votes to appoint me as Vice President.' A few minutes later you're stumbling away in shock, unable to believe perhaps your only opportunity as president has just been ripped away by the very party you loyally fought for.</p>"]
-    e.image = "https://content.time.com/time/magazine/archive/covers/1944/1101440410_400.jpg";
+    e.image = "https://files.catbox.moe/z9sbju.jpg";
         return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 399 && out == "win") { 
