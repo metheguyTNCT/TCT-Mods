@@ -28,8 +28,24 @@ campaignTrail_temp.player_visits = [];
 campaignTrail_temp.answer_feedback_flg = 1;
 campaignTrail_temp.game_start_logging_id = '3668400';
 
+const style_overwrite = document.createElement("style");
+            style_overwrite.innerHTML = 
+            `#campaign_sign {
+            background-color: #18284d;
+            border-color: #45b6fe;
+            }
+            .inner_window_question h3 {
+            background-color: #91b2e3;
+            }
+            .overlay_window h3 {
+            background-color: #91b2e3;
+            }
+            `;
+    document.head.appendChild(style_overwrite);
+
 e = campaignTrail_temp
 campaignTrail_temp.cyoa = true
+
 
 function changeVP(name, url, flag=null) {
     flag = flag ? flag : name
@@ -38,10 +54,12 @@ function changeVP(name, url, flag=null) {
     e.vpFlag = flag;
 }
 
+
 function tunnel(new_q){
     e = campaignTrail_temp;
     return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 }
+
 
 cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -50,7 +68,9 @@ cyoAdventure = function(a) {
     }
 }
 
+
 // constructs endings based on header and pages
+
 
 construct = (a = 1) => {
     e.page = e.page + a < e.pages.length ? e.page + a : 0
@@ -94,22 +114,26 @@ construct = (a = 1) => {
   
 // counts how many controversial answers a player makes & has an extra function to count different aspects of answers
 
+
 controversyCount = (array, call = a => a.fields.controversial) => { 
   array = array.filter(a=>a);
   let answers = e.answers_json.map(f=>f.pk);
   let controversy = 0;
   for (i in array) {
-  	let answer = e.answers_json[answers.indexOf(array[i])];
-  	if (!call(answer)) {
-      	continue;
-  	}
-  	controversy++;
+          let answer = e.answers_json[answers.indexOf(array[i])];
+          if (!call(answer)) {
+              continue;
+          }
+          controversy++;
   }
   return controversy;
 }
 // ENDINGS -- this is slightly more reliable than the ending code method
 
+
 e.multiple_endings = true;
+
+
 
 
 endingPicker = (out, totv, aa, quickstats) => {
@@ -118,93 +142,101 @@ endingPicker = (out, totv, aa, quickstats) => {
   //aa = all final overall results data
   //quickstat = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
 
+
   let controv = controversyCount(e.player_answers);
   let suicide = controversyCount(e.player_answers, a => a.fields.hell_answer);
+
 
   /*
   e.header = "<h2></h2>"
   e.pages = ["<p></p>",
-         	"<p></p>"]
+                 "<p></p>"]
   */
+
 
   // KEFAUVER DIES ENDINGS
 
+
   if ((suicide >= 1 || controv >= 1) && out == "loss") { 
-	e.header = "<h2>The Democrats Are Lost</h2>"
-	e.pages = ["<p>For a moment it seemed as if you could pull through. Barkley's surprise choice to join your ticket after the tragic death of Kefauver seemed like just the thing to reignite your chances at re-election. Instead, even with a unified party (or as much as possible), you've been thoroughly defeated by Taft and the Republicans. Now, Barkley's choice to join you may have just become the very thing that sinks his career. Already, there are calls from the S.R.P to oust the Kentucky Senator from power before any hope of reunification is possible, and although many moderates hate to see it happen, even more are willing to stab the man in the back for political gain.</p><p>Despite your rough battle in the Primary, you find yourself feeling nothing but regret for forcing Barkley in this position. Perhaps some day you may have the opportunity to pay the man back for his loyalty, but right now all you can do is try to work behind the scenes to keep him in power before a segregationist can take control. In the end, you really did have no chance, and you may have just sunk the moderate wing as well.</p>"]
-	return construct(0);
+        e.header = "<h2>The Democrats Are Lost</h2>"
+        e.pages = ["<p>For a moment it seemed as if you could pull through. Barkley's surprise choice to join your ticket after the tragic death of Kefauver seemed like just the thing to reignite your chances at re-election. Instead, even with a unified party (or as much as possible), you've been thoroughly defeated by Taft and the Republicans. Now, Barkley's choice to join you may have just become the very thing that sinks his career. Already, there are calls from the S.R.P to oust the Kentucky Senator from power before any hope of reunification is possible, and although many moderates hate to see it happen, even more are willing to stab the man in the back for political gain.</p><p>Despite your rough battle in the Primary, you find yourself feeling nothing but regret for forcing Barkley in this position. Perhaps some day you may have the opportunity to pay the man back for his loyalty, but right now all you can do is try to work behind the scenes to keep him in power before a segregationist can take control. In the end, you really did have no chance, and you may have just sunk the moderate wing as well.</p>"]
+        return construct(0);
   }
   if ((suicide >= 1 || controv >= 1) && out == "tie") { 
-	e.header = "<h2>A Plain President</h2>"
-	e.pages = ["<p>In a result that will surely leave everyone on all sides reeling, not only have you managed to not be completely embarrassed, but you've even gotten this entire thing thrown to the House. And while normally Thurmond and his traitorous snakes may have been overjoyed, they are most certainly not when it comes to how things seem likely to end up. In this contingent election, should the House be unable to vote on a preferred candidate, as is the case so far, considering the animosity and lack of cooperation on any side, that would leave the role of president between Everett Dirksen and Alben Barkley in a Senate vote.</p><p>Already you can see many in your party ready to usher in the era of Barkley, not to mention a sizable chunk of both Republican and States' Rights Members more than willing to compromise with a likable moderate like good old Alben. Sitting in your office looking at these results, you get a major epiphany. You realize that Barkley must have planned this result all along, and the truth hits you like a ton of bricks. That damn old man played you for a major fool!</p>"]
-    e.image = "https://npg.si.edu/media/B0T00144A.jpg";
-	return construct(0);
+        e.header = "<h2>A Plain President</h2>"
+        e.pages = ["<p>In a result that will surely leave everyone on all sides reeling, not only have you managed to not be completely embarrassed, but you've even gotten this entire thing thrown to the House. And while normally Thurmond and his traitorous snakes may have been overjoyed, they are most certainly not when it comes to how things seem likely to end up. In this contingent election, should the House be unable to vote on a preferred candidate, as is the case so far, considering the animosity and lack of cooperation on any side, that would leave the role of president between Everett Dirksen and Alben Barkley in a Senate vote.</p><p>Already you can see many in your party ready to usher in the era of Barkley, not to mention a sizable chunk of both Republican and States' Rights Members more than willing to compromise with a likable moderate like good old Alben. Sitting in your office looking at these results, you get a major epiphany. You realize that Barkley must have planned this result all along, and the truth hits you like a ton of bricks. That damn old man played you for a major fool!</p>"]
+    e.image = "https://www.senate.gov/artandhistory/history/resources/graphic/xlarge/ky_1947_barkley.jpg";
+        return construct(0);
   }
   if ((suicide >= 1 || controv >= 1) && out == "win") { 
-	e.header = "<h2>A United Party</h2>"
-	e.pages = ["<p>These last few months have served to be one of the wildest rides of your life. Heck, your entire relationship with Senate Minority Leader, and soon Vice President, Alben Barkley, is a perfect representation of that. At the beginning, the two of you were duking it out for the nomination, and then after the death of Estes, suddenly you found yourselves shoulder to shoulder, pulling out a gutsy win over both the S.R.P and Republican Parties. In a way, it almost feels surreal like this couldn't be happening, but it is and despite your previous animosity, the two of you currently sit together watching the news of your victory with a glass of wine in each of your hands.</p><p>As soon as the results are called, the both of you down your shots. 'I almost wish I didn't have to leave the Senate. Would have liked being the Majority Leader again.' Barkley dryly jokes. 'There's still time, Alben.' You quip back, and for the rest of the night the two of you just celebrate this momentous occasion. Although there's still much work to do, at least you can be glad the party is starting to sow itself back together.</p>"]
-	return construct(0);
+        e.header = "<h2>A United Party</h2>"
+        e.pages = ["<p>These last few months have served to be one of the wildest rides of your life. Heck, your entire relationship with Senate Minority Leader, and soon Vice President, Alben Barkley, is a perfect representation of that. At the beginning, the two of you were duking it out for the nomination, and then after the death of Estes, suddenly you found yourselves shoulder to shoulder, pulling out a gutsy win over both the S.R.P and Republican Parties. In a way, it almost feels surreal like this couldn't be happening, but it is and despite your previous animosity, the two of you currently sit together watching the news of your victory with a glass of wine in each of your hands.</p><p>As soon as the results are called, the both of you down your shots. 'I almost wish I didn't have to leave the Senate. Would have liked being the Majority Leader again.' Barkley dryly jokes. 'There's still time, Alben.' You quip back, and for the rest of the night the two of you just celebrate this momentous occasion. Although there's still much work to do, at least you can be glad the party is starting to sow itself back together.</p>"]
+        return construct(0);
   }
+
 
   // NORMAL ENDINGS
 
+
   if (campaignTrail_temp.player_answers[4] == 2104 && quickstats[0] >= 0 && quickstats[0] <264 && campaignTrail_temp.running_mate_last_name == "Kefauver") { 
-	e.header = "<h2>WALLACE DEFEATED; THE WORLD SAVED FROM ANOTHER WORLD WAR!</h2>"
-	e.pages = ["<p>This headline stretches across the front page of <em>The New Republic</em>. Even a paper that had once supported you every step of the way is now relieved that you would not regain the Presidency. Your gambit to go to war against the People’s Republic of Italy only backfired, as those last few months were spent trying to avert a nuclear holocaust between the US and the Soviets. Even the Peace Accords failed to do much once Stalin learned of your correspondence with MacArthur to invade the nation. Your political career is not only over, but Congress is also pledging to have you prosecuted for war crimes. You just may become the first President in history behind bars before your term is even over!</p><p>Everyone has abandoned you, from Hubert to Estes, who had once supported you every step of the way, and even Ilo has called you a mad man for this insanity. You tried to tell them you didn’t mean it, that someone had taken control of you to do these horrible things, but they don’t listen. They don’t know the truth, that in the end none of this is real and you’re just a puppet to be pulled along his strings. In the end you were just a creation made by an ambitious coder who decided it would be humorous to ruin your life and reputation.</p>"]
-	return construct(0);
+        e.header = "<h2>WALLACE DEFEATED; THE WORLD SAVED FROM ANOTHER WORLD WAR!</h2>"
+        e.pages = ["<p>This headline stretches across the front page of <em>The New Republic</em>. Even a paper that had once supported you every step of the way is now relieved that you would not regain the Presidency. Your gambit to go to war against the People’s Republic of Italy only backfired, as those last few months were spent trying to avert a nuclear holocaust between the US and the Soviets. Even the Peace Accords failed to do much once Stalin learned of your correspondence with MacArthur to invade the nation. Your political career is not only over, but Congress is also pledging to have you prosecuted for war crimes. You just may become the first President in history behind bars before your term is even over!</p><p>Everyone has abandoned you, from Hubert to Estes, who had once supported you every step of the way, and even Ilo has called you a mad man for this insanity. You tried to tell them you didn’t mean it, that someone had taken control of you to do these horrible things, but they don’t listen. They don’t know the truth, that in the end none of this is real and you’re just a puppet to be pulled along his strings. In the end you were just a creation made by an ambitious coder who decided it would be humorous to ruin your life and reputation. Also to create a very shitty racist mod.</p>"]
+        return construct(0);
   }
   if (campaignTrail_temp.player_answers[4] == 2104 && quickstats[0] >= 265 && quickstats[0] <531 && campaignTrail_temp.running_mate_last_name == "Kefauver") { 
-	e.header = "<h2>A Post Nuclear Role-Playing Game</h2>"
-	e.pages = ["<p><p>The year is 2102. After what many describe as World War 3 in 1949 where the United States invaded the People’s Republic of Italy, the world fell into a nuclear holocaust. Every man, woman, and child found themselves on the brink of destruction after the bombs dropped and radiation spread from continent to continent, killing nearly everyone in its path.</p><p> You are perhaps one of the sole survivors in the State of New Jersey, wandering the lands in search of food, fresh water, and friendly faces in a hostile world full of Supermutants, Rad Roaches, and the occasional Deathclaw.</p><p> You are Stanley Harriman Wallace, the descendant of the man who had caused this disaster, and perhaps the only one who can save what’s left of humanity. Together alongside your best friend and lover, Sadie Truman, you must embark on a quest to stop the rogue Enclave and take back America for the common man! Go forth Wallace, and reclaim the rights of every man for every Wastelander!</p>"]
+        e.header = "<h2>A Post Nuclear Role-Playing Game</h2>"
+        e.pages = ["<p><p>The year is 2102. After what many describe as World War 3 in 1949 where the United States invaded the People’s Republic of Italy, the world fell into a nuclear holocaust. Every man, woman, and child found themselves on the brink of destruction after the bombs dropped and radiation spread from continent to continent, killing nearly everyone in its path.</p><p> You are perhaps one of the sole survivors in the State of New Jersey, wandering the lands in search of food, fresh water, and friendly faces in a hostile world full of Supermutants, Rad Roaches, and the occasional Deathclaw.</p><p> You are Stanley Harriman Wallace, the descendant of the man who had caused this disaster, and perhaps the only one who can save what’s left of humanity. Together alongside your best friend and lover, Sadie Truman, you must embark on a quest to stop the rogue Enclave and take back America for the common man! Go forth Wallace, and reclaim the rights of every man for every Wastelander!</p>"]
   e.image = "https://i.imgur.com/CnxV2qj.png";
-	return construct(0);
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] < 81) { 
-	e.header = "<h2>DEMOCRATS CRUMBLE; THURMOND DECLARES NEW PARTY SYSTEM!</h2>"
-	e.pages = ["This headline is enough to make you tear the newspaper into shreds before even reading where it came from. You run your fingers across your hairline, wracked with sorrow. After years of fighting tooth and nail to keep the Democrats alive after being split in half, it's all gone up in smoke. Your attempts at focusing on the Union Vote left you wide open to a thrashing, as you couldn't even manage to beat a new third party less than 3 years old in the electoral count. Already, most Moderates and even some Liberals who supported your cause have fled to the SRP, until very little if anyone remains of what was just four years ago the dominant force in American politics.</p><p>Your political career is as dead as FDR, along with anyone in your cabinet. Your disastrous term in office leaves a stink of failure that no one close to you can possibly wash away. Your NRA and USHS Bills are dead in the water, and all you can do is retire back to Iowa with a plethora of regrets."]
-	return construct(0);
+        e.header = "<h2>DEMOCRATS CRUMBLE; THURMOND DECLARES NEW PARTY SYSTEM!</h2>"
+        e.pages = ["This headline is enough to make you tear the newspaper into shreds before even reading where it came from. You run your fingers across your hairline, wracked with sorrow. After years of fighting tooth and nail to keep the Democrats alive after being split in half, it's all gone up in smoke. Your attempts at focusing on the Union Vote left you wide open to a thrashing, as you couldn't even manage to beat a new third party less than 3 years old in the electoral count. Already, most Moderates and even some Liberals who supported your cause have fled to the SRP, until very little if anyone remains of what was just four years ago the dominant force in American politics.</p><p>Your political career is as dead as FDR, along with anyone in your cabinet. Your disastrous term in office leaves a stink of failure that no one close to you can possibly wash away. Your NRA and USHS Bills are dead in the water, and all you can do is retire back to Iowa with a plethora of regrets."]
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 151 && out == "loss") { 
-	e.header = "<h2>TAFT WINS DECISIVELY; DEMOCRATS LEFT SPLIT!</h2>"
-	e.pages = ["<p>This headline adorns the front page of the<em>Chicago Daily Tribune</em>. The expected outcome, but it continues to sting. You put up a good fight and in some respects did better than many believed was possible, but even so you've been thoroughly trounced. Your time in office will soon come to an end, with only your loving wife Ilo being there to provide a measure of comfort in this dark time.</p><p>As for the Democratic Party itself, it at least remains alive, despite the bleeding of its members, and perhaps there's hope that in some shape or form it can remain. Unfortunately, you can expect your attempts at Civil Rights to be put back on the shelf as insiders look to reunify the fractured wings. Even worse, there's a likely chance that will lead a Southern Segregationist to head the ticket four years from now forever undoing the work you had made to try and bring a new level of equality for this Nation. Still, perhaps you can take on other political duties such as editing Newspapers or forming a new Progressive Party if the opportunity comes.</p>"]
-	return construct(0);
+        e.header = "<h2>TAFT WINS DECISIVELY; DEMOCRATS LEFT SPLIT!</h2>"
+        e.pages = ["<p>This headline adorns the front page of the<em>Chicago Daily Tribune</em>. The expected outcome, but it continues to sting. You put up a good fight and in some respects did better than many believed was possible, but even so you've been thoroughly trounced. Your time in office will soon come to an end, with only your loving wife Ilo being there to provide a measure of comfort in this dark time.</p><p>As for the Democratic Party itself, it at least remains alive, despite the bleeding of its members, and perhaps there's hope that in some shape or form it can remain. Unfortunately, you can expect your attempts at Civil Rights to be put back on the shelf as insiders look to reunify the fractured wings. Even worse, there's a likely chance that will lead a Southern Segregationist to head the ticket four years from now forever undoing the work you had made to try and bring a new level of equality for this Nation. Still, perhaps you can take on other political duties such as editing Newspapers or forming a new Progressive Party if the opportunity comes.</p>"]
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 185 && out == "loss") { 
-	e.header = "<h2>TAFT EDGES VICTORY; WALLACE PASSIONATELY CONCEDES!</h2>"
-	e.pages = ["<p>This message lines the top of<em> The New Republic</em>, but you’re too preoccupied to even read your favorite paper. After a few days of uncertainty, you have definitely lost the Presidency, but there remains a silver lining to this loss. Many thought you were dead in the water due to the splitting off of the SRP and Taft’s massive advantage in the polls, but you managed to stage somewhat of a comeback and come out with a decent showing at the end of the day. What was supposed to be a restrained concession speech has morphed into an energetic post-election campaign rally. Your efforts to re-energize your supporters at this loss has worked, keeping Liberals spirited even in defeat.</p><p>After a chaotic Presidential bid ending in a closer race than anyone had expected, your political career might still have some life in it. Your time as a candidate is definitely over, but you can perhaps play a significant role in influencing which figure is nominated as your successor in four years. With the establishment looking towards Truman, you’ll need to either get behind him or find a worthy substitute closer to your own ideals. Perhaps Claude Pepper, should things go well, could fill that role, or even the rising blue-chipper Joe Young, who offers you a handshake. Southerners and Party Bosses may attempt to regain control of your Party, but the Lord knows that you’ll be there to battle them every step in the way, as this new age of Liberalism refuses to give up their influence without a fight.</p>"]
-	return construct(0);
+        e.header = "<h2>TAFT EDGES VICTORY; WALLACE PASSIONATELY CONCEDES!</h2>"
+        e.pages = ["<p>This message lines the top of<em> The New Republic</em>, but you’re too preoccupied to even read your favorite paper. After a few days of uncertainty, you have definitely lost the Presidency, but there remains a silver lining to this loss. Many thought you were dead in the water due to the splitting off of the SRP and Taft’s massive advantage in the polls, but you managed to stage somewhat of a comeback and come out with a decent showing at the end of the day. What was supposed to be a restrained concession speech has morphed into an energetic post-election campaign rally. Your efforts to re-energize your supporters at this loss has worked, keeping Liberals spirited even in defeat.</p><p>After a chaotic Presidential bid ending in a closer race than anyone had expected, your political career might still have some life in it. Your time as a candidate is definitely over, but you can perhaps play a significant role in influencing which figure is nominated as your successor in four years. With the establishment looking towards Truman, you’ll need to either get behind him or find a worthy substitute closer to your own ideals. Perhaps Claude Pepper, should things go well, could fill that role, or even the rising blue-chipper Joe Young, who offers you a handshake. Southerners and Party Bosses may attempt to regain control of your Party, but the Lord knows that you’ll be there to battle them every step in the way, as this new age of Liberalism refuses to give up their influence without a fight.</p>"]
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 231 && out == "tie") { 
-	e.header = "<h2>Taft Compromises To Victory!</h2>"
-	e.pages = ["<p>The entire country has just descended into chaos as a result of this unforeseen deadlock. Yes, it was a possibility but no one really took it seriously! A number of slight victories in a handful of big states delivered this outcome, and even you are startled it came to pass. Nonetheless, this is undeniably the worst thing to happen to you depending on the circumstances. Taft, who carries the lead, remains somewhat open about the idea of talking to Thurmond, who’s right now the most powerful man in the country. He may not care for his Segregationist stance, but as someone who believes your NRA should be completely voluntary, which has led to further stalling on the bill, he may just swallow his principles to finally capture his highest ambition.</p><p>But even if he doesn’t, many Democratic moderates are open to voting for him, after you shunned them with your choice of Running Mate. There are even a few whispers that someone like your primary opponent, Alben Barkley, could be chosen as Taft’s Vice President as a compromise for conservative/moderates to secure their votes! All you can hope is that maybe Mr. Republican is too stubborn to take such a deal, or otherwise you may just find yourself out of a job.</p>"]
-	return construct(0);
+        e.header = "<h2>Taft Compromises To Victory!</h2>"
+        e.pages = ["<p>The entire country has just descended into chaos as a result of this unforeseen deadlock. Yes, it was a possibility but no one really took it seriously! A number of slight victories in a handful of big states delivered this outcome, and even you are startled it came to pass. Nonetheless, this is undeniably the worst thing to happen to you depending on the circumstances. Taft, who carries the lead, remains somewhat open about the idea of talking to Thurmond, who’s right now the most powerful man in the country. He may not care for his Segregationist stance, but as someone who believes your NRA should be completely voluntary, which has led to further stalling on the bill, he may just swallow his principles to finally capture his highest ambition.</p><p>But even if he doesn’t, many Democratic moderates are open to voting for him, after you shunned them with your choice of Running Mate. There are even a few whispers that someone like your primary opponent, Alben Barkley, could be chosen as Taft’s Vice President as a compromise for conservative/moderates to secure their votes! All you can hope is that maybe Mr. Republican is too stubborn to take such a deal, or otherwise you may just find yourself out of a job.</p>"]
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 264 && out == "tie") { 
-	e.header = "<h2>Electoral Chaos!</h2>"
-	e.pages = ["<p>‘Oh good Lord!’ you hear Senate Minority Leader Alben Barkley say as everything comes crashing down. A deadlock of this magnitude could spell the complete collapse of America’s political system! The chances of you, Taft, or Thurmond being elected to the House is sketchy at best, with you at the lead, but that’s not what’s causing the panic. No, it's the Senate who must decide between Dirksen and Kefauver that has completely broken down at this result. Eastern Establishment Republicans refuse to vote for a man that had spent the past few months bad-mouthing them! Establishment Democrats refuse to support Kefauver, who’s seen as far too much of a maverick to get behind! And that’s not even factoring in the complete revolt of the few SRP Members led by Tom Connally, who’ve all just gone home!</p><p> At this rate the entire electoral system that’s held this country together for over a century may finally break down from a lack of upkeep! Already, the entirety of Congress are running around in a panic, like chickens with their heads lopped off. No one knows what to do as the government itself burns down around them! To think it wasn’t the Civil War, or the Great Depression, but a simple election, of all things, that has led to the biggest crisis since the very founding of the United States. Good job, Wallace. You’ve just doomed this country.</p>"]
-	return construct(0);
+        e.header = "<h2>Electoral Chaos!</h2>"
+        e.pages = ["<p>‘Oh good Lord!’ you hear Senate Minority Leader Alben Barkley say as everything comes crashing down. A deadlock of this magnitude could spell the complete collapse of America’s political system! The chances of you, Taft, or Thurmond being elected to the House is sketchy at best, with you at the lead, but that’s not what’s causing the panic. No, it's the Senate who must decide between Dirksen and Kefauver that has completely broken down at this result. Eastern Establishment Republicans refuse to vote for a man that had spent the past few months bad-mouthing them! Establishment Democrats refuse to support Kefauver, who’s seen as far too much of a maverick to get behind! And that’s not even factoring in the complete revolt of the few SRP Members led by Tom Connally, who’ve all just gone home!</p><p> At this rate the entire electoral system that’s held this country together for over a century may finally break down from a lack of upkeep! Already, the entirety of Congress are running around in a panic, like chickens with their heads lopped off. No one knows what to do as the government itself burns down around them! To think it wasn’t the Civil War, or the Great Depression, but a simple election, of all things, that has led to the biggest crisis since the very founding of the United States. Good job, Wallace. You’ve just doomed this country.</p>"]
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] == 265 && out == "win") { 
-	e.header = "<h2>THE CORN LORD RISES!</h2>"
-	e.pages = ["<p>A little inside joke from your old pals comes to dominate the narrative, as everyone hears the sheer insanity of these results. No one, not a single person, not even yourself, could imagine these results. Although the election looked ready to deadlock with you just barely below the threshold, the sudden news of a mysterious Faithless Elector from Ohio has left the entire country in an uproar, as you’ve been pushed to a solid victory. Immediately, both Thurmond and Taft decry this development, but with neither a federal nor state law prohibiting this rogue elector, the chances of this being reversed are slim, thanks to the new Congressional Plurality in the Democrats’ favor, soon to be sworn in.</p><p>Against all odds and common sense, you’ve won thanks to a combination of luck, Republican division, Thurmond’s efforts backfiring to hurt Taft, and the people thoroughly behind your corner! Your second term will likely be an even more chaotic affair than the first, but if this result is anything to go by, you have the chance to pull off the unlikely. Still, not everything’s sunshine and rainbows. You and Kefauver will need to work extra hard to get Democrats on board for much of your agenda, as the Party comes to grips with this unexpected development. You may have stuck by your principles, but now that may just come to bite you in the backside when it comes to getting things passed. Yet, you’ve already done the impossible, so maybe another miracle or two can be pulled off. Rest easy for now Henry, you've earned it.</p>"];
-	return construct(0);
+        e.header = "<h2>THE CORN LORD RISES!</h2>"
+        e.pages = ["<p>A little inside joke from your old pals comes to dominate the narrative, as everyone hears the sheer insanity of these results. No one, not a single person, not even yourself, could imagine these results. Although the election looked ready to deadlock with you just barely below the threshold, the sudden news of a mysterious Faithless Elector from Ohio has left the entire country in an uproar, as you’ve been pushed to a solid victory. Immediately, both Thurmond and Taft decry this development, but with neither a federal nor state law prohibiting this rogue elector, the chances of this being reversed are slim, thanks to the new Congressional Plurality in the Democrats’ favor, soon to be sworn in.</p><p>Against all odds and common sense, you’ve won thanks to a combination of luck, Republican division, Thurmond’s efforts backfiring to hurt Taft, and the people thoroughly behind your corner! Your second term will likely be an even more chaotic affair than the first, but if this result is anything to go by, you have the chance to pull off the unlikely. Still, not everything’s sunshine and rainbows. You and Kefauver will need to work extra hard to get Democrats on board for much of your agenda, as the Party comes to grips with this unexpected development. You may have stuck by your principles, but now that may just come to bite you in the backside when it comes to getting things passed. Yet, you’ve already done the impossible, so maybe another miracle or two can be pulled off. Rest easy for now Henry, you've earned it.</p>"];
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 330 && out == "win") { 
-	e.header = "<h2>TAFT TROUNCES WALLACE!</h2>"
-	e.pages = ["<p>The headline adorning the <em>Chicago Daily Tribune</em> is enough to send you into a fit of laughter as you raise it into the air above you during a photoshoot. To say this paper has egg on its face would be an understatement, and you may have very well killed its reputation forever. You, Henry Agard Wallace, have just secured your second term for President, vanquishing both Robert Taft and Strom Thurmond in shocking fashion. Yesterday evening, Liberalism seemed on its way out the door for a new era of Conservatism, yet you’ve just shut that possibility down and secured another four years for the New Deal coalition, who’ve managed to cobble themselves back together. No one knows how this was possible, but everyone begins to celebrate as soon as the news rolls in. Hubert Humphrey breaks out into a jig, while George Marshall pops the cork off a bottle of champagne that soaks into the trash article you nearly busted a gut at reading.</p><p>As for the S.R.P, they’re currently pointing fingers at each other and find their continued existence is at great risk, now that their entire goal has just ended in failure. Who knows, maybe they’ll even come crawling back into the arms of the Democrats. Wouldn’t that just make for a beautiful sight? While the future remains uncertain on your future legislation, right now all you have to do is celebrate alongside the one person who never lost faith in you. ‘I knew you had it in you honey,’ Ilo Wallace tells you with a peck on the cheek and a tear in her eye.</p>"];
-	return construct(0);
+        e.header = "<h2>TAFT TROUNCES WALLACE!</h2>"
+        e.pages = ["<p>The headline adorning the <em>Chicago Daily Tribune</em> is enough to send you into a fit of laughter as you raise it into the air above you during a photoshoot. To say this paper has egg on its face would be an understatement, and you may have very well killed its reputation forever. You, Henry Agard Wallace, have just secured your second term for President, vanquishing both Robert Taft and Strom Thurmond in shocking fashion. Yesterday evening, Liberalism seemed on its way out the door for a new era of Conservatism, yet you’ve just shut that possibility down and secured another four years for the New Deal coalition, who’ve managed to cobble themselves back together. No one knows how this was possible, but everyone begins to celebrate as soon as the news rolls in. Hubert Humphrey breaks out into a jig, while George Marshall pops the cork off a bottle of champagne that soaks into the trash article you nearly busted a gut at reading.</p><p>As for the S.R.P, they’re currently pointing fingers at each other and find their continued existence is at great risk, now that their entire goal has just ended in failure. Who knows, maybe they’ll even come crawling back into the arms of the Democrats. Wouldn’t that just make for a beautiful sight? While the future remains uncertain on your future legislation, right now all you have to do is celebrate alongside the one person who never lost faith in you. ‘I knew you had it in you honey,’ Ilo Wallace tells you with a peck on the cheek and a tear in her eye.</p>"];
+    e.image = "https://files.catbox.moe/onc43u.jpg";
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 530 && out == "win") { 
-	e.header = "<h2>Not Him!</h2>"
-	e.pages = ["<p>It wasn’t supposed to end like this! One moment you’re walking through a crowd of supporters, and the next you’re bleeding out on the sidewalk after a bullet from a random KKK member pierces your lungs. As the light leaves your eyes, you think upon what will happen if you’re gone. The inexperienced Representative from Tennessee, set to replace you with each dying breath from your body. No, he wasn’t ready! You try your best to hold on as an ambulance rushes to take you to the hospital, but minutes later with one last gasp, you can no longer remain in this world.</p><p>One day later, the man almost no one thought was adequate to take the job places his hand on a Bible held by Justice La Follette and takes his oath of office. In a matter of months, Casey Estes Kefauver has had a rise in politics from a nobody to President, not felt since the days of a previous Tennessee President, James K. Polk. Even the man himself looks as if he does not want to be there, and who can blame him? Somehow, this greenhorn was expected to handle the Presidency?! Buckle up America, because these next four years might as well be a nuclear bomb right at the country.</p>"];
-    e.image = "https://content.time.com/time/magazine/archive/covers/1956/1101560917_400.jpg";
-	return construct(0);
+        e.header = "<h2>Not Him!</h2>"
+        e.pages = ["<p>It wasn’t supposed to end like this! One moment you’re walking through a crowd of supporters, and the next you’re bleeding out on the sidewalk after a bullet from a random KKK member pierces your lungs. As the light leaves your eyes, you think upon what will happen if you’re gone. The inexperienced Representative from Tennessee, set to replace you with each dying breath from your body. No, he wasn’t ready! You try your best to hold on as an ambulance rushes to take you to the hospital, but minutes later with one last gasp, you can no longer remain in this world.</p><p>One day later, the man almost no one thought was adequate to take the job places his hand on a Bible held by Justice La Follette and takes his oath of office. In a matter of months, Casey Estes Kefauver has had a rise in politics from a nobody to President, not felt since the days of a previous Tennessee President, James K. Polk. Even the man himself looks as if he does not want to be there, and who can blame him? Somehow, this greenhorn was expected to handle the Presidency?! Buckle up America, because these next four years might as well be a nuclear bomb right at the country.</p>"];
+    e.image = "https://content.time.com/time/magazine/archive/covers/1952/1101520324_400.jpg";
+        return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] >= 531) { 
-	e.header = "<h2>The Original Wallave!</h2>"
-	e.pages = ["<p>No one had seen this coming! In a shocking turn of events you’ve managed to capture every single state in the country!</p><p>Robert Taft suffers a pulmonary embolism at seeing his Party collapse into dust, as the Republicans lose every seat in Congress! Strom Thurmond is burned at the stake for his racist views and blacks revolt throughout the country to bring a new era of Negro Rights! There are no more political parties left after this result beyond the newly formed Progressive Democratic Party, led by you! Any naysayers are instantly booted out. After all, who the hell needs Moderates in the Age of Wallace!</p><p>The same Bullmoose you’d been apart of since 1912 is now back in action as the only force in American Politics!</p><p>With the people firmly behind you, the skies the limit! You could run for 3rd, 4th, 5th, maybe even a 6th term should you so choose. Congratulations Henry, you’ve made sure the name Wallace will go down in history as a Progressive forward thinking one for the rest of time!</p>"];
-    e.image = "https://i.imgur.com/jXLZYZm.png";
-	return construct(0);
+        e.header = "<h2>The Original Wallave!</h2>"
+        e.pages = ["<p>No one had seen this coming! In a shocking turn of events you’ve managed to capture every single state in the country!</p><p>Robert Taft suffers a pulmonary embolism at seeing his Party collapse into dust, as the Republicans lose every seat in Congress! Strom Thurmond is burned at the stake for his racist views and blacks revolt throughout the country to bring a new era of Negro Rights! There are no more political parties left after this result beyond the newly formed Progressive Democratic Party, led by you! Any naysayers are instantly booted out. After all, who the hell needs Moderates in the Age of Wallace!</p><p>The same Bullmoose you’d been apart of since 1912 is now back in action as the only force in American Politics!</p><p>With the people firmly behind you, the skies the limit! You could run for 3rd, 4th, 5th, maybe even a 6th term should you so choose. Congratulations Henry, you’ve made sure the name Wallace will go down in history as a Progressive forward thinking one for the rest of time!</p>"];
+    e.image = "https://content.time.com/time/magazine/archive/covers/1946/1101460930_400.jpg";
+        return construct(0);
   }
+
 
 }
