@@ -1,1 +1,525 @@
 
+RecReading=true
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>The 2000 election is the battle of the Vice Presidents. Al Gore, as sitting Vice President, tries to rally the Clinton Republicans, moderates, and liberals to vote to keep the White House blue, while former Vice President Dan Quayle attempts to chart a new direction for the U.S. The economy has been booming, until quite recently, but President Clinton was only recently dragged through an embarrassing scandal.<br><br>Candidates will debate what to do with a $200 billion budget surplus, Quayle's competence, Bill Clinton's infidelity, and Gore's heavily pro-environmental views, among other things. Can Gore maintain the large but fragile lead he starts with? Can Quayle make his case to the American people that he's ready for the step up to POTUS?</p>",
+            "image_url": "https://i.imgur.com/vJ6mpgF.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/6CRXAqw.png",
+            "recommended_reading": "<img src=\\\"<div style='overflow-y:scroll;height:370px;'><h2 style='margin-top: 0.5em;'>Sources</h2><p><p>Dan Quayle - <a href='https://www.amazon.com/Standing-Firm-Dan-Quayle/dp/0060177586' target=\\\"_blank\\\">Standing Firm: A Vice-Presidential Memoir</a></p><p>Democracy in Action 2000 - <a href='https://p2000.us/quay.html' target=\\\"_blank\\\">   Campaign speeches and Basic profile </a></p><p>The New York Times - <a href='https://archive.nytimes.com/www.nytimes.com/library/politics/camp/whouse/gop-quayle.html' target=\\\"_blank\\\"> Another profile, and news articles</a></p><p><br>Contemporary news articles, too many to list here, also helped. <br><h4>Extended Credits and Special Thanks</h4><p>[INSERT NAME HERE] playtested the mod.<br>Thanks to Jet for his Code 1 and 2 tools. As much as I hate Tom,<a href='https://www.reddit.com/r/thecampaigntrail/comments/14ri996/toms_guide_to_tct_modding_using_jets/' target=\\\"_blank\\\">his guide</a> was a great help in making this. </p></div>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://i.imgur.com/tOUF4dZ.jpg",
+            "creator": "metheguy and u/ARC-7652. Ending codes made by Decstar.",
+            "display_year": "2000Quayle"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Dan",
+            "last_name": "Quayle",
+            "election": 9,
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 1,
+            "description": "<p>Dan Quayle is  the former Vice President  of the united States. After a strong showing in Iowa, (triumphing over his former boss's son, among others), Quayle ran away with the nomination. <br><br> The Quayle campaign is equal parts populist tirades against 'liberal Republicans' and stressing his experience as Vice President (especially in foreign policy). With Pat Buchanan declining a run with the Reform Party to endorse him, the Republican party faithful are fired up and united behind Quayle. However, the thing most Americans know Quayle for is his numerous and embarrassing gaffes in office, from his misspelling of 'potato' to his feud with Murphy Brown. But if Quayle can get past all that, the prospect of a Quayle presidency- long derided by comedians - might not be so far-fetched.</p>",
+            "color_hex": "#df001e",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/WqMeGlP.png",
+            "electoral_victory_message": "<h3>You have won the 2000 election!</h3><p>Well, this comes as a surprise. Despite the gaffes, Clinton's popularity, and the vote-splitting with Trump, you've triumphed.</p><p>Hopefully you succeed in your goals of restoring integrity to Washington and protecting family values. If you do, 2004 will most likely be a cakewalk for you.</p>",
+            "electoral_loss_message": "<h3>You have lost the  election.</h3><p>This is what most pundits expected, but that doesn't make it hurt any less.</p><p>Gore will probably continue the liberalism of the Clinton administration. McCain is probably the frontrunner for 2004 now, but as for you, there's nothing left but a quiet retirement in Arizona/Indiana.</p>",
+            "no_electoral_majority_message": "<h3>The election is deadlocked!</h3><p>Somehow, Nader, Trump, or both got enough electoral votes to prevent either you or Gore from getting 270. Fortunately the House is Republican-dominated, so you'll probably be elected President anyway.</p><p>Congratulations, President-Elect Quayle!</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Gore",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Tennessee",
+            "priority": 2,
+            "description": "<b>[NOT PLAYABLE]</b><br>Al Gore  enters the 2000 election as the current Vice President of the United States, after previously serving as Senator from Tennessee for several years, becoming known for his strong stances on environmental issues. Gore’s father was also in Congress for many years, and he has himself been a well-respected VP, contrasting the record of Quayle.<br>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision, as this means that Gore is essentially campaigning on two fronts. Due to Quayle's poor history in the public eye, Gore starts out with a solid lead, but he has to be careful in order to not let it slip. Will Gore succeed and continue the Third-Way policies of Clinton, or will he fail to rise to the occasion?",
+            "color_hex": "#001286",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/tbNkiUJ.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader",
+            "election": 9,
+            "party": "Green",
+            "state": "Connecticut",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#007b55",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/Ba6QzdJ.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "election": 9,
+            "party": "Reform",
+            "state": "New York",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#004f81",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/JxRBuKL.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "John ",
+            "last_name": "Ashcroft",
+            "election": 9,
+            "party": "Republican",
+            "state": "Missouri",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/M0z3g7m.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Ashcroft is the incumbent Senator of Missouri and former Governor. He has decided not to run for reelection this year to be on your ticket. Ashcroft is a hardline conservative, especially on social issues (being dubbed \"Christian Statesman of the Year\" by a prominent Evangelical minister in 1996).</p>Ashcroft provides little ideological or regional balance, being a Midwestern conservative like yourself, but if you want to double down on your main appeal, there are few better choices.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Connie",
+            "last_name": "Mack III",
+            "election": 9,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/CSVSruJ.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Connie Mack III is a Senator from Florida and the grandson of baseball legend Connie Mack. He has decided not to run for reelection this year. Dole almost picked him for the number two spot in 1996. Mack's pet issue in the Senate has been cancer research.</p>Mack is somewhat pro-environmental regulation, but is otherwise a typical small-government conservative. Mack is seen as a rising star in the party, and is an acceptable moderate almost everyone can get behind. In addition, Mack's home state of Florida is a key swing state in this election.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Ridge",
+            "election": 9,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/BZ53IBF.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Tom Ridge is the  Governor of Pennsylvania and a former state senator. Ridge's tenure as governor was marked by  fiscal conservativism and increased investment in computer technologies. Ridge would be a welcome choice to the party establishment. In addition, Pennsylvania is a large electoral prize.</p>However, Ridge's moderate-to-liberal stances, especially on abortion, would be anathema to your mostly-evangelical base. Be careful not to look like a flip-flopper.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "Frank",
+            "last_name": "Keating",
+            "election": 9,
+            "party": "Republican",
+            "state": "Oklahoma",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/DlFoGa9.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Frank Keating is the Governor of Oklahoma, gaining fame for his steady response to the Oklahoma City bombing in 1995. Keating is most focused on fiscal conservatism, especially welfare reform. However, Keating has also supported certain tax increases and regulations, which may raise a few eyebrows.</p>Keating would be a fairly solid, if somewhat unexciting, choice.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Lieberman",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Connecticut",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/gp2x7kL.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Graham",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Florida",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/JjeKyth.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Bob Graham is a Senator and former Governor from Florida. His popularity in that state could be crucial to a Democratic victory in 2000. He is fairly moderate and was one of Bill Clinton's top choices for running mate before Clinton went with Gore. His focus has been on the environment, education, and intelligence issues.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Kerry",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Massachusetts",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/xQf7Xx8.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Kerry is a Senator from Massachusetts. He gained prominence in his youth as a Vietnam Veteran Against the War. He also won a Silver Star and three Purple Hearts in that war. He is a solid liberal on the political spectrum. His home state is strongly Democratic, but his views may help the Democrats reduce the loss of support to Ralph Nader. He can also be helpful in New Hampshire.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 88,
+        "fields": {
+            "first_name": "Evan",
+            "last_name": "Bayh",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Indiana",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/IHwX41a.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Evan Bayh is a Senator from Indiana and a former Governor. He is broadly popular in that state and is a leader of the moderate wing of the Democrats. This could help the Democrats compete in the Midwest and South, but it could also alienate the left-wing of the party and drive additional support to Ralph Nader's bid.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Winona",
+            "last_name": "LaDuke",
+            "election": 9,
+            "party": "Green",
+            "state": "Minnesota",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Oprah",
+            "last_name": "Winfrey",
+            "election": 9,
+            "party": "Reform",
+            "state": "Mississippi",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 53,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 86
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 54,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 87
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 55,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 88
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 50,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 51,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 84
+        }
+    }
+]
+
+campaignTrail_temp.credits = "metheguy and ARC-7652"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 15,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2000Quayle"
+    }
+]
+
+jet_data = {
+    "headerColor": "#f00024",
+    "windowColor": "#72d2f8",
+    "containerColor": "#00265f",
+    "innerWindowColor": "#72d2f8",
+    "bannerImageUrl": "https://i.imgur.com/eiQQyUs.jpeg",
+    "backgroundImageUrl": "https://i.imgur.com/qd4dHNP.png",
+    "endingTextColor": "#000000",
+    "customQuote": "\"For the Summer Mod Jam",
+    "gameTitle": "Dan Quayle 2000"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Dan Quayle 2000</h2><font id="wittyquote" size="4" color="white"><em>"For the Summer Mod Jam</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#f00024";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#72d2f8";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#00265f";
+
+document.getElementById("header").src = "https://i.imgur.com/eiQQyUs.jpeg";
+
+document.body.background = "https://i.imgur.com/qd4dHNP.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#72d2f8!important;}</style>";
+
+//#endcode
