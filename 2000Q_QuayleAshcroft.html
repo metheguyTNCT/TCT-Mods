@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 347,
         "fields": {
             "priority": 2,
-            "description": "There are many routes of attack against Al Gore. Which would you like to employ",
+            "description": "There are many routes of attack against Al Gore. Which would you like to employ?",
             "likelihood": 1
         }
     },
@@ -85,7 +85,7 @@ campaignTrail_temp.questions_json = [
         "pk": 351,
         "fields": {
             "priority": 2,
-            "description": "I need to get to 15 questions time for another rng question vp debate",
+            "description": "The vice-presidential debate has arrived. Ashcroft will face Joe Lieberman, let's hope it goes well.",
             "likelihood": 1
         }
     },
@@ -112,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 353,
         "fields": {
             "priority": 3,
-            "description": "The environment is concerning to a lot of Americans,  with Al Gore in particular being quite the environmental activist (not to mention Ralph Nader's Green Party). What do you have to say about it?",
+            "description": "The environment is concerning to a lot of Americans, with Al Gore in particular being quite the environmental activist (not to mention Ralph Nader's Green Party). What do you have to say about it?",
             "likelihood": 1
         }
     },
@@ -286,7 +286,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3332,
         "fields": {
             "question": 348,
-            "description": "We'll have our guys attack him at every opportunity. "
+            "description": "Sure, he might not be too important, but it never hurts to bring down an opponent. We'll have our guys attack him at every opportunity.\n"
         }
     },
     {
@@ -350,7 +350,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3341,
         "fields": {
             "question": 351,
-            "description": "Wow!"
+            "description": "Here we go."
         }
     },
     {
@@ -358,7 +358,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3342,
         "fields": {
             "question": 351,
-            "description": "Wow!"
+            "description": "Here we go."
         }
     },
     {
@@ -366,7 +366,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3343,
         "fields": {
             "question": 351,
-            "description": "Wow!"
+            "description": "Here we go."
         }
     },
     {
@@ -422,7 +422,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3406,
         "fields": {
             "question": 369,
-            "description": "John Ashcroft is a fantastic conservative. Throughout his career he has stood for religious freedom and family values, and I'm proud to have him by my side."
+            "description": " John Ashcroft is a fantastic conservative. Throughout his career he has stood for religious freedom and family values, and I'm proud to have him by my side.\n"
         }
     },
     {
@@ -430,7 +430,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3408,
         "fields": {
             "question": 369,
-            "description": "John Ashcroft has served the people of Missouri well as Governor and Senator. I couldn't think of a better person to be Vice President."
+            "description": "John Ashcroft has served the people of Missouri well as Governor and Senator. I couldn't think of a better person to be Vice President.'"
         }
     },
     {
@@ -438,7 +438,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3453,
         "fields": {
             "question": 381,
-            "description": "Florida, Florida, Florida. If we win Florida, we win the election.  Let's hold one last rally in Jacksonville."
+            "description": "Florida, Florida, Florida. If we win Florida, we win the election. Let's hold one last rally in Jacksonville."
         }
     },
     {
@@ -511,6 +511,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 393,
             "description": "Excessive regulations and taxes are choking our citizens, and Bill Clinton and Al Gore are continuing it. Not me! The first thing I'll do in office will be to cut taxes by 30%. I will dismantle the big government that Clinton built."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12273,
+        "fields": {
+            "question": 345,
+            "description": "The press has never been fair to me in all my career. I won't go.\n"
         }
     }
 ]
@@ -6442,6 +6450,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": -0.002
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12274,
+        "fields": {
+            "answer": 12273,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
+        }
     }
 ]
 
@@ -6484,46 +6502,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 31,
             "issue_score": -0.05,
             "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 854,
-        "fields": {
-            "answer": 3406,
-            "issue": 27,
-            "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 855,
-        "fields": {
-            "answer": 3406,
-            "issue": 28,
-            "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 856,
-        "fields": {
-            "answer": 3406,
-            "issue": 29,
-            "issue_score": -0.6,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 857,
-        "fields": {
-            "answer": 3406,
-            "issue": 30,
-            "issue_score": -0.6,
-            "issue_importance": 2
         }
     },
     {
@@ -6811,9 +6789,19 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 12268,
         "fields": {
             "answer": 3327,
-            "issue": "27",
+            "issue": 27,
             "issue_score": 0,
             "issue_importance": -0.45
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12277,
+        "fields": {
+            "answer": 3406,
+            "issue": 31,
+            "issue_score": -0.6,
+            "issue_importance": 0
         }
     }
 ]
@@ -7654,39 +7642,6 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 77,
             "state_multiplier": 0.0225
         }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12254,
-        "fields": {
-            "answer": 3408,
-            "state": 197,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.0225
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12255,
-        "fields": {
-            "answer": 3408,
-            "state": 222,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.0225
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12256,
-        "fields": {
-            "answer": 3408,
-            "state": 195,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": 0.0225
-        }
     }
 ]
 
@@ -7805,7 +7760,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3327,
             "candidate": 77,
-            "answer_feedback": "For a Republican, there's nothing wrong with giving a pat phrase and moving to the next topic when it comes to Bill Clinton."
+            "answer_feedback": "As expected, whether this is effective or not depends on who the party affiliation of the person you're asking is."
         }
     },
     {
@@ -7823,7 +7778,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3331,
             "candidate": 77,
-            "answer_feedback": "Perhaps you're right."
+            "answer_feedback": "Perhaps you're right. Trump's positions do lean a bit left socially."
         }
     },
     {
@@ -7895,7 +7850,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3343,
             "candidate": 77,
-            "answer_feedback": "Ashcroft grills Lieberman over Gore's connections to Clinton, among other things. Pundits agree he won the debate."
+            "answer_feedback": "Lieberman sweats as Ashcroft grills him on the ticket's positions and connections to Clinton. Pundits agree he won the debate."
         }
     },
     {
@@ -7958,7 +7913,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3406,
             "candidate": 77,
-            "answer_feedback": "This galvanizes the Religious Right, and turns off moderates."
+            "answer_feedback": "The choice of Ashcroft galvanizes support of the Religious Right, and turns off moderates"
         }
     },
     {
@@ -7967,7 +7922,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3408,
             "candidate": 77,
-            "answer_feedback": "This doubles down on the experience angle, but some feel like you could have said more."
+            "answer_feedback": "This doubles down on the experience angle, but some feel like you could have said more.\n\n"
         }
     },
     {
@@ -7976,7 +7931,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3453,
             "candidate": 77,
-            "answer_feedback": "Hopefully you can pull Florida out and win the election. Good luck!"
+            "answer_feedback": "You campaign with Governor Bush-the other one- in the Sunshine State. Good luck, Mr. Vice President."
         }
     },
     {
@@ -7985,7 +7940,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3454,
             "candidate": 77,
-            "answer_feedback": "These are crucial states for any candidate. Now, there's nothing to do but wait for the end."
+            "answer_feedback": "These are crucial states for any candidate. Good luck, Mr. Vice President."
         }
     },
     {
@@ -7994,7 +7949,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3455,
             "candidate": 77,
-            "answer_feedback": "With you and Ashcroft on the ticket, hopefully the Midwest is locked down. Now, there's nothing to do but wait for the end."
+            "answer_feedback": "Your free-trade messaging might not play well with blue-collar workers, but it's worth a shot. Good luck, Danny."
         }
     },
     {
@@ -8003,7 +7958,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3456,
             "candidate": 77,
-            "answer_feedback": "Pundits agree you have a very real chance of winning Tennessee. Now, there's nothing to do but wait for the end."
+            "answer_feedback": "Pundits agree you have a very real chance of winning Tennessee. Good luck, Mr. Vice President."
         }
     },
     {
@@ -8035,29 +7990,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 821,
-        "fields": {
-            "answer": 3327,
-            "candidate": 78,
-            "answer_feedback": "It would probably be better not to repudiate Clinton so harshly. Not only is he broadly popular, but you also served with him for eight years."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 833,
         "fields": {
             "answer": 3341,
             "candidate": 77,
-            "answer_feedback": "Alas, Lieberman decisively beats Ashcroft. People don't really pay attention to the VPs anyhow, but it's still gonna hurt."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 918,
-        "fields": {
-            "answer": 3327,
-            "candidate": 79,
-            "answer_feedback": "It's probably best to ignore Bill Clinton, and focus your statements on Bush, Gore, and the two-party system in general."
+            "answer_feedback": "Ashcroft comes off as an extremist, while Lieberman seems calm and sensible.  The VP debate is a sideshow to most, but it's still gonna hurt."
         }
     },
     {
@@ -8104,6 +8041,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "It's a draw!"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12275,
+        "fields": {
+            "answer": 12273,
+            "candidate": 77,
+            "answer_feedback": "While this means you avoided making any major slips of the tongue, this arguably hurts even more than if you did.\n\n"
+        }
     }
 ]
 
@@ -8148,7 +8094,9 @@ campaignTrail_temp.jet_data = [{
             "endingImage": "",
             "endingText": "Put ending text here, you can and should use <p>HTML tags</p>!"
         }
-    }
+    },
+    "mapping_enabled": false,
+    "mapping_data": {}
 }
 ]
 
