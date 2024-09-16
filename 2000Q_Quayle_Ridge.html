@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 347,
         "fields": {
             "priority": 2,
-            "description": "There are many routes of attack against Al Gore. Which would you like to employ",
+            "description": "There are many routes of attack against Al Gore. Which would you like to employ?",
             "likelihood": 1
         }
     },
@@ -85,7 +85,7 @@ campaignTrail_temp.questions_json = [
         "pk": 351,
         "fields": {
             "priority": 2,
-            "description": "I need to get to 15 questions time for another rng question vp debate",
+            "description": "The vice-presidential debate has arrived. Let's hope Tom does good.",
             "likelihood": 1
         }
     },
@@ -112,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 353,
         "fields": {
             "priority": 3,
-            "description": "The environment is concerning to a lot of Americans,  with Al Gore in particular being quite the environmental activist (not to mention Ralph Nader's Green Party). What do you have to say about it?",
+            "description": "The environment is concerning to a lot of Americans, with Al Gore in particular being quite the environmental activist (not to mention Ralph Nader's Green Party). What do you have to say about it?",
             "likelihood": 1
         }
     },
@@ -286,7 +286,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3332,
         "fields": {
             "question": 348,
-            "description": "We'll have our guys attack him at every opportunity. "
+            "description": "Sure, he might not be too important, but it never hurts to bring down an opponent. We'll have our guys attack him at every opportunity. "
         }
     },
     {
@@ -350,7 +350,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3341,
         "fields": {
             "question": 351,
-            "description": "Wow!"
+            "description": "Indeed."
         }
     },
     {
@@ -358,7 +358,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3342,
         "fields": {
             "question": 351,
-            "description": "Wow!"
+            "description": "Indeed."
         }
     },
     {
@@ -366,7 +366,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3343,
         "fields": {
             "question": 351,
-            "description": "Wow!"
+            "description": "Indeed."
         }
     },
     {
@@ -422,7 +422,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3406,
         "fields": {
             "question": 369,
-            "description": "Governor Ridge is a true leader. He has been a resolute fiscal conservative through his whole tenure."
+            "description": "Governor Ridge is a true leader. He has been a resolute fiscal conservative through his whole tenure. It would be a real shame if we let this minor issue ruin party unity."
         }
     },
     {
@@ -430,7 +430,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3408,
         "fields": {
             "question": 369,
-            "description": "Tom Ridge has done wonders for the people of Pennslyvania. I really admire his work."
+            "description": "Tom Ridge has done wonders for the people of Pennsylvania. I really admire his work."
         }
     },
     {
@@ -438,7 +438,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3453,
         "fields": {
             "question": 381,
-            "description": "Florida, Florida, Florida. If we win Florida, we win the election.  Let's hold one last rally in Jacksonville."
+            "description": "Florida, Florida, Florida. If we win Florida, we win the election. Let's hold one last rally in Jacksonville."
         }
     },
     {
@@ -511,6 +511,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 393,
             "description": "Excessive regulations and taxes are choking our citizens, and Bill Clinton and Al Gore are continuing it. Not me! The first thing I'll do in office will be to cut taxes by 30%. I will dismantle the big government that Clinton built."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12275,
+        "fields": {
+            "question": 345,
+            "description": "The press has never been fair to me in all my career. I won't go."
         }
     }
 ]
@@ -6442,6 +6450,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": -0.002
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12277,
+        "fields": {
+            "answer": 12275,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.015
+        }
     }
 ]
 
@@ -6771,7 +6789,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 12268,
         "fields": {
             "answer": 3327,
-            "issue": "27",
+            "issue": 27,
             "issue_score": 0,
             "issue_importance": -0.45
         }
@@ -6791,7 +6809,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 12274,
         "fields": {
             "answer": 3406,
-            "issue": "27",
+            "issue": 27,
             "issue_score": -0.6,
             "issue_importance": 1
         }
@@ -7770,7 +7788,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3331,
             "candidate": 77,
-            "answer_feedback": "Perhaps you're right."
+            "answer_feedback": "Perhaps you're right. Trump's stances certainly do lean a bit more to the left socially."
         }
     },
     {
@@ -7824,7 +7842,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3338,
             "candidate": 77,
-            "answer_feedback": "You can never go wrong by promising a tax cut."
+            "answer_feedback": "You can never go wrong by promising a tax cut, especially as a Republican."
         }
     },
     {
@@ -8050,6 +8068,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3342,
             "candidate": 77,
             "answer_feedback": "It's a draw!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12276,
+        "fields": {
+            "answer": 12275,
+            "candidate": 77,
+            "answer_feedback": "While this means you avoided making any major slips of the tongue, this arguably hurts even more than if you did. "
         }
     }
 ]
