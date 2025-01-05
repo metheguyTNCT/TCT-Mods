@@ -47,7 +47,7 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 78,
       "fields": {
-          "first_name": "Mr",
+          "first_name": "The",
           "last_name": "Republican Party",
           "election": 9,
           "party": "Republican",
@@ -76,7 +76,7 @@ campaignTrail_temp.candidate_json = [
           "party": "Green",
           "state": "Connecticut",
           "priority": 3,
-          "description": "<p>will always be Nader but its nice to have all the last names to be parties huh</p>",
+          "description": "<p>will always be Nader in both elections but it's nice to have all the last names to be parties huh</p>",
           "color_hex": "#00C100",
           "secondary_color_hex": "#A1FFA1",
           "is_active": 0,
@@ -93,8 +93,8 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 80,
       "fields": {
-          "first_name": "The",
-          "last_name": "Reformists",
+          "first_name": "H. Ross",
+          "last_name": "Reform",
           "election": 9,
           "party": "Reform",
           "state": "Virginia",
@@ -195,7 +195,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#FFFF00",
           "secondary_color_hex": "#FFFFC0",
           "is_active": 0,
-          "image_url": "",
+          "image_url": "https://i.imgur.com/2QugOJq.png",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
@@ -486,7 +486,7 @@ jet_data = {
 
 
 
-quotes = ["<q>DEATH TO CLINTON</q> - Americans", "<q>Mr President, you're no Bill Clinton</q> - Dan Quayle", "<q>I must become my own man. I must not be your candidate.​</q> - Albert A. Gore Jr to his father, 1976"]
+quotes = ["<q>People like me are what stand between us and Auschwitz.</q> - Newt Gingrich", "<q> There is no them; there's only us.</q> - Bill Clinton", "<q>I must become my own man. I must not be your candidate.​</q> - Albert A. Gore Jr to his father, 1976"]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
 
 
@@ -1167,9 +1167,9 @@ campaignTrail_temp.achievements = {
     "description" : "Face off against Oliver North in 2000.",
     "cannotBeCheated" : true
   },
-  "The Yellow Ross of Texas" : {
-    "image" : "https://i.imgur.com/XEyV68P.png",
-    "description" : "Face off against Ross Perot in 2000.",
+  "Surviving at the Top" : {
+    "image" : "https://i.imgur.com/Urtn1gM.png",
+    "description" : "Face off against Donald Trump in 2000.",
     "cannotBeCheated" : true
   },
   "Multiple Choice" : {
@@ -1207,24 +1207,24 @@ campaignTrail_temp.achievements = {
     "description" : "Lose reelection.",
     "cannotBeCheated" : true
   },
-  "Repeat Offender" : {
-    "image" : "https://i.imgur.com/JMxieHy.png",
-    "description" : "Dispatch a demagogue twice over.",
+  "The Work Goes On" : {
+    "image" : "https://i.imgur.com/seiCoF8.png",
+    "description" : "Fulfill Ted's dream.",
     "cannotBeCheated" : true
   },
-  "Vast Right-Wing Conspiracy" : {
+  "His Cheatin' Heart" : {
     "image" : "https://i.imgur.com/TOpqwOh.png",
-    "description" : "Get impeached.",
+    "description" : "Suffer the ultimate indignity.",
     "cannotBeCheated" : true
   },
-  "Placeholder Name" : {
+  "One Brief, Shining Moment" : {
     "image" : "https://i.imgur.com/s3dty5t.png",
-    "description" : "Placeholder description. This is for triggering the Gore route.",
+    "description" : "Emulate your idol.",
     "cannotBeCheated" : true
   },
   "Counterrevolution" : {
     "image" : "https://i.imgur.com/3XKoZdw.png",
-    "description" : "Take back the house.",
+    "description" : "Keep control of Congress.",
     "cannotBeCheated" : true
   }
   }
