@@ -126,7 +126,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0000f5",
           "secondary_color_hex": "#FFA0A0",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/sbMsxIV.png",
+          "image_url": "https://i.imgur.com/pYjzFYK.png",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
