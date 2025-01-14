@@ -6,7 +6,7 @@ campaignTrail_temp.election_json = [
       "fields": {
           "year": 2000,
           "summary": "<p>William Jefferson Clinton, Governor of Arkansas, has risen from leading a small southern state to taking his rightful place on the world stage. Gliding through town halls and stages across the country, he shared a hopeful, modern vision, a ''third way'' forward. By bringing together the diverse strands of America, he created a great sail, a grand coalition, that propelled his ship to victory over the once-popular George Bush. \n</p><p>Now, Clinton sits in the same office once held by his hero, John F. Kennedy, before his assassination. Like Kennedy, Clinton must navigate scandals and challenges, both at home and abroad, to prove he is the charismatic, modern president the nation needs, not just a clown for tabloid headlines. He must show the American people that the boy born in Hope, to a widow, is capable of leading the free world.</p>",
-          "image_url": "https://i.imgur.com/nkyTmaZ.png",
+          "image_url": "https://i.imgur.com/sq2U3xs.png",
           "winning_electoral_vote_number": 270,
           "advisor_url": "https://i.imgur.com/g5moPwD.png",
           "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
@@ -34,7 +34,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0910B5",
           "secondary_color_hex": "#73A4FD",
           "is_active": 1,
-          "image_url": "https://i.imgur.com/boYi00h.png",
+          "image_url": "https://i.imgur.com/xkwFcOc.png",
           "electoral_victory_message": "<h3>Congratulations! Al Gore has won the 2000 election.</h3><p>This victory is a testament to how popular you were! Congrats dude.</p>",
           "electoral_loss_message": "<h3>Sorry! Al Gore has lost the 2000 election.</h3><p>At least you were a two-term president</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
@@ -103,7 +103,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#800080",
           "secondary_color_hex": "#FFFFC0",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/ltYdDvv.png",
+          "image_url": "https://i.imgur.com/eqg0lCw.png",
           "electoral_victory_message": "Never happening",
           "electoral_loss_message": "Expected",
           "no_electoral_majority_message": "",
@@ -126,7 +126,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0000f5",
           "secondary_color_hex": "#FFA0A0",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/pYjzFYK.png",
+          "image_url": "https://i.imgur.com/GGpra4p.png",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
@@ -518,7 +518,7 @@ $(".container")[0].style.backgroundColor = "#ffffff";
 document.getElementById("header").src = "https://i.imgur.com/l7HIMBt.png";
 
 
-document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
+document.body.background = "https://i.imgur.com/qdLCZsr.png";
 
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5987F8!important;}</style>";
@@ -540,6 +540,110 @@ background-color: #DDE7FE;
 background-color: #DDE7FE;
 }
 </style>`
+
+// Tooltips
+function addDynamicCSS() {
+  var css = `
+      .inner_window_question h3 .mytooltip{
+          background-color: lightskyblue;
+      }
+
+      .mytooltip {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          background-color: lightblue;
+      }
+
+      .mytooltip .mytooltiptext {
+          width: 240px;
+          background-color: lightblue;
+          color: black;
+          text-align: center;
+          border-radius: 6px;
+          padding: 10px;
+          position: absolute;
+          z-index: 99;
+          bottom: 20%;
+          left: 20%;
+          margin-left: -90px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          border: 1px solid black;
+          pointer-events: none;
+          font-size: 13px !important;
+          line-height: 1.5em !important;
+          font-weight: normal !important;
+          font-style: normal !important;
+      }
+
+      .mytooltip .mytooltiptext img {
+          max-width: 240px;
+          height: auto;
+      }
+
+      .mytooltip:hover .mytooltiptext {
+          opacity: 1;
+          transition-delay: 0.5s;
+      }
+  `;
+
+  var styleElem = document.createElement('style');
+  styleElem.type = 'text/css';
+  
+  styleElem.appendChild(document.createTextNode(css));
+  
+  document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+// Personal people
+{searchString: "John F. Kennedy", explanationText: "<img src=https://i.imgur.com/kzOOLfE.png> My Hero"},
+{searchString: "Hillary", explanationText: "<img src=https://i.imgur.com/fj55FWb.png> My dream and nightmare"},
+// Bush letter
+{searchString: "It reads…", explanationText: "<img src=https://i.imgur.com/YvnAPxL.png>"},
+// Administration people
+{searchString: "Mack McLarty", explanationText: "<img src=https://i.imgur.com/TO6N639.jpeg> Childhood buddy, Chief of Staff"},
+{searchString: "Rubin", explanationText: "<img src=https://i.imgur.com/oBIJvNB.png> Economic Advisor"},
+{searchString: "Reich", explanationText: "<img src=https://i.imgur.com/br6TeTG.png> Secretary of Labour, Shorty"},
+{searchString: "Panetta", explanationText: "<img src=https://i.imgur.com/Cz87ZCk.png> Director of the Office of Management and Budget"},
+{searchString: "Bentsen", explanationText: "<img src=https://i.imgur.com/GzP9MM6.png> He said the thing!"},
+{searchString: "Reno", explanationText: "<img src=https://i.imgur.com/79qszJa.png> First female AG, you're welcome"},
+{searchString: "Janet Reno", explanationText: "<img src=https://i.imgur.com/79qszJa.png> First female AG, you're welcome"},
+{searchString: "Janet", explanationText: "<img src=https://i.imgur.com/79qszJa.png> First female AG, you're welcome"},
+{searchString: "Carville", explanationText: "<img src=https://i.imgur.com/B3i7DkI.png> It's the economy, stupid"},
+// Political people
+{searchString: "President Bush", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> Respectful predecessor"},
+{searchString: "41", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> Respectful predecessor"},
+{searchString: "Old Man Bush", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> Respectful predecessor"},
+{searchString: "Perot", explanationText: "<img src=https://i.imgur.com/RrU68s7.png> Helped me win"},
+{searchString: "the Gipper", explanationText: "<img src=https://i.imgur.com/c6h5VXl.png> California Cowboy"},
+{searchString: "Reagan", explanationText: "<img src=https://i.imgur.com/c6h5VXl.png> California Cowboy"},
+{searchString: "Ted Kennedy", explanationText: "<img src=https://i.imgur.com/Mlgk6Tw.jpeg> The last one"},
+{searchString: "Ted", explanationText: "<img src=https://i.imgur.com/Mlgk6Tw.jpeg> The last one"},
+{searchString: "Teddy", explanationText: "<img src=https://i.imgur.com/Mlgk6Tw.jpeg> The last one"},
+{searchString: "Mitchell", explanationText: "<img src=https://i.imgur.com/2uvXU5P.jpeg> Senate Majority leader"},
+{searchString: "Foley", explanationText: "<img src=https://i.imgur.com/spZh23c.jpeg> Speaker of the House"},
+{searchString: "Newt Gingrich", explanationText: "<img src=https://i.imgur.com/Ei2Sihc.png> Satan Himself"},
+{searchString: "Gingrich", explanationText: "<img src=https://i.imgur.com/Ei2Sihc.png> Satan Himself"},
+{searchString: "Ruth Bader Ginsburg", explanationText: "<img src=https://i.imgur.com/RdjGCLF.png> United States Court of Appeals for the District of Columbia Circuit Judge"},
+{searchString: "Laurence Tribe", explanationText: "<img src=https://i.imgur.com/lU8VTVk.png> Liberal pick"},
+{searchString: "Webster Hubbell", explanationText: "<img src=https://i.imgur.com/hIKTq8a.png> Former Mayor of Little Rock"},
+{searchString: "Gilbert S. Merritt", explanationText: "<img src=https://i.imgur.com/bpYD7le.png> Chief Judge of the United States Court of Appeals for the Sixth Circuit"},
+{searchString: "Janie Shores", explanationText: "<img src=https://i.imgur.com/hLUe3ls.png> Backup plan"},
+{searchString: "Joe Biden", explanationText: "<img src=https://i.imgur.com/BwnvA8m.png> Veteran Senator of Delaware"},
+// Foreign people
+{searchString: "Yeltsin", explanationText: "<img src=https://i.imgur.com/AJsNeXT.png> Friend or Foe?"},
+{searchString: "Boris Yeltsin", explanationText: "<img src=https://i.imgur.com/AJsNeXT.png> Friend or Foe?"},
+{searchString: "Boris", explanationText: "<img src=https://i.imgur.com/AJsNeXT.png> Friend or Foe?"},
+{searchString: "Kim Il Sung", explanationText: "<img src=https://i.imgur.com/emeK8AL.png> Scum of Earth"},
+{searchString: "Rwanda", explanationText: "<img src=https://i.imgur.com/2v7euOP.png> Sickening"},
+{searchString: "Raoul Cédras", explanationText: "<img src=https://i.imgur.com/kT6VMfP.png> Dictator"},
+{searchString: "Vietnam", explanationText: "<img src=https://i.imgur.com/7SBxDZa.png> Thank God I dodged"},
+];
   // Select the node that will be observed for mutations
   const windowsAdvisorTargetNode = document.getElementById("game_window");
   
@@ -623,7 +727,17 @@ function setupRandomizeButton() {
   const randomizeButton = document.createElement("button");
   randomizeButton.id = "randomizeButton";
   randomizeButton.textContent = "Randomize Songs";
-  randomizeButton.style.margin = "10px";
+
+  // Style the button to appear near the bottom of the screen
+  randomizeButton.style.position = "fixed";
+  randomizeButton.style.bottom = "20px"; // Adjust the distance from the bottom
+  randomizeButton.style.right = "20px"; // Adjust the distance from the right side
+  randomizeButton.style.padding = "10px 20px";
+  randomizeButton.style.backgroundColor = "#007BFF"; // Button color
+  randomizeButton.style.color = "#fff"; // Text color
+  randomizeButton.style.border = "none";
+  randomizeButton.style.borderRadius = "5px";
+  randomizeButton.style.cursor = "pointer";
 
   randomizeButton.addEventListener("click", function () {
     playlist.randomizeEnabled = !playlist.randomizeEnabled;
@@ -634,8 +748,8 @@ function setupRandomizeButton() {
     );
   });
 
-  const playerContainer = document.getElementById("player");
-  playerContainer.appendChild(randomizeButton);
+  // Append the button to the body instead of playerContainer
+  document.body.appendChild(randomizeButton);
 }
 
   window.Playlist=Playlist
@@ -678,9 +792,9 @@ function setupRandomizeButton() {
     );
   
     const song3 = new Song(
-      "Take Five",
-      "Paul Desmond",
-      "https://audio.jukehost.co.uk/Iyw0AOUb34dJQugmqoBMdr4ISxxtW6e5"
+      "Wannabe",
+      "Spice Girls",
+      "https://audio.jukehost.co.uk/5ZE6KnMqAS9ukmP5TwvvmSoFzIuozOjO"
     );
   
     const song4 = new Song(
@@ -694,38 +808,42 @@ function setupRandomizeButton() {
       "Fleetwood Mac",
       "https://audio.jukehost.co.uk/lEeD3Y8rRhxnn7eJgYMHxeBGwJ3LYh3j"
     );
-  
     const song6 = new Song(
+    "Seems Hard",
+    "The Cardigans",
+    "https://audio.jukehost.co.uk/Kn4YXWqNQ01ABgMAJWsgcYZiMvwKpapf"
+  );
+    const song7 = new Song(
       "In My Life",
       "The Beatles",
       "https://audio.jukehost.co.uk/Awqc2QRizsPgyopz0kgBdpnbBHvpeOyr"
     );
   
-    const song7 = new Song(
-      "Desafinado",
-      "João Gilberto & Stan Getz",
-      "https://audio.jukehost.co.uk/2tKooBxyZvKJhmWMsHG4TNpvoBVGMz2I"
+    const song8 = new Song(
+      "Underground",
+      "Ben Folds Five",
+      "https://audio.jukehost.co.uk/72JQKSbz7R0rWYCumPitIxZxaDqHqfmT"
     );
 
-    const song8 = new Song(
+    const song9 = new Song(
       "Macarena",
       "Los Del Rio",
       "https://audio.jukehost.co.uk/dZTZX8Z6AU5XAnHk8M3AGyIVMJPrPdRs"
     );
 
-    const song9 = new Song(
+    const song10 = new Song(
     "Go Your Own Way",
     "Fleetwood Mac",
     "https://audio.jukehost.co.uk/1VK4UhrKRBbbd5kozuyW2WQBm2eWmUxr"
     );
     
-    const song10 = new Song(
+    const song11 = new Song(
     "A Song For You",
     "Leon Russell",
     "https://audio.jukehost.co.uk/10sbgg4yzHdGQFz241gS8du6rVFLZOVf"
     );
 
-    const song11 = new Song(
+    const song12 = new Song(
       "Everything You Know Is Wrong",
       "Weird Al Yankovic",
       "https://audio.jukehost.co.uk/SPIHfPTBVrdg3Xe4eW9aAbSCQeBtcbzC"
@@ -742,6 +860,7 @@ function setupRandomizeButton() {
     playlist.addSong(song9);
     playlist.addSong(song10);
     playlist.addSong(song11);
+    playlist.addSong(song12);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
@@ -1096,7 +1215,7 @@ volumeLabel.style.height = "50px";  // Increase the height
     }
     #mp3Player {
       margin-left: 0;  /* Ensure there's no extra margin on the left */
-      margin-right: 125px;
+      margin-right: 200px;
       align-items: center;
       /* No need for absolute positioning here */
       width: 300px;   /* Your preferred width */
@@ -1118,11 +1237,10 @@ volumeLabel.style.height = "50px";  // Increase the height
   setupMusicPlayer();
   setupRandomizeButton();
 
-
 RecReading=true
 e.collect_results=true;
 campaignTrail_temp.achievements = {
-    "His Turn" : {
+    "Soul Man" : {
         "image" : "https://i.imgur.com/YkgRwhg.png",
         "description" : "Face off against Bob Dole in 1996.",
         "cannotBeCheated" : true
@@ -1145,6 +1263,11 @@ campaignTrail_temp.achievements = {
   "Snarlin' Arlen" : {
     "image" : "https://i.imgur.com/11s3UqU.png",
     "description" : "Face off against Arlen Specter in 1996.",
+    "cannotBeCheated" : true
+  },
+  "General Commotion" : {
+    "image" : "https://i.imgur.com/hAmHLjA.png",
+    "description" : "Face off against Colin Powell in 1996.",
     "cannotBeCheated" : true
   },
   "Standing Firm" : {
@@ -1203,12 +1326,12 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
   },
   "Heartbreak Hotel" : {
-    "image" : "https://i.imgur.com/dXkXpk2.png",
+    "image" : "https://i.imgur.com/y4azvyh.png",
     "description" : "Lose reelection.",
     "cannotBeCheated" : true
   },
   "The Work Goes On" : {
-    "image" : "https://i.imgur.com/seiCoF8.png",
+    "image" : "https://i.imgur.com/0S4gasC.png",
     "description" : "Fulfill Ted's dream.",
     "cannotBeCheated" : true
   },
