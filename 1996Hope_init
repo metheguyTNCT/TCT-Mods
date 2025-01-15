@@ -1280,7 +1280,7 @@ campaignTrail_temp.achievements = {
     "description" : "Face off against Newt Gingrich in 2000.",
     "cannotBeCheated" : true
   },
-  "More of the Same" : {
+  "2000 Points of Light" : {
     "image" : "https://i.imgur.com/0sFu3nv.png",
     "description" : "Face off against George H.W. Bush in 2000.",
     "cannotBeCheated" : true
