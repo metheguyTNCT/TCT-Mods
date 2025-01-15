@@ -107,7 +107,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_4andahalf_supremecourt",
         "fields": {
             "priority": 2,
-            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking, sir? ",
+            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including Al, but ultimately, the choice remains firmly in your hands. What are you thinking? ",
             "likelihood": 1
         }
     },
@@ -134,7 +134,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_7_crime",
         "fields": {
             "priority": 2,
-            "description": "It's everyday at this point that you uncover yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging some sort of reform, and you're finally weighing your options. What's your choice?.",
+            "description": "It's everyday at this point that you uncover yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging some sort of reform, and you're finally weighing your options. What's your choice?",
             "likelihood": 1
         }
     },
@@ -215,7 +215,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_16_monica",
         "fields": {
             "priority": 3,
-            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Vice President gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
+            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and Al gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
             "likelihood": 1
         }
     },
@@ -257,7 +257,16 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": "question_20_iraq_airstrikes",
+        "pk": "question_20_internet",
+        "fields": {
+            "priority": 0,
+            "description": "As the American Public begins to transition technologies and in the Last Election before the New Millennium, a new way of expressing ideologies and opinions has arisen being the Internet. While the Internet is still a relatively new Commercial item for many Americans, our Administration should take a stand on our plans for the American internet. What is our stance, Mr. President?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": "question_21_iraq_airstrikes",
         "fields": {
             "priority": 0,
             "description": "Iraq, under that kook Saddam Hussein, has escalated military aggression against Kurdish forces in Northern Iraq, violating no-fly zone agreements. Some Senators, cabinet officials, and military leaders are calling for airstrikes to enforce the zones and prevent further violations. Will you give in to the demands?",
@@ -266,7 +275,7 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": "question_21_1996_election",
+        "pk": "question_22_1996_election",
         "fields": {
             "priority": -1,
             "description": "It's the morning of November 4th, 1996. You can't stop thinking about how far you've came since 1978. Once a bright young Attorney General hoping to become his states Governor, now running for re-election as president, in the same position 41 was in when he lost to you. You've thought of the relief of reliving that winning feeling again, but the pain of reliving that bitter losing feeling, and all the tears you cried back in 1980. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
@@ -278,7 +287,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_question_hillary",
         "fields": {
             "priority": 2,
-            "description": "Hillary’s been working the phones with party leaders for months now, tirelessly pushing for a healthcare plan that can actually pass. Sometimes, it feels like she’s more invested in the presidency than you are. So, where do you want her to focus her energy next?",
+            "description": "At night, when you finally get a chance to sit down and watch some TV with Hillary, she tells you about her efforts to move Congress towards her healthcare reform. She rants about ''Not being treated like the politician she is'' or something around that, and how she believed that despite this, her efforts were going well. Obviously, you really didn't believe this, yet you were going to trust your wife on this. She asks you for any input with who to work with. You know what to do.",
             "likelihood": 1
         }
     },
@@ -287,7 +296,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_ted_advice_healthcare",
         "fields": {
             "priority": 2,
-            "description": "Ted can finally get back to you on the healthcare, he informs your he's been working his ass off for the healthcare initiative, trying to get droves of democrats on board. He insures you it can be done, but it's going to take a herculean swing to get it done. He asks you to give him suggestions for the reform getting passed, but you know just what to do, Slick.",
+            "description": "Ted can finally get back to you on the healthcare, he informs your he's been working his ass off for the healthcare initiative, trying to get droves of democrats on board. He insures you it can be done, but it's going to take a herculean swing to get it done. He asks you to give him suggestions for the reform getting passed, and you know just what to do.",
             "likelihood": 1
         }
     },
@@ -296,7 +305,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_health_insurance",
         "fields": {
             "priority": 2,
-            "description": "You're in the Oval Office, doing paperwork, when Mitchell and Foley stride into the room, relating to the healthcare reform. They inform you what their plans are, consisting of mandating insurance,  businesses being forced to give employees insurance, and subsidizing for people on the short end of the stick. It's rather moderate, but they're confident this is what can be passed with relative ease. You, staying true to Hillary's dreams, feel this proposal is a bit too watered down for a 'reform', but at the same time, there's the matter of getting something passed. They ask for your opinions, but they've already made what they wanted to do clear, but you know best, don't you, Slick?",
+            "description": "You're in the Oval Office, doing paperwork, when Mitchell and Foley stride into the room, relating to the healthcare reform. They inform you what their plans are, consisting of mandating insurance,  businesses being forced to give employees insurance, and subsidizing for people on the short end of the stick. It's rather moderate, but they're confident this is what can be passed with relative ease. You, staying true to Hillary's dreams, feel this proposal is a bit too watered down for a 'reform', but at the same time, there's the matter of getting something passed. They ask for your opinions, but they've already made what they wanted to do clear, but you know best, don't you, Mr. President?",
             "likelihood": 1
         }
     },
@@ -686,7 +695,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10004,
         "fields": {
             "question": "question_1_inauguration",
-            "description": "On behalf of our nation, I salute my predecessor, President Bush, for his half-century of dedicated service to America. I also thank the millions of men and women whose steadfastness and sacrifice enabled us to triumph over the Great Depression, Fascism, and Communism."
+            "description": "On behalf of our nation, I salute my predecessor, President Bush, for his half-century of dedicated service to America. I also thank the millions of men and women whose steadfastness and sacrifice enabled us to triumph over the Great Depression, fascism, and communism."
         }
     },
     {
@@ -774,7 +783,7 @@ campaignTrail_temp.answers_json = [
         "pk": 400015,
         "fields": {
             "question": "question_4andahalf_supremecourt",
-            "description": "I'm going with Webster Hubbell. I know we had him in mind for Associate Attorney General, and I’m sure Janet wouldn’t mind, haha... -He’s someone I can trust, and, you know, he’s a good ol' boy from back home. He’s got the right instincts and the right heart for the job "
+            "description": "I'm going with Webster Hubbell. I know we had him in mind for Associate Attorney General, and I’m sure Janet wouldn’t mind, heh. He’s someone I can trust, and, you know, he’s a good ol' boy from back home. He’s got the right instincts and the right heart for the job. "
         }
     },
     {
@@ -822,7 +831,7 @@ campaignTrail_temp.answers_json = [
         "pk": 50003,
         "fields": {
             "question": "question_5_healthcare_task_force",
-            "description": "Mitchell and Foley, well, I can’t think of a better team to bring this party together. If anyone can work side by side to deliver clear, thoughtful healthcare policy, it’s those two."
+            "description": "I can’t think of a better team to bring this party together than George Mitchell and Tom Foley. If anyone can work side by side to deliver clear, thoughtful healthcare policy, it’s those two."
         }
     },
     {
@@ -1126,7 +1135,7 @@ campaignTrail_temp.answers_json = [
         "pk": 180003,
         "fields": {
             "question": "question_18_defense_of_marriage",
-            "description": "Those kooks call me Slick Willy you know?. I’ll work this issue, take my time with it, and stall the debates as long as I can until the pressure fades and the heat dies down. Sometimes, the best approach is just to wait for the right moment to let things settle."
+            "description": "Those kooks call me Slick Willy, you know? I’ll work this issue, take my time with it, and stall the debates as long as I can until the pressure fades and the heat dies down. Sometimes, the best approach is just to wait for the right moment to let things settle."
         }
     },
     {
@@ -1149,7 +1158,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 200001,
         "fields": {
-            "question": "question_20_iraq_airstrikes",
+            "question": "question_21_iraq_airstrikes",
             "description": "You bet. It's simple, really, we cannot let Saddam get away with this. You have my full authorization to conduct decisive, targeted strikes, focused, strategic, and deep enough to send an unmistakable message: the United States does not tolerate threats to global peace. \n"
         }
     },
@@ -1157,7 +1166,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 200002,
         "fields": {
-            "question": "question_20_iraq_airstrikes",
+            "question": "question_21_iraq_airstrikes",
             "description": "Well, you know, obviously, we stand against what Saddam has done, it’s unacceptable and destabilizing, but I’ve got to say, a military strike right now doesn’t feel proportional to the situation. Let’s take a step back, folks. "
         }
     },
@@ -1165,7 +1174,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 200003,
         "fields": {
-            "question": "question_20_iraq_airstrikes",
+            "question": "question_21_iraq_airstrikes",
             "description": "You bet. We are going to bomb the shit out of Iraq, we cannot let Saddam get away with this. You have my full authorization to carry out decisive military strikes, targeting Baghdad and other key areas. The United States and its allies will not stand by and let this happen."
         }
     },
@@ -1173,7 +1182,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 210001,
         "fields": {
-            "question": "question_21_1996_election",
+            "question": "question_22_1996_election",
             "description": "I’ve been saying this forever, in this election, we need voter turnout to be huge. I will deliver a speech in front of the White House calling for everyone to get out and vote. "
         }
     },
@@ -1181,7 +1190,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 210002,
         "fields": {
-            "question": "question_21_1996_election",
+            "question": "question_22_1996_election",
             "description": "It's time to defend our administration’s decisions. I will send Former Senate Majority Leader Mitchell out to campaign over the last few days. I will then send Robert Byrd to his home state of West Virginia to prevent the Republican shift happening in that state. \n"
         }
     },
@@ -1189,7 +1198,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 210003,
         "fields": {
-            "question": "question_21_1996_election",
+            "question": "question_22_1996_election",
             "description": "I want to give a speech at our campaign headquarters, in Little Rock. We’ve made good progress since 1992, but the journey is far, far from over. Together, we can keep pushing forward towards a stronger, fairer America for all who call this great nation home. \n"
         }
     },
@@ -1214,7 +1223,8 @@ campaignTrail_temp.answers_json = [
         "pk": 220003,
         "fields": {
             "question": "clinton_2nd_term_question_2",
-            "description": "We must pursue a deeper dialogue with China for the sake of our interests and our ideals. An isolated China is not good for America. I will go to China, and I have invited China's President to come here, not because we agree on everything, but because engaging China is the best way to work on our common challenges like ending nuclear testing, and to deal frankly with our fundamental differences like human rights."
+            "description": "We must pursue a deeper dialogue with China for the sake of our interests and our ideals. 
+I will go to China, and I have invited China's President to come here, not because we agree on everything, but because engaging China is the best way to work on our common challenges like ending nuclear testing, and to deal frankly with our fundamental differences."
         }
     },
     {
@@ -1247,6 +1257,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": "question_16.5_jones_case",
             "description": "Look, she has us beat. Do you know how bad this is gonna look if the Supreme Court picks it up? Plus i've got enough on my plate already. I'm running a country for God's sake. We'll do a settlement as long as it's for a reasonable amount."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240001,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "I believe that if we can foster new technologies and invest our money wisely into those technologies, we will be able to advance freely as a society. Speaking of investing, why don’t we create a new campaign website to reach out to voters with the Internet?\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240002,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "Listen, I'm all for supporting the next generation of communication, but I really don't think we should set up a campaign website. For now, we'll keep silent on the Internet and instead we'll have our surrogates to take the stand on it.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240003,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "Why don’t we take a tour of one of these giant server facilities in the East Coast? It would be a great photo op.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240004,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "I believe that the Internet is a tool that can be used to both our advantage and disadvantage. Jay Rockefeller's been talking about putting regulations on the Web, and I'm inclined to agree with him.\n"
         }
     },
 
@@ -1537,7 +1579,7 @@ campaignTrail_temp.answers_json = [
         "pk": 35013.5,
         "fields": {
             "question": "debate_alexander",
-            "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+            "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
         }
     },
     {
@@ -1545,7 +1587,7 @@ campaignTrail_temp.answers_json = [
         "pk": 35014.5,
         "fields": {
             "question": "debate_alexander",
-            "description": "I will stay up all night researching all of Congress’s weak spots and I will make sure to tie Dole to them. "
+            "description": "I will stay up all night researching all of Congress’s weak spots and I will make sure to tie Alexander to them. "
         }
     },
     {
@@ -1553,7 +1595,7 @@ campaignTrail_temp.answers_json = [
         "pk": 35015.5,
         "fields": {
             "question": "debate_alexander",
-            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I don't look tired and unalert like Dole. "
+            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I don't look tired and unalert like Alexander. "
         }
     },
     {
@@ -1561,7 +1603,7 @@ campaignTrail_temp.answers_json = [
         "pk": 35016.5,
         "fields": {
             "question": "debate_buchanan",
-            "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+            "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
         }
     },
     {
@@ -1585,7 +1627,7 @@ campaignTrail_temp.answers_json = [
         "pk": 35013.5,
         "fields": {
             "question": "debate_forbes",
-            "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+            "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
         }
     },
     {
@@ -1609,7 +1651,7 @@ campaignTrail_temp.answers_json = [
         "pk": 35019.5,
         "fields": {
             "question": "debate_specter",
-            "description": "I will use my time to focus on the subject of Foreign Policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+            "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
         }
     },
     {
@@ -2121,7 +2163,7 @@ campaignTrail_temp.answers_json = [
         "pk": "clinton_2nd_term_question_3",
         "fields": {
             "priority": 0,
-            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "description": "You've always been in support of addressing the issue of climate change. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to the UN in order to figure out a solution, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the world's 36 richest countries, while providing environmentally-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't a part of it.",
             "likelihood": 1
         }
     },
@@ -2130,7 +2172,7 @@ campaignTrail_temp.answers_json = [
         "pk": "clinton_2nd_term_question_3_slim_gop",
         "fields": {
             "priority": 0,
-            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "description": "You've always been in support of addressing the issue of climate change. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to the UN in order to figure out a solution, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the world's 36 richest countries, while providing environmentally-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't a part of it.",
             "likelihood": 1
         }
     },
@@ -10592,6 +10634,126 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12639,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12640,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12641,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12643,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12644,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12645,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12649,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12650,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12651,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12655,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12656,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12657,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.07
+        }
     }
 ]
 
@@ -11534,6 +11696,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 30,
             "issue_score": -0.01,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12646,
+        "fields": {
+            "answer": 240001,
+            "issue": 28,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12647,
+        "fields": {
+            "answer": 240002,
+            "issue": 28,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12653,
+        "fields": {
+            "answer": 240003,
+            "issue": 28,
+            "issue_score": 0.7,
+            "issue_importance": 2
         }
     }
 ]
@@ -12893,7 +13085,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 400015,
             "candidate": 77,
-            "answer_feedback": "You knew it was a bit risky to go with Mayor Hubbell, but you couldn't've imagined how bad the whiplash would be. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. You quickly realize there's 0 way he's getting confirmed, and with a bruise on your face, you end up appointing Janie Shores, an associate judge on the Alabama Supreme Court. "
+            "answer_feedback": "You knew it was risky to go with Mayor Hubbell, but you couldn't've imagined how bad the whiplash would be. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. You quickly realize there's 0 way he's getting confirmed, you drop him as fast as possible and end up appointing Janie Shores, an associate judge on the Alabama Supreme Court. "
         }
     },
     {
@@ -12929,7 +13121,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 70003,
             "candidate": 77,
-            "answer_feedback": "You bite your tounge and commit to reform later. As the crime rates continue to raise, many call you deaf-eared, and say you don't truly hear the American people. They don't understand, they never have, they never will. You slam down the news papers and burry your head in your hands."
+            "answer_feedback": "You bite your tongue and commit to reform later. As the crime rates continue to raise, many call you deaf-eared, and say you don't truly hear the American people. They don't understand, they never have, they never will. You slam down the newspapers and bury your head in your hands."
         }
     },
     {
@@ -12956,7 +13148,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 80004,
             "candidate": 77,
-            "answer_feedback": "It's bold, but that's always how you've thought things over, Slick. Unfortunately, not only do you fail to find him in Ethiopia, Kenya, or anywhere else, but you also shift the mission's tone from peacekeeping to occupation. After the Battle of Mogadishu, with our men’s bodies dragged through the streets and cries of ''Death to Americans,'' you push people further toward Aideed."
+            "answer_feedback": "It's bold, but that's always how you've thought things over, Slick. Unfortunately, not only do you fail to find him in Ethiopia, Kenya, or anywhere else, but you also shift the mission's tone from peacekeeping to occupation. After the Battle of Mogadishu, with our men’s bodies dragged through the streets and cries of ''Death to Americans,'' you push people further toward Aidid."
         }
     },
     {
@@ -12965,7 +13157,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 50001,
             "candidate": 77,
-            "answer_feedback": "Kennedy exlains he's not compromising. You knew this, you just thought you could persuade him, like you've done with almost everyone. Though he'd be glad to help, he’ll stop at nothing to get universal healthcare passed. It's his world on this front, and your just along for the ride."
+            "answer_feedback": "Kennedy explains he's not compromising. You knew this, you just thought you could persuade him, like you've done with almost everyone. Though he'd be glad to help, he’ll stop at nothing to get universal healthcare passed. It's his world on this front, and your just along for the ride."
         }
     },
     {
@@ -13010,7 +13202,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 60003,
             "candidate": 77,
-            "answer_feedback": "‘Don’t Ask, Don’t Tell takes effect in late December of 1993, leaving everyone in the country dissatisfied. When you saw the inital reactions to it, you took a seat back and took a nice, long, laugh. You wiggled your way out of another one, Slick."
+            "answer_feedback": "‘Don’t Ask, Don’t Tell takes effect in late December of 1993, leaving everyone in the country dissatisfied. When you saw the inital reactions to it, you took a seat back and took a nice, long, laugh. Perfect, that’s how you know it’s a good compromise."
         }
     },
     {
@@ -13019,7 +13211,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 110001,
             "candidate": 77,
-            "answer_feedback": "Governor Richards appreciates the visit, and you think your rally went well. But as the presidential motorcade drives around Austin, you can't help but feel as if you're not welcome. "
+            "answer_feedback": "Governor Richards appreciates the visit, and you think you're rally went well. But as the presidential motorcade drives around Austin, you can't help but feel as if you're not welcome. "
         }
     },
     {
@@ -13046,7 +13238,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 110004,
             "candidate": 77,
-            "answer_feedback": "Your visits was met with warm welcomes, and the signs reading \"We love Billy Clinton\" always warm your heart. You exchange meetings with Governors Miller, Tucker, and Folson as you sweep your way through the south, and for once, you finally feel at home."
+            "answer_feedback": "Your visits was met with warm welcomes, and the signs reading \"We love Billy Clinton\" always warm your heart. You exchange meetings with Governors Miller, Tucker, and Folsom as you sweep your way through the south, and for once, you finally feel at home."
         }
     },
     {
@@ -13217,7 +13409,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 210002,
             "candidate": 77,
-            "answer_feedback": "Though thrusted from his position, Mitchell still hits the stump hard, hitting swing state after swing state. Byrd, more reserved due to his age, makes a single speech in his home state, which is met with thunderous applause from attendees. Your confident you have this, Slick.\n"
+            "answer_feedback": "Though thrusted from his position, Mitchell still hits the stump hard, hitting swing state after swing state. Byrd, more reserved due to his age, makes a single speech in his home state, which is met with thunderous applause from attendees. You're confident you have this, Slick.\n"
         }
     },
     {
@@ -13253,7 +13445,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 170002,
             "candidate": 77,
-            "answer_feedback": "Both sides act cool but deep down they both want to take each other's guts out. \n"
+            "answer_feedback": "Both sides act cool but deep down they both want to take each other's guts out. There's no way they'll agree to this. Your compromise is thrown out without so much as a second thought. \n"
         }
     },
     {
@@ -13307,7 +13499,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 50004,
             "candidate": 77,
-            "answer_feedback": "That’s a very technocratic move, sir. Gore, the Atari Democrats, and the so-called Clinton coalition of business and middle-class voters will certainly appreciate this approach."
+            "answer_feedback": "That’s a very technocratic move, sir. Al, the Atari Democrats, and the so-called Clinton coalition of business and middle-class voters will certainly appreciate this approach."
         }
     },
     {
@@ -13405,7 +13597,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 12333,
         "fields": {
             "answer": 55004.5,
-            "candidate": 78,
+            "candidate": 77,
             "answer_feedback": "This is the best option you could give considering this wacky turn of events. And from what you hear from the \npollsters, it resonates well."
         }
     },
@@ -13442,7 +13634,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15004.5,
             "candidate": 77,
-            "answer_feedback": "WE DID IT BILL!!!! IT PASSED!!!"
+            "answer_feedback": "Against all odds, your bill narrowly breaks the filibuster in the Senate, and passes the House soon after. You invite your Task Force to the signing ceremony, to revel in celebration."
         }
     },
     {
@@ -13460,7 +13652,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15001.5,
             "candidate": 77,
-            "answer_feedback": "Damn it, the bill failed."
+            "answer_feedback": "Jesus. An entire year of your life, plastered and filled with stab wounds are laid out in CSPAN as the bill fails in the House of Representatives. Speaker Tom Foley profusely apologizes on the phone call to you. ”I thought we had it,” he says, his voice straining. “I thought we did too,” you reply. silence “It’s okay Tom, we have other things to mind,” you barely uttered out. There’s no coming back from this one."
         }
     },
     {
@@ -13775,7 +13967,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 170003,
             "candidate": 77,
-            "answer_feedback": "Silly Billy. That's what everyone called you after announcing this. \n"
+            "answer_feedback": "And with that, the carnage begins anew. More blood, more death, more atrocities. All on you.\n"
         }
     },
     {
@@ -14415,7 +14607,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 220001,
             "candidate": 77,
-            "answer_feedback": "You would think Newt Gingrich is the last person that would agree with you when it comes to solving climate change, but you should know better than to judge a book by it’s cover. He’s takes your plan with great interest, and hopes to work out a strong green bill to your desk ASAP! Bringing you a great feeling of whiplash for the rest of the week.\n\n\n"
+            "answer_feedback": "You would think Newt Gingrich is the last person that would agree with you when it comes to solving climate change, but you should know better than to judge a book by it’s cover. He takes your plan with great interest, and hopes to work out a strong green bill to your desk ASAP, bringing you a great feeling of whiplash for the rest of the week.\n\n\n"
         }
     },
     {
@@ -14478,7 +14670,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 230001,
             "candidate": 77,
-            "answer_feedback": "After a talk with Starr, you decide to keep fighting. You look at yourself in the mirror, you think back to that day. You think you're a sick womanizing bastard, but it's you. You have to make more excuses for yourself because it's you. You're married, have a daughter, and you're a role model for 250 million people. You've considered coming clean so many times you can't count, but you know you can't. You sit and think of what it could look like if you're not careful. Hopefully, it never comes to that."
+            "answer_feedback": "After a talk with Starr, you decide to keep fighting. You look at yourself in the mirror. You see a sick womanizing bastard, but it's you. You have to make more excuses for yourself because it's you. You're married. You're a role model for 250 million people. You've considered coming clean so many times you can't count, but you know you can't. You sit and think of what it could look like if you're not careful. Hopefully, it never comes to that."
         }
     },
     {
@@ -14551,6 +14743,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 85017.5,
             "candidate": 77,
             "answer_feedback": "Given the slim majority on the hill, it passed! You smile from ear to ear when you see Gingrich's defeated announcement on TV."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12638,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "answer_feedback": "cg96.com releases on the World Wide Web on July 10th of 1996 and it is an instant hit with online voters. This is going to be an unexpected boon to the Campaign and to your popularity with more educated Voters that own a computer.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12642,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "answer_feedback": "Sometimes it's better to be safe than sorry. But, as the campaign season wears on, you can't help but feel you missed an opportunity here."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12648,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "answer_feedback": "The President of the United States touring a server warehouse? Many tech nerds never thought that they would ever see the day, but here you are. However, conservatives whine about you taking time off of your duties for this. You sigh. They'll never get it.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12654,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "answer_feedback": "Rockefeller and his Blue Dog Democratic colleagues support your moves to put regulations on the Internet, it also allows for you to expand your support among Moderates and Independents in the Democratic Party.\n"
         }
     }
 ]
@@ -15188,7 +15416,7 @@ campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
 campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/IqY9z3j.png";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
 updateHistoricalData(newVpTableHistorical, newHistHexcolour, newHistName, newHistEV, newHistPV, newHistPVP);
-    question_insert("question_21_1996_election", 
+    question_insert("question_22_1996_election", 
         {
             "model": "campaign_trail.question",
         "pk": "insert_bill_lives",
@@ -15213,7 +15441,7 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Reformists";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
 campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/IqY9z3j.png";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
-    question_insert("question_21_1996_election", 
+    question_insert("question_22_1996_election", 
         {
             "model": "campaign_trail.question",
         "pk": "insert_bill_dies",
@@ -15393,11 +15621,11 @@ resetVariables(resetCondition);
     if (ans == 70002){
     LibSocial += 1;
     }
-    //If you vetoo welfare reform
+    //If you veto welfare reform
     if (ans == 190002){
     LibSocial += 1;
     }
-    //reichs plan
+    //Reichs plan
     if (ans == 30001){
     LibSocial += 1;
     }
@@ -15523,6 +15751,14 @@ PublicSupport -= 1;
     if (ans == 160003){
     BangedMonica += 1;
     }
+    //Paula Jones CYOA
+    if (ans == 230002){
+    PublicSupport -= 1;
+    }
+    if (ans == 230003){
+    PublicSupport -= 2;
+    JonesSettled += 1;
+    }
     //End of the Bosnian War CYOA
     if (ans == 170001){
     PublicSupport += 1;
@@ -15554,6 +15790,20 @@ PublicSupport += 1;
     PublicSupport -= 2;
     LEGWin -= 1;
     }
+    //Internet CYOA
+    if (ans == 240001){
+    PublicSupport += 2;
+    }
+    if (ans == 240002){
+    PublicSupport -= 1;
+    }
+    if (ans == 240002){
+    PublicSupport -= 1;
+    LEGWin -= 1;
+    }
+    if (ans == 240004){
+    PublicSupport += 1;
+    }
     //Desert Strike CYOA
     if (ans == 200001){
     PublicSupport -= 1;
@@ -15583,14 +15833,6 @@ PublicSupport += 1;
     }
     if (ans == 220004){
     PublicSupport += 2;
-    }
-    //Paula Jones CYOA
-    if (ans == 230002){
-    PublicSupport -= 1;
-    }
-    if (ans == 230003){
-    PublicSupport -= 2;
-    JonesSettled += 1;
     }
     //BEGINING OF GORE CYOA
 
@@ -15745,8 +15987,8 @@ if(ans == 170003){
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
-    campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
-    campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
+    campaignTrail_temp.candidate_json[3]["fields"].last_name = "Richard";
+    campaignTrail_temp.candidate_json[3]["fields"].first_name = "Lamm";
     campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
 if (LibSocial == 2 && GOPSupermajority == 1 && ans == 170002){
@@ -15755,8 +15997,8 @@ campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
-campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
-campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
+campaignTrail_temp.candidate_json[3]["fields"].last_name = "Lamm";
+campaignTrail_temp.candidate_json[3]["fields"].first_name = "Richard";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
 if(LibSocial == 2 && GOPSupermajority == 1 && ans == 170003){
@@ -15765,8 +16007,8 @@ campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Patrick";
-campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
-campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
+campaignTrail_temp.candidate_json[3]["fields"].last_name = "Lamm";
+campaignTrail_temp.candidate_json[3]["fields"].first_name = "Richard";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 
 //Specter CYOA
@@ -16008,7 +16250,7 @@ if (ans == 170003){
                     }
                 
                 );
-question_insert("question_20_iraq_airstrikes", 
+question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_buchanan",
@@ -16034,7 +16276,7 @@ question_insert("question_20_iraq_airstrikes",
                     }
                 
                 );
-                    question_insert("question_20_iraq_airstrikes", 
+                    question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_alexander",
@@ -16059,7 +16301,7 @@ question_insert("question_20_iraq_airstrikes",
                     }
                 
                 );
-question_insert("question_20_iraq_airstrikes", 
+question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_specter",
@@ -16083,7 +16325,7 @@ question_insert("question_20_iraq_airstrikes",
                     }
                 
                 );
-                question_insert("question_20_iraq_airstrikes", 
+                question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_forbes",
@@ -16108,7 +16350,7 @@ question_insert("question_20_iraq_airstrikes",
                         }
                     
                     );
-                    question_insert("question_20_iraq_airstrikes", 
+                    question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_forbes",
@@ -16142,10 +16384,11 @@ vpTable = {
     "Al Gore" : vpName,
 
     "Bob Dole" : "Jack Kemp",
-    "Patrick Buchanan" : "Pete Wilson",
-    "Lamar Alexander" : "John Kasich",
+    "Patrick Buchanan" : "John Kasich",
+    "Lamar Alexander" : "Nancy Kassebaum",
     "Phil Gramm" : "Tommy Thompson",
     "Arlen Specter" : "Carroll Campbell",
+    "Pete Wilson" : "Judd Gregg",
 
     "Dan Quayle" : "John Ashcroft",
     "Newt Gingrich" : "John Engler",
@@ -16156,15 +16399,16 @@ vpTable = {
     "Steve Forbes" : "Orrin Hatch",
     "George W. Bush" : "Dick Cheney",
     "Elizabeth Dole" : "Connie Mack III",
-    "Jeb Bush" : "Fred Thompson",
+    "Jeb Bush" : "Frank Keating",
     "John McCain" : "Chuck Hagel",
 
     "Ralph Nader" : "Winona LaDuke",
     "H. Ross Perot" : "Pat Choate",
-    "Christine Todd Whitman" : "David Boren",
+    "Richard Lamm" : "Ed Zschau",
     "Pat Buchanan" : "Ezola Foster",
     "John Hagelin" : "Nat Goldhaber",
     "Lowell Weicker" : "Dominic Cortese", 
+    "Ron Paul" : "Robert Bowman",
 }
 vpTableHistorical = {
     "Bill Clinton" : "Al Gore",
@@ -17541,7 +17785,13 @@ function applyTooltipsToObject(obj) {
         }
     }
 }
-
+function modifytooltip(searchstring, newtooltip) {
+    for (let x in tooltipList) {
+        if (tooltipList[x]["searchString"] == searchstring) {
+            tooltipList[x]["explanationText"] = newtooltip;
+        };
+    }
+}
 applyTooltipsToObject(campaignTrail_temp.questions_json);
 applyTooltipsToObject(campaignTrail_temp.answers_json);
 applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
