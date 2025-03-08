@@ -6,7 +6,7 @@
             "lastName": "Hart",
             "party": "Democrat",
             "homeState": "Colorado",
-            "color": "#0D0096",
+            "color": "#3d54ff",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -49,7 +49,7 @@
             "lastName": "Robertson",
             "party": "Republican",
             "homeState": "Virginia",
-            "color": "#AB0000",
+            "color": "#ff3d3d",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -90,9 +90,9 @@
             "id": 202,
             "firstName": "Ron",
             "lastName": "Paul",
-            "party": "Union",
-            "homeState": "North Dakota",
-            "color": "#00C100",
+            "party": "Libertarian",
+            "homeState": "Texas",
+            "color": "#ffc23d",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -129,9 +129,9 @@
             "id": 203,
             "firstName": "Lenora",
             "lastName": "Fulani/Other",
-            "party": "Independent",
-            "homeState": "Virginia",
-            "color": "#FFFF00",
+            "party": "New Alliance",
+            "homeState": "New York",
+            "color": "#54ff3d",
             "issueScores": [
                 {
                     "issueId": 100,
