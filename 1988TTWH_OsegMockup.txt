@@ -5410,11 +5410,11 @@
             "questions": [
                 {
                     "id": 1000,
-                    "description": "Which of the Republican Primary states do you wish to contest the most?",
+                    "description": "It's January 10th, 1988. Normally speaking the Vice President would have this primary all wrapped around his finger, but with the recession and Bush's own unpopularity, it seems that anyone can earn the nomination. As you're looking around the debate stage, eyeing your opponents, you're stopped by the moderator asking for everyone's opening statements. This is your chance, Pat. What are you going to say?",
                     "answers": [
                         {
                             "id": 5000,
-                            "description": "We will put funds into Illinois, a key state we must be victorious in come November.",
+                            "description": "Over the years I have taken on conservative positions, I am a conservative, and if anyone here tries to question that, I am happy to state my positions very clearly. I believe in a balanced budget, I believe in cutting taxes and I believe in more funding for our military.",
                             "feedback": "A rather large state will need plenty of attention early.",
                             "answerEffects": [
                                 {
@@ -5428,7 +5428,7 @@
                         },
                         {
                             "id": 5001,
-                            "description": "We will put funds in trying to win Pennsylvania. We can secure many loyal delegates here.",
+                            "description": "The Republican Party should always stand for morality. When you look at the Democrats though, you see these odd radical ideas. This Dukakis feller uplifted a ban on sodomyt Jesse Jackson wants to get nd of the death penalty! These ideas are fundamentally against the moral standing on which our nation was founded and if no one else on this stage will protect that standing, then I proudly will",
                             "feedback": "You lose Pennsylvania, but party leaders easily back you at the convention.",
                             "answerEffects": [
                                 {
@@ -5442,7 +5442,7 @@
                         },
                         {
                             "id": 5002,
-                            "description": "We will put funds in California, since we may not be able to travel there as much come the fall.",
+                            "description": "Ronald Reagan has done amazing things for social conservatism and in keeping peace through strength. However, this recession has shown clearly that Washington can be doing more. I plan to use the government to clean up the streets, help our farmers, and lick this recession.",
                             "feedback": "Favorite Son Earl Warren carries the state easily. You still secure the nomination due to party backing.",
                             "answerEffects": [
                                 {
@@ -5453,6 +5453,12 @@
                                     "amount": 0.048
                                 }
                             ]
+                        },
+                        {
+                            "id": 3058027,
+                            "description": "What the American people need right now is faith. I may not be a Senator or a governor but I know a lot about faith, we've seen a lot of crime and a lot of pain in the last few years, and I want you folks to know that we can heal, and bring back our faith.",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
                         }
                     ],
                     "keepInPlaceIfQuestionsShuffled": true
@@ -6911,7 +6917,7 @@
         "questionTextColor": "#000000"
     },
     "hasStateVisits": false,
-    "scenarioDescription": "<p>The late 80’s have been stained with a deep recession. Once thought to be a new golden age of America's life has turned from prosperity to protests, riots, crime, and economic instability. After these extreme years of turmoil, the nation seems desperate for a new start. It seems both parties have listened to the prayers of the downtrodden, with young senator Gary Hart facing off as the Democratic nominee against political outsider and televangelist Pat Robertson from the Republicans.</p><p>Hart must focus on the message of hope and change all while keeping his squeaky clean image intact. Robertson must unite the broken Republican party while dodging the constant controversies bubbling from his mouth and his past.<p>",
+    "scenarioDescription": "<p>The late 80’s have been stained with a deep recession. Once thought to be a new golden age of America's life has turned from prosperity to protests, riots, crime, and economic instability. After these extreme years of turmoil, the nation seems desperate for a new start. It seems both parties have listened to the prayers of the downtrodden, with young senator Gary Hart facing off as the Democratic nominee against political outsider and televangelist Pat Robertson from the Republicans.</p><ul><li>Hart must focus on the message of hope and change all while keeping his squeaky clean image intact. </li><li>Michael Dukakis, Governor of Massachusetts, is a new figure on the national scene. Can he keep the good feelings going through election day?</li></ul><p>Robertson must unite the broken Republican party while dodging the constant controversies bubbling from his mouth and his past.</p>",
     "scenarioImageUrl": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNjNGViZTJiZmFmNDI2NDI5ZWQ4ZTA5Yzk2MWQxZGE2NTk5ZGM3MyZjdD1n/ZyHKIdXzSPb6msfe6b/giphy.gif",
     "credits": "by ItsAstronomical",
     "music": [],
