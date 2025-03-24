@@ -1048,6 +1048,11 @@ if(!campaignTrail_temp.loaded1){
     "cannotBeCheated" : true
   },
   "Surviving at the Top" : {
+    "image" : "https://i.imgur.com/N7TuA1Q.png",
+    "description" : "Face Donald Trump for re-election.",
+    "cannotBeCheated" : true
+  },
+  "Fort Sumter" : {
     "image" : "https://i.imgur.com/BQ5EzS8.png",
     "description" : "Face Newt Gingrich for re-election.",
     "cannotBeCheated" : true
