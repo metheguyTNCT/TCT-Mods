@@ -1013,53 +1013,48 @@ if(!campaignTrail_temp.loaded1){
   
   campaignTrail_temp.achievements = {    
   "Best Served Cold" : {
-    "image" : "https://i.imgur.com/SNehzeR.png",
+    "image" : "https://i.imgur.com/wfniYvg.png",
     "description" : "Face Jeb Bush for re-election.",
     "cannotBeCheated" : true
   },
-  "Running on Empty" : {
-    "image" : "https://i.imgur.com/qJXpcWt.png",
+  "Faith of My Fathers" : {
+    "image" : "https://i.imgur.com/o02Nrte.png",
     "description" : "Face John McCain for re-election.",
     "cannotBeCheated" : true
   },
-  "Fort Sumter" : {
-    "image" : "https://i.imgur.com/fPsEid0.png",
-    "description" : "Face Newt Gingrich for re-election.",
+  "Hope to Higher Ground" : {
+    "image" : "https://i.imgur.com/wGJdJmc.png",
+    "description" : "Face Mike Huckabee for re-election.",
     "cannotBeCheated" : true
   },
   "Sundance" : {
-    "image" : "https://i.imgur.com/snvJE5y.png",
+    "image" : "https://i.imgur.com/HVzc22K.png",
     "description" : "Face Rudy Giuliani for re-election.",
     "cannotBeCheated" : true
   },
   "Poor Little Rich Boy" : {
-      "image" : "https://i.imgur.com/4loKV7H.png",
+      "image" : "https://i.imgur.com/Pbh5m2O.png",
       "description" : "Face Steve Forbes for re-election.",
       "cannotBeCheated" : true
   },
   "Golden Opportunity" : {
-      "image" : "https://i.imgur.com/Hvq7waQ.png",
+      "image" : "https://i.imgur.com/04dXX1l.png",
       "description" : "Face Ronald Paul for re-election.",
       "cannotBeCheated" : true
   },
   "You Break It, You Buy It" : {
-    "image" : "https://i.imgur.com/xna67d0.png",
+    "image" : "https://i.imgur.com/srtEUUh.png",
     "description" : "Face Colin Powell for re-election.",
     "cannotBeCheated" : true
   },
   "Surviving at the Top" : {
-    "image" : "https://i.imgur.com/N7TuA1Q.png",
-    "description" : "Face Donald Trump for re-election.",
+    "image" : "https://i.imgur.com/BQ5EzS8.png",
+    "description" : "Face Newt Gingrich for re-election.",
     "cannotBeCheated" : true
   },
   "Cotton on the Roadside" : {
     "image" : "https://i.imgur.com/xozHLtS.png",
     "description" : "Face Trent Lott for re-election.",
-    "cannotBeCheated" : true
-  },
-  "Let the Eagle Soar" : {
-    "image" : "https://i.imgur.com/rp5CPbj.png",
-    "description" : "Face John Ashcroft for re-election.",
     "cannotBeCheated" : true
   },
   "Angler" : {
@@ -1068,8 +1063,8 @@ if(!campaignTrail_temp.loaded1){
     "cannotBeCheated" : true
   },
   "The Nuclear Option" : {
-    "image" : "https://i.imgur.com/WoYe5uy.png",
-    "description" : "Face Sam Nunn for re-election.",
+    "image" : "https://i.imgur.com/q1z1cMT.png",
+    "description" : "Face Richard Lugar for re-election.",
     "cannotBeCheated" : true
   }
   }
