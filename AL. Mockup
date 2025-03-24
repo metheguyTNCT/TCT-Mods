@@ -252,7 +252,7 @@ if(!campaignTrail_temp.loaded1){
     document.getElementById("wittyquote").color = "white"
     corrr=`\n<h2 style="font-family: monospace; font-style: normal;">THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='4' color='#ffffff'><em>`+customquote+`</em></font>`
 
-    document.getElementById("header").src = "https://i.imgur.com/3BJYS3p.png"
+    document.getElementById("header").src = "https://i.imgur.com/9XyDfDP.jpeg"
     nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#828387"
     nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#cccccc"
     document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
