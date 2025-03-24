@@ -694,8 +694,8 @@ if(!campaignTrail_temp.loaded1){
     const song1 = new Song(
       "Another National Anthem",
       "Stephen Sondheim",
-      "https://m.media-amazon.com/images/I/71KE4JaW0RL._UF1000,1000_QL80_.jpg",
-      "https://files.catbox.moe/a3iqqe.mp3"
+      "https://i.scdn.co/image/ab67616d0000b273b8f5d3071d63316497e68eb0",
+      "https://files.catbox.moe/8d1aah.mp3"
     );
     
     const song2 = new Song(
