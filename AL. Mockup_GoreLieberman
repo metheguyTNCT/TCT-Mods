@@ -58762,25 +58762,25 @@ const ads = [
             else if((Wars == 0) && (e.player_answers.includes(9021) || e.player_answers.includes(9278) || e.player_answers.includes(9287)) && e.player_answers.includes(9086)){  // Hart
                 switcheroo21();
 				Dem += 12;  
-                pictureDict[17] = "https://i.imgur.com/90cXTi8.png"
+                pictureDict[17] = "https://i.imgur.com/sRywuAo.png"
                 campaignTrail_temp.questions_json[17] = tunnel(13001);   
             }
             else if((e.player_answers.includes(8977) || e.player_answers.includes(9115)) && (e.player_answers.includes(9228) || e.player_answers.includes(9221) || e.player_answers.includes(9235)) && (Wars == 0)){ // Clark
                 switcheroo20();
 				Dem += 11;  
-                pictureDict[17] = "https://i.imgur.com/jB3oz8Q.png"
+                pictureDict[17] = "https://i.imgur.com/Pi34Eex.png"
                 campaignTrail_temp.questions_json[17] = tunnel(13028);   
             }
             else if((RummyGone == 0) && (Wars == 2) && (Cred >= 4)){ // Byrd
                 switcheroo19();
 				Dem += 10;  
-                pictureDict[17] = "https://i.imgur.com/bXDru7P.png"
+                pictureDict[17] = "https://i.imgur.com/pMXS6HS.png"
                 campaignTrail_temp.questions_json[17] = tunnel(12987);   
             }
 			else if((VicePres == 1)&&(RummyGone == 1)&&(EnronFlop == 1)){ // Kennedy
 				switcheroo7();            
 				Dem += 7;  
-                pictureDict[17] = "https://i.imgur.com/NiHOPYg.png"
+                pictureDict[17] = "https://i.imgur.com/fCnKrw3.png"
 				
 				if(ConRep < 5){
 					campaignTrail_temp.questions_json[17] = tunnel(9992);   
@@ -58793,21 +58793,21 @@ const ads = [
 				switcheroo17();  
 			
 				Dem += 8;
-                pictureDict[17] = "https://i.imgur.com/kGLx2gA.png"
+                pictureDict[17] = "https://i.imgur.com/5QMuGVQ.png"
 				campaignTrail_temp.questions_json[17] = tunnel(13019);                     
 			}
 			else if(AvertedWins >= 2 && VenturaRunning == 1 && Wars > 0){ // Gephardt
 				switcheroo18();  
 			
 				Dem += 9;
-                pictureDict[17] = "https://i.imgur.com/YJcm7SO.png"
+                pictureDict[17] = "https://i.imgur.com/TwZ6aYS.png"
 				campaignTrail_temp.questions_json[17] = tunnel(13010);                     
 			}
 			else if(Wins < 3 && Wars == 0){ // Clinton
 				switcheroo1();  
 			
 				Dem += 1;
-                pictureDict[17] = "https://i.imgur.com/yHki03v.png"
+                pictureDict[17] = "https://i.imgur.com/ywya8bo.png"
 				if((Cred < 4) && (Jingo >= 2)){
 					campaignTrail_temp.questions_json[17] = tunnel(9708);   
 				}
@@ -58824,7 +58824,7 @@ const ads = [
 			else if(Wins < 3 && Wars > 0){ // Gore
 				switcheroo2();   
 				Dem += 2;
-                pictureDict[17] = "https://i.imgur.com/1NfAHF2.png"
+                pictureDict[17] = "https://i.imgur.com/6Qxn5ZS.png"
 				
 				if(Cred < 4){
 					campaignTrail_temp.questions_json[17] = tunnel(9702);   
@@ -58836,7 +58836,7 @@ const ads = [
 			else if(Wins > 2 && Wins < 5 && Wars == 0){ // Edwards
 				switcheroo3();                
 				Dem += 3;
-                pictureDict[17] = "https://i.imgur.com/6FReBoj.png"
+                pictureDict[17] = "https://i.imgur.com/SeNeSSp.png"
 				
 				if((Cred < 4) && (ConRep < 4)){
 					campaignTrail_temp.questions_json[17] = tunnel(9696);   
@@ -58854,7 +58854,7 @@ const ads = [
 			else if(Wins > 2 && Wins < 5 && Wars > 0){ // Wellstone
 				switcheroo4();              
 				Dem += 4;    
-                pictureDict[17] = "https://i.imgur.com/GLpriTb.png"
+                pictureDict[17] = "https://i.imgur.com/uT9BAL6.png"
 				
 				if((Cred < 4) && (ConRep < 4) && (Jingo < 3)){ // 000
 					campaignTrail_temp.questions_json[17] = tunnel(9690);   
@@ -58884,7 +58884,7 @@ const ads = [
 			else if(Wins > 4 && Wars == 0){ // Lieberman
 				switcheroo5();            
 				Dem += 5;    
-                pictureDict[17] = "https://i.imgur.com/RPXVdD7.png"
+                pictureDict[17] = "https://i.imgur.com/RBmi22k.png"
 				
 				if((Cred < 4) && (ConRep < 4) && (Jingo < 2)){ // 000
 					campaignTrail_temp.questions_json[17] = tunnel(9684);   
@@ -58914,7 +58914,7 @@ const ads = [
 			else if(Wins > 4 && Wars > 0){ // Sharpton  
 				switcheroo6();            
 				Dem += 6;  
-                pictureDict[17] = "https://i.imgur.com/JUD3527.png"
+                pictureDict[17] = "https://i.imgur.com/myb6X0d.png"
 
 				if((Cred < 4) && (ConRep < 4)){
 					campaignTrail_temp.questions_json[17] = tunnel(9678);   
