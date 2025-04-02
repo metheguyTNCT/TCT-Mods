@@ -734,10 +734,10 @@ if(!campaignTrail_temp.loaded1){
     );
   
     const song7 = new Song(
-      "Putting On the Ritz",
-      "Taco",
-      "https://m.media-amazon.com/images/M/MV5BZGMxMzlhNWEtOWZjYS00YTgwLTg5MGItYzk5ZjRiODlkYmY1XkEyXkFqcGc@._V1_.jpg",
-      "https://files.catbox.moe/lyfh0c.mp3"
+      "Virtual Insanity",
+      "Jamiroquai",
+      "https://i.scdn.co/image/ab67616d0000b2739f0d8f5039a572dbfc21e368",
+      "https://audio.jukehost.co.uk/R1rX5dSAQ0ViwsOpYBqtgNDoMQJH6NLd"
     );
   
     playlist.addSong(song1);
