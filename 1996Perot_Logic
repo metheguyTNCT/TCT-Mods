@@ -27,7 +27,7 @@ function createEnding(engine, results) {
         }
         if(engine.playerEvAtLeast(results) < 266) {
         engine.setNewMusic([{
-    displayName: "Leonard Cohen- The Future",
+    displayName: "Johnny Cash- The Wanderer",
     imageUrl: "https://i.scdn.co/image/ab67616d0000b2731c8a71d3f8d6217c0ce5fc18",
     url: "https://files.catbox.moe/nlvcks.mp3",
   },
