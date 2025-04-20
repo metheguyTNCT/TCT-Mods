@@ -5,7 +5,7 @@ function createEnding(engine, results) {
     // I am defining some endings below. Note I have to check who the player played as first in this scenario.
     // You could also add more slides to have endings with pages
 
-    // If you played as Cheney
+    // If you played as Gramm
     if(playerId == 77) {
         if(engine.playerWonEv(results)) {
             return {
