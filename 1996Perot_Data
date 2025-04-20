@@ -1,12 +1,12 @@
 {
     "candidates": [
-                {
+        {
             "id": 78,
             "firstName": "Richard",
             "lastName": "Gephardt",
             "party": "Democratic",
             "homeState": "Missouri",
-            "color": "#6b93db",
+            "color": "#000080",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -43,15 +43,15 @@
                 88
             ],
             "startingGlobalMultiplier": 1,
-            "bannerImageUrl": "https://i.imgur.com/iBJgfeJ.jpeg"
+            "bannerImageUrl": ""
         },
         {
             "id": 77,
-            "firstName": "Dick",
-            "lastName": "Cheney",
+            "firstName": "Phil",
+            "lastName": "Gramm",
             "party": "Republican",
             "homeState": "Texas",
-            "color": "#d44d32",
+            "color": "#df2516",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -80,7 +80,7 @@
                 }
             ],
             "description": "<p style='margin-top:0em;'><em>\"Principle is okay up to a certain point, but principle doesn't do any good if you lose.\"</em><p>This is abnormal. Never before has a President with stable approval been seriously challenged, let alone actually failed to gain the party nomination. So what happened? Maybe it was the bullshit allegations from Williamson and Kennedy during the Texas primary? Perhaps the sham of a court purporting to be the 6th Circuit? Regardless of how we got here, Biden knew it couldn't stand.<br><br>Kennedy, a grifter with a nostalgic name. DeSantis, a homophobe with an obsession with children. And of course, finally, Donald Trump, the closest thing Biden had to a true \\\"rival\\\". How could he sit back and allow the United States to fall to this level?<br><br>The mainstream party will stand behind him, not fooled by RFK Jr. They know that Biden is the only reasonable person in this race, and surely the voters will see that.<br><br>Biden has been through political hell, from one of the greatest campaigns for Senate, to now four separate runs for President. The Democratic party has shifted since then, hasn't it? And once again it seems the season is shifting, and the winds of change bite at Biden's back.<br><br>One last time for the road, Joe?</p>",
-            "imageUrl": "https://i.imgur.com/Sb7TG6I.png",
+            "imageUrl": "https://i.imgur.com/Ec6eJqL.png",
             "runningMateIds": [
                 81,
                 82,
@@ -88,9 +88,8 @@
                 84
             ],
             "startingGlobalMultiplier": 1,
-            "bannerImageUrl": "https://i.imgur.com/CTgh8xr.jpeg"
+            "bannerImageUrl": ""
         },
-
         {
             "id": 79,
             "firstName": "Ross",
@@ -126,21 +125,21 @@
                 }
             ],
             "description": "<p style='margin-top:0em;'><em>\"This situation got so bad that I decided I’d better get into it. The American people asked me to get into it.\"</em><p>This is abnormal. Never before has a President with stable approval been seriously challenged, let alone actually failed to gain the party nomination. So what happened? Maybe it was the bullshit allegations from Williamson and Kennedy during the Texas primary? Perhaps the sham of a court purporting to be the 6th Circuit? Regardless of how we got here, Biden knew it couldn't stand.<br><br>Kennedy, a grifter with a nostalgic name. DeSantis, a homophobe with an obsession with children. And of course, finally, Donald Trump, the closest thing Biden had to a true \\\"rival\\\". How could he sit back and allow the United States to fall to this level?<br><br>The mainstream party will stand behind him, not fooled by RFK Jr. They know that Biden is the only reasonable person in this race, and surely the voters will see that.<br><br>Biden has been through political hell, from one of the greatest campaigns for Senate, to now four separate runs for President. The Democratic party has shifted since then, hasn't it? And once again it seems the season is shifting, and the winds of change bite at Biden's back.<br><br>One last time for the road, Joe?</p>",
-            "imageUrl": "https://i.imgur.com/6lCy3R1.png",
+            "imageUrl": "https://i.imgur.com/hHDeoUI.png",
             "runningMateIds": [
                 89,
                 90
             ],
             "startingGlobalMultiplier": 12,
-            "bannerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Ross_Perot_1992_bumper_sticker_2013BSLineD-1x1.jpg"
+            "bannerImageUrl": ""
         },
         {
             "id": 80,
             "firstName": "Ralph",
             "lastName": "Nader",
             "party": "Green",
-            "homeState": "Virginia",
-            "color": "#427c2d",
+            "homeState": "Connecticut",
+            "color": "#008d51",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -177,53 +176,53 @@
         },
         {
             "id": 81,
+            "firstName": "John",
+            "lastName": "McCain",
+            "party": "Republican",
+            "homeState": "Arizona",
+            "color": "#FF0000",
+            "issueScores": [],
+            "description": "<p>Dick Cheney is a seasoned operative of the Republican Party who has served as White House Chief of Staff, Minority Whip in Congress, Secretary of Defense, and as CEO of Halliburton. He would be a respected choice across the Republican spectrum, and would add experience and gravitas to the Republican ticket.</p>",
+            "imageUrl": "https://i.imgur.com/f5LZdO1.png",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 82,
+            "firstName": "Lamar",
+            "lastName": "Alexander",
+            "party": "Republican",
+            "homeState": "Tennessee",
+            "color": "#FF0000",
+            "issueScores": [],
+            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "imageUrl": "https://i.imgur.com/kWRW8Tl.png",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 83,
+            "firstName": "Connie",
+            "lastName": "Mack",
+            "party": "Republican",
+            "homeState": "Florida",
+            "color": "#FF0000",
+            "issueScores": [],
+            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "imageUrl": "https://i.imgur.com/CSVSruJ.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 84,
             "firstName": "Christopher",
             "lastName": "Cox",
             "party": "Republican",
             "homeState": "California",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Dick Cheney is a seasoned operative of the Republican Party who has served as White House Chief of Staff, Minority Whip in Congress, Secretary of Defense, and as CEO of Halliburton. He would be a respected choice across the Republican spectrum, and would add experience and gravitas to the Republican ticket.</p>",
+            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
             "imageUrl": "https://i.imgur.com/dFAFK1f.png",
-            "runningMateIds": [],
-            "startingGlobalMultiplier": 1
-        },
-        {
-            "id": 82,
-            "firstName": "John",
-            "lastName": "Danforth",
-            "party": "Republican",
-            "homeState": "Missouri",
-            "color": "#FF0000",
-            "issueScores": [],
-            "description": "<p>John Danforth served four terms as Senator from Missouri. He has broad experience in government, and as a moderate Republican would reinforce Bush's claim to be a uniter. Danforth also has close relationships with conservative stalwarts such as Kit Bond, Clarence Thomas, and John Ashcroft, and would not arouse undue suspicion from the conservative wing of the party. Winning Missouri back would be a key piece of any Republican victory in 2000.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/john-danforth-2000.jpg",
-            "runningMateIds": [],
-            "startingGlobalMultiplier": 1
-        },
-        {
-            "id": 83,
-            "firstName": "Tom",
-            "lastName": "Ridge",
-            "party": "Republican",
-            "homeState": "Pennsylvania",
-            "color": "#FF0000",
-            "issueScores": [],
-            "description": "<p>Tom Ridge is the popular Governor of a large swing state. Pennsylvania's 23 electoral votes would almost ensure a Bush victory if Ridge could deliver them. He has a reputation as an able administrator and has been very tough on crime. However, he has also been pro-choice for his entire career, and his selection as running mate could cause issues with the Republican base in other regions.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/tom-ridge-2000.jpg",
-            "runningMateIds": [],
-            "startingGlobalMultiplier": 1
-        },
-        {
-            "id": 84,
-            "firstName": "Colin",
-            "lastName": "Powell",
-            "party": "Republican",
-            "homeState": "Virginia",
-            "color": "#FF0000",
-            "issueScores": [],
-            "description": "<p>Colin Powell is a moderate Republican and a key general from the Desert Storm campaign. He enjoys high personal popularity among the American electorate. He would be the first African-American to be a running mate for a major party. It will take some strong inducements to get Powell to run, however. He has repeatedly stated that he is not seeking the role, but perhaps you could persuade him by taking a moderate position on the social issues of the day.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/colin-powell-2000.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -63123,13 +63122,13 @@
         "secondaryGameWindowTextColor": "#e9e9e9",
         "bottomBannerBackgroundColor": "#d10000",
         "bottomBannerTextColor": "#FFFFFF",
-        "advisorImage": "https://i.imgur.com/RMnIIev.png",
+        "advisorImage": "https://i.imgur.com/MpjdGjQ.png",
         "quote": "This is a quote!"
     },
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
     "scenarioDescription": "<p>George W. Bush attempts to chart a new direction for the U.S., while Al Gore tries to win election as the sitting Vice President. Ralph Nader is a leftist third-party candidate. The economy has been booming, until quite recently, but President Clinton has been through an embarrassing scandal.</p><p>Candidates will debate what to do with a $200 billion budget surplus, among other things. In the real world, Florida was decided by 537 votes after 36 days and a Supreme Court decision.</p>",
-    "scenarioImageUrl": "https://i.imgur.com/qEhmh4G.png",
+    "scenarioImageUrl": "https://i.imgur.com/kIb1tZ4.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
@@ -63165,7 +63164,11 @@
         },
         {
             "key": "Do-Nothing Congress",
-            "value": "<img src=https://i.imgur.com/lwIruJE.jpeg> A soldier fighting for peace"
+            "value": "<img src=https://i.imgur.com/lwIruJE.jpeg> Determined to obstruct Perot's agenda."
+        },
+        {
+            "key": "Dickey Flatt",
+            "value": "<img src=https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4tgAAOSwTNNhieLA/$_57.JPG?set_id=8800005007> Gramm's imaginary friend."
         }
     ]
 }
