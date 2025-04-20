@@ -8,8 +8,15 @@ function createEnding(engine, results) {
     // If you played as Gramm
     if(playerId == 77) {
         if(engine.playerWonEv(results)) {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "The Future",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Wow, Alfred! You have won the 1936 election.",
                         imageUrl: "https://itsastronomical.com/assets/1936b/landon.png",
@@ -19,8 +26,15 @@ function createEnding(engine, results) {
             }
         }
         if(engine.playerEvAtLeast(results) < 266) {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "Leonard Cohen- The Future",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b2731c8a71d3f8d6217c0ce5fc18",
+    url: "https://files.catbox.moe/nlvcks.mp3",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Sorry! You have lost the 1936 election.",
                         imageUrl: "https://itsastronomical.com/assets/1936b/long.png",
@@ -45,8 +59,15 @@ function createEnding(engine, results) {
     else if(playerId == 78) {
         // Death Candidates
         if(engine.playerWonEv(results)) {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Congratulations, Kingfish! You have won the 1936 election.",
                         imageUrl: "https://itsastronomical.com/assets/1936b/long.png",
@@ -56,8 +77,15 @@ function createEnding(engine, results) {
             }
         }
         if(engine.playerEvAtLeast(results) < 266) {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Sorry! You have lost the 1936 election.",
                         imageUrl: "https://itsastronomical.com/assets/1936b/landon.png",
@@ -67,8 +95,15 @@ function createEnding(engine, results) {
             }
         }
         else {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Wow! No candidate holds a majority of electoral votes!",
                         imageUrl: "https://i.imgur.com/BboBj0T.png",
@@ -80,6 +115,13 @@ function createEnding(engine, results) {
     }
     // No other endings defined, return an error
     else {
+         engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
         return {
             slides: [
                 {
@@ -95,8 +137,15 @@ function createEnding(engine, results) {
     else if(playerId == 79) {
         // Death Candidates
         if(engine.playerWonEv(results)) {
-            return {
-                slides: [
+         engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Congratulations, Kingfish! You have won the 1936 election.",
                         imageUrl: "https://itsastronomical.com/assets/1936b/long.png",
@@ -106,8 +155,15 @@ function createEnding(engine, results) {
             }
         }
         if(engine.playerEvAtLeast(results) < 266) {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "Dead Kennedys- California Uber Alles",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b2731184b5e2bb68648a847550d5",
+    url: "https://files.catbox.moe/zpojww.mp3",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Sorry! You have lost the 1936 election.",
                         imageUrl: "https://i.imgur.com/p6ofMRZ.jpeg",
@@ -117,8 +173,15 @@ function createEnding(engine, results) {
             }
         }
         else {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "Sherman Edwards- Cool, Cool, Considerate Men",
+    imageUrl: "https://t2.genius.com/unsafe/232x232/https%3A%2F%2Fimages.genius.com%2F14c9167f8c8d8443e0719f941b8e2e20.300x300x1.jpg",
+    url: "https://files.catbox.moe/9ofbm5.mp3",
+  },
+]);
+
+        return {
+            slides: [
                     {
                         endingHeader: "Wow! No candidate holds a majority of electoral votes!",
                         imageUrl: "https://i.imgur.com/BboBj0T.png",
@@ -130,6 +193,13 @@ function createEnding(engine, results) {
     }
     // No other endings defined, return an error
     else {
+         engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+  },
+]);
+
         return {
             slides: [
                 {
@@ -151,12 +221,12 @@ function onAnswerPicked(engine, answerPicked) {
     const ans = answerPicked.id;
     const playerId = engine.getPlayerCandidateController().getId();
 
-    if (ans == 5002 && playerId == 201) {
-        engine.setNewPlayerCandidateImage("https://itsastronomical.com/assets/1936b/wallace.png");
-        engine.setNewPlayerCandidateName("Henry", "Wallace");
+    if (ans == 3414 && playerId == 79) {
+        engine.setNewPlayerCandidateImage("https://i.imgur.com/XBvkeE8.png");
+        engine.setNewPlayerCandidateName("Jerry", "Brown");
 
-        engine.setNewRunningMateImage("https://itsastronomical.com/assets/1936b/wheeler.png");
-        engine.setNewRunningMateName("Burton K.", "Wheeler");
+        engine.setNewRunningMateImage("https://i.imgur.com/xdflLMQ.png");
+        engine.setNewRunningMateName("Gary", "Johnson");
         wallace = true;
         engine.currentQuestionIndex = 25
 
