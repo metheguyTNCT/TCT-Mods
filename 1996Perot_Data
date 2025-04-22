@@ -124,7 +124,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
             "imageUrl": "https://i.imgur.com/hHDeoUI.png",
             "runningMateIds": [
                 89,
@@ -39462,7 +39462,7 @@
                         },
                         {
                             "id": 3414,
-                            "description": "no term 2",
+                            "description": "Look, I never wanted to be President in the first place.",
                             "feedback": "This is one of the big decisions of your campaign -- can you run up your vote total in large, liberal states to hit the 5% threshold nationally? Time will tell.",
                             "answerEffects": [
                                 {
@@ -63067,7 +63067,7 @@
     "tooltips": [
         {
             "key": "NAFTA",
-            "value": "<img src=https://i.imgur.com/jTsl8ly.jpeg> A soldier fighting for peace"
+            "value": "<img src=https://i.imgur.com/jTsl8ly.jpeg> A free trade agreement between America, Canada and Mexico. Vetoed by Perot."
         },
         {
             "key": "Do-Nothing Congress",
@@ -63075,7 +63075,11 @@
         },
         {
             "key": "Dickey Flatt",
-            "value": "<img src=https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/4tgAAOSwTNNhieLA/$_57.JPG?set_id=8800005007> Gramm's imaginary friend."
+            "value": "Gramm's imaginary friend."
+        },
+        {
+            "key": "Clinton",
+            "value": "<img src=https://i.imgur.com/alhnLqy.jpeg> The great disappointment."
         }
     ]
 }
