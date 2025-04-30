@@ -11,7 +11,7 @@ function createEnding(engine, results) {
         engine.setNewMusic([{
     displayName: "The Future",
     imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    url: "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj",
   },
 ]);
 
