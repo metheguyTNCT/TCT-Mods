@@ -335,7 +335,7 @@
                 },
                 {
                     "issueId": 31,
-                    "issueScore": -0.2,
+                    "issueScore": -0.42,
                     "weight": 1
                 }
             ],
@@ -491,7 +491,7 @@
                 },
                 {
                     "issueId": 31,
-                    "issueScore": 0.602,
+                    "issueScore": -0.41,
                     "weight": 1.5
                 }
             ],
@@ -1531,7 +1531,7 @@
                 },
                 {
                     "issueId": 31,
-                    "issueScore": -0.1,
+                    "issueScore": -0.33,
                     "weight": 1
                 }
             ],
@@ -1615,7 +1615,7 @@
             "baseIssueScores": [
                 {
                     "issueId": 27,
-                    "issueScore": -0.378,
+                    "issueScore": 0.03,
                     "weight": 1
                 },
                 {
@@ -2915,7 +2915,7 @@
             "baseIssueScores": [
                 {
                     "issueId": 27,
-                    "issueScore": -0.81,
+                    "issueScore": 0.06,
                     "weight": 1
                 },
                 {
@@ -3011,13 +3011,13 @@
             "name": "Electoral Reform",
             "description": "",
             "stances": [
-                "Very Conservative",
-                "Conservative",
-                "Conservative",
+                "Constitutionalist",
+                "Opposed",
+                "Opposed",
                 "Moderate",
-                "Liberal",
-                "Liberal",
-                "Very Liberal"
+                "In Favor",
+                "In Favor",
+                "Digital Democracy"
             ],
             "stanceDescriptions": [
                 "",
@@ -63081,5 +63081,6 @@
             "key": "Clinton",
             "value": "<img src=https://i.imgur.com/alhnLqy.jpeg> The great disappointment."
         }
-    ]
+    ],
+    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"http://www.cnn.com/ALLPOLITICS/1996/candidates/republican/withdrawn/gramm.shtml\" target=”_blank”>CNN All</a><a href=\"https://www.cnn.com/ALLPOLITICS/1997/gen/resources/players/gephardt/\" target=”_blank”> Politics</a>"
 }
