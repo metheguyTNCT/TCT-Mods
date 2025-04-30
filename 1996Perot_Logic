@@ -5,27 +5,9 @@ function createEnding(engine, results) {
     // I am defining some endings below. Note I have to check who the player played as first in this scenario.
     // You could also add more slides to have endings with pages
 
-    // If you played as Gramm
+    // If you played as Trump
     if(playerId == 77) {
         if(engine.playerWonEv(results)) {
-        engine.setNewMusic([{
-    displayName: "The Future",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj",
-  },
-]);
-
-        return {
-            slides: [
-                    {
-                        endingHeader: "Wow, Alfred! You have won the 1936 election.",
-                        imageUrl: "https://itsastronomical.com/assets/1936b/landon.png",
-                        endingText: "<p>It seemed all but impossible for victory until Huey Long was given the Democratic nomination. Whatever opening you found from that, it has clearly worked. Regardless of his clear scandals, you should be proud of what you did. Huey Long refuses to concede, and the Democratic machinery is absolutely livid at him for screwing them over, to lose the White House to some newcomer Governor from Kansas.</p><p>On the governing front, it seems that Democrats still have control of both chambers, so you’ll be working with a divided government. Regardless, sit back and relax, knowing that you’ve maintained Republican dominance! Congratulations, President-Elect Landon!</p>"
-                    }
-                ]
-            }
-        }
-        if(engine.playerEvAtLeast(results) < 266) {
         engine.setNewMusic([{
     displayName: "Johnny Cash- The Wanderer",
     imageUrl: "https://i.scdn.co/image/ab67616d0000b2731c8a71d3f8d6217c0ce5fc18",
@@ -36,28 +18,34 @@ function createEnding(engine, results) {
         return {
             slides: [
                     {
-                        endingHeader: "Sorry! You have lost the 1936 election.",
-                        imageUrl: "https://itsastronomical.com/assets/1936b/long.png",
-                        endingText: "<p>Considering how unpopular the Republican Party is nationwide, this isn’t the biggest surprise. Still, most Republicans felt that there was a clear opening with Huey Long's many, many scandals - and yet you seemed to falter, despite the opportunity that arose.</p><p>The Kingfish, Huey Long, will be able to pass his legislation and may very well cause trouble. This is probably the end of your political career, depending on how big the margin between you and Huey Long was. If the race was close, perhaps you could still influence the Republican Party. You could also always go back to run for Governor of Kansas.</p>"
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+                        endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
                     }
                 ]
             }
         }
         else {
-            return {
-                slides: [
+        engine.setNewMusic([{
+    displayName: "It Was A Very Good Year",
+    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    url: "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj",
+  },
+]);
+
+        return {
+            slides: [
                     {
-                        endingHeader: "Wow! No candidate holds a majority of electoral votes!",
-                        imageUrl: "https://i.imgur.com/BboBj0T.png",
-                        endingText: "<p>I assume you messed around with the code since there's an odd number of electors and you can’t split the Southern Electors in a Alf Landon playthrough.</p><p>Anyway, this is quite interesting. It seems no candidate has achieved a majority in the Electoral College. This was rather unlikely, but it’s still disappointing. It seems Congress will instead choose to give Long's running mate, Burton Wheeler a chance to lead. This is disappointing, but it seems you may have a shot at winning in 1940 if you can keep your influence in the Party Machinery.</p>"
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
                     }
                 ]
             }
         }
     }
-    // If you played as Gephardt
+    // If you played as Hillary
     else if(playerId == 78) {
-        // Death Candidates
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
     displayName: "It Was A Very Good Year",
@@ -69,27 +57,9 @@ function createEnding(engine, results) {
         return {
             slides: [
                     {
-                        endingHeader: "Congratulations, Kingfish! You have won the 1936 election.",
-                        imageUrl: "https://itsastronomical.com/assets/1936b/long.png",
-                        endingText: "<p>Wow! Things really took a turn for the worse, but somehow, you managed to pull it off. It seems despite your blatantly corrupt scandals, Americans weren't able to trust another Republican in the White House. This is moreso a statement on the economy, rather than your own personal popularity.</p><p>Your term will likely begin with investigations, and impeachment is certainly not out of the question. It's clear that Wheeler will remain a more popular figure compared to yourself.</p>"
-                    }
-                ]
-            }
-        }
-        if(engine.playerEvAtLeast(results) < 266) {
-        engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
-  },
-]);
-
-        return {
-            slides: [
-                    {
-                        endingHeader: "Sorry! You have lost the 1936 election.",
-                        imageUrl: "https://itsastronomical.com/assets/1936b/landon.png",
-                        endingText: "<p>Given the scandals you got wrapped up in, absolutely no one is particularly shocked, but this still is a major setback for the Democrats. You likely will have to resign from your Senate seat when the investigations wrap up, and your party influence is diminished. Seems the Kingfish's days are numbered. What once seemed like inevitable has fallen out of sight.</p><p>Burton Wheeler is expected to maintain his influence within the party, and it's expected he will run in 1940. Kudos to him for not getting wrapped up within your scandals. Perhaps he will speak somewhat good of you within your memoirs, but that's really the best-case scenario for you.</p>"
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                     }
                 ]
             }
@@ -105,9 +75,9 @@ function createEnding(engine, results) {
         return {
             slides: [
                     {
-                        endingHeader: "Wow! No candidate holds a majority of electoral votes!",
-                        imageUrl: "https://i.imgur.com/BboBj0T.png",
-                        endingText: "<p>This is quite interesting. It seems no candidate has achieved a majority in the Electoral College. This was quite unlikely, but you’re still in shock. It seems Congress will instead choose to give your running mate, Burton Wheeler a chance to lead. You will likely resign due to the mounting invesigations. Best of luck on that front.</p>"
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                     }
                 ]
             }
@@ -115,133 +85,20 @@ function createEnding(engine, results) {
     }
     // No other endings defined, return an error
     else {
-         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
-  },
-]);
-
         return {
             slides: [
                 {
-                    endingHeader: "Wow! No candidate holds a majority of electoral votes!",
-                    imageUrl: "https://i.imgur.com/BboBj0T.png",
-                    endingText: "<p>This is quite interesting. It seems no candidate has achieved a majority in the Electoral College. This was quite unlikely, but you’re still in shock. It seems Congress will instead choose to give your running mate, Burton Wheeler a chance to lead. You will likely resign due to the mounting invesigations. Best of luck on that front.</p>"
+                    endingHeader: "Error",
+                    imageUrl: "https://www.jetsimon.com/public/static/images/henry-clay-1844.jpg",
+                    endingText: "Bad ending"
                 }
             ]
         }
     }
-
-    // If you played as Perot
-    else if(playerId == 79) {
-        // Death Candidates
-        if(engine.playerWonEv(results)) {
-         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
-  },
-]);
-
-        return {
-            slides: [
-                    {
-                        endingHeader: "Congratulations, Kingfish! You have won the 1936 election.",
-                        imageUrl: "https://itsastronomical.com/assets/1936b/long.png",
-                        endingText: "<p>Wow! Things really took a turn for the worse, but somehow, you managed to pull it off. It seems despite your blatantly corrupt scandals, Americans weren't able to trust another Republican in the White House. This is moreso a statement on the economy, rather than your own personal popularity.</p><p>Your term will likely begin with investigations, and impeachment is certainly not out of the question. It's clear that Wheeler will remain a more popular figure compared to yourself.</p>"
-                    }
-                ]
-            }
-        }
-        if(engine.playerEvAtLeast(results) < 266) {
-        engine.setNewMusic([{
-    displayName: "Dead Kennedys- California Uber Alles",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b2731184b5e2bb68648a847550d5",
-    url: "https://files.catbox.moe/zpojww.mp3",
-  },
-]);
-
-        return {
-            slides: [
-                    {
-                        endingHeader: "Sorry! You have lost the 1936 election.",
-                        imageUrl: "https://i.imgur.com/p6ofMRZ.jpeg",
-                        endingText: "<p>Given the scandals you got wrapped up in, absolutely no one is particularly shocked, but this still is a major setback for the Democrats. You likely will have to resign from your Senate seat when the investigations wrap up, and your party influence is diminished. Seems the Kingfish's days are numbered. What once seemed like inevitable has fallen out of sight.</p><p>Burton Wheeler is expected to maintain his influence within the party, and it's expected he will run in 1940. Kudos to him for not getting wrapped up within your scandals. Perhaps he will speak somewhat good of you within your memoirs, but that's really the best-case scenario for you.</p>"
-                    }
-                ]
-            }
-        }
-        else {
-        engine.setNewMusic([{
-    displayName: "Sherman Edwards- Cool, Cool, Considerate Men",
-    imageUrl: "https://t2.genius.com/unsafe/232x232/https%3A%2F%2Fimages.genius.com%2F14c9167f8c8d8443e0719f941b8e2e20.300x300x1.jpg",
-    url: "https://files.catbox.moe/9ofbm5.mp3",
-  },
-]);
-
-        return {
-            slides: [
-                    {
-                        endingHeader: "Wow! No candidate holds a majority of electoral votes!",
-                        imageUrl: "https://i.imgur.com/BboBj0T.png",
-                        endingText: "<p>This is quite interesting. It seems no candidate has achieved a majority in the Electoral College. This was quite unlikely, but you’re still in shock. It seems Congress will instead choose to give your running mate, Burton Wheeler a chance to lead. You will likely resign due to the mounting invesigations. Best of luck on that front.</p>"
-                    }
-                ]
-            }
-        }
-    }
-    // No other endings defined, return an error
-    else {
-         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
-  },
-]);
-
-        return {
-            slides: [
-                {
-                    endingHeader: "Wow! No candidate holds a majority of electoral votes!",
-                    imageUrl: "https://i.imgur.com/BboBj0T.png",
-                    endingText: "<p>This is quite interesting. It seems no candidate has achieved a majority in the Electoral College. This was quite unlikely, but you’re still in shock. It seems Congress will instead choose to give your running mate, Burton Wheeler a chance to lead. You will likely resign due to the mounting invesigations. Best of luck on that front.</p>"
-                }
-            ]
-        }
-    }
-
 }
 
-var wheeler = false;
-var wallace = false;
-
 function onAnswerPicked(engine, answerPicked) {
-    // This scenario has mild CYOA
-    const ans = answerPicked.id;
-    const playerId = engine.getPlayerCandidateController().getId();
-
-    if (ans == 3414 && playerId == 79) {
-        engine.setNewPlayerCandidateImage("https://i.imgur.com/XBvkeE8.png");
-        engine.setNewPlayerCandidateName("Jerry", "Brown");
-
-        engine.setNewRunningMateImage("https://i.imgur.com/xdflLMQ.png");
-        engine.setNewRunningMateName("Gary", "Johnson");
-        wallace = true;
-        engine.currentQuestionIndex = 25
-
-    }
-
-    if (ans == 5065 && playerId == 201) {
-        wheeler = true;
-        engine.setNewPlayerCandidateImage("https://itsastronomical.com/assets/1936b/wheeler.png");
-        engine.setNewPlayerCandidateName("Burton K.", "Wheeler");
-
-        engine.setNewRunningMateImage("https://itsastronomical.com/assets/1936b/wallace.png");
-        engine.setNewRunningMateName("Henry", "Wallace");
-
-        engine.currentQuestionIndex = 25
-    }
+    // This scenario has no CYOA
 }
 
 function onScenarioStarted(engine) {
