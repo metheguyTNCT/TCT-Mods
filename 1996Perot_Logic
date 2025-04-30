@@ -5,7 +5,7 @@ function createEnding(engine, results) {
     // I am defining some endings below. Note I have to check who the player played as first in this scenario.
     // You could also add more slides to have endings with pages
 
-    // If you played as Trump
+    // If you played as Gramm
     if(playerId == 77) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
@@ -27,8 +27,8 @@ function createEnding(engine, results) {
         }
         else {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    displayName: "Leonard Cohen- The Future",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b273c590964fc4f433f500ebf0b6",
     url: "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj",
   },
 ]);
@@ -44,13 +44,13 @@ function createEnding(engine, results) {
             }
         }
     }
-    // If you played as Hillary
+    // If you played as Gephardt
     else if(playerId == 78) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    displayName: "Jam  - Michael Jackson",
+    imageUrl: "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg",
+    url: "https://files.catbox.moe/5b1ug3.mp3",
   },
 ]);
 
@@ -58,7 +58,7 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Congratulations! You have won the 2016 election.",
-                        imageUrl: "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
+                        imageUrl: "https://files.catbox.moe/mvxfu8.jpg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                     }
                 ]
@@ -66,9 +66,9 @@ function createEnding(engine, results) {
         }
         else {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    displayName: "Bruce Springsteen - Born in the USA",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG",
+    url: "https://audio.jukehost.co.uk/1nbU0jWxAHQIdHU0eXkNYACY2YOw61n9",
   },
 ]);
 
@@ -76,7 +76,7 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Sorry! You have lost the 2016 election.",
-                        imageUrl: "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+                        imageUrl: "https://i.imgur.com/mmZh52x.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                     }
                 ]
