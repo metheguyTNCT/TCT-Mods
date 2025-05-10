@@ -4,7 +4,7 @@
             "id": 201,
             "firstName": "Joe",
             "lastName": "Biden",
-            "party": "Democrat",
+            "party": "Liberal",
             "homeState": "Delaware",
             "color": "#953034",
             "issueScores": [
