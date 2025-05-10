@@ -81,7 +81,9 @@
                 210,
                 211,
                 212,
-                213
+                213,
+                222,
+                223
             ],
             "startingGlobalMultiplier": 30
         },
@@ -125,7 +127,11 @@
                 204,
                 205,
                 208,
-                206
+                206,
+                218,
+                219,
+                220,
+                221
             ],
             "startingGlobalMultiplier": 1
         },
@@ -169,7 +175,8 @@
                 214,
                 215,
                 207,
-                216
+                216,
+                224
             ],
             "startingGlobalMultiplier": 5.04
         },
@@ -367,6 +374,279 @@
             "imageUrl": "https://i.imgur.com/HmuBXyB.jpeg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 218,
+            "firstName": "Kristi",
+            "lastName": "Noem",
+            "party": "Republican",
+            "homeState": "South Dakota",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>Kristi Noem is the Governor of South Dakota, winning re-election in a landslide in the 2022 midterms. Despite her having and still being a major supporter of Former President Trump, she has offered to serve on your ticket. And in many ways, it makes sense, much like you she was a hardline anti-COVID restriction Governor, and she was famous for refusing to allow mask mandates in South Dakota, So much medical ignorance it might make RFK Jr. drop out and endorse you.</p><p>While some doubt how faithful she is to this ticket, her loyalty to Donald Trump still showing in the way she refuses to attack him, you have to hope she can bring his supporters back to the base.",
+            "imageUrl": "https://i.imgur.com/Kx0nveM.png",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 219,
+            "firstName": "Kevin",
+            "lastName": "Stitt",
+            "party": "Republican",
+            "homeState": "Oklahoma",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>Perhaps the man who won the Culture War needs some backup, and Kevin Stitt can help you on that front. The current governor of Oklahoma, Stitt has fought as an Anti-Woke soldier. Banning CRT, making abortion a crime, you name it. He endorsed and campaigned for you in his native state, and despite still losing the state, he's been proven to be an effective campaigner nevertheless.<br><br>There's some trade-offs with him, though. First, with his extreme social policies, plenty of moderates wouldn't be pleased. Second, he won't branch your appeal elsewhere other then your core base. Third, he has plenty of baggage on some issues, such as reducing the penalty for cockfighting & for presumably breaking the Open Meetings act. <br><br>Kevin won't do you very big favors this election cycle.",
+            "imageUrl": "https://files.catbox.moe/mx51z6.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 220,
+            "firstName": "Kim",
+            "lastName": "Reynolds",
+            "party": "Republican",
+            "homeState": "Iowa",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>You desperately need Trumplicans to stay red this election year, and who else can do that better then Kim Reynolds? Reynolds currently holds the office of Iowa governor. She's been considered as a VP pick by Trump before the nasty hoedown that was the Republican Primaries.<br><br>Reynolds is well liked across all spectrums of the Republican party, and can cut into Trump's appeal in her home state of Iowa and in the midwest in general. She can also make up with the fact that you generally have poor approval with midwesterners and blue-collar workers. She'll also help you in the female vote and with Independents. However, she has been charged for 2 DUIs in 1999 & 2000 and has opposed COVID restrictions. But let's be honest, the only people who care about this are liberals. Right?",
+            "imageUrl": "https://files.catbox.moe/xi3lr6.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 221,
+            "firstName": "Nikki",
+            "lastName": "Haley",
+            "party": "Republican",
+            "homeState": "South Carolina",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>Nikki Haley had released your delegates to you in a last-ditch attempt to prevent Trump into getting the nomination. And it worked. In the wake of that however, you may feel you owe Haley something...<br><br>And with this choice, you've decided to reward her as your running mate. Nikki Haley had served under the Trump administration and was the former governor of South Carolina. She had placed third in the brutal primaries, and you've debated with her multiple times. She's seen as a ''moderate'' even though that isn't the case. With her pick, Trump calling the nomination ''rigged'' will attract even more support while her plentiful share of weird statements will continue to harm your campaign. Not to mention, your previous feud between each other can make your campaign DOA, even if she backed you previously.",
+            "imageUrl": "https://files.catbox.moe/48y4p8.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 222,
+            "firstName": "Kyrsten",
+            "lastName": "Sinema",
+            "party": "Independent",
+            "homeState": "Arizona",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>Kyrsten Sinema left the Democratic party recently. She has one of the most conservative voting records in the Senate, leaving some wondering why she even considered being a Democrat in the first place. Nevertheless, ever since your nomination, Sinema has expressed support for being your running mate. <br><br>Sinema can help reel in moderates, and especially in her home state of Arizona. With her on the ticket, the direction of your campaign will be clear: one of liberal conservatism. Unfortunately, this may as well just made the last Progressives within the party to leave and vote for Biden.<br><br>If you're looking to expand your conservative ideals, go with Sinema. But otherwise, advisors recommend to not choose her.",
+            "imageUrl": "https://files.catbox.moe/ijon59.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 223,
+            "firstName": "Aaron",
+            "lastName": "Rodgers",
+            "party": "Independent",
+            "homeState": "New Jersey",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>Aaron Rodgers? The football quarterback? He's going to be Kennedy's running mate?<br><br>Well, if he ask him out, he indeed is. Rodgers has been a vocal supporter of you and your campaign since the start. His name recognition and star status can attract many voters nationwide. Both of you also have expressed support for various conspiracy theories.<br><br>On the drawback, he has never been elected in any office. He also claims that COVID was manmade and that the Sandy Hook school shooting was staged. Both would hurt your credibility among moderates even more and wouldn't unite a quickly dividing party.",
+            "imageUrl": "https://files.catbox.moe/wsm69d.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 224,
+            "firstName": "Ben",
+            "lastName": "Carson",
+            "party": "Patriot",
+            "homeState": "Michigan",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>Ben Carson is a tough guy. He has faithfully served as your HUD secretary throughout most of your previous administration & prior to that, has been a brain surgeon. He ran against you back in 2016, but since converted into being a loyal supporter of you. Noticing a pattern with all these running mates?<br><br>Anyways, he'll invite some African-American support into your camp and polls well with evangelical groups and with the majority of Republicans nationwide, likely pulling voters away from DeSantis and into your camp. But note about the possibility of potential slip-ups and gaffes with Carson. To add on, he'll be vulnerable to a sustained attack campaign, both against you or against the other candidates. Perhaps it's best to keep Carson behind the scenes, Donald.",
+            "imageUrl": "https://files.catbox.moe/fbgadq.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
         }
     ],
     "states": [
@@ -422,6 +702,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -479,6 +787,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -534,6 +870,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -591,6 +955,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -646,6 +1038,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -703,6 +1123,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -758,6 +1206,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -815,6 +1291,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -870,6 +1374,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -927,6 +1459,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -982,6 +1542,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1039,6 +1627,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1094,6 +1710,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1151,6 +1795,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1206,6 +1878,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1263,6 +1963,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1318,6 +2046,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1375,6 +2131,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1430,6 +2214,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1487,6 +2299,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1542,6 +2382,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1599,6 +2467,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1654,6 +2550,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1711,6 +2635,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1766,6 +2718,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1823,6 +2803,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1878,6 +2886,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -1935,6 +2971,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -1990,6 +3054,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2047,6 +3139,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2102,6 +3222,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2159,6 +3307,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2214,6 +3390,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2271,6 +3475,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2326,6 +3558,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2383,6 +3643,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2438,6 +3726,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2495,6 +3811,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2550,6 +3894,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2607,6 +3979,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2662,6 +4062,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2719,6 +4147,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2774,6 +4230,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2831,6 +4315,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2886,6 +4398,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -2943,6 +4483,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -2998,6 +4566,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -3055,6 +4651,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -3110,6 +4734,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -3167,6 +4819,34 @@
                 {
                     "candidateId": 216,
                     "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
+                    "amount": 1
                 }
             ]
         },
@@ -3222,6 +4902,34 @@
                 },
                 {
                     "candidateId": 216,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 218,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 219,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 222,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 223,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 224,
                     "amount": 1
                 }
             ]
@@ -9557,14 +11265,14 @@
             "imageUrl": "https://www.japantimes.co.jp/uploads/imported_images/uploads/2022/09/np_file_179970.jpeg"
         },
         {
+            "url": "https://files.catbox.moe/zrfrmp.mp3",
+            "displayName": " Politicians In My Eyes- Death",
+            "imageUrl": "https://static01.nyt.com/images/2023/07/03/multimedia/03pol-rfk-pacs-jhtf/03pol-rfk-pacs-jhtf-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100"
+        },
+        {
             "url": "https://files.catbox.moe/c91pt8.mp3",
             "displayName": "Pressure- Billy Joel",
             "imageUrl": "https://static01.nyt.com/images/2022/11/07/multimedia/07midterms-live-desantis-video-topart-1-2d3d/07midterms-live-desantis-video-topart-1-2d3d-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100"
-        },
-        {
-            "url": "https://files.catbox.moe/zrfrmp.mp3",
-            "displayName": "Politicians In My Eyes- Death",
-            "imageUrl": "https://static01.nyt.com/images/2023/07/03/multimedia/03pol-rfk-pacs-jhtf/03pol-rfk-pacs-jhtf-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100"
         },
         {
             "url": "https://files.catbox.moe/y72jof.mp3",
