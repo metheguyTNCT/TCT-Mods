@@ -9113,11 +9113,26 @@
                 },
                 {
                     "id": 13595,
-                    "description": "more stuff blah blah",
+                    "description": "williamson",
                     "answers": [
                         {
                             "id": 5271,
-                            "description": "trn here",
+                            "description": ": Look, her entire spiritual magic thing is being called a joke, right? But it's worked so far for her - I mean she did end up as the Vice Presidential nominee for the Democratic Party. So let's allow her to tap into the suburban moms and crazy teens, and touch up the White House with some magic.",
+                            "feedback": "Do as the Orb commands, and the Orb will surely reward.",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 211
+                },
+                {
+                    "id": 13596,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5279,
+                            "description": "Answer description here",
                             "feedback": "Answer feedback here, leave blank for none",
                             "answerEffects": []
                         }
@@ -9127,12 +9142,307 @@
                     "onlyEnableAtStartIfRunningMateId": -1
                 },
                 {
-                    "id": 13596,
+                    "id": 13597,
                     "description": "Description goes here",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 5280,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": true,
                     "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13598,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5281,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13599,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5282,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13600,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5283,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13601,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5284,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13602,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5285,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13603,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5286,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13604,
+                    "description": "As you and your running mate continue to campaign throughout the nation, some people have questioned her beliefs about spiritualism and the general \"vibes\" she talks about. What do you have to say about her beliefs, and do you subscribe to them as well?",
+                    "answers": [
+                        {
+                            "id": 5277,
+                            "description": "I mean-don't we have any decency in this country anymore? I thought we moved past the time when we questioned and insulted the religion of the people running for office. I call on President Biden, Governor DeSantis, and everyone who's insulted Marianne to apologize publicly. This is worse than what they did to Obama!",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5278,
+                            "description": "No, I do not personally believe in spiritualism as Marianne does. But I do believe that all Americans have the basic right to their own religion, my running mate included Again-personally all that stuff is just nonsense to me but, whatever.",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5287,
+                            "description": "Y'know this world works in some crazy ways, I look at everything, this election, the state of the world, and just the chaos we've been embroiled in for the last few years and wonder - Maybe all this talk about spirits and orbs isn't the most far fetched thing we've been told.\n",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5288,
+                            "description": "This is such a non-issue in my opinion. Please, give me an actual question about anything else that actually affects people!",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 211
+                },
+                {
+                    "id": 13605,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5290,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13606,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5291,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13607,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5292,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13608,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5293,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13609,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5294,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13610,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5295,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13611,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5296,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13612,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5297,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13613,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5298,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13614,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5299,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 13615,
+                    "description": "Continuing on the campaign trail with Jimmy, yesterday he said a Kennedy / Dore administration would force a vote on Universal Healthcare and Weed legalization on day one. Apparently, it would happen through \"Any means necessary\", which some take to be a personal threat to Senate Majority Leader Schumer and Speaker McCarthy. What say you, sir?",
+                    "answers": [
+                        {
+                            "id": 5289,
+                            "description": "For once, Jimmy's completely right! Day one, we're going to get there and I'm going to look Chuck Schumer in the eye, and I'm going to tell him I want my damn weed!",
+                            "feedback": "No mention of the vague threat from Dore? Whatever, I don't know - I don't want to know what you'll do - just leave me out of it!",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 213
                 }
             ]
         },
@@ -9158,6 +9468,39 @@
                         {
                             "id": 5266,
                             "description": "Well, they're all saying I might be indicted - but who knows if the corrupt liberal media would do it. Who really knows? we'll have to wait and see folks.",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 391399,
+                    "description": "It's January 2023, and In a surprisingly early move, Florida Governor Ron DeSantis has already announced his candidacy for the 2024 Republican nomination, in a direct challenge to you. How will you respond to his entrance?",
+                    "answers": [
+                        {
+                            "id": 5273,
+                            "description": "Ron Desanctimonious is another very sad politician who was around for years. He was a major supporter of Paul Ryan and Mitch McConnell - and now he thinks he's more MAGA than me. It's crazy nobody believes this guy!",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5274,
+                            "description": "You know, I don't think it's very smart to run against me. But if he wants to, it's his choice. He's a good governor and a decent guy, but what we need right now is someone who can fight against the radical policies of the Biden administration and I'm that guy.",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5275,
+                            "description": "All these \"polls\" that show him ahead of me are, as always, wrong! DeSanctimonious is only governor because I helped him so much, and this is how he repays me? Well, if Rat DeStablishment wants to play it that way, let 'em!",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5276,
+                            "description": "We have a real chance here to save America, folks. Look around at our beautiful country - and see what Joe Biden has done to it. Our enemy is the crooked cabal in the White House and I would rather spend my precious time attacking them than another Republican.",
                             "feedback": "Answer feedback here, leave blank for none",
                             "answerEffects": []
                         }
@@ -9202,5 +9545,31 @@
     "scenarioDescription": "<p>The party system of old has been overturned. An election in which two presidents are not running on their party's ticket is unprecedented, let alone an election in which an incumbent President was essentially couped from the ticket.</p><p>President Joe Biden, now at the head of the \"Liberal Party\" ticket, facs the challenge of maintaining his large polling lead, and avoiding bleeding progressive support to RFK Jr. Meanwhile, RFK Jr. needs to do the inverse, appealing to progressives while downplaying his anti-vaccine activism. DeSantis struggles to maintain his direction of \"Trumpism without Trump\", while Trump seeks to keep the Trump name on the ballot for yet another cycle.</p><p>The Silicon Valley Bank Collapse was a deeply destabilizing influence upon the American markets. Following the bank run, the FDIC's meager action left many depositors unable to access funds for months, and uncertainty in the market began to exponentially escalate. Additionally, the 2024 election's unorthodox political alignments has only served to compound market worries. In terms of foreign affairs, the War in Ukraine has been ongoing for well over two years at this point, and conservatives and hardline left wingers are becoming restless.</p><p>The United States is dancing on a thread, any slight mistake will have brutal consequences.</p>\n",
     "scenarioImageUrl": "https://i.imgur.com/mDgLzig.jpeg",
     "credits": "by Dan Bryan, converted by Jet",
-    "music": []
+    "music": [
+        {
+            "url": "https://file.garden/ZRcfmLUQNGkxIJds/Ricky%20Martin%20-%20Livin'%20La%20Vida%20Loca%20(Audio).mp3",
+            "displayName": "Livin' La Vida Loca-Ricky Martin",
+            "imageUrl": "https://news.virginia.edu/sites/default/files/article_image/us_capitol_architect_of_the_capitol_header.jpg"
+        },
+        {
+            "url": "https://files.catbox.moe/jo1i8l.mp3",
+            "displayName": "A Sky Full Of Stars-Coldplay",
+            "imageUrl": "https://www.japantimes.co.jp/uploads/imported_images/uploads/2022/09/np_file_179970.jpeg"
+        },
+        {
+            "url": "https://files.catbox.moe/c91pt8.mp3",
+            "displayName": "Pressure- Billy Joel",
+            "imageUrl": "https://static01.nyt.com/images/2022/11/07/multimedia/07midterms-live-desantis-video-topart-1-2d3d/07midterms-live-desantis-video-topart-1-2d3d-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100"
+        },
+        {
+            "url": "https://files.catbox.moe/zrfrmp.mp3",
+            "displayName": "Politicians In My Eyes- Death",
+            "imageUrl": "https://static01.nyt.com/images/2023/07/03/multimedia/03pol-rfk-pacs-jhtf/03pol-rfk-pacs-jhtf-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100"
+        },
+        {
+            "url": "https://files.catbox.moe/y72jof.mp3",
+            "displayName": "The American Dreamer- Jacob Seales",
+            "imageUrl": "https://static01.nyt.com/images/2020/06/20/us/politics/20vid-tulsa-rallyvid1/20vid-tulsa-rallyvid1-videoSixteenByNine3000.jpg"
+        }
+    ]
 }
