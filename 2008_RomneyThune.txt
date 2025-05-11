@@ -9,16 +9,16 @@ function createEnding(engine, results) {
     if(playerId == 77) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    displayName: "Neil Diamond-Sweet Caroline",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/dc/Sweet_Caroline_cover.jpg",
+    url: "https://files.catbox.moe/cpra7g.mp3",
   },
 ]);
 
         return {
             slides: [
                     {
-                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        endingHeader: "When I was a boy, I used to think that becoming rich and becoming famous would make me happy. Boy, was I right!",
                         imageUrl: "https://i.imgur.com/IxA1Nhj.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
                     }
@@ -27,9 +27,9 @@ function createEnding(engine, results) {
         }
         else {
         engine.setNewMusic([{
-    displayName: "Manic Street Preachers- The Love of Richard Nixon",
+    displayName: "Randy Newman- God's Song (That's Why I Love Mankind)",
     imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    url: "https://files.catbox.moe/pxk6wx.mp3",
   },
 ]);
 
@@ -37,7 +37,7 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Sorry! You have lost the 2016 election.",
-                        imageUrl: "https://i.imgur.com/oP0bKB9.jpeg",
+                        imageUrl: "https://i.imgur.com/MBzy0rU.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
                     }
                 ]
@@ -66,16 +66,16 @@ function createEnding(engine, results) {
         }
         else {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    displayName: "Bright Eyes - When The President Talks to God",
+    imageUrl: "https://f4.bcbits.com/img/a1605898804_16.jpg",
+    url: "https://files.catbox.moe/ej3oty.mp3",
   },
 ]);
 
         return {
             slides: [
                     {
-                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        endingHeader: "They want to shut me up.",
                         imageUrl: "https://i.imgur.com/RVOFg8g.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                     }
@@ -104,8 +104,23 @@ function createEnding(engine, results) {
     }
 }
 
+var dropout = false;
+
 function onAnswerPicked(engine, answerPicked) {
-    // This scenario has no CYOA
+    // This scenario has mild CYOA
+    const ans = answerPicked.id;
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    if (ans == 3311 && playerId == 78) {
+        engine.setNewPlayerCandidateImage("https://i.imgur.com/oGCk9UG.png");
+        engine.setNewPlayerCandidateName("Al", "Gore");
+
+        engine.setNewRunningMateImage("https://i.imgur.com/oMnPZcX.png");
+        engine.setNewRunningMateName("Tom", "Vilsack");
+        dropout = true;
+        engine.currentQuestionIndex = 25
+
+    }
 }
 
 function onScenarioStarted(engine) {
