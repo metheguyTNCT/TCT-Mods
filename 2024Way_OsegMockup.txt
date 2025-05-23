@@ -35,7 +35,7 @@
                 }
             ],
             "description": "<p style='margin-top:0em;'><em>\"I own the finish line, Jack. Don't you forget that.\"</em><p>This is abnormal. Never before has a President with stable approval been seriously challenged, let alone actually failed to gain the party nomination. So what happened? Maybe it was the bullshit allegations from Williamson and Kennedy during the Texas primary? Perhaps the sham of a court purporting to be the 6th Circuit? Regardless of how we got here, Biden knew it couldn't stand.<br><br>Kennedy, a grifter with a nostalgic name. DeSantis, a homophobe with an obsession with children. And of course, finally, Donald Trump, the closest thing Biden had to a true \"rival\". How could he sit back and allow the United States to fall to this level?<br><br>The mainstream party will stand behind him, not fooled by RFK Jr. They know that Biden is the only reasonable person in this race, and surely the voters will see that.<br><br>Biden has been through political hell, from one of the greatest campaigns for Senate, to now four separate runs for President. The Democratic party has shifted since then, hasn't it? And once again it seems the season is shifting, and the winds of change bite at Biden's back.<br><br>One last time for the road, Joe?</p>",
-            "imageUrl": "https://i.imgur.com/087d6q8.png",
+            "imageUrl": "https://thehill.com/wp-content/uploads/sites/2/2022/08/bidenjoe_082522gn11_w.jpg?w=640&h=360&crop=1",
             "runningMateIds": [
                 209
             ],
@@ -76,7 +76,7 @@
                 }
             ],
             "description": "<p style='margin-top:0em;'><em>\"These people say that I'm coasting off of my name But believe me, even my family doesn't want to be involved with this.\"</em><p>One year ago, Robert F. Kennedy Jr. was polling at 15% against President Biden for the Democratic primary, a candidate with little to his prospects but his name, and a dream. Much like his father before him he challenged an incumbent, once again they joked that yet another Kennedy would fall to the forces of misfortune that seemed to follow his family's every step.<br><br>RFK Jr. proved more cunning, or at least daring. Using legal maneuvers he managed to \"coup\" (not his preferred terminology) the Democratic primary, causing an incredible upset.<br><br>His primary campaign proved strong with many of the anti-establishment Democrats, despite people like Bernie Sanders and Elizabeth Warren strongly backing Biden. And his time as an Environmental Lawyer and climate activist might yield a few strong points for this campaign.<br><br>There is a little, tiny problem...<br><br>He's anti-vaxx.</p>",
-            "imageUrl": "https://i.imgur.com/v8WgQGo.png",
+            "imageUrl": "https://www.politico.com/dims4/default/10ade03/2147483647/strip/true/crop/4715x3559+0+0/resize/630x476!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F67%2F7a%2F38fc5f464c3198271c5a8bb40bba%2Fap23095758963235.jpg",
             "runningMateIds": [
                 210,
                 211,
@@ -122,7 +122,7 @@
                 }
             ],
             "description": "<p style='margin-top:0em;'><em>\"I think at the heart of it, both Biden and Trump lost because they were too woke, and that just doesn't play with the everyday American.\"</em><p>Ron DeSantis is controversial, to say the least. While once considered the \"Moderate\" alternative to Donald Trump he's now turned into a warped figure of the modern-day GOP Signing one of the most hardline abortion restrictions in the entire nation, his \"Don't Say Gay\" bill which became a landmark, was used by other Republican states to forge a new frontline in the culture war<br><br>Now, he sits at the peak of Republican politics. Beating Donald Trump at his own game was a task few thought was possible, but the former President's legal woes have shined a new light onto the Florida Governor's political future.<br><br>Given Ron's far weaker-than-expected primary run, Trump has found a third-well fourth party run in his cards. And the Sunshine State's Governor will have to decide if he can outflank Trump on the right, or play for the wide-open Independent vote.<br><br>Regardless, Ron, every candidate is looking at you like a punching bag. I only hope you're stronger than the last Florida Governor who ran for President.</p>\n",
-            "imageUrl": "https://i.imgur.com/NXrvcyZ.png",
+            "imageUrl": "https://imagenes.elpais.com/resizer/v2/YTJA6UKHR4ZYURHCUVJL5TYCNA.jpg?auth=91980f1197e9b6debfd3c088f9147e0dd97259831fe3b11f5678def2a78479ff&width=1200",
             "runningMateIds": [
                 204,
                 205,
@@ -170,7 +170,7 @@
                 }
             ],
             "description": "<p style='margin-top:0em;'><em>\"Yet another sham, Ron DeSantis was losing, he was losing so badly in every poll, and then he all of a sudden wins what's that about? Well, whatever, the RINOstablishment was only holding us back!\"</em><p>Donald J. Trump, so many ways to introduce him, yet I feel as if I don't need to. Businessman, TV host, billionaire, and President er... Former President.<br><br>He entered 2024 in bad shape, with his allegations of fraud leading to insurrection, his midterm candidates turning to be a disaster, and news of multiple indictments weighing down on him as the primary neared. Not deterred, the DJT moved forward, even when Nikki Haley, Tim Scott, Mike Pence, and finally Ron DeSantis joined the race, he never flinched, plotting to shatter them and bring them back to their knees to him once again.<br><br>Funny how some things don't pan out, huh?<br><br>Ron DeSantis won the culture war, and as sentiment about the War in Ukraine turned mixed, he was the first one to move on a once-again retreating, isolationist GOP base. Just like back in 2022, the momentum shifted against Trump. And this time he couldn't defend himself.<br><br>However, with the shocking news of Biden's fall from the Democratic Party, Trump sees his chance to once again rise as the \"Chaos Candidate\" and tear this sham system down once and for all.</p>",
-            "imageUrl": "https://i.imgur.com/9EMdr7b.png",
+            "imageUrl": "https://pyxis.nymag.com/v1/imgs/86e/243/ddb740e7b5a3454789d53c0d7a1ca97811-donald-trump.rhorizontal.w700.jpg",
             "runningMateIds": [
                 214,
                 215,
@@ -189,7 +189,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Tim Scott had hoped to be the Vice Presidential nominee - under Donald Trump.</p><p>Much like most of the party, he never really thought you could actually win the primary, and he was hesitant to accept your offer, due to the entire party collapsing. In the end, he only chose to join due to pressure from Senate Republican leaders, namely Mitch McConnell, plus he's retiring in 2028, so what's he got to lose?</p><p>He's a standard conservative, during the primary he was attacked for his washy statements about issues like Abortion. Trump, and Ukraine. If elected, Senator Scott would be the first African-American male Vice President, but I don't think it's going to help you much with the black vote.\n",
-            "imageUrl": "https://i.imgur.com/04CZM39.jpeg",
+            "imageUrl": "https://static.independent.co.uk/2023/02/26/12/Election_2024_South_Carolina_90489.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -215,7 +215,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>One year ago, Kevin McCarthy was left in political ruin as his party attempted to throw him to the side in favor of its more radical elements. Despite this, the congressman continued in his fight to become Speaker of the House, finally winning on the 15th ballot.</p><p> Speaker McCarthy has been in politics for 20 years, climbing through the ranks of both the California and national Republican Party's. McCarthy is a standard conservative - and despite his... abusive relationship with the Freedom caucus, he's actually grown some respect among average Republicans. \n",
-            "imageUrl": "https://i.imgur.com/x610sWX.jpeg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kevin_McCarthy%2C_official_portrait%2C_speaker.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -228,7 +228,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Mike Pompeo is the former Secretary of State and CIA Director under President Trump, before that being a member of the House from Kansas. While he was a staunch backer of the former President during the aftermath of the election, January 6th and its aftermath shattered their relationship, with Secretary Pompeo having testified to the Jan 6th Committee in the end. <br><br>He was Secretary of State during all of the Trump - Kim Jong Un summits, on top of both the Hong Kong protests and the assassination of Qasem Soleimani, having been one of the strongest voices for his death.<br><br>In the end, Pompeo might be the last chance to keep a majority of the Trump wing at your side, even if the man himself is gone.",
-            "imageUrl": "https://i.imgur.com/wr6pH10.png",
+            "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6VAYJIQYGYI63OMYWKVWR5MENA.jpg&w=1440",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -241,7 +241,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Kari Lake is the Governor of Arizona (self-proclaimed after having the 2022 Arizona Gubernatorial election \"stolen\" from her by Katie Hobbs. She has accused Ron DeSantis of being a RINO for even thinking about running against you. I gotta tell you, sir, she's the perfect running mate.<br><br>The base loves her, and why wouldn't they? She talks like you, acts like you, and has tapped into the same type of insanity that you've surrounded yourself with. <br><br>Although, running for Vice President might take her away from her duty as Governor.\n",
-            "imageUrl": "https://i.imgur.com/Ul3KlCt.png",
+            "imageUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MEBPHGEX6REI3K2J3R3B6CICRM.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -254,7 +254,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Kamala Harris felt her entire political future burn, as Robert Kennedy Jr. managed to take them down through dirty tricks. The soul-crushing weight rested on her as Biden scrambled with his advisors over what to do next.<br><br>Was it over? Would she not have 8 years as Vice President, before launching herself into the Presidency?<br><br>Like hell it was over. Even with the economic crisis, the War in Ukraine, and the left wing of the party fractured, it wasn't over until November. She had been District Attorney, Attorney General, Senator, and Vice President, working for far too long for this mess to bring her down so easily.</p>\n",
-            "imageUrl": "https://i.imgur.com/IcsK5Ka.png",
+            "imageUrl": "https://www2.nsysu.edu.tw/SCSTW/usa/20210803(1).jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -267,7 +267,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>You desperately need progressives to support you in order to win this damn election. Who else can get them into your camp then Ilhan Omar? Omar is a Progressive to her core, with her even being unofficially a part of \"The Squad\" in congress. She would be a good choice to claw back at supporters who were originally in Biden's camp and unite the party.<br><br>One major drawback to her selection: she's actually ineligible to become Vice President. Omar isn't a natural-born citizen of this country, therefore voiding her for the office. This will also fuel attacks that you're too inexperienced for the job for picking someone who can't even become Vice President. Let's just hope the \"natural-born citizen\" problem is just vague enough for her to fend off attacks for her at least up until election day...</p>\n",
-            "imageUrl": "https://i.imgur.com/98x4kJV.png",
+            "imageUrl": "https://i0.wp.com/spokesman-recorder.com/wp-content/uploads/2019/06/rsz_omarrollcall45.jpg?resize=683%2C456&ssl=1",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -280,7 +280,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Marianne Williamson is a supernatural choice, she ran for President four years back - didn't do too well. But none of that matters, she was the only candidate besides you and Biden to get any media time during this campaign, though none of it was necessarily positive. Considered by many to be the \"Orb Lady\" who went on the debate stage and spouted spiritual nonsense, it could be said she'll sink your already-thin chances at winning the election.</p><p>She was helpful in the primary fight, managing to get a good placement in Iowa and New Hampshire due to protest voting in the aftermath of the primary schedule change. Naturally, none of the other Vice Presidential candidates will take her very seriously, but with her mystical powers, I'm sure Marianne will show them not to mess with the magic.</p>",
-            "imageUrl": "https://i.imgur.com/rNuLuXH.png",
+            "imageUrl": "https://static.independent.co.uk/2023/03/04/19/Election_2024_Williamson_15796.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -293,7 +293,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Andrew Yang's rise and fall has been short, starting off as one of the breakout candidates of the 2020 Democratic primary, lasting through nearly all of the debates, and locking in a solid fanbase. He left that election with a real future, and soon he used it to run for Mayor of New York City. His campaign was a mess, to say the least, placing fourth after polling at first since the start.<br><br>While not a member of the Democratic party anymore, he has personally reached out to you and assured you he's willing to be on the ticket.<br><br>Policy-wise, his only standalone policy worth noting is the \"Freedom Dividend as he called it while running for President. The plan to give Americans a 1000-dollar Universal Basic Income. While laughed at back then, it's gained steam since he brought focus to the idea, and it isn't really that unpopular with progressive politicians anymore.<br><br>Again, Andrew Yang is not a Democrat. So if you really want to shed the accusations against you of being a political snake, this might not be the running mate for you.</p>",
-            "imageUrl": "https://i.imgur.com/KmUbY5I.jpeg",
+            "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/02/720/405/Andrew-Yang.jpg?ve=1&tl=1",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -306,7 +306,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>You aren't funny, and neither is Jimmy Dore. But that's beside the point. Jimmy Dore is a political satirist and part- time conspiracy theorist, known for his potent dislike of the Democratic party, notably Joe Biden. He has suggested that Seth Rich didn't kill himself, that Biden and other Democrats have privately done Blackface, and even once said back in 2016 that a Trump Presidency would be better for the left than four years of Hillary.<br><br>Despite your differences, you two are friends. You've gone on his show multiple times and spread your fair share of conspiracies.<br><br>With that being said, if Jimmy Dore could not go to heaven without joining the Democratic Party, he would not go there at all. Would Jimmy Dore accept the nomination for a party that he considers \"corporate and an oligarchic organization?\"<br><br>Well... for the sake of a joke, he just might.\n",
-            "imageUrl": "https://i.imgur.com/M7aM3Se.jpeg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Jimmy_Dore_by_Gage_Skidmore_2.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -319,7 +319,7 @@
             "color": "#FFFF00",
             "issueScores": [],
             "description": "<p>Don't, please don't. <br><br>George Santos is not the type of guy we need here, he's a danger to society, a menace, and probably not even eligible to run for Presiden- His policy?! Who gives a damn about his policy, he's a freak! <br><br>What do you mean George Santos was already your Vice President last time? He wasn't even old enoug-\n",
-            "imageUrl": "https://i.imgur.com/8EROGiv.png",
+            "imageUrl": "https://www.nydailynews.com/wp-content/uploads/migration/2023/01/09/O5ZRPUXK4FGYTFZ6HH2PEFBTB4.jpg?w=1200",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -332,7 +332,7 @@
             "color": "#00C100",
             "issueScores": [],
             "description": "<p>Marjorie Taylor Greene, or just MTG as she's usually called, is someone who's been in the eye of the media since she entered national politics. Her firebrand attitude and willingness to lean into brash conspiracies have caused her to become a star of the Trump movement.<br><br>Interestingly, more recently she's emerged as an ally to the Republican establishment, with her becoming buddy-buddy with Kevin McCarthy. While normally I would tell her to get the hell away from our campaign, given the names so far, she might actually be the safest bet.",
-            "imageUrl": "https://i.imgur.com/P6AZBUF.png",
+            "imageUrl": "https://d.hngn.com/en/full/279525/marjorie-taylor-greene-could-face-punishment-after-showing-hunter-bidens-nude-photos.webp?w=830&f=93290286225370b6121dada0918d0a39",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -371,7 +371,7 @@
                 }
             ],
             "description": "<p>Did none of those guys satisfy you, sir?<br><br>Well, you know him, you love him, Mike Lindell! If there's anyone who can claim to be a true patriot for Donald Trump, it's him. Since the start of this campaign, he has been your prophet, even when your administration was at its lows, he was right there with you. <br><br>Even when Joe Biden rigged the election against you, Mike Lindell stood tall and decided to fight back against the deep state agents. There is no man more loyal to the cause than Mike Lindell, and that might be a bad thing. Of course, we still do need to think about things like electability and such. Mr. Lindell, even if millions own MyPillow, isn't the most politically solvent man in America. So just keep an eye out for any off-color remarks he might spout.\n",
-            "imageUrl": "https://i.imgur.com/HmuBXyB.jpeg",
+            "imageUrl": "https://abovethelaw.com/wp-content/uploads/sites/4/2021/02/GettyImages-1198408638.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -410,7 +410,7 @@
                 }
             ],
             "description": "<p>Kristi Noem is the Governor of South Dakota, winning re-election in a landslide in the 2022 midterms. Despite her having and still being a major supporter of Former President Trump, she has offered to serve on your ticket. And in many ways, it makes sense, much like you she was a hardline anti-COVID restriction Governor, and she was famous for refusing to allow mask mandates in South Dakota, So much medical ignorance it might make RFK Jr. drop out and endorse you.</p><p>While some doubt how faithful she is to this ticket, her loyalty to Donald Trump still showing in the way she refuses to attack him, you have to hope she can bring his supporters back to the base.",
-            "imageUrl": "https://i.imgur.com/Kx0nveM.png",
+            "imageUrl": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/7ab3637b-4dc5-4b92-8115-3921f25cb0cc.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -449,7 +449,7 @@
                 }
             ],
             "description": "<p>Perhaps the man who won the Culture War needs some backup, and Kevin Stitt can help you on that front. The current governor of Oklahoma, Stitt has fought as an Anti-Woke soldier. Banning CRT, making abortion a crime, you name it. He endorsed and campaigned for you in his native state, and despite still losing the state, he's been proven to be an effective campaigner nevertheless.<br><br>There's some trade-offs with him, though. First, with his extreme social policies, plenty of moderates wouldn't be pleased. Second, he won't branch your appeal elsewhere other then your core base. Third, he has plenty of baggage on some issues, such as reducing the penalty for cockfighting & for presumably breaking the Open Meetings act. <br><br>Kevin won't do you very big favors this election cycle.",
-            "imageUrl": "https://files.catbox.moe/mx51z6.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Kevin_Stitt_%2852251950006%29.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -488,7 +488,7 @@
                 }
             ],
             "description": "<p>You desperately need Trumplicans to stay red this election year, and who else can do that better then Kim Reynolds? Reynolds currently holds the office of Iowa governor. She's been considered as a VP pick by Trump before the nasty hoedown that was the Republican Primaries.<br><br>Reynolds is well liked across all spectrums of the Republican party, and can cut into Trump's appeal in her home state of Iowa and in the midwest in general. She can also make up with the fact that you generally have poor approval with midwesterners and blue-collar workers. She'll also help you in the female vote and with Independents. However, she has been charged for 2 DUIs in 1999 & 2000 and has opposed COVID restrictions. But let's be honest, the only people who care about this are liberals. Right?",
-            "imageUrl": "https://files.catbox.moe/xi3lr6.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Kim_Reynolds_%2853129996491%29.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -527,7 +527,7 @@
                 }
             ],
             "description": "<p>Nikki Haley had released your delegates to you in a last-ditch attempt to prevent Trump into getting the nomination. And it worked. In the wake of that however, you may feel you owe Haley something...<br><br>And with this choice, you've decided to reward her as your running mate. Nikki Haley had served under the Trump administration and was the former governor of South Carolina. She had placed third in the brutal primaries, and you've debated with her multiple times. She's seen as a ''moderate'' even though that isn't the case. With her pick, Trump calling the nomination ''rigged'' will attract even more support while her plentiful share of weird statements will continue to harm your campaign. Not to mention, your previous feud between each other can make your campaign DOA, even if she backed you previously.",
-            "imageUrl": "https://files.catbox.moe/48y4p8.jpg",
+            "imageUrl": "https://cdn.vox-cdn.com/uploads/chorus_image/image/73080136/GettyImages_1956244038.0.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -566,7 +566,7 @@
                 }
             ],
             "description": "<p>Kyrsten Sinema left the Democratic party recently. She has one of the most conservative voting records in the Senate, leaving some wondering why she even considered being a Democrat in the first place. Nevertheless, ever since your nomination, Sinema has expressed support for being your running mate. <br><br>Sinema can help reel in moderates, and especially in her home state of Arizona. With her on the ticket, the direction of your campaign will be clear: one of liberal conservatism. Unfortunately, this may as well just made the last Progressives within the party to leave and vote for Biden.<br><br>If you're looking to expand your conservative ideals, go with Sinema. But otherwise, advisors recommend to not choose her.",
-            "imageUrl": "https://files.catbox.moe/ijon59.jpg",
+            "imageUrl": "https://assets.teenvogue.com/photos/5bd8c24a82bb3f2cbb8b5ef0/master/pass/KyrstenSinema.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -605,7 +605,7 @@
                 }
             ],
             "description": "<p>Aaron Rodgers? The football quarterback? He's going to be Kennedy's running mate?<br><br>Well, if he ask him out, he indeed is. Rodgers has been a vocal supporter of you and your campaign since the start. His name recognition and star status can attract many voters nationwide. Both of you also have expressed support for various conspiracy theories.<br><br>On the drawback, he has never been elected in any office. He also claims that COVID was manmade and that the Sandy Hook school shooting was staged. Both would hurt your credibility among moderates even more and wouldn't unite a quickly dividing party.",
-            "imageUrl": "https://files.catbox.moe/wsm69d.jpg",
+            "imageUrl": "https://www.usatoday.com/gcdn/presto/2023/04/26/PMJS/cc1dabb6-f4c2-4b89-bc53-f8ea775d25b7-Getty_1485484706.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -644,7 +644,7 @@
                 }
             ],
             "description": "<p>Ben Carson is a tough guy. He has faithfully served as your HUD secretary throughout most of your previous administration & prior to that, has been a brain surgeon. He ran against you back in 2016, but since converted into being a loyal supporter of you. Noticing a pattern with all these running mates?<br><br>Anyways, he'll invite some African-American support into your camp and polls well with evangelical groups and with the majority of Republicans nationwide, likely pulling voters away from DeSantis and into your camp. But note about the possibility of potential slip-ups and gaffes with Carson. To add on, he'll be vulnerable to a sustained attack campaign, both against you or against the other candidates. Perhaps it's best to keep Carson behind the scenes, Donald.",
-            "imageUrl": "https://files.catbox.moe/fbgadq.jpg",
+            "imageUrl": "https://assets.bwbx.io/images/iQHfyUIZ2ka8/v1/-1x-1.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         }
