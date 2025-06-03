@@ -1,0 +1,535 @@
+e=campaignTrail_temp
+campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 4, \"fields\": {\"year\": 1968, \"summary\": \"America is in a dark place. Since Barry Goldwater's victory in 1964, the nation has become increasingly divided. On one side, his escalation of the Vietnam war, along with his laissez-faire economic policies have served to push mainstream America in a more dovish and liberal direction. On the other, his Constitutionalist attitude towards Civil Rights has broken the South, radicalizing it towards the Far-Right. With Goldwater declining to run for reelection, the election’s stage is set. As riots spread, many wonder if hard times are soon to end, or if they're only just beginning.</p><ul><li>McGovern must shepherd progressives, liberals, and moderates to maintain his early lead.</p><ul><li>Rockefeller needs to portray himself as a moderate reformer in comparison to McGovern.</p><ul><li>Rockwell hopes to unite America's far right, while taking advantage of the national disorder.</ul>\", \"image_url\": \"https://i.imgur.com/LM8MpFe.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://i.imgur.com/W4bnbD5.png\", \"recommended_reading\": \"<h4 style=\\\"margin-top: 0.5em;\\\">Wikipedia Elections</h4><a href=\\\"https://i.imgur.com/zWduaKc.png\\\" target=\\\"_blank\\\">1964 Democratic Primary</a></br><a href=\\\"https://i.imgur.com/uLcP1OL.png\\\" target=\\\"_blank\\\">1964 Presidential Election</a></br><a href=\\\"https://i.imgur.com/mbfq7jb.png\\\" target=\\\"_blank\\\">1965 Virginia Gubernatorial Election</a></br><a href=\\\"https://i.imgur.com/2q0PkKI.png\\\" target=\\\"_blank\\\">1968 Democratic Primary</a></br><a href=\\\"https://i.imgur.com/RiTDEUw.png\\\" target=\\\"_blank\\\">1968 Republican Primary</a><br></br><h4 style=\\\"margin-top: 0.5em;\\\">Newspapers</h4><a href=\\\"https://imgur.com/a/CWvBHxe\\\" target=\\\"_blank\\\">Newspaper Album</a><br></br><h4 style=\\\"margin-top: 0.5em;\\\">Candidate Ads (Custom)</h4><a href=\\\"https://youtu.be/Jc2SDXe4rJk\\\" target=\\\"_blank\\\">George McGovern</a></br><a href=\\\"https://i.imgur.com/uLcP1OL.png\\\" target=\\\"_blank\\\">Nelson Rockefeller</a></br><a href=\\\"https://i.imgur.com/2q0PkKI.png\\\" target=\\\"_blank\\\">George Rockwell</a>\", \"has_visits\": 1, \"no_electoral_majority_image\": \"https://i.imgur.com/91HRdLG.png\"}}]"); 
+campaignTrail_temp.candidate_json = JSON.parse("[{\"model\": \"campaign_trail.candidate\", \"pk\": 24, \"fields\": {\"first_name\": \"George S.\", \"last_name\": \"McGovern\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"South Dakota\", \"priority\": 1, \"description\": \"<p>George Stanley McGovern is an incumbent Senator from South Dakota, who has made a name for himself as a staunch liberal in favor of a complete withdrawal of all American forces from the Vietnam War, an increasingly unpopular conflict which has become far bloodier than anyone ever could have imagined.</p>The costly nature of the aforementioned war, both in blood and in money, along with the ongoing economic recession, have helped to make McGovern’s progressive politics more mainstream. After a tough fight for the nomination from Governor John Connally and Senator Hubert Humphrey, the latter even bolting to the Republicans, McGovern now stands as the Democrat’s de facto nominee heading into the convention.</p>With strong personal popularity, a favorable national environment, and a severe split in the Republican base, McGovern’s path to the White House looks clear, but so was Lyndon Johnson’s just four short years ago.</p>\", \"color_hex\": \"#5E68AC\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 1, \"image_url\": \"https://i.imgur.com/ilxEkDA.png\", \"electoral_victory_message\": \"<h3>MCGOVERN DECLARES VICTORY, OPPONENTS CONCEDE</h3><p>Despite a tumultuous campaign, and more than a few low points, you have managed to maintain your early momentum through election day. Rockefeller gives a gracious concession speech from New York City, admitting his pleasure that, at the very least, one of the major candidates was able to win an outright majority.</p><p>Rockwell, obviously, shares no such feelings, although he does give a muted concession speech from his Party Headquarters in Arlington. His supporters are despondent that he failed to deadlock the electoral college. With any luck, his movement will die out before the next election.</p><p>In regards to your upcoming term, the Democratic majorities in Congress should give you an easy time passing legislation, although you might face trouble from the incoming bloc of T.A.P. Congressmen. Regardless, you'll be able to withdraw from Vietnam, strengthen welfare, and decrease global tensions. Feats like that will set you up beautifully for reelection.</p><p>For the time being, get your rest, George. You've overcome more challenges than most could know.</p>\", \"electoral_loss_message\": \"<h3>ROCKEFELLER WINS IN UPSET, OPPONENTS CONCEDE</h3><p>Despite your early momentum, you've fallen short in the end. From your home town of Mitchell, South Dakota, yourself surrounded by a large yet somber crowd, you give a heartfelt concession speech, admitting your pleasure that, at the very least, one of the major candidates was able to win an outright majority.</p><p>Rockwell, obviously, shares no such feelings, although he does give a muted concession speech from his Party Headquarters in Arlington. His supporters are despondent that he failed to deadlock the electoral college. With any luck, his movement will die out before the next election.</p><p>As far as the future is concerned, your political career is likely over. A Conservative Republican has been elected to your Seat, and with the current political landscape in mind, your chances to reenter the Senate look slim, unless there's some sort of Democratic wave in '72, in which you may be able to take Senator Mundt's seat in a rematch of 1960.</p><p>For the time being, get your rest, George. You've faced more challenges than most could know.</p>\", \"no_electoral_majority_message\": \"<h3>NO ELECTORAL MAJORITY, ROCKWELL FORCES HOUSE VOTE</h3><p>What</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 23, \"fields\": {\"first_name\": \"Nelson A.\", \"last_name\": \"Rockefeller\", \"election\": 4, \"party\": \"Republican\", \"state\": \"New York\", \"priority\": 2, \"description\": \"<p>Nelson Aldrich Rockefeller, the popular Governor of New York, is the standard bearer of the liberal Republicans. With Goldwater’s unpopularity and subsequent refusal to run for re-election, Rockefeller had a fairly smooth time in the primaries, though he faced challenges from the likes of George Romney and Vice President Miller.</p>With an unfavorable national environment, and negligible popularity among the party's Conservative base, Rockefeller enters the campaign in a distant second, far behind McGovern's large lead. Generally, Rockefeller holds popular positions on the issues of the day, but McGovern's rhetoric seems to outpace him at every turn.</p>To win, Rockefeller will have to distance himself from an increasingly unpopular President, and emphasize his persona as a common sense moderate, particularly in contrast to McGovern's progressive ideals. He’ll also need to decide whether to address Rockwell’s insurgent candidacy, or dismiss it in the hopes it never gains traction.</p>\", \"color_hex\": \"#C7100F\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 1, \"image_url\": \"https://i.imgur.com/ANbAgpf.png\", \"electoral_victory_message\": \"<h3>Yay</h3><p>Yay</p>\", \"electoral_loss_message\": \"<h3>Bruh</h3><p>Bruh</p>\", \"no_electoral_majority_message\": \"<h3>What</h3><p>What</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 25, \"fields\": {\"first_name\": \"George L.\", \"last_name\": \"Rockwell\", \"election\": 4, \"party\": \"Traditional American\", \"state\": \"Virginia\", \"priority\": 3, \"description\": \"<p>Since 1948, Southerners have always favored any candidate, of any party, that promised to end desegregation. After Barry Goldwater’s victory in 1964, they thought they’d finally gotten their way. That is, until Goldwater, one of the few Republicans in Congress to vote against the Civil Rights Act, began enforcing it. Outraged, betrayed, and radicalized, Southerners turned towards a man who could never back down on the issue, George Lincoln Rockwell.</p>Ten years ago, when he first founded his Traditional American Party, Rockwell was nothing more than a fringe figure in far right politics, only supported by the most radical extremists. However, as the Civil Rights era pushed the South to further extremes, Rockwell managed to snatch an upset victory in the Virginia Governor's Race of 1965, shocking the nation. Following an assassination attempt against him last August, which Rockwell expertly exploited to bolster his national profile, he has made himself the face of Segregationists and has launched a third party campaign for the Presidency, with hopes of deadlocking the electoral college and stopping the Civil rights movement once and for all.\", \"color_hex\": \"#090D09\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 1, \"image_url\": \"https://i.imgur.com/X3w6Wo6.jpeg\", \"electoral_victory_message\": \"<h3>ROCKWELL PULLS OFF UPSET, DARKNESS OVERTAKES AMERICA</h3><p>The worst has happened.</p><p>Your running mate gives you a call to discuss your victory, and the racists and xenophobes are foaming at the mouth thinking of all the things to come in your administration. Elsewhere, people are scared. Civil Rights activists organize impromptu vigils, and there are members of both parties lobbying for a coalition to stop your election.</p><p>Rockefeller and McGovern have been lambasted, both being accused of splitting the electorate and dooming America to four years of Rockwell. Many have begun speculating what your first actions as President will be. Obviously, the CRA is dead, but what else? Martial Law? Press censorship? Labor Camps? No one but you truly knows for sure.</p><p>It’s safe to say that this is the 11th hour for America, and it’s hard to imagine us walking back from this ledge anytime soon.</p><p>May God have mercy on us all.</p>\", \"electoral_loss_message\": \"<h3>VICTORY FOR LIBERALISM, GOLDWATER ERA OVER?</h3><p>Emotions are high no matter what corner of the country you’re in. Your supporters in the South have begun riots in protest to the results, where elsewhere many are letting out a long sigh of relief. Your opponents have already made public statements, and even the runner up is looking in good spirits. This truly represents a new direction for America.</p><p>Your running mate gives you a call to discuss what this means for you both and the future of Dixie. Of course, you’ll both fight integration efforts as much as possible, but it will be exceedingly difficult with a President that doesn’t only support the CRA, but is primed to pass more civil rights legislation of his own.</p><p>The road ahead for the TAP looks bleak, but a comeback wouldn’t be the first time you pulled off a miracle. Even without a deadlock, you could always make a comeback in ‘72 if the President makes enough of a mess of things.</p><p>For the time being, just sit back and watch the peaceful transition of power - because if you or your acolytes have anything to say about it, Midnight in America is still yet to come.</p>\", \"no_electoral_majority_message\": \"<h3>NO ELECTORAL MAJORITY, ROCKWELL FORCES HOUSE VOTE</h3><p>Emotions are high no matter what corner of the country you’re in. Your supporters in the South have begun impromptu celebrations in the street, where elsewhere there are protests and even riots at this outcome. A bleak looking McGovern appears on television shortly after the deadlock is confirmed, trying to ease tensions and feign confidence for the path ahead, but the damage has been done.<\p><p>Your running mate gives you a call at about half past three, and you discuss what this might mean for the both of you. Of course, the chance of you being elected is slim to none, as Rockefeller has already put out a statement expressing his willingness to work with McGovern. But at the very least, you sent a very strong message tonight.<\p><p>The road ahead is shrouded in uncertainty, but if even half of the things you said about McGovern during the campaign are true, there’s a good chance the national environment will favor a candidate of your alignment come 1972.<\p><p>So let the rabble fuss over their red tape. They know as well as you do, every hour we draw closer to Midnight in America.</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 55, \"fields\": {\"first_name\": \"Hubert H.\", \"last_name\": \"Humphrey\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"Minnesota\", \"priority\": 5, \"description\": \"'\", \"color_hex\": \"#800020\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/xN8TkL7.jpeg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>As a liberal member of the Democratic Party, Hubert Humphrey would be a bold choice for the Republican ticket. However, considering McGovern’s impressive lead, a bold choice may be your last chance at victory.</p>Humphrey is an incumbent Senator from Minnesota, and could have been your opponent in this election had he succeeded in defeating McGovern for the Democratic Nomination. Humphrey first ran for President in 1960, and would later share the Democratic ticket with Lyndon Johnson in 1964. His selection would represent an unapologetically liberal ticket, but your advisors feel that he could pull vital Democratic voters away from McGovern.</p>Since joining Congress in 1949, Humphrey made his name defending labor unions and fighting for Civil Rights, himself being instrumental in the passage of the Civil Rights Act of 1964. Humphrey is willing to join the ticket primarily for a mix of strategic and personal reasons, most notably due to his newfound vendetta against McGovern.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 56, \"fields\": {\"first_name\": \"Mark O.\", \"last_name\": \"Hatfield\", \"election\": 4, \"party\": \"Republican\", \"state\": \"Oregon\", \"priority\": 6, \"description\": \"'\", \"color_hex\": \"#800020\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/MkQDZcp.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Senator Mark Hatfield of Oregon, also known as “Saint Mark”, is one of the most popular Republicans nationwide. Revered for his honesty and integrity, he has been a leader of the Anti-Goldwater Republicans, criticizing the President for his roll back of social programs, ambivalence to Civil Rights, and severe escalation of Vietnam.</p>After serving as a Lieutenant in the Navy during World War Two, Hatfield was elected Governor of Oregon at only thirty-seven years old. During his terms, he diversified the state's economy and incentivized industrial development. When Goldwater won the nomination in ‘64, Hatfield was one of the first Republicans to denounce his candidacy.</p>Although he’s only been in Congress for a short time, Hatfield has already managed to make a name for himself on the Hill. A self-described Libertarian, he supports Civil Rights, Nuclear non-proliferation, and a withdrawal from Vietnam. He’s a safe pick, and would strengthen your advantages on the west coast.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 44, \"fields\": {\"first_name\": \"Claude R.\", \"last_name\": \"Kirk\", \"election\": 4, \"party\": \"Republican\", \"state\": \"Florida\", \"priority\": 7, \"description\": \"'\", \"color_hex\": \"#800020\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/BHovsuS.jpeg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Claude R. Kirk Jr. is the recently elected Governor of Florida, the first Republican to hold the office in nearly ninety years. While he is a moderate conservative, he has no significant ties to the Goldwater administration, making him an excellent pick if you want to try and reconcile with Conservatives, a group alienated by your nomination.</p>Having ran strongly on restoring the Death Penalty in Florida, and having been credited with ending the '67 Tampa Riots, Kirk's selection would double down on your law and order credentials, one issue where, on a national level, you do seem to outmatch McGovern's position.</p>Your advisors hope Kirk would help lock down certain parts of the South, especially Florida, freeing you up to focus your efforts on competing with McGovern in the North, Midwest, and West Coast. However, there are some concerns about his experience, or lack thereof, given that he was first sworn in less than two years ago.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 63, \"fields\": {\"first_name\": \"Strom J.\", \"last_name\": \"Thurmond\", \"election\": 4, \"party\": \"Traditional American\", \"state\": \"South Carolina\", \"priority\": 8, \"description\": \"'\", \"color_hex\": \"#800020\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/LIDkdYA.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"</p>The two Southerners sat in the office, anxiously smoking as they awaited the news. An aide nervously stepped in.</p>“It's official. Wallace has joined the McGovern ticket, sir.”</p>“That limp dick, cocksucking bastard. That son of a bitch. I knew he was a n@#$% lover George, I knew it.”</p>The aide had expected this response from his employer, Governor Rockwell, but it was in fact the Senator from South Carolina, Strom Thurmond, who'd uttered the words.</p>“You let me onto that goddamned ticket, George. I'll be damned if I'm going to let a n@#$% loving traitors destroy our way of life. You let me onto that ticket and I guarantee we'll take those cocksuckers down.”</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 62, \"fields\": {\"first_name\": \"Phyllis S.\", \"last_name\": \"Schlafly\", \"election\": 4, \"party\": \"Republican\", \"state\": \"Missouri\", \"priority\": 9, \"description\": \"'\", \"color_hex\": \"#800020\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/ZvNDMQF.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Phyllis Schlafly is a staunch conservative activist who broke onto the national stage in 1964 when she campaigned heavily for Barry Goldwater. She has since changed her tune, citing broken promises and compromised morals.</p>It’s safe to say she would be a surprising choice for Vice-President, given that she would be the first woman included on anything near a serious ticket. Thanks to her extreme stances, however, she would do little to help sway female voters towards your candidacy. Nevertheless, she would be useful in pivoting your campaign from a war on desegregation and civil rights, towards a more general one of severe Archconservatism.</p>Beyond her home state of Missouri, Schlafly would considerably assist in turning out traditional Conservatives out west in states like Utah, Wyoming, and Idaho, among various others. While small prizes electorally, a strong showing outside of the South could legitimize your campaign beyond the Segregation issue.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 64, \"fields\": {\"first_name\": \"Leander H.\", \"last_name\": \"Perez\", \"election\": 4, \"party\": \"Traditional American\", \"state\": \"Louisiana\", \"priority\": 10, \"description\": \"'\", \"color_hex\": \"#800020\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/00BeEoE.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Leander Perez may just be the most controversial figure in Southern politics. On paper, he has decent yet minimal qualifications, having served as a District judge and District attorney in his parish. Upon closer inspection, however, Perez’s weaknesses become evident. He became something of a dictator in his parish, passing laws on a whim and overtly rigging elections. He’s also been caught up in questionable oil deals, which are currently under investigation.</p>Still, Perez is a Segregationist and his rhetoric stops just shy of the Klan’s. Over the past decade he’s done everything possible to fight integration, going so far as to personally fund Whites-only schools. His extremism has even gotten himself excommunicated from the Archdiocese of New Orleans, which supported integration. </p>Perez might help in his home state, but you’re favored to win it handedly regardless. He wouldn’t exactly help you nationally, either. On the other hand, out of all those willing to join the ticket, his views are closest to yours.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 59, \"fields\": {\"first_name\": \"George C.\", \"last_name\": \"Wallace\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"Alabama\", \"priority\": 11, \"description\": \"'\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/FEs7OZd.jpeg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Wallace sat in the dark office, silently nodding along as Rockwell spoke about the dangers of racial mingling and Jewish influence. This Nazi bastard really thought that Wallace was similar enough to him to be his running mate?</p>Dear god…he’s right, Wallace thought to himself. </p>The Southern Governor quickly thought of an excuse to get himself out of there, his hands shaking, sweat on his brow as he picked up the nearest phone he could find.</p>“Yes, hello, I’d like to speak to the Senator please.”</p>“Damnit George, I don’t care how messed up it sounds, I want to be on the ticket!”\", \"candidate_score\": 0.0}}]"); 
+campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 160, \"fields\": {\"candidate\": 24, \"running_mate\": 59}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 155, \"fields\": {\"candidate\": 25, \"running_mate\": 63}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 150, \"fields\": {\"candidate\": 23, \"running_mate\": 55}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 151, \"fields\": {\"candidate\": 23, \"running_mate\": 56}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 157, \"fields\": {\"candidate\": 25, \"running_mate\": 64}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 154, \"fields\": {\"candidate\": 23, \"running_mate\": 44}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 156, \"fields\": {\"candidate\": 25, \"running_mate\": 62}}]"); 
+campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 4, \"candidates\": [25, 24, 23]}]"); 
+campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 4, \"candidates\": [25, 23, 24]}]"); 
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 0.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.00, \"state_variance\": 0.00, \"question_count\": 30, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]"); 
+campaignTrail_temp.temp_election_list = [{"id": 4, "year": 1968, "is_premium": 0, "display_year": "Midnight ‘68"}];
+ var changeGameDisp = (hide) => {
+  disp = "";
+  if (hide) {
+    disp = "none";
+  }
+  document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+};
+e.creditsPage = () => {
+  credits_html = `
+    <h3>Coding</h3>
+    <p><font color='#FFA500'>Gardfeld#5089</font></p>
+    <p>Pannut#6100</font></p>
+    <p>DecstarG#4326</font></p>
+    <p>Danxv33#6959</font></p><br>
+    <h3>Writing</h3>
+    <p><font color='#FFA500'>Gardfeld#5089</font></p>
+    <p><font color='##ADD8E6'>Jaques#8485</font><p>
+    <p>Ancient Demon#1635</font></p>
+    <p>Saltz#3814</font></p>
+    <p>Marcus_augustine#3428</font></p>
+    <p>HiManchy#5228</font></p>
+    <p>Oxyy!!#0976</font></p><br>
+    <h3>Banners</h3>
+    <p>Silentcool#4698</p>
+    <p>Kermity#3412</p>
+    <p>u/Informal_Ad_8315</p>
+    <p><font color='#FFA500'>Gardfeld#5089</font></p><br><h3>Playtesting</h3>
+    <p>Ancient Demon#1635</p>
+    <p>Jaques#8485</p><br><br>
+ <h3>Coding Bits</h3>
+<p>Credit Page - 2000N</p>
+    <p>Soundtrack System - 2000N</p>
+<p>Videoplayer - S.O.L.</p>
+    <h1><font color='#D3D3D3'>Thanks for Playing!</font></h1>
+  `
+  changeGameDisp(true);
+  var spacer = document.createElement("amongusspacerthisisntarealelement");
+  spacer.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  document
+    .getElementsByClassName("inner_window_w_desc")[0]
+    .children[1].appendChild(spacer);
+    changeGameDisp(true);
+    var menuHeader = document.createElement("div");
+    menuHeader.classList.add("inner_window_front");
+    menuHeader.innerHTML = `<h1 style='font-family: "Times New Roman";'><font color='#D3D3D3'>Credits</font></h1>`;
+    menuHeader.id = "SOTUheader";
+    menuHeader.style = "height: 50px;background-color:#2d2d2d";
+    var newMenu = document.createElement("div");
+    newMenu.classList.add("inner_window_front");
+    newMenu.id = "SOTUmenu";
+    newMenu.style = `height:260px;background-color:#2d2d2d;color:white;overflow-y: scroll;`;
+
+    newMenu.innerHTML = credits_html;
+    let z = document.getElementById("game_window");
+    var backButton = document.createElement("button");
+    backButton.style =
+      "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
+    backButton.id = "backSOTUBtn";
+    backButton.innerHTML = `<b>BACK</b>`;
+    backButton.onclick = function () {
+      document.getElementById("SOTUheader").remove();
+      document.getElementById("SOTUmenu").remove();
+      document.getElementById("backSOTUBtn").remove();
+      changeGameDisp(false);
+    };
+    z.appendChild(menuHeader);
+    z.appendChild(newMenu);
+    z.appendChild(backButton);
+
+}
+
+e.credits = "<button onclick='e.creditsPage()'>The Midnight Team and others</button>" 
+document.getElementById("header").src = "https://i.imgur.com/6cboaEI.jpg"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#001833"
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
+$(".container")[0].style.backgroundColor = "#181716"
+document.body.background = "https://wtop.com/wp-content/uploads/2018/03/032918_riots_landing_page-1.jpg"
+$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/foF5SUQ.png)"
+HistHexcolour=["#5E68AC","#C7100F","#090D09","#FFD700"];
+HistName=["George McGovern","Nelson Rockefeller","George L. Rockwell","Barry Goldwater (write-in)"];
+        HistEV=[263,199,76,0];
+        HistPV=["30,936,989","30,926,661","11,111,640","43,880"];
+        HistPVP=["42.4%","42.4%","15.2%","0.06%"];
+RecReading=true
+
+quotes = ["<q>It's nice not to have to worry about constituents.</q> - George McGovern", "<q>America deserves better than Liberal or Liberal-er</q> - George L. Rockwell", "<q>I always thought of myself as a moderate liberal, a fighter for peace and justice. I never thought of myself as being all that far out.</q> - George McGovern", "<q>I'm what a normal, healthy, ideal American should be like.</q> - George McGovern", "<q>Never forget that the most powerful force on earth is love.</q> - Nelson Rockefeller", "<q>As President, I would work toward the International creation of a new world order.</q> - Nelson Rockefeller", "<q>You don't run for the presidency out of nostalgia.</q> - George McGovern", "<q>I never even had the time to read novels.</q> - George McGovern", "<q>The longer the title, the less important the job.</q> - George McGovern", "<q>I am a political soldier. I mean to win. I do not hesitate to admit that I would do anything, absolutely anything, to ensure the survival and happiness of our White, Western People.</q> - George L. Rockwell", "<q>Liberals say that women are absolutely equal to men. But they're different. And thank God for the difference.</q> - George L. Rockwell", "<q>When these white Christian patriots sat down to write the Declaration of independence, there were no black citizens for them to worry about.</q> - George L. Rockwell", "Vote for Nelson Rockefeller on November 5th. The stakes are too high to stay home.", "Vote for George McGovern on November 5th. The stakes are too high to stay home.", "Vote for George Rockwell on November 5th. The stakes are too high to stay home.", "<q>I’m more loyal to Dixie than the Democrats</q> - George Wallace", "<q>I tear up a little whenever I think of Johnson's loss back in '64. He'd've kept us out of Vietnam.</q> - George McGovern", "<q>You can't just call everyone you disagree with a Nazi.</q> - George L. Rockwell", "<q>Never give in and never give up.</q> - Hubert H. Humphrey", "<q>I've ran twice, I've been asked to be Vice President twice, so the plan is all coming together really.</q> - Hubert H. Humphrey", "<q>I think every good Conservative ought to kick Rockwell right in the ass.</q> - Barry Goldwater", "<q>Nelson Rockefeller and I have many ideological differences. Until you look at his opponents, of course.</q> - Barry Goldwater", "<q>Thank god Jack isn't alive to see this</q> - Robert F. Kennedy", "<q>They talk about white power, black power. My only interest is the power of love.</q> - Martin Luther King Jr.", "<q>I won't insult your intelligence by suggesting that you really believe what you just said.</q> - William F. Buckley Jr.", "<q>Yesterday is not ours to recover, but tomorrow is ours to win or lose.</q> - Lyndon B. Johnson", "<q>I didn't kill Jack Kennedy.</q> - Lyndon B. Johnson, September 26th, 1964", "<q>Tonight, all eyes are on the Empire State.</q> - Walter Cronkite", "Two Governors and a Senator walk into a bar...", "<q>He wasn't my first choice. He wasn't my second either.</q> - Lyndon B. Johnson, August 6th, 1968", "<q>I ran at the height of my party's popularity and lost. What do you suppose my odds are now?</q> - Richard Nixon, January 12th, 1968", "<q>You have a challenge, never quit.</q> - Nelson Rockefeller", "<q>There’s no one I’d like to face more than George McGovern.</q> - Nelson Rockefeller", "<q>Humphrey’s a good man, I like him.</q> - Nelson Rockefeller", "<q>The stakes are far too high to argue over whether his name comes attached to a D or an R.</q> - Nelson Rockefeller, December 28th, 1968", "<q>It's no surprise neither of them will work with me, birds of a feather and all that.</q> - George L. Rockwell, December 14th, 1968", "<q>They'll call it another corrupt bargain. I think it would be far more corrupt to let hatred tear this nation apart.</q> - George McGovern, January 6th, 1969", "<q>I think Americans will appreciate my commitment to sensibility.</q> - Nelson Rockefeller", "<q>There are no more paths to victory.</q> - Walter Cronkite", "<q>I just think you people would be happier back in Africa where you came from.</q> - George L. Rockwell", "<q>We must have an America in which White men and women can live and work, in their homes and in the streets of our cities, without fear.</q> - George L. Rockwell"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+bannerArr=0
+bannerlist=["https://i.imgur.com/TAZseon.png", "https://i.imgur.com/4aoT7eL.png", "https://i.imgur.com/KqN0FGB.png", "https://i.imgur.com/dSFtv6Q.png", "https://i.imgur.com/bm1VCpF.png", "https://i.imgur.com/WiFL3Aj.png", "https://i.imgur.com/MVlbrUR.png", "https://i.imgur.com/ZDl34bi.png"]
+var changeBanner = () =>
+{
+bannerArr+=1
+document.getElementById("header").src=bannerlist[bannerArr % bannerlist.length]
+}
+document.getElementById("header").src=bannerlist[0]
+footer = $(".footer")[0]
+var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
+button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
+button.innerHTML = "Change banner"
+footer.insertBefore(button, footer.firstChild);
+button.onclick = changeBanner;
+
+$("#music_player")[0].children[0].style.display="none"
+$("#music_player")[0].children[1].style.display="none"
+
+document.getElementById("modLoadReveal").style.display="none"
+document.getElementById("modloaddiv").style.display="none"
+
+musicBox = document.getElementById("music_player")
+musicBox.style.display=""
+
+var trackSel;
+e = campaignTrail_temp
+e.selectedSoundtrack = 0
+
+toTime = (seconds) => {
+  var date = new Date(null);
+  date.setSeconds(seconds);
+  return date.toISOString().substr(11, 8);
+}
+
+generateTime = () => {
+    // Get the audio element
+    var audio = document.getElementById("campaigntrailmusic");
+
+    timeTracker = document.createElement("div");
+    timeTracker.style = `
+      text-align:left;
+      border-style:solid;
+      border-width:3px;
+      height:150px;
+      width:200px;
+      background-color:#999999;
+      float:right;
+      padding: 10px;
+    `
+    $("#trackSelParent")[0].prepend(timeTracker);
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+    // Create a new element to display the current position of the audio
+    var positionDisplay = document.createElement("gg");
+    positionDisplay.id = "position-display";
+
+    // Create a new slider element to change the time
+    var timeSlider = document.createElement("input");
+    timeSlider.type = "range";
+    timeSlider.min = 0;
+    timeSlider.max = 1;
+    timeSlider.step = 0.001;
+    timeSlider.value = 0;
+    timeSlider.style.width = "200px";
+    timeSlider.id = "time-slider";
+
+    var pausePlay = document.createElement("button");
+    pausePlay.id = "position-display";
+    pausePlay.innerHTML = "<b>Pause</b>"
+    pausePlay.style.width = "100%";
+
+
+    pausePlay.addEventListener("click", event => {
+      event.preventDefault();
+      updatePositionDisplay();
+      let audio = document.getElementById("campaigntrailmusic");
+      if (audio.paused) {
+        audio.play();
+        event.target.innerHTML = "<b>Pause</b>";
+        return;
+      }
+      audio.pause();
+      event.target.innerHTML = "<b>Play</b>";
+      return;
+    })
+
+    var volumeLabel = document.createElement("gg");
+    volumeLabel.id = "volume-label";
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+    var volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.min = 0;
+    volumeSlider.max = 1;
+    volumeSlider.step = 0.001;
+    volumeSlider.value = 0;
+    volumeSlider.style.width = "200px";
+    volumeSlider.id = "volume-slider";
+
+    volumeSlider.value = audio.volume;
+
+    timeTracker.appendChild(pausePlay);
+    timeTracker.appendChild(document.createElement("br"));
+    timeTracker.appendChild(document.createElement("br"));
+    timeTracker.appendChild(positionDisplay);
+    timeTracker.appendChild(timeSlider);
+    timeTracker.appendChild(volumeLabel);
+    timeTracker.appendChild(volumeSlider);
+
+    updatePositionDisplay();
+
+    //for (let i = 0; i < 10; i++)
+    //timeTracker.append(document.createElement("br"));
+
+
+    // Function to update the position display
+    function updatePositionDisplay() {
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+    }
+
+    // Function to change the time of the audio
+    function changeTime() {
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+      audio.currentTime = timeSlider.value * audio.duration;
+    }
+
+    updateVolume = event => {
+      audio.volume = event.target.value;
+    }
+    
+    // Update the position display and slider every second
+    setInterval(updatePositionDisplay, 1000);
+
+    // Listen for changes to the time slider and change the time of the audio
+    timeSlider.addEventListener("input", changeTime);
+    volumeSlider.addEventListener("input", updateVolume)
+}
+
+function newMusicPlayer() {
+  trackSel = document.createElement("div");
+  trackSel.id = "trackSelParent"
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+  for (i in soundtracks) {
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+    }
+  }
+  z += `</select></b><br><br>`
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+    z += b
+  }
+  z += "</div><br><br>"
+  trackSel.innerHTML = z
+
+  // select correct song
+
+  musicBox.appendChild(trackSel);
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+    return f.tagName == "LABEL"
+  }).map(f=>f.children[0])[0].checked = true
+
+  // set soundtrack changer
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+  soundtrackSelector.onchange = function() {
+    for (i in soundtracks) {
+      if (soundtracks[i].name == soundtrackSelector.value) {
+        e.selectedSoundtrack = i
+        break
+      }
+    }
+    document.getElementById("trackSelParent").remove()
+    newMusicPlayer()
+  }
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+  for (match in matches) {
+    matches[match].onchange = function() {
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+      musicBox.children[2].currentTime = 0
+    }
+  }
+
+  musicBox.children[2].loop = false
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+  musicBox.children[2].onended = function() {
+    console.log("next track")
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+      return f.tagName == "LABEL"
+    }).map(f=>f.children[0])
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+    buttons[newSel].click()
+  }
+
+  for (w = 0; w < 7; w++) {
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+  }
+  
+  generateTime();
+}
+
+clamp = function(a, max, min, overflow=true) {
+  if (overflow) {
+    return a > max ? min : a < min ? max : a;
+  }
+  return a > max ? max : a < min ? min : a;
+}
+
+// Track list
+
+var soundtracks = {
+ 1: {
+    name: "Come Home, America",
+    tracklist: [
+      {
+        name: "Dazed and Confused - Led Zeppelin",
+        url: "https://audio.jukehost.co.uk/em2XXDsOirF2kGJ27SwmENuxRofEDFle",
+      },
+{
+        name: "White Rabbit - Jefferson Airplane",
+        url: "https://audio.jukehost.co.uk/uWLZuvxmIig7fzd1hCiX314KzoZ3svnL",
+      },
+      {
+        name: "Hey Bulldog - The Beatles",
+        url: "https://audio.jukehost.co.uk/h459dYF293c5l4Ul1RpRw0YrT8dsfK7N",
+      },
+{
+        name: "Time Of The Season - The Zombies",
+        url: "https://audio.jukehost.co.uk/LUdlKORHN8uE46vC30CpkBZO9MBc51p6",
+      },
+{
+        name: "People Are Strange - The Doors",
+        url: "https://audio.jukehost.co.uk/TwwNtEz53rVXx2La1uDnDX9NbfZjjI27",
+      },
+{
+        name: "Masters of War - Cher",
+        url: "https://audio.jukehost.co.uk/IgnXzgyOP7eROjYdfqQbOao3uh12NH0w",
+      },
+{
+        name: "The Flesh Failures (Let the Sunshine In) - Hair Original Cast",
+        url: "https://audio.jukehost.co.uk/oLE3YZkMzqgO9vysHeLzuJ1sbiu9JMzj",
+      },
+
+
+    ],
+  },
+ 0: {
+    name: "1968",
+    tracklist: [
+      {
+        name: "Eve of Destruction - Barry McGuire",
+        url: "https://audio.jukehost.co.uk/Y0JZqpMSbErxTtiEkFPr8Ckeiqw0RxWf",
+      },
+      {
+        name: "Unknown Soldier - The Doors ",
+        url: "https://audio.jukehost.co.uk/NFCex9xmhLIDQQq1WbL9pKi5bJ2CcoPT",
+      },
+      {
+        name: "War (What is it good for?) - Edwin Starr",
+        url: "https://audio.jukehost.co.uk/gyyOugnM9HBUebEI6Nkjn6hrgWcVAyHM",
+      },
+      {
+        name: "Fire - The Crazy World of Arthur Brown",
+        url: "https://audio.jukehost.co.uk/ov0PpriJoopP5AQHcrgFcx1g2XTlBqk9",
+      },
+      {
+        name: "Ball of Confusion - The Temptations",
+        url: "https://files.catbox.moe/yskxkm.mp3",
+      },
+      {
+        name: "If I Can Dream - Elvis Presley",
+        url: "https://audio.jukehost.co.uk/SOXH6LMirjYFqNHPLKbWYo7UwkYNAWY9",
+      },
+      {
+        name: "California Dreamin' - The Mamas & the Papas",
+        url: "https://files.catbox.moe/50zp5f.mp3",
+      },
+    ],
+  },
+  2: {
+    name: "Rocky Can Win",
+    tracklist: [
+      {
+        name: "Yesterday - Frank Sinatra",
+        url: "https://audio.jukehost.co.uk/ZHFqzv2KGcZuU3oz7h6Yx4eOODVUiuQO",
+      },
+      {
+        name: "The Sidewalks of New York - Nat King Cole",
+        url: "https://audio.jukehost.co.uk/qiFrM1ePjFG7Ok78XoMW9A16lsQZxfyL",
+      },
+      {
+        name: "The World We Knew - The Anita Kerr Singers",
+        url: "https://audio.jukehost.co.uk/bMmCPdb4CgeXI5Z9uDflll1CRnfY16vH",
+      },
+      {
+        name: "(You Are) My Way of Life - Shirley Bassey",
+        url: "https://audio.jukehost.co.uk/snytFcWmZUa9E6l0kq2oMhlNyxsYOHEJ",
+      },
+      {
+        name: "Richard Cory - Simon & Garfunkel",
+        url: "https://audio.jukehost.co.uk/jiYkpQKOJvTg9NLI603MG4QBWJBckKaF",
+      },
+      {
+        name: "Elenore - The Turtles",
+        url: "https://audio.jukehost.co.uk/9iwnbpmd8zUdogEjMY75zDcgMIStsmgk",
+      },
+      {
+        name: "Don't Let Me Be Misunderstood - Nina Simone",
+        url: "https://audio.jukehost.co.uk/KiQkz6vlPmpBGigSd95mUI7yFqxjkg8u",
+      },
+    ],
+},
+3: {
+    name: "Let America Breathe",
+    tracklist: [
+      {
+        name: "Alabama Song - The Doors",
+        url: "https://audio.jukehost.co.uk/ZQ13KRDrFoquU8mRXEnB4YbbiXbpEJvv",
+      },
+      {
+        name: "Love Child - The Supremes",
+        url: "https://audio.jukehost.co.uk/zaDNeY9uxeD6evD5R3V7kLX2jv8ptbXh",
+      },
+      {
+        name: "Ecstasy of Gold -  Ennio Morricone",
+        url: "https://audio.jukehost.co.uk/1fwDLePSwgd4j5amdrXC5SlWdEBuFeTu",
+      },
+      {
+        name: "Voodoo Child -  The Jimi Hendrix Experience",
+        url: "https://audio.jukehost.co.uk/0D0MItwMI3c8sjqNnjSyHljJbrDAWybw",
+      },
+      {
+        name: "I Put A Spell On You - Creedence Clearwater Revival",
+        url: "https://audio.jukehost.co.uk/HnUVCfdQHh94GKtQY88FKougFZ7ML5tn",
+      },
+      {
+        name: "Street Fighting Man - The Rolling Stone",
+        url: "https://audio.jukehost.co.uk/SWAh5qmf5hl4eqvpODwAKcq93GoBJaWy",
+      },
+      {
+        name: "The Night They Drove Old Dixie Down - Joan Baez",
+        url: "https://files.catbox.moe/wq0dvi.mp3",
+      },
+    ],
+  },
+}
+
+
+newMusicPlayer()
+
+ var changeGameDisp2 = (hide) => {
+  disp = "";
+  if (hide) {
+    disp = "none";
+  }
+  document.getElementsByClassName("below_header")[0].style.display = disp
+     document.getElementById("bottomBar").style.display = disp
+};
+
+e.trailerPage = () => {
+  credits_html = `
+  <video id='midnight_video' src='https://cdn.discordapp.com/attachments/932087077472993350/1091951781346562158/In_Game_Ads.mp4' width=350></video>
+  `
+$("#music_player")[0].style.display="none"
+$("audio")[0].pause()
+  changeGameDisp2(true);
+    changeGameDisp2(true);
+    var menuHeader = document.createElement("div");
+    menuHeader.classList.add("inner_window_front");
+    menuHeader.innerHTML = `<h1 style="position:relative;top:-5px;"><font color='white'>It’s Midnight In America</font></h1>`;
+    menuHeader.id = "SOTUheader";
+    menuHeader.style = "height: 50px;background-color:black";
+    var newMenu = document.createElement("div");
+    newMenu.classList.add("inner_window_front");
+    newMenu.id = "SOTUmenu";
+    newMenu.style = `height:260px;background-color:black;color:white;`;
+
+    newMenu.innerHTML = credits_html;
+    let z = document.getElementById("game_window");
+    var backButton = document.createElement("button");
+    backButton.style =
+      "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
+    backButton.id = "backSOTUBtn";
+    backButton.innerHTML = `<b>BACK</b>`;
+    backButton.onclick = function () {
+      document.getElementById("SOTUheader").remove();
+      document.getElementById("SOTUmenu").remove();
+      document.getElementById("backSOTUBtn").remove();
+      changeGameDisp2(false);
+$("#music_player")[0].style.display=""
+
+    };
+    z.appendChild(menuHeader);
+    z.appendChild(newMenu);
+    z.appendChild(backButton);
+    $("#midnight_video")[0].play()
+
+
+
+}
+
+let bBar = $("#bottomBar")[0]
+let bBarC = Array.from(bBar.children)
+
+for (i in bBarC) {
+    bBarC[i].remove()
+}
+
+let trailer = document.createElement("button")
+trailer.style = `position: absolute; left: 10px; top: 5px;width:200px;height:47px;font-size:150%;text-align:center;background-color:black;color:white;`
+trailer.innerHTML = "<b>Midnight</b>"
+trailer.id="trailer_button"
+trailer.onclick=e.trailerPage;
+
+bBar.appendChild(trailer)
+
+let buttonStyle = document.createElement("style")
+buttonStyle.innerHTML = `
+#trailer_button:hover {
+    background-color: #212121 !important;
+}
+`
+document.body.appendChild(buttonStyle)
+
+
+
+
