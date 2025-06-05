@@ -26,7 +26,7 @@ campaignTrail_temp.election_json = [
           "image_url": "https://i.imgur.com/PwQzHcF.png",
           "winning_electoral_vote_number": 270,
           "advisor_url": "https://i.imgur.com/UrGd31s.gif",
-          "recommended_reading": "<div style='text-align: center;'><a href='https://en.wikipedia.org/wiki/Donald_Trump_sexual_misconduct_allegations' class='flashing-text' style='font-size: 20px;'>The Art of the Deal</a></div><style>@keyframes flash { 0% { color: blue; } 33% { color: red; } 66% { color: black; } 100% { color: blue; } } .flashing-text { font-weight: bold; animation: flash 1s infinite; }</style>",
+          "recommended_reading": "<div style='text-align: center;'><a href='https://en.wikipedia.org/wiki/Rod_Blagojevich_corruption_charges' class='flashing-text' style='font-size: 20px;'>The Governor</a></div><style>@keyframes flash { 0% { color: blue; } 33% { color: red; } 66% { color: black; } 100% { color: blue; } } .flashing-text { font-weight: bold; animation: flash 1s infinite; }</style>",
           "has_visits": 1,
           "no_electoral_majority_image": "https://i.imgur.com/5gdezUv.png",
           "creator": "Dan Bryan",
@@ -880,24 +880,24 @@ input {
     );
   
     const song6 = new Song(
-      "Arrest the President",
-      "Ice Cube",
-      "https://i.imgur.com/BBOMLln.png",
-      "https://audio.jukehost.co.uk/c2cWOAnjSfzh2YI3OhW923cClDn3Iqic"
+      "Love Me, I'm a Liberal",
+      "Jello Biafra, Mojo Nixon",
+      "https://i.scdn.co/image/ab67616d0000b273b79cc4b3ecfbb32b8ca78c6a",
+      "https://audio.jukehost.co.uk/9oOaNn0HQwCSGnTjzwCXnybZnnClVZ99"
     );
   
     const song7 = new Song(
-      "Vigilante Man",
-      "Glen Hansard",
-      "https://i.imgur.com/SvUzGQH.png",
-      "https://audio.jukehost.co.uk/MasC7udHqmabHGNLCJdlD9sSHIx9gpnV"
+    "You Can't Always Get What You Want",
+    "The Rolling Stones",
+    "https://i.imgur.com/E8B7Svi.png",
+    "https://audio.jukehost.co.uk/PsZHFAuZ9IdHhFO11FCOulS8Os7WQuOn"
     );
   
     const song8 = new Song(
-      "Real American",
-      "Rick Derringer",
-      "https://i.imgur.com/CalYXXW.png",
-      "https://audio.jukehost.co.uk/5aZ2PQqoNvJN2kPuLCaOoGSHmkmI95lk"
+      "When You Die",
+      "MGMT",
+      "https://i.imgur.com/d2ctDiz.png",
+      "https://files.catbox.moe/gxjsob.mp3"
     );
   
     playlist.addSong(song1);
