@@ -1239,74 +1239,74 @@ campaignTrail_temp.achievements = {
   "cannotBeCheated" : true
   },
 
-  "Hunter Killer" : {
-      "image" : "https://i.imgur.com/cqkcPbR.gif",
-      "description" : "Put an Old Man to Bed",
+  "No-Mentum" : {
+      "image" : "https://i.imgur.com/ePcFgEA.png",
+      "description" : "Hunt a Hawk",
       "cannotBeCheated" : true
   },
 
-  "Bern Out" : {
-      "image" : "https://i.imgur.com/N4ZhWbm.gif",
-      "description" : "Halt the Revolution",
+  "Art of the Steal" : {
+      "image" : "https://i.imgur.com/v2GZ5w8.png",
+      "description" : "Knock down a Builder",
       "cannotBeCheated" : true
   },
 
-  "Washington red. Skinned" : {
-      "image" : "https://i.imgur.com/etnF8lc.gif",
-      "description" : "School a Professor",
+  "Idle Hands" : {
+      "image" : "https://i.imgur.com/MtiM28x.png",
+      "description" : "Cut up a Surgeon",
       "cannotBeCheated" : true
   },
 
-  "Pride Before the Fall" : {
-      "image" : "https://i.imgur.com/pKyfmzH.gif",
-      "description" : "Send a Mayor Packing",
+  "Measure Up" : {
+      "image" : "https://i.imgur.com/pNrPaCd.png",
+      "description" : "Outshine the Golden Boy",
       "cannotBeCheated" : true
   },
 
-  "Minnesota à trois" : {
-    "image" : "https://i.imgur.com/gyZ2YkP.gif",
-    "description" : "Melt a Snowwoman",
+  "Nonbeliever" : {
+    "image" : "https://i.imgur.com/4GWv9ao.png",
+    "description" : "Cancel a Rerun",
     "cannotBeCheated" : true
   },
 
-  "Bloomberg Terminal" : {
-      "image" : "https://i.imgur.com/lEYDah3.gif",
-      "description" : "Best an Old Friend",
+  "DisgusTED" : {
+      "image" : "https://i.imgur.com/F3wYrks.png",
+      "description" : "Shoot Down a Cowboy",
       "cannotBeCheated" : true
   },
 
-  "Don't Stop Believ---" : {
-      "image" : "https://i.imgur.com/ZJZOjp8.gif",
-      "description" : "Whack a Jerseyboy",
+  "Secret Agent Man" : {
+      "image" : "https://i.imgur.com/XoJuDFs.png",
+      "description" : "Fry up a McMuffin",
       "cannotBeCheated" : true
   },
 
-  "Texas Told'Em" : {
-      "image" : "https://i.imgur.com/D9tcDzB.gif",
-      "description" : "Eclipse a Rising Star",
+  "Silver Streak" : {
+      "image" : "https://i.imgur.com/4eHPISn.png",
+      "description" : "Convict an Attorney",
       "cannotBeCheated" : true
   },
 
-"Do the MATH" : {
-    "image" : "https://i.imgur.com/jmPZIv2.gif",
-    "description" : "Bankrupt a Businessman",
+"On Liberty" : {
+    "image" : "https://i.imgur.com/i6MubaJ.png",
+    "description" : "Diagnose a Doctor",
     "cannotBeCheated" : true
   },
 
-"Hawaii Cried-Oh" : {
-    "image" : "https://i.imgur.com/1q1rYKk.gif",
-    "description" : "Wipeout a Surfer",
+"Refudiated" : {
+    "image" : "https://i.imgur.com/YmhVacf.png",
+    "description" : "Put down a Pitbull",
     "cannotBeCheated" : true
   },
 
-  "What Happened" : {
-    "image" : "https://i.imgur.com/Zs27olV.gif",
+  "Bushwhacked" : {
+    "image" : "https://i.imgur.com/hzsKKqk.png",
     "description" : "Banish a Spectre",
     "cannotBeCheated" : true
   },
 
-  "Audacity of Nope" : {
-    "image" : "https://i.imgur.com/AAn89bR.gif",
+  "Oops" : {
+    "image" : "https://i.imgur.com/4ossxcb.png",
     "description" : "Beat the Best",
     "cannotBeCheated" : true
   },
