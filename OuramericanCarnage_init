@@ -18,7 +18,7 @@ campaignTrail_temp.election_json = [
                       animation: flash 1s infinite;\
                   }\
               </style>\
-              <p><strong style='font-size: 1.2em;'>Donald J. Trump</strong>, the princeling billionaire real-estate mogul, chief jester of the New York tabloid circuit, a reactionary game show host with a spray tan and a cheap suit. He has destroyed the fabric of the American body politic; in only a few short years, his stint in American politics has morphed from a joke to a nightmare. </p>\
+              <p><strong style='font-size: 1.2em;'>Rod Blagojevich</strong>, the princeling billionaire real-estate mogul, chief jester of the New York tabloid circuit, a reactionary game show host with a spray tan and a cheap suit. He has destroyed the fabric of the American body politic; in only a few short years, his stint in American politics has morphed from a joke to a nightmare. </p>\
               <p>Through fear, misogyny, and hatred. All combined with a pitiless void for an ego, this gremlin has suckered in enough hicks and rubes to buy his narrative of ‘Making America Great Again.’ With the support of America’s enemies, he has manipulated the decaying framework of the American electorate and contorted a gutless media to allow this epic tragedy to unfold.</p>\
               <p>Can you even imagine the mind of such a low creature, the inner workings of its minute poisoned conscience, the depravities just waiting to be unleashed?</p>\
               <p>This is <span class='flashing-text' style='font-size: 1.2em;'>American Carnage</span> …</p>\
@@ -30,12 +30,12 @@ campaignTrail_temp.election_json = [
           "has_visits": 1,
           "no_electoral_majority_image": "https://i.imgur.com/5gdezUv.png",
           "creator": "Dan Bryan",
-          "display_year": "2020 - American Carnage"
+          "display_year": "2020 - Our American Carnage"
       }
   }
 ]
 
-document.getElementById("inner_window_1").children[1].innerHTML = `<li>Welcome to American Carnage.</li><li>An Alternate History where Donald Trump was elected the 45th President of the United States.</li><li>You will answer questions about his platforms, positions and campaign strategy, between the years 2017 and 2020.</li><li>The answers will affect his popularity, both nationally and in individual states.</li><li>These policies both their success and ideology will effect the candidate you face in the 2020 election.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings and achievements.</li><li>Content Warning: Racism, Sexism, Islamophobia, Xenophobia, Profanity, and a general crass, crude and deeply cynical perspective on humanity.</li><li>You’ve been warned.</li>`;
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Welcome to American Carnage.</li><li>An Alternate History where Rod Blagojevich was elected the 45th President of the United States.</li><li>You will answer questions about his platforms, positions and campaign strategy, between the years 2017 and 2020.</li><li>The answers will affect his popularity, both nationally and in individual states.</li><li>These policies both their success and ideology will effect the candidate you face in the 2020 election.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings and achievements.</li><li>Content Warning: Racism, Sexism, Islamophobia, Xenophobia, Profanity, and a general crass, crude and deeply cynical perspective on humanity.</li><li>You’ve been warned.</li>`;
 document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 0 0 0.5em !important;padding-top: 0.5em !important;}", 0);
 document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 0 .7em 0.5em !important;padding-top: 0.3em !important;}", 0);
 document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
@@ -56,7 +56,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 78,
         "fields": {
             "first_name": "Mr",
-            "last_name": "The Dems",
+            "last_name": "The Repubs",
             "election": 9,
             "party": "Democrat",
             "state": "Delaware",
@@ -173,7 +173,7 @@ campaignTrail_temp.candidate_json = [
           "first_name": "Steve",
           "last_name": "Bullock",
           "election": 9,
-          "party": "Republican",
+          "party": "Democrat",
           "state": "Montana",
           "priority": 10,
           "description": "'",
@@ -328,14 +328,14 @@ campaignTrail_temp.temp_election_list = [
   corrr = `
   <div style="font-size: 11px; font-family: monospace; color: white;">
     <h2 style="font-style: normal;">
-      <img src="https://i.imgur.com/CKxWLJU.gif" alt="AMERICAN CARNAGE" style="margin-top: 5px;">
+      <img src="https://i.imgur.com/mROILhO.jpeg" alt="AMERICAN CARNAGE" style="margin-top: 5px;">
     </h2>
   </div>
   `;
   
   
           nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#d8dadc" 
-          nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#dd262b" 
+          nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#0b0bab" 
           $(".container")[0].style.backgroundColor = "#dee3e6"
           $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/ChACkRO.gif)" 
           document.body.background = "https://i.imgur.com/M2WTVZw.gif" 
