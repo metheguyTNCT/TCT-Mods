@@ -83,6 +83,47 @@ function createEnding(engine, results) {
             }
         }
     }
+  // If you played as Perot
+    else if(playerId == 79) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Jam  - Michael Jackson",
+    imageUrl: "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg",
+    url: "https://i.imgur.com/p6ofMRZ.jpeg",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/Xaa5cij.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                    }
+                ]
+            }
+        }
+        else {
+        engine.setNewMusic([{
+    displayName: "Bruce Springsteen - Born in the USA",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG",
+    url: "https://audio.jukehost.co.uk/1nbU0jWxAHQIdHU0eXkNYACY2YOw61n9",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Where are you now when we need you, Ross Perot?",
+                        imageUrl: "https://i.imgur.com/p6ofMRZ.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                    }
+                ]
+            }
+        }
+    }
+
+
     // No other endings defined, return an error
     else {
         return {
