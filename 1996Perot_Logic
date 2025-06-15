@@ -138,8 +138,23 @@ function createEnding(engine, results) {
     }
 }
 
+var brown = false;
+
 function onAnswerPicked(engine, answerPicked) {
-    // This scenario has no CYOA
+    // This scenario has mild CYOA
+    const ans = answerPicked.id;
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    if (ans == 3414 && playerId == 79) {
+        engine.setNewPlayerCandidateImage("https://i.imgur.com/XBvkeE8.png");
+        engine.setNewPlayerCandidateName("Jerry", "Brown");
+
+        engine.setNewRunningMateImage("https://i.imgur.com/xdflLMQ.png");
+        engine.setNewRunningMateName("Gary", "Johnson");
+        brown = true;
+        engine.currentQuestionIndex = 25
+
+    }
 }
 
 function onScenarioStarted(engine) {
