@@ -2,11 +2,11 @@
     "candidates": [
         {
             "id": 78,
-            "firstName": "Richard",
-            "lastName": "Gephardt",
+            "firstName": "John",
+            "lastName": "Kerry",
             "party": "Democratic",
-            "homeState": "Missouri",
-            "color": "#000080",
+            "homeState": "Massachusetts",
+            "color": "#0052a0",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -35,7 +35,7 @@
                 }
             ],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/2om7JdF.png",
+            "imageUrl": "https://i.imgur.com/K9OdKko.png",
             "runningMateIds": [
                 85,
                 86,
@@ -267,14 +267,14 @@
         },
         {
             "id": 88,
-            "firstName": "Bill",
-            "lastName": "Bradley",
+            "firstName": "Howard",
+            "lastName": "Dean",
             "party": "Democratic",
-            "homeState": "New Jersey",
+            "homeState": "Vermont",
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/ATcej48.png",
+            "imageUrl": "https://i.imgur.com/DlKB1la.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -3082,7 +3082,7 @@
             "questions": [
                 {
                     "id": 393,
-                    "description": "Today you have announced the selection of Dick Cheney as running mate. Can you speak more about him?",
+                    "description": "As the Republican primary draws to a close, you find yourself as the last man standing. How will you reunite a fractured party?",
                     "answers": [
                         {
                             "id": 3493,
@@ -20628,11 +20628,11 @@
             "questions": [
                 {
                     "id": 397,
-                    "description": "Today you have announced the selection of Joe Lieberman as running mate. Can you speak more about him?",
+                    "description": "you won the nomination",
                     "answers": [
                         {
                             "id": 3501,
-                            "description": "Joe Lieberman is a historic choice for Vice President, and a valued member of the Democratic Party.",
+                            "description": "When I came back from Vietnam, the politics of GOTV let us go to the moon right here on earth. Why not?",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -20653,7 +20653,7 @@
                         },
                         {
                             "id": 3502,
-                            "description": "Joe Lieberman is an independent thinker who has challenged people of all views. These are the people I want in my administration.",
+                            "description": "well on one hand on the other hand but on the other hand",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -63013,16 +63013,12 @@
                     "keepInPlaceIfQuestionsShuffled": false
                 }
             ]
-        },
-        {
-            "playerId": 86,
-            "questions": []
         }
     ],
     "theme": {
         "backgroundImageUrl": "https://i.imgur.com/gSy5pHF.jpeg",
         "backgroundColor": "#BFE6FF",
-        "headerImageUrl": "https://i.imgur.com/Wa5QAKI.jpeg",
+        "headerImageUrl": "https://i.imgur.com/3MCqMbg.jpeg",
         "primaryGameWindowColor": "#af5555",
         "secondaryGameWindowColor": "#800000",
         "primaryGameWindowTextColor": "#000000",
@@ -63034,8 +63030,8 @@
     },
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
-    "scenarioDescription": "<p>George W. Bush attempts to chart a new direction for the U.S., while Al Gore tries to win election as the sitting Vice President. Ralph Nader is a leftist third-party candidate. The economy has been booming, until quite recently, but President Clinton has been through an embarrassing scandal.</p><p>Candidates will debate what to do with a $200 billion budget surplus, among other things. In the real world, Florida was decided by 537 votes after 36 days and a Supreme Court decision.</p>",
-    "scenarioImageUrl": "https://i.imgur.com/mY1oIJo.png",
+    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to bring his evangelical conservative ideology to the mainstream.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
+    "scenarioImageUrl": "https://i.imgur.com/Us7HiHY.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
@@ -63075,17 +63071,13 @@
             "value": "<img src=https://i.imgur.com/jTsl8ly.jpeg> A free trade agreement between America, Canada and Mexico. Vetoed by Perot."
         },
         {
-            "key": "Do-Nothing Congress",
-            "value": "<img src=https://i.imgur.com/lwIruJE.jpeg> Determined to obstruct Perot's agenda."
-        },
-        {
             "key": "Dickey Flatt",
             "value": "Gramm's imaginary friend."
         },
         {
-            "key": "Clinton",
-            "value": "<img src=https://i.imgur.com/alhnLqy.jpeg> The great disappointment."
+            "key": "Republican primary",
+            "value": "<img src=https://i.imgur.com/lFFa5ul.png> A knock-down drag-out battle, with everyone and their mother running."
         }
     ],
-    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"http://www.cnn.com/ALLPOLITICS/1996/candidates/republican/withdrawn/gramm.shtml\" target=”_blank”>CNN All</a><a href=\"https://www.cnn.com/ALLPOLITICS/1997/gen/resources/players/gephardt/\" target=”_blank”> Politics</a>"
+    "furtherReading": "A redux of sorts to '1996: The Maverick, the Reactionary, and the Establishment' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"http://www.cnn.com/ALLPOLITICS/1996/candidates/republican/withdrawn/gramm.shtml\" target=”_blank”>CNN AllPolitics</a>"
 }
