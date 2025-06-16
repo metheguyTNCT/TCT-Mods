@@ -79,7 +79,7 @@
                     "weight": 1.38
                 }
             ],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>Perot isn't the only Texan in this race. Formerly a Democrat, Phil Gramm was nonetheless, as he likes to say, 'conservative before conservative was cool.'</p><p>Playing an instrumental role in the Republicans' recapture of the Senate in 1994, Gramm's fundraising prowess carried him over the finish line in the primaries amid Wilson and Dole's flameouts. As the author of the Gramm-Rudman spending reduction, Gramm campaigns as an ardent fiscal conservative, especially on welfare reform. Though mostly in agreement with the Religious Right, culture war issues are a strictly secondary part of his campaign. Can Gramm bring his platform to the mainstream, or will he find himself falling off the wagon?</p>",
             "imageUrl": "https://i.imgur.com/Ec6eJqL.png",
             "runningMateIds": [
                 81,
@@ -124,7 +124,7 @@
                     "weight": 0.69
                 }
             ],
-            "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it. The same anti-establishment fervor that carried Perot to the Presidency means that Congress is in no mood to work with him, to no end of pain for him.Perot's signature electoral reform initiative has been a wash, as has his attempted scrapping of NAFTA.</p><p>Perot has governed as a moderate conservative,  though he would be more likely to describe his views as simply common sense.  After a brief flirtation with rejoining the Republicans, Perot founded the Independence Party. Famously wishy-washy on the specifics of his ideology, sooner or later he'll have to define who he is and what he and his newly-constructed party believe in.  It'll take more than wisecracks to win this time, but Perot has beaten the odds before...</p>",
             "imageUrl": "https://i.imgur.com/hHDeoUI.png",
             "runningMateIds": [
                 89,
@@ -195,7 +195,7 @@
             "homeState": "Tennessee",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>Populist and experienced, moderate and conservative, folksy and stiff, Lamar Alexander is not a man who can be easily categorized.</p><p>Alexander first came to prominence (of a sort) as George Bush's education secretary, where he performed well, if unspectacularly. Starting his campaign for the nomination this year with little name recognition,Alexander gained a surprising amount of traction, nearly winning in Iowa and New Hampshire. However, while as of now a fairly standard right-winger, he formerly held moderate or even liberals, both earning the lasting enmity of conservative activists and opening him up to accusations of flip-flopping. Nonetheless, if you want to beat Perot at his own game, Alexander is a fine choice.</p>",
             "imageUrl": "https://i.imgur.com/kWRW8Tl.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -3086,8 +3086,8 @@
                     "answers": [
                         {
                             "id": 3493,
-                            "description": "Dick Cheney is a principled conservative leader. The two of us will govern over a conservative, patriotic administration. Let's turn the page from the Clinton era.",
-                            "feedback": "",
+                            "description": "When I came to Texas A&M, the football team hadn't won in years, and I was an economics professor who knew nothing about football. But what did I do? I studied up, and I led the team to two championship wins. I can bring that same all-American know-how to the presidency.",
+                            "feedback": "You're about the only guy in politics right now who can out-folksy Perot. It's good to put that to use.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -62897,7 +62897,7 @@
     },
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
-    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to bring his evangelical conservative ideology to the mainstream.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
+    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
     "scenarioImageUrl": "https://i.imgur.com/Us7HiHY.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
@@ -62943,7 +62943,7 @@
         },
         {
             "key": "Do-Nothing Congress",
-            "value": "Perot's term for the hostile Congress, which has opposed his agenda every step of the way."
+            "value": "<img src=https://i.imgur.com/lwIruJE.jpeg> Perot's term for the hostile Congress, which has opposed his agenda every step of the way."
         },
         {
             "key": "Barkley",
@@ -62951,7 +62951,7 @@
         },
         {
             "key": "Libertarian-ish types",
-            "value": "<img src=https://i.imgur.com/81bmgZn.jpeg>  One of the three major factions of the Independence Party. Key figures include Jerry Brown and Gary Johnson. Most prominent in the West."
+            "value": "<img src=https://i.imgur.com/ln2jchx.jpeg>  One of the three major factions of the Independence Party. Key figures include Jerry Brown and Gary Johnson. Most prominent in the West."
         },
         {
             "key": "Northeastern moderates",
@@ -62962,5 +62962,5 @@
             "value": "<img src=https://i.imgur.com/ka1r4AQ.jpeg>  One of the major factions of the Independence Party. Key figures include Pat Buchanan, Jim Traficant, and Ron Paul. They worry you sometimes, but they're enthusiastic and they vote for you, so what are you gonna do?"
         }
     ],
-    "furtherReading": "A redux of sorts to '1996: The Maverick, the Reactionary, and the Establishment' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"http://www.cnn.com/ALLPOLITICS/1996/candidates/republican/withdrawn/gramm.shtml\" target=”_blank”>CNN AllPolitics</a>"
+    "furtherReading": "A redux of sorts to '1996: The Maverick, the Reactionary, and the Establishment' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
 }
