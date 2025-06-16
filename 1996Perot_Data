@@ -293,14 +293,14 @@
         },
         {
             "id": 90,
-            "firstName": "Pat",
-            "lastName": "Buchanan",
-            "party": "Republican",
-            "homeState": "Virginina",
+            "firstName": "James",
+            "lastName": "Traficant",
+            "party": "Independence",
+            "homeState": "Ohio",
             "color": "#FFFF00",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/k26tEX6.png",
+            "imageUrl": "https://i.imgur.com/hEuy7EJ.jpeg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         }
@@ -39452,17 +39452,17 @@
             "questions": [
                 {
                     "id": 371,
-                    "description": "Before we make plans for your second term, the question has to be asked- do you even want one?",
+                    "description": "The results of the midterms are clear- it's not your night. While making some gains, such as the Maine and New Mexico governorships, the party has taken a beating in the Senate races. This governing stuff is a lot more complex than you'd originally thought. If you're looking for an out, now is the time.",
                     "answers": [
                         {
                             "id": 3413,
-                            "description": "yes term 2",
+                            "description": "Of course i'll run for reelection. I've got so much unfinished business, after all. Cutting and running would only help the two-party machine.",
                             "feedback": "This is one of the big decisions of your campaign -- will people turn out to vote for you in close states? Time will tell.",
                             "answerEffects": []
                         },
                         {
                             "id": 3414,
-                            "description": "Look, I never wanted to be President in the first place.",
+                            "description": "Look, I never wanted to be President in the first place. I only ran in the first place because of the mess the Republicans and Democrats made. I feel like I've done an awful lot of good for this nation. But if the Do-Nothing Congress is just gonna keep obstructing me",
                             "feedback": "This is one of the big decisions of your campaign -- can you run up your vote total in large, liberal states to hit the 5% threshold nationally? Time will tell.",
                             "answerEffects": [
                                 {
@@ -39654,7 +39654,7 @@
                 },
                 {
                     "id": 368,
-                    "description": "What key points will you emphasize as you accept your party's nomination for President of the United States?",
+                    "description": "While both parties are big tents, Independence's coalition is uniquely rickety. Libertarian-ish types, Northeastern moderates, and paleoconservatives are all joined together by nothing more than their dissatisfaction with the Democrats and Republicans. How will you possibly turn this into a workable party?",
                     "answers": [
                         {
                             "id": 3401,
@@ -63077,6 +63077,26 @@
         {
             "key": "Republican primary",
             "value": "<img src=https://i.imgur.com/lFFa5ul.png> A knock-down drag-out battle, with everyone and their mother running."
+        },
+        {
+            "key": "Do-Nothing Congress",
+            "value": "Perot's term for the hostile Congress, which has opposed his agenda every step of the way."
+        },
+        {
+            "key": "Barkley",
+            "value": "<img src=https://i.imgur.com/81bmgZn.jpeg> A freshman representative from Minnesota, and a rising star in Independence circles."
+        },
+        {
+            "key": "Libertarian-ish types",
+            "value": "<img src=https://i.imgur.com/81bmgZn.jpeg>  One of the three major factions of the Independence Party. Key figures include Jerry Brown and Gary Johnson. Most prominent in the West."
+        },
+        {
+            "key": "Northeastern moderates",
+            "value": "<img src=https://i.imgur.com/ybOH7GV.jpeg>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
+        },
+        {
+            "key": "paleoconservatives",
+            "value": "<img src=https://i.imgur.com/ka1r4AQ.jpeg>  One of the major factions of the Independence Party. Key figures include Pat Buchanan, Jim Traficant, and Ron Paul. They worry you sometimes, but they're enthusiastic and they vote for you, so what are you gonna do?"
         }
     ],
     "furtherReading": "A redux of sorts to '1996: The Maverick, the Reactionary, and the Establishment' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"http://www.cnn.com/ALLPOLITICS/1996/candidates/republican/withdrawn/gramm.shtml\" target=”_blank”>CNN AllPolitics</a>"
