@@ -19,7 +19,7 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Congratulations! You have won the 2016 election.",
-                        imageUrl: "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+                        imageUrl: "https://i.imgur.com/MP0Zpsu.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
                     }
                 ]
@@ -37,20 +37,20 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Sorry! You have lost the 2016 election.",
-                        imageUrl: "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
+                        imageUrl: "https://i.imgur.com/l1CM6j2.png",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
                     }
                 ]
             }
         }
     }
-    // If you played as Gephardt
+    // If you played as Kerry
     else if(playerId == 78) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "Jam  - Michael Jackson",
-    imageUrl: "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg",
-    url: "https://files.catbox.moe/5b1ug3.mp3",
+    displayName: "No Surrender  - Bruce Springsteen",
+    imageUrl: "https://i.imgur.com/y12Nnmn.jpeg",
+    url: "https://files.catbox.moe/auyngt.mp3",
   },
 ]);
 
@@ -58,7 +58,7 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Congratulations! You have won the 2016 election.",
-                        imageUrl: "https://files.catbox.moe/mvxfu8.jpg",
+                        imageUrl: "https://i.imgur.com/SeHuacK.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                     }
                 ]
@@ -76,7 +76,7 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Sorry! You have lost the 2016 election.",
-                        imageUrl: "https://i.imgur.com/mmZh52x.jpeg",
+                        imageUrl: "https://i.imgur.com/KxkPakq.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                     }
                 ]
@@ -87,9 +87,9 @@ function createEnding(engine, results) {
     else if(playerId == 79) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "Jam  - Michael Jackson",
+    displayName: "Crazy - Patsy Cline",
     imageUrl: "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg",
-    url: "https://i.imgur.com/p6ofMRZ.jpeg",
+    url: "https://files.catbox.moe/0t5b9l.mp3",
   },
 ]);
 
@@ -105,9 +105,9 @@ function createEnding(engine, results) {
         }
         else {
         engine.setNewMusic([{
-    displayName: "Bruce Springsteen - Born in the USA",
+    displayName: "Dont Fear The Reaper - Blue Oyster Cult",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG",
-    url: "https://audio.jukehost.co.uk/1nbU0jWxAHQIdHU0eXkNYACY2YOw61n9",
+    url: "https://audio.jukehost.co.uk/sM26AkgDMrHlRgc7uzSxCusXZ62Wi8oo",
   },
 ]);
 
