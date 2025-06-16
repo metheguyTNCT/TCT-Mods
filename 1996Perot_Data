@@ -10,7 +10,7 @@
             "issueScores": [
                 {
                     "issueId": 27,
-                    "issueScore": -0.62,
+                    "issueScore": 0.04,
                     "weight": 1
                 },
                 {
@@ -20,17 +20,17 @@
                 },
                 {
                     "issueId": 29,
-                    "issueScore": 0.26,
+                    "issueScore": 0.13,
                     "weight": 1
                 },
                 {
                     "issueId": 30,
-                    "issueScore": -0.32,
-                    "weight": 1
+                    "issueScore": 0.09,
+                    "weight": 1.37
                 },
                 {
                     "issueId": 31,
-                    "issueScore": -0.05,
+                    "issueScore": 0.24,
                     "weight": 1
                 }
             ],
@@ -76,7 +76,7 @@
                 {
                     "issueId": 31,
                     "issueScore": -0.56,
-                    "weight": 1
+                    "weight": 1.38
                 }
             ],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
@@ -101,7 +101,7 @@
                 {
                     "issueId": 27,
                     "issueScore": -0.67,
-                    "weight": 1
+                    "weight": 1.36
                 },
                 {
                     "issueId": 28,
@@ -111,7 +111,7 @@
                 {
                     "issueId": 29,
                     "issueScore": 0.75,
-                    "weight": 1
+                    "weight": 1.24
                 },
                 {
                     "issueId": 30,
@@ -121,7 +121,7 @@
                 {
                     "issueId": 31,
                     "issueScore": 0.3,
-                    "weight": 1
+                    "weight": 0.69
                 }
             ],
             "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
@@ -3034,16 +3034,16 @@
             "name": "Foreign Policy",
             "description": "",
             "stances": [
-                "Very Conservative",
-                "Conservative",
-                "Conservative",
+                "Very Hawkish",
+                "Hawkish",
+                "Hawkish",
                 "Moderate",
-                "Liberal",
-                "Liberal",
-                "Very Liberal"
+                "Dovish",
+                "Very Dovish",
+                "Peacenik"
             ],
             "stanceDescriptions": [
-                "bomb the bastards",
+                "",
                 "",
                 "",
                 "",
@@ -39462,8 +39462,8 @@
                         },
                         {
                             "id": 3414,
-                            "description": "Look, I never wanted to be President in the first place. I only ran in the first place because of the mess the Republicans and Democrats made. I feel like I've done an awful lot of good for this nation. But if the Do-Nothing Congress is just gonna keep obstructing me",
-                            "feedback": "This is one of the big decisions of your campaign -- can you run up your vote total in large, liberal states to hit the 5% threshold nationally? Time will tell.",
+                            "description": "Look, I never wanted to be President in the first place. I only ran to clean up the mess the Republicans and Democrats made. I feel like I've done an awful lot of good for this nation. But if the Do-Nothing Congress is just gonna keep obstructing me, I might as well give them what they want.",
+                            "feedback": "This is the signal for all-out war in the Independence Party. After a bruising primary, Vice President Brown narrowly comes out on top, tapping freshman governor Gary Johnson as VP. Let's see how he does.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -39481,87 +39481,10 @@
                                 },
                                 {
                                     "answerEffectType": "State",
-                                    "candidateId": 78,
+                                    "candidateId": 79,
                                     "issueId": -1,
-                                    "stateId": 185,
+                                    "stateId": 223,
                                     "amount": -0.08
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 187,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 191,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 193,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 199,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 200,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 201,
-                                    "amount": -0.08
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 210,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 212,
-                                    "amount": -0.07
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 219,
-                                    "amount": -0.08
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 225,
-                                    "amount": -0.06
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 228,
-                                    "amount": -0.06
                                 },
                                 {
                                     "answerEffectType": "State",
@@ -39571,81 +39494,25 @@
                                     "amount": 0.075
                                 },
                                 {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 187,
-                                    "amount": 0.05
+                                    "answerEffectType": "Issue",
+                                    "candidateId": 78,
+                                    "issueId": 29,
+                                    "stateId": 181,
+                                    "amount": 0.35
                                 },
                                 {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 191,
-                                    "amount": 0.05
+                                    "answerEffectType": "Issue",
+                                    "candidateId": 78,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.01
                                 },
                                 {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 193,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 199,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 200,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 201,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 210,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 212,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 219,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 225,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 228,
-                                    "amount": 0.05
+                                    "answerEffectType": "Issue",
+                                    "candidateId": 78,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.17
                                 }
                             ]
                         }
