@@ -85,7 +85,7 @@ function createEnding(engine, results) {
     }
   // If you played as Perot
     else if(playerId == 79) {
-        if(engine.playerWonEv(results)) {
+        if(engine.playerWonEv(results)&& brown == false) {
         engine.setNewMusic([{
     displayName: "Crazy - Patsy Cline",
     imageUrl: "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg",
@@ -96,17 +96,55 @@ function createEnding(engine, results) {
         return {
             slides: [
                     {
-                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        endingHeader: "perot win",
                         imageUrl: "https://i.imgur.com/Xaa5cij.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                     }
                 ]
             }
         }
+        else  if(engine.playerWonEv(results)&& brown == true) {
+        engine.setNewMusic([{
+    displayName: "California Uber Alles - Dead Kennedies",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/0/0e/Dead_Kennedys_-_California_%C3%9Cber_Alles_cover.jpg",
+    url: "https://files.catbox.moe/i1rof6.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Brown win",
+                        imageUrl: "https://i.imgur.com/jSox9zi.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                    }
+                ]
+            }
+        }
+        else if(engine.playerEvAtLeast(results, 3) && brown == true) { //Narrowish loss
+        engine.setNewMusic([
+  {
+    displayName: "Where Are You Now When We Need You Ross Perot - Don Mason",
+    imageUrl: "https://i.imgur.com/dM88IDu.jpeg",
+    url: "https://files.catbox.moe/v6jvgw.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "brown loss",
+                    imageUrl: "https://i.imgur.com/frowf5X.jpeg",
+                    endingText: "<p>Sad!</p>"
+                },
+            ]
+        }
+    }
+
         else {
         engine.setNewMusic([{
-    displayName: "Dont Fear The Reaper - Blue Oyster Cult",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG",
+    displayName: "Don't Fear The Reaper - Blue Oyster Cult",
+    imageUrl: "https://i.imgur.com/IMmYXsk.jpeg",
     url: "https://audio.jukehost.co.uk/sM26AkgDMrHlRgc7uzSxCusXZ62Wi8oo",
   },
 ]);
@@ -114,7 +152,7 @@ function createEnding(engine, results) {
         return {
             slides: [
                     {
-                        endingHeader: "Where are you now when we need you, Ross Perot?",
+                        endingHeader: "Perot loss",
                         imageUrl: "https://i.imgur.com/p6ofMRZ.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                     }
