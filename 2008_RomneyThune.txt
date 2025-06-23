@@ -46,24 +46,62 @@ function createEnding(engine, results) {
     }
     // If you played as Edwards
     else if(playerId == 78) {
-        if(engine.playerWonEv(results)) {
+        if(engine.playerWonEv(results)&& dropout == false) {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    displayName: "Crazy - Patsy Cline",
+    imageUrl: "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg",
+    url: "https://files.catbox.moe/0t5b9l.mp3",
   },
 ]);
 
         return {
             slides: [
                     {
-                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        endingHeader: "Edwards win",
                         imageUrl: "https://i.imgur.com/mod6SRu.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                     }
                 ]
             }
         }
+        else  if(engine.playerWonEv(results)&& dropout == true) {
+        engine.setNewMusic([{
+    displayName: "Sir Duke - Stevie Wonder",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/e2/Songs_in_the_key_of_life.jpg",
+    url: "https://files.catbox.moe/bn546f.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Gore win",
+                        imageUrl: "https://i.imgur.com/SXDo3kC.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                    }
+                ]
+            }
+        }
+        else if(engine.playerEvAtLeast(results, 3) && dropout == true) { //Narrowish loss
+        engine.setNewMusic([
+  {
+    displayName: "Minority - Green Day",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/5/5e/Green_Day_-_Warning_cover.jpg",
+    url: "https://files.catbox.moe/kgym0t.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Gore loss",
+                    imageUrl: "https://i.imgur.com/cCM6jb3.jpeg",
+                    endingText: "<p>Sad!</p>"
+                },
+            ]
+        }
+    }
+
         else {
         engine.setNewMusic([{
     displayName: "Bright Eyes - When The President Talks to God",
