@@ -38650,8 +38650,18 @@
             "url": "https://audio.jukehost.co.uk/8XtO48kTRJBqN8hnaGXLysqCDAAC94iW",
             "displayName": "Brooks & Dunn- Only in America",
             "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b1cf1e8d17f4588d3f445fa4"
+        },
+        {
+            "url": "https://files.catbox.moe/t1oqve.mp3",
+            "displayName": "Alabama- Dancin’, Shaggin’ on the Boulevard",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cb/Alabama_-_Dancin.jpg"
+        },
+        {
+            "url": "https://files.catbox.moe/kc1fbz.mp3",
+            "displayName": "Bachman-Turner Overdrive - You Ain’t Seen Nothing Yet",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732811f59402cee595b4319a2d"
         }
     ],
     "questionsPerVisit": 1,
-    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://archive.org/details/gamechange00john\" target=”_blank”>John Heilemann and Mark Halperin - Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime</a></br><a href=\"https://web.archive.org/web/20070408013355/http://www.mittromney.com/homepage\" target=”_blank”>Romney 2008 Website</a></br><a href=\"https://web.archive.org/web/20080213200959/http://www.johnedwards.com/issues/\" target=”_blank”>Edwards 2008 Website</br><a href=\"https://web.archive.org/web/20071218174839/http://politics.nytimes.com/election-guide/2008/index.html\" target=”_blank”>New York Times Election Guide 2008</a></br><a href=\"https://p2008.org/\" target=”_blank”>Democracy in Action 2008</a> </br><a href=\"https://web.archive.org/web/20070603200909/http://www.democrats.org/gopcandidates.html\" target=”_blank”>DNC Republican Candidate Facts</a>"
+    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://archive.org/details/gamechange00john\" target=”_blank”>John Heilemann and Mark Halperin - Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime</a></br><a href=\"https://web.archive.org/web/20070408013355/http://www.mittromney.com/homepage\" target=”_blank”>Romney 2008 Website</a></br><a href=\"https://web.archive.org/web/20080213200959/http://www.johnedwards.com/issues/\" target=”_blank”>Edwards 2008 Website</br><a href=\"https://web.archive.org/web/20071218174839/http://politics.nytimes.com/election-guide/2008/index.html\" target=”_blank”>New York Times Election Guide 2008</a></br><a href=\"https://p2008.org/\" target=”_blank”>Democracy in Action 2008</a> </br><a href=\"https://web.archive.org/web/20070603200909/http://www.democrats.org/gopcandidates.html\" target=”_blank”>DNC Republican Candidate Facts</a></br><a href=\"https://web.archive.org/web/20070603200909/http://www.democrats.org/gopcandidates.html\" target=”_blank”>MacKay Coppins - Romney: A Reckoning"
 }
