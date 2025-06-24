@@ -63475,7 +63475,7 @@ const presidents = [
   
   { show: showBush1term, name: "George H. W. Bush", term: "August 9, 1974 –<br>January 20, 1977", party: "Republican", img: "https://i.imgur.com/b8Be8cb.png"},
   { show: showBush2term, name: "George H. W. Bush", term: "August 9, 1974 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/g5jDCAX.png"},
-  { show: showFong1term, name: "Hiram Fong", term: "August 9, 1974 –<br>January 20, 1977", party: "Republican", img: "https://i.imgur.com/4DUxGoe.png"},
+  { show: showFong1term, name: "Hiram Fong", term: "August 9, 1974 –<br>January 20, 1977", party: "Republican", img: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Joe_Lieberman_2008.jpg"},
   { show: showLindsay1term, name: "John V. Lindsay", term: "August 9, 1974 –<br>January 20, 1977", party: "Republican", img: "https://upload.wikimedia.org/wikipedia/commons/b/b6/John_Lindsay_1970s_High_Res.jpg"},
   { show: showLindsay2term, name: "John V. Lindsay", term: "August 9, 1974 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/pG9VSWL.png"},
   { show: showRepConnally2term, name: "John Connally", term: "August 9, 1974 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/7mFNdbd.png" },
