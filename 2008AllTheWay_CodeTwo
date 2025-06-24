@@ -61555,7 +61555,7 @@ e.vpSwitcher = () => {
                         <p><style="font-size: 1.2em;"><strong>The end is in sight now.</strong> Just one more hill to climb.</p><p> President Johnson has walked a long path, the burden is great, his hands are stained, his followers weary. The wilderness calls, a twin-headed wolf ready to devour everything you've built. But you can’t look back now. You’re almost there.</</p>
                     </div>
                 `;
-                candidate.fields.image_url = "https://i.imgur.com/Nf4aKvB.gif"
+                candidate.fields.image_url = "https://preview.redd.it/h4as8hbrrytc1.png?width=211&format=png&auto=webp&s=5369923117d5ddd9b3b4537d0375812ed378864e"
             } else if (candidate.pk === 55 && !(e.player_answers.includes(10052))) { // HHH
                 candidate.fields.description_as_running_mate = `
                     <div style="max-height: 200px; overflow-y: auto;">
