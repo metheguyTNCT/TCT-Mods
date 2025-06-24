@@ -90,17 +90,17 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 23,
       "fields": {
-          "first_name": "Lyndon B.",
-          "last_name": "Johnson",
+          "first_name": "Dick",
+          "last_name": "Gephardt",
           "election": 4,
           "party": "Democratic",
-          "state": "Texas",
+          "state": "Missouri",
           "priority": 1,
           "description": "<div style=\"max-height: 200px; overflow-y: auto;\"><p><b style=\"font-size: 1.2em;\"><strong>President Johnson</strong></b> had hoped for better circumstances. 1967 had been a year of war, riots, and protests, and now the country seems set for another terrible chapter.</p><p>For years, Lyndon ‘Big Daddy’ Johnson appeared to be in total control, taking office after the country lost its martyred king. But from the ashes of Camelot, he pushed through a legislative agenda more expansive than most had imagined possible, forging his ‘Great Society’ and making significant strides in healthcare, welfare, and civil rights. Yet now, a dark and deadly poison seeps through every aspect of his administration—one that is choking the very soul of the country: <strong>Vietnam</strong>.</p><p>The ongoing struggle seems increasingly intractable, with neither peace nor victory on the near horizon. This ‘master politician’ appears to have lost his way; his health is failing, his party is fracturing, and the chants just keep getting louder.</p><p>But he can’t retreat now, surrender to the baying mob, or give up the nomination to McCarthy—or that <i>damned kid</i>. Johnson is a caged animal, and now he’s going to fight his way out.</p></div>",
           "color_hex": "#122f5f",
           "secondary_color_hex": null,
           "is_active": 1,
-          "image_url": "https://i.imgur.com/2Igi5G3.gif",
+          "image_url": "https://preview.redd.it/h4as8hbrrytc1.png?width=211&format=png&auto=webp&s=5369923117d5ddd9b3b4537d0375812ed378864e",
           "electoral_victory_message": "You Won, Winner",
           "electoral_loss_message": "You Lost, Loser",
           "no_electoral_majority_message": "You Probably Lost ... Loser.",
@@ -113,8 +113,8 @@ campaignTrail_temp.candidate_json = [
     "model": "campaign_trail.candidate",
     "pk": 24,
     "fields": {
-        "first_name": "Richard M.",
-        "last_name": "Nixon",
+        "first_name": "Newt",
+        "last_name": "Gingrich",
         "election": 4,
         "party": "Republican",
         "state": "New York",
@@ -761,7 +761,7 @@ const song5 = new Song(
 const song6 = new Song(
     "Born In The U.S.A.",
     "Bruce Springsteen",
-    "https://i.imgur.com/YgQW9jU.png",
+    "https://i.imgur.com/ENEYq0E.jpeg",
     "https://audio.jukehost.co.uk/L6NvGDPbH8q35VCNxY1DaGVqBvQeQ5TM"
 
 );
