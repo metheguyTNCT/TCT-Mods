@@ -57140,7 +57140,7 @@ function triggerTemporarySongForNominee(nominee) {
     } else if (runningMateId === 56 && LBJVP == 0) { // Hale Boggs
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Eaknyns.jpeg';
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
-        e.candidate_json[id].fields.last_name = "Gephardt/Boggs"
+        e.candidate_json[id].fields.last_name = "Gephardt/Biden"
     } else if (runningMateId === 57 && LBJVP == 0) { // Daniel Inouye
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/CnBfQ04.gif';
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
@@ -63434,7 +63434,7 @@ const presidents = [
   { show: showHumphrey1term, name: "John Kerry", term: "February 8, 1972 –<br>January 20, 1973", party: "Democratic", img: "https://i.imgur.com/ozFnwve.png"},
   { show: showHumphrey2term, name: "John Kerry", term: "February 8, 1972 –<br>January 20, 1977", party: "Democratic", img: "https://i.imgur.com/j0MtOyi.png"},
   { show: showHumphrey3term, name: "John Kerry", term: "February 8, 1972 –<br>December 24, 1980", party: "Democratic", img: "https://i.imgur.com/HIHBy4m.png"},
-  { show: showInouye1term, name: "Daniel Inouye", term: "February 8, 1972 –<br>January 20, 1973", party: "Democratic", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Daniel_Inouye_official_photo_%28cropped%29.jpg/640px-Daniel_Inouye_official_photo_%28cropped%29.jpg"},
+  { show: showInouye1term, name: "Daniel Inouye", term: "February 8, 1972 –<br>January 20, 1973", party: "Democratic", img: "https://files.catbox.moe/aog7su.png"},
   { show: showRocky2term, name: "Nelson Rockefeller", term: "February 8, 1972 –<br>January 26, 1979", party: "Republican", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Nelson_Rockefeller.jpg/640px-Nelson_Rockefeller.jpg"},
   { show: showBoggs1term, name: "Hale Boggs", term: "February 8, 1972 –<br>January 20, 1973", party: "Democratic", img: "https://i.imgur.com/qSNba2z.png" },
   { show: showBoggsfullterm, name: "Hale Boggs", term: "February 8, 1972 –<br>January 20, 1981", party: "Democratic", img: "https://i.imgur.com/qSNba2z.png" },
@@ -63491,7 +63491,7 @@ const presidents = [
   { show: showSchmitz1term, name: "John G. Schmitz", term: "May 15, 1975 –<br>January 20, 1977", party: "American Independent", img: "https://i.imgur.com/4U5EFly.png"},
   { show: showBayh1term, name: "Birch Bayh", term: "January 20, 1977 –<br>January 20, 1981", party: "Democratic", img: "https://i.imgur.com/uQw15e9.png"},
   { show: showLaird1term, name: "Melvin Laird", term: "January 20, 1977 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/WYNrqne.png" },
-  { show: showGingrichsback1term, name: "Newt Gingrich", term: "January 20, 1977 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/ujCaM7S.png" },
+  { show: showGingrichsback1term, name: "Newt Gingrich", term: "January 20, 1977 –<br>January 20, 1981", party: "Republican", img: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Newt_Gingrich_%2852586544361%29%28crop%29.jpg" },
   { show: showRumsfeld1term, name: "Donald Rumsfeld", term: "January 20, 1977 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/jdGfxlA.png" },
 
   { show: showMcCainJr1term, name: "John McCain Jr", term: "January 20, 1977 –<br>January 20, 1981", party: "Republican", img: "https://i.imgur.com/fJwJfHz.png" },
@@ -63559,7 +63559,7 @@ const presidents = [
   { show: showKirkpatrickDem1term, name: "Jeane Kirkpatrick", term: "January 20, 1985 –<br>January 20, 1989", party: "Democratic", img: "https://i.imgur.com/pBC8TyZ.png" },
   { show: showKirkpatrickRep1term, name: "Jeane Kirkpatrick", term: "January 20, 1985 –<br>January 20, 1989", party: "Republican", img: "https://i.imgur.com/QGFpRvC.png" },
   { show: showShultz1term, name: "George Shultz", term: "January 20, 1985 –<br>January 20, 1989", party: "Republican", img: "https://i.imgur.com/9kyJajS.png" },
-  { show: showSanders84return1term, name: "Bernie Sanders", term: "January 20, 1985 –<br>January 20, 1989", party: "Democratic", img: "https://i.imgur.com/U6xH6Cs.png" },
+  { show: showSanders84return1term, name: "Bernie Sanders", term: "January 20, 1985 –<br>January 20, 1989", party: "Democratic", img: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Bernie_Sanders_2023.jpg" },
   { show: showGaryHart1term, name: "Gary Hart", term: "January 20, 1985 –<br>January 20, 1989", party: "Democratic", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Gary_Hart%2C_1984_presidential_campaign_%28cropped%29.jpg/640px-Gary_Hart%2C_1984_presidential_campaign_%28cropped%29.jpg"},
   { show: showGaryHart2term, name: "Gary Hart", term: "January 20, 1985 –<br>January 20, 1993", party: "Democratic", img: "https://i.imgur.com/S3C4Hgt.png"},
   { show: showHeinz1term, name: "John Heinz", term: "January 20, 1985 –<br>January 20, 1989", party: "Republican", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/JohnHeinz.png/640px-JohnHeinz.png"},
