@@ -57138,7 +57138,7 @@ function triggerTemporarySongForNominee(nominee) {
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Gephardt/Humphrey" 
     } else if (runningMateId === 56 && LBJVP == 0) { // Hale Boggs
-        campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/CRJfWpE.gif';
+        campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Eaknyns.jpeg';
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Gephardt/Boggs"
     } else if (runningMateId === 57 && LBJVP == 0) { // Daniel Inouye
