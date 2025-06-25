@@ -136,10 +136,10 @@ campaignTrail_temp.candidate_json = [
   "model": "campaign_trail.candidate",
   "pk": 25,
   "fields": {
-      "first_name": "George C.",
-      "last_name": "Wallace",
+      "first_name": "Micheal",
+      "last_name": "Bloomberg",
       "election": 4,
-      "party": "American Independent",
+      "party": "Unity08",
       "state": "Alabama",
       "priority": 3,
       "description": "<div style=\"max-height: 200px; overflow-y: auto;\"><p><b style=\"font-size: 1.2em;\"><strong>Firebrand doesn’t cut it. </strong></b>Governor George Wallace is fire incarnate—a whirling flame that threatens to torch and desecrate all in his path.</p><p>His third-party campaign is built on his relentless egotism, an unparalleled sense of his own destiny, and the same potent antebellum agenda he has championed for nearly a decade: stopping desegregation. But more and more, the picture he paints of America—a country at war with itself, drowning in a cauldron of riots, looting, and chaos—is starting to ring true to many. And it's an oh-so-simple message.</p><p>This country is rotting, and it’s the hippies, the pointy heads, the faux intellectuals, and the Vietcong sympathizers. It’s the unruly Negroes and the carpetbagging whites. It’s the anti-constitutional courts and the pinko liberals holding back our police. It’s the militants, the fairies, and the great unwashed, stinking up the place.</p><p>Can’t you smell it?</p></div>",  
@@ -1301,10 +1301,10 @@ const temporarySongs = {
     "https://audio.jukehost.co.uk/W67k1jONY0PWwHEQ9VVMHOg5pma6eOid"
   ),
   "https://i.imgur.com/Z9V9Qpm.gif": new Song(
-    "Talking Birmingham Jam", 
-    "Phil Ochs", 
-    "https://i.imgur.com/3gmDdNl.png", 
-    "https://audio.jukehost.co.uk/mCxNOjWAri7S02PnoK7P1b7PETgd3wK3"
+    "Seinfeld Theme", 
+    "Jonathan Wolff", 
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Seinfeld_logo.svg/1920px-Seinfeld_logo.svg.png", 
+    "https://file.garden/Zbf6Hl4T-h3XvJ8O/Seinfeld%20Theme.mp3"
   ),
   "https://i.imgur.com/5hesrbB.gif": new Song(
   "Whatever Became Of Hubert", 
