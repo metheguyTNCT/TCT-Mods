@@ -57150,7 +57150,7 @@ function triggerTemporarySongForNominee(nominee) {
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Gephardt/Goldberg"        
     } else if (runningMateId === 59 && LBJVP == 1) { // Maxwell Taylor (Hillary)
-        campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/eKs6wdl.gif';
+        campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/Y213Q3K.jpeg';
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Kennedy/Taylor"
     } else if (runningMateId === 60 && LBJVP == 1) { // Harold Hughes (Hillary)
@@ -57194,7 +57194,7 @@ function triggerTemporarySongForNominee(nominee) {
     // Running mate image updates for original candidates (when runningMateId === 55 & LBJVP === 1)
     else if (runningMateId === 55 && LBJVP == 1) {
         if (SecretDeal == 1 && DeadKucinich == 1) {
-            campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/sInvysV.gif'; // Russell B. Long (Kennedy)
+            campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/eZKSFsO.png'; // Russell B. Long (Kennedy)
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Kennedy/Long"
         } else if (SecretDeal == 1 && DeadKucinich == 0) {
@@ -57214,7 +57214,7 @@ function triggerTemporarySongForNominee(nominee) {
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Humphrey/Alioto"
         } else if (NoHillary == 0 && DeadHillary == 0 && DeadKucinich == 1 && SecretDeal == 0) {
-            campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/sInvysV.gif'; // Russell B. Long (Kennedy)
+            campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/eZKSFsO.png'; // Russell B. Long (Kennedy)
         var id = e.candidate_json.map(p=>p.pk).indexOf(23)
         e.candidate_json[id].fields.last_name = "Kennedy/Long"
         } else if (DeadHillary == 1 && DeadKucinich == 0 && SecretDeal == 0) {
