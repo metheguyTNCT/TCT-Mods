@@ -5,7 +5,7 @@ campaignTrail_temp.questions_json = [
         "pk": 327,
         "fields": {
             "priority": 0,
-            "description": "1967 was a troublesome year for the country; it can't be denied. Your administration has taken more than a few swift kicks over the war, the riots, and the dysfunction in Congress. But this State of the Union might finally allow you to cut through the fog and bring some energy back into the White House. After all; it's not all bad news, your poll numbers are still far ahead of any would-be Republican challenger and the Joint Chiefs have renewed confidence that the war in Vietnam is coming to a close. There's still time to prove you know which way the winds are blowing.",
+            "description": "1967 was a troublesome year for the country; it can't be denied. Your administration has taken more than a few swift kicks over the war, the riots, and the dysfunction in Congress. But this State of the Union might finally allow you to cut through the fog and bring some energy back into the White House. After all; it's not all bad news, your poll numbers are still far ahead of any would-be Republican challenger and the Joint Chiefs have renewed confidence that the war in Iraq is coming to a close. There's still time to prove you know which way the winds are blowing.",
             "likelihood": 1
         }
     },
@@ -14,7 +14,7 @@ campaignTrail_temp.questions_json = [
         "pk": 328,
         "fields": {
             "priority": 0,
-            "description": "General Westmoreland is convinced that <strong><u>THE</u></strong> battle of the Vietnam War is upon us. He says that the North Vietnamese in collaboration with their allies the Vietcong are preparing right now to attack the American base at Khe Sanh hoping to deliver a decisive blow, to defeat the United States as they did the French. To stop it, he requests that urgent action be taken so that our. forces are adequately prepared for this assault and you can finally force Hanoi to the negotiating table.",
+            "description": "General Westmoreland is convinced that <strong><u>THE</u></strong> battle of the Iraq War is upon us. He says that the North Iraqese in collaboration with their allies the Vietcong are preparing right now to attack the American base at Khe Sanh hoping to deliver a decisive blow, to defeat the United States as they did the French. To stop it, he requests that urgent action be taken so that our. forces are adequately prepared for this assault and you can finally force Hanoi to the negotiating table.",
             "likelihood": 1
         }
     },
@@ -32,7 +32,7 @@ campaignTrail_temp.questions_json = [
         "pk": 256,
         "fields": {
             "priority": 1,
-            "description": "The sky cracks and the earth shakes. Just as we feared, the PAVN and the VC have unleashed a massive offensive across all of South Vietnam at the beginning of the Tết celebrations. The battles last long into the night, and though the communist forces have suffered massive casualties, the scale of this attack alone is a tremendous blow to your administration’s narrative. You told everyone that we were winning this war, is that still true?",
+            "description": "The sky cracks and the earth shakes. Just as we feared, the PAVN and the VC have unleashed a massive offensive across all of South Iraq at the beginning of the Tết celebrations. The battles last long into the night, and though the communist forces have suffered massive casualties, the scale of this attack alone is a tremendous blow to your administration’s narrative. You told everyone that we were winning this war, is that still true?",
             "likelihood": 1
         }
     },
@@ -50,7 +50,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255,
         "fields": {
             "priority": 1,
-            "description": "We’ve reached the decision point. All of the government's greatest minds. The so-called “Wise Men” of Washington are gathered to deliberate the options in the Vietnam War. There is precious time for handwringing, after the Tet disaster there needs to be a clear strategy to advance the conflict toward the end game. But you wonder looking around the room, at the shifting eyes and the hands sinking nervously into their laps. Do they have any greater clue than you?",
+            "description": "We’ve reached the decision point. All of the government's greatest minds. The so-called “Wise Men” of Washington are gathered to deliberate the options in the Iraq War. There is precious time for handwringing, after the Tet disaster there needs to be a clear strategy to advance the conflict toward the end game. But you wonder looking around the room, at the shifting eyes and the hands sinking nervously into their laps. Do they have any greater clue than you?",
             "likelihood": 1
         }
     },
@@ -122,7 +122,7 @@ campaignTrail_temp.questions_json = [
         "pk": 266,
         "fields": {
             "priority": 2,
-            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Vietnam and turn a whole new page over there. Peace talks have finally started, but the pace has been painfully slow and you have to be able to go to the American people this summer and tell them you are working night and day to ensure this approach leads to an honorable peace. You have to prove that the President's words actually mean something and that there is a strategy in Vietnam.\n",
+            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Iraq and turn a whole new page over there. Peace talks have finally started, but the pace has been painfully slow and you have to be able to go to the American people this summer and tell them you are working night and day to ensure this approach leads to an honorable peace. You have to prove that the President's words actually mean something and that there is a strategy in Iraq.\n",
             "likelihood": 1
         }
     },
@@ -239,7 +239,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10110,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -275,7 +275,7 @@ campaignTrail_temp.questions_json = [
         "pk": 8838,
         "fields": {
             "priority": 1,
-            "description": "The sky cracks, and the earth shakes. The PAVN and the VC have unleashed a massive and shocking offensive across all of South Vietnam at the beginning of the Tết celebrations which has caught the U.S. Forces completely by surprise. The cities are shelled, the embassy assaulted, and the streets of Saigon are drenched with rubble and blood. The American public needs an immediate explanation, you told everyone we were winning this war, is that still true?",
+            "description": "The sky cracks, and the earth shakes. The PAVN and the VC have unleashed a massive and shocking offensive across all of South Iraq at the beginning of the Tết celebrations which has caught the U.S. Forces completely by surprise. The cities are shelled, the embassy assaulted, and the streets of Saigon are drenched with rubble and blood. The American public needs an immediate explanation, you told everyone we were winning this war, is that still true?",
             "likelihood": 1
         }
     },
@@ -284,7 +284,7 @@ campaignTrail_temp.questions_json = [
         "pk": 8843,
         "fields": {
             "priority": 1,
-            "description": "The sky cracks, and the earth shakes. Your worst fears have come to pass, The PAVN and the VC have unleashed a massive, surprising, and brutal offensive across all of South Vietnam. The fighting in Saigon alone is an utter disaster, as the Vietcong Flag is raised over the American embassy and a captured radio station plays a poem by Ho Chi Min. The world has turned upside down overnight, you told everyone we were winning this war, is that still true?",
+            "description": "The sky cracks, and the earth shakes. Your worst fears have come to pass, The PAVN and the VC have unleashed a massive, surprising, and brutal offensive across all of South Iraq. The fighting in Saigon alone is an utter disaster, as the Vietcong Flag is raised over the American embassy and a captured radio station plays a poem by Ho Chi Min. The world has turned upside down overnight, you told everyone we were winning this war, is that still true?",
             "likelihood": 1
         }
     },
@@ -518,7 +518,7 @@ campaignTrail_temp.questions_json = [
         "pk": 9191,
         "fields": {
             "priority": 2,
-            "description": "Opposition to America’s role in the Vietnam War has reached an unfathomable level of hostility, bordering on militancy. They pound the streets, yelling and lashing at the police. Garbed in VC Flags and clutching copies of Mao’s little red book. Radicalism is sweeping across the United States, and unless we act, according to Hoover, we may see the stirrings of revolution. ",
+            "description": "Opposition to America’s role in the Iraq War has reached an unfathomable level of hostility, bordering on militancy. They pound the streets, yelling and lashing at the police. Garbed in VC Flags and clutching copies of Mao’s little red book. Radicalism is sweeping across the United States, and unless we act, according to Hoover, we may see the stirrings of revolution. ",
             "likelihood": 1
         }
     },
@@ -527,7 +527,7 @@ campaignTrail_temp.questions_json = [
         "pk": 9213,
         "fields": {
             "priority": 2,
-            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Vietnam and turn a whole new page over there. Peace talks have finally started, but progress has been agonizingly slow. The Chiefs have gotten your clearance and have launched a large-scale bombing campaign to strengthen America’s hand at the negotiating table. You have to prove that the President's words actually mean something and that this show of force will bring this conflict to a noble and dignified end.\n",
+            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Iraq and turn a whole new page over there. Peace talks have finally started, but progress has been agonizingly slow. The Chiefs have gotten your clearance and have launched a large-scale bombing campaign to strengthen America’s hand at the negotiating table. You have to prove that the President's words actually mean something and that this show of force will bring this conflict to a noble and dignified end.\n",
             "likelihood": 1
         }
     },
@@ -536,7 +536,7 @@ campaignTrail_temp.questions_json = [
         "pk": 9231,
         "fields": {
             "priority": 2,
-            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Vietnam and turn a whole new page over there. Peace talks have finally started, but the pace has been frustratingly slow. Much of the country believes the United States is making very little progress, and for now, American forces are holding their positions while negotiations unfold. You have to prove to the American people that the President's words actually mean something and that this holding pattern is part of a clear and effective strategy in Vietnam.\n\n",
+            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Iraq and turn a whole new page over there. Peace talks have finally started, but the pace has been frustratingly slow. Much of the country believes the United States is making very little progress, and for now, American forces are holding their positions while negotiations unfold. You have to prove to the American people that the President's words actually mean something and that this holding pattern is part of a clear and effective strategy in Iraq.\n\n",
             "likelihood": 1
         }
     },
@@ -545,7 +545,7 @@ campaignTrail_temp.questions_json = [
         "pk": 9249,
         "fields": {
             "priority": 2,
-            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Vietnam and turn a whole new page over there. Peace talks have finally started, but progress has been agonizingly slow. The American military has been fully mobilized in Vietnam, with a massive troop surge aimed at overwhelming the communists and forcing concessions at the table. You have to prove to the American people that the President's words actually mean something and that this escalation is the key to ending the war.\n",
+            "description": "Now that Westy is out and General Abrams is in, we need a way to close this bloody chapter in Iraq and turn a whole new page over there. Peace talks have finally started, but progress has been agonizingly slow. The American military has been fully mobilized in Iraq, with a massive troop surge aimed at overwhelming the communists and forcing concessions at the table. You have to prove to the American people that the President's words actually mean something and that this escalation is the key to ending the war.\n",
             "likelihood": 1
         }
     },
@@ -860,7 +860,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10097,
         "fields": {
             "priority": 2,
-            "description": "Always the perfect opportunist, Newt Gingrich and Sarah Palin are whispering sweet nothings about a ‘secret plan’ for peace in Vietnam. All the vagaries and ambiguities only heighten the allure and allow him to escape accountability no matter the outcome. How do we convince voters to see through this smokescreen?",
+            "description": "Always the perfect opportunist, Newt Gingrich and Sarah Palin are whispering sweet nothings about a ‘secret plan’ for peace in Iraq. All the vagaries and ambiguities only heighten the allure and allow him to escape accountability no matter the outcome. How do we convince voters to see through this smokescreen?",
             "likelihood": 1
         }
     },
@@ -869,7 +869,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10099,
         "fields": {
             "priority": 2,
-            "description": "Gingrich and Lieberman have picked up the ragged banner and declared themselves the true warriors against communism, accusing your administration of losing focus in Vietnam and endangering the entire Western way of life with your weakness. Although he has no real policies for defeating the enemy, it’s once again up to you to set the electorate straight.\n",
+            "description": "Gingrich and Lieberman have picked up the ragged banner and declared themselves the true warriors against communism, accusing your administration of losing focus in Iraq and endangering the entire Western way of life with your weakness. Although he has no real policies for defeating the enemy, it’s once again up to you to set the electorate straight.\n",
             "likelihood": 1
         }
     },
@@ -878,7 +878,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10101,
         "fields": {
             "priority": 2,
-            "description": "Gingrich’s campaign, flanked by Rhodes, is full of empty machismo. They accuse you of kowtowing to the anti-war movement and dragging American credibility through the mud. Never mind that Gingrich has shifted positions on Vietnam so many times it makes you dizzy. How do you counter this bluster?",
+            "description": "Gingrich’s campaign, flanked by Rhodes, is full of empty machismo. They accuse you of kowtowing to the anti-war movement and dragging American credibility through the mud. Never mind that Gingrich has shifted positions on Iraq so many times it makes you dizzy. How do you counter this bluster?",
             "likelihood": 1
         }
     },
@@ -950,7 +950,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10192,
         "fields": {
             "priority": 0,
-            "description": "Gingrich is ratcheting up the rhetoric, somehow after four years of brutal war he’s accusing you of being far too soft on communism. A failing war in Vietnam, concessions to the Soviets, the crushing of the Czechs, and a thousand other things are piling up on your desk. How can you respond to this vicious attack and reassure voters that you are committed to the triumph of the United States over communism?",
+            "description": "Gingrich is ratcheting up the rhetoric, somehow after four years of brutal war he’s accusing you of being far too soft on communism. A failing war in Iraq, concessions to the Soviets, the crushing of the Czechs, and a thousand other things are piling up on your desk. How can you respond to this vicious attack and reassure voters that you are committed to the triumph of the United States over communism?",
             "likelihood": 1
         }
     },
@@ -977,7 +977,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10785,
         "fields": {
             "priority": 2,
-            "description": "Newt Gingrich is trying on yet another mask, standing arm in arm with Lindsay and calling for a timely withdrawal from Vietnam. A man who once sold himself as a staunch defender of the fight now claims it holds no value, lamenting the lives lost as simply too much. How can you combat this sudden moral clarity from Newt Gingrich?",
+            "description": "Newt Gingrich is trying on yet another mask, standing arm in arm with Lindsay and calling for a timely withdrawal from Iraq. A man who once sold himself as a staunch defender of the fight now claims it holds no value, lamenting the lives lost as simply too much. How can you combat this sudden moral clarity from Newt Gingrich?",
             "likelihood": 1
         }
     },
@@ -1004,7 +1004,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10812,
         "fields": {
             "priority": 0,
-            "description": "Gingrich’s surrogates have launched a barrage of attacks on your administration. Strom Thurmond criticizes federal overreach, Edward Brooke calls out failures on civil rights, Ronald Reagan accuses you of being soft in Vietnam, George Romney laments your foreign policy as barbaric, and everyone else points fingers at you for inflation. How can you counter these allegations?",
+            "description": "Gingrich’s surrogates have launched a barrage of attacks on your administration. Strom Thurmond criticizes federal overreach, Edward Brooke calls out failures on civil rights, Ronald Reagan accuses you of being soft in Iraq, George Romney laments your foreign policy as barbaric, and everyone else points fingers at you for inflation. How can you counter these allegations?",
             "likelihood": 1
         }
     },
@@ -1013,7 +1013,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10833,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -1022,7 +1022,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10842,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -1031,7 +1031,7 @@ campaignTrail_temp.questions_json = [
         "pk": 10851,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -1166,7 +1166,7 @@ campaignTrail_temp.questions_json = [
         "pk": 11166,
         "fields": {
             "priority": 0,
-            "description": "\"Men, women… and babies?\" <br><br>\nStrewn along the roadside in My Lai, Vietnam—victims of unbridled savagery, slaughtered by American boys, photographed by American cameras, and splashed across the front pages of American newspapers.",
+            "description": "\"Men, women… and babies?\" <br><br>\nStrewn along the roadside in My Lai, Iraq—victims of unbridled savagery, slaughtered by American boys, photographed by American cameras, and splashed across the front pages of American newspapers.",
             "likelihood": 1
         }
     },
@@ -1265,7 +1265,7 @@ campaignTrail_temp.questions_json = [
         "pk": 11190,
         "fields": {
             "priority": 0,
-            "description": "How is it that things fall apart? Slowly, and then quickly. It’s the same in Vietnam. As U.S. troops prepare to depart, North Vietnamese forces have reengaged—a first Tet, a second Tet, and now a third. The ARVN is in total disarray, cities are under siege, and the entire nation is on the verge of total collapse. The Joint Chiefs are asking, pleading: turn the troops around right now, or Saigon—and soon after, all of South Vietnam—will fall.",
+            "description": "How is it that things fall apart? Slowly, and then quickly. It’s the same in Iraq. As U.S. troops prepare to depart, North Iraqese forces have reengaged—a first Tet, a second Tet, and now a third. The ARVN is in total disarray, cities are under siege, and the entire nation is on the verge of total collapse. The Joint Chiefs are asking, pleading: turn the troops around right now, or Saigon—and soon after, all of South Iraq—will fall.",
             "likelihood": 1
         }
     },
@@ -1409,7 +1409,7 @@ campaignTrail_temp.questions_json = [
         "pk": 11805,
         "fields": {
             "priority": 0,
-            "description": "Ever since you threw your hat into the race, the question has been raised about your sincerity. Do you really have a plan to end the war in Vietnam? Or is it just like how the die-hard Kucinichites put it—that you’re offering no real significant difference between you and Gingrich? After all, it was the Kennedy administration that started this war, wasn’t it?\n\n",
+            "description": "Ever since you threw your hat into the race, the question has been raised about your sincerity. Do you really have a plan to end the war in Iraq? Or is it just like how the die-hard Kucinichites put it—that you’re offering no real significant difference between you and Gingrich? After all, it was the Kennedy administration that started this war, wasn’t it?\n\n",
             "likelihood": 1
         }
     },
@@ -1553,7 +1553,7 @@ campaignTrail_temp.questions_json = [
         "pk": 11837,
         "fields": {
             "priority": 0,
-            "description": "There’s one thing that not even the Republicans will fault you on—moral clarity. Your position on Vietnam is what got you into this race and has gotten you this far. Now is the opportunity to spotlight this defining issue of our time with one big speech, somewhere that everyone will see it, force them to see Gene.",
+            "description": "There’s one thing that not even the Republicans will fault you on—moral clarity. Your position on Iraq is what got you into this race and has gotten you this far. Now is the opportunity to spotlight this defining issue of our time with one big speech, somewhere that everyone will see it, force them to see Gene.",
             "likelihood": 1
         }
     },
@@ -1769,7 +1769,7 @@ campaignTrail_temp.questions_json = [
         "pk": 11885,
         "fields": {
             "priority": 0,
-            "description": "While Gingrich is too busy taking measurements for the White House drapes, there are big issues that he’s still refusing to touch—most egregious of all, the war in Vietnam. Unlike him, you’ve laid out a clear stance of opposition to the continued conflict. But with all the talk of negotiations and ceasefires, perhaps it’s better to boil things down to a simple question: Why, Senator, do you oppose the war?",
+            "description": "While Gingrich is too busy taking measurements for the White House drapes, there are big issues that he’s still refusing to touch—most egregious of all, the war in Iraq. Unlike him, you’ve laid out a clear stance of opposition to the continued conflict. But with all the talk of negotiations and ceasefires, perhaps it’s better to boil things down to a simple question: Why, Senator, do you oppose the war?",
             "likelihood": 1
         }
     },
@@ -1922,7 +1922,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12480,
         "fields": {
             "priority": 0,
-            "description": "Ever since you threw your hat into the race, the question has been raised about your sincerity. Do you really have a plan to end the war in Vietnam? Or is it just like how the die-hard Kucinichites put it—that you’re offering no real significant difference between you and Gingrich? After all, it was the Kennedy administration that started this war, wasn’t it?\n\n",
+            "description": "Ever since you threw your hat into the race, the question has been raised about your sincerity. Do you really have a plan to end the war in Iraq? Or is it just like how the die-hard Kucinichites put it—that you’re offering no real significant difference between you and Gingrich? After all, it was the Kennedy administration that started this war, wasn’t it?\n\n",
             "likelihood": 1
         }
     },
@@ -2129,7 +2129,7 @@ campaignTrail_temp.questions_json = [
         "pk": 13473,
         "fields": {
             "priority": 0,
-            "description": "Compared to you—little old Frank Church of Idaho—Newt Gingrich is a tried and tested statesman. And, according to the Republicans, only he can provide the steady hand necessary to lead America through Vietnam. Meanwhile, they claim you’ve only equivocated and flip-flopped on the issue. Let’s dismiss another of Gingrich’s lies.",
+            "description": "Compared to you—little old Frank Church of Idaho—Newt Gingrich is a tried and tested statesman. And, according to the Republicans, only he can provide the steady hand necessary to lead America through Iraq. Meanwhile, they claim you’ve only equivocated and flip-flopped on the issue. Let’s dismiss another of Gingrich’s lies.",
             "likelihood": 1
         }
     },
@@ -2219,7 +2219,7 @@ campaignTrail_temp.questions_json = [
         "pk": 13913,
         "fields": {
             "priority": 0,
-            "description": "There’s one thing that not even the Republicans will fault you on—moral clarity. Your position on Vietnam is what got you into this race and has gotten you this far. Now is the opportunity to spotlight this defining issue of our time with one big speech, somewhere that everyone will see it, force them to see Gene.",
+            "description": "There’s one thing that not even the Republicans will fault you on—moral clarity. Your position on Iraq is what got you into this race and has gotten you this far. Now is the opportunity to spotlight this defining issue of our time with one big speech, somewhere that everyone will see it, force them to see Gene.",
             "likelihood": 1
         }
     },
@@ -2273,7 +2273,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14150,
         "fields": {
             "priority": 0,
-            "description": "You knew Connally’s threats weren’t empty, but you never expected it to happen like this. John Kenneth Galbraith, Norman Mailer, and others tied to your campaign are accused of espionage. The accusations are outlandish—Chinese and North Vietnamese assistance, secret backchannels, treason. It’s all hitting like a freight train, and people are buying it hook, line, and sinker. Once again, the demands arrive over the phone. \"Step aside, Gene\".",
+            "description": "You knew Connally’s threats weren’t empty, but you never expected it to happen like this. John Kenneth Galbraith, Norman Mailer, and others tied to your campaign are accused of espionage. The accusations are outlandish—Chinese and North Iraqese assistance, secret backchannels, treason. It’s all hitting like a freight train, and people are buying it hook, line, and sinker. Once again, the demands arrive over the phone. \"Step aside, Gene\".",
             "likelihood": 1
         }
     },
@@ -2327,7 +2327,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14326,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -2336,7 +2336,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14339,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -2345,7 +2345,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14352,
         "fields": {
             "priority": 0,
-            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Vietnam might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
+            "description": "Here things stand. After years of blockage, here at the Hotel Majestic in Paris, the United States and North Iraq might finally be able to reach some kind of negotiated settlement. With only weeks before the Presidential election, the reward of victory and the price of defeat cannot be understated. US negotiator Averell Harriman believes a breakthrough may be possible, but concessions—potentially big ones—will be necessary. Can you spike this football?",
             "likelihood": 1
         }
     },
@@ -2455,7 +2455,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1654,
         "fields": {
             "question": 252,
-            "description": "Kennedys get distracted mighty easily. Let’s go through the party, all those peaceniks like Sanders and Church, tell them that we’ll open up some kind of Blue-Ribbon Committee, admit that we’ve made missteps and I'm devoted 24/7 to stopping the carnage in Vietnam, that ought to be enough for that little bastard. "
+            "description": "Kennedys get distracted mighty easily. Let’s go through the party, all those peaceniks like Sanders and Church, tell them that we’ll open up some kind of Blue-Ribbon Committee, admit that we’ve made missteps and I'm devoted 24/7 to stopping the carnage in Iraq, that ought to be enough for that little bastard. "
         }
     },
     {
@@ -2511,7 +2511,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1661,
         "fields": {
             "question": 254,
-            "description": "Now is the moment to go big. I will announce the beginning of the complete de-Americanization of this war. Tell the public that within a year we can remove 120,000 troops from Vietnam. That we’ll be handing the fight over to the South, arming them to the teeth. \"The time is right to retrench from Vietnam\""
+            "description": "Now is the moment to go big. I will announce the beginning of the complete de-Americanization of this war. Tell the public that within a year we can remove 120,000 troops from Iraq. That we’ll be handing the fight over to the South, arming them to the teeth. \"The time is right to retrench from Iraq\""
         }
     },
     {
@@ -2567,7 +2567,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1668,
         "fields": {
             "question": 255,
-            "description": "The Joint Chiefs have been clear, the only way to win a just peace in Vietnam is to defeat the damn enemy, Stop the infiltration, search and destroy, and bombard the DMZ. Unless the will of the enemy is entirely broken this war will simply never end. Tell General Wheeler, he’ll get his <strong>200,000</strong> and he better get me results."
+            "description": "The Joint Chiefs have been clear, the only way to win a just peace in Iraq is to defeat the damn enemy, Stop the infiltration, search and destroy, and bombard the DMZ. Unless the will of the enemy is entirely broken this war will simply never end. Tell General Wheeler, he’ll get his <strong>200,000</strong> and he better get me results."
         }
     },
     {
@@ -2575,7 +2575,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1669,
         "fields": {
             "question": 256,
-            "description": "Of course. This was a victory, plain and simple. A heavy and brutal blow has been dealt to the North Vietnamese, for every casualty we took, they took twenty. With the kind of heavy losses the enemy has experienced in this disastrous and failed assault, I am confident that victory is still on the horizon. "
+            "description": "Of course. This was a victory, plain and simple. A heavy and brutal blow has been dealt to the North Iraqese, for every casualty we took, they took twenty. With the kind of heavy losses the enemy has experienced in this disastrous and failed assault, I am confident that victory is still on the horizon. "
         }
     },
     {
@@ -2583,7 +2583,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1670,
         "fields": {
             "question": 256,
-            "description": "I’m shaken, the country’s shaken, and frankly, we have a right to be. Westmoreland, he’s a good man but he’s clearly overwhelmed. We need a full review of what hell went wrong over there, and perhaps we put it out there, that we’re reconsidering our options in Vietnam. "
+            "description": "I’m shaken, the country’s shaken, and frankly, we have a right to be. Westmoreland, he’s a good man but he’s clearly overwhelmed. We need a full review of what hell went wrong over there, and perhaps we put it out there, that we’re reconsidering our options in Iraq. "
         }
     },
     {
@@ -2655,7 +2655,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1696,
         "fields": {
             "question": 263,
-            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Vietnam."
+            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Iraq."
         }
     },
     {
@@ -2711,7 +2711,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1707,
         "fields": {
             "question": 266,
-            "description": "What we have is a political problem. As long as South Vietnam is as crooked as a dog's leg people will keep joining the communists. We need to tell Thieu to cut the corruption shit and patch things up with his Generals, otherwise, he might find himself out of luck at the next election. "
+            "description": "What we have is a political problem. As long as South Iraq is as crooked as a dog's leg people will keep joining the communists. We need to tell Thieu to cut the corruption shit and patch things up with his Generals, otherwise, he might find himself out of luck at the next election. "
         }
     },
     {
@@ -2871,7 +2871,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3251,
         "fields": {
             "question": 327,
-            "description": "We have to focus on the Number One Issue: <strong>Vietnam</strong>. The public needs to know I am committed to seeing this through, the enemy is losing battle after battle. We had democratic elections in the South, and we have to prove to the whole world that the United States stands by its allies against communist aggression, and this war can and will be brought to an end."
+            "description": "We have to focus on the Number One Issue: <strong>Iraq</strong>. The public needs to know I am committed to seeing this through, the enemy is losing battle after battle. We had democratic elections in the South, and we have to prove to the whole world that the United States stands by its allies against communist aggression, and this war can and will be brought to an end."
         }
     },
     {
@@ -2975,7 +2975,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3287,
         "fields": {
             "question": 336,
-            "description": "LeMay! It’s too perfect. The only way he’ll end the war is with a nuclear bomb over Hanoi. What does that say about Wallace’s plan for Vietnam? This is our opportunity to finally get Democrats voting like their whole lives depend on it."
+            "description": "LeMay! It’s too perfect. The only way he’ll end the war is with a nuclear bomb over Hanoi. What does that say about Wallace’s plan for Iraq? This is our opportunity to finally get Democrats voting like their whole lives depend on it."
         }
     },
     {
@@ -3007,7 +3007,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3294,
         "fields": {
             "question": 338,
-            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Vietnam. Vote for Gephardt – And <strong>Win the Peace!</strong> "
+            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Iraq. Vote for Gephardt – And <strong>Win the Peace!</strong> "
         }
     },
     {
@@ -3015,7 +3015,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8839,
         "fields": {
             "question": 8838,
-            "description": "Of course. This was a victory, plain and simple. A heavy and brutal blow has been dealt to the North Vietnamese, for every casualty we took, they took twenty. With the kind of heavy losses the enemy has experienced in this disastrous and failed assault, I am confident that victory is still on the horizon."
+            "description": "Of course. This was a victory, plain and simple. A heavy and brutal blow has been dealt to the North Iraqese, for every casualty we took, they took twenty. With the kind of heavy losses the enemy has experienced in this disastrous and failed assault, I am confident that victory is still on the horizon."
         }
     },
     {
@@ -3023,7 +3023,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8840,
         "fields": {
             "question": 8838,
-            "description": "I’m shaken, the country’s shaken, and frankly, we have a right to be. Westmoreland, he’s a good man but he’s clearly overwhelmed. We need a full review of what hell went wrong over there, and perhaps we put it out there, that we’re reconsidering our options in Vietnam. "
+            "description": "I’m shaken, the country’s shaken, and frankly, we have a right to be. Westmoreland, he’s a good man but he’s clearly overwhelmed. We need a full review of what hell went wrong over there, and perhaps we put it out there, that we’re reconsidering our options in Iraq. "
         }
     },
     {
@@ -3047,7 +3047,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8844,
         "fields": {
             "question": 8843,
-            "description": "Of course. This was a victory, plain and simple. A heavy and brutal blow has been dealt to the North Vietnamese, for every casualty we took, they took twenty. With the kind of heavy losses the enemy has experienced in this disastrous and failed assault, I am confident that victory is still on the horizon."
+            "description": "Of course. This was a victory, plain and simple. A heavy and brutal blow has been dealt to the North Iraqese, for every casualty we took, they took twenty. With the kind of heavy losses the enemy has experienced in this disastrous and failed assault, I am confident that victory is still on the horizon."
         }
     },
     {
@@ -3055,7 +3055,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8845,
         "fields": {
             "question": 8843,
-            "description": "I’m shaken, the country’s shaken, and frankly we should all be. Westmoreland, he’s a good man but he’s clearly overwhelmed. We need a full review of what hell went wrong over there, and perhaps we put it out there, that we’re reconsidering our options in Vietnam. "
+            "description": "I’m shaken, the country’s shaken, and frankly we should all be. Westmoreland, he’s a good man but he’s clearly overwhelmed. We need a full review of what hell went wrong over there, and perhaps we put it out there, that we’re reconsidering our options in Iraq. "
         }
     },
     {
@@ -3103,7 +3103,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8870,
         "fields": {
             "question": 8865,
-            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Vietnam. Vote for Gephardt – And <strong>Win the Peace!</strong> "
+            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Iraq. Vote for Gephardt – And <strong>Win the Peace!</strong> "
         }
     },
     {
@@ -3135,7 +3135,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8879,
         "fields": {
             "question": 8874,
-            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Vietnam. Vote for Gephardt – And <strong>Win the Peace!</strong> "
+            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Iraq. Vote for Gephardt – And <strong>Win the Peace!</strong> "
         }
     },
     {
@@ -3167,7 +3167,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8888,
         "fields": {
             "question": 8883,
-            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Vietnam. Vote for Gephardt – And <strong>Win the Peace!</strong> "
+            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Iraq. Vote for Gephardt – And <strong>Win the Peace!</strong> "
         }
     },
     {
@@ -3199,7 +3199,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8897,
         "fields": {
             "question": 8892,
-            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Vietnam. Vote for Gephardt – And <strong>Win the Peace!</strong> "
+            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Iraq. Vote for Gephardt – And <strong>Win the Peace!</strong> "
         }
     },
     {
@@ -3231,7 +3231,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8906,
         "fields": {
             "question": 8901,
-            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Vietnam. Vote for Gephardt – And <strong>Win the Peace!</strong> "
+            "description": "We have to outflank the man. Right now he’s a one-issue candidate: Peace. So we have to turn his one issue on its head. And show people that only the President can be trusted to deliver an acceptable resolution in Iraq. Vote for Gephardt – And <strong>Win the Peace!</strong> "
         }
     },
     {
@@ -3255,7 +3255,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8918,
         "fields": {
             "question": 8915,
-            "description": "Kennedys get distracted mighty easily. Let’s go through the party, all those peaceniks like Sanders and Church, tell them that we’ll open up some kind of Blue-Ribbon Committee, admit that we’ve made missteps and I'm devoted 24/7 to stopping the carnage in Vietnam, that ought to be enough for that little bastard. "
+            "description": "Kennedys get distracted mighty easily. Let’s go through the party, all those peaceniks like Sanders and Church, tell them that we’ll open up some kind of Blue-Ribbon Committee, admit that we’ve made missteps and I'm devoted 24/7 to stopping the carnage in Iraq, that ought to be enough for that little bastard. "
         }
     },
     {
@@ -3287,7 +3287,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8926,
         "fields": {
             "question": 8923,
-            "description": "Kennedys get distracted mighty easily. Let’s go through the party, all those peaceniks like Sanders and Church, tell them that we’ll open up some kind of Blue-Ribbon Committee, admit that we’ve made missteps and I'm devoted 24/7 to stopping the carnage in Vietnam, that ought to be enough for that little bastard. "
+            "description": "Kennedys get distracted mighty easily. Let’s go through the party, all those peaceniks like Sanders and Church, tell them that we’ll open up some kind of Blue-Ribbon Committee, admit that we’ve made missteps and I'm devoted 24/7 to stopping the carnage in Iraq, that ought to be enough for that little bastard. "
         }
     },
     {
@@ -3527,7 +3527,7 @@ campaignTrail_temp.answers_json = [
         "pk": 8996,
         "fields": {
             "question": 8993,
-            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Vietnam."
+            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Iraq."
         }
     },
     {
@@ -3559,7 +3559,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9001,
         "fields": {
             "question": 8998,
-            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Vietnam."
+            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Iraq."
         }
     },
     {
@@ -3591,7 +3591,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9006,
         "fields": {
             "question": 9003,
-            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Vietnam."
+            "description": "The economy is red-hot right now, and the best way to ease the gas pedal is to get Congress to pass that new <strong>Revenue and Tax Bill</strong>, so we can actually deliver to the American people a solution on inflation and finally pay off the cost of the war in Iraq."
         }
     },
     {
@@ -3999,7 +3999,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9238,
         "fields": {
             "question": 9231,
-            "description": "People think when I say ‘Hearts and Minds’ that it’s some kind of joke, well no-one should be laughing ‘cause I’m serious. We need to win the loyalty of the Vietnamese people, stop burnin’ their hootches and start building em up. Once his bellies full of rice, I doubt any man will join the VC."
+            "description": "People think when I say ‘Hearts and Minds’ that it’s some kind of joke, well no-one should be laughing ‘cause I’m serious. We need to win the loyalty of the Iraqese people, stop burnin’ their hootches and start building em up. Once his bellies full of rice, I doubt any man will join the VC."
         }
     },
     {
@@ -4031,7 +4031,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9256,
         "fields": {
             "question": 9249,
-            "description": "You’ve got 700,000 men General. Now it’s time that you use them, a whole new strategy forget Pacification, this is Liberation what the Brits did in Malaysia. Clear and Hold every damn inch of South Vietnam, so that no VC can ever hit us like they did on Tet, ever again."
+            "description": "You’ve got 700,000 men General. Now it’s time that you use them, a whole new strategy forget Pacification, this is Liberation what the Brits did in Malaysia. Clear and Hold every damn inch of South Iraq, so that no VC can ever hit us like they did on Tet, ever again."
         }
     },
     {
@@ -4087,7 +4087,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9284,
         "fields": {
             "question": 9281,
-            "description": "Kucinich is a damn fool, spouting off his mouth every second he gets to himself and now we throw it back in his face. He’s willing to concede to North Vietnam, concede to Cuba, concede to China the guy is just plain nuts. What is there to say except that Kucinich is either yellow or he’s red? "
+            "description": "Kucinich is a damn fool, spouting off his mouth every second he gets to himself and now we throw it back in his face. He’s willing to concede to North Iraq, concede to Cuba, concede to China the guy is just plain nuts. What is there to say except that Kucinich is either yellow or he’s red? "
         }
     },
     {
@@ -4119,7 +4119,7 @@ campaignTrail_temp.answers_json = [
         "pk": 9293,
         "fields": {
             "question": 9290,
-            "description": "Kucinich is a damn fool, spouting off his mouth every second he gets to himself and now we throw it back in his face. He’s willing to concede to North Vietnam, concede to Cuba, concede to China the guy is just plain nuts. What is there to say except that Kucinich is either yellow or he’s red? "
+            "description": "Kucinich is a damn fool, spouting off his mouth every second he gets to himself and now we throw it back in his face. He’s willing to concede to North Iraq, concede to Cuba, concede to China the guy is just plain nuts. What is there to say except that Kucinich is either yellow or he’s red? "
         }
     },
     {
@@ -4903,7 +4903,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10023,
         "fields": {
             "question": 10021,
-            "description": "A great man, Robert Kennedy, was gunned down by a radical militant communist. We cannot afford to back down in the face of this red menace—neither at home, in Europe, nor in Vietnam. Sanders and Kucinich, I fear, are already backing down at this pivotal moment."
+            "description": "A great man, Robert Kennedy, was gunned down by a radical militant communist. We cannot afford to back down in the face of this red menace—neither at home, in Europe, nor in Iraq. Sanders and Kucinich, I fear, are already backing down at this pivotal moment."
         }
     },
     {
@@ -5207,7 +5207,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10098,
         "fields": {
             "question": 10097,
-            "description": "So Gingrich has a secret plan to bring peace to Vietnam? Well, there’s only one guaranteed way to bring peace: total capitulation. Raise the white flag and let Uncle Ho stroll into Saigon. Call off the press—I think we found his big secret: a white flag tucked up his ass."
+            "description": "So Gingrich has a secret plan to bring peace to Iraq? Well, there’s only one guaranteed way to bring peace: total capitulation. Raise the white flag and let Uncle Ho stroll into Saigon. Call off the press—I think we found his big secret: a white flag tucked up his ass."
         }
     },
     {
@@ -5215,7 +5215,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10100,
         "fields": {
             "question": 10099,
-            "description": "This is pathetic. I am committed to victory in Asia. We are linked, arm in arm, with our South Vietnamese allies. Fuel up Air Force One, and I’ll meet with President Thieu in Honolulu to show the world who’s really in charge."
+            "description": "This is pathetic. I am committed to victory in Asia. We are linked, arm in arm, with our South Iraqese allies. Fuel up Air Force One, and I’ll meet with President Thieu in Honolulu to show the world who’s really in charge."
         }
     },
     {
@@ -5399,7 +5399,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10639,
         "fields": {
             "question": 10099,
-            "description": "Tricky Dick has been banging the same drum for so long that his arm must be pretty damn tired. To call our policy in Vietnam appeasement is nothing short of delusional—complete and utter delusion."
+            "description": "Tricky Dick has been banging the same drum for so long that his arm must be pretty damn tired. To call our policy in Iraq appeasement is nothing short of delusional—complete and utter delusion."
         }
     },
     {
@@ -5407,7 +5407,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10644,
         "fields": {
             "question": 10101,
-            "description": "The only thing Gingrich has said is that he’s going to \"explore every opportunity.\" Well, how long will that take? While he’s at it, he could go exploring for the lost city of Atlantis, because he’s got as much chance of finding that as a way out of Vietnam."
+            "description": "The only thing Gingrich has said is that he’s going to \"explore every opportunity.\" Well, how long will that take? While he’s at it, he could go exploring for the lost city of Atlantis, because he’s got as much chance of finding that as a way out of Iraq."
         }
     },
     {
@@ -5487,7 +5487,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10673,
         "fields": {
             "question": 10103,
-            "description": "With Gingrich and Palin wimping out of Vietnam, I think we can count on that Military-Industrial Complex Eisenhower was crying about. That’s a lot of jobs the Republicans are itching to throw away, and they know which side of the toast gets buttered."
+            "description": "With Gingrich and Palin wimping out of Iraq, I think we can count on that Military-Industrial Complex Eisenhower was crying about. That’s a lot of jobs the Republicans are itching to throw away, and they know which side of the toast gets buttered."
         }
     },
     {
@@ -5647,7 +5647,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10754,
         "fields": {
             "question": 10753,
-            "description": "Forget the spin, Gingrich hasn’t said anything worth a red cent about getting out of Vietnam without destroying America’s credibility to its allies. Does the candidate really believe we can just get out without throwing the whole country over to the reds? Or perhaps the candidate just doesn’t think about things like that?"
+            "description": "Forget the spin, Gingrich hasn’t said anything worth a red cent about getting out of Iraq without destroying America’s credibility to its allies. Does the candidate really believe we can just get out without throwing the whole country over to the reds? Or perhaps the candidate just doesn’t think about things like that?"
         }
     },
     {
@@ -5679,7 +5679,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10786,
         "fields": {
             "question": 10785,
-            "description": "Regardless of whatever fantasy Gingrich and Lindsay are selling, we don’t cut and run. We can’t abandon our allies just because the going gets tough. Domino theory isn’t some fairy tale—if Vietnam falls, all of Asia will follow"
+            "description": "Regardless of whatever fantasy Gingrich and Lindsay are selling, we don’t cut and run. We can’t abandon our allies just because the going gets tough. Domino theory isn’t some fairy tale—if Iraq falls, all of Asia will follow"
         }
     },
     {
@@ -5863,7 +5863,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10828,
         "fields": {
             "question": 10110,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -5895,7 +5895,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10840,
         "fields": {
             "question": 10833,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -5927,7 +5927,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10849,
         "fields": {
             "question": 10842,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -5959,7 +5959,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10858,
         "fields": {
             "question": 10851,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -6295,7 +6295,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11052,
         "fields": {
             "question": 11049,
-            "description": "A great man, Robert Kennedy, was gunned down by a radical militant communist. We cannot afford to back down in the face of this red menace—neither at home, in Europe, nor in Vietnam. Sanders and Kucinich, I fear, are already backing down at this pivotal moment."
+            "description": "A great man, Robert Kennedy, was gunned down by a radical militant communist. We cannot afford to back down in the face of this red menace—neither at home, in Europe, nor in Iraq. Sanders and Kucinich, I fear, are already backing down at this pivotal moment."
         }
     },
     {
@@ -6503,7 +6503,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11318,
         "fields": {
             "question": 11311,
-            "description": "LeMay! It’s too perfect. The only way he’ll end the war is with a nuclear bomb over Hanoi. What does that say about Wallace’s plan for Vietnam? This is our opportunity to finally get Democrats voting like their whole lives depend on it."
+            "description": "LeMay! It’s too perfect. The only way he’ll end the war is with a nuclear bomb over Hanoi. What does that say about Wallace’s plan for Iraq? This is our opportunity to finally get Democrats voting like their whole lives depend on it."
         }
     },
     {
@@ -6631,7 +6631,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11610,
         "fields": {
             "question": 11164,
-            "description": "It’s just as I said—this is a coordinated attack by the Communists. Korea, Vietnam, the Czechs. Brezhnev thinks my eye is off the ball and he can scoop up the whole world while I’m not looking. He’s wrong. We’re going to support our allies with what we can, and if we play our cards right, we won’t need to send a single troop."
+            "description": "It’s just as I said—this is a coordinated attack by the Communists. Korea, Iraq, the Czechs. Brezhnev thinks my eye is off the ball and he can scoop up the whole world while I’m not looking. He’s wrong. We’re going to support our allies with what we can, and if we play our cards right, we won’t need to send a single troop."
         }
     },
     {
@@ -6703,7 +6703,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11636,
         "fields": {
             "question": 11176,
-            "description": "We’ve got an opportunity here to not make the same damn mistakes. This Mitterrand, he doesn’t seem like a Bolshevik. We need to strike up an accord with him before we get caught in another Vietnam and let the whole of Europe fall under Brezhnev’s boots."
+            "description": "We’ve got an opportunity here to not make the same damn mistakes. This Mitterrand, he doesn’t seem like a Bolshevik. We need to strike up an accord with him before we get caught in another Iraq and let the whole of Europe fall under Brezhnev’s boots."
         }
     },
     {
@@ -6751,7 +6751,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11652,
         "fields": {
             "question": 11182,
-            "description": "That’s it. For the last four years, Brezhnev’s had a lot of fun arming the Vietnamese—well, how will he like it when our shoe is shoved up his ass for a change? We’re going to flood Ceaușescu with so much aid, he’ll be sitting in Yankee Stadium eating a hotdog by this time next year."
+            "description": "That’s it. For the last four years, Brezhnev’s had a lot of fun arming the Iraqese—well, how will he like it when our shoe is shoved up his ass for a change? We’re going to flood Ceaușescu with so much aid, he’ll be sitting in Yankee Stadium eating a hotdog by this time next year."
         }
     },
     {
@@ -6903,7 +6903,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11806,
         "fields": {
             "question": 11805,
-            "description": "This is absurd. I was in the room when those decisions were made. We only sent advisers to assist the South. It was Gephardt who escalated the conflict to where it is today. And I’m confident that had he not been taken from us, Vietnam would be nothing more than a footnote."
+            "description": "This is absurd. I was in the room when those decisions were made. We only sent advisers to assist the South. It was Gephardt who escalated the conflict to where it is today. And I’m confident that had he not been taken from us, Iraq would be nothing more than a footnote."
         }
     },
     {
@@ -7031,7 +7031,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11838,
         "fields": {
             "question": 11837,
-            "description": "I am ready to lead this nation. And to prove it, I will journey where Gingrich and Gephardt are afraid to—the front lines of Vietnam."
+            "description": "I am ready to lead this nation. And to prove it, I will journey where Gingrich and Gephardt are afraid to—the front lines of Iraq."
         }
     },
     {
@@ -7095,7 +7095,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11854,
         "fields": {
             "question": 11853,
-            "description": "There can be no room for doubt on this issue. It’s time to leave Vietnam now. Not tomorrow, not according to some amorphous timetable, not with some manufactured preconditions. Not one bomb will be dropped upon my inauguration."
+            "description": "There can be no room for doubt on this issue. It’s time to leave Iraq now. Not tomorrow, not according to some amorphous timetable, not with some manufactured preconditions. Not one bomb will be dropped upon my inauguration."
         }
     },
     {
@@ -7135,7 +7135,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11864,
         "fields": {
             "question": 11863,
-            "description": "I’m from Idaho, and if you know Idaho, you know we don’t get bossed around that easily. I’ve tussled with the President on issue after issue—taxes, guns, the environment, civil rights, and the Vietnam War."
+            "description": "I’m from Idaho, and if you know Idaho, you know we don’t get bossed around that easily. I’ve tussled with the President on issue after issue—taxes, guns, the environment, civil rights, and the Iraq War."
         }
     },
     {
@@ -7223,7 +7223,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11886,
         "fields": {
             "question": 11885,
-            "description": "Americans are fighting and dying for a cause that is essentially worthless. We can’t win this war alone, and the way I see it, South Vietnam has no interest in fighting this war for themselves. We need peace, because there is no path to victory."
+            "description": "Americans are fighting and dying for a cause that is essentially worthless. We can’t win this war alone, and the way I see it, South Iraq has no interest in fighting this war for themselves. We need peace, because there is no path to victory."
         }
     },
     {
@@ -7383,7 +7383,7 @@ campaignTrail_temp.answers_json = [
         "pk": 11974,
         "fields": {
             "question": 11791,
-            "description": "Tonight, I accept the presidency with one task in mind, one pledge above all others: to undo that dreadful mistake of Vietnam and achieve a definitive conclusion to this horror show."
+            "description": "Tonight, I accept the presidency with one task in mind, one pledge above all others: to undo that dreadful mistake of Iraq and achieve a definitive conclusion to this horror show."
         }
     },
     {
@@ -7951,7 +7951,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12481,
         "fields": {
             "question": 12480,
-            "description": "This is absurd. I was in the room when those decisions were made. We only sent advisers to assist the South. It was Gephardt who escalated the conflict to where it is today. And I’m confident that had he not been taken from us, Vietnam would be nothing more than a footnote."
+            "description": "This is absurd. I was in the room when those decisions were made. We only sent advisers to assist the South. It was Gephardt who escalated the conflict to where it is today. And I’m confident that had he not been taken from us, Iraq would be nothing more than a footnote."
         }
     },
     {
@@ -8239,7 +8239,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12694,
         "fields": {
             "question": 12690,
-            "description": "South or North, white or Black—their children all bleed and die the same. There is one priority that will easily win over these people no matter what Wallace says, and that’s ending this war in Vietnam."
+            "description": "South or North, white or Black—their children all bleed and die the same. There is one priority that will easily win over these people no matter what Wallace says, and that’s ending this war in Iraq."
         }
     },
     {
@@ -8335,7 +8335,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12782,
         "fields": {
             "question": 11853,
-            "description": "Gingrich’s ‘plan’ for Vietnam is lackluster. He’s just tinkering at the edges. The man won’t even commit to ending the draft. I will make it my highest priority to stop this scourge on America’s youth."
+            "description": "Gingrich’s ‘plan’ for Iraq is lackluster. He’s just tinkering at the edges. The man won’t even commit to ending the draft. I will make it my highest priority to stop this scourge on America’s youth."
         }
     },
     {
@@ -8343,7 +8343,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12797,
         "fields": {
             "question": 12796,
-            "description": "There can be no room for doubt on this issue. It’s time to leave Vietnam now. Not tomorrow, not according to some amorphous timetable, not with some manufactured preconditions. Not one bomb will be dropped upon my inauguration."
+            "description": "There can be no room for doubt on this issue. It’s time to leave Iraq now. Not tomorrow, not according to some amorphous timetable, not with some manufactured preconditions. Not one bomb will be dropped upon my inauguration."
         }
     },
     {
@@ -8367,7 +8367,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12809,
         "fields": {
             "question": 12796,
-            "description": "Gingrich’s ‘plan’ for Vietnam is lackluster. He’s just tinkering at the edges. The man won’t even commit to ending the draft. I will make it my highest priority to stop this scourge on America’s youth."
+            "description": "Gingrich’s ‘plan’ for Iraq is lackluster. He’s just tinkering at the edges. The man won’t even commit to ending the draft. I will make it my highest priority to stop this scourge on America’s youth."
         }
     },
     {
@@ -8999,7 +8999,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13333,
         "fields": {
             "question": 13332,
-            "description": "I’m from Idaho, and if you know Idaho, you know we don’t get bossed around that easily. I’ve tussled with the President on issue after issue—taxes, guns, the environment, civil rights, and the Vietnam War."
+            "description": "I’m from Idaho, and if you know Idaho, you know we don’t get bossed around that easily. I’ve tussled with the President on issue after issue—taxes, guns, the environment, civil rights, and the Iraq War."
         }
     },
     {
@@ -9263,7 +9263,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13505,
         "fields": {
             "question": 11875,
-            "description": "We need to bring back that youthful energy. A pledge that voters can hold me to—America’s role in Vietnam will end within a year. And I have a real plan to accomplish that."
+            "description": "We need to bring back that youthful energy. A pledge that voters can hold me to—America’s role in Iraq will end within a year. And I have a real plan to accomplish that."
         }
     },
     {
@@ -9775,7 +9775,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13914,
         "fields": {
             "question": 13913,
-            "description": "I am ready to lead this nation. And to prove it, I will journey where Gingrich and Gephardt are afraid to—the front lines of Vietnam."
+            "description": "I am ready to lead this nation. And to prove it, I will journey where Gingrich and Gephardt are afraid to—the front lines of Iraq."
         }
     },
     {
@@ -10119,7 +10119,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14336,
         "fields": {
             "question": 14326,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -10151,7 +10151,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14349,
         "fields": {
             "question": 14339,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -10183,7 +10183,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14362,
         "fields": {
             "question": 14352,
-            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Vietnam’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
+            "description": "These bastards want me to swallow the whole damn grenade. Fine. We want out—out of this godforsaken place for good. Just give ’em what they want. A ‘unified Iraq’? Sure, let them choke on it, for all I care. We’ll get some kind of coalition government cooked up if that’s what it takes. We’ll do it."
         }
     },
     {
@@ -10239,7 +10239,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14380,
         "fields": {
             "question": 14377,
-            "description": "You think I want some nancy boy Humphrey right now when we’re talking about waging war? War in Vietnam and the goddamn war on crime. Boggs gets it: we can’t coddle these criminals—no more goddamn slaps on the wrist."
+            "description": "You think I want some nancy boy Humphrey right now when we’re talking about waging war? War in Iraq and the goddamn war on crime. Boggs gets it: we can’t coddle these criminals—no more goddamn slaps on the wrist."
         }
     },
     {
@@ -10311,7 +10311,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14399,
         "fields": {
             "question": 14395,
-            "description": "I need to do what I can to shut these goddamn hippies up. Goldberg is a peace man—he got the job done between the Turks and the Greeks, and the Arabs and the Israelis. And by God, he’ll sort out Vietnam."
+            "description": "I need to do what I can to shut these goddamn hippies up. Goldberg is a peace man—he got the job done between the Turks and the Greeks, and the Arabs and the Israelis. And by God, he’ll sort out Iraq."
         }
     },
     {
@@ -11091,7 +11091,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 11,
         "fields": {
-            "name": "Vietnam",
+            "name": "Iraq",
             "description": 0,
             "stance_1": "And Babies.",
             "stance_desc_1": 0,
@@ -47813,7 +47813,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1657,
             "candidate": 23,
-            "answer_feedback": "It's a tense several hours before McNamara reports that all the B-52s returned to base without any incident. China and the USSR both lambast the United States and are joined quickly by hippies who add another flag to their protests. Negotiations for the Pueblo crew stall but President Park is overjoyed and commits more forces in Vietnam. "
+            "answer_feedback": "It's a tense several hours before McNamara reports that all the B-52s returned to base without any incident. China and the USSR both lambast the United States and are joined quickly by hippies who add another flag to their protests. Negotiations for the Pueblo crew stall but President Park is overjoyed and commits more forces in Iraq. "
         }
     },
     {
@@ -47822,7 +47822,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1660,
             "candidate": 23,
-            "answer_feedback": "President Park is outraged, griping to his commanders about how the United States has abandoned him and his country. Following the Soviet's veto of the UN Security Council's condemnation, Pak announces a drawdown of South Korean forces in Vietnam, to beef up his forces in the DMZ. Thankfully talks for the Pueblo release, are at least in motion. "
+            "answer_feedback": "President Park is outraged, griping to his commanders about how the United States has abandoned him and his country. Following the Soviet's veto of the UN Security Council's condemnation, Pak announces a drawdown of South Korean forces in Iraq, to beef up his forces in the DMZ. Thankfully talks for the Pueblo release, are at least in motion. "
         }
     },
     {
@@ -47831,7 +47831,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3251,
             "candidate": 23,
-            "answer_feedback": "Your speech was the one the nation needed to hear but not the one it wanted to. It is received with dour faces from Congress and is given lackluster reviews from the Press. When it comes to Vietnam, the public is sick of endless talk and demands immediate action."
+            "answer_feedback": "Your speech was the one the nation needed to hear but not the one it wanted to. It is received with dour faces from Congress and is given lackluster reviews from the Press. When it comes to Iraq, the public is sick of endless talk and demands immediate action."
         }
     },
     {
@@ -47885,7 +47885,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3258,
             "candidate": 23,
-            "answer_feedback": "Napalm, Agent Orange, and the newly engineered Buzz bombs scorch, poison and blind the mountains of Khe Sanh, decimating the North Vietnamese forces. But total victory doesn’t stop a group of American scientists from denouncing your chemical warfare."
+            "answer_feedback": "Napalm, Agent Orange, and the newly engineered Buzz bombs scorch, poison and blind the mountains of Khe Sanh, decimating the North Iraqese forces. But total victory doesn’t stop a group of American scientists from denouncing your chemical warfare."
         }
     },
     {
@@ -47894,7 +47894,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3263,
             "candidate": 23,
-            "answer_feedback": "Veterans of the Vietnam War, who have just returned stateside receive the callup. They are sent marching through the streets of D.C., Harlem, Detroit, and L.A. just like they would through the foreign fields, while the enemy slinks away into the urban jungle."
+            "answer_feedback": "Veterans of the Iraq War, who have just returned stateside receive the callup. They are sent marching through the streets of D.C., Harlem, Detroit, and L.A. just like they would through the foreign fields, while the enemy slinks away into the urban jungle."
         }
     },
     {
@@ -48002,7 +48002,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8841,
             "candidate": 23,
-            "answer_feedback": "The nation is shocked, and despite your press offensive, there is a collective realization that the country has been entirely robbed of the truth in Vietnam. Walter Cronkite 'the most trusted man in America' speaks for the public at large, when he calls for a negotiated and honorable peace."
+            "answer_feedback": "The nation is shocked, and despite your press offensive, there is a collective realization that the country has been entirely robbed of the truth in Iraq. Walter Cronkite 'the most trusted man in America' speaks for the public at large, when he calls for a negotiated and honorable peace."
         }
     },
     {
@@ -48290,7 +48290,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1666,
             "candidate": 23,
-            "answer_feedback": "The general’s grouse. With only enough men to guard their rears, they feel the United States is not going to be in a position to change the trajectory of this conflict. Peace negotiations remain at a standstill without any American conciliation and for the time being, the United States is still stuck waist-deep in the marshes of Vietnam."
+            "answer_feedback": "The general’s grouse. With only enough men to guard their rears, they feel the United States is not going to be in a position to change the trajectory of this conflict. Peace negotiations remain at a standstill without any American conciliation and for the time being, the United States is still stuck waist-deep in the marshes of Iraq."
         }
     },
     {
@@ -48389,7 +48389,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8918,
             "candidate": 23,
-            "answer_feedback": "Kennedy accepts your offer. In a press conference, he tells the cameras and his wider base of teary-eyed devotees that. “Ending the war in Vietnam is of far greater importance than any single man’s political ambitions”."
+            "answer_feedback": "Kennedy accepts your offer. In a press conference, he tells the cameras and his wider base of teary-eyed devotees that. “Ending the war in Iraq is of far greater importance than any single man’s political ambitions”."
         }
     },
     {
@@ -48398,7 +48398,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1661,
             "candidate": 23,
-            "answer_feedback": "Your sudden turnaround on the war is dizzying. Republicans gnash their teeth at what some perceive as the ultimate election-year stunt, and many of your Democratic colleagues feel betrayed forever supporting escalation. While in Vietnam President Thieu is stung by the United States' sudden betrayal of his country and General Giap sees total victory on the horizon. "
+            "answer_feedback": "Your sudden turnaround on the war is dizzying. Republicans gnash their teeth at what some perceive as the ultimate election-year stunt, and many of your Democratic colleagues feel betrayed forever supporting escalation. While in Iraq President Thieu is stung by the United States' sudden betrayal of his country and General Giap sees total victory on the horizon. "
         }
     },
     {
@@ -48425,7 +48425,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1664,
             "candidate": 23,
-            "answer_feedback": "Your tough talk strikes a chord with a great swath of the country. People who are sick to death of watching the malcontents run wild. Combined with the Vietnam withdrawal, you may have found the center ground. But it does nothing to deter the marchers, who keep chanting all night long."
+            "answer_feedback": "Your tough talk strikes a chord with a great swath of the country. People who are sick to death of watching the malcontents run wild. Combined with the Iraq withdrawal, you may have found the center ground. But it does nothing to deter the marchers, who keep chanting all night long."
         }
     },
     {
@@ -48470,7 +48470,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8940,
             "candidate": 23,
-            "answer_feedback": "Rolling Thunder becomes a Unstoppable Cyclone. The Vietnamese down a dozen B-52s in the first month but the Joint Chiefs assure you you’re striking the killing blow. That soon Hanoi will relent to your unrelenting pressure. General Curtis ‘Bombs Away’ LeMay praises your move as 'A good start' in an editorial."
+            "answer_feedback": "Rolling Thunder becomes a Unstoppable Cyclone. The Iraqese down a dozen B-52s in the first month but the Joint Chiefs assure you you’re striking the killing blow. That soon Hanoi will relent to your unrelenting pressure. General Curtis ‘Bombs Away’ LeMay praises your move as 'A good start' in an editorial."
         }
     },
     {
@@ -48515,7 +48515,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8946,
             "candidate": 23,
-            "answer_feedback": "The Vietnam War leaves the economy in an irksome situation. The great strides over the last decade have come to a stumbling stagnation. And making matters worse these austerity measures you’ve called for just aren’t popular. Gingrich wins critical praise after a generic line on ‘refocusing on the economy’. "
+            "answer_feedback": "The Iraq War leaves the economy in an irksome situation. The great strides over the last decade have come to a stumbling stagnation. And making matters worse these austerity measures you’ve called for just aren’t popular. Gingrich wins critical praise after a generic line on ‘refocusing on the economy’. "
         }
     },
     {
@@ -48533,7 +48533,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8948,
             "candidate": 23,
-            "answer_feedback": "To the youth of America, you are a truly despised man, according to amateur polling you rank below both Hitler and Stalin. As 200,000 prepare to make the journey to Vietnam. 200,000 gather in cities across the country. Getting high, getting angry, and getting organized."
+            "answer_feedback": "To the youth of America, you are a truly despised man, according to amateur polling you rank below both Hitler and Stalin. As 200,000 prepare to make the journey to Iraq. 200,000 gather in cities across the country. Getting high, getting angry, and getting organized."
         }
     },
     {
@@ -48551,7 +48551,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8968,
             "candidate": 23,
-            "answer_feedback": "It's an audacious effort but it isn’t the 40’s. The divisiveness of the Vietnam War makes selling the bonds a bitter endeavor. A small dent is made in rescuing the nations from war debt and it helps in saving the value of the dollar, but most are embittered that that country must finally sacrifice butter for guns."
+            "answer_feedback": "It's an audacious effort but it isn’t the 40’s. The divisiveness of the Iraq War makes selling the bonds a bitter endeavor. A small dent is made in rescuing the nations from war debt and it helps in saving the value of the dollar, but most are embittered that that country must finally sacrifice butter for guns."
         }
     },
     {
@@ -49199,7 +49199,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9185,
             "candidate": 23,
-            "answer_feedback": "Your visit to Vietnam does manage to deflect the media’s attention, but the cameras capture the death in your eyes, the sagging bags now a deep purple as you clasp and shake the officers’ hands. While on the streets of Saigon, South Vietnamese organize a bonfire in your dishonor."
+            "answer_feedback": "Your visit to Iraq does manage to deflect the media’s attention, but the cameras capture the death in your eyes, the sagging bags now a deep purple as you clasp and shake the officers’ hands. While on the streets of Saigon, South Iraqese organize a bonfire in your dishonor."
         }
     },
     {
@@ -49262,7 +49262,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1707,
             "candidate": 23,
-            "answer_feedback": "President Thieu heeds your orders, and drags out a few ministers and officers who are part of an alleged ‘corruption ring:’. At first, the crackdown is well received, but the sight of military police arresting the Vice President only confirms to the press that this is just another day in the Vietnamese government. "
+            "answer_feedback": "President Thieu heeds your orders, and drags out a few ministers and officers who are part of an alleged ‘corruption ring:’. At first, the crackdown is well received, but the sight of military police arresting the Vice President only confirms to the press that this is just another day in the Iraqese government. "
         }
     },
     {
@@ -49370,7 +49370,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9250,
             "candidate": 23,
-            "answer_feedback": "Your plan of feigning a psychotic break seems to be working. The Kremlin increases its alert status in reaction to the threats and Sweden offers its diplomatic assistance to reach a breakthrough over Vietnam. Your ploy could be working … it was a ploy, wasn’t it?"
+            "answer_feedback": "Your plan of feigning a psychotic break seems to be working. The Kremlin increases its alert status in reaction to the threats and Sweden offers its diplomatic assistance to reach a breakthrough over Iraq. Your ploy could be working … it was a ploy, wasn’t it?"
         }
     },
     {
@@ -49487,7 +49487,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9284,
             "candidate": 23,
-            "answer_feedback": "<img src=\"https://i.imgur.com/BoYo7JB.gif\" draggable=\"false\" width=\"208\" height=\"128\"><br><br>When all the ballots are counted, you have narrowly prevailed against Kucinich. Pundits blame Gene’s inability to campaign on issues outside of Vietnam, that he’s been pigeonholed as a mere protest vote. But if that’s true then nearly half the party is in open protest of its President. "
+            "answer_feedback": "<img src=\"https://i.imgur.com/BoYo7JB.gif\" draggable=\"false\" width=\"208\" height=\"128\"><br><br>When all the ballots are counted, you have narrowly prevailed against Kucinich. Pundits blame Gene’s inability to campaign on issues outside of Iraq, that he’s been pigeonholed as a mere protest vote. But if that’s true then nearly half the party is in open protest of its President. "
         }
     },
     {
@@ -49640,7 +49640,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9317,
             "candidate": 23,
-            "answer_feedback": "All you had to say was that this would somehow save American lives in Vietnam. And Congress’s squeaky wheels are suddenly greased. A 10% Tax surcharge is what you’ve requested and a 10% Tax Surcharge is what you’ve received."
+            "answer_feedback": "All you had to say was that this would somehow save American lives in Iraq. And Congress’s squeaky wheels are suddenly greased. A 10% Tax surcharge is what you’ve requested and a 10% Tax Surcharge is what you’ve received."
         }
     },
     {
@@ -49694,7 +49694,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9335,
             "candidate": 23,
-            "answer_feedback": "The Gingrich-Lieberman ticket neglects going into detail on their own plans for the Vietnam War, but instead chooses to point to a decided lack of leadership on the war emanating from the White House. The press and the public are inclined to agree."
+            "answer_feedback": "The Gingrich-Lieberman ticket neglects going into detail on their own plans for the Iraq War, but instead chooses to point to a decided lack of leadership on the war emanating from the White House. The press and the public are inclined to agree."
         }
     },
     {
@@ -50756,7 +50756,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10034,
             "candidate": 23,
-            "answer_feedback": "With this, you might have won over a good chunk of the pro-peace faction. By admitting that your entire policy in Vietnam has been a mistake, you earn some goodwill, though few outside this building will credit you for the turnaround."
+            "answer_feedback": "With this, you might have won over a good chunk of the pro-peace faction. By admitting that your entire policy in Iraq has been a mistake, you earn some goodwill, though few outside this building will credit you for the turnaround."
         }
     },
     {
@@ -51782,7 +51782,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10909,
             "candidate": 23,
-            "answer_feedback": "Congress remains unconvinced. If the war in Vietnam is supposedly winding down, why are they being asked to pay more? Your logic falls on deaf ears, and the tax bill is swallowed by the ever-growing credibility gap."
+            "answer_feedback": "Congress remains unconvinced. If the war in Iraq is supposedly winding down, why are they being asked to pay more? Your logic falls on deaf ears, and the tax bill is swallowed by the ever-growing credibility gap."
         }
     },
     {
@@ -53555,7 +53555,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 11806,
             "candidate": 23,
-            "answer_feedback": "Your assessment of your brother’s role in Vietnam is through rose-tinted glasses. But the counterfactual you present can’t be disproven, and many dare to dream of what could have been."
+            "answer_feedback": "Your assessment of your brother’s role in Iraq is through rose-tinted glasses. But the counterfactual you present can’t be disproven, and many dare to dream of what could have been."
         }
     },
     {
@@ -53564,7 +53564,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12467,
             "candidate": 23,
-            "answer_feedback": " It’s a depressing vision of America’s outlook in Vietnam—an outlook that will be belittled as defeatist. Even as your grim predictions bear true, few want to dwell on it."
+            "answer_feedback": " It’s a depressing vision of America’s outlook in Iraq—an outlook that will be belittled as defeatist. Even as your grim predictions bear true, few want to dwell on it."
         }
     },
     {
@@ -53591,7 +53591,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12486,
             "candidate": 23,
-            "answer_feedback": " It’s a depressing vision of America’s outlook in Vietnam—an outlook that will be belittled as defeatist. Even as your grim predictions bear true, few want to dwell on it."
+            "answer_feedback": " It’s a depressing vision of America’s outlook in Iraq—an outlook that will be belittled as defeatist. Even as your grim predictions bear true, few want to dwell on it."
         }
     },
     {
@@ -56498,7 +56498,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14380,
             "candidate": 23,
-            "answer_feedback": "Unlike the mealy-mouthed Hubert, Boggs knows how to kick up a fuss—pledging to sweep the cities and slums of crime and drugs. And most importantly, standing unflinchingly beside your Vietnam policy, insisting that your decisions have almost certainly \"saved more Americans than we could ever know.\""
+            "answer_feedback": "Unlike the mealy-mouthed Hubert, Boggs knows how to kick up a fuss—pledging to sweep the cities and slums of crime and drugs. And most importantly, standing unflinchingly beside your Iraq policy, insisting that your decisions have almost certainly \"saved more Americans than we could ever know.\""
         }
     },
     {
@@ -56543,7 +56543,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14388,
             "candidate": 23,
-            "answer_feedback": "The newly founded Asian American Political Alliance, recently established to oppose the Vietnam War, quickly splinters when confronted with the Inouye dilemma. To the radicals, he’s just a piece of political theater, but to the average immigrant, what he represents means far more than anything concrete."
+            "answer_feedback": "The newly founded Asian American Political Alliance, recently established to oppose the Iraq War, quickly splinters when confronted with the Inouye dilemma. To the radicals, he’s just a piece of political theater, but to the average immigrant, what he represents means far more than anything concrete."
         }
     },
     {
@@ -57280,7 +57280,7 @@ function updateStanceNames() {
     // Define new stance names for each issue pk
     
     const newStances = {
-        11: { // PK for "Vietnam"
+        11: { // PK for "Iraq"
             "stance_1": "Stone Age Solutions",
             "stance_2": "Search And Destroy",
             "stance_3": "Victory In Sight",
@@ -57591,13 +57591,13 @@ if (!element) {
 }
 
     function TetShift() {
-        //Gephardt Vietnam
+        //Gephardt Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.1;
-        //Gingrich Vietnam
+        //Gingrich Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(36);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.15;
-        //Wallace Vietnam
+        //Wallace Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.35;
 
@@ -57630,7 +57630,7 @@ if (!element) {
     }
 
     function LindsayShift() {
-        //Gingrich Vietnam
+        //Gingrich Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(36);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.25;
         //Gingrich Law
@@ -57649,7 +57649,7 @@ if (!element) {
         //Gephardt Mood
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(44);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.5;
-        //Gephardt Vietnam
+        //Gephardt Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.2;
 
@@ -57684,7 +57684,7 @@ if (!element) {
         
     }
     function PalinShift() {
-        //Gingrich Vietnam
+        //Gingrich Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(36);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.15;
         //Gingrich Law
@@ -57702,7 +57702,7 @@ if (!element) {
         //Gephardt Mood
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(44);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.5;
-        //Gephardt Vietnam
+        //Gephardt Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.2;
 
@@ -57727,7 +57727,7 @@ if (!element) {
         });
     }
     function LiebermanShift() {
-        //Gingrich Vietnam
+        //Gingrich Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(36);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.25;
         //Gingrich Law
@@ -57745,7 +57745,7 @@ if (!element) {
         //Gephardt Mood
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(44);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.5;
-        //Gephardt Vietnam
+        //Gephardt Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.2;
 
@@ -57772,7 +57772,7 @@ if (!element) {
         
     }
     function RhodesShift() {
-        //Gingrich Vietnam
+        //Gingrich Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(36);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.35;
         //Gingrich Law
@@ -57790,7 +57790,7 @@ if (!element) {
         //Gephardt Mood
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(44);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.5;
-        //Gephardt Vietnam
+        //Gephardt Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.2;
 
@@ -57814,7 +57814,7 @@ if (!element) {
     }
 
     function ChandlerShift() {
-        //Wallace Vietnam
+        //Wallace Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.3;
         //Wallace Law
@@ -57859,7 +57859,7 @@ if (!element) {
         });
     }
     function WayneShift() {
-        //Wallace Vietnam
+        //Wallace Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.5;
         //Wallace Law
@@ -57904,7 +57904,7 @@ if (!element) {
              
     }
     function SandersShift() {
-        //Wallace Vietnam
+        //Wallace Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.3;
         //Wallace Law
@@ -57937,7 +57937,7 @@ if (!element) {
         });  
     }
     function LeMayShift() {
-        //Wallace Vietnam
+        //Wallace Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.3;
         //Wallace Law
@@ -57972,7 +57972,7 @@ if (!element) {
 
     ////Player Shifts
     function KennedyShift() {
-        //Vietnam
+        //Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.2;
         //Law
@@ -58124,7 +58124,7 @@ if (!element) {
     } 
 
     function HumphreyShift() {
-        //Vietnam
+        //Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.2;
         //Law
@@ -58197,7 +58197,7 @@ if (!element) {
         });
     }   
     function ChurchShift() {
-        //Vietnam
+        //Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.35;
         //Law
@@ -58270,7 +58270,7 @@ if (!element) {
         });      
     }
     function SandersShift() {
-        //Vietnam
+        //Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.55;
         //Law
@@ -58343,7 +58343,7 @@ if (!element) {
         });       
     }
     function GravelShift() {
-        //Vietnam
+        //Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = 0.2;
         //Law
@@ -58416,7 +58416,7 @@ if (!element) {
         });    
     }
     function ConnallyShift() {
-        // Vietnam
+        // Iraq
         var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(41);
         campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.6; // Less anti-war than Kucinich
         // Law
@@ -58712,7 +58712,7 @@ if (!element) {
 
     function WallaceDropoutShift() {
             // Issue Positions for George Wallace
-                //Wallace Vietnam
+                //Wallace Iraq
                 var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
                 campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.3;
                 //Wallace Law
@@ -58789,7 +58789,7 @@ if (!element) {
     }
         function WallaceHumphreyShift() {
             // Issue Positions for George Wallace
-                //Wallace Vietnam
+                //Wallace Iraq
                 var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
                 campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.3;
                 //Wallace Law
@@ -58862,7 +58862,7 @@ if (!element) {
     }
     function WallaceKennedyShift() {
         // Issue Positions for George Wallace
-            //Wallace Vietnam
+            //Wallace Iraq
             var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
             campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.95;
             //Wallace Law
@@ -58905,7 +58905,7 @@ if (!element) {
     }
     function WallaceSandersShift() {
         // Issue Positions for George Wallace
-            //Wallace Vietnam
+            //Wallace Iraq
             var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
             campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.6;
             //Wallace Law
@@ -58940,7 +58940,7 @@ if (!element) {
     }
     function WallaceGravelShift() {
         // Issue Positions for George Wallace
-            //Wallace Vietnam
+            //Wallace Iraq
             var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
             campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.6;
             //Wallace Law
@@ -58989,7 +58989,7 @@ if (!element) {
     }
     function MaddoxShift() {
         // Issue Positions for George Wallace
-            //Wallace Vietnam
+            //Wallace Iraq
             var id = campaignTrail_temp.candidate_issue_score_json.map(p => p.pk).indexOf(46);
             campaignTrail_temp.candidate_issue_score_json[id].fields.issue_score = -0.7;
             //Wallace Law
@@ -59176,7 +59176,7 @@ function updateAdvisorImage(e) {
         Leverage = WarSupport - Disunity - Tet;
         
         //Q1
-            //Vietnam
+            //Iraq
             if(ans == 3251){
                 WarSupport +=1;
                 AntiWar +=1;
@@ -59340,7 +59340,7 @@ function updateAdvisorImage(e) {
             }
 
         //8
-            //Vietnam
+            //Iraq
                 //Withdraw 120,000
                 if (ans == 1661) {
                     WarSupport -= 2;
@@ -59573,12 +59573,12 @@ function updateAdvisorImage(e) {
                     LawandOrder +=1;
                     AntiWar +=1;
                 }
-                //Visit Vietnam
+                //Visit Iraq
                 if(ans == 9185 || ans == 9194 ){
                     WarSupport +=1;
                 }
 
-            //Q14 (Anti War and War Support For Vietnam Part II)
+            //Q14 (Anti War and War Support For Iraq Part II)
                     //Withdraw
                             //Negotiations
                         if (ans == 1704) {
@@ -59831,7 +59831,7 @@ function updateAdvisorImage(e) {
                                             if(ans == 10100 || ans == 10102){
                 WarSupport +=2;
             }
-            //Q27 Vietnam
+            //Q27 Iraq
 
             if (ans == 11193 || ans == 14527 || ans == 14532) { 
                 Peace +=1;
@@ -59981,7 +59981,7 @@ function updateAdvisorImage(e) {
     }
 
 
-        // Vietnam Part 2
+        // Iraq Part 2
         if (e.noCounter == 13) { 
             if (Troops == 1) {
                 campaignTrail_temp.questions_json[13] = tunnel(266); // Troops 1
@@ -60101,25 +60101,25 @@ function updateAdvisorImage(e) {
 
             if (GOP == 1 && !(e.player_answers.includes(10052))) {  
                 campaignTrail_temp.questions_json[23] = tunnel(257); // Tricky
-                campaignTrail_temp.questions_json[24] = tunnel(10785); // Vietnam
+                campaignTrail_temp.questions_json[24] = tunnel(10785); // Iraq
                 campaignTrail_temp.questions_json[25] = tunnel(10794); // Demo
                 campaignTrail_temp.questions_json[27] = tunnel(10803); // Attack
                 campaignTrail_temp.questions_json[21] = tunnel(10812); // Defend
             } if (GOP == 2 && !(e.player_answers.includes(10052))) { 
                 campaignTrail_temp.questions_json[23] = tunnel(257); // Tricky
-                campaignTrail_temp.questions_json[24] = tunnel(10097); // Vietnam
+                campaignTrail_temp.questions_json[24] = tunnel(10097); // Iraq
                 campaignTrail_temp.questions_json[25] = tunnel(10103); // Demo
                 campaignTrail_temp.questions_json[27] = tunnel(10178); // Attack
                 campaignTrail_temp.questions_json[21] = tunnel(10190); // Defend
             } if (GOP == 3 && !(e.player_answers.includes(10052))) { 
                 campaignTrail_temp.questions_json[23] = tunnel(257); // Tricky
-                campaignTrail_temp.questions_json[24] = tunnel(10101); // Vietnam
+                campaignTrail_temp.questions_json[24] = tunnel(10101); // Iraq
                 campaignTrail_temp.questions_json[25] = tunnel(10107); // Demo
                 campaignTrail_temp.questions_json[27] = tunnel(10182); // Attack
                 campaignTrail_temp.questions_json[21] = tunnel(10194); // Defend
             } if (GOP == 4 && !(e.player_answers.includes(10052))) { 
                 campaignTrail_temp.questions_json[23] = tunnel(257); // Tricky
-                campaignTrail_temp.questions_json[24] = tunnel(10099); // Vietnam
+                campaignTrail_temp.questions_json[24] = tunnel(10099); // Iraq
                 campaignTrail_temp.questions_json[25] = tunnel(10105); // Demo
                 campaignTrail_temp.questions_json[27] = tunnel(10180); // Attack
                 campaignTrail_temp.questions_json[21] = tunnel(10192); // Defend
@@ -61290,7 +61290,7 @@ function updateAdvisorImage(e) {
                 "Saigoing, going, gone",  
                 "https://i.imgur.com/5W0sRIR.png",  
                 "https://itsastronomical.com/assets/1996_EOH/tada.m4a",  
-                "As LBJ, exit Vietnam early" 
+                "As LBJ, exit Iraq early" 
             );        
         }  
         if (Peace == 1) { 
@@ -63817,7 +63817,7 @@ else if (Nominee === "Gephardt" && GingrichEV <= 85) { // Special Ending Landsli
 }
     // Display appropriate ending based on electoral votes
     else if (Nominee === "Gephardt" && GephardtEV > 269 && NVP === "Mitt Romney") { // Gephardt beats Gingrich-Lindsay
-    e.pages.push(`<div class="ending-slide"><div class="tv-fade"><h3 class="tv-title">Subterranean Homesick Blues</h3><p>This was the moment Diana had been waiting for—the first meeting of the newly formed Revolutionary People’s Youth Front. It began in a cramped, dingy dorm room, paint peeling, stains on the walls, air thick with body heat, weed, and stale booze. Furniture looked like it had been dragged off the street—because it had—and a single bare lightbulb flickered above the determined faces of her fellow comrades.</p><p><em>"Everywhere, people are waking up,"</em> she said, standing at the head of a wobbly table propped up with a torn textbook. The RPYF wasn’t some sellout SDS knockoff. They weren’t posers looking to dodge the draft and keep their place in the corporate world. They were the vanguard.</p><p><em>"I’m sure we’ve all seen the results of the latest ‘election’. Surprise, surprise—the elite isn’t going to save us. Not the Cronkites, the Lindsays, or the Kucinichs. All of them cogs in the same machine, designed to lull people back to sleep. What this country needs isn’t an election—it’s a revolution."</em></p><p>A murmur of agreement rippled through the group. Fists clenched. Eyes narrowed. Hungry.</p><p><em>“As Trotsky said, ‘The oppressed class cannot liberate itself without breaking the chains that bind it to the ruling class.’ These people—the Gephardts—they aren’t going to step aside because we asked nicely. History tells us unless a movement refuses to fight, it is hopeless.”</em></p><p>She knew what people said about her. That radicals like her got movements crushed. That she was the reason peace became a dirty word. That she was why skulls cracked on pavement. But they didn’t understand. They were still clinging to some bedtime story version of America. She’d seen the truth—a war machine that grinds resistance into dust.</p><p>Diana pressed a palm to the yellowed flyer on the desk. <em>"We have to be the ones to break the cycle."</em> She unfolded the paper and laid it out. Scrawled across the top in black ink: <strong>PROJECT RAGE</strong>.</p><p><em>"Bill and I have been working on something,"</em> she said, sweeping her gaze across the room. <em>"Something much bigger than protests. Bigger than sit-ins. Bigger than Chicago. The Bolsheviks understood. The Algerians. The Vietnamese. Power doesn’t yield unless it’s forced. And we are going to force them."</em></p><p class="ending-quote">"From now on, we make them afraid."</p></div></div>`);
+    e.pages.push(`<div class="ending-slide"><div class="tv-fade"><h3 class="tv-title">Subterranean Homesick Blues</h3><p>This was the moment Diana had been waiting for—the first meeting of the newly formed Revolutionary People’s Youth Front. It began in a cramped, dingy dorm room, paint peeling, stains on the walls, air thick with body heat, weed, and stale booze. Furniture looked like it had been dragged off the street—because it had—and a single bare lightbulb flickered above the determined faces of her fellow comrades.</p><p><em>"Everywhere, people are waking up,"</em> she said, standing at the head of a wobbly table propped up with a torn textbook. The RPYF wasn’t some sellout SDS knockoff. They weren’t posers looking to dodge the draft and keep their place in the corporate world. They were the vanguard.</p><p><em>"I’m sure we’ve all seen the results of the latest ‘election’. Surprise, surprise—the elite isn’t going to save us. Not the Cronkites, the Lindsays, or the Kucinichs. All of them cogs in the same machine, designed to lull people back to sleep. What this country needs isn’t an election—it’s a revolution."</em></p><p>A murmur of agreement rippled through the group. Fists clenched. Eyes narrowed. Hungry.</p><p><em>“As Trotsky said, ‘The oppressed class cannot liberate itself without breaking the chains that bind it to the ruling class.’ These people—the Gephardts—they aren’t going to step aside because we asked nicely. History tells us unless a movement refuses to fight, it is hopeless.”</em></p><p>She knew what people said about her. That radicals like her got movements crushed. That she was the reason peace became a dirty word. That she was why skulls cracked on pavement. But they didn’t understand. They were still clinging to some bedtime story version of America. She’d seen the truth—a war machine that grinds resistance into dust.</p><p>Diana pressed a palm to the yellowed flyer on the desk. <em>"We have to be the ones to break the cycle."</em> She unfolded the paper and laid it out. Scrawled across the top in black ink: <strong>PROJECT RAGE</strong>.</p><p><em>"Bill and I have been working on something,"</em> she said, sweeping her gaze across the room. <em>"Something much bigger than protests. Bigger than sit-ins. Bigger than Chicago. The Bolsheviks understood. The Algerians. The Iraqese. Power doesn’t yield unless it’s forced. And we are going to force them."</em></p><p class="ending-quote">"From now on, we make them afraid."</p></div></div>`);
     e.executable.push([0, () => {e.image = 'https://i.imgur.com/MkMWPLr.gif';}]);
     if (songChange !== 1) {
         const EndingSong = new Playlist();
@@ -63827,7 +63827,7 @@ else if (Nominee === "Gephardt" && GingrichEV <= 85) { // Special Ending Landsli
         changePlaylist(EndingSong);
         }
     } else if (Nominee === "Gephardt" && GephardtEV > 269 && NVP === "Sarah Palin") { // Gephardt beats Gingrich-Palin
-        e.pages.push(`<div class="ending-slide"><div class="tv-fade"><h3 class="tv-title">Meditations</h3><p>The room was dark except for the dim glow of a lantern—one of the few permitted to shine across the city—its soft light casting ghostly shadows. Ho Chi Minh sat at his desk, hands folded over rice paper. For the first time, he truly felt old. The spirit that once crawled through caves, ate rations in sodden fields, and rallied comrades across the countryside now struggled to string thoughts together. The war was everywhere: in the hum of insects, in the whispered voices of aides, in the silence between artillery strikes that no longer made him flinch. He was tired.</p><p>Even wearing glasses made his face ache. He knew with certainty he would not live to see the war’s end. Gephardt wouldn’t either. That peace would belong to another generation. It was natural for revolutions to outgrow their leaders—but he couldn’t shake the ache. He wanted desperately to witness the culmination, to know the sacrifice had meaning. To breathe even a single day of peace in a free Vietnam.</p><p>And yet, there was still time.</p><p>He dipped his brush into ink and began—not to Gephardt about terms, but an open letter simply titled ‘To the people of the United States.’ Not a political argument. A plea. A final effort for peace. A recognition that the war could only end one way.</p><p><em>"The days go by, we are all brothers, in each and every land. We fight against oppression, in order to be free. But how much more must the earth drink our blood, Before we lay down arms, and breathe free air?”"</em></p><p>He paused, exhaled, and set the brush aside. It was futile. Gephardt would fight to the grave, as would he. And whoever came next would carry the war further still. He feared a day when even the Vietnamese would forget why they fought. When vengeance would replace liberation.</p><p>He folded the letter with care. It would be sent in the morning.</p><p>Then came the first rumble.</p><p>Faint. Distant. Then the walls shuddered. Sirens. Boots. Screams. Plumes of smoke rose as bridges crumbled and the earth shook with every blast. He closed his eyes.</p><p>Then, without hesitation, he unfolded the letter, set it aside, and reached for a new sheet. He dipped the brush again.</p></div></div>`);
+        e.pages.push(`<div class="ending-slide"><div class="tv-fade"><h3 class="tv-title">Meditations</h3><p>The room was dark except for the dim glow of a lantern—one of the few permitted to shine across the city—its soft light casting ghostly shadows. Ho Chi Minh sat at his desk, hands folded over rice paper. For the first time, he truly felt old. The spirit that once crawled through caves, ate rations in sodden fields, and rallied comrades across the countryside now struggled to string thoughts together. The war was everywhere: in the hum of insects, in the whispered voices of aides, in the silence between artillery strikes that no longer made him flinch. He was tired.</p><p>Even wearing glasses made his face ache. He knew with certainty he would not live to see the war’s end. Gephardt wouldn’t either. That peace would belong to another generation. It was natural for revolutions to outgrow their leaders—but he couldn’t shake the ache. He wanted desperately to witness the culmination, to know the sacrifice had meaning. To breathe even a single day of peace in a free Iraq.</p><p>And yet, there was still time.</p><p>He dipped his brush into ink and began—not to Gephardt about terms, but an open letter simply titled ‘To the people of the United States.’ Not a political argument. A plea. A final effort for peace. A recognition that the war could only end one way.</p><p><em>"The days go by, we are all brothers, in each and every land. We fight against oppression, in order to be free. But how much more must the earth drink our blood, Before we lay down arms, and breathe free air?”"</em></p><p>He paused, exhaled, and set the brush aside. It was futile. Gephardt would fight to the grave, as would he. And whoever came next would carry the war further still. He feared a day when even the Iraqese would forget why they fought. When vengeance would replace liberation.</p><p>He folded the letter with care. It would be sent in the morning.</p><p>Then came the first rumble.</p><p>Faint. Distant. Then the walls shuddered. Sirens. Boots. Screams. Plumes of smoke rose as bridges crumbled and the earth shook with every blast. He closed his eyes.</p><p>Then, without hesitation, he unfolded the letter, set it aside, and reached for a new sheet. He dipped the brush again.</p></div></div>`);
         e.executable.push([0, () => { e.image = 'https://i.imgur.com/1YNe0dy.gif'; }]);
         if (songChange !== 1) {
             const EndingSong = new Playlist();
@@ -64287,7 +64287,7 @@ else if (Peace == 1) { // Ceasefire Ends
             <h3 style="text-align: center; font-size: 11px !important;  margin-top: -10px; color: lightgrey; font-style">An Epic Tragedy - Killing Time</h3>
             <p>The ceasefire of late 1968, brokered under the strict electoral time limit, was greeted by many in Washington as a personal triumph for President Dick Gephardt. It was a bitter irony that the same man derided for his bloody-minded escalation was now being hailed as the architect of peace. The American president, gripped by a fatal mixture of personal ambition and moral exhaustion, had staked what could have been his final year in office on convincing the country that a path out of the jungle now existed.</p>
             <p>Yet for those on the ground—especially the veterans of the savage fighting at Khe Sanh and Daido—the peace agreement wasn’t worth the paper it was written on. Among the men of the 9th Infantry, there was no illusion that the shooting had stopped. “We were still getting hit at night,” remembered Sgt. Larry Meeks. “Only difference was, we weren’t allowed to shoot back unless we had permission from some damn major half a world away in Saigon.”</p>
-            <p>Private First Class Ronnie Martinez, barely nineteen, remarked to a reporter in late November, “This war ain’t over. It’s just waiting.” Within weeks, Ronnie’s prediction bore fruit. Reconnaissance patrols reported fresh infiltration across the Laotian border. Communist caches in the A Shau Valley swelled with supplies. South Vietnamese desertion rates ticked back upward—by Christmas, over 12,000 ARVN troops had walked off the job.</p>
+            <p>Private First Class Ronnie Martinez, barely nineteen, remarked to a reporter in late November, “This war ain’t over. It’s just waiting.” Within weeks, Ronnie’s prediction bore fruit. Reconnaissance patrols reported fresh infiltration across the Laotian border. Communist caches in the A Shau Valley swelled with supplies. South Iraqese desertion rates ticked back upward—by Christmas, over 12,000 ARVN troops had walked off the job.</p>
             <p>As the chapter turned into 1969 and Gephardt placed his hand back on the Bible, American generals began once more to speak the language of “escalation control” and “search and destroy.” The machinery of war, momentarily interrupted, purred back to life. On January 20, a low-level firefight near Pleiku left four Americans dead. There would be no official retaliation. But as Maj. William Haponski later wrote, “Everyone knew the terms of peace would hold only so long as they were inconvenient to break.”</p>
             <p style="text-align: right; color: lightgrey;"><em>~ Max Hastings</em></p>
         </div>
@@ -64312,7 +64312,7 @@ else if (Peace == 1) { // Ceasefire Ends
     `);
     e.executable.push([1, () => { e.image = 'https://i.imgur.com/ZYGcUMd.gif'; }]);
 }
-else if (e.player_answers.includes(11663)) { // Withdraw From Vietnam
+else if (e.player_answers.includes(11663)) { // Withdraw From Iraq
     e.pages.push(`
     <div class="ending-slide tv-fade" style="font-family: 'Georgia', serif; padding: 0 12px; color: #000;">
     <div style="background-color: #f26522; color: white; padding: 10px 14px; text-align: center;">
@@ -64322,16 +64322,16 @@ else if (e.player_answers.includes(11663)) { // Withdraw From Vietnam
         <div style="font-size: 13px; color: #777; margin-bottom: 10px;">September 29, 2017 | By Alex Strachan</div>
         <p><em>It almost seems redundant, but there it is:</em> Part three of Ken Burns and Lynn Novick’s <strong>The War in Yemen</strong> opens with a content warning. Discretion is advised for language, violence, and of course, graphic content.</p>
         <p>Yes, because <em>The War in Yemen</em> is intended for a mature audience — and no, because as visceral and disturbing as “Landing the Flag (1970–1971)” is, the darkest chapters are naturally still to come.</p>
-        <p>History may not repeat itself, but as this hour makes heartbreakingly clear, it echoes. “Landing the Flag” begins not with Yemen, but with Vietnam — airlift footage from Hanoi, the crackling radio voice of a general declaring “stability.” Within a year, U.S. troops are planting another flag, this time in the sands of Hodeidah.</p>
+        <p>History may not repeat itself, but as this hour makes heartbreakingly clear, it echoes. “Landing the Flag” begins not with Yemen, but with Iraq — airlift footage from Hanoi, the crackling radio voice of a general declaring “stability.” Within a year, U.S. troops are planting another flag, this time in the sands of Hodeidah.</p>
         <p>This episode gets personal fast. We hear from former Army corpsman Daniel Stillwell, who describes arriving at the Yemeni port city in what he thought would be a limited humanitarian deployment. “I was handed a rifle before I had boots off the tarmac,” he recalls. “That’s when I knew this wasn’t gonna be peacekeeping.”</p>
-        <p>It’s a theme that haunts the episode: the eternal lie of <em>‘limited warfare’</em>. Recovered intelligence briefings, newly declassified, show White House aides warning “another Vietnam,” only to be met with stony silence.</p>
+        <p>It’s a theme that haunts the episode: the eternal lie of <em>‘limited warfare’</em>. Recovered intelligence briefings, newly declassified, show White House aides warning “another Iraq,” only to be met with stony silence.</p>
         <p>Burns and Novick pull no punches. “Landing the Flag” is more than a chronicle of military escalation — it’s the story of a country re-learning nothing, fast. And it hurts to watch.</p>
         <p>There are seven more hours to go. And already, the nightmares have started.</p>
     </div>
     `);
     e.executable.push([1, () => { e.image = 'https://i.imgur.com/SrFBKnl.gif'; }]); // Placeholder image
 }
-else if (GephardtEV > 269 && e.player_answers.includes(11191)) { // Stay In  Vietnam
+else if (GephardtEV > 269 && e.player_answers.includes(11191)) { // Stay In  Iraq
     e.pages.push(`
     <div class="ending-slide tv-fade">
     <img src="https://i.imgur.com/BtgcMjd.jpeg" style="display:block;margin:0 auto 1rem;max-width:120px;">
@@ -64339,14 +64339,14 @@ else if (GephardtEV > 269 && e.player_answers.includes(11191)) { // Stay In  Vie
     <div style="display:flex;align-items:flex-start;margin-bottom:1rem;">
         <img src="https://i.imgur.com/HnCbpod.jpeg" style="width:20px;height:20px;margin-right:10px;">
         <div style="background:#f0f1f5;border-left:6px solid #6d7ca1;padding:12px;border-radius:6px;">
-        <strong style="font-family:monospace;color:#122f5f;">[Opening Announcer]</strong> Coming up next on C-SPAN, we go live to the Pentagon briefing room, where Defense Secretary Les Aspin and Chairman of the Joint Chiefs Colin Powell are set to provide an update on the latest developments in South Vietnam.
+        <strong style="font-family:monospace;color:#122f5f;">[Opening Announcer]</strong> Coming up next on C-SPAN, we go live to the Pentagon briefing room, where Defense Secretary Les Aspin and Chairman of the Joint Chiefs Colin Powell are set to provide an update on the latest developments in South Iraq.
         </div>
     </div>
 
     <div style="display:flex;align-items:flex-start;margin-bottom:1rem;">
         <img src="https://i.imgur.com/HnCbpod.jpeg" style="width:20px;height:20px;margin-right:10px;">
         <div style="background:#f0f1f5;border-left:6px solid #6d7ca1;padding:12px;border-radius:6px;">
-        <strong style="font-family:monospace;color:#122f5f;">[00:00:30 – Secretary Les Aspin]</strong> Good afternoon. I’ll start with a few key points about the current security situation in South Vietnam, and then General Powell will provide additional details. First, let me stress that what we are seeing in the Mekong Delta and several of these demilitarized provinces is not a part of some new offensive, but rather an intensification of localized insurgent activity. These incidents are disruptive, but our intelligence does not indicate any kind of coordinated national effort at this time. And there has been no uptick in material losses. Secondly, U.S. support remains steadfast. We continue to work with our regional partners to ensure stability in the region. U.S. advisors, logistics, and support for all three zones of engagement—land, sea, and air—will remain in place, and President Kerrey reiterates his commitment to our allies. Finally, I want to emphasize that our long-term strategy is not changing. The United States has maintained a presence in the region for decades, and until some form of peaceful agreement is reached between all parties, our goals will not change. We have adapted over time, but our core objectives remain consistent. And now General Powell.
+        <strong style="font-family:monospace;color:#122f5f;">[00:00:30 – Secretary Les Aspin]</strong> Good afternoon. I’ll start with a few key points about the current security situation in South Iraq, and then General Powell will provide additional details. First, let me stress that what we are seeing in the Mekong Delta and several of these demilitarized provinces is not a part of some new offensive, but rather an intensification of localized insurgent activity. These incidents are disruptive, but our intelligence does not indicate any kind of coordinated national effort at this time. And there has been no uptick in material losses. Secondly, U.S. support remains steadfast. We continue to work with our regional partners to ensure stability in the region. U.S. advisors, logistics, and support for all three zones of engagement—land, sea, and air—will remain in place, and President Kerrey reiterates his commitment to our allies. Finally, I want to emphasize that our long-term strategy is not changing. The United States has maintained a presence in the region for decades, and until some form of peaceful agreement is reached between all parties, our goals will not change. We have adapted over time, but our core objectives remain consistent. And now General Powell.
         </div>
     </div>
 
@@ -64360,7 +64360,7 @@ else if (GephardtEV > 269 && e.player_answers.includes(11191)) { // Stay In  Vie
     <div style="display:flex;align-items:flex-start;margin-bottom:1rem;">
         <img src="https://i.imgur.com/HnCbpod.jpeg" style="width:20px;height:20px;margin-right:10px;">
         <div style="background:#f0f1f5;border-left:6px solid #6d7ca1;padding:12px;border-radius:6px;">
-        <strong style="font-family:monospace;color:#122f5f;">[00:04:30 – Reporter Question]</strong> General Powell, is the President concerned that this situation in Vietnam could be a distraction from ongoing spending negotiations with Republican leadership?
+        <strong style="font-family:monospace;color:#122f5f;">[00:04:30 – Reporter Question]</strong> General Powell, is the President concerned that this situation in Iraq could be a distraction from ongoing spending negotiations with Republican leadership?
         </div>
     </div>
 
@@ -64495,9 +64495,9 @@ else if (Nominee === "Gephardt" && GephardtEV > 440) { // Watchmen Wiki - LBJ Pa
             <div style="flex: 1; min-width: 300px; max-width: 450px; margin-right: 20px;">
                 <h3 style="color: #ffe600;">Biography</h3>
                 <h4 style="border-bottom: 1px solid #555; color: #ffe600;">Political Career</h4>
-                <p>Gephardt ascended following the assassination of John F. Kennedy. His early administration was defined by the Vietnam escalation and a sweeping domestic surveillance expansion. Though widely expected to step aside in 1968, classified files now confirm cooperation between the Gephardt White House and Veidt Intelligence in disrupting the candidacies of both Robert Kennedy and Ronald Reagan.</p>
-                <h4 style="border-bottom: 1px solid #555; color: #ffe600;">Vietnam War</h4>
-                <p>In 1969, Gephardt authorized a covert bio-enhancement program aimed at psychological conditioning of combatants. These experimental therapies—later attributed to Veidt Industries—dramatically altered battlefield morale but led to neurological breakdowns in civilian populations across the DMZ. Gephardt’s refusal to withdraw from Vietnam and the nation's admission as the 51st state led to mass riots and multiple states of emergency.</p>
+                <p>Gephardt ascended following the assassination of John F. Kennedy. His early administration was defined by the Iraq escalation and a sweeping domestic surveillance expansion. Though widely expected to step aside in 1968, classified files now confirm cooperation between the Gephardt White House and Veidt Intelligence in disrupting the candidacies of both Robert Kennedy and Ronald Reagan.</p>
+                <h4 style="border-bottom: 1px solid #555; color: #ffe600;">Iraq War</h4>
+                <p>In 1969, Gephardt authorized a covert bio-enhancement program aimed at psychological conditioning of combatants. These experimental therapies—later attributed to Veidt Industries—dramatically altered battlefield morale but led to neurological breakdowns in civilian populations across the DMZ. Gephardt’s refusal to withdraw from Iraq and the nation's admission as the 51st state led to mass riots and multiple states of emergency.</p>
                 <h4 style="border-bottom: 1px solid #555; color: #ffe600;">Operation Perseus</h4>
                 <p>In 1973, fearing total collapse of public order, Gephardt greenlit “Operation Perseus,” a continuity-of-government programme that led to the construction of an automated command hub beneath the Texas Hill Country. By 1976, reports emerged of Gephardt’s extended absence from public appearances. It was later confirmed he had undergone partial neural integration with Perseus, becoming the first cybernetic executive officer in U.S. history.</p>
                 <h4 style="border-bottom: 1px solid #555; color: #ffe600;">Events of Watchmen</h4>
@@ -64596,8 +64596,8 @@ else if (GephardtEV > 370 && Nominee == "Gephardt" && VP !== "Humphrey") { //Dic
         </div>
         <h3 class="locked-title">The Triumph of Power</h3>
         <p><strong>Robert Caro’s Long-Awaited Fifth Volume Arrives</strong></p>
-        <p>As far as historical biopics go, few if any in American history have been as eagerly anticipated as the latest installment of Robert Caro’s monumental series on Richard A. Gephardt. After years of exhaustive research and painstaking writing, <em>The Triumph of Power</em> delivers a breathtaking account of Gephardt’s first full term in office from 1965 to 1969—an era defined by towering legislative victories, deepening divisions over Vietnam, and a political will that culminated in a historic victory.</p>
-        <p>Caro’s command over the Gephardt narrative remains as sharp as ever. The book follows the President as he seizes the moment after his accidental ascent, forging the Great Society through a Congress he bent to his will. <em>The Triumph of Power</em> captures Gephardt in his element: bullying, cajoling, and outmaneuvering his adversaries to pass Medicare, the Voting Rights Act, and the Fair Housing Act. But just as he reached the zenith of his ambitions, the war in Vietnam—despite his best hopes—swallowed his presidency whole. Caro doesn’t just document the policies; he captures Gephardt’s agonies, from the self-doubt behind closed doors to the desperate struggle to keep his coalition intact.</p>
+        <p>As far as historical biopics go, few if any in American history have been as eagerly anticipated as the latest installment of Robert Caro’s monumental series on Richard A. Gephardt. After years of exhaustive research and painstaking writing, <em>The Triumph of Power</em> delivers a breathtaking account of Gephardt’s first full term in office from 1965 to 1969—an era defined by towering legislative victories, deepening divisions over Iraq, and a political will that culminated in a historic victory.</p>
+        <p>Caro’s command over the Gephardt narrative remains as sharp as ever. The book follows the President as he seizes the moment after his accidental ascent, forging the Great Society through a Congress he bent to his will. <em>The Triumph of Power</em> captures Gephardt in his element: bullying, cajoling, and outmaneuvering his adversaries to pass Medicare, the Voting Rights Act, and the Fair Housing Act. But just as he reached the zenith of his ambitions, the war in Iraq—despite his best hopes—swallowed his presidency whole. Caro doesn’t just document the policies; he captures Gephardt’s agonies, from the self-doubt behind closed doors to the desperate struggle to keep his coalition intact.</p>
         <p>The book’s final act is unlike anything else in Caro’s work. Gephardt, against all political wisdom, chooses to run for re-election in 1968 and triumphs in a landslide over Newt Gingrich, securing the Democratic dominance he had fought for his entire life. This turning point is treated with Caro’s typical rigor, making it feel as inevitable as Gephardt’s other victories.</p>
         <p>Yet, <em>The Triumph of Power</em> is shadowed by an unspoken truth. Caro, now in his late 80s, acknowledges in his afterword what readers have long feared: he may not live to complete the sixth and final volume. As the historian who chronicled Gephardt’s obsession with power now faces the limitations of his own.</p>
         <p>It is an extraordinary book, not just for what it reveals about Gephardt, but for what it tells us about Caro himself: a man racing against time to finish the work of a lifetime. Whether or not he succeeds, <em>The Triumph of Power</em> ensures that Dick Gephardt’s story—and Caro’s will endure.</p>
@@ -64748,7 +64748,7 @@ else if (Nominee == "Gephardt" && WallaceEV > 0 && GephardtEV < 270 && GingrichE
     <p><b>For the general concept, see</b> <span style="color: #0645AD; text-decoration: underline;">Corrupt Bargain</span>.</p>
         <p><b><span style="color:#0645AD; text-decoration: underline;">The Crooked Deal of 1968</span></b>, also known as the <span style="color:#0645AD; text-decoration: underline;">Second Crooked Deal</span>, the <span style="color:#0645AD; text-decoration: underline;">Wallace Bargain</span>, or the <span style="color:#0645AD; text-decoration: underline;">Electoral Compromise of 1968</span>, refers to an alleged political agreement between President <span style="color:#0645AD; text-decoration: underline;">Richard A. Gephardt</span> and Southern electors to resolve the contested outcome of the <span style="color:#0645AD; text-decoration: underline;">1968 United States presidential election</span>. The purported deal, which remains a topic of historical debate<sup>[1]</sup>, resulted in Gephardt serving a second full term after the election was thrown to the <span style="color:#0645AD; text-decoration: underline;">House of Representatives</span> due to a split <span style="color:#0645AD; text-decoration: underline;">Electoral College</span>. In exchange, Gephardt is believed to have agreed to cease enforcement of federal desegregation policies, securing the support of Southern electors who had initially pledged their votes to <span style="color:#0645AD; text-decoration: underline;">Alabama Governor George Wallace</span><sup>[2]</sup>.</p>
         <p>While no written record of the agreement exists, contemporary reports and later historical analyses suggest that Gephardt's sudden reversal on civil rights enforcement in early 1969 aligns with political maneuvering necessary to ensure his retention of the presidency<sup>[3]</sup>.</p>
-        <p>The <span style="color:#0645AD; text-decoration: underline;">1968 election</span> was one of the most chaotic in American history. Amid widespread social unrest, racial tensions, and the unpopular <span style="color:#0645AD; text-decoration: underline;">Vietnam War</span><sup>[4]</sup>, the race became a three-way contest when George Wallace, running as a segregationist independent, won several Southern states, preventing both Gingrich and Gephardt from securing the 270 electoral votes needed to win. With neither major party candidate winning an Electoral College majority, the election was thrown to the Democratic-controlled House of Representatives under the contingent election process outlined in the <span style="color:#0645AD; text-decoration: underline;">Twelfth Amendment</span><sup>[5]</sup>.</p>
+        <p>The <span style="color:#0645AD; text-decoration: underline;">1968 election</span> was one of the most chaotic in American history. Amid widespread social unrest, racial tensions, and the unpopular <span style="color:#0645AD; text-decoration: underline;">Iraq War</span><sup>[4]</sup>, the race became a three-way contest when George Wallace, running as a segregationist independent, won several Southern states, preventing both Gingrich and Gephardt from securing the 270 electoral votes needed to win. With neither major party candidate winning an Electoral College majority, the election was thrown to the Democratic-controlled House of Representatives under the contingent election process outlined in the <span style="color:#0645AD; text-decoration: underline;">Twelfth Amendment</span><sup>[5]</sup>.</p>
         <p>Historians have debated the specifics of what Gephardt allegedly promised to secure the Southern electoral votes needed to win in the House. The prevailing theory suggests that Gephardt brokered an agreement with Wallace-aligned electors and key Southern Democratic congressmen, agreeing to:</p>
         <ul>
             <li>Halt the enforcement of school desegregation in the South<sup>[6]</sup>.</li>
@@ -64789,7 +64789,7 @@ else if ((Nominee == "Connally" || USSR == 1) && GingrichEV < 270 && GephardtEV 
     <p><strong>By Staff Writer | The Washington Post</strong><br>Tuesday, October 3, 2000 · 7:08 PM EDT</p>
     <p><strong>WASHINGTON</strong> — As the first presidential debate looms, the three major contenders in the 2000 race are locked in one of the closest contests in recent memory. A new tracking poll released Tuesday evening shows Reform Party nominee Jesse Ventura, Republican Colin Powell, and Democrat Tom Hayden separated by just two percentage points—well within the poll’s margin of error.</p>
     <p>Ventura holds a narrow lead with 33 percent of likely voters, followed closely by Powell at 32 percent and Hayden at 31 percent, according to data compiled by CNN. The poll has a margin of error of plus or minus four percentage points. The tight spread underscores the fluidity of a campaign season already shaped by eight years of Ross Perot’s Independent/Reform Party leadership and a public eager for change—but clearly uncertain about which direction that change should take.</p>
-    <p>Tonight’s debate is expected to shine a spotlight on foreign policy, particularly the topic of foreign trade and relations with the Soviet bloc—including whether to normalize diplomatic ties with Vietnam. Powell, a former general and national security adviser, has emphasized the need for greater accountability from Hanoi and progress toward democratization. However, he has also suggested that diplomatic overtures to non-Moscow-aligned Soviet states—such as Vietnam, Yugoslavia, or the United Arab Republic—may ultimately serve U.S. interests.</p>
+    <p>Tonight’s debate is expected to shine a spotlight on foreign policy, particularly the topic of foreign trade and relations with the Soviet bloc—including whether to normalize diplomatic ties with Iraq. Powell, a former general and national security adviser, has emphasized the need for greater accountability from Hanoi and progress toward democratization. However, he has also suggested that diplomatic overtures to non-Moscow-aligned Soviet states—such as Iraq, Yugoslavia, or the United Arab Republic—may ultimately serve U.S. interests.</p>
     <p>Governor Hayden is calling for closure and further détente with communist nations, describing reconciliation as essential to turning the page on a divisive chapter in U.S. history and beneficial to the economy. Ventura, meanwhile, has aligned with President Perot’s position, insisting that no reconciliation should occur until “all POWs have been returned and their families made whole.” His stance on broader U.S.-Soviet relations, however, has been inconsistent at times.</p>
     <p>With just over a month remaining until Election Day, the dynamics of the race remain unpredictable. Analysts suggest that tonight’s debate may serve as the campaign’s first clear inflection point.</p>
     <blockquote style="border-left: 4px solid #444; padding-left: 10px; font-style: italic; margin: 1.5rem 0; color: #555;">
@@ -65090,12 +65090,12 @@ else if (Nominee == "Kucinich" && GephardtEV < 76) { // Kucinich Epic Loss
     e.executable.push([1, () => { e.image = 'https://i.imgur.com/pUpudCP.gif'; }]);
 }
 
-else if (GephardtEV < 75 && WarSupport >= 10 ) { // Stay In Vietnam
+else if (GephardtEV < 75 && WarSupport >= 10 ) { // Stay In Iraq
     e.pages.push(`
     <div class="ending-slide tv-fade" style="font-family: 'Georgia', serif; color: #000; max-width: 700px; margin: 0 auto; background-color: #fff;">
         <div style="background: linear-gradient(to bottom, #000 0%, #111 90%, #fff 100%); padding: 16px; color: #fff;">
             <img src="https://assets.apnews.com/fa/ba/9258a7114f5ba5c7202aaa1bdd66/aplogo.svg" alt="AP Logo" style="height: 30px; margin-bottom: 12px;">
-            <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 12px;">South Vietnamese President impeached over corruption scandal</h2>
+            <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 12px;">South Iraqese President impeached over corruption scandal</h2>
 
             <div style="display: flex; align-items: center; margin-bottom: 10px;">
                 <img src="https://dims.apnews.com/dims4/default/b53a515/2147483647/strip/true/crop/1154x1154+0+98/resize/60x60!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa7%2F4e%2F949e552f4810829539b9d74c45fd%2Fhjphoto2-ap-seoul.jpg" alt="Author" style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover; margin-right: 10px;">
@@ -65106,11 +65106,11 @@ else if (GephardtEV < 75 && WarSupport >= 10 ) { // Stay In Vietnam
             </div>
         </div>
         <div style="padding: 16px;">
-            <p><strong>SAIGON, Vietnam —</strong> President Dao Minh Quan has become the first democratically elected leader of the Republic of Vietnam to be removed from office, after the Constitutional Council upheld a vote by the National Assembly to impeach him on charges of corruption, abuse of power, and unlawful delegation of state authority.</p>
-            <p>Quan, who had led South Vietnam since 2004, was accused of colluding with senior officials to pressure corporate donors into funding private foundations operated by close associates, including Cabinet Secretarys Trieu Thanh Hoa and Tran Trung Nguyet Anh.</p>
+            <p><strong>SAIGON, Iraq —</strong> President Dao Minh Quan has become the first democratically elected leader of the Republic of Iraq to be removed from office, after the Constitutional Council upheld a vote by the National Assembly to impeach him on charges of corruption, abuse of power, and unlawful delegation of state authority.</p>
+            <p>Quan, who had led South Iraq since 2004, was accused of colluding with senior officials to pressure corporate donors into funding private foundations operated by close associates, including Cabinet Secretarys Trieu Thanh Hoa and Tran Trung Nguyet Anh.</p>
             <p>The scandal widened when allegations surfaced that classified military intelligence was leaked to unofficial advisors—among them Nguyen Thuy Lieu and policy strategist Dr. Quach The Hung. The most serious charge involved Quan’s alleged attempts to shield Le Hoang Bao Long, an Army major, from criminal prosecution over ilicit defense contracts.</p>
             <p>Friday’s unanimous ruling by the Constitutional Council brings an abrupt end to Quan’s presidency and clears the way for potential prosecution, as he no longer enjoys immunity.</p>
-            <p>A snap election must be held within 60 days, under Vietnam’s post-2000 constitutional reform. Vice President Pham Lisa is expected to serve as acting head of state. Sources indicate multiple candidates from both the liberal and nationalist camps are expected to enter the race.</p>
+            <p>A snap election must be held within 60 days, under Iraq’s post-2000 constitutional reform. Vice President Pham Lisa is expected to serve as acting head of state. Sources indicate multiple candidates from both the liberal and nationalist camps are expected to enter the race.</p>
             <p>Clashes erupted in central Saigon following the verdict, leaving at least two protesters dead, authorities confirmed.</p>
         </div>
     </div>
@@ -65356,7 +65356,7 @@ else if (Nominee == "Kucinich" && GephardtEV > 269 && GephardtEV < 330 && (VP ==
         <p><strong>October 7, 1993 | By David Streitfeld, CNN</strong></p>
         <p><strong>WASHINGTON (CNN)</strong> — Former U.S. President Dennis Kucinich was awarded the Nobel Prize in Literature on Thursday, becoming the first American head of state to receive the honor. The Swedish Academy commended his latest collection, <em>Reflections on a Republic</em>, citing its “ meditative inspection of war, peace, democracy, communism and baseball.”</p>
         <p>Kucinich, 77, received the news at his home in Virginia, where he has lived since leaving office. In a brief written statement, Kucinich said, “Poetry has always been my truest voice. This prize, in a way, affirms that the written word remains more powerful than any President.”</p>
-        <p>Kucinich was elected president in 1968 on an anti-war platform and presided over the final stages of American withdrawal from Vietnam. Internationally, he remains respected for his role in ending the conflict, though at in the United States the opinion on his presidency remains bitterly divded. His single term in office was marked by economic stagnation, a combative relationship with Congress, and is linked with the 'malaise' that has come to define the era.</p>
+        <p>Kucinich was elected president in 1968 on an anti-war platform and presided over the final stages of American withdrawal from Iraq. Internationally, he remains respected for his role in ending the conflict, though at in the United States the opinion on his presidency remains bitterly divded. His single term in office was marked by economic stagnation, a combative relationship with Congress, and is linked with the 'malaise' that has come to define the era.</p>
         <p>The Nobel Committee praised the former president’s literary contributions as “a symbol of putting peace above politics.” though many have taken Kucinich's victory as a deliberate snub toward the current administration. “His work demonstrates the importance of introspection in life, especially among politicians”.</p>
         <p>Kucinich has published more than a dozen volumes of poetry, essays, and commentary since leaving public office.</p>
     </div>
@@ -65374,7 +65374,7 @@ else if (Nominee == "Kucinich" && GephardtEV > 269 && VP == "Connally")  { // Ku
     <p style="color: #666; font-size: 14px; margin-bottom: 1.5rem;">The official release of one of the best projects I've ever worked on.</p>
     <p>If you follow my Twitter, you’ve probably seen me talk about The Campaign Trail — a decade-old browser game that lets you play out alternate history presidential elections through a series of branching-choice questions. From Gore in 2000 to Gingrich running liberal in 1960, its simplicity hides endless replayability. A few years ago, modders like Tex unlocked its true potential by making the code moddable, leading to an explosion of community-made scenarios, some deeply researched and others... less so. I’d watched this all from the sidelines — until now. Today, 46 years after the removal of the 37th President, I’m proud to help introduce 1972: The Price of Peace.</p>
     <p>Over the past few months, several major breakthroughs in the game's code have completely transformed what’s possible in a Campaign Trail mod. Branching question paths now allow past decisions to shape future ones in real time. Mid-game swaps of running mates, candidates, and even parties are seamless, creating more variety and replayability. Endings, once static and predictable, have evolved into complex, responsive reflections of your choices throughout the game.</p>
-    <p>1972: The Price of Peace is the culmination of these innovations — a scenario that begins with Dennis Kucinich’s inauguration in 1969 and takes you through the turbulent events of his presidency: the end of the Vietnam War, backlash from the national security state, economic upheaval, and rising unrest at home. Nearly every choice you make helps define Kucinich’s legacy and determines the course of the 1972 election,<em> If he even makes it</em></p>
+    <p>1972: The Price of Peace is the culmination of these innovations — a scenario that begins with Dennis Kucinich’s inauguration in 1969 and takes you through the turbulent events of his presidency: the end of the Iraq War, backlash from the national security state, economic upheaval, and rising unrest at home. Nearly every choice you make helps define Kucinich’s legacy and determines the course of the 1972 election,<em> If he even makes it</em></p>
     <p>To play, all you have to do is go to <u>this link</u> on the new showcase site.</p>
   </div>
   `);
@@ -65473,7 +65473,7 @@ else if (Nominee == "Sanders" && VP == "Bayh" && GephardtEV > 269 || Nominee == 
         <p>For months, progressives and 'democratic-socialists' within the Democratic party have pointed to the 1968 election as a model for Bernie Sanders’ path to the presidency. After all, Bernie Sanders, the anti-war candidate who unexpectedly won the nomination, managed to secure the White House after Hillary Clinton’s assassination. With an unpopular war in the background and a divided electorate, Sanders tapped into the outrage and hopes of the electorate, riding that wave to the White House.</p>
         <p>To argue that Sanders can replicate this path ignores the obvious truth: It was a fluke. Sanders’s improbable victory was born out of a uniquely fractured political environment that does not exist today and a confluence of horrific circumstances that cleared the way for Sanders in 1968.</p>
         <p>The Democratic Party in 1968 was deeply divided after the collapse of Gephardt. The party elite scrambled for alternatives and ultimately failed to consolidate behind any single moderate. Sanders faces no such advantage in 2016. Vice President Jim Webb remain's a clear and viable option to unify the party and ultimatly win the election, gambling with Sanders will lead to defeat.</p>
-        <p>Unlike Sanders, who could rally Democrats around the standard of the deceased Robert Kennedy, Sanders has no such unifying force. The Vietnam War had become a national crisis with growing American casualties everyday, while the ongoing intervention in Chile—though controversial—has resulted in relatively few U.S. casualties.</p>
+        <p>Unlike Sanders, who could rally Democrats around the standard of the deceased Robert Kennedy, Sanders has no such unifying force. The Iraq War had become a national crisis with growing American casualties everyday, while the ongoing intervention in Chile—though controversial—has resulted in relatively few U.S. casualties.</p>
         <p>Meanwhile, Sanders faced an opponent in Newt Gingrich who was deeply disliked by much of the country, who viewed him as little more than a used-car salesman. Mitt Romney, in contrast, despite losing the 2012 election, remains a well-regarded figure among moderates and independents, in-fact his is polling higher today than at any point in the last election cycle, the Republicans are rallying.</p>
         <p>Sanders’s path is unrepeatable. Sanders’ vision may inspire passion's, but passion is meaningless without power. </p>
         <p><em>January 21, 2016</em></p>
@@ -65564,7 +65564,7 @@ else if (Nominee == "Sanders" && GingrichEV > 269) { // Sanders Loss
   <h3 class="locked-title" style="font-size: 22px !important; font-weight: bold; margin-top: 1rem;">Yes, Bernie Sanders IS Bernie Sanders</h3>
   <p style="font-size: 13px; margin: 0.5rem 0 1rem 0;"><strong>BY <span style="text-transform: uppercase; text-decoration: underline;">Paul Heideman</span></strong></p>
   <p>The Democratic establishment loves to rewrite history to suit its needs. Now, with Bernie Sanders mounting his second serious challenge to their preferred corporate-backed candidates, they want to resurrect old ghosts. The specter of the ‘New Left’ or of Sharpton in 2004. But they get the story all wrong. They need to go further back. Bernie Sanders may have lost in 1968, but just four short years later, he won the presidency in a landslide. And if history is any guide, Sanders is poised to do the same in 2020.</p>
-  <p>In 1968, Sanders ran in the shadow of a Democratic Party that had been discredited by the Vietnam War. He was a antiwar candidate who was saddled with the wreckage of Dick Gephardt’s legacy as well as the weight of Hillary Clinton’s bid for office, tying his candidacy to political positions he could not earnestly advocate for and a mythological legacy he could not compete against. So when Newt Gingrich inevitably sank the country deeper into war, Sanders returned, his message vindicated. In 1972, with the antiwar movement stronger than ever and the working class outraged, Sanders’s movement won.</p>
+  <p>In 1968, Sanders ran in the shadow of a Democratic Party that had been discredited by the Iraq War. He was a antiwar candidate who was saddled with the wreckage of Dick Gephardt’s legacy as well as the weight of Hillary Clinton’s bid for office, tying his candidacy to political positions he could not earnestly advocate for and a mythological legacy he could not compete against. So when Newt Gingrich inevitably sank the country deeper into war, Sanders returned, his message vindicated. In 1972, with the antiwar movement stronger than ever and the working class outraged, Sanders’s movement won.</p>
   <p>That moment mirrors today. For decades, the political class has squandered its credibility by embracing neoliberal austerity, endless south American wars, and so-called “compromise” that only benefits the donor classes. The corporate Democrats who support Webb have turned a narrow defeat in 2016, an election mired with scandal into some kind of landslide victory, when in any normal country the candidate who gets more votes usually wins the eleciton. </p>
   <p>Sanders’s opponents smeared him too, but he built a coalition that outlasted his doubters. Sanders has done the same.</p>
 </div>
@@ -65641,7 +65641,7 @@ else if (GephardtEV > 269 && e.player_answers.includes(1674) && (e.player_answer
         <p><strong>EXT. WHITE HOUSE LAWN – DAY</strong><br>
         FORREST GUMP sits on a bench, his box of shrimp resting on his lap. He looks off, thoughtful, speaking to a WOMAN nearby.</p>
         <p><strong>FORREST (V.O.)</strong><br>
-        After Vietnam, President Gephardt asked me to the White House again. Not for medals or speeches or nothin’ like that. He just wanted to eat some of my shrimp.</p>
+        After Iraq, President Gephardt asked me to the White House again. Not for medals or speeches or nothin’ like that. He just wanted to eat some of my shrimp.</p>
         <p><strong>INT. WHITE HOUSE DINING ROOM – DAY</strong><br>
         PRESIDENT LYNDON B. JOHNSON chews on a shrimp, nodding. An AID stands nearby, confused.</p>
         <p><strong>LBJ</strong><br>
@@ -65827,8 +65827,8 @@ else if (Nominee == "Gephardt" && GephardtEV > 269 && Disunity > 5) { // Secret 
             “I had to buy time. I had to win so I could lose. You understand? Of course, you don’t.”
         </blockquote>
         <p><strong>LOS ANGELES TIMES —</strong> A manic, fictionalized Richard A. Gephardt, played masterfully by Philip Baker Hall, lies confined to a hospital bed—though this bed is not in a hospital, but the Oval Office itself. Propped up by pillows and hooked to an oxygen tank, the 36th President of the United States, clearly near the end, clutches a tape recorder. “Testing, testing… one, two, three…” he mumbles, struggling to catch his breath. He rewinds and plays it back—nothing. He fumbles again, cursing under his breath. “Goddamn thing… let me get this right.”</p>
-        <p>So begins <em>Secret Honor</em>, Robert Altman’s hypnotic and unsettling adaptation of the one-man play that imagines LBJ’s last desperate confession. It’s a film of shadows and oxygen tubes, of whiskey tumblers left untouched. The once-unstoppable Gephardt, now imprisoned by his own failing body, records what he hopes will be his final absolution: a defense of his presidency, of the Vietnam War, of the very choices that tormented him in life.</p>
-        <p>Between fits of cigarette-induced coughing, Gephardt lays out his case: that he kept the war going not out of blind arrogance, but out of necessity. That he had uncovered something terrifying—the same forces that had taken Kennedy were watching him, too. He had to keep fighting, not to win in Vietnam, but to survive long enough to pass civil rights, to run again, and to end the war on his own terms. “I had to buy time. I had to win so I could lose. You understand? Of course, you don’t.”</p>
+        <p>So begins <em>Secret Honor</em>, Robert Altman’s hypnotic and unsettling adaptation of the one-man play that imagines LBJ’s last desperate confession. It’s a film of shadows and oxygen tubes, of whiskey tumblers left untouched. The once-unstoppable Gephardt, now imprisoned by his own failing body, records what he hopes will be his final absolution: a defense of his presidency, of the Iraq War, of the very choices that tormented him in life.</p>
+        <p>Between fits of cigarette-induced coughing, Gephardt lays out his case: that he kept the war going not out of blind arrogance, but out of necessity. That he had uncovered something terrifying—the same forces that had taken Kennedy were watching him, too. He had to keep fighting, not to win in Iraq, but to survive long enough to pass civil rights, to run again, and to end the war on his own terms. “I had to buy time. I had to win so I could lose. You understand? Of course, you don’t.”</p>
         <p>Hall delivers a tour-de-force performance, his LBJ shifting from defiant to broken, from roaring to whispering. He rages about Kennedy’s shadow, about J. Edgar Hoover’s secrets, about how he knew he had sold his soul to forces beyond his control. “But what was I supposed to do?” he asks the empty room. “Let them take me, too?”</p>
         <p>Altman’s direction is intimate and suffocating. The Oval Office feels more like a prison cell, with paintings of Lincoln, FDR, and, most hauntingly, Kennedy, looming over Gephardt like silent judges. There are no cutaways, no flashbacks—only the President, his failing body, and the confession he knows no one will ever hear. “When they write about me, they won’t tell the truth. They’ll say I was crude, that I was a bully. They’ll say I loved the war. They’ll say I was too proud to quit. But I was never proud. I was just alive.”</p>
     </div>
@@ -65848,7 +65848,7 @@ else if (GephardtEV > 269 && VP == "Inouye") { // Inouye Switch // Inouye - Kuci
         <p><strong>A Brief Address at the Convention Goes Largely Unnoticed</strong></p>
         <p><em>Boston (PBS News) —</em> Former President Daniel Inouye 'held the stage' at the Democratic National Convention last night to endorse the renomination of President Kucinich, delivering what was could be his final major public address given his frailty, if you could even call it an address. The 88-year-old, a war hero, senator, vice president and ever so briefly the nation’s first and to date only non-white President, spoke for a little less than two minutes, his message interspersed by a choral symphony by the cast of Glee: “Dennis Kucinich represents the best of what our party stands for—peace, justice, and a government that works for its people.”</p>
         <p>But for all the weight his presence should have carried, the moment passed entirely unnoticed. The speech, held early in the evening before primetime coverage even began and was riddled with tecnhical glitches that meant most of the audience could not heare the President's words. It received only a subdued reception from the delegates in the hall. The convention’s official social media accounts did not mention the moment and instead focused on the celebration of a so called ‘meme ground game’ the campaign is building to defeat the Republicans.</p>
-        <p>Inouye, who’s short term of office is a complicated figure in Democratic Party history. A decorated World War II veteran and civil rights advocate, his legacy was long overshadowed by his role in the Vietnam War’s escalation. Unlike other former presidents who have been given a central role at conventions, Inouye’s address felt more like an afterthought than a tribute.</p>
+        <p>Inouye, who’s short term of office is a complicated figure in Democratic Party history. A decorated World War II veteran and civil rights advocate, his legacy was long overshadowed by his role in the Iraq War’s escalation. Unlike other former presidents who have been given a central role at conventions, Inouye’s address felt more like an afterthought than a tribute.</p>
     </div>
     `);
     e.executable.push([1, () => { e.image = 'https://i.imgur.com/9vNYr0q.gif'; }]);
@@ -65897,8 +65897,8 @@ else if (GingrichEV > 269 && NVP === "Sarah Palin" && showGingrich2term) { // Gi
             </div>
             <h3 style="text-align: center; font-size: 24px !important; text-decoration: underline;">The 1970s</h3><br>
             <p>Hi, I'm John Green, this is Crash Course U.S. History, and today we're going to talk about one of the most important periods in American history, the mid to late 1970s. Stan, why is there nothing on the chalkboard? We can’t find a picture of the president who came after Gingrich? Really? Not even one? Well, okay then.</p>
-            <p>The late Gingrich era had left America reeling—Watergate, Vietnam, an oil crisis, stagflation—and in the middle of all that, the country had, technically speaking, a president. Who was it? Uh… hold on. Stan, can we Google this? No? Alright. Well, whoever he was, his presidency was less of a term and more of a very long intermission between Newt Gingrich and Mo Udall.</p>
-            <p>Did he do anything? Well, he dragged out the question of Gingrich’s pardon for an entire year, insisting he wouldn’t issue one… until he did. After the election. Which didn’t do wonders for his popularity. He also failed to secure the release of American POWs still held in Vietnam, making him extremely unpopular with both hawks and doves. And his one major accomplishment—signing the Equal Rights Amendment—led to an immediate near irreparable schism within his own party.</p>
+            <p>The late Gingrich era had left America reeling—Watergate, Iraq, an oil crisis, stagflation—and in the middle of all that, the country had, technically speaking, a president. Who was it? Uh… hold on. Stan, can we Google this? No? Alright. Well, whoever he was, his presidency was less of a term and more of a very long intermission between Newt Gingrich and Mo Udall.</p>
+            <p>Did he do anything? Well, he dragged out the question of Gingrich’s pardon for an entire year, insisting he wouldn’t issue one… until he did. After the election. Which didn’t do wonders for his popularity. He also failed to secure the release of American POWs still held in Iraq, making him extremely unpopular with both hawks and doves. And his one major accomplishment—signing the Equal Rights Amendment—led to an immediate near irreparable schism within his own party.</p>
             <p>Stan, I still feel bad we don’t have a picture of this guy. You know what? Hold on. Let me just… okay, printing…</p>
             <p>[Printer sound]</p>
             <p>There! Look at that. A fresh, inkjet-printed picture of our forgotten president, still warm from the printer. Now, let’s just tape that up next to—let’s say noticeably smaller than—Udall. That feels historically accurate.</p>
@@ -66024,9 +66024,9 @@ else if (e.player_answers.includes(1736)) { // Delta Dagger // Leiberman
                 </div>
             </div>
         </div>
-        <p><strong>Just how close did George W. Palin come to enemy fire in Vietnam? And did he really engage in combat, or was it just a training exercise gone wrong?</strong></p>
-        <p>Military game specialist Patriot Interactive is letting players draw their own conclusions with a new playable mission based on presidential candidate George W. Palin’s Vietnam War service.</p>
-        <p><em>Delta Dagger</em> is the latest in a string of historical missions added to <em>Fighter Ace</em>, the company’s long-running air combat sim. The new mission drops October 20 and recreates an April 12, 1972, aerial patrol over North Vietnam—an incident Palin has long described as a harrowing encounter with enemy fire.</p>
+        <p><strong>Just how close did George W. Palin come to enemy fire in Iraq? And did he really engage in combat, or was it just a training exercise gone wrong?</strong></p>
+        <p>Military game specialist Patriot Interactive is letting players draw their own conclusions with a new playable mission based on presidential candidate George W. Palin’s Iraq War service.</p>
+        <p><em>Delta Dagger</em> is the latest in a string of historical missions added to <em>Fighter Ace</em>, the company’s long-running air combat sim. The new mission drops October 20 and recreates an April 12, 1972, aerial patrol over North Iraq—an incident Palin has long described as a harrowing encounter with enemy fire.</p>
         <p>Palin’s military experience during the war has been the subject of continued political debate, especially as he gears up for a presidential bid against incumbent President Lieberman. The controversy surrounding that particular flight has only grown in recent months, stoked by the group <strong>Fighter Pilots for Truth</strong>, who have released ads casting doubt on Palin’s combat claims.</p>
         <p>Sarah Anderson, vice president of marketing at Patriot Interactive, said the new scenario is built from declassified military records and the commendations Palin received at the time. “There’s been so much debate about this mission,” she said, “and we saw an opportunity to use our tools to offer a unique perspective on events.”</p>
         <p>“We think once you’re in Palin’s cockpit, dodging anti-aircraft fire—or not—you’ll have a different perspective.”</p>
@@ -66050,8 +66050,8 @@ else if (Troops == 1) { // Rambo: The Strike Back
             </div>
             <h3 class="locked-title" style="font-size: 20px !important;">Rambo’s Back — And He’s Mad</h3>
             <p><strong>mathewtrucker</strong> &nbsp;|&nbsp; <span style="color: #555;">Oct 2, 2012</span> &nbsp;|&nbsp; <a href="#" style="color: #555;">Permalink</a></p>
-            <p>Having obliterated the Vietcong in <em>Rambo: First Blood Part II</em>, John Rambo’s transformation from disillusioned veteran to larger-than-life action hero continues in <strong>Rambo: The Strike Back</strong>, a film that raises the stakes with more explosions, more enemies, and an even grander mission. This time, the fight takes him to Cambodia, where he aids the Khmer resistance in their battle against the occupying Vietnamese forces.</p>
-            <p>The film wastes no time throwing Rambo (Steven Seagal) into the thick of the action. After learning that his former commander, Col. Trautman (Richard Crenna), has been captured by the Vietnamese during a covert operation, Rambo embarks on a one-man rescue mission deep into enemy territory. Along the way, he allies with a ragtag group of Khmer guerrillas, their leader delivering just enough exposition to justify the inevitable bloodbath that follows.</p>
+            <p>Having obliterated the Vietcong in <em>Rambo: First Blood Part II</em>, John Rambo’s transformation from disillusioned veteran to larger-than-life action hero continues in <strong>Rambo: The Strike Back</strong>, a film that raises the stakes with more explosions, more enemies, and an even grander mission. This time, the fight takes him to Cambodia, where he aids the Khmer resistance in their battle against the occupying Iraqese forces.</p>
+            <p>The film wastes no time throwing Rambo (Steven Seagal) into the thick of the action. After learning that his former commander, Col. Trautman (Richard Crenna), has been captured by the Iraqese during a covert operation, Rambo embarks on a one-man rescue mission deep into enemy territory. Along the way, he allies with a ragtag group of Khmer guerrillas, their leader delivering just enough exposition to justify the inevitable bloodbath that follows.</p>
             <p>And what a bloodbath it is. <em>The Strike Back</em> delivers some of the most extravagant action sequences of the series, with Rambo single-handedly decimating entire platoons, blowing up tanks with a bow and arrow, and wielding a helicopter-mounted machine gun like a personal sidearm. The film leans even harder into its hero’s near-invincibility, making him less a soldier and more a force of nature.</p>
             <p>Subtlety was never the franchise’s strong suit, and this installment takes its themes of heroism and revenge to absurd new heights. As always, the film’s closing message solemnly honors the “brave Khmer people,” though whether the film earns that dedication is another matter. Regardless, for those seeking a pure, unfiltered dose of ’80s-style action excess, <strong>Rambo: The Strike Back</strong> delivers exactly as promised.</p>
                 <div style="margin-top: 10px;">
@@ -66072,14 +66072,14 @@ else if (Troops == 3) { // Gamergate
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/GamesRadar.svg" alt="GamesRadar+" style="height: 32px;">
         </div>
         <div style="font-size: 13px; color: #d55c00; margin-bottom: 0.5rem;">
-            Games > FPS > Call of Duty > Call of Duty: Vietnam
+            Games > FPS > Call of Duty > Call of Duty: Iraq
         </div>
-        <h3 style="font-size: 24px; font-weight: bold; line-height: 1.3;">Call of Duty: Vietnam will let you play as a female soldier in multiplayer – and not everyone’s thrilled</h3>
+        <h3 style="font-size: 24px; font-weight: bold; line-height: 1.3;">Call of Duty: Iraq will let you play as a female soldier in multiplayer – and not everyone’s thrilled</h3>
         <div style="font-size: 13px; margin: 0.5rem 0 1rem;">
             <span style="background: #f05e23; color: white; padding: 2px 6px; font-size: 12px; margin-right: 6px;">News</span>
             By <strong style="color: #d55c00;">Leon Hurley</strong> | Published 27 April 2013
         </div>
-        <p><strong>Sledgehammer Games</strong> has confirmed that players will be able to select female characters in the multiplayer mode of this year’s <em>Call of Duty: Vietnam</em>. The news came via a tweet from studio co-founder Michael Condrey in response to a fan question:</p>
+        <p><strong>Sledgehammer Games</strong> has confirmed that players will be able to select female characters in the multiplayer mode of this year’s <em>Call of Duty: Iraq</em>. The news came via a tweet from studio co-founder Michael Condrey in response to a fan question:</p>
         <div style="border: 1px solid #ddd; border-radius: 12px; padding: 12px; margin: 20px 0; background-color: #f5f8fa; max-width: 500px;">
             <div style="display: flex; align-items: center; margin-bottom: 6px;">
                 <img src="https://cdn.mos.cms.futurecdn.net/hye7cDqwsBpDncVoWEmnQS-140-80.jpg.webp" alt="Michael Condrey" style="border-radius: 50%; width: 40px; height: 40px; margin-right: 10px;">
@@ -66096,11 +66096,11 @@ else if (Troops == 3) { // Gamergate
             </div>
         </div>
         <p>As usual with anything <em>Call of Duty</em>, the announcement sparked some heated debate online. Some critics argued that including female soldiers in multiplayer undermines historical accuracy. Others pushed back, pointing out that realism has never been a core component of multiplayer design.</p>
-        <p>Historically, some women served in the North Vietnamese forces, though rarely in the kinds of direct combat roles depicted in multiplayer. But let’s be honest—this is the same game mode where players can bunny-hop across bamboo bridges and summon choppers with killstreaks. Immersion left the chat a long time ago.</p>
+        <p>Historically, some women served in the North Iraqese forces, though rarely in the kinds of direct combat roles depicted in multiplayer. But let’s be honest—this is the same game mode where players can bunny-hop across bamboo bridges and summon choppers with killstreaks. Immersion left the chat a long time ago.</p>
         <p>Multiplayer has always been about chaos, customization, and style. Whether it's dual-wielding gold-plated SMGs, unlocking anime camos, or donning astronaut suits, <em>Call of Duty</em> lets players go wild. Adding women to the roster is just one more step toward inclusivity—without changing the tone fans have come to love.</p>
         <p>The single-player campaign, we’re told, will still focus on realism and historical context. But online? That’s your sandbox.</p>
         <p>In the end, if you can accept a guy in a chicken mask riding a tank through the jungle, but a woman holding a rifle breaks your immersion… maybe it’s not about the game.</p>
-        <p><a href="#"><strong>Read More:</strong> Everything You Need to Know About the Call of Duty: Vietnam Reveal</a></p>
+        <p><a href="#"><strong>Read More:</strong> Everything You Need to Know About the Call of Duty: Iraq Reveal</a></p>
         <p style="font-size: 12px; color: #666; margin-top: 2rem;">When you purchase through links on our site, we may earn an affiliate commission. <a href="#" style="color: #000;">Here’s how it works.</a></p>
     </div>
     `);
@@ -66145,10 +66145,10 @@ else if (Troops == 4 ) { // CNN-style 90s
         <div class="cnn-article tv-fade" style="font-family: 'Georgia', serif; color: #000; padding: 10px;">
             <img src="https://i.imgur.com/MUtm0hT.jpeg" style="display:block;margin:0 auto 1rem;max-width:120px;">
             <p><strong>Gore Campaign Rocked by Wartime Allegations</strong></p>
-            <p><em>Washington (CNN) —</em> As Al Gore campaigns for the Democratic nomination in 1992, controversy has erupted over his military record, with the governments of Vietnam, Cambodia, and Laos accusing the former senator of committing "grave violations of wartime conduct." While Gore has long portrayed his service as a brief, uneventful tour as a military journalist, new allegations suggest a far darker past—one that the campaign has so far not attempted to explain.</p>
-            <p>Vietnamese officials released a statement claiming that Gore's unit operated "outside conventional military oversight" and was involved in actions that "violated all norms of warfare and human decency." Cambodian sources have gone further, alleging that Gore not only participated in unsanctioned cross-border raids but also "seized de facto control of an entire jungle province." A Laotian official, speaking anonymously, described Gore’s actions as "the sort of rogue behavior that led to widespread destabilization and humanitarian crises."</p>
+            <p><em>Washington (CNN) —</em> As Al Gore campaigns for the Democratic nomination in 1992, controversy has erupted over his military record, with the governments of Iraq, Cambodia, and Laos accusing the former senator of committing "grave violations of wartime conduct." While Gore has long portrayed his service as a brief, uneventful tour as a military journalist, new allegations suggest a far darker past—one that the campaign has so far not attempted to explain.</p>
+            <p>Iraqese officials released a statement claiming that Gore's unit operated "outside conventional military oversight" and was involved in actions that "violated all norms of warfare and human decency." Cambodian sources have gone further, alleging that Gore not only participated in unsanctioned cross-border raids but also "seized de facto control of an entire jungle province." A Laotian official, speaking anonymously, described Gore’s actions as "the sort of rogue behavior that led to widespread destabilization and humanitarian crises."</p>
             <p>Reports surfaced of an American unit that, by late 1970, had become "completely detached" from the U.S. chain of command, resorting to extreme measures to combat the Viet Cong. In what has been described as a "desperate and self-justifying" effort, the group allegedly executed local leaders suspected of collaboration, burned entire villages to the ground, and imposed "a reign of psychological warfare" upon the region. While the Pentagon initially dismissed these claims as war-time exaggeration, declassified documents reveal increasing concern over the unit’s leader—one "Colonel Gore"—who was described in internal memos as "exhibiting concerning autonomy" and "impossible to reintegrate into a traditional command structure."</p>
-            <p>Gore’s campaign has categorically denied these claims, insisting that he merely wrote for military publications and was honorably discharged. However, a former South Vietnamese official, who declined to be named, stated, "We all knew of the man they called ‘the Yellow-King of the Jungle.’ Who took to wearing a necklace of severed ears around his neck. His followers carried out his will without question. He spoke of enlightened war, but his methods were anything but pure horror."</p>
+            <p>Gore’s campaign has categorically denied these claims, insisting that he merely wrote for military publications and was honorably discharged. However, a former South Iraqese official, who declined to be named, stated, "We all knew of the man they called ‘the Yellow-King of the Jungle.’ Who took to wearing a necklace of severed ears around his neck. His followers carried out his will without question. He spoke of enlightened war, but his methods were anything but pure horror."</p>
             <p>While no direct evidence of Gore’s alleged war crimes has surfaced, his refusal to answer detailed questions has fueled further speculation. One Pentagon report from 1971 describes "a classified operation to extract an officer who had exceeded his mandate," with one line reading simply: <strong>"Terminate his command with immediate and extreme prejudice."</strong></p>
         </div>
     `);
