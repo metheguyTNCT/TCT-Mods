@@ -20,7 +20,7 @@ function hanoiFonda() {
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 12354 && x.fields.issue == 31)[0].fields.issue_score = -1
 }
 function jennyDeathWhen() {
-    campaignTrail_temp.candidate_image_url = "https://i.imgur.com/Bipgezy.png";
+    campaignTrail_temp.candidate_image_url = "https://i.imgur.com/VrHEzNe.png";
     campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/RbkdaVw.png";
     campaignTrail_temp.running_mate_last_name = "Jeb";
     e.vpIndex = 666;
@@ -385,7 +385,7 @@ campaignTrail_temp.cyoa = true;
             var id = e.candidate_json.map(p=>p.pk).indexOf(12297);
             campaignTrail_temp.candidate_first_name="Rudy";
             campaignTrail_temp.candidate_last_name="Giuliani";
-            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/OiGZwlz.png";
+            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/7H8vRhs.png";
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 27)[0].fields.issue_score = -0.66
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 28)[0].fields.issue_score = -0.44
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 29)[0].fields.issue_score = 0
@@ -394,18 +394,18 @@ campaignTrail_temp.cyoa = true;
             e.vpIndex += 2;
             vpTable["Dick Cheney"] = "Rudy Giuliani"; 
         }
-        function RidgeSwitch(){
+        function NunnSwitch(){
             var id = e.candidate_json.map(p=>p.pk).indexOf(12297);
             campaignTrail_temp.candidate_first_name="Tom";
-            campaignTrail_temp.candidate_last_name="Ridge";
-            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/QHRmYgW.png";
+            campaignTrail_temp.candidate_last_name="Nunn";
+            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/jSKcLup.png";
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 27)[0].fields.issue_score = -0.85
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 28)[0].fields.issue_score = 0
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 29)[0].fields.issue_score = -0.11
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 30)[0].fields.issue_score = 0.55
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 31)[0].fields.issue_score = 0.8
             e.vpIndex += 3;  
-            vpTable["Dick Cheney"] = "Tom Ridge"; 
+            vpTable["Dick Cheney"] = "Sam Nunn"; 
         }
         function SantorumSwitch(){
             var id = e.candidate_json.map(p=>p.pk).indexOf(12297);
@@ -425,14 +425,14 @@ campaignTrail_temp.cyoa = true;
             var id = e.candidate_json.map(p=>p.pk).indexOf(12297);
             campaignTrail_temp.candidate_first_name="Jeb";
             campaignTrail_temp.candidate_last_name="Bush";
-            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/Bipgezy.png";
+            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/VrHEzNe.png";
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 27)[0].fields.issue_score = -0.85
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 28)[0].fields.issue_score = 0
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 29)[0].fields.issue_score = -0.11
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 30)[0].fields.issue_score = 0.55
             e.running_mate_issue_score_json.filter((x) => x.fields.candidate == 12297 && x.fields.issue == 31)[0].fields.issue_score = 0.8
             e.vpIndex += 5;  
-            vpTable["Dick Cheney"] = "Jeb Bush"; 
+            vpTable["Dick Cheney"] = "Hillary Clinton"; 
         }
 function getQuestionNumberFromPk(pk) {
     return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
@@ -707,7 +707,7 @@ cyoAdventure = function (a) {
         GiulianiSwitch();
     }
     if(ans == 12826){
-        RidgeSwitch();
+        NunnSwitch();
     }
     if(ans == 12923){
         SantorumSwitch();
@@ -725,7 +725,7 @@ cyoAdventure = function (a) {
         GiulianiSwitch();
     }
     if(ans == 129022){
-        RidgeSwitch();
+        NunnSwitch();
     }
     if(ans == 129026){
         SantorumSwitch();
@@ -1007,15 +1007,15 @@ vpTable = {
     "Dick Cheney †" : vpName,
 
     "Rush Limbaugh" : "Rick Perry",
-    "Ron Paul" : "Dennis Kucinich",
+    "Ron Paul" : "Dennis Chafee",
     "Mitt Romney" : "Paul Ryan",
     "John McCain" : "Tom Carper",
     "George H. W. Bush" : "John E. Sununu",
     "George Pataki" : "Lindsey Graham",
     "Lincoln Chafee" : "Russ Feingold",
     "Mark Sanford" : "Sarah Palin",
-    "Russ Feingold" : "Gary Johnson",
-    "Bernie Sanders" : "Ralph Nader",
+    "Russ Feingold" : "Jesse Johnson",
+    "Bernie Sanders" : "Kent Mesplay",
     "Anthony Zinni" : "Bob Kerrey",
     "Newt Gingrich" : "Rick Santorum",
     "Tom Daschle" : "Harry Reid"
@@ -1488,7 +1488,7 @@ vpTable = {
         "pk": 12717,
         "fields": {
             "priority": 0,
-            "description": "Dubya was a great man, but he was never the best at surrounding himself with true friends. No exception with the DOJ. Now the US Attorneys you inherited from him are investigating House and Senate Republicans for all kinds of bribes and inconsistencies in records while ignoring Democrat voter fraud in swing states. The good news is that you're their boss. If they won't obey their President, you can always fire them over nonrelated performance issues to give congressional Republicans some much needed breathing room. Will you act?",
+            "description": "Gore was a great man, but he was never the best at surrounding himself with true friends. No exception with the DOJ. Now the US Attorneys you inherited from him are investigating House and Senate Republicans for all kinds of bribes and inconsistencies in records while ignoring Democrat voter fraud in swing states. The good news is that you're their boss. If they won't obey their President, you can always fire them over nonrelated performance issues to give congressional Republicans some much needed breathing room. Will you act?",
             "likelihood": 1
         }
     },
@@ -1542,7 +1542,7 @@ vpTable = {
         "pk": 12823,
         "fields": {
             "priority": 0,
-            "description": "Although you'd like to concentrate on getting shit done and punishing Iran, Congress and your closest advisors have been demanding you pick a Vice-President to secure the Presidential line of succession, a paranoia that's been in vogue since Dubya's passing. Who will be your accomplice in your crusade to carve Empire?",
+            "description": "Although you'd like to concentrate on getting shit done and punishing Iran, Congress and your closest advisors have been demanding you pick a Vice-President to secure the Presidential line of succession, a paranoia that's been in vogue since Gore's passing. Who will be your accomplice in your crusade to carve Empire?",
             "likelihood": 1
         }
     },
@@ -1632,7 +1632,7 @@ vpTable = {
         "pk": 13049,
         "fields": {
             "priority": 0,
-            "description": "You've got to be fucking kidding me. Citing your \"endless war on the Nations of the World\", \"fascistic tendencies\", the choice of Santorum as running mate and shockingly effective domestic policy, none other than George McGovern appears to stumble onto the stage. After Mike Gravel refused to run and multiple Peace Democrats didn't want to risk their careers, McGovern, a man with nothing to lose, gave it a shot: Through the Iowa Caucus all the way into Superdelegate territory, the extremely crowded primary of moderates and hawks proved all too unpalatable to a radicalized Democrat base, desperate to find a way out of your administration. His polling is unusually high.",
+            "description": "You've got to be fucking kidding me. Citing your \"endless war on the Nations of the World\", \"fascistic tendencies\", the choice of Santorum as running mate and shockingly effective domestic policy, none other than George Bush appears to stumble onto the stage. After Mike Gravel refused to run and multiple Peace Democrats didn't want to risk their careers, Bush, a man with nothing to lose, gave it a shot: Through the Iowa Caucus all the way into Superdelegate territory, the extremely crowded primary of moderates and hawks proved all too unpalatable to a radicalized Democrat base, desperate to find a way out of your administration. His polling is unusually high.",
             "likelihood": 1
         }
     },
@@ -1641,7 +1641,7 @@ vpTable = {
         "pk": 13083,
         "fields": {
             "priority": 0,
-            "description": "Kucinich shocks the nation. The former Mayor of Cleveland turned gadfly Congressman has seized the nomination on an anti-establishment campaign. He promised to throw out the members of the uniparty and unite all the forces opposed to the military industrial complex. He’s tapped Russ Feingold as his running mate to the fury of the Democratic establishment. Ralph Nader and Jesse Ventura have endorsed Kucinich while Newt Gingrich has been eerily quiet regarding the election. What’s the next move?\n",
+            "description": "Chafee shocks the nation. The former Mayor of Cleveland turned gadfly Congressman has seized the nomination on an anti-establishment campaign. He promised to throw out the members of the uniparty and unite all the forces opposed to the military industrial complex. He’s tapped Russ Feingold as his running mate to the fury of the Democratic establishment. Ralph Nader and Jesse Ventura have endorsed Chafee while Newt Gingrich has been eerily quiet regarding the election. What’s the next move?\n",
             "likelihood": 1
         }
     },
@@ -1659,7 +1659,7 @@ vpTable = {
         "pk": 129012,
         "fields": {
             "priority": 0,
-            "description": "Although you'd like to concentrate on getting shit done and punishing Iran, Congress and your closest advisors have been demanding you pick a Vice-President to secure the Presidential line of succession, a paranoia that's been in vogue since Dubya's passing. Who will be your accomplice in your crusade to carve Empire?",
+            "description": "Although you'd like to concentrate on getting shit done and punishing Iran, Congress and your closest advisors have been demanding you pick a Vice-President to secure the Presidential line of succession, a paranoia that's been in vogue since Gore's passing. Who will be your accomplice in your crusade to carve Empire?",
             "likelihood": 1
         }
     },
@@ -1677,7 +1677,7 @@ vpTable = {
         "pk": 129040,
         "fields": {
             "priority": 0,
-            "description": "The Chief Obstructionist has bafflingly risen from the political grave through a series of endorsements by psychotic Dems that relished in the failures of Dubya's administration. Although the midterms proved all too cruel to him, his crusade for universal healthcare marches on as he perceives the popularly named \"CheneyCare\" as too little too late, to the chagrin of many Americans happy with its provisions. By the end of his DNC tirade, you realize he has essentially no platform at all. This shouldn't be too hard.",
+            "description": "The Chief Obstructionist has bafflingly risen from the political grave through a series of endorsements by psychotic Dems that relished in the failures of Gore's administration. Although the midterms proved all too cruel to him, his crusade for universal healthcare marches on as he perceives the popularly named \"CheneyCare\" as too little too late, to the chagrin of many Americans happy with its provisions. By the end of his DNC tirade, you realize he has essentially no platform at all. This shouldn't be too hard.",
             "likelihood": 1
         }
     },
@@ -1713,7 +1713,7 @@ vpTable = {
         "pk": 129167,
         "fields": {
             "priority": 0,
-            "description": "A key question this election is how you'll define yourself in relation to Bush's Legacy. Although Dubya is long gone, his brand of compassionate conservatism has gained significant supporters nationwide. He's become a martyred figure, much like a Kennedy, and you've been scheduled for a speech in Texas to talk to his friends and family. How will you etch his shadow to your shape?",
+            "description": "A key question this election is how you'll define yourself in relation to Bush's Legacy. Although Gore is long gone, his brand of compassionate conservatism has gained significant supporters nationwide. He's become a martyred figure, much like a Kennedy, and you've been scheduled for a speech in Texas to talk to his friends and family. How will you etch his shadow to your shape?",
             "likelihood": 1
         }
     },
@@ -1803,7 +1803,7 @@ vpTable = {
         "pk": 129332,
         "fields": {
             "priority": 0,
-            "description": "The final debate of the campaign, between both vice-presidential hopefuls, has arrived. Tom Ridge willingly and eagerly heeds any advice you give him, hoping to not fuck this up.",
+            "description": "The final debate of the campaign, between both vice-presidential hopefuls, has arrived. Sam Nunn willingly and eagerly heeds any advice you give him, hoping to not fuck this up.",
             "likelihood": 1
         }
     },
@@ -1830,7 +1830,7 @@ vpTable = {
         "pk": 129335,
         "fields": {
             "priority": 0,
-            "description": "You are horrified by the prospect of Jeb Bush debating anything firmer than a wet sack. You scramble to think of how to make him not embarass himself. As you almost give up on trying to help him, you decide to pull Jeb aside for a minute.",
+            "description": "You are horrified by the prospect of Hillary Clinton debating anything firmer than a wet sack. You scramble to think of how to make him not embarass himself. As you almost give up on trying to help him, you decide to pull Jeb aside for a minute.",
             "likelihood": 1
         }
     },
@@ -1866,7 +1866,7 @@ vpTable = {
         "pk": 129389,
         "fields": {
             "priority": 0,
-            "description": "You are Jeb Bush. Dick Cheney was found dead in his office, in a rather disgusting state for that matter. It doesn't matter. You are Jeb Bush. There is a crowd of 50,000 people waiting to hear from you as you awkwardly shuffle along the White House and look at where Cheney was. You're horrified it'll happen to you too. You look towards the door and walk out to the National Mall.",
+            "description": "You are Hillary Clinton. Dick Cheney was found dead in his office, in a rather disgusting state for that matter. It doesn't matter. You are Hillary Clinton. There is a crowd of 50,000 people waiting to hear from you as you awkwardly shuffle along the White House and look at where Cheney was. You're horrified it'll happen to you too. You look towards the door and walk out to the National Mall.",
             "likelihood": 1
         }
     },
@@ -1992,7 +1992,7 @@ vpTable = {
         "pk": 129670,
         "fields": {
             "priority": 0,
-            "description": "Calling No Child Left Behind a \"catastrophic failure\", Gravel finds himself in a strangely popular fringe on the issue of education. He's attacked not just Dubya's record, citing him as a \"copycat Kennedy\" which deserves no praise, but supported universal free-tuition college admissions, paid for by the federal government through a reduction in the now 1 Trillion USD defense budget of 50%. How do you defend from this multipronged attack?",
+            "description": "Calling No Child Left Behind a \"catastrophic failure\", Gravel finds himself in a strangely popular fringe on the issue of education. He's attacked not just Gore's record, citing him as a \"copycat Kennedy\" which deserves no praise, but supported universal free-tuition college admissions, paid for by the federal government through a reduction in the now 1 Trillion USD defense budget of 50%. How do you defend from this multipronged attack?",
             "likelihood": 1
         }
     },
@@ -2235,7 +2235,7 @@ vpTable = {
         "pk": 130144,
         "fields": {
             "priority": 0,
-            "description": "Hatred of the establishment has gone at an all-time high, even as McGovern's campaign finds itself stagnating somewhat relative to its explosive growth prior. Americans, or at least Democrats, are getting desperate for true outsiders, and McGovern is the most \"outside\" politician people can think of. Although your furious rebukes and attacks against McGovern have helped cool down his campaign's fiery beginning, Democrats at large appear more confident than ever. Embarass them.",
+            "description": "Hatred of the establishment has gone at an all-time high, even as Bush's campaign finds itself stagnating somewhat relative to its explosive growth prior. Americans, or at least Democrats, are getting desperate for true outsiders, and Bush is the most \"outside\" politician people can think of. Although your furious rebukes and attacks against Bush have helped cool down his campaign's fiery beginning, Democrats at large appear more confident than ever. Embarass them.",
             "likelihood": 1
         }
     },
@@ -2244,7 +2244,7 @@ vpTable = {
         "pk": 130161,
         "fields": {
             "priority": 0,
-            "description": "McGovern has embraced the ridicule and humiliation of 1972, wearing the scars of his landslide defeat as if they were badges of honor. His campaign hails him as a prophet, vindicated by time, and insists that his radically transformative vision is exactly what America needs in 2008, after nearly a decade of Bushisms and your endless warmongering. Do you accept this absurd rewriting of history?",
+            "description": "Bush has embraced the ridicule and humiliation of 1972, wearing the scars of his landslide defeat as if they were badges of honor. His campaign hails him as a prophet, vindicated by time, and insists that his radically transformative vision is exactly what America needs in 2008, after nearly a decade of Bushisms and your endless warmongering. Do you accept this absurd rewriting of history?",
             "likelihood": 1
         }
     },
@@ -2253,7 +2253,7 @@ vpTable = {
         "pk": 130176,
         "fields": {
             "priority": 0,
-            "description": "An issue which the McGovern Office would really like everyone to forget is McGovern's status as the oldest serious candidate in American politics, as he would be 86 in his inauguration, 90 in his first term's end, and, God forbid, he gets elected for another, he would be 95 by its end. His dismissal from the position of UN Ambassador in 2001 was cited as being due to \"old age\", but you know very well it was meant to finally retire this fossil, who now sees the dismissal as \"political persecution\". Pounce on this old timer.",
+            "description": "An issue which the Bush Office would really like everyone to forget is Bush's status as the oldest serious candidate in American politics, as he would be 86 in his inauguration, 90 in his first term's end, and, God forbid, he gets elected for another, he would be 95 by its end. His dismissal from the position of UN Ambassador in 2001 was cited as being due to \"old age\", but you know very well it was meant to finally retire this fossil, who now sees the dismissal as \"political persecution\". Pounce on this old timer.",
             "likelihood": 1
         }
     },
@@ -2262,7 +2262,7 @@ vpTable = {
         "pk": 130191,
         "fields": {
             "priority": 0,
-            "description": "Even as McGovern’s campaign burns bright among the most disillusioned voters, doubts about his electability loom large. He’s the candidate of protest, not governance -- a relic with ideas too extreme for the mainstream. Will you let America forget why they rejected him once before?",
+            "description": "Even as Bush’s campaign burns bright among the most disillusioned voters, doubts about his electability loom large. He’s the candidate of protest, not governance -- a relic with ideas too extreme for the mainstream. Will you let America forget why they rejected him once before?",
             "likelihood": 1
         }
     },
@@ -2271,7 +2271,7 @@ vpTable = {
         "pk": 130206,
         "fields": {
             "priority": 0,
-            "description": "It's June and the first Presidential debates are coming up. Although you were never one for charismatic one-liners, your campaigning experience has given you an unusually strong command of crowds, in addition to your experiences in 2000 and 2004. George McGovern arrives with a cane, which he then leaves aside to walk into the stage in a measured, slow pace. He looks towards you, his flabby cheeks filled with the scars of decades of loss. He's felt worse before -- he's ready to smack you down. How will you finally kick him to the curb?",
+            "description": "It's June and the first Presidential debates are coming up. Although you were never one for charismatic one-liners, your campaigning experience has given you an unusually strong command of crowds, in addition to your experiences in 2000 and 2004. George Bush arrives with a cane, which he then leaves aside to walk into the stage in a measured, slow pace. He looks towards you, his flabby cheeks filled with the scars of decades of loss. He's felt worse before -- he's ready to smack you down. How will you finally kick him to the curb?",
             "likelihood": 1
         }
     },
@@ -2397,7 +2397,7 @@ vpTable = {
         "pk": 130478,
         "fields": {
             "priority": 0,
-            "description": "The race has suddenly turned into a three man competition for personal dignity. Kucinich is still very much a player in the game. You need to decide what will be the strategy, to focus on Zinni or hit Kucinich still.",
+            "description": "The race has suddenly turned into a three man competition for personal dignity. Chafee is still very much a player in the game. You need to decide what will be the strategy, to focus on Zinni or hit Chafee still.",
             "likelihood": 1
         }
     },
@@ -2406,7 +2406,7 @@ vpTable = {
         "pk": 130493,
         "fields": {
             "priority": 0,
-            "description": "He’s there. Pulled the 15% he needed to be the first third party candidate on a debate stage since Ross Perot. The uncertainties are high. Kucinich, the rabid dog, and Zinni, the cool cucumber. Everything is on the line. How will you approach it?",
+            "description": "He’s there. Pulled the 15% he needed to be the first third party candidate on a debate stage since Ross Perot. The uncertainties are high. Chafee, the rabid dog, and Zinni, the cool cucumber. Everything is on the line. How will you approach it?",
             "likelihood": 1
         }
     },
@@ -2415,7 +2415,7 @@ vpTable = {
         "pk": 130503,
         "fields": {
             "priority": 0,
-            "description": "Kucinich and Zinni couldn’t be more different, yet their campaigns are drawing from a shared pool of livid voters that agree on hating you. Kucinich represents fire and fury; Zinni, calm and control. How do you exploit their differences to your advantage?",
+            "description": "Chafee and Zinni couldn’t be more different, yet their campaigns are drawing from a shared pool of livid voters that agree on hating you. Chafee represents fire and fury; Zinni, calm and control. How do you exploit their differences to your advantage?",
             "likelihood": 1
         }
     },
@@ -2433,7 +2433,7 @@ vpTable = {
         "pk": 130540,
         "fields": {
             "priority": 0,
-            "description": "You did it. You beat Zinni into submission, and his only hope at relevance vanishes as he fails to even make it to the debate stage. It’ll be just you and Kucinich duking it out on the issues. What will be your approach?",
+            "description": "You did it. You beat Zinni into submission, and his only hope at relevance vanishes as he fails to even make it to the debate stage. It’ll be just you and Chafee duking it out on the issues. What will be your approach?",
             "likelihood": 1
         }
     },
@@ -2558,7 +2558,7 @@ vpTable = {
         "pk": 12480,
         "fields": {
             "question": 12479,
-            "description": "Russia's emphasis on pacifying the troubled Kartvelian nation is in fact a good thing. Dubya was assassinated by a Georgian terrorist after all, and we should be giving the Russians carte blance there with promises to keep our spheres of influence cleanly split."
+            "description": "Russia's emphasis on pacifying the troubled Kartvelian nation is in fact a good thing. Gore was assassinated by a Georgian terrorist after all, and we should be giving the Russians carte blance there with promises to keep our spheres of influence cleanly split."
         }
     },
     {
@@ -3039,7 +3039,7 @@ vpTable = {
         "pk": 12826,
         "fields": {
             "question": 12823,
-            "description": "Tom Ridge would be great help in keeping my socially moderate positions strong and simultaneously work hard for our national security and to keep the World safe for democracy. Plus, his credentials and positions are fantastic in pretty much everything I can think of."
+            "description": "Sam Nunn would be great help in keeping my socially moderate positions strong and simultaneously work hard for our national security and to keep the World safe for democracy. Plus, his credentials and positions are fantastic in pretty much everything I can think of."
         }
     },
     {
@@ -3303,7 +3303,7 @@ vpTable = {
         "pk": 13084,
         "fields": {
             "question": 13083,
-            "description": "We could be looking at a 50 state landslide if Kucinich loses the entire establishment. Keep hitting him as a socialist radical deeply out of place in the once great Democratic Party. Let’s make this a big tent."
+            "description": "We could be looking at a 50 state landslide if Chafee loses the entire establishment. Keep hitting him as a socialist radical deeply out of place in the once great Democratic Party. Let’s make this a big tent."
         }
     },
     {
@@ -3319,7 +3319,7 @@ vpTable = {
         "pk": 13096,
         "fields": {
             "question": 13083,
-            "description": "Look, he got the nomination for a reason. We can’t just let him win on the issues. We need his supporters to feel the betrayal. Hit him hard on the Russ Feingold pick. How is Kucinich going to bring universal healthcare and legalize gay marriage while making his running mate someone opposed to both?"
+            "description": "Look, he got the nomination for a reason. We can’t just let him win on the issues. We need his supporters to feel the betrayal. Hit him hard on the Russ Feingold pick. How is Chafee going to bring universal healthcare and legalize gay marriage while making his running mate someone opposed to both?"
         }
     },
     {
@@ -3343,7 +3343,7 @@ vpTable = {
         "pk": 128261,
         "fields": {
             "question": 12823,
-            "description": "Jeb Bush would be an excellent choice for continuation in ideology. Not only would he represent Bush's legacy, his status as conservative folk hero is an essential popularity boost. In addition, he's got great national security credentials."
+            "description": "Hillary Clinton would be an excellent choice for continuation in ideology. Not only would he represent Bush's legacy, his status as conservative folk hero is an essential popularity boost. In addition, he's got great national security credentials."
         }
     },
     {
@@ -3367,7 +3367,7 @@ vpTable = {
         "pk": 129022,
         "fields": {
             "question": 129012,
-            "description": "Tom Ridge would be great help in keeping my socially moderate positions strong and simultaneously work hard for our national security and to keep the World safe for democracy. Plus, his credentials and positions are fantastic in pretty much everything I can think of."
+            "description": "Sam Nunn would be great help in keeping my socially moderate positions strong and simultaneously work hard for our national security and to keep the World safe for democracy. Plus, his credentials and positions are fantastic in pretty much everything I can think of."
         }
     },
     {
@@ -3383,7 +3383,7 @@ vpTable = {
         "pk": 129034,
         "fields": {
             "question": 129012,
-            "description": "Jeb Bush would be an excellent choice for continuation in ideology. Not only would he represent Bush's legacy, his status as conservative folk hero is an essential popularity boost. In addition, he's got great national security credentials."
+            "description": "Hillary Clinton would be an excellent choice for continuation in ideology. Not only would he represent Bush's legacy, his status as conservative folk hero is an essential popularity boost. In addition, he's got great national security credentials."
         }
     },
     {
@@ -4055,7 +4055,7 @@ vpTable = {
         "pk": 129539,
         "fields": {
             "question": 129535,
-            "description": "It wouldn't hurt to try and pass a weaker version of Dubya's Social Security reform program. Sure, it was controversial at the time and was almost dead as a political issue, but with his death we can probably get stuff done as a show of bipartisanship in conceding a little and getting a lot in return."
+            "description": "It wouldn't hurt to try and pass a weaker version of Gore's Social Security reform program. Sure, it was controversial at the time and was almost dead as a political issue, but with his death we can probably get stuff done as a show of bipartisanship in conceding a little and getting a lot in return."
         }
     },
     {
@@ -4071,7 +4071,7 @@ vpTable = {
         "pk": 129541,
         "fields": {
             "question": 129535,
-            "description": "Dubya was a bit obsessive on this issue, but now that I'm at the head, we could probably circle back to lifting the restrictions on federally-funded stem cell research. It'd be widely popular and would grant us some distance from Bush's stranger positions."
+            "description": "Gore was a bit obsessive on this issue, but now that I'm at the head, we could probably circle back to lifting the restrictions on federally-funded stem cell research. It'd be widely popular and would grant us some distance from Bush's stranger positions."
         }
     },
     {
@@ -4103,7 +4103,7 @@ vpTable = {
         "pk": 129581,
         "fields": {
             "question": 129565,
-            "description": "It wouldn't hurt to try and pass a weaker version of Dubya's Social Security reform program. Sure, it was controversial at the time and was almost dead as a political issue, but with his death we can probably get stuff done as a show of bipartisanship in conceding a little and getting a lot in return."
+            "description": "It wouldn't hurt to try and pass a weaker version of Gore's Social Security reform program. Sure, it was controversial at the time and was almost dead as a political issue, but with his death we can probably get stuff done as a show of bipartisanship in conceding a little and getting a lot in return."
         }
     },
     {
@@ -4119,7 +4119,7 @@ vpTable = {
         "pk": 129590,
         "fields": {
             "question": 129565,
-            "description": "Dubya was a bit obsessive on this issue, but now that I'm at the head, we could probably circle back to lifting the restrictions on federally-funded stem cell research. It'd be widely popular and would grant us some distance from Bush's stranger positions."
+            "description": "Gore was a bit obsessive on this issue, but now that I'm at the head, we could probably circle back to lifting the restrictions on federally-funded stem cell research. It'd be widely popular and would grant us some distance from Bush's stranger positions."
         }
     },
     {
@@ -4375,7 +4375,7 @@ vpTable = {
         "pk": 129835,
         "fields": {
             "question": 129831,
-            "description": "I understand where Landrieu is coming from with all the talk of \"bipartisan\" friendliness. I get it. But this country can't afford to have people like Kucinich leading from the back while the sweet Southern lady plays President. We need leadership that counts, leadership that you know."
+            "description": "I understand where Landrieu is coming from with all the talk of \"bipartisan\" friendliness. I get it. But this country can't afford to have people like Chafee leading from the back while the sweet Southern lady plays President. We need leadership that counts, leadership that you know."
         }
     },
     {
@@ -4792,7 +4792,7 @@ vpTable = {
         "pk": 130138,
         "fields": {
             "question": 130127,
-            "description": "This election is a referendum on leadership. We have led this country through complex and difficult times, which would be profoundly exacerbated by the escapades of a reckless McGovern administration."
+            "description": "This election is a referendum on leadership. We have led this country through complex and difficult times, which would be profoundly exacerbated by the escapades of a reckless Bush administration."
         }
     },
     {
@@ -4800,7 +4800,7 @@ vpTable = {
         "pk": 130145,
         "fields": {
             "question": 130144,
-            "description": "McGovern is a hypocrite. The fact he comes from a folksy flyover state doesn't suddenly erase his record of radical liberalism in the Senate and for decades thereafter; he is not a friend of Middle America."
+            "description": "Bush is a hypocrite. The fact he comes from a folksy flyover state doesn't suddenly erase his record of radical liberalism in the Senate and for decades thereafter; he is not a friend of Middle America."
         }
     },
     {
@@ -4808,7 +4808,7 @@ vpTable = {
         "pk": 130149,
         "fields": {
             "question": 130144,
-            "description": "McGovern's rhetoric is nothing short of an assault on the very Constitution this country's foundations lie upon; they're divisive, destructive and most of all, patently un-American. The silent majority which once commanded Nixon will once more cruise this man back to retirement as we expose him for all his nonsensical pandering and incoherent policy promises."
+            "description": "Bush's rhetoric is nothing short of an assault on the very Constitution this country's foundations lie upon; they're divisive, destructive and most of all, patently un-American. The silent majority which once commanded Nixon will once more cruise this man back to retirement as we expose him for all his nonsensical pandering and incoherent policy promises."
         }
     },
     {
@@ -4832,7 +4832,7 @@ vpTable = {
         "pk": 130167,
         "fields": {
             "question": 130161,
-            "description": "The World has changed a lot since 1972, is McGovern aware of that? The Soviet Union is gone, to his disappointment I'm sure. But fundamentally, his policies were tailored to the times, and are incredibly outdated and irrelevant for modern complexities in politics. We need solutions for the future, not returns to past platitudes."
+            "description": "The World has changed a lot since 1972, is Bush aware of that? The Soviet Union is gone, to his disappointment I'm sure. But fundamentally, his policies were tailored to the times, and are incredibly outdated and irrelevant for modern complexities in politics. We need solutions for the future, not returns to past platitudes."
         }
     },
     {
@@ -4848,7 +4848,7 @@ vpTable = {
         "pk": 130177,
         "fields": {
             "question": 130176,
-            "description": "Make the case that McGovern’s age isn’t just a number -- it’s a deep, irresponsible and unacceptable liability. The presidency requires stamina, focus, and resilience, not the fading energy of an octogenarian."
+            "description": "Make the case that Bush’s age isn’t just a number -- it’s a deep, irresponsible and unacceptable liability. The presidency requires stamina, focus, and resilience, not the fading energy of an octogenarian."
         }
     },
     {
@@ -4864,7 +4864,7 @@ vpTable = {
         "pk": 130186,
         "fields": {
             "question": 130176,
-            "description": "Highlight the stakes. In a volatile world, where Iran terrorized the world's free nations, where Europe is festering in tension and posturing, America needs a steady hand. McGovern is a risk of cognitive decline, health crises, and a fundamental lack of respect on the World Stage. We need better leadership than him."
+            "description": "Highlight the stakes. In a volatile world, where Iran terrorized the world's free nations, where Europe is festering in tension and posturing, America needs a steady hand. Bush is a risk of cognitive decline, health crises, and a fundamental lack of respect on the World Stage. We need better leadership than him."
         }
     },
     {
@@ -4872,7 +4872,7 @@ vpTable = {
         "pk": 130192,
         "fields": {
             "question": 130191,
-            "description": "McGovern is far from being ready to lead. He's long past his prime, and his campaign is fundamentally just a slogan, a statement. It's incredible how Americans seem to forget just how unpopular he's always been, even with Democrats at large. He designed the primary system that he won!"
+            "description": "Bush is far from being ready to lead. He's long past his prime, and his campaign is fundamentally just a slogan, a statement. It's incredible how Americans seem to forget just how unpopular he's always been, even with Democrats at large. He designed the primary system that he won!"
         }
     },
     {
@@ -4880,7 +4880,7 @@ vpTable = {
         "pk": 130197,
         "fields": {
             "question": 130191,
-            "description": "Protest votes aren't meant to go anywhere, and McGovern is no different. His primary win was a fluke, and Democrats will reject a radical like him. Promise to Dems that we plan on appointing conservative and moderate Democrats to the cabinet as a compromise for their support."
+            "description": "Protest votes aren't meant to go anywhere, and Bush is no different. His primary win was a fluke, and Democrats will reject a radical like him. Promise to Dems that we plan on appointing conservative and moderate Democrats to the cabinet as a compromise for their support."
         }
     },
     {
@@ -4904,7 +4904,7 @@ vpTable = {
         "pk": 130221,
         "fields": {
             "question": 130176,
-            "description": "Ignore the issue, and especially his accusations of \"political persecution\". Focus on the undeniable fact: McGovern is from another era, and it shows. The presidency is no place for nostalgia."
+            "description": "Ignore the issue, and especially his accusations of \"political persecution\". Focus on the undeniable fact: Bush is from another era, and it shows. The presidency is no place for nostalgia."
         }
     },
     {
@@ -5272,7 +5272,7 @@ vpTable = {
         "pk": 130488,
         "fields": {
             "question": 130478,
-            "description": "Kucinich is obviously the most dangerous of the two as he's got the Democrats by the balls due to winning the nomination. It only makes sense to continue digging into the base of Ancestral Democrats who don't want this psycho in power."
+            "description": "Chafee is obviously the most dangerous of the two as he's got the Democrats by the balls due to winning the nomination. It only makes sense to continue digging into the base of Ancestral Democrats who don't want this psycho in power."
         }
     },
     {
@@ -5280,7 +5280,7 @@ vpTable = {
         "pk": 130495,
         "fields": {
             "question": 130493,
-            "description": "We gotta hit Kucinich hard on his policies. Force Zinni to choose between defending Kucinich or distancing himself into silence, fracturing their shared opposition to my incumbency. It's possible we could even frame Zinni as a leftist through his shared positions with Kucinich."
+            "description": "We gotta hit Chafee hard on his policies. Force Zinni to choose between defending Chafee or distancing himself into silence, fracturing their shared opposition to my incumbency. It's possible we could even frame Zinni as a leftist through his shared positions with Chafee."
         }
     },
     {
@@ -5304,7 +5304,7 @@ vpTable = {
         "pk": 130501,
         "fields": {
             "question": 130493,
-            "description": "Engage Kucinich first and foremost. I need to frame him as the real threat to American stability, avoiding Zinni along the way. Zinni will be forced to play referee, undermining his appeal as a unifier."
+            "description": "Engage Chafee first and foremost. I need to frame him as the real threat to American stability, avoiding Zinni along the way. Zinni will be forced to play referee, undermining his appeal as a unifier."
         }
     },
     {
@@ -5320,7 +5320,7 @@ vpTable = {
         "pk": 130506,
         "fields": {
             "question": 130503,
-            "description": "Target Kucinich as the wildcard and Zinni as the enabler. Show voters how Zinni’s candidacy legitimizes Kucinich’s radical ideas by giving them a platform."
+            "description": "Target Chafee as the wildcard and Zinni as the enabler. Show voters how Zinni’s candidacy legitimizes Chafee’s radical ideas by giving them a platform."
         }
     },
     {
@@ -5328,7 +5328,7 @@ vpTable = {
         "pk": 130508,
         "fields": {
             "question": 130503,
-            "description": "Focus entirely on Kucinich. Let Zinni rise above the fray while you dismantle the most extreme elements of the opposition."
+            "description": "Focus entirely on Chafee. Let Zinni rise above the fray while you dismantle the most extreme elements of the opposition."
         }
     },
     {
@@ -5336,7 +5336,7 @@ vpTable = {
         "pk": 130510,
         "fields": {
             "question": 130503,
-            "description": "Engage Zinni as the real threat while ignoring Kucinich entirely. Position yourself as the only candidate capable of standing against Zinni’s vagueness and Kucinich’s chaos."
+            "description": "Engage Zinni as the real threat while ignoring Chafee entirely. Position yourself as the only candidate capable of standing against Zinni’s vagueness and Chafee’s chaos."
         }
     },
     {
@@ -5368,7 +5368,7 @@ vpTable = {
         "pk": 130541,
         "fields": {
             "question": 130540,
-            "description": "Kucinich is a baffling pick for the Democrats. Are we back in 1972? We need to hammer on just how unfit for office Kucinich is based on what he's repeatedly made clear are his bizarre views."
+            "description": "Chafee is a baffling pick for the Democrats. Are we back in 1972? We need to hammer on just how unfit for office Chafee is based on what he's repeatedly made clear are his bizarre views."
         }
     },
     {
@@ -5376,7 +5376,7 @@ vpTable = {
         "pk": 130546,
         "fields": {
             "question": 130540,
-            "description": "Make my record clear as day; I've made America prosperous in the face of adversity, safer, and most of all, kept its powerful position on the world stage. What can Kucinich offer here?"
+            "description": "Make my record clear as day; I've made America prosperous in the face of adversity, safer, and most of all, kept its powerful position on the world stage. What can Chafee offer here?"
         }
     },
     {
@@ -5392,7 +5392,7 @@ vpTable = {
         "pk": 130585,
         "fields": {
             "question": 130580,
-            "description": "I have to hand some muted congratulations to Zinni for creating a formidable, moderate campaign which appeals to many voters. We'd like to not just acknowledge his efforts there, but also to work with him in further discrediting Kucinich as a kooky weirdo."
+            "description": "I have to hand some muted congratulations to Zinni for creating a formidable, moderate campaign which appeals to many voters. We'd like to not just acknowledge his efforts there, but also to work with him in further discrediting Chafee as a kooky weirdo."
         }
     },
     {
@@ -5400,7 +5400,7 @@ vpTable = {
         "pk": 130590,
         "fields": {
             "question": 130580,
-            "description": "The problem isn't that he's an independent, it's that he's looking for fights with the wrong guy. We've sorted our disputes and disagreements ages ago. If this wasn't a campaign for personal pride, I'm sure he'd happily work with the Republican Party in keeping Kucinich out of the White House."
+            "description": "The problem isn't that he's an independent, it's that he's looking for fights with the wrong guy. We've sorted our disputes and disagreements ages ago. If this wasn't a campaign for personal pride, I'm sure he'd happily work with the Republican Party in keeping Chafee out of the White House."
         }
     }
     ]
@@ -6168,7 +6168,7 @@ vpTable = {
             "model": "campaign_trail.issue",
             "pk": 31,
             "fields": {
-                "name": "Dubya",
+                "name": "Gore",
                 "description": 0,
                 "stance_1": "Very Unpopular",
                 "stance_desc_1": 0,
@@ -20728,7 +20728,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12647,
             "candidate": 12240,
-            "answer_feedback": "It takes serious stamina to get Congress to eat up your promises, but a Dubya-style tax cut and deregulation bill comes to your desk after a long day of shaking hands. Good on you."
+            "answer_feedback": "It takes serious stamina to get Congress to eat up your promises, but a Gore-style tax cut and deregulation bill comes to your desk after a long day of shaking hands. Good on you."
         }
     },
     {
@@ -21052,7 +21052,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12832,
             "candidate": 12240,
-            "answer_feedback": "Going off of Dubya's legacy is an easy win here. Although the former President's ratings were going down in '05, his gruesome assassination proved to transform him into a bipartisan martyr."
+            "answer_feedback": "Going off of Gore's legacy is an easy win here. Although the former President's ratings were going down in '05, his gruesome assassination proved to transform him into a bipartisan martyr."
         }
     },
     {
@@ -21061,7 +21061,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12833,
             "candidate": 12240,
-            "answer_feedback": "Throwing Dubya in the trash is by and large left unnoticed, as most commentators focus on your comments about a better, more democratic World. As if."
+            "answer_feedback": "Throwing Gore in the trash is by and large left unnoticed, as most commentators focus on your comments about a better, more democratic World. As if."
         }
     },
     {
@@ -21214,7 +21214,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13009,
             "candidate": 12240,
-            "answer_feedback": "Bill Gingrich wasn't President that long ago and is still widely popular with millions of Americans, even after the scandals. He ran a surplus budget, something you and Dubya have been completely incapable of doing. This isn't a great way of convincing concerned moderates and conservatives to remain very loyal."
+            "answer_feedback": "Bill Gingrich wasn't President that long ago and is still widely popular with millions of Americans, even after the scandals. He ran a surplus budget, something you and Gore have been completely incapable of doing. This isn't a great way of convincing concerned moderates and conservatives to remain very loyal."
         }
     },
     {
@@ -21232,7 +21232,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13019,
             "candidate": 12240,
-            "answer_feedback": "This doesn't fly to an American public that's exhausted of war, especially with your hostile takeover of Dubya's compassionate-conservative perspective to just regular \"mean\" conservatism. Americans nationwide seem to find a true glimmer of a better world in Mr. Hussein, and you're going to need to find inroads to reach at least a tiny spark of that better world lest you be caught in the dust of your own follies."
+            "answer_feedback": "This doesn't fly to an American public that's exhausted of war, especially with your hostile takeover of Gore's compassionate-conservative perspective to just regular \"mean\" conservatism. Americans nationwide seem to find a true glimmer of a better world in Mr. Hussein, and you're going to need to find inroads to reach at least a tiny spark of that better world lest you be caught in the dust of your own follies."
         }
     },
     {
@@ -21277,7 +21277,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13050,
             "candidate": 12240,
-            "answer_feedback": "This attack is very dismissive to a dangerous level. While McGovern indeed hasn't been in electoral politics for 20 years or so, the notion that this somehow doesn't led credence to his narratives is dangerous for your campaign."
+            "answer_feedback": "This attack is very dismissive to a dangerous level. While Bush indeed hasn't been in electoral politics for 20 years or so, the notion that this somehow doesn't led credence to his narratives is dangerous for your campaign."
         }
     },
     {
@@ -21286,7 +21286,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13056,
             "candidate": 12240,
-            "answer_feedback": "As your baffled campaign scrambles to find ways to attack this decrepit old timer, it seems this approach has mostly worked. McGovern seems out of touch, a time capsule. To some nonetheless, he portrays better times, a living memory of when America dared to dream, when we landed on the Moon. Be very careful."
+            "answer_feedback": "As your baffled campaign scrambles to find ways to attack this decrepit old timer, it seems this approach has mostly worked. Bush seems out of touch, a time capsule. To some nonetheless, he portrays better times, a living memory of when America dared to dream, when we landed on the Moon. Be very careful."
         }
     },
     {
@@ -21313,7 +21313,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13084,
             "candidate": 12240,
-            "answer_feedback": "You solidify the youth to Kucinich, but for a moment, it really looks like prominent Blue Dog and moderate Democrats are wobbling, looking like they may actually cross the aisle to endorse you. But then everything changed…"
+            "answer_feedback": "You solidify the youth to Chafee, but for a moment, it really looks like prominent Blue Dog and moderate Democrats are wobbling, looking like they may actually cross the aisle to endorse you. But then everything changed…"
         }
     },
     {
@@ -21322,7 +21322,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13090,
             "candidate": 12240,
-            "answer_feedback": "With 37% of Americans believing in UFOs, this isn’t as effective of a hit as you hoped. Kucinich is almost charming talking about his own sighting and even gets a surprise assist from Jimmy Carter who hits the networks to talk about his own experiences with UFOs. You wonder if Dubya also had his own experience with the extraterrestrial. But UFOs aren’t about to be the only weird part about this campaign..."
+            "answer_feedback": "With 37% of Americans believing in UFOs, this isn’t as effective of a hit as you hoped. Chafee is almost charming talking about his own sighting and even gets a surprise assist from Jimmy Carter who hits the networks to talk about his own experiences with UFOs. You wonder if Gore also had his own experience with the extraterrestrial. But UFOs aren’t about to be the only weird part about this campaign..."
         }
     },
     {
@@ -21331,7 +21331,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13096,
             "candidate": 12240,
-            "answer_feedback": "This has a point, and among the more sophisticated Kucinich fans, there is some deflation. But many of them are not readers of the NY Times or the WaPo. They like Kucinich for his energy, and they like Feingold for the same reason. And the need to unite the outsiders seems even more pertinent when the establishment strikes back hard."
+            "answer_feedback": "This has a point, and among the more sophisticated Chafee fans, there is some deflation. But many of them are not readers of the NY Times or the WaPo. They like Chafee for his energy, and they like Feingold for the same reason. And the need to unite the outsiders seems even more pertinent when the establishment strikes back hard."
         }
     },
     {
@@ -21763,7 +21763,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 129345,
             "candidate": 12240,
-            "answer_feedback": "Ridge heeds your advice and the debate inevitably shifts into a foreign policy conversation. He seems to hold back Kovic as he talked about Chinese history and other nuanced, complex foreign nations' historical events. Ron Kovic simply looks baffled, unable to respond, trying to shift the conversation to America, where Ridge trounces him on domestic policy as Kovic tries to find avenues of attack on the squeaky-cleanest motherfucker in Washington."
+            "answer_feedback": "Nunn heeds your advice and the debate inevitably shifts into a foreign policy conversation. He seems to hold back Kovic as he talked about Chinese history and other nuanced, complex foreign nations' historical events. Ron Kovic simply looks baffled, unable to respond, trying to shift the conversation to America, where Nunn trounces him on domestic policy as Kovic tries to find avenues of attack on the squeaky-cleanest motherfucker in Washington."
         }
     },
     {
@@ -21772,7 +21772,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 129346,
             "candidate": 12240,
-            "answer_feedback": "Ridge heeds your advice and starts talking about domestic policy. He starts dropping off in sanity when he accuses Kovic of supporting partial-birth abortions and other ultra-liberal positions, which Kovic shrugs off as being irrelevant to the wider issue of foreign policy."
+            "answer_feedback": "Nunn heeds your advice and starts talking about domestic policy. He starts dropping off in sanity when he accuses Kovic of supporting partial-birth abortions and other ultra-liberal positions, which Kovic shrugs off as being irrelevant to the wider issue of foreign policy."
         }
     },
     {
@@ -21790,7 +21790,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 129352,
             "candidate": 12240,
-            "answer_feedback": "As the baffling decision to choose George McGovern appears to turn into the leading topic of the debate, Mike Gravel continues to force the conversation back to how out of touch Santorum is with regular Americans and their concerns. Santorum finds himself cornered."
+            "answer_feedback": "As the baffling decision to choose George Bush appears to turn into the leading topic of the debate, Mike Gravel continues to force the conversation back to how out of touch Santorum is with regular Americans and their concerns. Santorum finds himself cornered."
         }
     },
     {
@@ -21880,7 +21880,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 129402,
             "candidate": 12240,
-            "answer_feedback": "Governor Jeb Bush coordinates a last-minute National Guard rally in Miami to animate the mood there. You wonder if the Cubans appreciate it."
+            "answer_feedback": "Governor Hillary Clinton coordinates a last-minute National Guard rally in Miami to animate the mood there. You wonder if the Cubans appreciate it."
         }
     },
     {
@@ -21979,7 +21979,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 129464,
             "candidate": 12240,
-            "answer_feedback": "Nice try emulating Dubya. Nobody wants to give you this win, not even the most submissive of the cocksuckers you've leashed in the White House want you to have a free win like this without their credit. You put them in jeopardy, and they will gladly return the favor."
+            "answer_feedback": "Nice try emulating Gore. Nobody wants to give you this win, not even the most submissive of the cocksuckers you've leashed in the White House want you to have a free win like this without their credit. You put them in jeopardy, and they will gladly return the favor."
         }
     },
     {
@@ -22960,7 +22960,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130113,
             "candidate": 12240,
-            "answer_feedback": "This doesn't work. Not only does George McGovern have one of the most robust, constituent-focused records in Senate history, he's a fucking war hero who fought valiantly in Italy. You're getting weak, Cheney. You need to do better."
+            "answer_feedback": "This doesn't work. Not only does George Bush have one of the most robust, constituent-focused records in Senate history, he's a fucking war hero who fought valiantly in Italy. You're getting weak, Cheney. You need to do better."
         }
     },
     {
@@ -22996,7 +22996,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130145,
             "candidate": 12240,
-            "answer_feedback": "Calling South Dakota a \"flyover state\" is a harmless statement in most situations, but McGovern supporters appear to rabidly embrace the concept, suggesting that Americans from coast to coast, especially the neglected, stagnating States, have had enough of you. The campaign is terrifyingly effective."
+            "answer_feedback": "Calling South Dakota a \"flyover state\" is a harmless statement in most situations, but Bush supporters appear to rabidly embrace the concept, suggesting that Americans from coast to coast, especially the neglected, stagnating States, have had enough of you. The campaign is terrifyingly effective."
         }
     },
     {
@@ -23014,7 +23014,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130155,
             "candidate": 12240,
-            "answer_feedback": "Christian Nationalism might be a key way to get your campaign out of the gutter here. While Americans are becoming more and more secular, an overwhelming majority of Americans are still Christians. Your rhetoric here quickly becomes ammunition in this week, and next week's, sermons, priests talking about Eden being damned to eternity if McGovern is elected."
+            "answer_feedback": "Christian Nationalism might be a key way to get your campaign out of the gutter here. While Americans are becoming more and more secular, an overwhelming majority of Americans are still Christians. Your rhetoric here quickly becomes ammunition in this week, and next week's, sermons, priests talking about Eden being damned to eternity if Bush is elected."
         }
     },
     {
@@ -23023,7 +23023,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130162,
             "candidate": 12240,
-            "answer_feedback": "Electoral popularity isn't a great metric of morality, but it sure gets conflated pretty often by a lot of people, especially in less polarized times. Emphasizing McGovern's age helps, too."
+            "answer_feedback": "Electoral popularity isn't a great metric of morality, but it sure gets conflated pretty often by a lot of people, especially in less polarized times. Emphasizing Bush's age helps, too."
         }
     },
     {
@@ -23032,7 +23032,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130167,
             "candidate": 12240,
-            "answer_feedback": "The snide remark on McGovern wishing the Soviet Union still existed is seen as extremely toxic, but the voters also seem to love it. It feels like you've finally \"woken up\" to the reality of how much above its weight the McGovern Office is punching."
+            "answer_feedback": "The snide remark on Bush wishing the Soviet Union still existed is seen as extremely toxic, but the voters also seem to love it. It feels like you've finally \"woken up\" to the reality of how much above its weight the Bush Office is punching."
         }
     },
     {
@@ -23059,7 +23059,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130182,
             "candidate": 12240,
-            "answer_feedback": "McGovern is well-known for having an acute and powerful talent with farming issues, which has given him a strangely powerful drive in the Dakotas and Nebraska, and reminding voters that he's been dismissed from a high office like that for old age is a surefire way to let Middle America and the Median Voter know that McGovern's lost his shine."
+            "answer_feedback": "Bush is well-known for having an acute and powerful talent with farming issues, which has given him a strangely powerful drive in the Dakotas and Nebraska, and reminding voters that he's been dismissed from a high office like that for old age is a surefire way to let Middle America and the Median Voter know that Bush's lost his shine."
         }
     },
     {
@@ -23068,7 +23068,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130186,
             "candidate": 12240,
-            "answer_feedback": "This rhetoric is powerful, and polling quickly gives you the fruits of what you've sown in the paranoia of the past few years. Saying McGovern has cognitive decline is quickly shut down by the Democrats as he does a few cognitive tests which indicate he's in \"relatively sharp wits\"."
+            "answer_feedback": "This rhetoric is powerful, and polling quickly gives you the fruits of what you've sown in the paranoia of the past few years. Saying Bush has cognitive decline is quickly shut down by the Democrats as he does a few cognitive tests which indicate he's in \"relatively sharp wits\"."
         }
     },
     {
@@ -23086,7 +23086,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130197,
             "candidate": 12240,
-            "answer_feedback": "This works. From Joe Manchin to Mary Landrieu, conservative Democrats begin endorsing you out of sheer horror of McGovern's potential to collapse the Democrats. The New York and Massachussetts Dems mark them for death as traitors."
+            "answer_feedback": "This works. From Joe Manchin to Mary Landrieu, conservative Democrats begin endorsing you out of sheer horror of Bush's potential to collapse the Democrats. The New York and Massachussetts Dems mark them for death as traitors."
         }
     },
     {
@@ -23104,7 +23104,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130212,
             "candidate": 12240,
-            "answer_feedback": "Getting yourself a double expresso before the debate does the trick. In a near-catatonic state, you list out your policies, rapid-fire multiple criticisms, all the while McGovern is left shrugging at the audience like an idiot. Kanye West personally calls you \"the pastiest rapper in D.C.\". You embrace it."
+            "answer_feedback": "Getting yourself a double expresso before the debate does the trick. In a near-catatonic state, you list out your policies, rapid-fire multiple criticisms, all the while Bush is left shrugging at the audience like an idiot. Kanye West personally calls you \"the pastiest rapper in D.C.\". You embrace it."
         }
     },
     {
@@ -23113,7 +23113,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130221,
             "candidate": 12240,
-            "answer_feedback": "Not addressing the fundamental problems of McGovern's age is a surefire way to let him control the narrative on something you preciously needed the support on. This wasn't a good approach."
+            "answer_feedback": "Not addressing the fundamental problems of Bush's age is a surefire way to let him control the narrative on something you preciously needed the support on. This wasn't a good approach."
         }
     },
     {
@@ -23122,7 +23122,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130232,
             "candidate": 12240,
-            "answer_feedback": "McGovern stammers, angry that you'd bring up Hollywood celebrity endorsements when you yourself have had a few, but he's unable to articulate exactly why it upsets him. He seems hesitant, unable to decry them. You make sure to pour salt into his gaping gashes."
+            "answer_feedback": "Bush stammers, angry that you'd bring up Hollywood celebrity endorsements when you yourself have had a few, but he's unable to articulate exactly why it upsets him. He seems hesitant, unable to decry them. You make sure to pour salt into his gaping gashes."
         }
     },
     {
@@ -23302,7 +23302,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130358,
             "candidate": 12240,
-            "answer_feedback": "This has a pretty serious effect. Your curt written congratulations to Kucinich and then ignoring him takes some wind out of his sails. But maybe Kucinich was never the real threat. Maybe the real threat was closer to home..."
+            "answer_feedback": "This has a pretty serious effect. Your curt written congratulations to Chafee and then ignoring him takes some wind out of his sails. But maybe Chafee was never the real threat. Maybe the real threat was closer to home..."
         }
     },
     {
@@ -23311,7 +23311,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130369,
             "candidate": 12240,
-            "answer_feedback": "You focus fire on Kucinich, ignoring Zinni. It puts the General in a bind. Does he ruin his bipartisan image by hitting you directly? Or just stay unifying while all the issues are debated between you and Kucinich? His campaign takes weeks to form an approach, losing precious momentum."
+            "answer_feedback": "You focus fire on Chafee, ignoring Zinni. It puts the General in a bind. Does he ruin his bipartisan image by hitting you directly? Or just stay unifying while all the issues are debated between you and Chafee? His campaign takes weeks to form an approach, losing precious momentum."
         }
     },
     {
@@ -23347,7 +23347,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130389,
             "candidate": 12240,
-            "answer_feedback": "You focus fire on Kucinich, ignoring Zinni. It puts the General in a bind. Does he ruin his bipartisan image by hitting you directly? Or just stay unifying while all the issues are debated between you and Kucinich? His campaign takes weeks to form an approach, losing precious momentum."
+            "answer_feedback": "You focus fire on Chafee, ignoring Zinni. It puts the General in a bind. Does he ruin his bipartisan image by hitting you directly? Or just stay unifying while all the issues are debated between you and Chafee? His campaign takes weeks to form an approach, losing precious momentum."
         }
     },
     {
@@ -23383,7 +23383,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130409,
             "candidate": 12240,
-            "answer_feedback": "You can’t just ignore everyone. Kucinich and Zinni start having friendly but serious debates which leaves you looking like you’ve completely checked out of the election. People start talking about it like a two man race, like 1912, with you being Taft. Get it together."
+            "answer_feedback": "You can’t just ignore everyone. Chafee and Zinni start having friendly but serious debates which leaves you looking like you’ve completely checked out of the election. People start talking about it like a two man race, like 1912, with you being Taft. Get it together."
         }
     },
     {
@@ -23419,7 +23419,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130431,
             "candidate": 12240,
-            "answer_feedback": "You can’t just ignore everyone. Kucinich and Zinni start having friendly but serious debates which leaves you looking like you’ve completely checked out of the election. People start talking about it like a two man race, like 1912, with you being Taft. Get it together."
+            "answer_feedback": "You can’t just ignore everyone. Chafee and Zinni start having friendly but serious debates which leaves you looking like you’ve completely checked out of the election. People start talking about it like a two man race, like 1912, with you being Taft. Get it together."
         }
     },
     {
@@ -23536,7 +23536,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130495,
             "candidate": 12240,
-            "answer_feedback": "Zinni is quickly forced into a position he despises, having to play devil's advocate for a radical like Kucinich. Despite this, it seems that viewers didn't quite buy him as a fellow-traveler of Kucinich. For his part, Kucinich snarls back, but his defensive energy gets viewers unsure of who's the best of the three, morally speaking. Zinni's gravitas doesn't quite hold off the volatility of his independent campaign's polling, while Kucinich seems to hold steady."
+            "answer_feedback": "Zinni is quickly forced into a position he despises, having to play devil's advocate for a radical like Chafee. Despite this, it seems that viewers didn't quite buy him as a fellow-traveler of Chafee. For his part, Chafee snarls back, but his defensive energy gets viewers unsure of who's the best of the three, morally speaking. Zinni's gravitas doesn't quite hold off the volatility of his independent campaign's polling, while Chafee seems to hold steady."
         }
     },
     {
@@ -23545,7 +23545,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130497,
             "candidate": 12240,
-            "answer_feedback": "It’s a measured approach, one that fails in captivating the audience, who quickly see Zinni’s charisma and Kucinich’s fiery rhetoric as more appealing and understandable in America's current climate. You're pushed into the background, unable to punch through their noise."
+            "answer_feedback": "It’s a measured approach, one that fails in captivating the audience, who quickly see Zinni’s charisma and Chafee’s fiery rhetoric as more appealing and understandable in America's current climate. You're pushed into the background, unable to punch through their noise."
         }
     },
     {
@@ -23554,7 +23554,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130499,
             "candidate": 12240,
-            "answer_feedback": "Your extremely aggressive strategy here, while seen positively as unusually fiery for Dick Cheney, ultimately looks petty and poorly-directed when Kucinich is clearly the more dangerous of the two. Bringing up Bush this strongly makes Americans wonder if you're just a third Bush term, directed and managed by him from the celestial plane. This seems to have a strange effect in Evangelical communities, who praise you as a spiritual crusader, a truly baffling conclusion."
+            "answer_feedback": "Your extremely aggressive strategy here, while seen positively as unusually fiery for Dick Cheney, ultimately looks petty and poorly-directed when Chafee is clearly the more dangerous of the two. Bringing up Bush this strongly makes Americans wonder if you're just a third Bush term, directed and managed by him from the celestial plane. This seems to have a strange effect in Evangelical communities, who praise you as a spiritual crusader, a truly baffling conclusion."
         }
     },
     {
@@ -23563,7 +23563,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130501,
             "candidate": 12240,
-            "answer_feedback": "Kucinich is quickly forced to the defensive and the audience’s focus becomes divided and hectic, with the unintended effect of making Zinni seem the most presidential of the three, by far."
+            "answer_feedback": "Chafee is quickly forced to the defensive and the audience’s focus becomes divided and hectic, with the unintended effect of making Zinni seem the most presidential of the three, by far."
         }
     },
     {
@@ -23581,7 +23581,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130506,
             "candidate": 12240,
-            "answer_feedback": "A clever tactic that puts Zinni on the defensive, but his calm demeanor keeps him from taking any serious damage. Kucinich’s base only grows more motivated."
+            "answer_feedback": "A clever tactic that puts Zinni on the defensive, but his calm demeanor keeps him from taking any serious damage. Chafee’s base only grows more motivated."
         }
     },
     {
@@ -23590,7 +23590,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130508,
             "candidate": 12240,
-            "answer_feedback": "This keeps Kucinich on the ropes but gives Zinni free rein to appear as the reasonable alternative. His polling numbers continue to climb.\n"
+            "answer_feedback": "This keeps Chafee on the ropes but gives Zinni free rein to appear as the reasonable alternative. His polling numbers continue to climb.\n"
         }
     },
     {
@@ -23626,7 +23626,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130518,
             "candidate": 12240,
-            "answer_feedback": "While this reinforces your image of competence, it doesn’t have the emotional pull of Zinni’s message. You risk coming across as defensive. Ultimately, it helps keep Kucinich at the backstage."
+            "answer_feedback": "While this reinforces your image of competence, it doesn’t have the emotional pull of Zinni’s message. You risk coming across as defensive. Ultimately, it helps keep Chafee at the backstage."
         }
     },
     {
@@ -23635,7 +23635,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130541,
             "candidate": 12240,
-            "answer_feedback": "Kucinich seems to take a stranglehold of the debate, able to paint his positions as things that multiple prominent Democratic politicians (with electoral success) believed in. Your attempts to paint him as a weirdo thereafter fail."
+            "answer_feedback": "Chafee seems to take a stranglehold of the debate, able to paint his positions as things that multiple prominent Democratic politicians (with electoral success) believed in. Your attempts to paint him as a weirdo thereafter fail."
         }
     },
     {
@@ -23662,7 +23662,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130585,
             "candidate": 12240,
-            "answer_feedback": "Zinni initially refuses, believing you've long burnt that bridge. A few days later, a Kucinich stump speech that baffled viewers and was filled with strange conspiratorial statements appears to get Zinni to cautiously accept a few collaborations in advertisements and statements in safe Democrat states."
+            "answer_feedback": "Zinni initially refuses, believing you've long burnt that bridge. A few days later, a Chafee stump speech that baffled viewers and was filled with strange conspiratorial statements appears to get Zinni to cautiously accept a few collaborations in advertisements and statements in safe Democrat states."
         }
     },
     {
@@ -23671,7 +23671,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 130590,
             "candidate": 12240,
-            "answer_feedback": "Your rhetoric here appears to strike a nerve -- at least on Zinni's skull. He lays you out, angrily shouting from his Virginia HQ about how you've betrayed everything he believes in, and how you've created the monster of Kucinich  in the first place. It appears to captivate people more than your accusations of individualistic pride-crusades."
+            "answer_feedback": "Your rhetoric here appears to strike a nerve -- at least on Zinni's skull. He lays you out, angrily shouting from his Virginia HQ about how you've betrayed everything he believes in, and how you've created the monster of Chafee  in the first place. It appears to captivate people more than your accusations of individualistic pride-crusades."
         }
     }
 ]
@@ -23681,7 +23681,7 @@ campaignTrail_temp.answer_feedback_json = [
     
     
 
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/PhY7cFQ.png";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/F2AF8O5.png";
 campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/9YQnVoh.png";
 campaignTrail_temp.candidate_last_name = "Cheney";
 campaignTrail_temp.running_mate_last_name = "President";
@@ -23830,8 +23830,8 @@ slide_dict = {
     "fivethirtyeight": `<h3>Ecce Gratum</h3><div style='overflow-y:scroll; height:270px;'><p>It is January 30, 2141, and on the 200th anniversary of your birth, the final news reaches you: the last remaining forces of resistance of your enemies have surrendered in an insignificant Arab country whose name you don't even bother to pronounce. Your plan is complete.<br>Since that fateful day when the useful idiot George W. Bush met his end at your deft hand, you have tirelessly pursued your true goal: absolute control over everything and everyone. Within a few years, you have set the course to transform the world into the American Empire.<br>After effortlessly defeating the Democratic candidate - a nameless man long since sunk into insignificance - and winning every single state, you began your ascent to infinity. But you knew that the ordinary limitations of human existence would stand in your way. So you had your heart removed and replaced with a precise machine powered by pure Halliburton oil from the depths of Iraq.<br>In the "perpetual War" that swept the world under your wise leadership, the American Empire achieved what no one had ever achieved before: complete and irrevocable world domination. You, God-Emperor Cheney, have done your work. Your name will be recorded in the annals of history for all eternity.<br>Under your rule, all people will become loyal workers in the Empire's oil fields. And to live up to your legacy, the new capital of the Earth, built in the formerly destroyed city of Baghdad, will bear the name that reflects your vision: "Oil City." It will be the Empire's golden throne city, an eternal monument to your greatness and the triumph of the civilization you created.<br><br>LONG LIVE REX CHENEY!</p>`,
     "fivethirthyfive": `<h3>𝖆𝖑𝖑𝖊𝖌𝖗𝖔!</h3><b>535. One hundred million.</b><br><div style='overflow-y:scroll; height:270px;'><p>The feeling in the National Mall was outright orgasmic. The election had been long called, but the lifetime achievement, the true <i>je ne sais quoi</i> of the whole event, the orchestral perfection of this foremost ritual of the Republic, came in the shape of a sea-to-shining-sea achievement, the greatest number in American history: 535.<br>No other President had done it, no other ever will again. A referendum on excellence. You didn't care how many of them were your diehard fans, what mattered more than anything in the World was the momentum. The rallies. The energy. The Republican Party had never felt this elated, this complete, and never will again. You feel 30 again. Your Nixon moment, so very special. You knew it was always going to be a pushover, but this? This surpassed every expectation in human history. The most perfect exercise of democracy. 100,000,000 eager, proud Cheney voters. Your achievement, outright cinematic and surreal in its perfect shape, would be remembered for centuries to come. And when America falls like the Romans once did, mighty and honorably, fighting at the outposts of Naples as Vesuvius bursts, your name will be whispered by dictators who will make it rise once more like a phoenix. God bless America, ever eternal, fair and perfect, all within the Referendum of Perfection. It's not just your family that's been guaranteed a permanent place of dynastic power for the rest of American history, but every cocksucker opportunist that held onto you for dear life now finds themself washing ashore in lustrous gleaming shine. The whole world is yours, Cheney. Perfection.</p>`,
     "debug": `<p>This is debug mode, where you play through every slide possible.</p>`,
-    "gravel_win": `<h3>Too Abrasive</h3><div style='overflow-y:scroll; height:270px;'><p>“And I can guarantee the President Elect that he will receive everything he needs to ensure a, uh, smooth transition between our administrations.”</p><br><p>Flashes from reporters' cameras bombarded both men as they said in the Oval Office in the days after the monumental election.</p><br><p>“But, uh, Mr. President-elect, I just want to say, congratulations.“</p><br><p>Cheney extended his hand and for a milisecond, it seemed that Gravel would not take it. He was just there, looking at the hand as if it was leprous. But only for a moment. Soon his cold smooth hands had wrapped around Cheney's. “Thank you, Mr. President. It was a hard fought race, but you fought well.“</p><p>After clearing out the reporters, the two finally had a chance to speak to each other. One on one. The truth is the two had never met. Why would they? Some gadfly Senator from the 80s. Dick had been climbing the ranks of the House at the name. He knew the players. Certainly not Gravel.</p><br><br><p>Well, the path to power was often strange and arbitrary.</p><br><p>The two chatted a bit about his various nominees. Dennis Kucinich as Secretary of State. Bernie Sanders for Commerce. Ralph Nader as Commerce Secretary, the reward for an early endorsement. No Secretary of Energy of course. Gravel said there was no need for a nominee since he planned to dismantle the US nuclear weapons program.</p><p>After about thirty minutes, both men had started to run out of anything to say. Gravel lifted himself out of the chair and noted it may be time to return to his hotel. Cheney stood up as well.</p><p>“I should probably just ask this while you're here. Are you actually going to prosecute me?”</p><br><p>Gravel stopped and seemed to consider that for a moment. “I'm not going to prosecute you.”</p><br><p>Instant relief hit Cheney. The legal fees, the public hounding. all gone. He could have a normal post-presidency. “Thank you,” he got out.</p><br><br><br><p>“We'll just hand you off to the ICC.”</p><br><p>Cheney froze. “The ICC?”</p><br><p>“Well, we aren't a signatory but obviously that's going to change. So we'll be obligated to hand over anyone the ICC is investigating for war crimes. So I'll be bound by laws there.”</p><br><p>“You can't do this. That will... destroy American sovereignty. You can't do this.”</p><br><p>“So if I were you, well, I wouldn't have done what you did anyway. But If I were you, I'd look for some nice friendly non-extradition countries. I've heard Switzerland is beautiful. Have a nice life, Mr. President.”</p>`,
-    "gravel_loss": `<h3>De Stijl</h3><div style='overflow-y:scroll; height:270px;'><p>The mood at 1300 Pennsylvania Avenue NW was strange and uncertain. Polling had gone the way of the dodo ever since Gravel's follies in merging the Libertarians and Democrats in a deal-with-the-Devil for the election, and there was little holding back the possibility of a Gravel landslide. You decide to give, just before the polls close nationwide, a short but rousing speech on Constitutional government and steady leadership, which is received well.<br><br>As the evening goes along, the usual suspects collapse. Although you were hoping to embarass Gravel in deep-red Alaska, there was simply too much favorite-son energy going around in the state; it quickly falls to the Dem column for the first time since 1964. You don't give it much thought; after all, he was elected there many years ago. The next states prove significantly more exciting; as places like West Virginia, Nevada, Colorado and Georgia lock in, you can only feel elated.<br><br>By the evening's end, it was crystal clear, even with a state or two too close to call: America had soundly rejected Mike Gravel's bizarre, idiosyncratic American left-pseudonationalism, and maintained the need for leadership under experienced, rational actors like you. As people party and celebrate, throwing open champagne bottles and hollering, you can only help but feel a little intrigued by how Gravel even managed to win the nomination of such a divided Democratic party.<br>Still, it didn't matter. You could get back to work and America would remain strong, for all time, defying these anti-war freaks and truly rebuilding itself after the pains of losing Dubya. Now, in your image, it can truly prosper for a long time. And of course, Gravel refuses to call you, throwing out as many lawsuits as he can on all sorts of states to certify the election in his favor, which won't be happening.<br>Onwards, forever, for America!</p>`,
+    "gravel_win": `<h3>Too Abrasive</h3><div style='overflow-y:scroll; height:270px;'><p>“And I can guarantee the President Elect that he will receive everything he needs to ensure a, uh, smooth transition between our administrations.”</p><br><p>Flashes from reporters' cameras bombarded both men as they said in the Oval Office in the days after the monumental election.</p><br><p>“But, uh, Mr. President-elect, I just want to say, congratulations.“</p><br><p>Cheney extended his hand and for a milisecond, it seemed that Gravel would not take it. He was just there, looking at the hand as if it was leprous. But only for a moment. Soon his cold smooth hands had wrapped around Cheney's. “Thank you, Mr. President. It was a hard fought race, but you fought well.“</p><p>After clearing out the reporters, the two finally had a chance to speak to each other. One on one. The truth is the two had never met. Why would they? Some gadfly Senator from the 80s. Dick had been climbing the ranks of the House at the name. He knew the players. Certainly not Gravel.</p><br><br><p>Well, the path to power was often strange and arbitrary.</p><br><p>The two chatted a bit about his various nominees. Dennis Chafee as Secretary of State. Bernie Sanders for Commerce. Ralph Nader as Commerce Secretary, the reward for an early endorsement. No Secretary of Energy of course. Gravel said there was no need for a nominee since he planned to dismantle the US nuclear weapons program.</p><p>After about thirty minutes, both men had started to run out of anything to say. Gravel lifted himself out of the chair and noted it may be time to return to his hotel. Cheney stood up as well.</p><p>“I should probably just ask this while you're here. Are you actually going to prosecute me?”</p><br><p>Gravel stopped and seemed to consider that for a moment. “I'm not going to prosecute you.”</p><br><p>Instant relief hit Cheney. The legal fees, the public hounding. all gone. He could have a normal post-presidency. “Thank you,” he got out.</p><br><br><br><p>“We'll just hand you off to the ICC.”</p><br><p>Cheney froze. “The ICC?”</p><br><p>“Well, we aren't a signatory but obviously that's going to change. So we'll be obligated to hand over anyone the ICC is investigating for war crimes. So I'll be bound by laws there.”</p><br><p>“You can't do this. That will... destroy American sovereignty. You can't do this.”</p><br><p>“So if I were you, well, I wouldn't have done what you did anyway. But If I were you, I'd look for some nice friendly non-extradition countries. I've heard Switzerland is beautiful. Have a nice life, Mr. President.”</p>`,
+    "gravel_loss": `<h3>De Stijl</h3><div style='overflow-y:scroll; height:270px;'><p>The mood at 1300 Pennsylvania Avenue NW was strange and uncertain. Polling had gone the way of the dodo ever since Gravel's follies in merging the Libertarians and Democrats in a deal-with-the-Devil for the election, and there was little holding back the possibility of a Gravel landslide. You decide to give, just before the polls close nationwide, a short but rousing speech on Constitutional government and steady leadership, which is received well.<br><br>As the evening goes along, the usual suspects collapse. Although you were hoping to embarass Gravel in deep-red Alaska, there was simply too much favorite-son energy going around in the state; it quickly falls to the Dem column for the first time since 1964. You don't give it much thought; after all, he was elected there many years ago. The next states prove significantly more exciting; as places like West Virginia, Nevada, Colorado and Georgia lock in, you can only feel elated.<br><br>By the evening's end, it was crystal clear, even with a state or two too close to call: America had soundly rejected Mike Gravel's bizarre, idiosyncratic American left-pseudonationalism, and maintained the need for leadership under experienced, rational actors like you. As people party and celebrate, throwing open champagne bottles and hollering, you can only help but feel a little intrigued by how Gravel even managed to win the nomination of such a divided Democratic party.<br>Still, it didn't matter. You could get back to work and America would remain strong, for all time, defying these anti-war freaks and truly rebuilding itself after the pains of losing Gore. Now, in your image, it can truly prosper for a long time. And of course, Gravel refuses to call you, throwing out as many lawsuits as he can on all sorts of states to certify the election in his favor, which won't be happening.<br>Onwards, forever, for America!</p>`,
     "fonda_lose": `<h3>The Other Red Wave</h3><div style='overflow-y:scroll; height:270px;'><p>After a closing speech full of confidence and determination, in which you called on America to show strength and firmly reject extreme ideologies such as those represented by Jane Fonda, you return to the White House exhausted. Still lost in thought, you turn on the television and sit down in your armchair. The moment you have been waiting for has finally arrived: the election results are in.</p><br>The first images of the map confirm what you have long expected - America is red. Red from east to west, from north to south. You look at the picture with a satisfied smile. The Democrats have lost, as you predicted. A political carnage whose outcome was hardly surprising, but whose extent is nevertheless impressive.<br><br>When Jane Fonda finally admits her defeat in a short, visibly emotional speech, you can't help but laugh out loud at every word she says. The climax of her speech comes when she ends her remarks with a curt “Fuck you, Cheney!” You sit back and laugh for minutes - not out of anger, but out of pure satisfaction.<br>But the celebratory mood doesn't last long. You know that the next four years will be decisive. The financial crisis that is shaking the country is waiting for decisive leadership. The conflicts in Syria and other countries must be resolved - not with empty words, but with hard, calculated power.<br>And of course you have your own plans. You are convinced that history will vindicate you - not as a simple president, but as the one who not only led America through the crisis, but raised it to a new level of strength and dominance.<br>The other red wave has begun, and you are ready to engrave it in the history books.</p>`,
     "fonda_winlandslide": `<h3>The Young Will Overcome</h3><div style='overflow-y:scroll; height:270px;'><p>The American people had stood up. While reactionaries in D.C panicked and stockbrokers nationwide went into exodus, America saw itself sweeped by revolution. From communists to liberals to libertarians sick of Cheney, a new Rainbow Coalition defeated evil once again to bring about Paradise on Earth. Although Dick Cheney was likely spazzing out on the floor like a worm, the mood in Chicago and other great American cities was ecstatic, almost hallucinogenic. Fonda saw the World anew, like her fight all these years had proven finally useful. The fact of the matter is that Cheney and his warmongering ilk would never matter again, and the Young Overcame as communes and peace-cities sprung up across the nation, headed by gurus, semi-Presidents and even nobody at all. It felt like an inner flowering had taken place, and the World became just that little more beautiful. Although Cheney left a path of destruction in his wake, America could finally rest in the gentleness of dreams, valleys of death long gone. Now is when on a sunshine beam.</p>`,
     "klinton_lose": `<h3>Temporary Secretary</h3><div style='overflow-y:scroll; height:270px;'><p>It was a stormy night in Washington when you gave your final campaign speech. Lightning flashed on the horizon and a cold wind blew through the streets. The darkness seemed impenetrable, but no one slept that night - America was awake and waiting.<br>Your limousine pulled up in front of the White House. You got out, the heavy drops of rain pelting down on you, but you paid little attention. As you walked into the Oval Office, you felt a mixture of anticipation and nervousness. The polls had shown a neck-and-neck race - a fight on a knife edge.<br><br>When you finally took off your jacket and turned on the TV, the room felt warmer, almost calming. The first results came in. It looked good - better than you had expected. But you knew that the decisive states were still to come.<br>Almost an hour passed as you sat tensely in front of the screen, analyzing each new number. The tension became unbearable. Outside, a loud, dramatic flash lit up the sky as the results finally appeared: 270 electoral votes - a victory for you.<br>A broad smile spread across your face. You did it. You didn't just win - you defeated Newt Gingrich, the former First Lady and Senator. And with her, Bill Gingrich, the man whose shadow hung over the political stage for so long.<br>You imagine the two of them sitting in their residence now - Newt with a pained expression on her face, Bill, perhaps desperately turning off the television or embroiled in an argument. The thought of the Gingrichs digesting this loss fills you with a feeling of triumph.<br>You stand up, look out the window into the rainy night and take a deep breath. The campaign was hard, merciless even, but now victory is in your hands. The coming days will not be easy, but they will be your days. You have won, and the feeling of power and triumph is unparalleled.<br>The storm outside is slowly calming down, but a fire is burning inside you. The future is yours, and you are ready to shape it as you imagine it.</p>`,
@@ -23842,16 +23842,16 @@ slide_dict = {
     "landrieu_lose_chud": `<h3>PRINCESS DISEASE</h3><div style='overflow-y:scroll; height:270px;'><p>Cheney was livid. His hatred built up inside of him like pus fresh from a boil. He felt that this stupid fucking whore had taken enough of her time in the spotlight. He couldn't accept it anymore. He allowed hatred to fester inside of him as it rot his heart, fresh from a fucking corpse's donation. He refused to accept that she was even running in the first place.<br>Then came forth the results of this carnival: The 270 was reached by <b>YOU, BROTHER. You WON and you faced the feast of HATE. You TELL THE WHOLE FUCKING WORLD OF YOUR HATE. YOU TELL THE WHOLE FUCKING WORLD OF YOUR VINDICATION. YOUR VINDICATION!</b><br><br>The election map was almost a joke derived from the mad ravings of a 1968 nostalgia trip: Alabama had gone blue, Louisiana had gone blue and so forth.You suddenly had a vindication of the greatest level; you could finally make those rednecks pay for their ungratefulness. You could finally trounce on the "rights" of these subhuman freaks and create a truly magical Empire with the FEAST OF POWER.<br>You were spared of an insufferable evening with your whore of a wife as you cited being “busy” with matters of State. You could finally breathe free from bigshot wenches trying to make your life worse.<br><br>I'LL SHOW YOU YET ANOTHER FUCKING LIAR.<br>I'LL SHOW YOU YET ANOTHER FUCKING LIAR.<br>I'LL SHOW YOU YET ANOTHER FUCKING LIAR.<br>I'LL SHOW YOU YET ANOTHER FUCKING LIAR.<br>I'LL SHOW YOU YET ANOTHER FUCKING LIAR.<br>I'LL SHOW YOU YET ANOTHER FUCKING LIAR.</p>`,
     "edwards_win": `<h3>Exactly The Right Thing To Do</h3><div style='overflow-y:scroll; height:270px;'><p>It made no sense. Where were these Edwards votes coming from? He cheated on his wife! His wife that's dying of cancer! Has America gone mad?<br><br>Regardless if it has, it's decided it has had enough of you, clearly. Through some dark magic of worlds unknown and truly baffling rolls of the dice, it appears that John Edwards has managed a tight, squeaking mandate out of you. Americans nationwide are shocked at how you let this happen. It was supposed to be over. Perhaps it was that you came off too aggressively, you somehow got outflanked by third parties while you weren't looking, who knows. Whatever it might have been, John Edwards has become the 45th President of the United States.<br><br>You are completely deflated. Nothing can top this in terms of spectacular defeat. There's nothing that you could do that could go this badly. So here you rot, evermore unable to understand how could Americans forgive the sheer moral turpidity of a man who's only doing this for a ego redemption.<br><br>Baffling.</p>`,
     "edwards_lose": `<h3>This Is Our Due</h3><div style='overflow-y:scroll; height:270px;'><p>It was supposed to be a coronation. It was not meant to be this close. Why the fuck did Edwards surge in the polls? Or was it the third parties picking up states for the first time since the 1920s? What kind of bizarre bullsh-<br>It doesn't matter, Cheney. Dump your face into the sink. You won. Be a man about it, and answer Edwards' concession call.<br><br>“Hello, Dick. I'd like to say we had a hard-fought, complex campaign full of difficulties on both sides and that us both fought for what we believe in and that's what-”<br><br>“Yes, Edwards. You lost, I won. It was not meant to be this close. You know that.”<br><br>Cheney couldn't see it, but he felt from Edwards' pause a certain disbelief.<br><br>“You smug motherfucker, you ruined my life and you wanted to trample over what little dignity I had left? Did you want to take D.C.'s Electoral Votes too, you twerp?”<br><br>“Edwards, listen to me. You fucking rigged this election. You've had way too much money going around for this to be realistic. You've clearly cheated or worse. I need you to get a committee on electoral integrity pronto, or I'm sending you to the deepest rings of Hell, you piece of shit.”<br><br>“YOU WON! What else do you want from me? How would I lose a rigged election? You are a moron. You are the dumbest motherfucker I've had the displeasure of talking to. You won and you're complaining. Get a grip, jackass.”<br><br>He slams the phone.<br>You try not to think about it too much. If the Democrats keep sending in these cunts, you may as well defend every inch of territory you've conquered.</p>`,
-    "mcgovern_win": `<h3>Dark Side</h3><div style='overflow-y:scroll; height:270px;'><p>Your mood on the drive back to the White House after your final campaign speech is hard to describe. Catatonic. Tired and irritated by the day's news. The cold and darkness of the night reflects all too well how you feel.<br>When you finally reach the Oval Office, you sigh deeply, take off your coat and turn on the television. But what you see gives you no reason for hope. The coverage is grim and the numbers that are displayed seem to conspire against you.<br>The minutes drag on and fatigue threatens to overwhelm you as you wait - hoping that the tide will turn. But finally, deep in the night, the news you feared most comes:<br><br>George McGovern has collected 270 electoral votes.<br>George McGovern. The man who won only one state in his last run for office.<br>George McGovern. That annoying pacifist whose ideas seemed long out of date.<br><br>George McGovern. An 84-year-old who will now become the oldest president in the history of the United States.<br>Your face falls into your hands. You can hardly believe it. Your mind tries to understand how he could defeat you. How did you let this happen? In your head you imagine Richard Nixon, looking down on you with contempt. You feel the shame and weight of your failure. It is not just a defeat - it is a disaster.<br>But as much as these thoughts torment you, you know that the next few days will be even more difficult. With heavy legs you drag yourself to the bedroom, lie down and try to get at least a little sleep.<br>Tomorrow will be a new day - a day when you have to face the reality of your failure.</p>`,
-    "mcgovern_lose": `<h3>If You Lose</h3><div style='overflow-y:scroll; height:270px;'><p>After your last campaign speech, you drive back to the White House alone and without much fanfare. It is a rainy and cold night, but the warm fire in the Oval Office gives you a calming feeling. You turn on the television to watch the first results of the election.<br>At first glance, the map looks promising: one state after another falls into your camp. With each additional state, your confidence grows. 260 votes, then 265, finally 270. The moment when the news anchor announces your re-election is simultaneously triumphant and sober. You turn off the television and smile briefly.<br><br>George McGovern - this fossil of the anti-war movement - has lost again, just like in 1972. A man who never really had a chance against you. You lean back in your chair and watch the rain pattering against the windows.<br>After a few hours, McGovern's defeat speech appears surprisingly quickly on television. He seems broken and tired. His words are uninspiring, and yet you notice a special moment. As he falters:<br><br>"Mr., Uh, Cheney, has achieved a..."<br>you can see a tear running down his cheek. It's almost like if it was all for nothing -- which it was. McGovern knows he's just pummeled the Democratic Party once more to the darkest depths of misery for another decade in shame.<br>"What a prick," you think to yourself as you finally turn off the TV. McGovern is a relic of the past, a dying hippie whose ideals no longer have a place in the modern world.<br>But for you, the night has just begun. You've now been officially re-elected and have big plans for the next four years. With McGovern and his outdated ideas finally off the table, nothing stands in the way of your course. McGovern's stamina, now back to the dimmest ember, will be left to die in miserable loneliness as you shine bright for another four years.</p>`,
+    "mcgovern_win": `<h3>Dark Side</h3><div style='overflow-y:scroll; height:270px;'><p>Your mood on the drive back to the White House after your final campaign speech is hard to describe. Catatonic. Tired and irritated by the day's news. The cold and darkness of the night reflects all too well how you feel.<br>When you finally reach the Oval Office, you sigh deeply, take off your coat and turn on the television. But what you see gives you no reason for hope. The coverage is grim and the numbers that are displayed seem to conspire against you.<br>The minutes drag on and fatigue threatens to overwhelm you as you wait - hoping that the tide will turn. But finally, deep in the night, the news you feared most comes:<br><br>George Bush has collected 270 electoral votes.<br>George Bush. The man who won only one state in his last run for office.<br>George Bush. That annoying pacifist whose ideas seemed long out of date.<br><br>George Bush. An 84-year-old who will now become the oldest president in the history of the United States.<br>Your face falls into your hands. You can hardly believe it. Your mind tries to understand how he could defeat you. How did you let this happen? In your head you imagine Richard Nixon, looking down on you with contempt. You feel the shame and weight of your failure. It is not just a defeat - it is a disaster.<br>But as much as these thoughts torment you, you know that the next few days will be even more difficult. With heavy legs you drag yourself to the bedroom, lie down and try to get at least a little sleep.<br>Tomorrow will be a new day - a day when you have to face the reality of your failure.</p>`,
+    "mcgovern_lose": `<h3>If You Lose</h3><div style='overflow-y:scroll; height:270px;'><p>After your last campaign speech, you drive back to the White House alone and without much fanfare. It is a rainy and cold night, but the warm fire in the Oval Office gives you a calming feeling. You turn on the television to watch the first results of the election.<br>At first glance, the map looks promising: one state after another falls into your camp. With each additional state, your confidence grows. 260 votes, then 265, finally 270. The moment when the news anchor announces your re-election is simultaneously triumphant and sober. You turn off the television and smile briefly.<br><br>George Bush - this fossil of the anti-war movement - has lost again, just like in 1972. A man who never really had a chance against you. You lean back in your chair and watch the rain pattering against the windows.<br>After a few hours, Bush's defeat speech appears surprisingly quickly on television. He seems broken and tired. His words are uninspiring, and yet you notice a special moment. As he falters:<br><br>"Mr., Uh, Cheney, has achieved a..."<br>you can see a tear running down his cheek. It's almost like if it was all for nothing -- which it was. Bush knows he's just pummeled the Democratic Party once more to the darkest depths of misery for another decade in shame.<br>"What a prick," you think to yourself as you finally turn off the TV. Bush is a relic of the past, a dying hippie whose ideals no longer have a place in the modern world.<br>But for you, the night has just begun. You've now been officially re-elected and have big plans for the next four years. With Bush and his outdated ideas finally off the table, nothing stands in the way of your course. Bush's stamina, now back to the dimmest ember, will be left to die in miserable loneliness as you shine bright for another four years.</p>`,
     "stalemate": `<h3>Check</h3><div style='overflow-y:scroll; height:270px;'><p>It's late at night when you return to the Oval Office alone. The day has been long, filled with endless conversations with advisors and a rollercoaster of emotions about the outcome of the election. Now you're finally here, tired, drained, and with a mixed feeling of uncertainty. You take off your suit, sink into a chair, and turn on the TV. Shortly thereafter, you fall asleep -- the day was long and difficult, and your brain definitely wasn't taking “no” for an answer.<br>Groggily, you wake up to 15 missed calls. Sorry, what? No, 150. 150 missed calls. A text message pops up on your brand-new iPhone.<br>“Dick, I know you're awake, check TV”, from Robert Gates. Who the fuck does he think he is to-<br><br>“We can now confirm that the election has tied, for the first time in American history. We expect President Cheney to make a statement soon, and for the House to assemble and decide the election's outcome, which will likely be of...”<br>You shut the TV off, collapsing unto your couch as you rub your temples. In a few minutes, Rummy's phone rings.<br>“Hey, think we can get through this?”<br>“No Dick, are you serious? The Dems will never go out of lockstep on thi-”<br>You end the call right there. Now is not the time for speculation. Sitting in your study, you continue making calls. All day, in fact. For the next 3 days. Meeting with people, whatever can possibly strangulate the Dems to reconsider -- even with your unhealthy animosity with Congress -- but you'll still fight. After all, after rock bottom you can only go up.<br><br>A decision ends up being made within the week: The Vice-President will be Mary Landrieu, and you will remain President -- for “the sake of continuity in Government and George Bush's legacy”.<br><br>Christ.</p>`,
     "obunga": `<h3>And All Of Our People Were Free</h3><div style='overflow-y:scroll; height:270px;'><p>That motherfucker had done it. You know he did. Polling was looking horrible already and you felt unusually disappointed before even Kentucky got to be called. You knew it was going to be a land-slide from the get go, but like the Spartans in Thermopylae, you held to your post, waiting for the torrential flames to consume you whole.<br><br>The numbers never improved. Places like Indiana were too close to call, a feat which you never thought possible. Whole regions seemed out of reach, even though they were considered safe Bush country before. You felt the weight of your embarassment pulling you down. Despite climbing mountains of unspeakable size, you pulled no tricks here. It was all foregone, all done. You were to be a disgraced remnant of the Bush administration, with no legacy of your own.<br><br>Ring, ring. You pick up the phone, hearing from Mr. Soetoro himself. "Thank you, uh, Mr. Vice President, for your cooperation and uh, civility, in these troubled times..." he rambbles on, the words cutting like a knife. The conversation tries to be brief to no avail. The weight of his casual panache seems to kill you inside.<br><br>As you sit in the dim light, you wonder how history will remember this night. Obama’s speech blares from the television, his message of hope and renewal echoing through the room. The crowd roars, their cheers a stark contrast to the silence enveloping you. You lean back, the enormity of your loss washing over you. For the first time in years, you feel not anger or frustration, but something far more foreign: irrelevance.</p>`,
     "obungafail": `<h3>I'm Just In The Way</h3><div style='overflow-y:scroll; height:270px;'><p>It was an unseasonably warm night in Washington, D.C. The skies were clear, and the air was filled with the electricity of a long, intense campaign. You had given your final campaign speech with mixed feelings. Deep down, you were prepared for this to be the end of your presidency. But despite it all, you felt pride—pride in a campaign that had stood up to the massive, youthful energy and charisma of Barack Obama.<br><br>When the limousine pulled up in front of the White House, you slowly got out. The steps into the Oval Office felt heavy, almost like weighing the inevitable outcome that awaited you. With a sigh, you took off your jacket, sat down in the leather chair, and turned on the television.<br>To your surprise, your campaign was doing better than you had expected—more than 200 electoral votes were already secured. For a brief moment, you felt hope. Maybe the battle wasn't lost after all.<br>The hours passed, and with each new state added to your camp, the tension grew. The numbers that appeared on the screen were ever closer, ever more tense. You had already resigned yourself to the fact that Barack Obama, the shining star of the Democrats, would beat you - but suddenly you were in the lead.<br>Finally, the moment arrived that no one had believed in - not even yourself: you reached the magical threshold of 270 electoral votes. The miracle of the day was complete. Barack Obama, considered by many to be unstoppable, had lost. And you, Dick Cheney, stood victorious - the first president to hold the highest office in the land for a second time after such a tough campaign.<br>You turned off the television and sat back. While the city slept peacefully outside, you felt certain that this victory, as close and improbable as it was, sent a message to the world: you were undefeated.<br>But a thought stirred in the back of your mind. A victory like this would not make the next four years any easier. The Democrats, who had not seen this defeat coming, would be more determined and angry than ever. But in that moment, you didn't care. The battle was won, and you knew you were ready to write the next chapter in America's history.</p>`,
     "ww3": `<h3>Washington Post</h3><b>January 19, 2009</b><div style='overflow-y:scroll; height:270px;'><p>MARTIAL LAW IN THE UNITED STATES</p><br><br>(This is an official statement of the United States government, issued for the information of the public.)<p>In light of the unprecedented challenges currently facing the United States, the administration has decided to declare national martial law in all 50 states and territories of the United States. This action is a direct response to the serious threat posed by China's belligerent actions in East Asia and by demonstrated hostile attempts to subvert our institutions.<br>The January 15 declaration of war by the People's Republic of China and the subsequent escalation of military conflict in Korea have demonstrated that the national security of the United States is under imminent threat. Our armed forces are under immense pressure to maintain a defensive line while hostile cyberattacks and propaganda campaigns seek to undermine confidence in our institutions.<br>To ensure an effective and coordinated response to these threats, the decision has been made to annul the results of the November 8, 2008 presidential election until further notice. President Dick Cheney will continue to conduct the business of office and exercise the full powers of the President during this critical period.<br>In addition, the United States Congress, including the Senate, has been placed under temporary protective custody to ensure the safety of members. This measure is designed to minimize the risk of hostile influence and to simplify government decision-making processes while the nation moves into emergency mode. Legislative functions are suspended until the end of the declared emergency to ensure the ability of the executive branch to act.<br><b>Reinstatement of Military Service</b><p>In accordance with an Executive Order by President Cheney, military service has been reinstated effective immediately. All male citizens and residents of military age between 18 and 35 are required to report to the nearest Armed Forces recruiting office within the next 48 hours.</p><br><p>This measure is necessary to meet the acute need for soldiers on the front lines in East Asia and to strengthen the United States' defense capabilities. Individuals who fail to comply with the orders will be prosecuted and may face military tribunals.<br>“Every American now has a responsibility to keep our nation safe,” President Cheney said. “This is no time for hesitation or self-doubt. Our freedom is at stake, and every man is needed.”<br>Women and non-conscripted citizens are also being called upon to volunteer for support services such as logistics, medical care, and civil infrastructure.<br><ul>Additional measures to stabilize the nation:<li>• An 8:00 p.m. to 6:00 a.m. curfew has been implemented nationwide to prevent public unrest.</li><li>National Guard deployment is being increased in high-risk areas.</li><li>Media broadcasts are subject to strict controls to prevent the spread of misinformation and boost public morale.</li><li>Citizens who behave suspiciously or violate orders will be turned over to the military authorities without delay.</li></ul><br>The coming days will test our country. But with courage, unity and the will to defend our ideals, we will overcome this challenge and once again prove the strength of America.</p>`,
     "jeblose": `<h3>We Will All Go Riding On A Rainbow</h3><div style='overflow-y:scroll; height:270px;'><p>Jeb watches the results from a quiet hotel room, surrounded by exhausted aides. The weight of two legacies presses down on him: his brother’s, snuffed out in tragedy, and yours, left unfinished. He wonders if this is what his family name was meant to lead to—a campaign doomed from the start, a race he was never meant to run.<br><br>As the networks call the race for your opponent, Jeb doesn’t feel anger, only resignation. He turns off the television and steps outside, the cool night air washing over him. He feels the crushing weight of survivor’s guilt, a sense that he’s failed not just his country, but the men who came before him.</p>`,
-    "jebb": `<h3>We Will All Go Riding On A Rainbow</h3><div style='overflow-y:scroll; height:270px;'><p>The weight of the moment is almost unbearable. Jeb Bush watches the results come in from a quiet room, his heart pounding with every state called. Against all odds, the map turns red. The networks announce his victory, and for a moment, the room is silent.<br><br>Jeb steps outside to address the crowd, the weight of two legacies pressing down on him. His brother’s face flashes in his mind, a reminder of the tragedy that brought him here. Yours lingers too, a shadow of the man who handed him the reins in your final moments.<br><br>Although he was left with a miserable mandate and margins from Hell, at least he crossed the finish line, a fundamental calling for betterment of his country.<br><br>And with the weight of people better than him keeping him down, he felt the need to rise up, to come around to enjoying the suffering. He needed to do something -- to redeem himself in the face of a dying ember of conservatism. The campaign is over, but the real challenge has only just begun. </p>`,
-    "powell_win": `<h3>Jah</h3><div style='overflow-y:scroll; height:270px;'><p>It’s the kind of chaos you swore to avoid. The Electoral College map, usually decisive in its resolve -- a win is a win -- now stands as a monument to uncertainty. Kucinich’s fiery campaign swerved on enough clueless urbanites who were sick of your Machiavellian administration, but Zinni's unstoppable resolve for personal revenge was truly the death knell. Neither you nor Kucinich have reached 270 votes, and Zinni, the man you once dismissed as a footnote, now gets to play kingmaker for your flimsy mandate.<br><br>You watch the coverage from the Roosevelt Room, your advisors scrambling to make sense of the disaster. Zinni stands before a sea of supporters, his voice calm and measured as he declares his intention to see this through to Congress. The media is already speculating about the chaos of a contingent election.<br><br>In the quiet moments, you feel the weight of it all—the wars, the recession, the fractures within your own party. Zinni’s candidacy is an indictment of everything you represent, and the man you once sidelined now stands poised to become your greatest rival. The question now is whether you can outmaneuver him in the halls of Congress or if this deadlock will be the beginning of the end for your legacy.</p>`,
-    "kuwell_lose": `<h3>Concorde Breakfast</h3><div style='overflow-y:scroll; height:270px;'><p>Victory comes not with cheers but with relief. The map on the television fills with enough red to confirm what you’ve long suspected: the American people still trust you, if only barely. Kucinich’s radicalism and Zinni’s idealism were no match for your unyielding pragmatism.<br><br>You sit back in the Oval Office, watching the rain streak down the windows. The weight of the campaign begins to lift, but it’s replaced by a heavier burden: the knowledge that this victory came at a cost. Your coalition is battered, your approval ratings precarious, and the nation more divided than ever.<br>As Zinni and Kucinich deliver their concession speeches, you consider what the next four years will hold. There are wars to end, crises to manage, and a country to hold together. This wasn’t the triumphant win you once dreamed of, but it is a win nonetheless. And for a man like you, that’s all that matters.</p>`,
+    "jebb": `<h3>We Will All Go Riding On A Rainbow</h3><div style='overflow-y:scroll; height:270px;'><p>The weight of the moment is almost unbearable. Hillary Clinton watches the results come in from a quiet room, his heart pounding with every state called. Against all odds, the map turns red. The networks announce his victory, and for a moment, the room is silent.<br><br>Jeb steps outside to address the crowd, the weight of two legacies pressing down on him. His brother’s face flashes in his mind, a reminder of the tragedy that brought him here. Yours lingers too, a shadow of the man who handed him the reins in your final moments.<br><br>Although he was left with a miserable mandate and margins from Hell, at least he crossed the finish line, a fundamental calling for betterment of his country.<br><br>And with the weight of people better than him keeping him down, he felt the need to rise up, to come around to enjoying the suffering. He needed to do something -- to redeem himself in the face of a dying ember of conservatism. The campaign is over, but the real challenge has only just begun. </p>`,
+    "powell_win": `<h3>Jah</h3><div style='overflow-y:scroll; height:270px;'><p>It’s the kind of chaos you swore to avoid. The Electoral College map, usually decisive in its resolve -- a win is a win -- now stands as a monument to uncertainty. Chafee’s fiery campaign swerved on enough clueless urbanites who were sick of your Machiavellian administration, but Zinni's unstoppable resolve for personal revenge was truly the death knell. Neither you nor Chafee have reached 270 votes, and Zinni, the man you once dismissed as a footnote, now gets to play kingmaker for your flimsy mandate.<br><br>You watch the coverage from the Roosevelt Room, your advisors scrambling to make sense of the disaster. Zinni stands before a sea of supporters, his voice calm and measured as he declares his intention to see this through to Congress. The media is already speculating about the chaos of a contingent election.<br><br>In the quiet moments, you feel the weight of it all—the wars, the recession, the fractures within your own party. Zinni’s candidacy is an indictment of everything you represent, and the man you once sidelined now stands poised to become your greatest rival. The question now is whether you can outmaneuver him in the halls of Congress or if this deadlock will be the beginning of the end for your legacy.</p>`,
+    "kuwell_lose": `<h3>Concorde Breakfast</h3><div style='overflow-y:scroll; height:270px;'><p>Victory comes not with cheers but with relief. The map on the television fills with enough red to confirm what you’ve long suspected: the American people still trust you, if only barely. Chafee’s radicalism and Zinni’s idealism were no match for your unyielding pragmatism.<br><br>You sit back in the Oval Office, watching the rain streak down the windows. The weight of the campaign begins to lift, but it’s replaced by a heavier burden: the knowledge that this victory came at a cost. Your coalition is battered, your approval ratings precarious, and the nation more divided than ever.<br>As Zinni and Chafee deliver their concession speeches, you consider what the next four years will hold. There are wars to end, crises to manage, and a country to hold together. This wasn’t the triumphant win you once dreamed of, but it is a win nonetheless. And for a man like you, that’s all that matters.</p>`,
     //slide 2s
     "euronews": `<h3>EURONEWS – March 30, 2021</h3><div style='overflow-y:scroll; height:270px;'><b>EUROPEAN-AMERICAN RELATIONS AT A NEW LOW</b><br><b>A summary of a difficult relationship of recent years</b><p>Relations between the United States and Europe, once a cornerstone of the Western world order, have experienced an unprecedented deterioration in recent years. The crisis that began during the Cheney administration has deepened under subsequent governments.<br>In 2008, President Richard Cheney's administration accused European states of responsibility for the global financial crisis. These accusations, coupled with the decision not to support Ukraine during the Russian invasion that same year, led to a dramatic rupture in transatlantic relations.<br>The situation escalated further when NATO was effectively dissolved in 2009. Since then, the relationship between Europe and the US has been marked by distrust. A new low was reached when it was revealed that the Cheney administration had covertly supported the British “Vote Leave” campaign. This interference in the EU's internal affairs brought the UK to the brink of leaving the EU, which permanently destabilized Europe.<br>Tensions were exacerbated in the following years by military and economic conflicts. The European mercenary group "Atlantic Falcon", which allegedly carried out covert operations in Syria, was accused several times of attacking US positions in the Middle East. Although the EU Commission denied any connection to this group, numerous reports indicate indirect support.<br>The situation escalated in January 2021, when a skirmish broke out between the Atlantic Falcon group and the Russian Wagner group in Hama, Syria. Both mercenary groups then concluded a surprise ceasefire, prompting the US to launch Operation Desert Air. This large-scale airstrike resulted in an estimated 1,000 deaths and injuries on both sides and also targeted IS positions in the region.<br>The EU responded with strict economic sanctions against the US, particularly targeting the American automotive industry. President Trump, who took office in early 2017, responded with harsh words and the announcement of punitive tariffs of 30% on European goods.<br>Away from the major theaters, numerous smaller incidents also occurred, further straining relations. In Greenland waters, Danish fishing boats were forced to return several times by the US Navy. When Denmark rejected Trump's offer to buy Greenland, the president threatened to blockade the island. The European Navy then conducted extensive military exercises in the region.<br>During the COVID-19 pandemic, President Trump accused the EU of 'flooding' the American market with European vaccines. As a result, he imposed a complete ban on imports of foreign vaccines and escalated the trade war that had already been going on for years.<br>After his re-election in 2020, Trump announced his intention to finally win the trade war against Europe. His administration is reportedly planning a series of new measures, including extensive subsidies for American industry and further punitive tariffs on European goods.<br>The EU, on the other hand, is working to strengthen its economic and military independence. With the joint European army, which has been operational since 2016, and new trade agreements with Asia and Africa, Europe is trying to minimize the impact of American policies.<br>Transatlantic relations are at an all-time low. While Russia and China benefit from the division of the West, the US and Europe are struggling to maintain their global positions. The question remains: is rapprochement still possible, or are we facing the final end of the transatlantic partnership?</p><br><br>See also:<br>_____<br><br>Why is seccesion in Quebec so popular again?<br>_____<br><br>Fort Alice (Taiwan) the largest US Military Base in Asia<br>_____<br><br>Why is there a Troop Surge in Kaliningrad?<br>`,
     "whereassad": `<h3>POLITICO</h3><br>November 8, 2012<br><div style='overflow-y:scroll; height:270px;'><b>WHERE IS ASSAD?</b><p>Since the American invasion of Syria and the subsequent collapse of the Syrian government in 2008, the whereabouts of President Bashar al-Assad have been a mystery that has continued to grip the world. He was last seen just a day before the invasion, and since then his whereabouts have been a major mystery—one that has not only fueled political debate but also become a widespread meme on social media.<br>The question “Where is Assad?” has become not only a political mystery but also a major cultural phenomenon. The internet community has greeted the question with a mixture of skepticism and humor, giving rise to countless memes outlining various absurd theories about the Syrian president’s whereabouts. Some claim Assad has fled to Moscow, others believe he may be hiding in a remote corner of Latin America or China. There are also rumors that the Syrian president was captured by the US during the invasion - a theory that has never been confirmed.<br>In 2009, the newly formed Syrian interim government set up a commission to investigate the whereabouts of Assad and other high-ranking members of his regime. But despite intensive efforts, including by private investigators and intelligence agencies such as the CIA, there has been little success so far. However, it has been proven that the presidential palace in Damascus was abandoned shortly after the first American bombing and was probably evacuated by Assad himself.<br>The search for Assad has become a diplomatic challenge. In the years following his escape, there have been repeated alleged sightings, but these have never been verified. Particularly notable was an anonymous internet report that led to a CIA raid in Alexandria, Egypt. This ended in failure, however, which only increased speculation and frustration over his incomprehensible escape.<br>On social media, memes have become a staple of public discussion. The question "Where is Assad?" has long since gone beyond political events and has developed into a popular internet phenomenon. It is now repeatedly taken up in numerous forms, from humorous to satirical representations. The image of Assad living in a safe hiding place somewhere in the world has created its own cult figure in the digital space. The memes range from images showing Assad in exotic holiday destinations to speculative scenarios in which he acts as a secret leader of a resistance movement against the Western world.<br>The hunt for Assad is not only a question of the political power structure in the Middle East, but also has symbolic meaning. It represents the ongoing instability in the region and reminds us of the difficulties the international community faces in stabilizing a country in the long term after military intervention. The constant question of Assad's whereabouts remains an unsolved mystery that continues to dominate the headlines - and has simultaneously become the source of numerous parodies and speculations.<br>The international community is increasingly asking whether Assad's continued existence has not only a political but also a moral dimension. If Assad is indeed dead or captured, this could symbolize the end of a dictator. But if he is still alive, the question remains how the Western world and the Arab world would react. This uncertainty could continue to serve as a painful stain on international relations and a warning for future military interventions.</p>`,
@@ -24398,7 +24398,7 @@ function add_tooltips() {
 }
 
 tooltip_dict = {
-    "Islamic Republic of Iran": "<img src=https://i.ibb.co/X3C4Sh4/image.png> Killed Dubya. Intel says so!",
+    "Islamic Republic of Iran": "<img src=https://i.ibb.co/X3C4Sh4/image.png> Killed Gore. Intel says so!",
      "Rummy": "<img src=https://i.ibb.co/r0JmdL9/Donald-Rumsfeld-Exec-Dir-Cost-of-Living-Council-1.jpg><br>Old Don from the Nixon years.",
      "Iraq is a sovereign nation": "Part of the game of play-pretend called \"international relations\".",
      "Khuzestan": "<img src=https://i.ibb.co/pnYZnDC/image.png> Plurality-Arab province in Iran with lots of oil.",
