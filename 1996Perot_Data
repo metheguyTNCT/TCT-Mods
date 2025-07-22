@@ -124,7 +124,7 @@
                     "weight": 0.69
                 }
             ],
-            "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it. The same anti-establishment fervor that carried Perot to the Presidency means that Congress is in no mood to work with him, to no end of pain for him.Perot's signature electoral reform initiative has been a wash, as has his attempted scrapping of NAFTA.</p><p>Perot has governed as a moderate conservative,  though he would be more likely to describe his views as simply common sense.  After a brief flirtation with rejoining the Republicans, Perot founded the Independence Party. Famously wishy-washy on the specifics of his ideology, sooner or later he'll have to define who he is and what he and his newly-constructed party believe in.  It'll take more than wisecracks to win this time, but Perot has beaten the odds before...</p>",
+            "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it. The same anti-establishment fervor that carried Perot to the Presidency means that Congress is in no mood to work with him, to no end of pain for him. While he's succeeded in passing the Balanced Budget Amendment. Perot's signature electoral reform initiative has been a wash, as has his attempted scrapping of NAFTA.</p><p>Perot has governed as a moderate conservative,  though he would be more likely to describe his views as simply common sense.  After a brief flirtation with rejoining the Republicans, Perot founded the Independence Party. Famously wishy-washy on the specifics of his ideology, sooner or later he'll have to define who he is and what he and his newly-constructed party believe in.  It'll take more than wisecracks to win this time, but Perot has beaten the odds before...</p>",
             "imageUrl": "https://i.imgur.com/hHDeoUI.png",
             "runningMateIds": [
                 89,
@@ -39696,7 +39696,7 @@
             "questions": [
                 {
                     "id": 371,
-                    "description": "The results of the midterms are clear- it's not your night. While making some gains, such as the Maine and New Mexico governorships, the party has taken a beating in the Senate races. This governing stuff is a lot more complex than you'd originally thought. If you're looking for an out, now is the time.",
+                    "description": "The results of the midterms are clear- it's not your night. While making some gains, such as the Maine and Connecticut governorships, the party has taken a beating in the Senate races. This governing stuff is a lot more complex than you'd originally thought. If you're looking for an out, now is the time.",
                     "answers": [
                         {
                             "id": 3413,
@@ -63205,7 +63205,11 @@
         {
             "key": "paleoconservatives",
             "value": "<img src=https://i.imgur.com/ka1r4AQ.jpeg>  One of the major factions of the Independence Party. Key figures include Jim Traficant, David Duke, and Ron Paul (again), plus Pat Buchanan looking on from the sidelines. Think the Republicans haven't shifted nearly far enough to the right. They worry you sometimes, but they're enthusiastic and they vote for you, so what else you gonna do?"
+        },
+        {
+            "key": "Gary Johnson",
+            "value": "<img src=https://i.imgur.com/miD1mYm.jpeg>  The newly elected Governor of New Mexico. He's a Republican, but sympathetic enough to the Independence cause."
         }
     ],
-    "furtherReading": "A redux of sorts to '1996: The Maverick, the Reactionary, and the Establishment' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
+    "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
 }
