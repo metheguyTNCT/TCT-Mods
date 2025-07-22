@@ -7,10 +7,10 @@ function createEnding(engine, results) {
 
     // If you played as Gramm
     if(playerId == 77) {
-        if(engine.playerWonEv(results)) {
+        if(engine.playerWonEv(results)) { //Gramm win
         engine.setNewMusic([{
     displayName: "Johnny Cash- The Wanderer",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b2731c8a71d3f8d6217c0ce5fc18",
+    imageUrl: "https://i.imgur.com/jO0G2UV.jpeg",
     url: "https://files.catbox.moe/nlvcks.mp3",
   },
 ]);
@@ -19,14 +19,35 @@ function createEnding(engine, results) {
             slides: [
                     {
                         endingHeader: "Congratulations! You have won the 2016 election.",
-                        imageUrl: "https://i.imgur.com/MP0Zpsu.jpeg",
+                        imageUrl: "https://i.imgur.com/PZ4LsR6.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
                     }
                 ]
             }
         }
-        else {
-        engine.setNewMusic([{
+else if(engine.isDeadlock(results)) { //Gramm deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Nirvana- The Man Who Sold The World",
+    imageUrl: "https://i.imgur.com/1q4dsVL.jpeg",
+    url: "https://audio.jukehost.co.uk/PMIK6WHngYsr7d4xxyS20DihNYcuBHaN",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Crisis in the Campaign",
+                    imageUrl: "https://i.imgur.com/Eng9hEU.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+        else { // Gramm loss
+        engine.setNewMusic([{ 
     displayName: "Leonard Cohen- The Future",
     imageUrl: "https://i.scdn.co/image/ab67616d0000b273c590964fc4f433f500ebf0b6",
     url: "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj",
@@ -46,9 +67,9 @@ function createEnding(engine, results) {
     }
     // If you played as Kerry
     else if(playerId == 78) {
-        if(engine.playerWonEv(results)) {
+        if(engine.playerWonEv(results)) { //Kerry win
         engine.setNewMusic([{
-    displayName: "No Surrender  - Bruce Springsteen",
+    displayName: "Bruce Springsteen- No Surrender",
     imageUrl: "https://i.imgur.com/y12Nnmn.jpeg",
     url: "https://files.catbox.moe/auyngt.mp3",
   },
@@ -64,7 +85,28 @@ function createEnding(engine, results) {
                 ]
             }
         }
-        else {
+else if(engine.isDeadlock(results)) { //Kerry deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Alanis Morisette- Ironic",
+    imageUrl: "https://i.imgur.com/h82Vzpj.jpeg",
+    url: "https://files.catbox.moe/8pz2k8.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Crisis in the Campaign",
+                    imageUrl: "https://i.imgur.com/Eng9hEU.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+        else { //Kerry loss
         engine.setNewMusic([{
     displayName: "Bruce Springsteen - Born in the USA",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG",
@@ -187,8 +229,8 @@ function onAnswerPicked(engine, answerPicked) {
         engine.setNewPlayerCandidateImage("https://i.imgur.com/XBvkeE8.png");
         engine.setNewPlayerCandidateName("Jerry", "Brown");
 
-        engine.setNewRunningMateImage("https://i.imgur.com/xdflLMQ.png");
-        engine.setNewRunningMateName("Gary", "Johnson");
+        engine.setNewRunningMateImage("https://i.imgur.com/5auskd0.png");
+        engine.setNewRunningMateName("Richard", "Lamm");
         brown = true;
         engine.currentQuestionIndex = 25
 
