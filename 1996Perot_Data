@@ -128,7 +128,8 @@
             "imageUrl": "https://i.imgur.com/hHDeoUI.png",
             "runningMateIds": [
                 89,
-                90
+                90,
+                91
             ],
             "startingGlobalMultiplier": 12,
             "bannerImageUrl": ""
@@ -195,7 +196,7 @@
             "homeState": "Tennessee",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Populist and experienced, moderate and conservative, folksy and stiff, Lamar Alexander is not a man who can be easily categorized.</p><p>Alexander first came to prominence (of a sort) as George Bush's education secretary, where he performed well, if unspectacularly. Starting his campaign for the nomination this year with little name recognition,Alexander gained a surprising amount of traction, nearly winning in Iowa and New Hampshire. However, while as of now a fairly standard right-winger, he formerly held moderate or even liberals, both earning the lasting enmity of conservative activists and opening him up to accusations of flip-flopping. Nonetheless, if you want to beat Perot at his own game, Alexander is a fine choice.</p>",
+            "description": "<p>Populist and experienced, moderate and conservative, folksy and stiff, Lamar Alexander is not a man who can be easily categorized.</p><p>Alexander first came to prominence (of a sort) as George Bush's education secretary, where he performed well, if unspectacularly. Starting his campaign for the nomination this year with little name recognition,Alexander gained a surprising amount of traction, nearly winning in Iowa and New Hampshire. However, while as of now a fairly standard right-winger, he formerly held several moderate or even liberal stances, both earning the lasting enmity of conservative activists and opening him up to accusations of flip-flopping. Nonetheless, if you want to beat Perot at his own game, Alexander is a fine choice.</p>",
             "imageUrl": "https://i.imgur.com/kWRW8Tl.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -286,8 +287,8 @@
             "homeState": "California",
             "color": "#00C100",
             "issueScores": [],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/XBvkeE8.png",
+            "description": "<p>Jim Stockdale was never your first choice for VP. You only picked him in the first place to get ballot access. He's served well enough, but both you and him have agreed that it's time for him to go. For his replacement, you've decided on Attorney General Jerry Brown.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "imageUrl": "https://i.imgur.com/PN1xQAa.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -301,6 +302,45 @@
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
             "imageUrl": "https://i.imgur.com/hEuy7EJ.jpeg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 91,
+            "firstName": "Lowell",
+            "lastName": "Weicker",
+            "party": "Independence",
+            "homeState": "Connecticut",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 27,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 28,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 29,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 30,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 31,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "imageUrl": "https://i.imgur.com/FnioohW.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         }
@@ -355,6 +395,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -407,6 +451,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -459,6 +507,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -511,6 +563,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -563,6 +619,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -615,6 +675,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -667,6 +731,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -719,6 +787,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -771,6 +843,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -823,6 +899,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -875,6 +955,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -927,6 +1011,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.01
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -979,6 +1067,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1031,6 +1123,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1083,6 +1179,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1135,6 +1235,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1187,6 +1291,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1239,6 +1347,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1291,6 +1403,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1343,6 +1459,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1395,6 +1515,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1447,6 +1571,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.002
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1499,6 +1627,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1551,6 +1683,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1603,6 +1739,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1655,6 +1795,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1707,6 +1851,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1759,6 +1907,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1811,6 +1963,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1863,6 +2019,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1915,6 +2075,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -1967,6 +2131,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2019,6 +2187,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2071,6 +2243,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2123,6 +2299,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2175,6 +2355,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2227,6 +2411,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2279,6 +2467,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2331,6 +2523,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2383,6 +2579,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2435,6 +2635,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2487,6 +2691,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2539,6 +2747,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2591,6 +2803,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.01
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2643,6 +2859,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2695,6 +2915,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2747,6 +2971,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2799,6 +3027,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2851,6 +3083,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2903,6 +3139,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.014
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         },
@@ -2955,6 +3195,10 @@
                 {
                     "candidateId": 80,
                     "amount": 0.01
+                },
+                {
+                    "candidateId": 91,
+                    "amount": 1
                 }
             ]
         }
@@ -39456,14 +39700,14 @@
                     "answers": [
                         {
                             "id": 3413,
-                            "description": "Of course i'll run for reelection. I've got so much unfinished business, after all. Cutting and running would only help the two-party machine.",
+                            "description": "Of course I'll run for reelection. I've got so much unfinished business, after all. Cutting and running would only help the two-party machine.",
                             "feedback": "This is one of the big decisions of your campaign -- will people turn out to vote for you in close states? Time will tell.",
                             "answerEffects": []
                         },
                         {
                             "id": 3414,
                             "description": "Look, I never wanted to be President in the first place. I only ran to clean up the mess the Republicans and Democrats made. I feel like I've done an awful lot of good for this nation. But if the Do-Nothing Congress is just gonna keep obstructing me, I might as well give them what they want.",
-                            "feedback": "This is the signal for all-out war in the Independence Party. After a bruising primary, Vice President Brown narrowly comes out on top, tapping freshman governor Gary Johnson as VP. Let's see how he does.",
+                            "feedback": "This is the signal for all-out war in the Independence Party. After a bruising primary, Jerry Brown narrowly comes out on top. In an apparent olive branch to the right of the party, he taps Dick Lamm for VP. Let's see how he does.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -62912,14 +63156,19 @@
             "imageUrl": "https://i1.sndcdn.com/artworks-MCacGVpI1c42WALs-E89AQQ-t500x500.jpg"
         },
         {
-            "url": "https://files.catbox.moe/f5s7on.mp3",
-            "displayName": "\"Weird Al\" Yankovic- Headline News",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2a/Headlinenews.jpg"
+            "url": "https://files.catbox.moe/2c20r4.mp3",
+            "displayName": "D:Ream- Things Can Only Get Better",
+            "imageUrl": "https://i.imgur.com/KQZDp3q.jpeg"
         },
         {
             "url": "https://files.catbox.moe/8949im.mp3",
             "displayName": "Randy Newman- Strange Things",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/37/ToyStoryOST.jpg"
+        },
+        {
+            "url": "https://files.catbox.moe/f5s7on.mp3",
+            "displayName": "\"Weird Al\" Yankovic- Headline News",
+            "imageUrl": "https://lastfm.freetls.fastly.net/i/u/500x500/793b9673af624674b015b1ebc22e7213.jpg"
         },
         {
             "url": "https://audio.jukehost.co.uk/R1rX5dSAQ0ViwsOpYBqtgNDoMQJH6NLd",
@@ -62938,28 +63187,24 @@
             "value": "<img src=https://i.imgur.com/jTsl8ly.jpeg> A free trade agreement between America, Canada and Mexico. Vetoed by Perot."
         },
         {
-            "key": "Dickey Flatt",
-            "value": "Gramm's imaginary friend."
-        },
-        {
             "key": "Do-Nothing Congress",
             "value": "<img src=https://i.imgur.com/lwIruJE.jpeg> Perot's term for the hostile Congress, which has opposed his agenda every step of the way."
         },
         {
-            "key": "Barkley",
-            "value": "<img src=https://i.imgur.com/81bmgZn.jpeg> A freshman representative from Minnesota, and a rising star in Independence circles."
+            "key": "Stockdale",
+            "value": "<img src=https://i.imgur.com/SZKlTua.jpeg> Your old Vice President. Emphasis on 'old.'"
         },
         {
             "key": "Libertarian-ish types",
-            "value": "<img src=https://i.imgur.com/ln2jchx.jpeg>  One of the three major factions of the Independence Party. Key figures include Jerry Brown and Gary Johnson. Most prominent in the West."
+            "value": "<img src=https://i.imgur.com/ln2jchx.jpeg>  One of the major factions of the Independence Party. Key figures include yourself, Jerry Brown and Ron Paul. Most prominent in the West."
         },
         {
             "key": "Northeastern moderates",
-            "value": "<img src=https://i.imgur.com/ybOH7GV.jpeg>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
+            "value": "<img src=https://i.imgur.com/0jP4pBD.jpeg>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
         },
         {
             "key": "paleoconservatives",
-            "value": "<img src=https://i.imgur.com/ka1r4AQ.jpeg>  One of the major factions of the Independence Party. Key figures include Pat Buchanan, Jim Traficant, and Ron Paul. They worry you sometimes, but they're enthusiastic and they vote for you, so what are you gonna do?"
+            "value": "<img src=https://i.imgur.com/ka1r4AQ.jpeg>  One of the major factions of the Independence Party. Key figures include Jim Traficant, David Duke, and Ron Paul (again), plus Pat Buchanan looking on from the sidelines. Think the Republicans haven't shifted nearly far enough to the right. They worry you sometimes, but they're enthusiastic and they vote for you, so what else you gonna do?"
         }
     ],
     "furtherReading": "A redux of sorts to '1996: The Maverick, the Reactionary, and the Establishment' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
