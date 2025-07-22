@@ -21,8 +21,13 @@ function createEnding(engine, results) {
                         endingHeader: "Congratulations! You have won the 2016 election.",
                         imageUrl: "https://i.imgur.com/PZ4LsR6.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
-                    }
-                ]
+                },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/XoMg3pT.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
             }
         }
 else if(engine.isDeadlock(results)) { //Gramm deadlock
@@ -41,8 +46,13 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                     imageUrl: "https://i.imgur.com/Eng9hEU.jpeg",
                     endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
                 },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/XoMg3pT.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
             ]
-        }
+            }
         }
 
     
@@ -60,8 +70,13 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                         endingHeader: "Sorry! You have lost the 2016 election.",
                         imageUrl: "https://i.imgur.com/l1CM6j2.png",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
-                    }
-                ]
+                  },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/KoNuyHw.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
             }
         }
     }
@@ -81,8 +96,13 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                         endingHeader: "Congratulations! You have won the 2016 election.",
                         imageUrl: "https://i.imgur.com/SeHuacK.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
-                    }
-                ]
+                },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/KoNuyHw.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
             }
         }
 else if(engine.isDeadlock(results)) { //Kerry deadlock
@@ -101,8 +121,13 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
                     imageUrl: "https://i.imgur.com/Eng9hEU.jpeg",
                     endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
                 },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/mNa0TCQ.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
             ]
-        }
+            }
         }
 
     
@@ -120,8 +145,13 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
                         endingHeader: "Sorry! You have lost the 2016 election.",
                         imageUrl: "https://i.imgur.com/KxkPakq.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
-                    }
-                ]
+                },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/XoMg3pT.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
             }
         }
     }
@@ -141,8 +171,13 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
                         endingHeader: "perot win",
                         imageUrl: "https://i.imgur.com/Xaa5cij.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
-                    }
-                ]
+                },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/wNI4lim.png",
+                    endingText: "<p>After Ross Perot's shock reelection, it's clear the party realignment is here to stay.</p> <ul><li>Pete Wilson has returned, hoping to maintain his wide lead and please the base.</li><li>Jesse Ventura must deal with Perot's unpopularity and keep his coalition together.</li> <li>Jesse Jackson hopes simply to do well enough to keep the Democrats alive for another four years.<li>Buchanan hopes to force a deadlock and show Wilson and Ventura that the Right cannot be ignored.</ul>"
+                },  
+            ]
             }
         }
         else  if(engine.playerWonEv(results)&& brown == true) {
@@ -157,10 +192,40 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
             slides: [
                     {
                         endingHeader: "Brown win",
-                        imageUrl: "https://i.imgur.com/jSox9zi.jpeg",
+                        imageUrl: "https://i.imgur.com/qUHm8hA.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
-                    }
-                ]
+                },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/Pigj0je.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
+            }
+        }
+
+                else if(engine.isDeadlock(results) && brown == true) { //Narrowish loss
+        engine.setNewMusic([
+  {
+    displayName: "Tony Bennett -  I Left My Heart In San Francisco",
+    imageUrl: "https://i.imgur.com/fTLBg7M.jpeg",
+    url: "https://files.catbox.moe/kxku2p.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "brown deadlock",
+                    imageUrl: "https://i.imgur.com/h7ILYYF.jpeg",
+                    endingText: "<p>Sad!</p>"
+                },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/QTHTRpV.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
             }
         }
         else if(engine.playerEvAtLeast(results, 3) && brown == true) { //Narrowish loss
@@ -179,9 +244,14 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
                     imageUrl: "https://i.imgur.com/frowf5X.jpeg",
                     endingText: "<p>Sad!</p>"
                 },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/KoNuyHw.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
             ]
+            }
         }
-    }
 
         else {
         engine.setNewMusic([{
@@ -197,8 +267,13 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
                         endingHeader: "Perot loss",
                         imageUrl: "https://i.imgur.com/p6ofMRZ.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
-                    }
-                ]
+                 },
+                {
+                    endingHeader: "THE CAMPAIGN TRAIL",
+                    imageUrl: "https://i.imgur.com/KoNuyHw.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
+                },  
+            ]
             }
         }
     }
@@ -209,7 +284,7 @@ else if(engine.isDeadlock(results)) { //Kerry deadlock
         return {
             slides: [
                 {
-                    endingHeader: "Error",
+                    endingHeader: "Perot deadlock",
                     imageUrl: "https://www.jetsimon.com/public/static/images/henry-clay-1844.jpg",
                     endingText: "Bad ending"
                 }
