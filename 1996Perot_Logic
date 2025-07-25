@@ -58,9 +58,9 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
     
         else { // Gramm loss
         engine.setNewMusic([{ 
-    displayName: "Leonard Cohen- The Future",
-    imageUrl: "https://i.imgur.com/qYwg3yU.jpeg",
-    url: "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj",
+    displayName: "The Beach Boys- Lookin' at Tomorrow (A Welfare Song)",
+    imageUrl: "https://i.imgur.com/4sbb0JA.png",
+    url: "https://audio.jukehost.co.uk/lTvoXB9Io94ZgGJkmS0x5TVQmnMh8O1l",
   },
 ]);
 
