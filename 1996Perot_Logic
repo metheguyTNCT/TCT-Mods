@@ -82,7 +82,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
     }
     // If you played as Kennedy
     else if(playerId == 78) {
-        if(engine.playerWonEv(results)) { //Kerry win
+        if(engine.playerWonEv(results)) { //Kennedy win
         engine.setNewMusic([{
     displayName: "Neil Diamond- Sweet Caroline",
     imageUrl: "https://i.imgur.com/8PU2VA3.jpeg",
@@ -93,7 +93,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
         return {
             slides: [
                     {
-                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        endingHeader: "The Dream Lives On",
                         imageUrl: "https://i.imgur.com/lmDdmP6.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                 },
@@ -105,12 +105,12 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
             ]
             }
         }
-else if(engine.isDeadlock(results)) { //Kerry deadlock
+else if(engine.isDeadlock(results)) { //Kennedy deadlock
         engine.setNewMusic([
   {
-    displayName: "Alanis Morisette- Ironic",
-    imageUrl: "https://i.imgur.com/h82Vzpj.jpeg",
-    url: "https://files.catbox.moe/8pz2k8.mp3",
+    displayName: "Frank Sinatra- High Hopes",
+    imageUrl: "https://i.imgur.com/kJ7tGK9.jpeg",
+    url: "https://files.catbox.moe/mugbh9.mp3",
   },
 ]);
 
