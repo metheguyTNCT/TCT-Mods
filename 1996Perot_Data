@@ -2,15 +2,15 @@
     "candidates": [
         {
             "id": 78,
-            "firstName": "John",
-            "lastName": "Kerry",
+            "firstName": "Ted",
+            "lastName": "Kennedy",
             "party": "Democratic",
             "homeState": "Massachusetts",
-            "color": "#0052a0",
+            "color": "#01166f",
             "issueScores": [
                 {
                     "issueId": 27,
-                    "issueScore": 0.04,
+                    "issueScore": 0.33,
                     "weight": 1
                 },
                 {
@@ -20,22 +20,22 @@
                 },
                 {
                     "issueId": 29,
-                    "issueScore": 0.13,
+                    "issueScore": 0.29,
                     "weight": 1
                 },
                 {
                     "issueId": 30,
-                    "issueScore": 0.09,
+                    "issueScore": 0.29,
                     "weight": 1.37
                 },
                 {
                     "issueId": 31,
-                    "issueScore": 0.24,
+                    "issueScore": 0.28,
                     "weight": 1
                 }
             ],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/K9OdKko.png",
+            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. They've tried everything- outsider centrists like Clinton and Carter, economically-minded moderates like Mondale and Dukakis, even arch-liberals like George McGovern. It only makes sense the man poised to break the streak is a Kennedy.</p><p>Ted Kennedy didn't want to run for president. But the incompetence of the Perot administration has forced his hand. With a solidly liberal platform, rabid popularity among the base, and a split conservative vote, Kennedy seems like the man to beat. But then again, so did another man from Massachusetts.</p>",
+            "imageUrl": "https://i.imgur.com/YTKkMy4.png",
             "runningMateIds": [
                 85,
                 86,
@@ -80,7 +80,7 @@
                 }
             ],
             "description": "<p>Perot isn't the only Texan in this race. Formerly a Democrat, Phil Gramm was nonetheless, as he likes to say, 'conservative before conservative was cool.'</p><p>Playing an instrumental role in the Republicans' recapture of the Senate in 1994, Gramm's fundraising prowess carried him over the finish line in the primaries amid Wilson and Dole's flameouts. As the author of the Gramm-Rudman spending reduction, Gramm campaigns as an ardent fiscal conservative, especially on welfare reform. Though mostly in agreement with the Religious Right, culture war issues are a strictly secondary part of his campaign. Can Gramm bring his platform to the mainstream, or will he find himself falling off the wagon?</p>",
-            "imageUrl": "https://i.imgur.com/Ec6eJqL.png",
+            "imageUrl": "https://i.imgur.com/OBtR4DG.png",
             "runningMateIds": [
                 81,
                 82,
@@ -125,7 +125,7 @@
                 }
             ],
             "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it. The same anti-establishment fervor that carried Perot to the Presidency means that Congress is in no mood to work with him, to no end of pain for him. While he's succeeded in passing the Balanced Budget Amendment. Perot's signature electoral reform initiative has been a wash, as has his attempted scrapping of NAFTA.</p><p>Perot has governed as a moderate conservative,  though he would be more likely to describe his views as simply common sense.  After a brief flirtation with rejoining the Republicans, Perot founded the Independence Party. Famously wishy-washy on the specifics of his ideology, sooner or later he'll have to define who he is and what he and his newly-constructed party believe in.  It'll take more than wisecracks to win this time, but Perot has beaten the odds before...</p>",
-            "imageUrl": "https://i.imgur.com/hHDeoUI.png",
+            "imageUrl": "https://i.imgur.com/30nTX8k.png",
             "runningMateIds": [
                 89,
                 90,
@@ -169,7 +169,7 @@
                 }
             ],
             "description": "''",
-            "imageUrl": "''",
+            "imageUrl": "https://i.imgur.com/0qVgXGb.png",
             "runningMateIds": [
                 90
             ],
@@ -184,7 +184,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/f5LZdO1.png",
+            "imageUrl": "https://i.imgur.com/Cifoedj.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -197,7 +197,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Populist and experienced, moderate and conservative, folksy and stiff, Lamar Alexander is not a man who can be easily categorized.</p><p>Alexander first came to prominence (of a sort) as George Bush's education secretary, where he performed well, if unspectacularly. Starting his campaign for the nomination this year with little name recognition,Alexander gained a surprising amount of traction, nearly winning in Iowa and New Hampshire. However, while as of now a fairly standard right-winger, he formerly held several moderate or even liberal stances, both earning the lasting enmity of conservative activists and opening him up to accusations of flip-flopping. Nonetheless, if you want to beat Perot at his own game, Alexander is a fine choice.</p>",
-            "imageUrl": "https://i.imgur.com/kWRW8Tl.png",
+            "imageUrl": "https://i.imgur.com/LtlaC9Q.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -210,7 +210,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/AWKURiE.jpeg",
+            "imageUrl": "https://i.imgur.com/XuhqgaJ.jpeg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -223,7 +223,7 @@
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/dFAFK1f.png",
+            "imageUrl": "https://i.imgur.com/s2mvHyN.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -236,7 +236,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/Lj4Jkfg.png",
+            "imageUrl": "https://i.imgur.com/ecjh9s3.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -249,7 +249,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/cAeSipH.png",
+            "imageUrl": "https://i.imgur.com/koV7feJ.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -262,7 +262,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/FqifJr4.png",
+            "imageUrl": "https://i.imgur.com/zBHk8yW.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -275,7 +275,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/DlKB1la.png",
+            "imageUrl": "https://i.imgur.com/R3ZwFWe.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -288,7 +288,7 @@
             "color": "#00C100",
             "issueScores": [],
             "description": "<p>Jim Stockdale was never your first choice for VP. You only picked him in the first place to get ballot access. He's served well enough, but both you and him have agreed that it's time for him to go. For his replacement, you've decided on Attorney General Jerry Brown.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/PN1xQAa.png",
+            "imageUrl": "https://i.imgur.com/Q0RbvyN.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -33994,8 +33994,8 @@
                         },
                         {
                             "id": 3431,
-                            "description": "We need to attack George Bush's views on the environment, on energy, on taxes, on spending, and on the right direction for our country. He is out of touch with the American people.",
-                            "feedback": "Alright. Way to get that crowd fired up.",
+                            "description": "Gramm and Perot are more similar than people think. They both represent the failed, trickle-down economic theory that has ruined us for so long. It's time for a real choice.\n",
+                            "feedback": "Ads deriding 'the Texas Twins' shore up the base but have the unfortunate effect of helping right leaning indpendents warm up to Perot.\n",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -63129,31 +63129,31 @@
     "theme": {
         "backgroundImageUrl": "https://i.imgur.com/gSy5pHF.jpeg",
         "backgroundColor": "#BFE6FF",
-        "headerImageUrl": "https://i.imgur.com/3MCqMbg.jpeg",
+        "headerImageUrl": "https://i.imgur.com/Ptv15BB.png",
         "primaryGameWindowColor": "#af5555",
         "secondaryGameWindowColor": "#800000",
         "primaryGameWindowTextColor": "#000000",
         "secondaryGameWindowTextColor": "#e9e9e9",
         "bottomBannerBackgroundColor": "#d10000",
         "bottomBannerTextColor": "#FFFFFF",
-        "advisorImage": "https://i.imgur.com/MpjdGjQ.png",
+        "advisorImage": "https://i.imgur.com/3kexWXN.png",
         "quote": "\"If you just want Lawrence Welk music, wunnerful, wunnerful, I'm not your man.\"- Ross Perot"
     },
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
-    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
-    "scenarioImageUrl": "https://i.imgur.com/Us7HiHY.png",
+    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>Ted Kennedy must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
+    "scenarioImageUrl": "https://i.imgur.com/uKS4hwI.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
             "url": "https://files.catbox.moe/03p86t.mp3",
             "displayName": "Leonard Cohen- Democracy",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c590964fc4f433f500ebf0b6"
+            "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
         },
         {
             "url": "https://audio.jukehost.co.uk/QU8PW1r8o9fM3rabO8urgLPBjafCGpBH",
             "displayName": "Ginuwine- Pony",
-            "imageUrl": "https://i1.sndcdn.com/artworks-MCacGVpI1c42WALs-E89AQQ-t500x500.jpg"
+            "imageUrl": "https://i.imgur.com/ZLjDyP7.jpeg"
         },
         {
             "url": "https://files.catbox.moe/2c20r4.mp3",
@@ -63163,53 +63163,45 @@
         {
             "url": "https://files.catbox.moe/8949im.mp3",
             "displayName": "Randy Newman- Strange Things",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/37/ToyStoryOST.jpg"
+            "imageUrl": "https://i.imgur.com/Pv9LONG.jpeg"
         },
         {
             "url": "https://files.catbox.moe/f5s7on.mp3",
             "displayName": "\"Weird Al\" Yankovic- Headline News",
-            "imageUrl": "https://lastfm.freetls.fastly.net/i/u/500x500/793b9673af624674b015b1ebc22e7213.jpg"
+            "imageUrl": "https://i.imgur.com/xW0e4Ms.jpeg"
         },
         {
             "url": "https://audio.jukehost.co.uk/R1rX5dSAQ0ViwsOpYBqtgNDoMQJH6NLd",
             "displayName": "Jamiroquai- Virtual Insanity",
-            "imageUrl": "https://m.media-amazon.com/images/I/61F+QVZ6xoL._UF1000,1000_QL80_.jpg"
+            "imageUrl": "https://i.imgur.com/Oji55jo.jpeg"
         },
         {
             "url": "https://files.catbox.moe/1qtb44.mp3",
             "displayName": "Manic Street Preachers- Ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart",
-            "imageUrl": "https://i.scdn.co/image/ab67616d00001e023f8f060e2f4ad634a94ae1df"
+            "imageUrl": "https://i.imgur.com/xHyl5wG.jpeg"
         }
     ],
     "tooltips": [
         {
-            "key": "NAFTA",
-            "value": "<img src=https://i.imgur.com/jTsl8ly.jpeg> A free trade agreement between America, Canada and Mexico. Vetoed by Perot."
-        },
-        {
-            "key": "Do-Nothing Congress",
-            "value": "<img src=https://i.imgur.com/lwIruJE.jpeg> Perot's term for the hostile Congress, which has opposed his agenda every step of the way."
-        },
-        {
             "key": "Stockdale",
-            "value": "<img src=https://i.imgur.com/SZKlTua.jpeg> Your old Vice President. Emphasis on 'old.'"
+            "value": "<img src=https://i.imgur.com/cjzvaES.jpeg> Your old Vice President. Emphasis on 'old.'"
         },
         {
             "key": "Libertarian-ish types",
-            "value": "<img src=https://i.imgur.com/ln2jchx.jpeg>  One of the major factions of the Independence Party. Key figures include yourself, Jerry Brown and Ron Paul. Most prominent in the West."
+            "value": "<img src=https://i.imgur.com/oWvMyKi.jpeg>  One of the major factions of the Independence Party. Key figures include yourself, Jerry Brown and Ron Paul. Most prominent in the West."
         },
         {
             "key": "Northeastern moderates",
-            "value": "<img src=https://i.imgur.com/0jP4pBD.jpeg>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
+            "value": "<img src=https://i.imgur.com/jKcFoDA.jpeg>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
         },
         {
             "key": "paleoconservatives",
-            "value": "<img src=https://i.imgur.com/ka1r4AQ.jpeg>  One of the major factions of the Independence Party. Key figures include Jim Traficant, David Duke, and Ron Paul (again), plus Pat Buchanan looking on from the sidelines. Think the Republicans haven't shifted nearly far enough to the right. They worry you sometimes, but they're enthusiastic and they vote for you, so what else you gonna do?"
+            "value": "<img src=https://i.imgur.com/H5hZ0yv.jpeg>  One of the major factions of the Independence Party. Key figures include Jim Traficant, David Duke, and Ron Paul (again), plus Pat Buchanan looking on from the sidelines. Think the Republicans haven't shifted nearly far enough to the right. They worry you sometimes, but they're enthusiastic and they vote for you, so what else you gonna do?"
         },
         {
             "key": "Gary Johnson",
-            "value": "<img src=https://i.imgur.com/miD1mYm.jpeg>  The newly elected Governor of New Mexico. He's a Republican, but sympathetic enough to the Independence cause."
+            "value": "<img src=https://i.imgur.com/4Rny9Iv.jpeg>  The newly elected Governor of New Mexico. He's a Republican, but sympathetic enough to the Independence cause."
         }
     ],
-    "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Will Saletan- Slate's Field Guide to the Candidates 2004</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
+    "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/slatesfieldguide00sale/page/48/mode/2up\" target=”_blank”>Edward Kennedy- True Compass</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
 }
