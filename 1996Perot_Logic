@@ -159,9 +159,9 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
     else if(playerId == 79) {
         if(engine.playerWonEv(results)&& brown == false) {
         engine.setNewMusic([{
-    displayName: "Crazy - Patsy Cline",
-    imageUrl: "https://i.imgur.com/cwe6HJX.jpeg",
-    url: "https://files.catbox.moe/0t5b9l.mp3",
+    displayName: "R.E.M. - It's The End Of The World As We Know It (And I Feel Fine)",
+    imageUrl: "https://i.imgur.com/iCjpqRU.jpeg",
+    url: "https://files.catbox.moe/1dbe8r.mp3",
   },
 ]);
 
@@ -281,9 +281,9 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
 
         else {
         engine.setNewMusic([{
-    displayName: "R.E.M. - It's The End Of The World As We Know It (And I Feel Fine)",
-    imageUrl: "https://i.imgur.com/iCjpqRU.jpeg",
-    url: "https://files.catbox.moe/1dbe8r.mp3",
+    displayName: "Crazy - Patsy Cline",
+    imageUrl: "https://i.imgur.com/cwe6HJX.jpeg",
+    url: "https://files.catbox.moe/0t5b9l.mp3",
   },
 ]);
 
