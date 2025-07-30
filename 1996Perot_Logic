@@ -25,7 +25,7 @@
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/lqgMoED.png",
-                    endingText: "<p>things are fine ig</p> <ul><li>Gramm</li><li>Gore</li> <li>Trump</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -49,7 +49,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/6Vhxlc1.png",
-                    endingText: "<p>Dealdock. Populism time.</p> <ul><li>old ahh president</li><li>Lamar!</li> <li>Former Ross Perot has embarked on a revenge tour, seeking to regain his coalition from eight years ago.</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot embarks on a revenge tour, hoping to win back his coalition from eight years ago.</ul>"
                 },  
             ]
             }
@@ -74,7 +74,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/LeDfHdl.png",
-                    endingText: "<p>Ted</p> <ul><li>Kennedy</li><li>Robertson</li> <li>IT'S HAPPENING.</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -100,7 +100,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/LeDfHdl.png",
-                    endingText: "<p>Ted</p> <ul><li>Kennedy</li><li>Robertson</li> <li>IT'S HAPPENING.</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -124,7 +124,7 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/6Vhxlc1.png",
-                    endingText: "<p>Dealdock. Populism time.</p> <ul><li>old ahh president</li><li>Lamar!</li> <li>Former Ross Perot has embarked on a revenge tour, seeking to regain his coalition from eight years ago.</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -149,7 +149,7 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/lqgMoED.png",
-                    endingText: "<p>things are fine ig</p> <ul><li>Gramm</li><li>Gore</li> <li>Trump</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -159,9 +159,9 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
     else if(playerId == 79) {
         if(engine.playerWonEv(results)&& brown == false) {
         engine.setNewMusic([{
-    displayName: "Crazy - Patsy Cline",
-    imageUrl: "https://i.imgur.com/cwe6HJX.jpeg",
-    url: "https://files.catbox.moe/0t5b9l.mp3",
+    displayName: "R.E.M. - It's The End Of The World As We Know It (And I Feel Fine)",
+    imageUrl: "https://i.imgur.com/iCjpqRU.jpeg",
+    url: "https://files.catbox.moe/1dbe8r.mp3",
   },
 ]);
 
@@ -198,7 +198,7 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/uKK1kaS.png",
-                    endingText: "<p>moonbeam not gud presdient</p> <ul><li>djo bi deng</li><li>the j.</li> <li>teve torbes.</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -218,12 +218,12 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
                 {
                     endingHeader: "perot deadlock",
                     imageUrl: "https://i.imgur.com/p3Mfn6G.jpeg",
-                    endingText: "<p>kingmaking time</p>"
+                    endingText: "<p>Sad!</p>"
                 },
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/y4HDh90.png",
-                    endingText: "<p>the king has been made</p> <ul><li>billy clinty</li><li>Phil Gramm</li> <li>nader</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -249,7 +249,7 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
                     imageUrl: "https://i.imgur.com/3Vw4LXz.png",
-                    endingText: "<p>deadlock. ted is president. call that a tedlock</p> <ul><li>teddy darling you forgot your danching shoes</li><li>STOP THE STEAL</li> <li>im john anderson im here too</ul>"
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -272,8 +272,8 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
                 },
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
-                    imageUrl: "https://i.imgur.com/CiCPxd5.png",
-                    endingText: "<p>ted won hes old af</p> <ul><li>Ted Kennedy.</li><li>slimy ahh newt</li> <li>Jack Gargan</ul>"
+                    imageUrl: "https://i.imgur.com/KoNuyHw.png",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
@@ -281,9 +281,9 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
 
         else {
         engine.setNewMusic([{
-    displayName: "R.E.M. - It's The End Of The World As We Know It (And I Feel Fine)",
-    imageUrl: "https://i.imgur.com/iCjpqRU.jpeg",
-    url: "https://files.catbox.moe/1dbe8r.mp3",
+    displayName: "Crazy - Patsy Cline",
+    imageUrl: "https://i.imgur.com/cwe6HJX.jpeg",
+    url: "https://files.catbox.moe/0t5b9l.mp3",
   },
 ]);
 
@@ -291,13 +291,13 @@ else if(engine.isDeadlock(results)) { //Kennedy deadlock
             slides: [
                     {
                         endingHeader: "Perot loss",
-                        imageUrl: "https://i.imgur.com/YbSsiDr.jpeg",
+                        imageUrl: "https://i.imgur.com/p6ofMRZ.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                  },
                 {
                     endingHeader: "THE CAMPAIGN TRAIL",
-                    imageUrl: "https://i.imgur.com/LeDfHdl.png",
-                    endingText: "<p>Ted</p> <ul><li>Kennedy</li><li>Robertson</li> <li>IT'S HAPPENING.</ul>"
+                    imageUrl: "https://i.imgur.com/YbSsiDr.jpeg",
+                    endingText: "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>John Kerry must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>"
                 },  
             ]
             }
