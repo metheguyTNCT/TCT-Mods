@@ -2,11 +2,11 @@
     "candidates": [
         {
             "id": 78,
-            "firstName": "Ted",
-            "lastName": "Kennedy",
+            "firstName": "Al",
+            "lastName": "Gore",
             "party": "Democratic",
-            "homeState": "Massachusetts",
-            "color": "#01166f",
+            "homeState": "Tennessee",
+            "color": "#003066",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -35,7 +35,7 @@
                 }
             ],
             "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. They've tried everything- outsider centrists like Clinton and Carter, economically-minded moderates like Mondale and Dukakis, even arch-liberals like George McGovern. It only makes sense the man poised to break the streak is a Kennedy.</p><p>Ted Kennedy didn't want to run for president. But the incompetence of the Perot administration has forced his hand. With a solidly liberal platform, rabid popularity among the base, and a split conservative vote, Kennedy seems like the man to beat. But then again, so did another man from Massachusetts.</p>",
-            "imageUrl": "https://i.imgur.com/YTKkMy4.png",
+            "imageUrl": "https://i.imgur.com/lMGdQ3l.png",
             "runningMateIds": [
                 85,
                 86,
@@ -209,7 +209,7 @@
             "homeState": "Virginia",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. But watch out for his loose lips.</p>",
+            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. He's also good at appealing to the South. Perhaps a little too good...</p>",
             "imageUrl": "https://i.imgur.com/Tv9srK8.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -63129,7 +63129,7 @@
     "theme": {
         "backgroundImageUrl": "https://i.imgur.com/gSy5pHF.jpeg",
         "backgroundColor": "#BFE6FF",
-        "headerImageUrl": "https://i.imgur.com/Ptv15BB.png",
+        "headerImageUrl": "https://i.imgur.com/ckFcV9J.png",
         "primaryGameWindowColor": "#af5555",
         "secondaryGameWindowColor": "#800000",
         "primaryGameWindowTextColor": "#000000",
@@ -63141,8 +63141,8 @@
     },
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
-    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>Ted Kennedy must hold the standard of liberalism and become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
-    "scenarioImageUrl": "https://i.imgur.com/uKS4hwI.png",
+    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>Al Gore hopes to exploit dissatisfaction with Perot's chaotic style of government to become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
+    "scenarioImageUrl": "https://i.imgur.com/OURFKVn.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
