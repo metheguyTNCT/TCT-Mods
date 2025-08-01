@@ -15,26 +15,26 @@
                 },
                 {
                     "issueId": 28,
-                    "issueScore": 0.5,
+                    "issueScore": 0.11,
                     "weight": 1
                 },
                 {
                     "issueId": 29,
-                    "issueScore": 0.29,
+                    "issueScore": -0.55,
                     "weight": 1
                 },
                 {
                     "issueId": 30,
-                    "issueScore": 0.29,
+                    "issueScore": 0.18,
                     "weight": 1.37
                 },
                 {
                     "issueId": 31,
-                    "issueScore": 0.28,
+                    "issueScore": 0.21,
                     "weight": 1
                 }
             ],
-            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. They've tried everything- outsider centrists like Clinton and Carter, economically-minded moderates like Mondale and Dukakis, even arch-liberals like George McGovern. It only makes sense the man poised to break the streak is a Kennedy.</p><p>Ted Kennedy didn't want to run for president. But the incompetence of the Perot administration has forced his hand. With a solidly liberal platform, rabid popularity among the base, and a split conservative vote, Kennedy seems like the man to beat. But then again, so did another man from Massachusetts.</p>",
+            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. Ever since the spectacular failure of George McGovern, the white whale of the party has been a modernized party, one that could champion sensible policy and win elections. Al Gore is the latest in this long lineage.</p><p>Gore has longed to be president all his life. He came close in '88 but eventually faltered. His son's death kept him out of '92, and Perot swooped in to ruin his bid for VP too. But this time, although dealing with an irate left flank, Gore looks to be the man to beat.  Then again, so did Clinton last time.</p>",
             "imageUrl": "https://i.imgur.com/lMGdQ3l.png",
             "runningMateIds": [
                 85,
@@ -1110,7 +1110,7 @@
             "baseCandidateStateModifiers": [
                 {
                     "candidateId": 77,
-                    "amount": 1
+                    "amount": 1.51
                 },
                 {
                     "candidateId": 78,
@@ -2122,7 +2122,7 @@
                 },
                 {
                     "candidateId": 78,
-                    "amount": 0.975
+                    "amount": 1
                 },
                 {
                     "candidateId": 79,
@@ -3326,7 +3326,7 @@
             "questions": [
                 {
                     "id": 393,
-                    "description": "As the Republican primary draws to a close, you find yourself as the last man standing. How will you reunite a fractured party?",
+                    "description": "Amidst the crush of candidates in the Republican primary, you've found yourself the last man standing. The convention is here. What will your speech be?",
                     "answers": [
                         {
                             "id": 3493,
@@ -20872,7 +20872,7 @@
             "questions": [
                 {
                     "id": 397,
-                    "description": "you won the nomination",
+                    "description": "The Democratic field hasn't been quite as large as its opposite number, it's still been a tough fight. Now, though, the convention has come, and it's time to lay your claim. Who are you, Al Gore?",
                     "answers": [
                         {
                             "id": 3501,
@@ -63201,7 +63201,15 @@
         {
             "key": "Gary Johnson",
             "value": "<img src=https://i.imgur.com/4Rny9Iv.jpeg>  The newly elected Governor of New Mexico. He's a Republican, but sympathetic enough to the Independence cause."
+        },
+        {
+            "key": "crush of candidates",
+            "value": "Bob Dole, Pat Buchanan, Pete Wilson, Richard Lugar, Bill Weld, Dick Cheney, Jack Kemp, Steve Forbes, Lamar Alexander, Alan Keyes, Bob Dornan, Arthur Fletcher, Jack Fellure, and Harold Stassen, not to mention yourself."
+        },
+        {
+            "key": "The Democratic field",
+            "value": "Along with you, Bob Casey, Mario Cuomo, Dick Gephardt, Joe Biden, and Lyndon LaRouche also ran."
         }
     ],
-    "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://www.amazon.com/True-Compass-Edward-M-Kennedy-audiobook/dp/B002P58NPM/ref=sr_1_1?crid=1L03PXFBLG7UR&dib=eyJ2IjoiMSJ9.hj0RAwr2SibEWEm4Uf8SFRvrsvoQqVnKmySVtVNWqCPxQvRKLItfTcTWkhWyUOhDZGXdxzC539BJMYT3eME8b3NBqBM17-aT9_oxoSrYevo918HJ2T-9WetdnYlAv8KMEhyrKQ1-RKL5KKcO25MVu7QU_wvarQ3rF7UqxRTIVjMqgNTVydYDUhWU1kCekfArWCwpW03qmH5sE8CUY0k4Suj_FdtPSbNVszvN_F69ZyQ.g5-g4u3j7frOSOsnwdg1HRJG8d1UIRNx6ore0x1UTlQ\" target=”_blank”>Edward Kennedy- True Compass</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a>"
+    "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/campaign1996whos0000srod/page/n7/mode/2up\" target=”_blank”>James L. Srodes and Arthur Jones- Campaign 1996 : Who's Who in The Race for the White House</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a></br><a href=\"https://archive.org/details/choosemeportrait0000grac/page/62/mode/2up\" target=”_blank”>Arthur Grase - Choose Me: Portraits of a Presidential Race</a>"
 }
