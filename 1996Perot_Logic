@@ -71,6 +71,264 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
         engine.setNewMusic([{
     displayName: "Stevie Wonder - Sir Duke",
     imageUrl: "https://i.imgur.com/XLkPPoi.jpeg",
+    url: "https://files.catbox.moe/bn546f.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "r/Presidents- What would a Clinton presidency look like if he won in 1992? Who would he face in 1996?",
+                        imageUrl: "https://i.imgur.com/96InrPs.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                },
+                {
+                    endingHeader: "r/Presidents- What would a Clinton presidency look like if he won in 1992?",
+                    imageUrl: "https://i.imgur.com/cLKrz6P.png",
+                    endingText: "<p> Posted by u/DatsHowItWuz<br><br></p><center><img src='https://i.imgur.com/nEshuW6.jpeg'><br>Who would he face in 1996? Would he win reelection?<br><br><br>u/NewShadowPatriot1999 - +5<br>It would probably be similar to Gore's. Maybe a little further to the right. As for '96, maybe Dole or Wilson don't flame out. I don't think either would win though. <br><br>u/thatmarylander12 - +2<br>I think Weld had a fighting chance.<br><br><br>u/noemiemakesmaps - 16<br>So will this be a PWH-esque CYOA for the Democratic nomination, or will we be forever Wellstoned 😔<br><br>u/Nixon1960 - +9<br>To answer both questions, Wellstone will not be a potential candidate<br>"
+                },  
+            ]
+        }
+    }
+else if(engine.isDeadlock(results)) { //Gore deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Mark Morrison - Return of the Mack",
+    imageUrl: "https://i.imgur.com/6MJ1CMe.jpeg",
+    url: "https://files.catbox.moe/ffz58r.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Crisis in the Campaign",
+                    imageUrl: "https://i.imgur.com/2h3etnI.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                }
+            ]
+            }
+        }
+
+    
+        else { //Gore loss
+        engine.setNewMusic([{
+    displayName: "Lauryn Hill, Fugees - Killing Me Softly With His Song",
+    imageUrl: "https://i.imgur.com/GOHsZ2F.jpeg",
+    url: "https://files.catbox.moe/cof259.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/KX9itvY.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                }
+            ]
+            }
+        }
+    }
+  // If you played as Perot
+    else if(playerId == 79) {
+        if(engine.playerWonEv(results)&& brown == false) {
+        engine.setNewMusic([{
+    displayName: "R.E.M. - It's The End Of The World As We Know It (And I Feel Fine)",
+    imageUrl: "https://i.imgur.com/iCjpqRU.jpeg",
+    url: "https://files.catbox.moe/1dbe8r.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "perot win",
+                        imageUrl: "https://i.imgur.com/QpzKmjw.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                }
+            ]
+            }
+        }
+        else  if(engine.playerWonEv(results)&& brown == true) {
+        engine.setNewMusic([{
+    displayName: "California Uber Alles - Dead Kennedies",
+    imageUrl: "https://i.imgur.com/SBPbiLo.jpeg",
+    url: "https://files.catbox.moe/x5waq4.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Brown win",
+                        imageUrl: "https://i.imgur.com/EV6Du5B.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                } 
+            ]
+            }
+        }
+
+                else if(engine.isDeadlock(results) && brown == false) { //Narrowish loss
+        engine.setNewMusic([
+  {
+    displayName: "Sheldon Harnick, Jerry Bock -  Politics and Poker",
+    imageUrl: "https://i.imgur.com/nWqrvG5.jpeg",
+    url: "https://files.catbox.moe/ep5w9y.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "perot deadlock",
+                    imageUrl: "https://i.imgur.com/p3Mfn6G.jpeg",
+                    endingText: "<p>kingmaking time</p>"
+                }
+            ]
+            }
+        }
+
+
+        else if(engine.isDeadlock(results) && brown == true) { //Narrowish loss
+        engine.setNewMusic([
+  {
+    displayName: "The Mamas and the Papas -  California Dreamin'",
+    imageUrl: "https://i.imgur.com/baj25RC.jpeg",
+    url: "https://files.catbox.moe/50zp5f.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "brown deadlock",
+                    imageUrl: "https://i.imgur.com/mHP6MkD.jpeg",
+                    endingText: "<p>Sad!</p>"
+                } 
+            ]
+            }
+        }
+        else if(engine.playerEvAtLeast(results, 3) && brown == true) { //Narrowish loss
+        engine.setNewMusic([
+  {
+    displayName: "Where Are You Now When We Need You Ross Perot - Don Mason",
+    imageUrl: "https://i.imgur.com/jJq6c2M.jpeg",
+    url: "https://files.catbox.moe/v6jvgw.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "brown loss",
+                    imageUrl: "https://i.imgur.com/eaGXZzV.jpeg",
+                    endingText: "<p>Sad!</p>"
+                } 
+            ]
+            }
+        }
+
+        else {
+        engine.setNewMusic([{
+    displayName: "Crazy - Patsy Cline",
+    imageUrl: "https://i.imgur.com/cwe6HJX.jpeg",
+    url: "https://files.catbox.moe/0t5b9l.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Perot loss",
+                        imageUrl: "https://i.imgur.com/YbSsiDr.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                 },
+                {
+                    endingHeader: "Futurama: The Day The Earth Stood Stupid",
+                    imageUrl: "https://i.imgur.com/a0aIIfD.jpeg",
+                    endingText: "<p>FRY:What are we going to do?</p><p>FARNSWORTH:Duh, I know, let's play the lottery.</p><p>AMY: No, let's buy internet stock.</p><p>ZOIDBERG: On margin. Zoidbee wants to buy on margin.</p><p>HERMES:  [holding a board in front of his face] Look at me. I'm invisible.</p><p>FRY: Wait a minute, I know what's going on here. You've all become idiots!</p></p><p>BENDER: Hey, let's all join the Independence Party! </p><p>[Everyone cheers.]</p>"
+                },  
+            ]
+        }
+    }
+    }
+
+
+    // No other endings defined, return an error
+    else {
+        return {
+            slides: [
+                {
+                    endingHeader: "Perot deadlock",
+                    imageUrl: "https://www.jetsimon.com/public/static/images/henry-clay-1844.jpg",
+                    endingText: "Bad ending"
+                }
+            ]
+        }
+    }
+}
+
+var brown = false;
+
+function onAnswerPicked(engine, answerPicked) {
+    // This scenario has mild CYOA
+    const ans = answerPicked.id;
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    if (ans == 3414 && playerId == 79) {
+        engine.setNewPlayerCandidateImage("https://i.imgur.com/XBvkeE8.png");
+        engine.setNewPlayerCandidateName("Jerry", "Brown");
+
+        engine.setNewRunningMateImage("https://i.imgur.com/fsSEtHR.png");
+        engine.setNewRunningMateName("Richard", "Lamm");
+        brown = true;
+        engine.currentQuestionIndex = 25
+
+    }
+}
+
+function onScenarioStarted(engine) {
+    
+}
+
+export {createEnding, onAnswerPicked, onScenarioStarted}        return {
+            slides: [
+                {
+                    endingHeader: "Gramm deadlock",
+                    imageUrl: "https://i.imgur.com/6n7Wno1.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                }  
+            ]
+            }
+        }
+
+    
+        else { // Gramm loss
+        engine.setNewMusic([{ 
+    displayName: "The Beach Boys- Lookin' at Tomorrow (A Welfare Song)",
+    imageUrl: "https://i.imgur.com/4sbb0JA.png",
+    url: "https://audio.jukehost.co.uk/lTvoXB9Io94ZgGJkmS0x5TVQmnMh8O1l",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/l1CM6j2.png",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
+                  }
+            ]
+            }
+        }
+    }
+    // If you played as Gore
+    else if(playerId == 78) {
+        if(engine.playerWonEv(results)) { //Gore win
+        engine.setNewMusic([{
+    displayName: "Stevie Wonder - Sir Duke",
+    imageUrl: "https://i.imgur.com/XLkPPoi.jpeg",
     url: "https://files.catbox.moe/ffz58r.mp3",
   },
 ]);
@@ -839,3 +1097,4 @@ function onScenarioStarted(engine) {
 }
 
 export {createEnding, onAnswerPicked, onScenarioStarted}
+
