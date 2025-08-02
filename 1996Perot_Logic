@@ -1,5 +1,3 @@
-
-
 function createEnding(engine, results) {
 
     const playerId = engine.getPlayerCandidateController().getId();
