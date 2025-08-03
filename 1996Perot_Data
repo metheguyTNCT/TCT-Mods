@@ -229,14 +229,14 @@
         },
         {
             "id": 85,
-            "firstName": "Tom",
-            "lastName": "Harkin",
+            "firstName": "George",
+            "lastName": "Mitchell",
             "party": "Democratic",
-            "homeState": "Iowa",
+            "homeState": "Maine",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/ecjh9s3.png",
+            "description": "<p>George Mitchell prefers making peace to making waves.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "imageUrl": "https://i.imgur.com/NyEKEIV.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -248,7 +248,7 @@
             "homeState": "Georgia",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>This isn't Sam Nunn's first time being considered for Vice President. In fact, he's been more or less a constant in veepstakes discussions going back to 1984. And it's easy to see why. Nunn has impeccable foreign policy chops in the form of the landmark arms control treaty he and Dick Lugar negotiated. He is also a founding member of the DLC, the organization many credit with starting the New Democrat idea.</p><p>Nunn would be a great choice if you want to try and take back the South, but he would also reduce liberal turnout even further. Nunn is a gamble, but one that could potentially pay off big time.</p>",
             "imageUrl": "https://i.imgur.com/koV7feJ.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -274,7 +274,7 @@
             "homeState": "Vermont",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>If you looked at Howard Dean's record, you'd think he'd be a rock star in DLC circles. Budget-balancer, tax-cutter, program-slasher- there's a reason he said Vermont didn't need a Republican governor while he was around.</p><p>On the trail, though, it's a different story. He plays the part of progressive populist well, firing up crowds like few others. His policies are more genuinely to the left abroad and socially, though even then he takes more of a libertarian stance. Whichever Dean you end up with, he's fairly green, only coming to office in 1991. Nonetheless, if you want to pass the torch to a new generation by '04, Dean's a good choice.</p>",
+            "description": "<p>If you looked at Howard Dean's record, you'd think he'd be a rock star among New Democrats. Budget-balancer, tax-cutter, program-slasher- there's a reason he said Vermont didn't need a Republican governor while he was around.</p><p>On the trail, though, it's a different story. He plays the part of progressive populist well, firing up crowds like few others. His policies are more genuinely to the left abroad and socially, though even then he takes more of a libertarian stance. Whichever Dean you end up with, he's fairly green, only coming to office in 1991. Nonetheless, if you want to pass the torch to a new generation by '04, Dean's a good choice.</p>",
             "imageUrl": "https://i.imgur.com/R3ZwFWe.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -21222,15 +21222,35 @@
                 {
                     "id": 398,
                     "description": "Nunn",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 3508,
+                            "description": "Sam is a man guided by his faith.",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 3509,
+                            "description": "Senator Nunn brings experience like no other to the ticket.",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": true,
                     "onlyEnableAtStartIfRunningMateId": 86
                 },
                 {
                     "id": 399,
-                    "description": "Boxer",
-                    "answers": [],
+                    "description": "In a strange coincidence, all three parties have nominated Southerners for President and Westerners for Vice President. You Westerner is Barbara Boxer. How will you introduce her?",
+                    "answers": [
+                        {
+                            "id": 3507,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": true,
                     "onlyEnableAtStartIfRunningMateId": 87
@@ -62253,11 +62273,11 @@
         },
         {
             "key": "crush of candidates",
-            "value": "<img src=https://i.imgur.com/BXChzjA.jpeg> Bob Dole, Pat Buchanan, Pete Wilson, Richard Lugar, Bill Weld, Dick Cheney, Jack Kemp, Steve Forbes, Lamar Alexander, Alan Keyes, Bob Dornan, Arthur Fletcher, Jack Fellure, and Harold Stassen, not to mention yourself."
+            "value": "<img src=https://i.imgur.com/BXChzjA.jpeg> Bob Dole, Pat Buchanan, Pete Wilson, Richard Lugar, Bill Weld, Dick Cheney, Jack Kemp, Lamar Alexander,  Dan Quayle, Alan Keyes, Bob Dornan, Arthur Fletcher, Jack Fellure, and Harold Stassen, not to mention yourself."
         },
         {
             "key": "The Democratic field",
-            "value": "Along with you, Bob Casey, Mario Cuomo, Jesse Jackson, Dick Gephardt, Joe Biden, and Lyndon LaRouche also ran."
+            "value": "Along with you, Bob Casey, Mario Cuomo, Jesse Jackson, Dick Gephardt, Joe Biden, Bob Kerrey, and Lyndon LaRouche also ran."
         },
         {
             "key": "Al Sr.",
