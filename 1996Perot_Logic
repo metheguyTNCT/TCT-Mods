@@ -1,4 +1,4 @@
-function createEnding(engine, results) {
+ function createEnding(engine, results) {
 
     const playerId = engine.getPlayerCandidateController().getId();
 
@@ -134,9 +134,9 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
     else if(playerId == 79) {
         if(engine.playerWonEv(results)&& brown == false) {
         engine.setNewMusic([{
-    displayName: "R.E.M. - It's The End Of The World As We Know It (And I Feel Fine)",
-    imageUrl: "https://i.imgur.com/iCjpqRU.jpeg",
-    url: "https://files.catbox.moe/1dbe8r.mp3",
+    displayName: "Frank Sinatra - They All Laughed",
+    imageUrl: "https://i.imgur.com/tWyl8V9.jpeg",
+    url: "https://files.catbox.moe/8x1mtf.mp3",
   },
 ]);
 
