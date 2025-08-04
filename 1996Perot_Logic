@@ -1,4 +1,4 @@
- function createEnding(engine, results) {
+function createEnding(engine, results) {
 
     const playerId = engine.getPlayerCandidateController().getId();
 
