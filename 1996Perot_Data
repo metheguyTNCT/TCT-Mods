@@ -235,7 +235,7 @@
             "homeState": "Maine",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>George Mitchell prefers making peace to making waves.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>George Mitchell prefers making peace to making waves. Ever since he succeeded Ed Muskie, Mitchell has been making a name for himself in liberal circles, serving as the leader of the Senate Dems since '88. He has also continued Muskie's fight for clean air and water, and also served on the Iran-Contra committee. Mitchell considered a run this year, but declined.</p><p>Mitchell is a tad dull, but he would help you build bridges with both the establishment and liberals at the same time. If you feel confident in your chances, there's nothing wrong with picking him.</p>",
             "imageUrl": "https://i.imgur.com/NyEKEIV.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -249,7 +249,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>This isn't Sam Nunn's first time being considered for Vice President. In fact, he's been more or less a constant in veepstakes discussions going back to 1984. And it's easy to see why. Nunn has impeccable foreign policy chops in the form of the landmark arms control treaty he and Dick Lugar negotiated. He is also a founding member of the DLC, the organization many credit with starting the New Democrat idea.</p><p>Nunn would be a great choice if you want to try and take back the South, but he would also reduce liberal turnout even further. Nunn is a gamble, but one that could potentially pay off big time.</p>",
-            "imageUrl": "https://i.imgur.com/koV7feJ.png",
+            "imageUrl": "https://i.imgur.com/RbjFmTB.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -262,7 +262,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
-            "imageUrl": "https://i.imgur.com/zBHk8yW.png",
+            "imageUrl": "https://i.imgur.com/ZNrGURP.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -20927,7 +20927,7 @@
                 },
                 {
                     "id": 367,
-                    "description": "Harkin",
+                    "description": "Mitchell",
                     "answers": [
                         {
                             "id": 3397,
