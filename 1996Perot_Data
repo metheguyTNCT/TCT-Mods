@@ -261,7 +261,7 @@
             "homeState": "California",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>Barbara Boxer is a fighter. Entering the Senate only four years ago, she has nonetheless already established herself a champion of progressive causes.</p><p>https://archive.ph/AKCxO</p>",
             "imageUrl": "https://i.imgur.com/ZNrGURP.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -275,7 +275,7 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>If you looked at Howard Dean's record, you'd think he'd be a rock star among New Democrats. Budget-balancer, tax-cutter, program-slasher- there's a reason he said Vermont didn't need a Republican governor while he was around.</p><p>On the trail, though, it's a different story. He plays the part of progressive populist well, firing up crowds like few others. His policies are more genuinely to the left abroad and socially, though even then he takes more of a libertarian stance. Whichever Dean you end up with, he's fairly green, only coming to office in 1991. Nonetheless, if you want to pass the torch to a new generation by '04, Dean's a good choice.</p>",
-            "imageUrl": "https://i.imgur.com/R3ZwFWe.png",
+            "imageUrl": "https://i.imgur.com/QrpoWlA.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -21246,7 +21246,7 @@
                     "answers": [
                         {
                             "id": 3507,
-                            "description": "Answer description here",
+                            "description": "Nobody is tougher than Barbara Boxer. ",
                             "feedback": "Answer feedback here, leave blank for none",
                             "answerEffects": []
                         }
@@ -41586,7 +41586,15 @@
                     ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": true,
-                    "onlyEnableAtStartIfRunningMateId": -1
+                    "onlyEnableAtStartIfRunningMateId": 91
+                },
+                {
+                    "id": 387,
+                    "description": "Description goes here",
+                    "answers": [],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 89
                 },
                 {
                     "id": 344,
@@ -62183,14 +62191,6 @@
                         }
                     ],
                     "keepInPlaceIfQuestionsShuffled": false
-                },
-                {
-                    "id": 387,
-                    "description": "Description goes here",
-                    "answers": [],
-                    "keepInPlaceIfQuestionsShuffled": true,
-                    "enabled": true,
-                    "onlyEnableAtStartIfRunningMateId": -1
                 }
             ]
         }
