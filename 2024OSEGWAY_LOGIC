@@ -1,0 +1,281 @@
+function createEnding(engine, results) {
+
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    // I am defining some endings below. Note I have to check who the player played as first in this scenario.
+    // You could also add more slides to have endings with pages
+
+    // If you played as Cruz
+    if(playerId == 200) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Where the Stars and Stripes and the Eagle Fly - Aaron Tippin",
+    imageUrl: "https://files.catbox.moe/xs63uk.jpg",
+    url: "https://files.catbox.moe/puao9i.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/6ZUWbBx.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
+                    }
+                ]
+            }
+        }
+else if(engine.isDeadlock(results)) { //deadlock
+        engine.setNewMusic([
+  {
+    displayName: "The Snake- Al Wilson",
+    imageUrl: "https://i.imgur.com/DW67KAo.jpeg",
+    url: "https://audio.jukehost.co.uk/y4albJBzVrOGrLeouFLgtsenKeQX1a5Z",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Crisis in the Campaign",
+                    imageUrl: "https://i.imgur.com/Eng9hEU.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+        else {
+        engine.setNewMusic([{
+    displayName: "With God On Our Side - Bob Dylan",
+    imageUrl: "https://i.imgur.com/sNjiitE.jpeg",
+    url: "https://files.catbox.moe/60wa17.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/TXopGXA.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
+                    }
+                ]
+            }
+        }
+    }
+    // If you played as Biden
+    else if(playerId == 201) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Uptight (Everything's Alright)- Stevie Wonder",
+    imageUrl: "https://i.imgur.com/gBpTvLO.jpeg",
+    url: "https://files.catbox.moe/k7kep9.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/LHQTMjc.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                    }
+                ]
+            }
+        }
+else if(engine.isDeadlock(results)) { //deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Talking Loud And Saying Nothing- James Brown",
+    imageUrl: "https://i.imgur.com/YBMVaa4.png",
+    url: "https://files.catbox.moe/k4rze1.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Crisis in the Campaign",
+                    imageUrl: "https://i.imgur.com/7KPR2zh.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+        else {
+        engine.setNewMusic([{
+    displayName: "You Haven't Done Nothin'- Stevie Wonder",
+    imageUrl: "https://i.imgur.com/ef8NSlM.jpeg",
+    url: "https://file.garden/Zrv1pPC1HzBK0svl/You%20Haven't%20Done%20Nothin'.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/wm3yDdb.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                    }
+                ]
+            }
+        }
+    }
+
+    // If you played as Trump
+    else if(playerId == 202) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Hold On I'm Comin'- Sam & Dave",
+    imageUrl: "https://i.imgur.com/pfn2zvj.jpeg",
+    url: "https://files.catbox.moe/ps1cgs.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Complicated business, folks. Complicated business.",
+                        imageUrl: "https://i.imgur.com/rWqGQ2M.jpeg",
+                        endingText: "'What the fuck?' Those were the first words that came out of Rachel Maddow's mouth after you were projected the winner of the 2024 presidential election. While your supporters were expecting you to win a state, and as much as they said you would win big league, most of them didn't think that you would actually become the next President of the United States. This is likely the death of the two-party system as we know it, as you are the first third-party candidate to win the White House since the early 19th century. Maybe you'll switch back to the Republican Party, and restore the two-party system. <p><p>Get ready to become the 46th President of the United States, even though Congress will be strongly against you. "
+                    }
+                ]
+            }
+        }
+else if(engine.isDeadlock(results)) { //deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Is That All There Is?- Peggy Lee",
+    imageUrl: "https://i.imgur.com/aDfWYx0.jpeg",
+    url: "https://files.catbox.moe/p5fvog.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "The Art of the Deal",
+                    imageUrl: "https://i.imgur.com/As6TIyE.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+        else {
+        engine.setNewMusic([{
+    displayName: "Tiny Dancer- Elton John",
+    imageUrl: "https://i.imgur.com/8S7WFYu.jpeg",
+    url: "https://files.catbox.moe/46g4a2.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/LnVCYow.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                    }
+                ]
+            }
+        }
+    }
+
+    // If you played as Manchin
+    else if(playerId == 203) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Sixteen Tons- Tennessee Ernie Ford",
+    imageUrl: "https://i.imgur.com/qiemjPx.jpeg",
+    url: "https://audio.jukehost.co.uk/wQWfeKgX3jDFIZUg1SiWsi12jiEtXRlq",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Complicated business, folks. Complicated business.",
+                        imageUrl: "https://i.imgur.com/zmov0W8.jpeg",
+                        endingText: "'What the fuck?' Those were the first words that came out of Rachel Maddow's mouth after you were projected the winner of the 2024 presidential election. While your supporters were expecting you to win a state, and as much as they said you would win big league, most of them didn't think that you would actually become the next President of the United States. This is likely the death of the two-party system as we know it, as you are the first third-party candidate to win the White House since the early 19th century. Maybe you'll switch back to the Republican Party, and restore the two-party system. <p><p>Get ready to become the 46th President of the United States, even though Congress will be strongly against you. "
+                    }
+                ]
+            }
+        }
+else if(engine.isDeadlock(results)) { //deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Cool, Cool, Considerate Men- Sherman Edwards",
+    imageUrl: "https://i.imgur.com/s3vzzSf.jpeg",
+    url: "https://files.catbox.moe/9ofbm5.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Crisis in the Campaign",
+                    imageUrl: "https://i.imgur.com/7NWVQIa.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+        else {
+        engine.setNewMusic([{
+    displayName: "Will The Circle Be Unbroken- Robert Byrd",
+    imageUrl: "https://i.imgur.com/fzkVEG8.jpeg",
+    url: "https://files.catbox.moe/syum1a.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/apUHZ9B.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                    }
+                ]
+            }
+        }
+    }
+
+
+    // No other endings defined, return an error
+    else {
+        engine.setNewMusic([{
+    displayName: "The American Dream Is Killing Me - Green Day",
+    imageUrl: "https://i.imgur.com/NuZ8izI.jpeg",
+    url: "https://files.catbox.moe/1drbed.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "deadlock",
+                    imageUrl: "https://www.jetsimon.com/public/static/images/henry-clay-1844.jpg",
+                    endingText: "Bad ending"
+                }
+            ]
+        }
+    }
+}
+
+function onAnswerPicked(engine, answerPicked) {
+    // This scenario has no CYOA
+}
+
+function onScenarioStarted(engine) {
+    
+}
+
+export {createEnding, onAnswerPicked, onScenarioStarted}
