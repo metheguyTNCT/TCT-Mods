@@ -113,9 +113,9 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
     
         else { //Gore loss
         engine.setNewMusic([{
-    displayName: "Lauryn Hill, Fugees - Killing Me Softly With His Song",
-    imageUrl: "https://i.imgur.com/GOHsZ2F.jpeg",
-    url: "https://files.catbox.moe/cof259.mp3",
+    displayName: "Blues Traveler - Run-Around",
+    imageUrl: "https://i.imgur.com/DUPSZOi.jpeg",
+    url: "https://files.catbox.moe/516s0w.mp3",
   },
 ]);
 
