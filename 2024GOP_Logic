@@ -1,0 +1,159 @@
+function createEnding(engine, results) {
+
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    // I am defining some endings below. Note I have to check who the player played as first in this scenario.
+    // You could also add more slides to have endings with pages
+
+    // If you played as Trump
+    if(playerId == 200) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Nessun dorma - Luciano Pavarotti",
+    imageUrl: "https://m.media-amazon.com/images/I/71zwU3UZ5ML._UF1000,1000_QL80_.jpg",
+    url: "https://audio.jukehost.co.uk/oC6gklcJuvZ7Oynaax3S6C8Uii4KpRXv",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/6ZUWbBx.jpeg",
+                        endingText: "<p>Those losers. Those haters. They threw everything at you- Meatball Ron, Birdbrain, even Sloppy Chris Christie. But they couldn't stop us. We swamped the vote, didn't we, folks? </p>"
+                    }
+                ]
+            }
+        }
+        else {
+        engine.setNewMusic([{
+    displayName: "With God On Our Side - Bob Dylan",
+    imageUrl: "https://i.imgur.com/sNjiitE.jpeg",
+    url: "https://files.catbox.moe/60wa17.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/TXopGXA.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
+                    }
+                ]
+            }
+        }
+    }
+    // If you played as Haley
+    else if(playerId == 201) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Girls Are The Best- Kyle Gordon",
+    imageUrl: "https://i.imgur.com/ARKskXN.jpeg",
+    url: "https://files.catbox.moe/h1lz92.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/R4kn8Mn.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                    }
+                ]
+            }
+        }
+
+        else {
+        engine.setNewMusic([{
+    displayName: "Johnny Reb - Johnny Horton",
+    imageUrl: "https://i.imgur.com/8dJ99Fy.jpeg",
+    url: "https://files.catbox.moe/iykvpz.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/wm3yDdb.jpeg",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                    }
+                ]
+            }
+        }
+    }
+
+    // If you played as DeSantis
+    else if(playerId == 202) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "Sweet Florida- Van Zant",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b273a17bd039ff1203f8962c0c5d",
+    url: "https://files.catbox.moe/jvq3tf.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Complicated business, folks. Complicated business.",
+                        imageUrl: "https://i.imgur.com/rWqGQ2M.jpeg",
+                        endingText: "'What the fuck?' Those were the first words that came out of Rachel Maddow's mouth after you were projected the winner of the 2024 presidential election. While your supporters were expecting you to win a state, and as much as they said you would win big league, most of them didn't think that you would actually become the next President of the United States. This is likely the death of the two-party system as we know it, as you are the first third-party candidate to win the White House since the early 19th century. Maybe you'll switch back to the Republican Party, and restore the two-party system. <p><p>Get ready to become the 46th President of the United States, even though Congress will be strongly against you. "
+                    }
+                ]
+            }
+        }
+
+        else {
+        engine.setNewMusic([{
+    displayName: "Nazi Punks Fuck Off- Dead Kennedys",
+    imageUrl: "https://i.imgur.com/ZZskd7F.jpeg",
+    url: "https://files.catbox.moe/kjslhv.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2024 Republican primaries.",
+                        imageUrl: "https://i.imgur.com/RCOM8Gk.png",
+                        endingText: "<p>I wish i could say I felt bad for you, Ron, but I don't.</p>"
+                    }
+                ]
+            }
+        }
+    }
+
+
+    // No other endings defined, return an error
+    else {
+        engine.setNewMusic([{
+    displayName: "Nazi Punks Fuck Off- Dead Kennedys",
+    imageUrl: "https://i.imgur.com/ZZskd7F.jpeg",
+    url: "https://files.catbox.moe/kjslhv.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "deadlock",
+                    imageUrl: "https://www.jetsimon.com/public/static/images/henry-clay-1844.jpg",
+                    endingText: "Bad ending"
+                }
+            ]
+        }
+    }
+}
+
+function onAnswerPicked(engine, answerPicked) {
+    // This scenario has no CYOA
+}
+
+function onScenarioStarted(engine) {
+    
+}
+
+export {createEnding, onAnswerPicked, onScenarioStarted}
