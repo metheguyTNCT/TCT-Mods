@@ -4,37 +4,2097 @@
             "id": 200,
             "firstName": "Donald",
             "lastName": "Trump",
-            "party": "Republican",
+            "party": "",
             "homeState": "Florida",
-            "color": "#FF0000",
+            "color": "#ff7b00",
             "issueScores": [
                 {
-                    "issueId": 100,
-                    "issueScore": -0.4,
+                    "issueId": 104,
+                    "issueScore": -0.93,
                     "weight": 1
-                },
-                {
-                    "issueId": 101,
-                    "issueScore": 0.5,
-                    "weight": 1
-                },
-                {
-                    "issueId": 102,
-                    "issueScore": 0.1,
-                    "weight": 1
-                },
-                {
-                    "issueId": 103,
-                    "issueScore": -0.5,
-                    "weight": 1
-                },
+                }
+            ],
+            "description": "<p>Retribution is in order. Having lost the 2020 election (though he'd say different if you asked him,) Donald Trump has remained the undisputed king of the Republican Party. Bearing that in mind, Trump is basically taking a victory lap before he goes to the actual fight against Biden.</p><p>If he wants the nomination, which he does, he'll get it. Trump is basically coasting until the convention. Nonetheless, that doesn't mean he won't put on a show until he gets there.</p>",
+            "imageUrl": "https://i.imgur.com/gYlsNYJ.jpeg",
+            "runningMateIds": [
+                204
+            ],
+            "startingGlobalMultiplier": 1,
+            "bannerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Trump_2024_2022_Campaign_Logo.png"
+        },
+        {
+            "id": 201,
+            "firstName": "Nikki",
+            "lastName": "Haley",
+            "party": "",
+            "homeState": "South Carolina",
+            "color": "#ff00ea",
+            "issueScores": [
                 {
                     "issueId": 104,
-                    "issueScore": -0.6,
+                    "issueScore": 0.55,
                     "weight": 1
                 }
             ],
             "description": "'",
+            "imageUrl": "https://i.imgur.com/8SwA1hq.jpeg",
+            "runningMateIds": [
+                209
+            ],
+            "startingGlobalMultiplier": 1,
+            "bannerImageUrl": "https://itsastronomical.com/assets/2024/signs/haleysign.png"
+        },
+        {
+            "id": 202,
+            "firstName": "Ron",
+            "lastName": "DeSantis",
+            "party": "",
+            "homeState": "Florida",
+            "color": "#ff0000",
+            "issueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": 0.7,
+                    "weight": 1
+                }
+            ],
+            "description": "'",
+            "imageUrl": "https://i.imgur.com/qjqClN1.jpeg",
+            "runningMateIds": [
+                205
+            ],
+            "startingGlobalMultiplier": 1,
+            "bannerImageUrl": "https://itsastronomical.com/assets/2024/signs/desantissign.png"
+        },
+        {
+            "id": 203,
+            "firstName": "Vivek",
+            "lastName": "Ramaswamy/Others",
+            "party": "Green",
+            "homeState": "Massachusetts",
+            "color": "#fff700",
+            "issueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": 0.7,
+                    "weight": 1
+                }
+            ],
+            "description": "'",
+            "imageUrl": "'",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 204,
+            "firstName": "Trump",
+            "lastName": "For President",
+            "party": "",
+            "homeState": "",
+            "color": "#FF0000",
+            "issueScores": [],
+            "description": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/opb/WWGKYR24DMU4KYM5WRO4MALMVM.jpg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 205,
+            "firstName": "DeSantis",
+            "lastName": "Campaign",
+            "party": "",
+            "homeState": "",
+            "color": "#FF0000",
+            "issueScores": [],
+            "description": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "imageUrl": "https://i.imgur.com/56gIuOc.jpeg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 209,
+            "firstName": "Haley",
+            "lastName": "for President",
+            "party": "",
+            "homeState": "",
+            "color": "#0000FF",
+            "issueScores": [],
+            "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "imageUrl": "https://i.imgur.com/uuemtK3.jpeg",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
+        }
+    ],
+    "states": [
+        {
+            "id": 1000,
+            "name": "Alabama",
+            "abbr": "AL",
+            "electoralVotes": 9,
+            "popularVotes": 2123372,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.839
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0942
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0207
+                }
+            ]
+        },
+        {
+            "id": 1001,
+            "name": "Alaska",
+            "abbr": "AK",
+            "electoralVotes": 3,
+            "popularVotes": 318608,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.737
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.2323
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0544
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "name": "Arizona",
+            "abbr": "AZ",
+            "electoralVotes": 11,
+            "popularVotes": 2604657,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.9
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1122
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.044
+                }
+            ]
+        },
+        {
+            "id": 1003,
+            "name": "Arkansas",
+            "abbr": "AR",
+            "electoralVotes": 6,
+            "popularVotes": 1130635,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.741
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1276
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0347
+                }
+            ]
+        },
+        {
+            "id": 1004,
+            "name": "California",
+            "abbr": "CA",
+            "electoralVotes": 55,
+            "popularVotes": 14237893,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.244
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1005
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0433
+                }
+            ]
+        },
+        {
+            "id": 1005,
+            "name": "Colorado",
+            "abbr": "CO",
+            "electoralVotes": 9,
+            "popularVotes": 2780247,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.878
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1615
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0351
+                }
+            ]
+        },
+        {
+            "id": 1006,
+            "name": "Connecticut",
+            "abbr": "CT",
+            "electoralVotes": 7,
+            "popularVotes": 1644920,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.884
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0605
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0286
+                }
+            ]
+        },
+        {
+            "id": 1007,
+            "name": "Delaware",
+            "abbr": "DE",
+            "electoralVotes": 3,
+            "popularVotes": 443814,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": 0.45,
+                    "weight": 1.5
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.915
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0825
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0323
+                }
+            ]
+        },
+        {
+            "id": 1008,
+            "name": "Florida",
+            "abbr": "FL",
+            "electoralVotes": 29,
+            "popularVotes": 9502747,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.959
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0601
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0203
+                }
+            ]
+        },
+        {
+            "id": 1009,
+            "name": "Georgia",
+            "abbr": "GA",
+            "electoralVotes": 16,
+            "popularVotes": 4141447,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.942
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0835
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0062
+                }
+            ]
+        },
+        {
+            "id": 1010,
+            "name": "Hawaii",
+            "abbr": "HI",
+            "electoralVotes": 4,
+            "popularVotes": 428937,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.285
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0989
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0663
+                }
+            ]
+        },
+        {
+            "id": 1011,
+            "name": "Idaho",
+            "abbr": "ID",
+            "electoralVotes": 4,
+            "popularVotes": 690433,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.528
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.2608
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0369
+                }
+            ]
+        },
+        {
+            "id": 1012,
+            "name": "Illinois",
+            "abbr": "IL",
+            "electoralVotes": 20,
+            "popularVotes": 5594825,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.223
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1176
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0418
+                }
+            ]
+        },
+        {
+            "id": 1013,
+            "name": "Indiana",
+            "abbr": "IN",
+            "electoralVotes": 11,
+            "popularVotes": 2757965,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.769
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1218
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0088
+                }
+            ]
+        },
+        {
+            "id": 1014,
+            "name": "Iowa",
+            "abbr": "IA",
+            "electoralVotes": 6,
+            "popularVotes": 1566031,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.56,
+                    "weight": -0.86
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.846
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1441
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0218
+                }
+            ]
+        },
+        {
+            "id": 1015,
+            "name": "Kansas",
+            "abbr": "KS",
+            "electoralVotes": 6,
+            "popularVotes": 1194755,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.669
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1089
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0599
+                }
+            ]
+        },
+        {
+            "id": 1016,
+            "name": "Kentucky",
+            "abbr": "KY",
+            "electoralVotes": 8,
+            "popularVotes": 1924150,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.666
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0984
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0237
+                }
+            ]
+        },
+        {
+            "id": 1017,
+            "name": "Louisiana",
+            "abbr": "LA",
+            "electoralVotes": 8,
+            "popularVotes": 2029032,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.86,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.844
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0716
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0284
+                }
+            ]
+        },
+        {
+            "id": 1018,
+            "name": "Maine",
+            "abbr": "ME",
+            "electoralVotes": 4,
+            "popularVotes": 747927,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.11
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1754
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0636
+                }
+            ]
+        },
+        {
+            "id": 1019,
+            "name": "Maryland",
+            "abbr": "MD",
+            "electoralVotes": 10,
+            "popularVotes": 2781446,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.589
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1599
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0388
+                }
+            ]
+        },
+        {
+            "id": 1020,
+            "name": "Massachusetts",
+            "abbr": "MA",
+            "electoralVotes": 11,
+            "popularVotes": 3325046,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.103
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1111
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0247
+                }
+            ]
+        },
+        {
+            "id": 1021,
+            "name": "Michigan",
+            "abbr": "MI",
+            "electoralVotes": 16,
+            "popularVotes": 4824542,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.119
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1616
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0353
+                }
+            ]
+        },
+        {
+            "id": 1022,
+            "name": "Minnesota",
+            "abbr": "MN",
+            "electoralVotes": 10,
+            "popularVotes": 2945233,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.993
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.2002
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0347
+                }
+            ]
+        },
+        {
+            "id": 1023,
+            "name": "Mississippi",
+            "abbr": "MS",
+            "electoralVotes": 6,
+            "popularVotes": 1211088,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.006
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0498
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.017
+                }
+            ]
+        },
+        {
+            "id": 1024,
+            "name": "Missouri",
+            "abbr": "MO",
+            "electoralVotes": 10,
+            "popularVotes": 2828266,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.738
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0959
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.03
+                }
+            ]
+        },
+        {
+            "id": 1025,
+            "name": "Montana",
+            "abbr": "MT",
+            "electoralVotes": 3,
+            "popularVotes": 501822,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.692
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1368
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0482
+                }
+            ]
+        },
+        {
+            "id": 1026,
+            "name": "Nebraska",
+            "abbr": "NE",
+            "electoralVotes": 5,
+            "popularVotes": 844227,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.634
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1398
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0312
+                }
+            ]
+        },
+        {
+            "id": 1027,
+            "name": "Nevada",
+            "abbr": "NV",
+            "electoralVotes": 6,
+            "popularVotes": 1125385,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.918
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.149
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0
+                }
+            ]
+        },
+        {
+            "id": 1028,
+            "name": "New Hampshire",
+            "abbr": "NH",
+            "electoralVotes": 4,
+            "popularVotes": 744296,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.977
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1501
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0263
+                }
+            ]
+        },
+        {
+            "id": 1029,
+            "name": "New Jersey",
+            "abbr": "NJ",
+            "electoralVotes": 14,
+            "popularVotes": 3906723,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.004
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0714
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0228
+                }
+            ]
+        },
+        {
+            "id": 1030,
+            "name": "New Mexico",
+            "abbr": "NM",
+            "electoralVotes": 5,
+            "popularVotes": 798319,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.98
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.243
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0315
+                }
+            ]
+        },
+        {
+            "id": 1031,
+            "name": "New York",
+            "abbr": "NY",
+            "electoralVotes": 29,
+            "popularVotes": 7721795,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.12
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0752
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.033
+                }
+            ]
+        },
+        {
+            "id": 1032,
+            "name": "North Carolina",
+            "abbr": "NC",
+            "electoralVotes": 15,
+            "popularVotes": 4741564,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.963
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0937
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0085
+                }
+            ]
+        },
+        {
+            "id": 1033,
+            "name": "North Dakota",
+            "abbr": "ND",
+            "electoralVotes": 3,
+            "popularVotes": 344360,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.5
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1794
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.033
+                }
+            ]
+        },
+        {
+            "id": 1034,
+            "name": "Ohio",
+            "abbr": "OH",
+            "electoralVotes": 18,
+            "popularVotes": 5536547,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.88
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1515
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0347
+                }
+            ]
+        },
+        {
+            "id": 1035,
+            "name": "Oklahoma",
+            "abbr": "OK",
+            "electoralVotes": 7,
+            "popularVotes": 1452992,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.485
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1129
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0
+                }
+            ]
+        },
+        {
+            "id": 1036,
+            "name": "Oregon",
+            "abbr": "OR",
+            "electoralVotes": 7,
+            "popularVotes": 2001336,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.913
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1738
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.052
+                }
+            ]
+        },
+        {
+            "id": 1037,
+            "name": "Pennsylvania",
+            "abbr": "PA",
+            "electoralVotes": 20,
+            "popularVotes": 6166729,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.984
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0944
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0242
+                }
+            ]
+        },
+        {
+            "id": 1038,
+            "name": "Rhode Island",
+            "abbr": "RI",
+            "electoralVotes": 4,
+            "popularVotes": 464144,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.896
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1082
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0259
+                }
+            ]
+        },
+        {
+            "id": 1039,
+            "name": "South Carolina",
+            "abbr": "SC",
+            "electoralVotes": 9,
+            "popularVotes": 2103027,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.965
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1049
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0255
+                }
+            ]
+        },
+        {
+            "id": 1040,
+            "name": "South Dakota",
+            "abbr": "SD",
+            "electoralVotes": 3,
+            "popularVotes": 370093,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.638
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1554
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0
+                }
+            ]
+        },
+        {
+            "id": 1041,
+            "name": "Tennessee",
+            "abbr": "TN",
+            "electoralVotes": 11,
+            "popularVotes": 2508027,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.81
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1095
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0264
+                }
+            ]
+        },
+        {
+            "id": 1042,
+            "name": "Texas",
+            "abbr": "TX",
+            "electoralVotes": 38,
+            "popularVotes": 8993166,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.86,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.854
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.0834
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0263
+                }
+            ]
+        },
+        {
+            "id": 1043,
+            "name": "Utah",
+            "abbr": "UT",
+            "electoralVotes": 6,
+            "popularVotes": 1143601,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": 0
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.656
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.6883
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0273
+                }
+            ]
+        },
+        {
+            "id": 1044,
+            "name": "Vermont",
+            "abbr": "VT",
+            "electoralVotes": 3,
+            "popularVotes": 315067,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": 0.39,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.487
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.3209
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0508
+                }
+            ]
+        },
+        {
+            "id": 1045,
+            "name": "Virginia",
+            "abbr": "VA",
+            "electoralVotes": 13,
+            "popularVotes": 3982752,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.079
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1431
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0227
+                }
+            ]
+        },
+        {
+            "id": 1046,
+            "name": "Washington",
+            "abbr": "WA",
+            "electoralVotes": 12,
+            "popularVotes": 3316996,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 1.188
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.2445
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0532
+                }
+            ]
+        },
+        {
+            "id": 1047,
+            "name": "Washington DC",
+            "abbr": "DC",
+            "electoralVotes": 3,
+            "popularVotes": 311268,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": 0.5,
+                    "weight": 1.5
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 13.948
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.7139
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.227
+                }
+            ]
+        },
+        {
+            "id": 1048,
+            "name": "West Virginia",
+            "abbr": "WV",
+            "electoralVotes": 5,
+            "popularVotes": 721233,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.625,
+                    "weight": 1.5
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.597
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1175
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0535
+                }
+            ]
+        },
+        {
+            "id": 1049,
+            "name": "Wisconsin",
+            "abbr": "WI",
+            "electoralVotes": 10,
+            "popularVotes": 2976150,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.94,
+                    "weight": -0.94
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.994
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.1675
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0343
+                }
+            ]
+        },
+        {
+            "id": 1050,
+            "name": "Wyoming",
+            "abbr": "WY",
+            "electoralVotes": 3,
+            "popularVotes": 255849,
+            "baseIssueScores": [
+                {
+                    "issueId": 104,
+                    "issueScore": -0.75,
+                    "weight": 1.5
+                }
+            ],
+            "baseCandidateStateModifiers": [
+                {
+                    "candidateId": 200,
+                    "amount": 0.96
+                },
+                {
+                    "candidateId": 201,
+                    "amount": 0.481
+                },
+                {
+                    "candidateId": 202,
+                    "amount": 0.2299
+                },
+                {
+                    "candidateId": 203,
+                    "amount": 0.0459
+                }
+            ]
+        }
+    ],
+    "issues": [
+        {
+            "id": 104,
+            "name": "Donald Trump",
+            "description": "",
+            "stances": [
+                "God's Gift to Mankind",
+                "Adored",
+                "Loved",
+                "Good",
+                "guys maybe he's not that great actually",
+                "guys maybe he's not that great actually",
+                "guys maybe he's not that great actually"
+            ],
+            "stanceDescriptions": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        }
+    ],
+    "scenarioSides": [
+        {
+            "playerId": 201,
+            "questions": [
+                {
+                    "id": 1076,
+                    "description": "Where will you spend the final day of your campaign?",
+                    "answers": [
+                        {
+                            "id": 5258,
+                            "description": "We're going to spend our final day in Florida, rallying the Hispanic, Jewish, and black communities against the outrages of Donald Trump and his campaign.",
+                            "feedback": "",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1021,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1022,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1049,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1008,
+                                    "amount": 0.0033
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5259,
+                            "description": "We're going to visit Michigan, Wisconsin, and Minnesota. I want us to appear with Bernie Sanders and Barack Obama to push our message on trade, the African-American turnout, and party unity.",
+                            "feedback": "",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": -1,
+                                    "amount": 0.001
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1021,
+                                    "amount": 0.001
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1022,
+                                    "amount": 0.001
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1049,
+                                    "amount": 0.001
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5260,
+                            "description": "We're going to visit Colorado and Nevada, and maybe a short stop in Arizona, to rally Hispanic turnout and highlight Trump's outrages for a final time.",
+                            "feedback": "",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1021,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1022,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1049,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1002,
+                                    "amount": 0.002
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1005,
+                                    "amount": 0.003
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1027,
+                                    "amount": 0.003
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1030,
+                                    "amount": 0.0015
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5261,
+                            "description": "Let's not complicate this too much. The election pivots around Pennsylvania -- we're going to spend our final day in Pennsylvania, with an enormous rally of celebrities and party heavyweights.",
+                            "feedback": "",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1021,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1022,
+                                    "amount": -0.0025
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": 1049,
+                                    "amount": -0.0025
+                                }
+                            ]
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": false
+                }
+            ]
+        },
+        {
+            "playerId": 200,
+            "questions": [
+                {
+                    "id": 1037,
+                    "description": "Will you attend the debates? Or campaign at all, for that matter?",
+                    "answers": [
+                        {
+                            "id": 5123,
+                            "description": "No.",
+                            "feedback": "Oh my God, Mr. Trump. I'm so sorry for suggesting you needed to do anything at all to\nwin. Here's the nomination my glorious king",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 200,
+                                    "issueId": -1,
+                                    "stateId": 1008,
+                                    "amount": 0.0033
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 200,
+                                    "issueId": -1,
+                                    "stateId": 1037,
+                                    "amount": -0.003
+                                }
+                            ]
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true
+                }
+            ]
+        },
+        {
+            "playerId": 202,
+            "questions": [
+                {
+                    "id": 914663,
+                    "description": "Description goes here",
+                    "answers": [
+                        {
+                            "id": 5264,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "backgroundImageUrl": "https://www.azcentral.com/gcdn/authoring/authoring-images/2024/06/07/PPHX/74008623007-cec-2386.jpg?width=700&height=465&fit=crop&format=pjpg&auto=webp",
+        "backgroundColor": "#BFE6FF",
+        "headerImageUrl": "https://i.imgur.com/Mumx1Gk.jpeg",
+        "primaryGameWindowColor": "#da1333",
+        "secondaryGameWindowColor": "#213875",
+        "primaryGameWindowTextColor": "#000000",
+        "secondaryGameWindowTextColor": "#ffffff",
+        "bottomBannerBackgroundColor": "#ffffff",
+        "bottomBannerTextColor": "#FFFFFF",
+        "advisorImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/10/21/USAT/75771129007-2178900350.jpg?width=1733&height=1062&fit=crop&format=pjpg&auto=webp",
+        "quote": "“I could have said, ‘drop to your knees and beg,’ and he would have done it.”- DJT",
+        "questionBackgroundColor": "#213875",
+        "questionTextColor": "#ffffff"
+    },
+    "historicalResults": {
+        "popularVotes": {
+            "200": 62984828,
+            "201": 65853514,
+            "202": 4489341,
+            "203": 1457218
+        },
+        "electoralVotes": {
+            "200": 306,
+            "201": 232,
+            "202": 0,
+            "203": 0
+        }
+    },
+    "hasStateVisits": false,
+    "scenarioName": "2024: The Race to Be the Guy Who Loses to Trump",
+    "scenarioDescription": "<p>Donald Trump. The next Republican nominee. Along with the equally inevitable Joe Biden, he's one of the the most unpopular pair of nominees in American history (beating the record set by himself eight years ago). A convicted felon. On paper, it's an open primary for the Republicans.</p><p>No matter. Both parties have long ago stopped  hoping for anything better that these two old men. Now is the time for falling in line, kissing the ring, and hoping’ ‘28 will bring better times. </p>",
+    "scenarioImageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2182697515.jpg?c=16x9&q=h_540,w_960,c_fill",
+    "credits": "This scenario was made by Metheguy.",
+    "music": [
+        {
+            "url": "https://files.catbox.moe/p5fvog.mp3",
+            "displayName": "Is That All There Is?- Peggy Lee",
+            "imageUrl": "https://i.imgur.com/aDfWYx0.jpeg"
+        },
+        {
+            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Justice%20for%20All.mp3",
+            "displayName": "Justice For All-  J6 Prison Choir ft. Donald J. Trump",
+            "imageUrl": "https://i.imgur.com/OMimje8.jpeg"
+        },
+        {
+            "url": "https://audio.jukehost.co.uk/PsZHFAuZ9IdHhFO11FCOulS8Os7WQuOn",
+            "displayName": "You Can't Always Get What You Want- The Rolling Stones",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c0/LetitbleedRS.jpg"
+        },
+        {
+            "url": "https://audio.jukehost.co.uk/y4albJBzVrOGrLeouFLgtsenKeQX1a5Z",
+            "displayName": "The Snake- Al Wilson",
+            "imageUrl": "https://i.imgur.com/DW67KAo.jpeg"
+        },
+        {
+            "url": "https://audio.jukehost.co.uk/coIcrh3oWWEBTxht066r8pJO4hZVZn9B",
+            "displayName": "Y.M.C.A-  The Village People",
+            "imageUrl": "https://m.media-amazon.com/images/I/61bz0GB1AQL._UF1000,1000_QL80_.jpg"
+        },
+        {
+            "url": "https://files.catbox.moe/ps1cgs.mp3",
+            "displayName": "Hold On, I'm Comin'- Sam & Dave",
+            "imageUrl": "https://i.imgur.com/pfn2zvj.jpeg"
+        }
+    ],
+    "tooltips": [
+        {
+            "key": "Biden",
+            "value": "<img src=https://i.imgur.com/edAuFtt.jpeg> The other guy."
+        },
+        {
+            "key": "Phillips",
+            "value": "<img src=https://i.imgur.com/inOTriw.jpeg> It's like poetry. They rhyme."
+        },
+        {
+            "key": "Pence",
+            "value": "<img src=https://i.imgur.com/yt7rlNe.jpeg> Stopped Trump from overturning the 2020 election. Completely unelectable thanks to this."
+        },
+        {
+            "key": "Christie",
+            "value": "<img src=https://i.imgur.com/5TEFVJT.jpeg> The only candidate who knows what he's here for."
+        },
+        {
+            "key": "Hutchinson",
+            "value": "<img src=https://i.imgur.com/XUzjaBn.jpeg> Who?"
+        }
+    ],
+    "furtherReading": "Heavily inspired by u/NaffRespect's 'Actual DeSantis feedback' series."
+}            "description": "'",
             "imageUrl": "https://ichef.bbci.co.uk/ace/standard/819/cpsprodpb/8913/live/71efb8e0-b72a-11ef-8768-5549ae405050.jpg",
             "runningMateIds": [
                 204,
