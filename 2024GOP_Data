@@ -14,7 +14,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>Retribution is in order. Having lost the 2020 election (though he'd say different if you asked him,) Donald Trump has remained the undisputed king of the Republican Party. Bearing that in mind, Trump is basically taking a victory lap before he goes to the actual fight against Biden.</p><p>If he wants the nomination, which he does, he'll get it. Trump is basically coasting until the convention. Nonetheless, that doesn't mean he won't put on a show until he gets there.</p>",
+            "description": "<p>Retribution is in order. Having lost the 2020 election (though he'd say different if you asked him,) and debatably being the reason for the GOP's poor midterm performance, Donald Trump has remained the once and future king of the Republican Party. Bearing that in mind, Trump is basically taking a victory lap before he goes on to the actual fight against Biden.</p><p>If he wants the nomination, which he does, he'll get it. Trump is basically coasting until the convention. Nonetheless, that doesn't mean he won't put on a show until he gets there. </p>",
             "imageUrl": "https://i.imgur.com/gYlsNYJ.jpeg",
             "runningMateIds": [
                 204
@@ -32,11 +32,11 @@
             "issueScores": [
                 {
                     "issueId": 104,
-                    "issueScore": 0.55,
+                    "issueScore": -0.16,
                     "weight": 1
                 }
             ],
-            "description": "'",
+            "description": "I was gonna make the Haley and DeSantis sides semi-serious or at least full length but I couldn't think of anything interesting to do with them so nah. I invite anyone who wants to to redux this mod.\n",
             "imageUrl": "https://i.imgur.com/8SwA1hq.jpeg",
             "runningMateIds": [
                 209
@@ -50,15 +50,15 @@
             "lastName": "DeSantis",
             "party": "",
             "homeState": "Florida",
-            "color": "#ff0000",
+            "color": "#aa0808",
             "issueScores": [
                 {
                     "issueId": 104,
-                    "issueScore": 0.7,
+                    "issueScore": -0.01,
                     "weight": 1
                 }
             ],
-            "description": "'",
+            "description": "see above",
             "imageUrl": "https://i.imgur.com/qjqClN1.jpeg",
             "runningMateIds": [
                 205
@@ -93,7 +93,7 @@
             "homeState": "",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "description": "<p>The president-in-waiting's campaign is far more muscular than the competitiveness of this race would imply. Trump merchandise of all stripes, selling at a brisk pace. Trump rallies, where the Donald uncorks his usual ramblings. Trump's own social media platform, Truth Social,for digital versions of the same.</p> About the only thing Trump isn't doing is actually running against his opponents. Instead, he seems to be treating the primaries as more of a test run for the general than anything else. He's inevitable, after all.",
             "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/opb/WWGKYR24DMU4KYM5WRO4MALMVM.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -106,7 +106,7 @@
             "homeState": "",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "description": "<p>there's nothing here get out</p>",
             "imageUrl": "https://i.imgur.com/56gIuOc.jpeg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -119,7 +119,7 @@
             "homeState": "",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "description": "<p>neconing time</p>",
             "imageUrl": "https://i.imgur.com/uuemtK3.jpeg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -130,7 +130,7 @@
             "id": 1000,
             "name": "Alabama",
             "abbr": "AL",
-            "electoralVotes": 9,
+            "electoralVotes": 50,
             "popularVotes": 2123372,
             "baseIssueScores": [
                 {
@@ -156,13 +156,14 @@
                     "candidateId": 203,
                     "amount": 0.0207
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1001,
             "name": "Alaska",
             "abbr": "AK",
-            "electoralVotes": 3,
+            "electoralVotes": 29,
             "popularVotes": 318608,
             "baseIssueScores": [
                 {
@@ -188,13 +189,14 @@
                     "candidateId": 203,
                     "amount": 0.0544
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1002,
             "name": "Arizona",
             "abbr": "AZ",
-            "electoralVotes": 11,
+            "electoralVotes": 43,
             "popularVotes": 2604657,
             "baseIssueScores": [
                 {
@@ -220,13 +222,14 @@
                     "candidateId": 203,
                     "amount": 0.044
                 }
-            ]
+            ],
+            "pollClosingTime": 3
         },
         {
             "id": 1003,
             "name": "Arkansas",
             "abbr": "AR",
-            "electoralVotes": 6,
+            "electoralVotes": 40,
             "popularVotes": 1130635,
             "baseIssueScores": [
                 {
@@ -252,13 +255,14 @@
                     "candidateId": 203,
                     "amount": 0.0347
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1004,
             "name": "California",
             "abbr": "CA",
-            "electoralVotes": 55,
+            "electoralVotes": 169,
             "popularVotes": 14237893,
             "baseIssueScores": [
                 {
@@ -284,13 +288,14 @@
                     "candidateId": 203,
                     "amount": 0.0433
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1005,
             "name": "Colorado",
             "abbr": "CO",
-            "electoralVotes": 9,
+            "electoralVotes": 37,
             "popularVotes": 2780247,
             "baseIssueScores": [
                 {
@@ -316,13 +321,14 @@
                     "candidateId": 203,
                     "amount": 0.0351
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1006,
             "name": "Connecticut",
             "abbr": "CT",
-            "electoralVotes": 7,
+            "electoralVotes": 28,
             "popularVotes": 1644920,
             "baseIssueScores": [
                 {
@@ -386,7 +392,7 @@
             "id": 1008,
             "name": "Florida",
             "abbr": "FL",
-            "electoralVotes": 29,
+            "electoralVotes": 125,
             "popularVotes": 9502747,
             "baseIssueScores": [
                 {
@@ -406,19 +412,20 @@
                 },
                 {
                     "candidateId": 202,
-                    "amount": 0.0601
+                    "amount": 1.82
                 },
                 {
                     "candidateId": 203,
                     "amount": 0.0203
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1009,
             "name": "Georgia",
             "abbr": "GA",
-            "electoralVotes": 16,
+            "electoralVotes": 59,
             "popularVotes": 4141447,
             "baseIssueScores": [
                 {
@@ -444,13 +451,14 @@
                     "candidateId": 203,
                     "amount": 0.0062
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1010,
             "name": "Hawaii",
             "abbr": "HI",
-            "electoralVotes": 4,
+            "electoralVotes": 19,
             "popularVotes": 428937,
             "baseIssueScores": [
                 {
@@ -476,13 +484,14 @@
                     "candidateId": 203,
                     "amount": 0.0663
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1011,
             "name": "Idaho",
             "abbr": "ID",
-            "electoralVotes": 4,
+            "electoralVotes": 32,
             "popularVotes": 690433,
             "baseIssueScores": [
                 {
@@ -514,7 +523,7 @@
             "id": 1012,
             "name": "Illinois",
             "abbr": "IL",
-            "electoralVotes": 20,
+            "electoralVotes": 64,
             "popularVotes": 5594825,
             "baseIssueScores": [
                 {
@@ -540,13 +549,14 @@
                     "candidateId": 203,
                     "amount": 0.0418
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1013,
             "name": "Indiana",
             "abbr": "IN",
-            "electoralVotes": 11,
+            "electoralVotes": 58,
             "popularVotes": 2757965,
             "baseIssueScores": [
                 {
@@ -578,7 +588,7 @@
             "id": 1014,
             "name": "Iowa",
             "abbr": "IA",
-            "electoralVotes": 6,
+            "electoralVotes": 40,
             "popularVotes": 1566031,
             "baseIssueScores": [
                 {
@@ -590,7 +600,7 @@
             "baseCandidateStateModifiers": [
                 {
                     "candidateId": 200,
-                    "amount": 0.96
+                    "amount": 1.15
                 },
                 {
                     "candidateId": 201,
@@ -610,7 +620,7 @@
             "id": 1015,
             "name": "Kansas",
             "abbr": "KS",
-            "electoralVotes": 6,
+            "electoralVotes": 39,
             "popularVotes": 1194755,
             "baseIssueScores": [
                 {
@@ -636,13 +646,14 @@
                     "candidateId": 203,
                     "amount": 0.0599
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1016,
             "name": "Kentucky",
             "abbr": "KY",
-            "electoralVotes": 8,
+            "electoralVotes": 46,
             "popularVotes": 1924150,
             "baseIssueScores": [
                 {
@@ -674,7 +685,7 @@
             "id": 1017,
             "name": "Louisiana",
             "abbr": "LA",
-            "electoralVotes": 8,
+            "electoralVotes": 47,
             "popularVotes": 2029032,
             "baseIssueScores": [
                 {
@@ -706,7 +717,7 @@
             "id": 1018,
             "name": "Maine",
             "abbr": "ME",
-            "electoralVotes": 4,
+            "electoralVotes": 20,
             "popularVotes": 747927,
             "baseIssueScores": [
                 {
@@ -732,13 +743,14 @@
                     "candidateId": 203,
                     "amount": 0.0636
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1019,
             "name": "Maryland",
             "abbr": "MD",
-            "electoralVotes": 10,
+            "electoralVotes": 37,
             "popularVotes": 2781446,
             "baseIssueScores": [
                 {
@@ -770,7 +782,7 @@
             "id": 1020,
             "name": "Massachusetts",
             "abbr": "MA",
-            "electoralVotes": 11,
+            "electoralVotes": 40,
             "popularVotes": 3325046,
             "baseIssueScores": [
                 {
@@ -796,7 +808,8 @@
                     "candidateId": 203,
                     "amount": 0.0247
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1021,
@@ -834,7 +847,7 @@
             "id": 1022,
             "name": "Minnesota",
             "abbr": "MN",
-            "electoralVotes": 10,
+            "electoralVotes": 27,
             "popularVotes": 2945233,
             "baseIssueScores": [
                 {
@@ -860,13 +873,14 @@
                     "candidateId": 203,
                     "amount": 0.0347
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1023,
             "name": "Mississippi",
             "abbr": "MS",
-            "electoralVotes": 6,
+            "electoralVotes": 40,
             "popularVotes": 1211088,
             "baseIssueScores": [
                 {
@@ -892,13 +906,14 @@
                     "candidateId": 203,
                     "amount": 0.017
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1024,
             "name": "Missouri",
             "abbr": "MO",
-            "electoralVotes": 10,
+            "electoralVotes": 54,
             "popularVotes": 2828266,
             "baseIssueScores": [
                 {
@@ -962,7 +977,7 @@
             "id": 1026,
             "name": "Nebraska",
             "abbr": "NE",
-            "electoralVotes": 5,
+            "electoralVotes": 36,
             "popularVotes": 844227,
             "baseIssueScores": [
                 {
@@ -994,7 +1009,7 @@
             "id": 1027,
             "name": "Nevada",
             "abbr": "NV",
-            "electoralVotes": 6,
+            "electoralVotes": 0,
             "popularVotes": 1125385,
             "baseIssueScores": [
                 {
@@ -1026,7 +1041,7 @@
             "id": 1028,
             "name": "New Hampshire",
             "abbr": "NH",
-            "electoralVotes": 4,
+            "electoralVotes": 22,
             "popularVotes": 744296,
             "baseIssueScores": [
                 {
@@ -1058,7 +1073,7 @@
             "id": 1029,
             "name": "New Jersey",
             "abbr": "NJ",
-            "electoralVotes": 14,
+            "electoralVotes": 12,
             "popularVotes": 3906723,
             "baseIssueScores": [
                 {
@@ -1090,8 +1105,8 @@
             "id": 1030,
             "name": "New Mexico",
             "abbr": "NM",
-            "electoralVotes": 5,
-            "popularVotes": 798319,
+            "electoralVotes": 0,
+            "popularVotes": 0,
             "baseIssueScores": [
                 {
                     "issueId": 104,
@@ -1122,7 +1137,7 @@
             "id": 1031,
             "name": "New York",
             "abbr": "NY",
-            "electoralVotes": 29,
+            "electoralVotes": 91,
             "popularVotes": 7721795,
             "baseIssueScores": [
                 {
@@ -1154,7 +1169,7 @@
             "id": 1032,
             "name": "North Carolina",
             "abbr": "NC",
-            "electoralVotes": 15,
+            "electoralVotes": 74,
             "popularVotes": 4741564,
             "baseIssueScores": [
                 {
@@ -1180,13 +1195,14 @@
                     "candidateId": 203,
                     "amount": 0.0085
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1033,
             "name": "North Dakota",
             "abbr": "ND",
-            "electoralVotes": 3,
+            "electoralVotes": 29,
             "popularVotes": 344360,
             "baseIssueScores": [
                 {
@@ -1218,7 +1234,7 @@
             "id": 1034,
             "name": "Ohio",
             "abbr": "OH",
-            "electoralVotes": 18,
+            "electoralVotes": 79,
             "popularVotes": 5536547,
             "baseIssueScores": [
                 {
@@ -1244,13 +1260,14 @@
                     "candidateId": 203,
                     "amount": 0.0347
                 }
-            ]
+            ],
+            "pollClosingTime": 2
         },
         {
             "id": 1035,
             "name": "Oklahoma",
             "abbr": "OK",
-            "electoralVotes": 7,
+            "electoralVotes": 43,
             "popularVotes": 1452992,
             "baseIssueScores": [
                 {
@@ -1276,13 +1293,14 @@
                     "candidateId": 203,
                     "amount": 0
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1036,
             "name": "Oregon",
             "abbr": "OR",
-            "electoralVotes": 7,
+            "electoralVotes": 31,
             "popularVotes": 2001336,
             "baseIssueScores": [
                 {
@@ -1314,7 +1332,7 @@
             "id": 1037,
             "name": "Pennsylvania",
             "abbr": "PA",
-            "electoralVotes": 20,
+            "electoralVotes": 64,
             "popularVotes": 6166729,
             "baseIssueScores": [
                 {
@@ -1346,7 +1364,7 @@
             "id": 1038,
             "name": "Rhode Island",
             "abbr": "RI",
-            "electoralVotes": 4,
+            "electoralVotes": 17,
             "popularVotes": 464144,
             "baseIssueScores": [
                 {
@@ -1378,7 +1396,7 @@
             "id": 1039,
             "name": "South Carolina",
             "abbr": "SC",
-            "electoralVotes": 9,
+            "electoralVotes": 50,
             "popularVotes": 2103027,
             "baseIssueScores": [
                 {
@@ -1442,7 +1460,7 @@
             "id": 1041,
             "name": "Tennessee",
             "abbr": "TN",
-            "electoralVotes": 11,
+            "electoralVotes": 58,
             "popularVotes": 2508027,
             "baseIssueScores": [
                 {
@@ -1468,13 +1486,14 @@
                     "candidateId": 203,
                     "amount": 0.0264
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1042,
             "name": "Texas",
             "abbr": "TX",
-            "electoralVotes": 38,
+            "electoralVotes": 161,
             "popularVotes": 8993166,
             "baseIssueScores": [
                 {
@@ -1500,13 +1519,14 @@
                     "candidateId": 203,
                     "amount": 0.0263
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1043,
             "name": "Utah",
             "abbr": "UT",
-            "electoralVotes": 6,
+            "electoralVotes": 40,
             "popularVotes": 1143601,
             "baseIssueScores": [
                 {
@@ -1532,13 +1552,14 @@
                     "candidateId": 203,
                     "amount": 0.0273
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1044,
             "name": "Vermont",
             "abbr": "VT",
-            "electoralVotes": 3,
+            "electoralVotes": 17,
             "popularVotes": 315067,
             "baseIssueScores": [
                 {
@@ -1570,7 +1591,7 @@
             "id": 1045,
             "name": "Virginia",
             "abbr": "VA",
-            "electoralVotes": 13,
+            "electoralVotes": 48,
             "popularVotes": 3982752,
             "baseIssueScores": [
                 {
@@ -1596,13 +1617,14 @@
                     "candidateId": 203,
                     "amount": 0.0227
                 }
-            ]
+            ],
+            "pollClosingTime": 1
         },
         {
             "id": 1046,
             "name": "Washington",
             "abbr": "WA",
-            "electoralVotes": 12,
+            "electoralVotes": 43,
             "popularVotes": 3316996,
             "baseIssueScores": [
                 {
@@ -1634,7 +1656,7 @@
             "id": 1047,
             "name": "Washington DC",
             "abbr": "DC",
-            "electoralVotes": 3,
+            "electoralVotes": 19,
             "popularVotes": 311268,
             "baseIssueScores": [
                 {
@@ -1666,7 +1688,7 @@
             "id": 1048,
             "name": "West Virginia",
             "abbr": "WV",
-            "electoralVotes": 5,
+            "electoralVotes": 32,
             "popularVotes": 721233,
             "baseIssueScores": [
                 {
@@ -1698,7 +1720,7 @@
             "id": 1049,
             "name": "Wisconsin",
             "abbr": "WI",
-            "electoralVotes": 10,
+            "electoralVotes": 41,
             "popularVotes": 2976150,
             "baseIssueScores": [
                 {
@@ -1730,7 +1752,7 @@
             "id": 1050,
             "name": "Wyoming",
             "abbr": "WY",
-            "electoralVotes": 3,
+            "electoralVotes": 29,
             "popularVotes": 255849,
             "baseIssueScores": [
                 {
@@ -1790,47 +1812,33 @@
             "questions": [
                 {
                     "id": 1076,
-                    "description": "Where will you spend the final day of your campaign?",
+                    "description": "You've decided to throw your hat into the ring. What themes will you hit on in your announcement speech? ",
                     "answers": [
                         {
                             "id": 5258,
-                            "description": "We're going to spend our final day in Florida, rallying the Hispanic, Jewish, and black communities against the outrages of Donald Trump and his campaign.",
-                            "feedback": "",
+                            "description": "Let's go on the attack on Biden, or rather Harris, because that's how you're really going to be voting for. We can't keep relying on the same old, tired names from twenty years ago. We've got to let new leadership take over. I can be that",
+                            "feedback": "You've hidden a dig at Trump in your dig at Biden. This goes over the heads of the MAGA base, and independents are pleased. But this doesn't do anything to help you stand out from the crowd.",
                             "answerEffects": [
                                 {
-                                    "answerEffectType": "State",
+                                    "answerEffectType": "TctIssue",
                                     "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1021,
-                                    "amount": -0.0025
+                                    "issueId": 104,
+                                    "stateId": 1000,
+                                    "amount": -0.07
                                 },
                                 {
-                                    "answerEffectType": "State",
+                                    "answerEffectType": "Global",
                                     "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1022,
+                                    "issueId": 104,
+                                    "stateId": 1000,
                                     "amount": -0.0025
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1049,
-                                    "amount": -0.0025
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1008,
-                                    "amount": 0.0033
                                 }
                             ]
                         },
                         {
                             "id": 5259,
-                            "description": "We're going to visit Michigan, Wisconsin, and Minnesota. I want us to appear with Bernie Sanders and Barack Obama to push our message on trade, the African-American turnout, and party unity.",
-                            "feedback": "",
+                            "description": "Joe Biden's weakness on the world stage has made us a laughingstock abroad. When I'm in office, we'll be respected again.",
+                            "feedback": "Not backing down from your neocon roots, eh? This helps you create a clear contrast from the field, especially once the likes of Pence, Scott and Christie drop out.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -1838,110 +1846,61 @@
                                     "issueId": -1,
                                     "stateId": -1,
                                     "amount": 0.001
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1021,
-                                    "amount": 0.001
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1022,
-                                    "amount": 0.001
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1049,
-                                    "amount": 0.001
                                 }
                             ]
                         },
                         {
                             "id": 5260,
-                            "description": "We're going to visit Colorado and Nevada, and maybe a short stop in Arizona, to rally Hispanic turnout and highlight Trump's outrages for a final time.",
-                            "feedback": "",
+                            "description": "I want to laser-focus on the delegates here. If we win or cut it close in the early states, we might just win this thing.",
+                            "feedback": "A pragmatic choice. Scott and Christie's dropouts help you in SC and NH respectively. Trump isn't even on the ballot in Nevada, but winning there could send a message.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "State",
                                     "candidateId": 201,
                                     "issueId": -1,
-                                    "stateId": 1021,
-                                    "amount": -0.0025
+                                    "stateId": 1028,
+                                    "amount": 0.0025
                                 },
                                 {
                                     "answerEffectType": "State",
                                     "candidateId": 201,
                                     "issueId": -1,
-                                    "stateId": 1022,
-                                    "amount": -0.0025
+                                    "stateId": 1039,
+                                    "amount": 0.0025
                                 },
                                 {
                                     "answerEffectType": "State",
                                     "candidateId": 201,
                                     "issueId": -1,
-                                    "stateId": 1049,
-                                    "amount": -0.0025
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1002,
-                                    "amount": 0.002
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1005,
-                                    "amount": 0.003
+                                    "stateId": 1014,
+                                    "amount": 0.0006
                                 },
                                 {
                                     "answerEffectType": "State",
                                     "candidateId": 201,
                                     "issueId": -1,
                                     "stateId": 1027,
-                                    "amount": 0.003
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1030,
-                                    "amount": 0.0015
+                                    "amount": 0.002
                                 }
                             ]
                         },
                         {
-                            "id": 5261,
-                            "description": "Let's not complicate this too much. The election pivots around Pennsylvania -- we're going to spend our final day in Pennsylvania, with an enormous rally of celebrities and party heavyweights.",
-                            "feedback": "",
+                            "id": 5266,
+                            "description": "Let's talk issues. I'm against wokeness,CRT, all that stuff. The base should love that",
+                            "feedback": "DeSantis and Trump have the culture warriors locked up. This only makes independents, your base, nervous.",
                             "answerEffects": [
                                 {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1021,
-                                    "amount": -0.0025
+                                    "answerEffectType": "Global",
+                                    "candidateId": 200,
+                                    "issueId": 104,
+                                    "stateId": 1000,
+                                    "amount": 0
                                 },
                                 {
-                                    "answerEffectType": "State",
+                                    "answerEffectType": "Global",
                                     "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1022,
-                                    "amount": -0.0025
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1049,
+                                    "issueId": 104,
+                                    "stateId": 1000,
                                     "amount": -0.0025
                                 }
                             ]
@@ -1956,7 +1915,7 @@
             "questions": [
                 {
                     "id": 1037,
-                    "description": "Will you attend the debates? Or campaign at all, for that matter?",
+                    "description": "Will you attend the debates? Or acknowledge your opponents at all, for that matter?",
                     "answers": [
                         {
                             "id": 5123,
@@ -1967,15 +1926,15 @@
                                     "answerEffectType": "State",
                                     "candidateId": 200,
                                     "issueId": -1,
-                                    "stateId": 1008,
-                                    "amount": 0.0033
+                                    "stateId": 1014,
+                                    "amount": 0.5
                                 },
                                 {
                                     "answerEffectType": "State",
                                     "candidateId": 200,
                                     "issueId": -1,
-                                    "stateId": 1037,
-                                    "amount": -0.003
+                                    "stateId": 1028,
+                                    "amount": 0.003
                                 }
                             ]
                         }
@@ -1988,14 +1947,57 @@
             "playerId": 202,
             "questions": [
                 {
-                    "id": 914663,
-                    "description": "Description goes here",
+                    "id": 912915,
+                    "description": "Will you make a bunch of gaffes, idiotically try and run to Trump's right and generally appear like a raging bigot and a fool to boot?",
                     "answers": [
                         {
-                            "id": 5264,
-                            "description": "Answer description here",
-                            "feedback": "Answer feedback here, leave blank for none",
-                            "answerEffects": []
+                            "id": 5262,
+                            "description": "Sounds good!",
+                            "feedback": "Oh no. This is bad.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 202,
+                                    "issueId": 104,
+                                    "stateId": 1000,
+                                    "amount": -0.5
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5265,
+                            "description": "What? why would I do that?",
+                            "feedback": "Good job! You might even win something at this rate.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 202,
+                                    "issueId": 104,
+                                    "stateId": 1000,
+                                    "amount": 0.5
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 201,
+                                    "issueId": 104,
+                                    "stateId": 1000,
+                                    "amount": -0.5
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 202,
+                                    "issueId": 104,
+                                    "stateId": 1014,
+                                    "amount": 0.05
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 200,
+                                    "issueId": 104,
+                                    "stateId": 1028,
+                                    "amount": 0.0025
+                                }
+                            ]
                         }
                     ],
                     "keepInPlaceIfQuestionsShuffled": true,
@@ -2015,10 +2017,11 @@
         "secondaryGameWindowTextColor": "#ffffff",
         "bottomBannerBackgroundColor": "#ffffff",
         "bottomBannerTextColor": "#FFFFFF",
-        "advisorImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/10/21/USAT/75771129007-2178900350.jpg?width=1733&height=1062&fit=crop&format=pjpg&auto=webp",
+        "advisorImage": "https://i.imgur.com/g1fkUiO.jpeg",
         "quote": "“I could have said, ‘drop to your knees and beg,’ and he would have done it.”- DJT",
         "questionBackgroundColor": "#213875",
-        "questionTextColor": "#ffffff"
+        "questionTextColor": "#ffffff",
+        "descriptionWindowBackgroundColor": "#ffffff"
     },
     "historicalResults": {
         "popularVotes": {
@@ -2034,21 +2037,16 @@
             "203": 0
         }
     },
-    "hasStateVisits": false,
+    "hasStateVisits": true,
     "scenarioName": "2024: The Race to Be the Guy Who Loses to Trump",
-    "scenarioDescription": "<p>Donald Trump. 78 years old. Impeached twice. A convicted felon. The next Republican nominee. Along with the equally inevitable Joe Biden, he's one of the the most unpopular pair of nominees in American history (beating the record set by himself eight years ago).  On paper, it's an open primary for the Republicans.</p><p>No matter. Both parties have long ago stopped  hoping for anything better that these two old men. Now is the time for falling in line, kissing the ring, and hoping’ ‘28 will bring better times. </p>",
-    "scenarioImageUrl": "https://i.imgur.com/x73RIrB.jpeg",
+    "scenarioDescription": "<p>Donald Trump. 78 years old. Impeached twice. A convicted felon. The next Republican nominee. Along with the equally inevitable Joe Biden, he's one of what's shaping up to be the most unpopular pair of nominees in American history (beating the record set by himself eight years ago).  On paper, it's an open primary for the Republicans.</p><p>No matter. Both parties have long ago stopped  hoping for anything better that these two old men. Now is the time for falling in line, kissing the ring, and hoping’ ‘28 will bring better times. </p>",
+    "scenarioImageUrl": "https://i.imgur.com/rBT7Bfg.jpeg",
     "credits": "This scenario was made by Metheguy.",
     "music": [
         {
             "url": "https://files.catbox.moe/p5fvog.mp3",
             "displayName": "Is That All There Is?- Peggy Lee",
-            "imageUrl": "https://i.imgur.com/aDfWYx0.jpeg"
-        },
-        {
-            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Justice%20for%20All.mp3",
-            "displayName": "Justice For All-  J6 Prison Choir ft. Donald J. Trump",
-            "imageUrl": "https://i.imgur.com/OMimje8.jpeg"
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733397ec619275426d9aaf9050"
         },
         {
             "url": "https://audio.jukehost.co.uk/PsZHFAuZ9IdHhFO11FCOulS8Os7WQuOn",
@@ -2061,6 +2059,11 @@
             "imageUrl": "https://i.imgur.com/DW67KAo.jpeg"
         },
         {
+            "url": "https://audio.jukehost.co.uk/9tLikNen7aIyqvYKF4M9OSGKQO1Zep5k",
+            "displayName": "For The Love of Money- The O'Jays",
+            "imageUrl": "https://m.media-amazon.com/images/I/81H7Q9QzswL._UF1000,1000_QL80_.jpg"
+        },
+        {
             "url": "https://audio.jukehost.co.uk/coIcrh3oWWEBTxht066r8pJO4hZVZn9B",
             "displayName": "Y.M.C.A-  The Village People",
             "imageUrl": "https://m.media-amazon.com/images/I/61bz0GB1AQL._UF1000,1000_QL80_.jpg"
@@ -2069,6 +2072,16 @@
             "url": "https://files.catbox.moe/ps1cgs.mp3",
             "displayName": "Hold On, I'm Comin'- Sam & Dave",
             "imageUrl": "https://i.imgur.com/pfn2zvj.jpeg"
+        },
+        {
+            "url": "https://files.catbox.moe/aqlwh9.mp3",
+            "displayName": "We're Not Gonna Take It- Twisted Sister",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/Twister_Sister_-_Stay_Hungry.jpg"
+        },
+        {
+            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Justice%20for%20All.mp3",
+            "displayName": "Justice For All- J6 Prison Choir ft. Donald J. Trump",
+            "imageUrl": "https://i.imgur.com/OMimje8.jpeg"
         }
     ],
     "tooltips": [
@@ -2086,12 +2099,24 @@
         },
         {
             "key": "Christie",
-            "value": "<img src=https://i.imgur.com/5TEFVJT.jpeg> The only candidate who knows what he's here for."
+            "value": "<img src=https://i.imgur.com/44BetRa.jpeg> The only candidate who knows what he's here for."
         },
         {
             "key": "Hutchinson",
             "value": "<img src=https://i.imgur.com/XUzjaBn.jpeg> Who?"
+        },
+        {
+            "key": "early states",
+            "value": "I don't know how to simulate primaries in OSEG, and i'm not gonna figure it out just for this fuckass joke mod."
+        },
+        {
+            "key": "Harris",
+            "value": "<img src=https://i.imgur.com/oiZXWAC.jpeg> Unburdened by what has been."
+        },
+        {
+            "key": "Scott",
+            "value": "<img src=https://i.imgur.com/Meebvo6.jpeg> Another Palmetto Stater. Running for VP."
         }
     ],
-    "furtherReading": "Heavily inspired by u/NaffRespect's 'Actual DeSantis feedback' series."
+    "furtherReading": "Inspired by someone asking for a 2024 primaries mod on tctcord and I made a quick ass mockup to show why that'd be a dumb idea. Then for some reason I decided to make it a full mod"
 }
