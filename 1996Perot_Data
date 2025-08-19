@@ -3398,7 +3398,7 @@
                         },
                         {
                             "id": 3494,
-                            "description": "Dick Cheney is the best person for the job. He has served in all kinds of roles and performed admirably in every case.",
+                            "description": "taxes r bad",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -62290,7 +62290,7 @@
     "tooltips": [
         {
             "key": "Stockdale",
-            "value": "<img src=https://i.imgur.com/cjzvaES.jpeg> Your old Vice President. Emphasis on 'old.'"
+            "value": "<img src=https://i.imgur.com/JmappNY.jpeg> Your old Vice President. Emphasis on 'old.'"
         },
         {
             "key": "Libertarian-ish types",
@@ -62306,11 +62306,11 @@
         },
         {
             "key": "Gary Johnson",
-            "value": "<img src=https://i.imgur.com/4Rny9Iv.jpeg>  The newly elected Governor of New Mexico. He's a Republican, but sympathetic enough to the Independence cause."
+            "value": "<img src=https://i.imgur.com/zk5Jeh7.jpeg>  The newly elected Governor of New Mexico. He's a Republican, but sympathetic enough to the Independence cause."
         },
         {
             "key": "crush of candidates",
-            "value": "<img src=https://i.imgur.com/BXChzjA.jpeg> Bob Dole, Pat Buchanan, Pete Wilson, Richard Lugar, Bill Weld, Dick Cheney, Jack Kemp, Lamar Alexander,  Dan Quayle, Alan Keyes, Bob Dornan, Arthur Fletcher, Jack Fellure, and Harold Stassen, not to mention yourself."
+            "value": "<img src=https://i.imgur.com/J2SMima.jpeg> Bob Dole, Pat Buchanan, Pete Wilson, Richard Lugar, Bill Weld, Dick Cheney, Jack Kemp, Lamar Alexander,  Dan Quayle, Alan Keyes, Bob Dornan, Arthur Fletcher, Jack Fellure, and Harold Stassen, not to mention yourself."
         },
         {
             "key": "The Democratic field",
@@ -62323,6 +62323,10 @@
         {
             "key": "Dad",
             "value": "<img src=https://i.imgur.com/dcYqu8l.jpeg> I must become my own man. I must not be your candidate."
+        },
+        {
+            "key": "Barkley",
+            "value": "<img src=https://i.imgur.com/MiMTl95.jpeg> Leader of the House Independence Caucus, and one of your few allies in Washington"
         }
     ],
     "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/campaign1996whos0000srod/page/n7/mode/2up\" target=”_blank”>James L. Srodes and Arthur Jones- Campaign 1996 : Who's Who in The Race for the White House</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a></br><a href=\"https://archive.org/details/choosemeportrait0000grac/page/62/mode/2up\" target=”_blank”>Arthur Grase - Choose Me: Portraits of a Presidential Race</a></br><a href='https://www.presidency.ucsb.edu/documents' target='_blank'>The American Presidency Project</a> "
