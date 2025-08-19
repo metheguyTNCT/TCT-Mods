@@ -209,7 +209,7 @@
             "homeState": "Virginia",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. Plus, between Gore and Perot, the south might be more competitive than usual elections, and Allen could help there. Perhaps a little too much...Make sure to watch out for any skeletons in his closet.</p>",
+            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. Plus, between Gore and Perot, the south might be more competitive than usual elections, and Allen could help there. Perhaps a little too much...Make sure to watch out for any skeletons oni his closet.</p>",
             "imageUrl": "https://i.imgur.com/Tv9srK8.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -20918,20 +20918,35 @@
                         },
                         {
                             "id": 3503,
-                            "description": "There is more that unites us than divides us. We must come together as a party in order to win the presidency.",
-                            "feedback": "It feels like i'm hearing....nothin' at all!",
-                            "answerEffects": []
+                            "description": "Democrats come from all walks of life, but there is more that unites us than divides us. We can disagree, but we must come together as a party in order to win the presidency.",
+                            "feedback": "Cuomo, Jackson, and the rest are quick to endorse you, and presenting a united front is crucial to victory this November. However, this speech fails to make an impression with most viewers.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.004
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.004
+                                }
+                            ]
                         }
                     ],
                     "keepInPlaceIfQuestionsShuffled": false
                 },
                 {
                     "id": 367,
-                    "description": "Mitchell",
+                    "description": "You've selected Senator George Mitchell as your pick for the Vice Presidency. What motivated you to pick him?",
                     "answers": [
                         {
                             "id": 3397,
-                            "description": "The Clinton Administration has added 23 million jobs to the American economy and unleashed an unprecedented wave of prosperity and innovation. I will continue his policies as President so that all Americans can prosper in the coming years.",
+                            "description": "competence",
                             "feedback": "Millions of satisfied Americans are watching you embrace the legacy of Clinton and pledge to continue it. ",
                             "answerEffects": [
                                 {
@@ -21027,7 +21042,7 @@
                         },
                         {
                             "id": 3398,
-                            "description": "We must not undo eight years of progress under President Clinton by cutting key programs and squandering the surplus on tax cuts for the rich. My opponent not only lacks experience, but his conservative ideas are out of step with those of the American public.",
+                            "description": "Senator Mitchell is an experienced man, and I have no doubts he'll make a great Vice President, nor that he is ready to assume the Presidency should anything happen to me.",
                             "feedback": "Good combination of embracing Clinton and attacking Bush.",
                             "answerEffects": [
                                 {
@@ -21226,8 +21241,30 @@
                         {
                             "id": 3508,
                             "description": "Sam is a man guided by his faith.",
-                            "feedback": "Answer feedback here, leave blank for none",
-                            "answerEffects": []
+                            "feedback": "Presenting yourself as the most religious of the three candidate is certainly a risky choice. The amount of evangelicals you pick up will most likely be balanced out by the liberals who leave you for Perot and Nader.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.004
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 79,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.004
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 78,
+                                    "issueId": 31,
+                                    "stateId": 181,
+                                    "amount": 0.1
+                                }
+                            ]
                         },
                         {
                             "id": 3509,
