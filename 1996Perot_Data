@@ -209,7 +209,7 @@
             "homeState": "Virginia",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. Plus, between Gore and Perot, the south might be more competitive than usual elections, and Allen could help there. Perhaps a little too much...Make sure to watch out for any skeletons oni his closet.</p>",
+            "description": "<p>A certified rising star in conservative circles, often compared to Reagan himself, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record, delivering welfare reform and enacting concealed carry laws. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right, even if he is a little noncommittal on abortion. Plus, between Gore and Perot, the south might be more competitive than usual elections, and Allen could help there. Perhaps a little too much...Make sure to watch out for any skeletons oni his closet.</p>",
             "imageUrl": "https://i.imgur.com/Tv9srK8.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -3422,7 +3422,7 @@
                 },
                 {
                     "id": 369,
-                    "description": "What is your overall strategy for the 2000 campaign?",
+                    "description": "McCain",
                     "answers": [
                         {
                             "id": 3405,
@@ -3602,7 +3602,45 @@
                             ]
                         }
                     ],
-                    "keepInPlaceIfQuestionsShuffled": false
+                    "keepInPlaceIfQuestionsShuffled": false,
+                    "onlyEnableAtStartIfRunningMateId": 81
+                },
+                {
+                    "id": 394,
+                    "description": "Lamar!",
+                    "answers": [],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 82
+                },
+                {
+                    "id": 395,
+                    "description": "Allen 1",
+                    "answers": [
+                        {
+                            "id": 3510,
+                            "description": "George Allen sticks to his guns. Rather than let his agenda be gutted by compromise, he let the Democrats kill the bill entirely. ",
+                            "feedback": "Perot snipes that you're 'the first candidate to campaign in favor of gridlock,' and so stridently running to the right turns off moderates. The people this message was meant for ",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 3511,
+                            "description": "Governor Allen is exactly the type of bright young conservative ",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
+                },
+                {
+                    "id": 396,
+                    "description": "Cox",
+                    "answers": [],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 84
                 },
                 {
                     "id": 366,
@@ -16076,6 +16114,21 @@
                         }
                     ],
                     "keepInPlaceIfQuestionsShuffled": false
+                },
+                {
+                    "id": 397,
+                    "description": "George Allen has come under fire after the discovery that he kept a noose",
+                    "answers": [
+                        {
+                            "id": 3512,
+                            "description": "law and order",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": -1
                 },
                 {
                     "id": 388,
