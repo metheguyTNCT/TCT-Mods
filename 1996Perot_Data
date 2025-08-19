@@ -3620,12 +3620,18 @@
                         {
                             "id": 3510,
                             "description": "George Allen sticks to his guns. Rather than let his agenda be gutted by compromise, he let the Democrats kill the bill entirely. ",
-                            "feedback": "Perot snipes that you're 'the first candidate to campaign in favor of gridlock,' and so stridently running to the right turns off moderates. The people this message was meant for ",
+                            "feedback": "Perot snipes that you're 'the first candidate to campaign in favor of gridlock,' and so stridently running to the right turns off moderates. The people this message was meant for are ecstatic, however.",
                             "answerEffects": []
                         },
                         {
                             "id": 3511,
                             "description": "Governor Allen is exactly the type of bright young conservative ",
+                            "feedback": "Allen is a breath of fresh air to skeptical Religious righters.",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 3513,
+                            "description": "Allen's gotten a lot done. Guns affirmative action welfare.",
                             "feedback": "Answer feedback here, leave blank for none",
                             "answerEffects": []
                         }
