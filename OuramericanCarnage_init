@@ -866,10 +866,10 @@ input {
     );
   
     const song4 = new Song(
-      "Politicians In My Eyes",
-      "Death",
-      "https://i.scdn.co/image/ab67616d0000b2734886f0cd3396255df8628784",
-      "https://files.catbox.moe/zrfrmp.mp3"
+      "Demagogue",
+      "Franz Ferdinand",
+      "https://files.catbox.moe/yejwqk.jpg",
+      "https://files.catbox.moe/qs11w5.mp3"
     );
   
     const song5 = new Song(
@@ -880,17 +880,17 @@ input {
     );
   
     const song6 = new Song(
-      "Love Me, I'm a Liberal",
-      "Jello Biafra, Mojo Nixon",
-      "https://i.scdn.co/image/ab67616d0000b273b79cc4b3ecfbb32b8ca78c6a",
-      "https://audio.jukehost.co.uk/9oOaNn0HQwCSGnTjzwCXnybZnnClVZ99"
+      "Politicians In My Eyes",
+      "Death",
+      "https://i.scdn.co/image/ab67616d0000b2734886f0cd3396255df8628784",
+      "https://files.catbox.moe/zrfrmp.mp3"
     );
   
     const song7 = new Song(
-    "You Can't Always Get What You Want",
-    "The Rolling Stones",
-    "https://i.imgur.com/E8B7Svi.png",
-    "https://audio.jukehost.co.uk/PsZHFAuZ9IdHhFO11FCOulS8Os7WQuOn"
+      "Feed The Machine",
+      "Poor Man's Poison",
+      "https://files.catbox.moe/561p8d.jpg",
+      "https://files.catbox.moe/idzl0a.mp3"
     );
   
     const song8 = new Song(
