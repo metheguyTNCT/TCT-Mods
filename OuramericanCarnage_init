@@ -81,7 +81,7 @@ campaignTrail_temp.candidate_json = [
           "first_name": "Rod R.",
           "last_name": "Blagojevich",
           "election": 9,
-          "party": "Republican",
+          "party": "Democratic",
           "state": "Illinois",
           "priority": 2,
           "description": "<div style=\"max-height: 200px; overflow-y: auto;\"><p><b style=\"font-size: 1.2em;\">Is this real life?</b> It can’t be; this is some bad dream. Him? You can’t be serious. The 'You're Fired' guy! They’re not that stupid, are they? With the steaks and the hair? This is an elaborate prank, or some kind of out-of-season April Fool’s Day gag.<br><br>Unless … that’s it. I’m dead. That must be it; I died, and this is hell. There’s no other logical explanation. After all, how else could this be happening?<br><br>How could we lose? There must be some explanation for it. There is no way that this ignorant moron can be up there, saying those things and still win. With the Mexican rapists, the thing with the Khans, for God’s sake, the pussy tape, it doesn’t make any sense!<br><br>Unless … there must be an explanation, something behind this. We all saw what he said about the Russians. It’s blackmail, or some kind of quid pro quo thing. There must be a method to the madness.</div>",
@@ -859,10 +859,10 @@ input {
     );
   
     const song3 = new Song(
-      "This Is the End (For You My Friend)",
-      "Anti-Flag",
-      "https://i.ibb.co/ZM2m90b/Spotify-Mate-com-This-Is-the-End-For-You-My-Friend-Anti-Flag.jpg",
-      "https://files.catbox.moe/3glymi.mp3"
+      "Rich Men North of Richmond",
+      "Oliver Anthony",
+      "https://upload.wikimedia.org/wikipedia/en/d/d4/Oliver_Anthony_-_Rich_Men_North_of_Richmond.png",
+      "https://audio.jukehost.co.uk/Po5eKwlVG0M4wQ3oOG9otBNFevRmkpPC"
     );
   
     const song4 = new Song(
@@ -880,10 +880,10 @@ input {
     );
   
     const song6 = new Song(
-      "Politicians In My Eyes",
-      "Death",
-      "https://i.scdn.co/image/ab67616d0000b2734886f0cd3396255df8628784",
-      "https://files.catbox.moe/zrfrmp.mp3"
+      "Rush E",
+      "Sheet Music Boss",
+      "https://i.imgur.com/hP9AWNX.jpeg",
+      "https://audio.jukehost.co.uk/H9dZCUKJGVHkPOltEjGJll90cdCo8jxp"
     );
   
     const song7 = new Song(
