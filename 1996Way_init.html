@@ -887,30 +887,24 @@ jet_data = {
     "customQuote": "\"Let me finish!\"- Ross Perot",
     "gameTitle": "CAMPAIGN TRAIL SHOWCASE"
 }
+RecReading=true
 
 //#startcode
 
 
-corrr = '\n              <h2>CAMPAIGN TRAIL SHOWCASE</h2><font id="wittyquote" size="4" color="white"><em>"Let me finish!"- Ross Perot</em></font>\n            ';
-
-RecReading=true
-
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#020081";
-
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#c1c0c1";
-
-document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
-
-$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
-
-$(".container")[0].style.backgroundColor = "#c1c0c1";
-
-document.getElementById("header").src = "https://i.imgur.com/81ZUAdZ.jpeg";
-
+document.getElementById("header").src = "https://i.imgur.com/81ZUAdZ.jpeg"
+document.body.style.backgroundSize = "cover"
 document.body.background = "https://i.imgur.com/TymEGU3.jpeg";
-
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c1c0c1!important;}</style>";
-
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#c1c0c1"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#020081"
+$(".container")[0].style.backgroundColor = "#c1c0c1"
+$("#game_window")[0].style.borderColor = "#c1c0c1"
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#c1c0c1"
+$("#game_window")[0].style.backgroundColor = "#c1c0c1"
+quotes = ["'Let me finish!'- Ross Perot​", "'Bill Clinton's foreign policy experience stems mainly from having breakfast at the International House of Pancakes.'- Pat Buchanan", "'War has rules, mud wrestling has rules — politics has no rules.'- Ross Perot​", "'Being president is like running a cemetery: you've got a lot of people under you and nobody's listening.'- Bill Clinton", "'If you're going to be a sexual predator, be a Democrat.'- Dick Morris", "'People like me are what stand between us and Auschwitz.'- Newt Gingrich", "'America, our time has come.'- Jesse Jackson","'The greatest enemy to love is your pride.'- Pete Wilson", "'I've always been a big supporter of the Constitutional right of the people to peaceably assemble...It's just that I never envisioned it taking the form of thousands of people screaming 'you asshole!' at me.'- Lowell Weicker", "''I can think of no better bunch of people to lie to than Congress.'- Rush Limbaugh"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+corrr=`\n<h2>CAMPAIGN TRAIL SHOWCASE</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
 
  $("#game_start").click((event) => {
     event.preventDefault();
