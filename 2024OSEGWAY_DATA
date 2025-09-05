@@ -119,7 +119,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>Donald Trump was the king of the Republican Party. Sure, the likes of DeSantis, Cruz, and Pence would put up a  good fight, but Trump would win the nomination, and handily. </p><p>Until he wasn't. Lyin' Ted, of all people</p>",
+            "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
             "imageUrl": "https://i.imgur.com/Vp6sat1.png",
             "runningMateIds": [
                 210,
@@ -181,7 +181,7 @@
             "homeState": "Virgunia",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "description": "<p>Nancy Mace is a Representative from South Carolina, and one of the most firebrand conservatives in Congress.</p><p>Selecting Mace wouldn't be enough to stop Trump from running, but it would restrict his support to die-hard MAGAs, and those folks probably wouldn't vote for you anyway. However, Mace has a reputation as a bit of a glory hound and loose cannon (remind you of anyone?) Make sure to keep her in check.</p>",
             "imageUrl": "https://i.imgur.com/gpvymlc.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -194,7 +194,7 @@
             "homeState": "Kansas",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "description": "<p>Nancy Mace is a Representative from South Carolina, and one of the most firebrand conservatives in Congress.</p><p>Selecting Mace wouldn't be enough to stop Trump from running, but it would restrict his support to die-hard MAGAs, and those folks probably wouldn't vote for you anyway. However, Mace has a reputation as a bit of a glory hound and loose cannon (remind you of anyone?) Make sure to keep her in check.</p>",
             "imageUrl": "https://i.imgur.com/bngoFvU.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -207,7 +207,7 @@
             "homeState": "South Carolina",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Sarah Palin is the former Governor of Alaska and ill-fated running mate on John McCain's 2008 ticket. Many people believe that she alienated some moderate support and may have cost McCain the election. On the other hand, she endorsed your candidacy relatively early and is still something of a folk hero on the right. In any case, she would certainly help you grab an even greater share of the headlines this fall.</p>",
+            "description": "<p>Nancy Mace is a Representative from South Carolina, and one of the most firebrand conservatives in Congress.</p><p>Selecting Mace wouldn't be enough to stop Trump from running, but it would restrict his support to die-hard MAGAs, and those folks probably wouldn't vote for you anyway. However, Mace has a reputation as a bit of a glory hound and loose cannon (remind you of anyone?) Make sure to keep her in check.</p>",
             "imageUrl": "https://i.imgur.com/MsTJrsD.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -220,7 +220,7 @@
             "homeState": "New Jersey",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>On the other hand, what has being nice to Donald Trump ever done for you recently? You're running against the guy, after all. If you want to take an agressive stance against the Donald, there are few better choices than Chris Christie.</p><p>placeholder second paragraph.</p>",
+            "description": "<p>On the other hand, what has being nice to Donald Trump ever done for you recently? You're running against the guy, after all. If you want to take an aggressive stance against the Donald, there are few better choices than Chris Christie.</p><p>placeholder second paragraph.</p>",
             "imageUrl": "https://i.imgur.com/D1jefHq.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -9693,14 +9693,14 @@
         {
             "url": "https://files.catbox.moe/ipb503.mp3",
             "displayName": "Living In The '20s- Green Day",
-            "imageUrl": "https://i.imgur.com/NuZ8izI.jpeg"
+            "imageUrl": "https://files.catbox.moe/dploa5.jpg"
         }
     ],
     "furtherReading": "The <a href='https://www.presidency.ucsb.edu/documents' target='_blank'>American Presidency Project</a> is a great place to find nearly every sort of document you could need for a mod. It was especially useful for getting a general idea of everyone's speaking styles. Other than that, my main source was the fact that I lived through the damn thing.</a>",
     "tooltips": [
         {
             "key": "DeSantis",
-            "value": "<img src=https://i.imgur.com/Em5qlVF.jpeg> Terminally online Florida governor. The Ted Cruz circa 2016 of 2024."
+            "value": "<img src=https://i.imgur.com/Em5qlVF.jpeg> "
         },
         {
             "key": "January 6th",
