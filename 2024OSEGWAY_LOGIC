@@ -89,9 +89,9 @@ else if(engine.isDeadlock(results)) { //Mace deadlock
 else if(engine.isDeadlock(results)) { //generic deadlock
         engine.setNewMusic([
   {
-    displayName: "Walkin' On The Sun- Smash Mouth",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/da/FushYuMang.jpg",
-    url: "https://file.garden/Z7qfmQZIZjO_xV5N/WalkinOnTheSun.mp3",
+    displayName: "The Exodus Song- Andy Williams",
+    imageUrl: "https://i.imgur.com/v7xRDGV.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/ThisLandIsMine.mp3",
   },
 ]);
 
