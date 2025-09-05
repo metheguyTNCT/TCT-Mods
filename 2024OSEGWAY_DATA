@@ -34,7 +34,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>Just eight years ago, Ted Cruz was the most dangerous man in American politics. The big kahuna of the Tea Party, the man who read Dr. Seuss on the Senate floor- how could such a man possibly be President? Funny how times change. As Donald Trump once again stormed through the Republican primaries, once again Cruz is the establishment's last hope. But this time, he's succeeded.</p><p>Not only must Cruz attempt to heal a party split in two, .</p>",
+            "description": "<p>Just eight years ago, Ted Cruz was the most dangerous man in American politics. The big kahuna of the Tea Party, the man who read Dr. Seuss on the Senate floor- how could such a man possibly be President? Funny how times change. As Donald Trump once again stormed through the Republican primaries, once again Cruz is the establishment's last hope. But this time, he's succeeded.</p><p>Not only must Cruz attempt to heal a party split in two, he must also deal with massive unfavorables and a perception that he's still the same showboating radical he was all those years ago.</p>",
             "imageUrl": "https://i.imgur.com/GXgrLKM.png",
             "runningMateIds": [
                 204,
@@ -220,7 +220,7 @@
             "homeState": "New Jersey",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Ben Carson was a candidate for President in 2016, with a long history within the evangelical community. He has never served in political office, a fact which may be an asset in this election. Carson was one of the Trump's first opponents to publicly endorse him, and he consistently polled relatively high in the black community during the primary season. However, he has also made a number of bizarre statements and may be vulnerable to a sustained attack campaign.</p>",
+            "description": "<p>Just eight years ago, Ted Cruz was the most dangerous man in American politics. The big kahuna of the Tea Party, the man who read Dr. Seuss on the Senate floor- how could such a man possibly be President? Funny how times change. As Donald Trump once again stormed through the Republican primaries, once again Cruz is the establishment's last hope. But this time, he's succeeded.</p><p>Not only must Cruz attempt to heal a party split in two, he must also deal with massive unfavorables and a perception that he's still the same showboating radical he was all those years ago.</p>",
             "imageUrl": "https://i.imgur.com/D1jefHq.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -7349,7 +7349,7 @@
                 },
                 {
                     "id": 1007,
-                    "description": "DeSantis January 6th",
+                    "description": "DeSantis January 6th Liz Cheney",
                     "answers": [
                         {
                             "id": 5016,
@@ -9634,7 +9634,7 @@
         "secondaryGameWindowColor": "#3c5267",
         "primaryGameWindowTextColor": "#000000",
         "secondaryGameWindowTextColor": "#e9e9e9",
-        "bottomBannerBackgroundColor": "#0000D1",
+        "bottomBannerBackgroundColor": "#3c5267",
         "bottomBannerTextColor": "#FFFFFF",
         "advisorImage": "https://i.imgur.com/cHVEaqf.gif",
         "quote": "\"God spare me the purists.\"- Joe Biden",
@@ -9661,9 +9661,9 @@
     "credits": "This scenario was made by Metheguy.",
     "music": [
         {
-            "url": "https://files.catbox.moe/b14mof.mp3",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Crooks.mp3",
             "displayName": "Liars, Cheats, & Crooks- Five Times August",
-            "imageUrl": "https://i.imgur.com/uT5AZEG.jpeg"
+            "imageUrl": "https://i.imgur.com/kASwWlf.jpeg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Money.mp3",
@@ -9686,6 +9686,11 @@
             "imageUrl": "https://i.imgur.com/PDzoUys.jpeg"
         },
         {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Mackleless.mp3",
+            "displayName": "HIND'S HALL- Macklemore",
+            "imageUrl": "https://i.imgur.com/3UV7GEf.jpeg"
+        },
+        {
             "url": "https://files.catbox.moe/ipb503.mp3",
             "displayName": "Living In The '20s- Green Day",
             "imageUrl": "https://files.catbox.moe/dploa5.jpg"
@@ -9702,8 +9707,12 @@
             "value": "<img src=https://i.imgur.com/QNJkLKp.jpeg> Either the worst thing to happen to his country or a peaceful protest depending on who you ask."
         },
         {
-            "key": "Sinema",
-            "value": ""
+            "key": "Liz Cheney",
+            "value": "<img src=https://i.imgur.com/aLzm72c.jpeg> Thinks Trump is a domestic terrorist. And you know how the Cheneys feel about terrorists..."
+        },
+        {
+            "key": "Stein",
+            "value": "<img src=https://i.imgur.com/3VS1SJj.jpeg> The fifth horse in this race."
         }
     ]
 }
