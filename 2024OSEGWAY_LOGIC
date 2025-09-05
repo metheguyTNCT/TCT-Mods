@@ -9,9 +9,9 @@ function createEnding(engine, results) {
     if(playerId == 200) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "Where the Stars and Stripes and the Eagle Fly - Aaron Tippin",
-    imageUrl: "https://files.catbox.moe/xs63uk.jpg",
-    url: "https://files.catbox.moe/puao9i.mp3",
+    displayName: "I Won't Back Down - Tom Petty & the Heartbreakers",
+    imageUrl: "https://i.imgur.com/kc9b0Vz.jpeg",
+    url: "https://audio.jukehost.co.uk/Q4sIcCkSyYv5V2BtLqUM7mgTwc62jmZy",
   },
 ]);
 
@@ -69,9 +69,9 @@ else if(engine.isDeadlock(results)) { //deadlock
     else if(playerId == 201) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "Uptight (Everything's Alright)- Stevie Wonder",
-    imageUrl: "https://i.imgur.com/gBpTvLO.jpeg",
-    url: "https://files.catbox.moe/k7kep9.mp3",
+    displayName: "Living in America- James Brown",
+    imageUrl: "https://i.imgur.com/UPCJbCd.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/Living%20in%20America.mp3",
   },
 ]);
 
