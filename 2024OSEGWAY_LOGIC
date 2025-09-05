@@ -7,7 +7,45 @@ function createEnding(engine, results) {
 
     // If you played as Cruz
     if(playerId == 200) {
-        if(engine.playerWonEv(results)) {
+         if (engine.playerWonEv(results) && engine.runningMateId == 206) { // Christie win
+        engine.setNewMusic([{
+    displayName: "No Surrender - Bruce Springsteen",
+    imageUrl: "https://i.imgur.com/ENEYq0E.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/NoSurrender.mp3",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Because The Truth Matters",
+                        imageUrl: "https://i.imgur.com/2Dkz35w.jpeg",
+                        endingText: "<p>Your first order of business will be to confirm the annexation of Texas. More generally you can fight for the expansion of the United States in line with the ideals of \"Manifest Destiny\". With a Democratic majority in Congress, you will have wide latitude to implement your program, after four years of Tyler's paralysis. Best wishes for your term in office.</p>"
+                    }
+                ]
+            }
+        }
+
+        else if (engine.playerWonEv(results) && engine.runningMateId == 208) { //Mace win
+        engine.setNewMusic([{
+    displayName: "The Sidestep - Carol Hall, Charles Durning",
+    imageUrl: "https://i.imgur.com/W8vfYop.jpeg",
+    url: "https://audio.jukehost.co.uk/xv7rIDCzs2EWWzbgbasiqcppHMbbnrIo",
+  },
+]);
+
+        return {
+            slides: [
+                    {
+                        endingHeader: "Severely Conservative",
+                        imageUrl: "https://i.imgur.com/PR5LanE.jpeg",
+                        endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
+                    }
+                ]
+            }
+        }
+    
+        else if(engine.playerWonEv(results)) { //Generic win
         engine.setNewMusic([{
     displayName: "I Won't Back Down - Tom Petty & the Heartbreakers",
     imageUrl: "https://i.imgur.com/kc9b0Vz.jpeg",
@@ -25,12 +63,35 @@ function createEnding(engine, results) {
                 ]
             }
         }
-else if(engine.isDeadlock(results)) { //deadlock
+
+else if(engine.isDeadlock(results)) { //Mace deadlock
         engine.setNewMusic([
   {
     displayName: "The Snake- Al Wilson",
     imageUrl: "https://i.imgur.com/DW67KAo.jpeg",
     url: "https://audio.jukehost.co.uk/y4albJBzVrOGrLeouFLgtsenKeQX1a5Z",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                    endingHeader: "Vote Your Conscience",
+                    imageUrl: "https://i.imgur.com/Eng9hEU.jpeg",
+                    endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
+                },
+            ]
+        }
+        }
+
+    
+
+else if(engine.isDeadlock(results)) { //generic deadlock
+        engine.setNewMusic([
+  {
+    displayName: "Walkin' On The Sun- Smash Mouth",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/da/FushYuMang.jpg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/WalkinOnTheSun.mp3",
   },
 ]);
 
@@ -46,7 +107,7 @@ else if(engine.isDeadlock(results)) { //deadlock
         }
 
     
-        else {
+        else { //loss
         engine.setNewMusic([{
     displayName: "With God On Our Side - Bob Dylan",
     imageUrl: "https://i.imgur.com/sNjiitE.jpeg",
@@ -220,7 +281,7 @@ else if(engine.isDeadlock(results)) { //deadlock
             slides: [
                 {
                     endingHeader: "Crisis in the Campaign",
-                    imageUrl: "https://i.imgur.com/7NWVQIa.jpeg",
+                    imageUrl: "https://i.imgur.com/apUHZ9B.jpeg",
                     endingText: "<p>They've done it, Scoop says. The bastards - the devil Dixiecrats - they've deadlocked the election. This is a crisis, Scoop says.</p><p>Dad looks more like the devil himself. His small, beady eyes, like tiny scorching suns, locked on you. You're not sure what he's more angry at - you, Nixon, or Jack. Maybe himself.</p><p>Jack is silent. It must feel excruciating - so, so close, but so, so far.</p><p>Democrats hold the House, but will Southern delegations fall behind? After Jack's campaign? Hardly. Will the Senators fall behind Scoop? Maybe. You consider calling Johnson, but only for a moment. For some reason, you feel that he will not be of much help.</p><p>It's going to be a long, cold month.</p>"
                 },
             ]
@@ -240,7 +301,7 @@ else if(engine.isDeadlock(results)) { //deadlock
             slides: [
                     {
                         endingHeader: "Sorry! You have lost the 2016 election.",
-                        imageUrl: "https://i.imgur.com/apUHZ9B.jpeg",
+                        imageUrl: "https://i.imgur.com/nf6w668.jpeg",
                         endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
                     }
                 ]
