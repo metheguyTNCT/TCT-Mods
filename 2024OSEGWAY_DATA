@@ -119,7 +119,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "description": "<p>Donald Trump was the king of the Republican Party. Sure, the likes of DeSantis, Cruz, and Pence would put up a  good fight, but Trump would win the nomination, and handily. </p><p>Until he wasn't. Lyin' Ted, of all people</p>",
             "imageUrl": "https://i.imgur.com/Vp6sat1.png",
             "runningMateIds": [
                 210,
@@ -164,7 +164,7 @@
                 }
             ],
             "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
-            "imageUrl": "https://i.imgur.com/y4Wjzkg.png",
+            "imageUrl": "https://i.imgur.com/sEGo9Ph.png",
             "runningMateIds": [
                 214,
                 207,
@@ -220,7 +220,7 @@
             "homeState": "New Jersey",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Just eight years ago, Ted Cruz was the most dangerous man in American politics. The big kahuna of the Tea Party, the man who read Dr. Seuss on the Senate floor- how could such a man possibly be President? Funny how times change. As Donald Trump once again stormed through the Republican primaries, once again Cruz is the establishment's last hope. But this time, he's succeeded.</p><p>Not only must Cruz attempt to heal a party split in two, he must also deal with massive unfavorables and a perception that he's still the same showboating radical he was all those years ago.</p>",
+            "description": "<p>On the other hand, what has being nice to Donald Trump ever done for you recently? You're running against the guy, after all. If you want to take an agressive stance against the Donald, there are few better choices than Chris Christie.</p><p>placeholder second paragraph.</p>",
             "imageUrl": "https://i.imgur.com/D1jefHq.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -9657,7 +9657,7 @@
     "hasStateVisits": true,
     "scenarioName": "2024-Way",
     "scenarioDescription": "<p>As Joe Biden's tumultuous first term comes to an end, malaise grips America. After a shock loss to Ted Cruz, a vengeful Donald Trump has announced an independent bid, as has longtime Biden foe Joe Manchin.</p><ul><li>Cruz attempts to tamp down the MAGA revolt and offer conservative solutions to the problems of Biden's term.</li><li>Biden must allay concerns about his age and defend his presidency.</li><li>Donald Trump must wreck Cruz's chances and show the continued viability of MAGA as a political force.</li><li>Manchin must leverage the unpopularity of the three other candidates to prove there's a significant demand for a centrist course.</li></ul>",
-    "scenarioImageUrl": "https://i.imgur.com/VngLafD.png",
+    "scenarioImageUrl": "https://i.imgur.com/De6LaPo.png",
     "credits": "This scenario was made by Metheguy.",
     "music": [
         {
@@ -9693,7 +9693,7 @@
         {
             "url": "https://files.catbox.moe/ipb503.mp3",
             "displayName": "Living In The '20s- Green Day",
-            "imageUrl": "https://files.catbox.moe/dploa5.jpg"
+            "imageUrl": "https://i.imgur.com/NuZ8izI.jpeg"
         }
     ],
     "furtherReading": "The <a href='https://www.presidency.ucsb.edu/documents' target='_blank'>American Presidency Project</a> is a great place to find nearly every sort of document you could need for a mod. It was especially useful for getting a general idea of everyone's speaking styles. Other than that, my main source was the fact that I lived through the damn thing.</a>",
