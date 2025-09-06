@@ -1,0 +1,289 @@
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#0b5989",
+     "header_text_color": "#000000",
+     "description_text_color": "#ffffff",
+     "description_background_color": "#23597b",
+     "main_color": "#0068a8",
+     "secondary_color": "#247abc",
+     "ui_text_color": "#FFFFFF"
+}
+
+next0 = function() {
+    text = "<p><li>Mamdani must retain his lead and thread the needle between both his progressive base and Moderate Democrats that will be important to victory this fall.<li>Cuomo must prevent Adams and Sliwa from siphoning off the moderate vote and must highlight Mamdani's radical policies to scare moderates over to his camp.<li>Sliwa will have to make the case that Democratic management of the city has been incompetent, and prove to the Republican establishment that he is a viable candidate.<li>Adams needs to tout his administration's successes and attack both Mamdani and Cuomo to centralize support behind him.<br><button onclick='back0()'>Back</button></p>"
+    document.getElementById("election_summary").innerHTML = text
+}
+back0 = function() {
+    text = "<p>Following the election of Eric Adams in 2021, the city has been down a rollercoaster, with an asylum crisis, corruption allegations, and general unpopularity eroding the Mayor's reputation, and leading to him running as an independent in the election. Meanwhile, with former Governor Andrew Cuomo losing the Democratic primary in a shocker to a state assemblyman named Zohran Mamdani.<br><br>With 4 candidates battling it out for the top and every borough being competitive, the 2025 mayoral race is sure to define the next years for the largest city in the country, this way or that.<br><br><button onclick='next0()'>More</button></p>"
+    document.getElementById("election_summary").innerHTML = text
+}
+
+e.PartyText = "Running As:";
+e.HomeStateText = "Current Position:";
+
+
+let previousCandidate = null;
+
+const startScreenUpdater = setInterval(function() {
+    const goBackButton = document.getElementById("candidate_id_back");
+    const candidateButton = document.getElementById("candidate_id_button");
+    const runningMateButton = document.getElementById("running_mate_id_button");
+    const finalScreenBB = document.getElementById("opponent_selection_id_back");
+    const finalScreenID = document.getElementById("opponent_selection_id_button");
+
+    const c = document.getElementById("candidate_id")?.value ?? -1;
+
+    if (c !== previousCandidate) {
+        previousCandidate = c; 
+
+        if (c == 10101) {
+            if (!candidateButton) {
+                goBackButton?.click();
+                const initContinue = document.getElementById("election_id_button");
+                initContinue?.click();
+            }
+        } else if (c == 1001 || c == 50000 || c == 50001 || c == 50002) {
+            candidateButton?.remove();
+        }
+    }
+
+}, 20); 
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2025 New York Mayoral Election",
+            "summary": "<p>Following the election of Eric Adams in 2021, the city has been down a rollercoaster, with an asylum crisis, corruption allegations, and general unpopularity eroding the Mayor's reputation, and leading to him running as an independent in the election. Meanwhile, with former Governor Andrew Cuomo losing the Democratic primary in a shocker to a state assemblyman named Zohran Mamdani.<br><br>With 4 candidates battling it out for the top and every borough being competitive, the 2025 mayoral race is sure to define the next years for the largest city in the country, this way or that.<br><br><button onclick='next0()'>More</button></p>",
+            "image_url": "https://i.imgur.com/zVG8dgy.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2025 New York Mayoral Election"
+    }
+]
+
+campaignTrail_temp.credits = "TheMcCain. Banner was made by E"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Zohran",
+            "last_name": "Mamdani",
+            "election": 20,
+            "party": "Democratic/Democratic Socialist",
+            "state": "New York State Assemblyman, 36th District",
+            "priority": 1,
+            "description": "<p>As soon as Cuomo had announced his Mayoral bid, the pundits were all saying that he would win the nomination easily. that he was going to be the next mayor. A rather unknown New York state Assemblyman, Mamdani entered the race with little hope of winning. But with the help of the progressive vote, Cuomo's unpopularity, and a smart social media campaign, Mamdani has managed to win the Democratic nomination, and in a landslide at that.<br><br>Mamdani holds a commanding lead, but he is very controversial. His progressive policies include free buses, government run grocery stores, and cost-free childcare. He could either swing to the left even more to try to energize the progressive vote, or moderate on his positions to attract moderates dissatisfied with Cuomo and Adams. Either way, this election is his to lose.",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/xovQfmj.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Running",
+            "last_name": "Mate",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "<p>This is a running mate description it only shows for running mates</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Andrew",
+            "last_name": "Cuomo",
+            "election": 20,
+            "party": "Independent",
+            "state": "Former Governor of New York",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:14em;font-size:1em;'><p style='margin-top:0em;'>Andrew Cuomo is the former Governor of New York. The son of famed Governor Mario Cuomo, barely 5 years ago Cuomo was being praised for his response to COVID-19, and was known as an able administrator. However, everything soon came falling apart.<br><br>In early 2021, reports emerged that Cuomo’s administration had undercounted COVID-19 nursing home deaths by thousands. Furthermore, a wave of women came forward accusing Cuomo of sexual harassment and inappropriate conduct. On August 3, 2021, the New York Attorney General’s office released a damning report concluding that Cuomo had sexually harassed 11 women, violating state and federal law.<br><br>Cuomo is now attempting to make a political comeback by running for Mayor of New York City. After being the frontrunner for the Democratic nomination, Cuomo eventually lost the nomination to a state Assemblyman named Zohran Mamdani, and Cuomo is now running as an independent with a polling deficit. Still, Cuomo has high name recognition, and most pollsters believe he is the best candidate to defeat Mamdani. ",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/uJkYoAE.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Curtis",
+            "last_name": "Sliwa",
+            "election": 20,
+            "party": "Republican",
+            "state": "Talk Show Host, Guardian Angels Founder",
+            "priority": 1,
+            "description": "<p>Curtis Sliwa is a native New Yorker and the Republican nominee in the mayoral election. Previously also the nominee in 2021, he lost to Eric Adams. Sliwa has never held elected office before. Sliwa founded the Guardian Angels in 1979, which works tirelessly to help the community and improve public safety. Either way, usually a Republican never has a chance to win New York City.<br><br>But with the Democratic split, this is a once-in-a-lifetime opportunity for Sliwa and the Republicans. If he plays his card right, he might just be able to win, or at least influence this election heavily. In order to do so, he must portray himself as a law-and-order candidate that will increase the safety of New York. The battle for election is an uphill one, but it's possible, and it'll take a lot more than that iconic red beret.",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/V8xFZ9c.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Eric",
+            "last_name": "Adams",
+            "election": 20,
+            "party": "Independent",
+            "state": "Mayor of New York City",
+            "priority": 1,
+            "description": "<p>Eric Adams is the current Mayor of New York. In an alternate timeline, he would have easily won re-election, as the Democratic nominee, and planning for the future. Today though? Not so much.<br><br>Following his landslide win in 2021, Adam's popularity has collapsed. He faces charges for corruption, is incredibly unpopular amongst most New Yorkers, and his leadership during the asylum crisis, where illegal immigrants were being housed in luxury hotels for free, is not helping his reputation. Even so, Adams retains some popularity in areas that haven't been hit as hard by the crisis, and Adams does have one key game changer. He's the current mayor, and that wields a variety of advantages and disadvantages. And maybe, just maybe, he could pull off an upset.",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/N4DgDEF.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155257,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#124d78",
+    "windowColor": "#366887",
+    "containerColor": "#3b62a0",
+    "innerWindowColor": "#346b93",
+    "bannerImageUrl": "https://i.imgur.com/WgwI7Lv.jpeg",
+    "backgroundImageUrl": "https://images.unsplash.com/photo-1523374228107-6e44bd2b524e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmV3JTIweW9yayUyMGNpdHklMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "THE NEW YORK TRAIL "
+}
+
+//#startcode
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#124d78";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#366887";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#3b62a0";
+
+document.getElementById("header").src = "https://i.imgur.com/WgwI7Lv.jpeg";
+
+document.body.background = "https://images.unsplash.com/photo-1523374228107-6e44bd2b524e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmV3JTIweW9yayUyMGNpdHklMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#346b93!important;}</style>";
+
+//#endcode
