@@ -78,7 +78,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>By all rights, Joe Biden shouldn't be here right now. His time was 1988. Or was it 1992? 2004? '08? Maybe 2016? Whenever it was, it's clear to anyone who watches him in action that it's long passed.</p><p>Nonetheless, Biden couldn't just stand idly by as Trump made a mockery of his country. He jumped into the 2020 race, and he's ruing the consequences of that decision to this day.</p>",
+            "description": "<p>By all rights, Joe Biden shouldn't be here right now. His time was 1988. Or was it 1992? 2004? '08? Maybe 2016? Whenever it was, it's clear to anyone who watches him in action that it's long passed.</p><p>Nonetheless, Biden couldn't just stand idly by as Trump made a mockery of his country. He jumped into the 2020 race, and he's ruing the consequences of that decision to this day. Grappling with rising prices at home and rising tensions abroad, along with record low approval ratings, it'll be a tough fight for Joe. But he'll win. He has to. For the soul of the nation.</p>",
             "imageUrl": "https://i.imgur.com/QxprMNw.png",
             "runningMateIds": [
                 209
@@ -120,7 +120,7 @@
                 }
             ],
             "description": "</p>This was Donald Trump's election to  lose. Twice-impeached, indicted many times over, and aged, he nonetheless sweep the Republican primaries with ease and then move on to the general. He was the king of the party.<p>Until he wasn't. Lyin' Ted, of all people, managed to steal the nomination.</p>",
-            "imageUrl": "https://i.imgur.com/Vp6sat1.png",
+            "imageUrl": "https://i.imgur.com/Atomj4S.png",
             "runningMateIds": [
                 210,
                 211,
@@ -5722,7 +5722,7 @@
                 },
                 {
                     "id": 1053,
-                    "description": "To what extent will you attack Donald Trump for the rhetoric he has used about Mexicans, Muslims, women, and other groups?",
+                    "description": "the debat",
                     "answers": [
                         {
                             "id": 5176,
@@ -5734,14 +5734,7 @@
                                     "candidateId": 200,
                                     "issueId": -1,
                                     "stateId": -1,
-                                    "amount": -0.0025
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": -0.001
+                                    "amount": -0.05
                                 }
                             ]
                         },
@@ -5816,15 +5809,15 @@
                             ]
                         }
                     ],
-                    "keepInPlaceIfQuestionsShuffled": false
+                    "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
                     "id": 1060,
-                    "description": "To what extent will you support the presence of Bernie Sanders on the campaign trail?",
+                    "description": "In the wake of the debate, will you drop out.",
                     "answers": [
                         {
                             "id": 5200,
-                            "description": "I think it's obvious that we plan to spend a lot of time campaigning with Bernie Sanders, and that we're making a real effort to incorporate his message into our campaign.",
+                            "description": "Look, i'm not.",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -5884,106 +5877,9 @@
                                     "amount": -0.02
                                 }
                             ]
-                        },
-                        {
-                            "id": 5201,
-                            "description": "I want us to do a high-profile appearance with Bernie in Michigan, once the campaign gets going. We don't agree on every issue, but I want to embrace his economic message and show people that our party is unified.",
-                            "feedback": "",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": -1,
-                                    "issueId": 100,
-                                    "stateId": -1,
-                                    "amount": 0.5
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": -1,
-                                    "issueId": 101,
-                                    "stateId": -1,
-                                    "amount": 0.5
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": 0.003
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 203,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": -0.01
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1021,
-                                    "amount": 0.00333
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": 1034,
-                                    "amount": 0.002
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5202,
-                            "description": "Bernie Sanders has offered to campaign extensively on our behalf, and of course we want to have him on the trail. I'm willing to make a few small promises to make that happen.",
-                            "feedback": "",
-                            "answerEffects": []
-                        },
-                        {
-                            "id": 5203,
-                            "description": "I'd love to have Bernie Sanders out there campaigning for us, but the things he is asking for are simply unrealistic. I'm not going to sit here and bargain away my platform when I'm the one who won the nomination.",
-                            "feedback": "",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": -1,
-                                    "issueId": 100,
-                                    "stateId": -1,
-                                    "amount": 0.1
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": -1,
-                                    "issueId": 101,
-                                    "stateId": -1,
-                                    "amount": -0.2
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": -1,
-                                    "issueId": 102,
-                                    "stateId": -1,
-                                    "amount": 0
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": -0.006
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 203,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": 0.1032
-                                }
-                            ]
                         }
                     ],
-                    "keepInPlaceIfQuestionsShuffled": false
+                    "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
                     "id": 1068,
@@ -8514,7 +8410,7 @@
                                     "candidateId": 201,
                                     "issueId": 100,
                                     "stateId": 1000,
-                                    "amount": -0.5
+                                    "amount": -0.05
                                 }
                             ]
                         },
@@ -8526,7 +8422,7 @@
                         },
                         {
                             "id": 5268,
-                            "description": "let everyone in",
+                            "description": "let everyone in [good]",
                             "feedback": "Biden says sure. Sucker.",
                             "answerEffects": [
                                 {
@@ -8550,7 +8446,7 @@
                 },
                 {
                     "id": 1027,
-                    "description": "To what extent will you attack Hillary Clinton for the foreign donations she has taken for the Clinton Foundation, often from Middle Eastern sources. Or, also, for her paid speeches from Goldman Sachs?",
+                    "description": "MOCE DEBATE BEFORE THIS ONE To what extent will you attack Hillary Clinton for the foreign donations she has taken for the Clinton Foundation, often from Middle Eastern sources. Or, also, for her paid speeches from Goldman Sachs?",
                     "answers": [
                         {
                             "id": 5090,
@@ -9661,14 +9557,14 @@
     "credits": "This scenario was made by Metheguy.",
     "music": [
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Crooks.mp3",
-            "displayName": "Liars, Cheats, & Crooks- Five Times August",
-            "imageUrl": "https://i.imgur.com/kASwWlf.jpeg"
-        },
-        {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Here%20Comes%20The%20Sun.mp3",
             "displayName": "here comes the sun - bill wurtz",
             "imageUrl": "https://i.imgur.com/3KuY0BJ.jpeg"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Crooks.mp3",
+            "displayName": "Liars, Cheats, & Crooks- Five Times August",
+            "imageUrl": "https://i.imgur.com/kASwWlf.jpeg"
         },
         {
             "url": "https://audio.jukehost.co.uk/Po5eKwlVG0M4wQ3oOG9otBNFevRmkpPC",
@@ -9693,7 +9589,7 @@
         {
             "url": "https://files.catbox.moe/ipb503.mp3",
             "displayName": "Living In The '20s- Green Day",
-            "imageUrl": "https://files.catbox.moe/dploa5.jpg"
+            "imageUrl": "https://i.imgur.com/NuZ8izI.jpeg"
         }
     ],
     "furtherReading": "The <a href='https://www.presidency.ucsb.edu/documents' target='_blank'>American Presidency Project</a> is a great place to find nearly every sort of document you could need for a mod. It was especially useful for getting a general idea of everyone's speaking styles. Other than that, my main source was the fact that I lived through the damn thing.</a>",
