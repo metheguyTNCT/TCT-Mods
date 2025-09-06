@@ -9536,20 +9536,7 @@
         "quote": "\"God spare me the purists.\"- Joe Biden",
         "descriptionWindowBackgroundColor": "#ffffff"
     },
-    "historicalResults": {
-        "popularVotes": {
-            "200": 62984828,
-            "201": 65853514,
-            "202": 4489341,
-            "203": 1457218
-        },
-        "electoralVotes": {
-            "200": 306,
-            "201": 232,
-            "202": 0,
-            "203": 0
-        }
-    },
+
     "hasStateVisits": true,
     "scenarioName": "2024-Way",
     "scenarioDescription": "<p>As Joe Biden's tumultuous first term comes to an end, malaise grips America. After a shock loss to Ted Cruz, a vengeful Donald Trump has announced an independent bid, as has longtime Biden foe Joe Manchin.</p><ul><li>Cruz attempts to tamp down the MAGA revolt and offer conservative solutions to the problems of Biden's term.</li><li>Biden must allay concerns about his age and defend his presidency.</li><li>Donald Trump must wreck Cruz's chances and show the continued viability of MAGA as a political force.</li><li>Manchin must leverage the unpopularity of the three other candidates to prove there's a significant demand for a centrist course.</li></ul>",
