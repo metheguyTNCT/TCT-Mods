@@ -78,7 +78,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "description": "<p>By all rights, Joe Biden shouldn't be here right now. His time was 1988. Or was it 1992? 2004? '08? Maybe 2016? Whenever it was, it's clear to anyone who watches him in action that it's long passed.</p><p>Nonetheless, Biden couldn't just stand idly by as Trump.</p>",
             "imageUrl": "https://i.imgur.com/QxprMNw.png",
             "runningMateIds": [
                 209
@@ -119,7 +119,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "description": "</p>This was Donald Trump's election to  lose. Twice-impeached, indicted many times over, and aged, he nonetheless sweep the Republican primaries with ease and then move on to the general. He was the king of the party.<p>Until he wasn't. Lyin' Ted, of all people, managed to steal the nomination.</p>",
             "imageUrl": "https://i.imgur.com/Vp6sat1.png",
             "runningMateIds": [
                 210,
@@ -7258,12 +7258,12 @@
             "questions": [
                 {
                     "id": 1000,
-                    "description": "Time to announce your campaign Rafael",
+                    "description": "The time has finally come to announce your second campaign. In a fair world, you'd be wrapping up your second term by now, but oh well. No use thinking about things that never were. With some country song you can't quite place the tune of blaring in your ears and cheering supporters waving signs, it's a perfect day. As you walk up to the podium, how will you start this rodeo?",
                     "answers": [
                         {
                             "id": 5000,
                             "description": "Joe Biden is bad.",
-                            "feedback": "",
+                            "feedback": "So what?",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -7277,7 +7277,7 @@
                         {
                             "id": 5001,
                             "description": "Mexicans are bad.",
-                            "feedback": "",
+                            "feedback": "now thats a spicy meataballa",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -7312,7 +7312,7 @@
                         {
                             "id": 5002,
                             "description": "Donald Trump is bad.",
-                            "feedback": "",
+                            "feedback": "uhhh ionnow ted",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -9636,7 +9636,7 @@
         "secondaryGameWindowTextColor": "#e9e9e9",
         "bottomBannerBackgroundColor": "#3c5267",
         "bottomBannerTextColor": "#FFFFFF",
-        "advisorImage": "https://i.imgur.com/cHVEaqf.gif",
+        "advisorImage": "https://i.imgur.com/l80jOxb.gif",
         "quote": "\"God spare me the purists.\"- Joe Biden",
         "descriptionWindowBackgroundColor": "#ffffff"
     },
@@ -9657,7 +9657,7 @@
     "hasStateVisits": true,
     "scenarioName": "2024-Way",
     "scenarioDescription": "<p>As Joe Biden's tumultuous first term comes to an end, malaise grips America. After a shock loss to Ted Cruz, a vengeful Donald Trump has announced an independent bid, as has longtime Biden foe Joe Manchin.</p><ul><li>Cruz attempts to tamp down the MAGA revolt and offer conservative solutions to the problems of Biden's term.</li><li>Biden must allay concerns about his age and defend his presidency.</li><li>Donald Trump must wreck Cruz's chances and show the continued viability of MAGA as a political force.</li><li>Manchin must leverage the unpopularity of the three other candidates to prove there's a significant demand for a centrist course.</li></ul>",
-    "scenarioImageUrl": "https://i.imgur.com/De6LaPo.png",
+    "scenarioImageUrl": "https://i.imgur.com/dXWzAjD.png",
     "credits": "This scenario was made by Metheguy.",
     "music": [
         {
@@ -9700,7 +9700,7 @@
     "tooltips": [
         {
             "key": "DeSantis",
-            "value": "<img src=https://i.imgur.com/Em5qlVF.jpeg> "
+            "value": "<img src=https://i.imgur.com/Em5qlVF.jpeg>  Terminally online Florida governor."
         },
         {
             "key": "January 6th",
@@ -9713,6 +9713,10 @@
         {
             "key": "Stein",
             "value": "<img src=https://i.imgur.com/3VS1SJj.jpeg> The fifth horse in this race."
+        },
+        {
+            "key": "In a fair world, you'd be wrapping up your second term by now, but oh well. No use thinking about things that never were. ",
+            "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again....."
         }
     ]
 }
