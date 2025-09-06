@@ -252,9 +252,9 @@ else if(engine.isDeadlock(results)) { //deadlock
     else if(playerId == 203) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "Sixteen Tons- Tennessee Ernie Ford",
-    imageUrl: "https://i.imgur.com/qiemjPx.jpeg",
-    url: "https://audio.jukehost.co.uk/wQWfeKgX3jDFIZUg1SiWsi12jiEtXRlq",
+    displayName: "Stuck in the Middle with You- Stealers Wheel",
+    imageUrl: "https://i.imgur.com/UJrJsqN.jpeg",
+    url: "https://audio.jukehost.co.uk/E0qJuo0FZUAfkgIFyp9cdUG8o2SeREgR",
   },
 ]);
 
