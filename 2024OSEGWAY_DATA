@@ -119,7 +119,7 @@
                     "weight": 1
                 }
             ],
-            "description": "</p>This was Donald Trump's election to  lose. Twice-impeached, indicted many times over, and aged, he nonetheless sweep the Republican primaries with ease and then move on to the general. He was the king of the party.<p>Until he wasn't. Lyin' Ted, of all people, managed to steal the nomination.</p>",
+            "description": "</p>This was Donald Trump's election to  lose. Twice-impeached, indicted many times over, and aged, he nonetheless was set to sweep the Republican primaries with ease and then move on to the general. He was the king of the party.<p>Until he wasn't. Lyin' Ted, of all people, managed to steal the nomination.</p>",
             "imageUrl": "https://i.imgur.com/Atomj4S.png",
             "runningMateIds": [
                 210,
@@ -194,7 +194,7 @@
             "homeState": "Kansas",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Nancy Mace is a Representative from South Carolina, and one of the most firebrand conservatives in Congress.</p><p>Selecting Mace wouldn't be enough to stop Trump from running, but it would restrict his support to die-hard MAGAs, and those folks probably wouldn't vote for you anyway. However, Mace has a reputation as a bit of a glory hound and loose cannon (remind you of anyone?) Make sure to keep her in check.</p>",
+            "description": "<p>Mike Pompeo has certainly come a long way. Starting out as a fierce critic of Trump when he was running in 2016, he became famous for his deference to him after he was elected, to the point he was called a 'heat-seeking missile for Trump's ass.' Now, as Trump ventures ever farther into the radical right, they're back at odds.</p><p>Pompeo mulled a presidential bid himself, but eventually opted not to. Selecting him would orient this campaign firmly in an interventionist direction, glavanizing Trump's base, but if that's what you want, then by all means pick him.</p>",
             "imageUrl": "https://i.imgur.com/bngoFvU.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -404,27 +404,27 @@
             "issueScores": [
                 {
                     "issueId": 100,
-                    "issueScore": 1,
+                    "issueScore": 0.7,
                     "weight": 1
                 },
                 {
                     "issueId": 101,
-                    "issueScore": -1,
+                    "issueScore": -0.89,
                     "weight": 1
                 },
                 {
                     "issueId": 102,
-                    "issueScore": 1,
+                    "issueScore": 0.72,
                     "weight": 1
                 },
                 {
                     "issueId": 103,
-                    "issueScore": 1,
+                    "issueScore": 0.68,
                     "weight": 1
                 },
                 {
                     "issueId": 104,
-                    "issueScore": 1,
+                    "issueScore": 0.74,
                     "weight": 1
                 }
             ],
@@ -592,7 +592,7 @@
                 },
                 {
                     "issueId": 104,
-                    "issueScore": 0.2,
+                    "issueScore": -0.39,
                     "weight": 1.5
                 }
             ],
@@ -3152,7 +3152,7 @@
                 },
                 {
                     "issueId": 104,
-                    "issueScore": 0.15,
+                    "issueScore": -0.4,
                     "weight": 1.5
                 }
             ],
@@ -3752,12 +3752,12 @@
             "name": "Foreign Policy",
             "description": "",
             "stances": [
-                "Aggressive",
-                "Aggressive",
+                "Vulcan",
+                "Hawk",
                 "Moderate",
                 "Moderate",
-                "Moderate",
-                "Non-Interventionist",
+                "Dove",
+                "Dove",
                 "America First"
             ],
             "stanceDescriptions": [
@@ -7245,11 +7245,11 @@
                 },
                 {
                     "id": 1007,
-                    "description": "DeSantis January 6th Liz Cheney",
+                    "description": "January 6th Liz Cheney Stein",
                     "answers": [
                         {
                             "id": 5016,
-                            "description": "Around the world we have Islamic terror striking at innocent lives, while the Democrats do nothing. If this attack on the LGBT community, this vicious attack, isn't enough to make them wake up, then what is?",
+                            "description": "Let's consolidate. DeSantis is falling fast, and the others have no chance of beating Trump. Surely they can recognize this.",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -7480,6 +7480,44 @@
                     ],
                     "keepInPlaceIfQuestionsShuffled": false,
                     "onlyEnableAtStartIfRunningMateId": 204
+                },
+                {
+                    "id": 1039,
+                    "description": "Pompeo",
+                    "answers": [
+                        {
+                            "id": 5270,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 205
+                },
+                {
+                    "id": 1040,
+                    "description": "Mace",
+                    "answers": [
+                        {
+                            "id": 5269,
+                            "description": "Answer description here",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 208
+                },
+                {
+                    "id": 1041,
+                    "description": "Christie",
+                    "answers": [],
+                    "keepInPlaceIfQuestionsShuffled": true,
+                    "enabled": true,
+                    "onlyEnableAtStartIfRunningMateId": 206
                 },
                 {
                     "id": 1019,
@@ -8390,6 +8428,54 @@
                     "keepInPlaceIfQuestionsShuffled": false
                 },
                 {
+                    "id": 1027,
+                    "description": "To what extent will you attack Hillary Clinton for the foreign donations she has taken for the Clinton Foundation, often from Middle Eastern sources. Or, also, for her paid speeches from Goldman Sachs?",
+                    "answers": [
+                        {
+                            "id": 5090,
+                            "description": "The Russians gave her $2 million. The Saudis, the Arabs, they gave her a lot. Millions from the Bank of Switzerland and Deutsche Bank. It's all about the charity, right?",
+                            "feedback": "",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 200,
+                                    "issueId": -1,
+                                    "stateId": -1,
+                                    "amount": 0.00075
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 201,
+                                    "issueId": -1,
+                                    "stateId": -1,
+                                    "amount": -0.002
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5091,
+                            "description": "This whole situation with the Clinton Foundation really should be against the law. You have foreign governments giving this charity millions of dollars, and that's supposed to have no effect on her Presidency?",
+                            "feedback": "",
+                            "answerEffects": []
+                        },
+                        {
+                            "id": 5092,
+                            "description": "If Hillary wants to go around claiming that we're corrupt somehow, I think there's more than enough ammunition here to fight back.",
+                            "feedback": "",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 200,
+                                    "issueId": -1,
+                                    "stateId": -1,
+                                    "amount": -0.002
+                                }
+                            ]
+                        }
+                    ],
+                    "keepInPlaceIfQuestionsShuffled": false
+                },
+                {
                     "id": 1030,
                     "description": "Debate",
                     "answers": [
@@ -8438,54 +8524,6 @@
                                     "issueId": 100,
                                     "stateId": 1000,
                                     "amount": -0.05
-                                }
-                            ]
-                        }
-                    ],
-                    "keepInPlaceIfQuestionsShuffled": false
-                },
-                {
-                    "id": 1027,
-                    "description": "MOCE DEBATE BEFORE THIS ONE To what extent will you attack Hillary Clinton for the foreign donations she has taken for the Clinton Foundation, often from Middle Eastern sources. Or, also, for her paid speeches from Goldman Sachs?",
-                    "answers": [
-                        {
-                            "id": 5090,
-                            "description": "The Russians gave her $2 million. The Saudis, the Arabs, they gave her a lot. Millions from the Bank of Switzerland and Deutsche Bank. It's all about the charity, right?",
-                            "feedback": "",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 200,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": 0.00075
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 201,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": -0.002
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5091,
-                            "description": "This whole situation with the Clinton Foundation really should be against the law. You have foreign governments giving this charity millions of dollars, and that's supposed to have no effect on her Presidency?",
-                            "feedback": "",
-                            "answerEffects": []
-                        },
-                        {
-                            "id": 5092,
-                            "description": "If Hillary wants to go around claiming that we're corrupt somehow, I think there's more than enough ammunition here to fight back.",
-                            "feedback": "",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 200,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": -0.002
                                 }
                             ]
                         }
@@ -9536,7 +9574,6 @@
         "quote": "\"God spare me the purists.\"- Joe Biden",
         "descriptionWindowBackgroundColor": "#ffffff"
     },
-
     "hasStateVisits": true,
     "scenarioName": "2024-Way",
     "scenarioDescription": "<p>As Joe Biden's tumultuous first term comes to an end, malaise grips America. After a shock loss to Ted Cruz, a vengeful Donald Trump has announced an independent bid, as has longtime Biden foe Joe Manchin.</p><ul><li>Cruz attempts to tamp down the MAGA revolt and offer conservative solutions to the problems of Biden's term.</li><li>Biden must allay concerns about his age and defend his presidency.</li><li>Donald Trump must wreck Cruz's chances and show the continued viability of MAGA as a political force.</li><li>Manchin must leverage the unpopularity of the three other candidates to prove there's a significant demand for a centrist course.</li></ul>",
@@ -9552,11 +9589,6 @@
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Crooks.mp3",
             "displayName": "Liars, Cheats, & Crooks- Five Times August",
             "imageUrl": "https://i.imgur.com/kASwWlf.jpeg"
-        },
-        {
-            "url": "https://audio.jukehost.co.uk/Po5eKwlVG0M4wQ3oOG9otBNFevRmkpPC",
-            "displayName": "Rich Men North of Richmond- Oliver Anthony",
-            "imageUrl": "https://i.imgur.com/pHzXeFY.png"
         },
         {
             "url": "https://file.garden/Zrv1pPC1HzBK0svl/Justice%20for%20All.mp3",
@@ -9577,6 +9609,11 @@
             "url": "https://files.catbox.moe/ipb503.mp3",
             "displayName": "Living In The '20s- Green Day",
             "imageUrl": "https://i.imgur.com/NuZ8izI.jpeg"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/TOP%20OF%20THE%20WORLD.mp3",
+            "displayName": "TOP OF THE WORLD- Pleasantries",
+            "imageUrl": "https://files.catbox.moe/uc783n.jpg"
         }
     ],
     "furtherReading": "The <a href='https://www.presidency.ucsb.edu/documents' target='_blank'>American Presidency Project</a> is a great place to find nearly every sort of document you could need for a mod. It was especially useful for getting a general idea of everyone's speaking styles. Other than that, my main source was the fact that I lived through the damn thing.</a>",
@@ -9598,7 +9635,11 @@
             "value": "<img src=https://i.imgur.com/3VS1SJj.jpeg> The fifth horse in this race."
         },
         {
-            "key": "In a fair world, you'd be wrapping up your second term by now, but oh well. No use thinking about things that never were. ",
+            "key": "a fair world",
+            "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again....."
+        },
+        {
+            "key": "things that never were",
             "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again....."
         }
     ]
