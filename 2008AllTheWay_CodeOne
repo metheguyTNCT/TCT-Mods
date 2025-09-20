@@ -146,7 +146,7 @@ campaignTrail_temp.candidate_json = [
       "color_hex": "#796243",
       "secondary_color_hex": "#796243",
       "is_active": 1,
-      "image_url": "https://i.imgur.com/CSKIg1q.jpeg",
+      "image_url": "https://i.imgur.com/wl9XZsy.jpeg",
       "electoral_victory_message": "<h3>Wow! You have won the 1968 election in a shocker!</h3><p>Dixie forever! Even with the Long Hot Summer of 1967, nobody guessed that you could do well enough in the Northern states to win the election outright. You have instantly become most polarizing President-elect since Abraham Lincoln.</p>",
       "electoral_loss_message": "<h3>Sorry, you did not prevent an electoral college majority.</h3><p>You put in a good effort, but your dream of brokering an end to desegregation will not come to fruition in 1968. No winning candidate will negotiate that point with you unless they absolutely have no choice.</p><p>The best you can do for now is continue to sound the call for a return to sanity in American politics. Perhaps if the riots and discord continue, you will have a better chance of making your voice heard in 1972.</p>",
       "no_electoral_majority_message": "<h3>Congratulations! You have deadlocked the electoral college with your votes in the South.</h3><p>In a close election, your electoral votes in the South have prevented either candidate from winning a majority. Get ready to put the squeeze on Humphrey and Nixon.</p><p>Of course, you still have to deal with the possibility that Humphrey and Nixon dislike you so much that they will simply strike a deal with each other. Whatever happens, it's sure to be interesting.</p>",
@@ -679,7 +679,7 @@ const song5 = new Song(
 );
 
 const song6 = new Song(
-    "Distrubia",
+    "Disturbia",
     "Rihanna",
     "https://i.imgur.com/zKurn0j.jpeg",
     "https://file.garden/Z7qfmQZIZjO_xV5N/Disturbia.mp3"
@@ -1288,19 +1288,19 @@ setupMusicPlayer();
 
 // Define the temporary songs
 const temporarySongs = {
-  "https://i.imgur.com/kyGgGv1.gif": new Song(
+  "https://i.imgur.com/Qp9j4JA.jpeg": new Song(
     "Fly Me to the Moon", 
     "Frank Sinatra", 
     "https://i.imgur.com/qqujVfV.jpeg", 
     "https://file.garden/ZqopcqhJuCvIIvBk/Fly%20Me%20to%20the%20Moon.mp3"
   ),
-  "https://i.imgur.com/2Igi5G3.gif": new Song(
+  "https://preview.redd.it/h4as8hbrrytc1.png?width=211&format=png&auto=webp&s=5369923117d5ddd9b3b4537d0375812ed378864e": new Song(
     "Hitler Ain't Dead", 
     "Bill Frederick", 
     "https://i.imgur.com/FPd1WCt.png", 
     "https://audio.jukehost.co.uk/W67k1jONY0PWwHEQ9VVMHOg5pma6eOid"
   ),
-  "https://i.imgur.com/Z9V9Qpm.gif": new Song(
+  "https://i.imgur.com/wl9XZsy.jpeg": new Song(
     "Seinfeld Theme", 
     "Jonathan Wolff", 
     "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Seinfeld_logo.svg/1920px-Seinfeld_logo.svg.png", 
