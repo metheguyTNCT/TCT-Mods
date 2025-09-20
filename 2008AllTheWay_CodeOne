@@ -182,17 +182,17 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 55,
       "fields": {
-          "first_name": "Hubert H.",
-          "last_name": "Humphrey",
+          "first_name": "John",
+          "last_name": "Kerry",
           "election": 4,
-          "party": "Democratic–Farmer–Labor",
-          "state": "Minnesota",
+          "party": "Democratic",
+          "state": "Massachusetts",
           "priority": 1,
           "description": "",
           "color_hex": "#004771",
           "secondary_color_hex": null,
           "is_active": 0,
-          "image_url": "https://i.imgur.com/5hesrbB.gif",
+          "image_url": "https://i.imgur.com/uTpNJOy.jpeg",
           "electoral_victory_message": "This guy wins!",
           "electoral_loss_message": "This guy loses!",
           "no_electoral_majority_message": "We all win?",
@@ -653,7 +653,7 @@ const song2 = new Song(
 const song3 = new Song(
     "Trust Me, I Work for the Government",
     "Robert Ellis Orrall",
-    "https://i.imgur.com/tq1hqFb.jpeg",
+    "https://i.imgur.com/lpgdAIQ.jpeg",
     "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Trust%20Me%2C%20I%20Work%20for%20the%20Government%20-%20Robert%20Ellis%20Orrall.mp3"
 );
 
