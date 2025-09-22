@@ -250,19 +250,19 @@ var soundtracks = {
     tracklist: [
       {
         name: "Frank Sinatra - The World We Knew (Over and Over)",
-        url: "https://cdn.discordapp.com/attachments/1104918590899093617/1115702597639225484/The_World_We_Knew_Over_And_Over.mp3",
+        url: "https://file.garden/Z7qfmQZIZjO_xV5N/TheWorldWeKnew.mp3",
       },
       {
         name: "Dave Brubeck - Take Five",
-        url: "https://cdn.discordapp.com/attachments/1104918590899093617/1115704976933670933/Dave_Brubeck_-_Take_Five.mp3",
+        url: "https://audio.jukehost.co.uk/Iyw0AOUb34dJQugmqoBMdr4ISxxtW6e5",
       },
       {
         name: "Dexter Gordon - Blues Bossa",
-        url: "https://cdn.discordapp.com/attachments/1104918590899093617/1115704528038269008/Blue_Bossa_-Dexter_Gordon.mp3",
+        url: "https://file.garden/Z7qfmQZIZjO_xV5N/Bossa.mp3",
       },
       {
-        name: "King Curtis - Jeep's Blues",
-        url: "https://cdn.discordapp.com/attachments/1104918590899093617/1115704071253405738/Jeeps_Blues.mp3",
+        name: "Duke Ellington - Jeep's Blues",
+        url: "https://file.garden/Z7qfmQZIZjO_xV5N/Jeep.mp3",
       },
     ],
   },
@@ -275,7 +275,7 @@ var soundtracks = {
       },
       {
         name: "Jimmy Dean - Big Bad John",
-        url: "https://cdn.discordapp.com/attachments/1104918590899093617/1115706008619208734/BIG_BAD_JOHN_Jimmy_Dean_1961.mp3",
+        url: "https://file.garden/Z7qfmQZIZjO_xV5N/BigBadJohn.mp3",
       },
       {
         name: "Merle Haggard - Tonight The Bottle Let Me Down",
