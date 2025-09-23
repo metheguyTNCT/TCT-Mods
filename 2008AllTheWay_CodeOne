@@ -672,10 +672,10 @@ const song4 = new Song(
 );
 
 const song5 = new Song(
-      "Uprising",
-      "Muse",
-      "https://files.catbox.moe/7q3tyv.jpg",
-      "https://files.catbox.moe/ihn8md.mp3"
+      "As Good as I Once Was",
+      "Toby Keith",
+      "https://upload.wikimedia.org/wikipedia/en/c/c7/Toby_Keith_-_Honkytonk_University.jpg",
+      "https://audio.jukehost.co.uk/BYWAQBvCynBP6dY1ysOeABbptEgv7NzF"
 );
 
 const song6 = new Song(
