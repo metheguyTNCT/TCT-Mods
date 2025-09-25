@@ -20,7 +20,7 @@ These are not done yet, but I intend on making them soon, or did at one point.
 Pretty straightforward.
 - *1996Way*
 
-  **Unesscarily Complex Mockups [UCMs]**
+**Unesscarily Complex Mockups [UCMs]**
 These mockups also have code 2s.
 - *Al.*
 - *2008: All The Way*
@@ -31,7 +31,7 @@ These mockups also have code 2s.
 This is an edge case.
 - *2025NYC* by theMcCain
   
-  **Recreations**
+**Recreations**
 These mods were announced, but never released. These are my recreations of them.
 - *2024Way (DeSantis)* by Neo and Decstar
 - *2016Revolution* by Rubix
