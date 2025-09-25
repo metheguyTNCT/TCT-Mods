@@ -4,40 +4,40 @@ Hi! I'm metheguy. This is the place where i plunk my TCT mods, as the name would
 
 The mods here can generally be categorized into four categories.
 
-**Mods I Have Made**
+**Mods I Have Made:**
 These are released. Finished. Done-zo. I made 'em. Go play 'em.
 - *2000Q*
 - *2024GOP*
 
-**Mods I Will Make**
+**Mods I Will Make:**
 These are not done yet, but I intend on making them soon, or did at one point.
 - *1996: Hope*
 - *1996Perot*
 -  *2008g*
 -  *2024Way (Cruz)*
   
-**Mockups**
+**Mockups:**
 Pretty straightforward.
 - *1996Way*
 - *2016DDLC*
 
-**Unesscarily Complex Mockups [UCMs]**
+**Unesscarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
 - *Al.*
 - *2008: All The Way*
 - *2008Vice (Lieberman)*
   
-**Someone Else's Mockup**
+**Someone Else's Mockup:**
 This is an edge case.
 - *2025NYC* by theMcCain
   
-**Recreations**
+**Recreations:**
 These mods were announced, but never released. These are my recreations of them.
 - *2024Way (DeSantis)* by Neo and Decstar
 - *2016Revolution* by Rubix
 - *Our American Carnage* by some redditor who deleted their account 
 
-**Facelifts**
+**Facelifts:**
 These are mods that other people made, but i added some cosmetic changes too. I put them here so I can play with my changes applied whenever I play them.
 - *1960DTK* by Jadingle and Twix
 - *1964 Midnight Redux* by Gardfeld
