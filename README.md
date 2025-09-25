@@ -2,7 +2,7 @@
 
 Hi! I'm metheguy. This is the place where i plunk my TCT mods, as the name would imply.
 
-The mods here can generally be categorized into four categories.
+The mods here can generally be categorized into seven categories.
 
 **Mods I Have Made:**
 These are released. Finished. Done-zo. I made 'em. Go play 'em.
