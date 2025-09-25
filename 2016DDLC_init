@@ -1,0 +1,1581 @@
+const gameThemes = {
+    "Polka Dots" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#fde7f3" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbef" 
+        $(".container")[0].style.backgroundColor = "#0b2566"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/ajdsBjv.jpeg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://i.imgur.com/TymEGU3.jpeg" 
+        document.getElementById("header").src = "https://i.imgur.com/ajdsBjv.jpeg" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+        $(".container")[0].style.backgroundColor = "#0a5082";
+        
+        const gameThemes = {
+    "Indecision '16" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#fefefe" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbef" 
+        $(".container")[0].style.backgroundColor = "#fefefe"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/59jslw.jpg)" 
+        $("#game_window")[0].style.borderColor = "#0c0c0c"
+        $("#game_window")[0].style.coloring_window = "#fefefe" 
+        document.body.background = "https://news.virginia.edu/sites/default/files/article_image/us_capitol_architect_of_the_capitol_header.jpg" 
+        document.getElementById("header").src = "https://i.imgur.com/tlpw3Or.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+        $(".container")[0].style.backgroundColor = "#0a5082";
+
+$(".container")[0].style.border = ".2em solid #ffffff"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #0a5082;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        quotes = ["''RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!'' ~ Donald J. Trump","''This is a big fucking deal.'' ~ Joseph R. Biden Jr.", "''Look, Hollywood is a cesspool.'' ~ Ronald D. DeSantis", "''You stupid son of a bitch.'' ~ Joseph R. Biden Jr.", "''While communism is the control of business by government, fascism is the control of government by business.'' ~ Robert F. Kennedy Jr.", "''No daily drama, focus on the big picture, and put points on the board.'' ~ Ronald D. DeSantis","''Florida is where Woke goes to die!'' ~ Ronald D. DeSantis","''Failure at some point in your life is inevitable, but giving up is unforgivable.'' ~ Joseph R. Biden Jr.","''There is nothing that this nation cannot achieve.'' ~ Donald J. Trump", "''Florida sun now serves as a beacon of light to those who yearn for freedom.'' ~ Ronald D. DeSantis","''The press is owned by five giant corporations.'' ~ Robert F. Kennedy Jr.", "''The American dream belongs to all of us.'' ~ Kamala D. Harris", "''What stands in the way of American progress right now is the federal government.'' ~ Timothy E. Scott","''Miracles begin when we consider the possibility that there might be another way.'' ~ Marianne D. Williamson", "''It's unfair, it's wrong and we can fix it. This is not rocket science.'' ~ Kari Lake", "''We are America, second to none, and we own the finish line. Don’t forget it.'' ~ Joseph R. Biden Jr.", "''Nothing we want for our future is beyond our reach.'' ~ Donald J. Trump", "''When somebody challenges you, fight back. Be brutal, be tough.'' ~ Donald J. Trump", "''I may be Irish, but I'm not stupid.'' ~ Joseph R. Biden Jr.", "''In Washington, D.C., a gaffe is when you tell the truth.'' ~ Joseph R. Biden Jr.", "''To be blunt, people would vote for me. They just would. Why? Maybe because I'm so good looking.'' ~ Donald J. Trump", "''You show me pollution and I will show you people who are not paying their own way.'' ~ Robert F. Kennedy Jr.", "''We defied the experts, we bucked the elites, we ignored the chatter, we did it our way, the Florida way.'' ~ Ronald D. DeSantis", "''The American people have not become heartless.'' ~ Joseph R. Biden Jr.", "''We must rekindle the fire of idealism in our society.'' ~ Joseph R. Biden Jr." ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Kennedy For Me" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffbde1" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbef" 
+        $(".container")[0].style.backgroundColor = "#0b2566"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/TymEGU3.jpeg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://i.imgur.com/TymEGU3.jpeg" 
+        document.getElementById("header").src = "https://files.catbox.moe/gb3o4a.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #70c87e;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["''RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!'' ~ Donald J. Trump","''This is a big fucking deal.'' ~ Joseph R. Biden Jr.", "''Look, Hollywood is a cesspool.'' ~ Ronald D. DeSantis", "''You stupid son of a bitch.'' ~ Joseph R. Biden Jr.", "''While communism is the control of business by government, fascism is the control of government by business.'' ~ Robert F. Kennedy Jr.", "''No daily drama, focus on the big picture, and put points on the board.'' ~ Ronald D. DeSantis","''Florida is where Woke goes to die!'' ~ Ronald D. DeSantis","''Failure at some point in your life is inevitable, but giving up is unforgivable.'' ~ Joseph R. Biden Jr.","''There is nothing that this nation cannot achieve.'' ~ Donald J. Trump", "''Florida sun now serves as a beacon of light to those who yearn for freedom.'' ~ Ronald D. DeSantis","''The press is owned by five giant corporations.'' ~ Robert F. Kennedy Jr.", "''The American dream belongs to all of us.'' ~ Kamala D. Harris", "''What stands in the way of American progress right now is the federal government.'' ~ Timothy E. Scott","''Miracles begin when we consider the possibility that there might be another way.'' ~ Marianne D. Williamson", "''It's unfair, it's wrong and we can fix it. This is not rocket science.'' ~ Kari Lake", "''We are America, second to none, and we own the finish line. Don’t forget it.'' ~ Joseph R. Biden Jr.", "''Nothing we want for our future is beyond our reach.'' ~ Donald J. Trump", "''When somebody challenges you, fight back. Be brutal, be tough.'' ~ Donald J. Trump", "''I may be Irish, but I'm not stupid.'' ~ Joseph R. Biden Jr.", "''In Washington, D.C., a gaffe is when you tell the truth.'' ~ Joseph R. Biden Jr.", "''To be blunt, people would vote for me. They just would. Why? Maybe because I'm so good looking.'' ~ Donald J. Trump", "''You show me pollution and I will show you people who are not paying their own way.'' ~ Robert F. Kennedy Jr.", "''We defied the experts, we bucked the elites, we ignored the chatter, we did it our way, the Florida way.'' ~ Ronald D. DeSantis", "''The American people have not become heartless.'' ~ Joseph R. Biden Jr.", "''We must rekindle the fire of idealism in our society.'' ~ Joseph R. Biden Jr." ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Building Back Better" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffbde1" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbef" 
+        $(".container")[0].style.backgroundColor = "#0b2566"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/TymEGU3.jpeg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://i.imgur.com/TymEGU3.jpeg" 
+        document.getElementById("header").src = "https://files.catbox.moe/gb3o4a.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #606d97;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["'What the hell do you have to lose?​'", "'This man ate my son.'", "'Let’s dispel with this fiction that Barack Obama doesn’t know what he’s doing. He knows exactly what he's doing.'", "'Lock her up!'", "'When you're a star, they let you do it. You can do anything.'", "'Wow, a cow made of butter. My girls would love it.'", "'Such a nasty woman.'", "'Please clap.'", "'Why aren't I 50 points ahead?'"]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "The Great Comeback" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffbde1" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbef" 
+        $(".container")[0].style.backgroundColor = "#0b2566"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/TymEGU3.jpeg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://i.imgur.com/TymEGU3.jpeg" 
+        document.getElementById("header").src = "https://files.catbox.moe/gb3o4a.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #d86e70;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["''RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!'' ~ Donald J. Trump","''This is a big fucking deal.'' ~ Joseph R. Biden Jr.", "''Look, Hollywood is a cesspool.'' ~ Ronald D. DeSantis", "''You stupid son of a bitch.'' ~ Joseph R. Biden Jr.", "''While communism is the control of business by government, fascism is the control of government by business.'' ~ Robert F. Kennedy Jr.", "''No daily drama, focus on the big picture, and put points on the board.'' ~ Ronald D. DeSantis","''Florida is where Woke goes to die!'' ~ Ronald D. DeSantis","''Failure at some point in your life is inevitable, but giving up is unforgivable.'' ~ Joseph R. Biden Jr.","''There is nothing that this nation cannot achieve.'' ~ Donald J. Trump", "''Florida sun now serves as a beacon of light to those who yearn for freedom.'' ~ Ronald D. DeSantis","''The press is owned by five giant corporations.'' ~ Robert F. Kennedy Jr.", "''The American dream belongs to all of us.'' ~ Kamala D. Harris", "''What stands in the way of American progress right now is the federal government.'' ~ Timothy E. Scott","''Miracles begin when we consider the possibility that there might be another way.'' ~ Marianne D. Williamson", "''It's unfair, it's wrong and we can fix it. This is not rocket science.'' ~ Kari Lake", "''We are America, second to none, and we own the finish line. Don’t forget it.'' ~ Joseph R. Biden Jr.", "''Nothing we want for our future is beyond our reach.'' ~ Donald J. Trump", "''When somebody challenges you, fight back. Be brutal, be tough.'' ~ Donald J. Trump", "''I may be Irish, but I'm not stupid.'' ~ Joseph R. Biden Jr.", "''In Washington, D.C., a gaffe is when you tell the truth.'' ~ Joseph R. Biden Jr.", "''To be blunt, people would vote for me. They just would. Why? Maybe because I'm so good looking.'' ~ Donald J. Trump", "''You show me pollution and I will show you people who are not paying their own way.'' ~ Robert F. Kennedy Jr.", "''We defied the experts, we bucked the elites, we ignored the chatter, we did it our way, the Florida way.'' ~ Ronald D. DeSantis", "''The American people have not become heartless.'' ~ Joseph R. Biden Jr.", "''We must rekindle the fire of idealism in our society.'' ~ Joseph R. Biden Jr." ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "America, Great Again" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#96875e" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#b39b55"  
+        $(".container")[0].style.backgroundColor = "#b6ae99"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/6a0n84.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#2C5782" 
+        document.body.background = "https://static01.nyt.com/images/2020/06/20/us/politics/20vid-tulsa-rallyvid1/20vid-tulsa-rallyvid1-videoSixteenByNine3000.jpg" 
+        document.getElementById("header").src = "https://files.catbox.moe/r5sb8t.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #b6ae99;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["'What the hell do you have to lose?​'", "'This man ate my son.'", "'Let’s dispel with this fiction that Barack Obama doesn’t know what he’s doing. He knows exactly what he's doing.'", "'Lock her up!'", "'When you're a star, they let you do it. You can do anything.'", "'Wow, a cow made of butter. My girls would love it.'", "'Such a nasty woman.'", "'Please clap.'", "'Why aren't I 50 points ahead?'"]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Classic" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e8fbff" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016"  
+        $(".container")[0].style.backgroundColor = "#fff"
+        $("#game_window")[0].style.backgroundColor = "#ffffff"
+        $("#game_window")[0].style.borderColor = "#c9c9c9"
+        $("#game_window")[0].style.coloring_window = "#ffffff" 
+        document.body.background = "" 
+        document.getElementById("header").src = "https://www.newcampaigntrail.com/static/images/banner_classic.png" 
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #fea0a0;
+  }
+  a:-webkit-any-link {
+    color: #551a8c;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+        $("#game_window")[0].style.backgroundImage = "url(https://www.colorhexa.com/bee6ff.png"
+        
+        quotes = ["" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    }
+}
+
+// Replace old theme picker
+const themePicker = document.getElementById("themePicker");
+const newThemePicker = document.createElement("select");
+newThemePicker.id = "themePicker";
+newThemePicker.addEventListener("change", gameThemePicked);
+let newInnerHTML = "";
+for(theme in gameThemes) {
+    newInnerHTML += `<option value="${theme}">${theme}</option>`;
+}
+newThemePicker.innerHTML = newInnerHTML;
+themePicker.replaceWith(newThemePicker);
+
+function gameThemePicked() {
+    gameThemes[newThemePicker.value]();
+}
+
+gameThemePicked();
+
+
+    },
+    "Polka Dots" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#fde7f3" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ffbee1" 
+        $(".container")[0].style.backgroundColor = "#ffffff"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/KNTznwN.png)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#ffffff" 
+        document.body.background = "https://i.imgur.com/KNTznwN.png" 
+        document.getElementById("header").src = "https://i.imgur.com/ajdsBjv.jpeg" 
+        document.getElementById("wittyquote").color = "pink" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+        
+        
+        quotes = ["'Manga is literature!​'", "'What the hell do you have to lose?​'", "'This man ate my son.'", "'Let’s dispel with this fiction that Barack Obama doesn’t know what he’s doing. He knows exactly what he's doing.'", "'Lock her up!'", "'When you're a star, they let you do it. You can do anything.'", "'Wow, a cow made of butter. My girls would love it.'", "'Such a nasty woman.'", "'Please clap.'", "'Why aren't I 50 points ahead?'", "'You kind of left her hanging this morning, you know?'", "fucking monikammmmmmm", "'Just Monika.'", "'When you're a star, they let you do it. You can do anything.'", "'I gently open the door.'", "This game is not suitable for children or those who are easily disturbed."]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE LITERATURE TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Indecision '16" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#0c0c0c" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#cb0000" 
+        $(".container")[0].style.backgroundColor = "#f2f2f2"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/yPFLXb2.jpeg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#505155" 
+        document.body.background = "https://i.imgur.com/ia5GuWe.png" 
+        document.getElementById("header").src = "https://i.imgur.com/tlpw3Or.png" 
+        document.getElementById("wittyquote").color = "red" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+        
+        
+        quotes = ["'What the hell do you have to lose?​'", "'This man ate my son.'", "'You campaign in poetry and govern in prose.'", "'Let’s dispel with this fiction that Barack Obama doesn’t know what he’s doing. He knows exactly what he's doing.'", "'Lock her up!'", "'When you're a star, they let you do it. You can do anything.'", "'Wow, a cow made of butter. My girls would love it.'", "'Such a nasty woman.'", "'Please clap.'", "'Why aren't I 50 points ahead?'"]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+    }
+}
+
+// Replace old theme picker
+const themePicker = document.getElementById("themePicker");
+const newThemePicker = document.createElement("select");
+newThemePicker.id = "themePicker";
+newThemePicker.addEventListener("change", gameThemePicked);
+let newInnerHTML = "";
+for(theme in gameThemes) {
+    newInnerHTML += `<option value="${theme}">${theme}</option>`;
+}
+newThemePicker.innerHTML = newInnerHTML;
+themePicker.replaceWith(newThemePicker);
+
+function gameThemePicked() {
+    gameThemes[newThemePicker.value]();
+}
+
+gameThemePicked();
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "<p>In a shock to the system for the political establishment and just about everyone else, four high school girls have taken the nominations of both the major parties and are mounting independent bids.</p><p>The contest is already one of the bitterest and most personal in recent memory, and voter turnout is expected to crater. But nasty nicknames will soon be the least of everyone's concerns....</p>",
+            "image_url": "https://i.imgur.com/YJQ8dg2.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/5nidafu.png",
+            "recommended_reading": "<h4 style='margin-top: 0.5em;'>Notes</h4>fun fact originally I kept this mod a secret because I was absolutely terrified people would think I was weird if they found out I liked DDLC. Anyway.<h4>Canon Results</h4><p>Monika ratfucks everyone and therefore wins. Unfortunately, during her term all this shit and also the Franken stuff comes out and she is impeached. Womp womp. mockups in mockups woag<p><p><img src='https://i.imgur.com/1HwAmmi.png'width='800px'<p><p>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://i.imgur.com/jfAq40c.jpeg",
+            "creator": "Metheguy",
+            "display_year": "2016DDLC"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "",
+            "last_name": "Monika",
+            "election": 20,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 2,
+            "description": "<p>Why is this woman smiling (and smiling, and smiling, and smiling, and...)? As the other three candidates tear each other apart, Monika' strategy is to master the politics of vacuity. Faced with the choice between chronically unpopular Hillary Clinton, angry socialist Bernie Sanders, and nonentity Martin O'Malley, Monika's outsider campaign, light on specifics and heavy on feel-good vibes, hit the spot. Unfortunately, once she won the nomination, she made nice with Sanders, prompting already-skeptical moderates to storm out.</p><p>With party fatigue setting in and a split moderate flank, it's gonna be a hard fight. Nonetheless, scruples are elastic things, and they can be put aside in times of great need. Sometimes in politics, <b>you have to do what must be done...</b></p>",
+            "color_hex": "#11ff00",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/luzmfz.png",
+            "electoral_victory_message": "<h3>Only a Lad</h3><p>Well, what do you know?</p><p>You're president now! Investigation? Who cares? I mean, surely you're gonan be here for the long haul, right?</p>",
+            "electoral_loss_message": "<h3>Well that sucks</h3><p>youre probably going to jail ngl.</p>",
+            "no_electoral_majority_message": "<h3>Secret Honor</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "",
+            "last_name": "Sayori",
+            "election": 20,
+            "party": "Republican",
+            "state": "Georgia",
+            "priority": 1,
+            "description": "<p>It was a hard process, but the Republican Party has done it. They've stopped Trump. Nothing is lost save honor. Now, though, with the base in open revolt, many party bigwigs are wondering if they backed the wrong horse.</p><p>Initially not even included in the polls, Sayori managed, through sheer luck and a basic evangelical message, to stay in the race long enough to be the last woman standing after every other possible never-Trump candidate destroyed their chances one way or another. Her main and perhaps only advantage is her sheer inoffensiveness. She alienates exactly nobody but diehard Democrat partisans, and maybe in a year like this, that's exactly what you need. <b>But a lot can change in the heat of a campaign.</b></p>",
+            "color_hex": "#FF7300",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/nob2yu.png",
+            "electoral_victory_message": "<h3>Moral Majority</h3><p>Wow. Oh wow. I really did it!</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>The Lord Taketh Away</h3><p>How could this have happened? How could this have happened to me? O, Lord, why hast thou forsaken me? I'm a failure, aren't I? I've failed all of you. [etc etc more depressed ramblings blah blah blah]</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "",
+            "last_name": "Yuri",
+            "election": 20,
+            "party": "Independent",
+            "state": "Pennsylvania",
+            "priority": 4,
+            "description": "<p>To the untrained eye, it would seem like the Democratic nominee and her major independent challenger are in virtual agreement when it comes to policy. The reason it seems that way is because it is true. Nor would it seem likely that what minor clash of personalities existed between between the essentially even-keeled Monika and the cold-fish Yuri would precipitate a walkout like this.</p><p>Indeed, it's doubtful either party could quite tell you quite what the precipitating incident of their feud was. Nonetheless, funding they are, and Monika's presenting slightly more progressive than usual was the perfect chance for Yuri to strike. With the donors at her side, Yuri is set to make a statement this election, <b>as long as she keeps her cool...</b></p>",
+            "color_hex": "#500245",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/vxjuml.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "",
+            "last_name": "Natsuki",
+            "election": 20,
+            "party": "Independent",
+            "state": "Arkansas",
+            "priority": 3,
+            "description": "<p>With the Donald opting out of an independent bid in order to attend to his natural hobby of grifting, it was left to someone else to carry his tiki torch into the general election. Natsuki hopes she can be that someone else.</p><p>She is certainly a change from the populist loudmouths of years past. While she can rage with the best of them, the overall effect is less 'voice of the silent majority' and more 'tantrum-throwing child', though of course that makes sense given her background. It shouldn't make much difference anyhow, as any level of bombast at all generates media buzz when compared to her opponents. Not only that, she has Trump's people, now her people- the <i>Base.</i> <b>She's bound to succeed as long as they're behind her.</b></p>",
+            "color_hex": "#ff9ed2",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/035779.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Rick",
+            "last_name": "Scott",
+            "election": 20,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/a5D79nu.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Florida Governor Rick Scott first made his name in the for-profit hospital trade. Mad as hell at the government's meddling in his business, he ran for Governor and won. Florida,of course, is a key state for you to win this year. As a hardline fiscal conservative, Scott would help you with that crowd.</p><p>However, Scott is far more polarizing than those attributes would suggest. With sky-high disapproval ratings, Scott might not even help you in his home state. In addition, HCA, Scott's old company, was forced to fold after being implicated in a Medicare fraud scheme in 2000. If you want to add some experience to the ticket without compromising your core appeal, Scott's your guy.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 208,
+        "fields": {
+            "first_name": "Jon",
+            "last_name": "Huntsman",
+            "election": 20,
+            "party": "Republican",
+            "state": "Utah",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/BI49J83.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>With Yuri's defecting from the Dems, if you can take the moderates, you're well on your way to going the distance. And no moderate has star power quite like Jon Huntsman. During his run for the big chair in 2012, Huntsman became a media darling for his diplomatic expertise, candor, and amiability.</p><p>Nonetheless, you couldn't piss off conservatives more if you'd had an abortion on live TV. Huntsman's  run earned him the lasting enmity of the Right for his willingness to cavalierly flout the party line on issues like climate change. Not only that, but longtime backer of yours Mitt Romney is engaged in a blood feud with Huntsman going back to their days as scions of prominent Mormon dynasties. A Huntsman ticket would require you to go all  in on going for the center.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Burr",
+            "election": 20,
+            "party": "Republican",
+            "state": "North Carolina",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/CpzYIb4.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Everyone in America is talking about Senator Burr right now. Not this no-name schmuck, mind you, but they're certainly thinking about someone named Senator Burr.</p><p>Richard Burr is certainly no Aaron, that's for sure. As the stolid, experienced chairman of the Senate Intelligence Committee, Burr could bring some great national security know-how to the ticket. However, he isn't quite known for his charisma. In fact, he isn't quite known, period. In addition, Burr is facing a tough reelection fight, and picking him could potentially throw that race to the dogs. Still, he's a solid guy from a swing state, and if you're worried about your resume, he could be a good choice.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 207,
+        "fields": {
+            "first_name": "Chris",
+            "last_name": "Christie",
+            "election": 20,
+            "party": "Republican",
+            "state": "New Jersey",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/y1igagU.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Your white-bread, Norman Rockwell style has its advantages, but perhaps you'd like someone a little more brash on the ticket. And if you want brash, Chris Christie's got you covered.</p><p>Once seen as a frontrunner for the nomination, Christie's chances took a tumble after he ordered the closing of the George Washington Bridge in order to spite a political rival. After his campaign sputtered out, Christie threw his support behind Donald Trump, so maybe his selection would placate supporters of the mogul. Running counter to that, however, is Christie's moderate positions on most issues, a fact thrown into stark relief with the well-publicized picture of him hugging Barack Obama after Hurricane Sandy. Finally, Christie has a reputation as an arrogant loudmouth, which is part of the reason he was passed over for VP in 2012. If you're willing to deal with all that, however, the Big Boy could make a big splash this election.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Franken",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Minnesota",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/edY1eGH.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>populism</p><p>sexual harassment</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 210,
+        "fields": {
+            "first_name": "Terry",
+            "last_name": "McAuliffe",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Virginia",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/McWB2aa.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>establishmentmaxxing</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 212,
+        "fields": {
+            "first_name": "Sherrod",
+            "last_name": "Brown",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Ohio",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/Gg44zzD.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sherrod Brown is a Senator from Ohio with a long history in that crucial state. He has generally been on the liberal end of the Democratic spectrum, but could help Clinton compete in the Midwest. Brown is reluctant to serve as a running mate this year. Clinton will need to give assurances that her change of position on trade issues, like the Trans-Pacific Partnership, is a permanent change, and was not one of political expediency.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 213,
+        "fields": {
+            "first_name": "Lincoln",
+            "last_name": "Chafee",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Rhode Island",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/iKtGZtp.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>I think you're being a little rough :(</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "Herman",
+            "last_name": "Cain",
+            "election": 20,
+            "party": "Republican",
+            "state": "Georgia",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/ruOfsn3.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>look at my african american over here</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Howard",
+            "last_name": "Schultz",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Washington",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/lAyPlK5.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>cawfee. Monika will be certainly peeved that you've managed to get the man she's given a significant portion of her income to on side.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Scarborough",
+            "election": 20,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/xLUZfCz.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>p1.</p><p>p2.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Ross",
+            "last_name": "Perot Jr.",
+            "election": 20,
+            "party": "Independent",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/xYRR4Yc.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>p1.</p><p>p2.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Arpaio",
+            "election": 20,
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/LhBrkL0.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>p1.</p><p>p2.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50003,
+        "fields": {
+            "first_name": "Michael",
+            "last_name": "Flynn",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Rhode Island",
+            "priority": 1,
+            "description": "<p>Don't.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/1njZyR0.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>p1.</p><p>p2.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50004,
+        "fields": {
+            "first_name": "Alex",
+            "last_name": "Jones",
+            "election": 20,
+            "party": "Independent",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/Jqq8PMX.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Aw, what the hell. With the other three candidates taking the safe option when it comes to campaigning, the American people want a show. Why not give it to 'em?  </p><p>Alex Jones is an interesting character, to say the least. Weaned on Bircherism, he founded Infowars in '99 after being booted from his old radio gig. Jones really came into his own, though, during the Obama years, especially his claims that various mass shootings were staged. Even worse for the credibility of this campaign, Jones recently began using his show to hawk dietary supplements. Beyond a bungled campaign for House in 2000, Jones has no experience in government whatsoever [not that that's that big a deal compared to everything else about the guy.] If you squint, maybe he could appeal to libertarians? Whatever else happens, it'll certainly be an election to remember.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50005,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Lieberman",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Connecticut",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/5BGe0MH.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Joe Lieberman's amiable personality belies the fact that he is one of the most hated men in American politics. From being elected to the Senate with Bill Buckley's backing in order to take out liberal Republican Lowell Weicker to his current role as co-chair of No Labels, Lieberman has never been the sort of man to fall in line.</p><p>After his criticism of Bill Clinton earned him a spot on the 2000 ticket and the heartbreakingly close loss thereof, Lieberman's avid support of the Iraq War burnt any bridges he had left with the left. In 2008, he endorsed his good friend John McCain and never looked back. After that, his stalwart opposition led to the removal of the public option from Obamacare.  Lieberman would lend the ticket gravitas like no other, but progressives would be fired up to oppose you.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 214
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 209
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 153,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 207
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 159,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 213
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 152,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 206
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 154,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 208
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 156,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 210
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 158,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 212
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 132336,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 50000
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161952,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 50002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 136625,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 108038,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 50003
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 159215,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 50004
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 127478,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 50005
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Metheguy"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2016DDLC"
+    }
+]
+
+jet_data = {
+    "headerColor": "#ffdbef",
+    "windowColor": "#ffffff",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://i.imgur.com/KNTznwN.png",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+jet_data = {
+    "headerColor": "#020081",
+    "windowColor": "#c1c0c1",
+    "containerColor": "#c1c0c1",
+    "innerWindowColor": "#c1c0c1",
+    "bannerImageUrl": "https://i.imgur.com/ajdsBjv.jpeg",
+    "backgroundImageUrl": "https://i.imgur.com/TymEGU3.jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"Let me finish!\"- Ross Perot",
+    "gameTitle": "CAMPAIGN TRAIL SHOWCASE"
+}
+RecReading=true
+
+//#startcode
+
+
+document.getElementById("header").src = "https://i.imgur.com/ajdsBjv.jpeg"
+document.body.style.backgroundSize = "cover"
+document.body.background = "https://i.imgur.com/KNTznwN.png";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbee"
+$(".container")[0].style.backgroundColor = "#ffffff"
+$("#game_window")[0].style.borderColor = "#fedbee"
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff"
+$("#game_window")[0].style.backgroundColor = "#fedbee"
+quotes = ["'What the hell do you have to lose?​'", "'This man ate my son.'", "fucking monikammmmmmm", "'Lock her up!'", "'When you're a star, they let you do it. You can do anything.'", "'I gently open the door.'", "'Such a nasty woman.'", "This game is not suitable for children or those who are easily disturbed.", "'Why aren't I 50 points ahead?'"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+corrr=`\n<h2>THE LITERATURE TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+ $("#game_start").click((event) => {
+    event.preventDefault();
+        musicMode()
+  })
+
+
+
+nexte0 = function() {
+    document.getElementById("ending0").style.display = "none"
+    document.getElementById("ending1").style.display = "initial" 
+}
+
+nexte1 = function() {
+    document.getElementById("ending1").style.display = "none"
+    document.getElementById("ending2").style.display = "initial" 
+}
+
+nexte2 = function() {
+    document.getElementById("ending2").style.display = "none"
+    document.getElementById("ending3").style.display = "initial" 
+}
+
+backe0 = function() {
+    document.getElementById("ending0").style.display = "initial"
+    document.getElementById("ending1").style.display = "none" 
+}
+
+backe1 = function() {
+    document.getElementById("ending1").style.display = "initial"
+    document.getElementById("ending2").style.display = "none" 
+}
+
+backe2 = function() {
+    document.getElementById("ending2").style.display = "initial"
+    document.getElementById("ending3").style.display = "none" 
+}
+
+function addDynamicCSS() {
+  var css = `
+      .inner_window_question h3 .mytooltip{
+          background-color: pink;
+      }
+
+      .mytooltip {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          background-color: pink;
+      }
+
+      .mytooltip .mytooltiptext {
+          width: 240px;
+          background-color: pink;
+          color: black;
+          text-align: center;
+          border-radius: 6px;
+          padding: 10px;
+          position: absolute;
+          z-index: 99;
+          bottom: 20%;
+          left: 20%;
+          margin-left: -90px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          border: 1px solid black;
+          pointer-events: none;
+          font-size: 13px !important;
+          line-height: 1.5em !important;
+          font-weight: normal !important;
+          font-style: normal !important;
+      }
+
+      .mytooltip .mytooltiptext img {
+          max-width: 240px;
+          height: auto;
+      }
+
+      .mytooltip:hover .mytooltiptext {
+          opacity: 1;
+          transition-delay: 0.5s;
+      }
+  `;
+
+  var styleElem = document.createElement('style');
+  styleElem.type = 'text/css';
+  
+  styleElem.appendChild(document.createTextNode(css));
+  
+  document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+
+{searchString: "MC", explanationText: "<img src=https://i.imgur.com/fzPxGeo.jpeg> Insists on playing 'honest broker' between all four of your campaigns. Why can' t he see i'm obviously the best option?"}, 
+{searchString: "Obama", explanationText: "<img src=https://i.imgur.com/iXEeuK0.jpeg> P.O.T.U.S"},
+{searchString: "gorgeous purple locks", explanationText: "<img src=https://i.imgur.com/R4Akvxa.jpeg> Think straight thoughts. Think straight thoughts. Think straight thoughts."},
+{searchString: "Zodiac killer", explanationText: "<img src=https://i.imgur.com/jbQ3Uyx.jpeg> Now, I'm not implying anything here... "},
+{searchString: "damning photo evidence", explanationText: "<img src=https://i.imgur.com/Wy0XYQ7.jpeg> I never thought the leopards would eat MY face!"},
+
+
+// running gag
+{searchString: "partisan knifing", explanationText: "Not that i'd know anything about that."},
+{searchString: "backstabbing", explanationText: "Not that i'd know anything about that."},
+{searchString: "political suicide", explanationText: "Not that i'd know anything about that."},
+{searchString: "sins of the father", explanationText: "Not that i'd know anything about that."},
+{searchString: "red tape", explanationText: "Not that i'd know anything about that."},
+{searchString: "depressing turnout", explanationText: "Not that i'd know anything about that."},
+            
+            
+];
+  // MUSIC MODE
+  
+  musicMode = () => {
+    // Initialise custom music
+  
+    $("#music_player")[0].children[0].style.display = "none"
+    $("#music_player")[0].children[1].style.display = "none"
+  
+    document.getElementById("modLoadReveal").style.display = "none"
+    document.getElementById("modloaddiv").style.display = "none"
+  
+    musicBox = document.getElementById("music_player")
+    musicBox.style.display = ""
+  
+    var trackSel;
+    e = campaignTrail_temp
+    e.selectedSoundtrack = 0
+  
+    toTime = (seconds) => {
+        var date = new Date(null);
+        date.setSeconds(seconds);
+        return date.toISOString().substr(11, 8);
+    }
+  
+    generateTime = () => {
+        // Get the audio element
+        var audio = document.getElementById("campaigntrailmusic");
+  
+        timeTracker = document.createElement("div");
+        timeTracker.style = `
+  text-align:left;
+  border-style:solid;
+  border-width:3px;
+  height:150px;
+  width:200px;
+  background-color:#999999;
+  float:right;
+  padding: 10px;
+  `
+        $("#trackSelParent")[0].prepend(timeTracker);
+        $("#trackSelParent")[0].prepend(document.createElement("br"));
+  
+        // Create a new element to display the current position of the audio
+        var positionDisplay = document.createElement("gg");
+        positionDisplay.id = "position-display";
+  
+        // Create a new slider element to change the time
+        var timeSlider = document.createElement("input");
+        timeSlider.type = "range";
+        timeSlider.min = 0;
+        timeSlider.max = 1;
+        timeSlider.step = 0.001;
+        timeSlider.value = 0;
+        timeSlider.style.width = "200px";
+        timeSlider.id = "time-slider";
+  
+        var pausePlay = document.createElement("button");
+        pausePlay.id = "position-display";
+        pausePlay.innerHTML = "<b>Pause</b>"
+        pausePlay.style.width = "100%";
+  
+  
+        pausePlay.addEventListener("click", event => {
+            event.preventDefault();
+            updatePositionDisplay();
+            let audio = document.getElementById("campaigntrailmusic");
+            if (audio.paused) {
+                audio.play();
+                event.target.innerHTML = "<b>Pause</b>";
+                return;
+            }
+            audio.pause();
+            event.target.innerHTML = "<b>Play</b>";
+            return;
+        })
+  
+        var volumeLabel = document.createElement("gg");
+        volumeLabel.id = "volume-label";
+        volumeLabel.innerHTML = "<br><b>Volume: </b>"
+  
+        var volumeSlider = document.createElement("input");
+        volumeSlider.type = "range";
+        volumeSlider.min = 0;
+        volumeSlider.max = 1;
+        volumeSlider.step = 0.001;
+        volumeSlider.value = 0;
+        volumeSlider.style.width = "200px";
+        volumeSlider.id = "volume-slider";
+  
+        volumeSlider.value = audio.volume;
+  
+        timeTracker.appendChild(pausePlay);
+        timeTracker.appendChild(document.createElement("br"));
+        timeTracker.appendChild(document.createElement("br"));
+        timeTracker.appendChild(positionDisplay);
+        timeTracker.appendChild(timeSlider);
+        timeTracker.appendChild(volumeLabel);
+        timeTracker.appendChild(volumeSlider);
+  
+        updatePositionDisplay();
+  
+        //for (let i = 0; i < 10; i++)
+        //timeTracker.append(document.createElement("br"));
+  
+  
+        // Function to update the position display
+        function updatePositionDisplay() {
+            positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+        }
+  
+        // Function to change the time of the audio
+        function changeTime() {
+            positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            audio.currentTime = timeSlider.value * audio.duration;
+        }
+  
+        updateVolume = event => {
+            audio.volume = event.target.value;
+        }
+  
+        // Update the position display and slider every second
+        setInterval(updatePositionDisplay, 1000);
+  
+        // Listen for changes to the time slider and change the time of the audio
+        timeSlider.addEventListener("input", changeTime);
+        volumeSlider.addEventListener("input", updateVolume)
+    }
+  
+    function newMusicPlayer() {
+        trackSel = document.createElement("div");
+        trackSel.id = "trackSelParent"
+        let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+        z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+        for (i in soundtracks) {
+            if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+            }
+        }
+        z += `</select></b><br><br>`
+            // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+        for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+            let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+            let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+            z += b
+        }
+        z += "</div><br><br>"
+        trackSel.innerHTML = z
+  
+        // select correct song
+  
+        musicBox.appendChild(trackSel);
+        Array.from(document.getElementById("trackSel").children).filter(f => {
+            return f.tagName == "LABEL"
+        }).map(f => f.children[0])[0].checked = true
+  
+        // set soundtrack changer
+  
+        soundtrackSelector = document.getElementById("selectSoundtrack")
+        soundtrackSelector.onchange = function() {
+            for (i in soundtracks) {
+                if (soundtracks[i].name == soundtrackSelector.value) {
+                    e.selectedSoundtrack = i
+                    break
+                }
+            }
+            document.getElementById("trackSelParent").remove()
+            newMusicPlayer()
+        }
+  
+        var matches = document.querySelectorAll('.trackSelector');
+  
+        for (match in matches) {
+            matches[match].onchange = function() {
+                audio = $("#campaigntrailmusic")[0];
+                audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                audio.currentTime = 0
+            }
+        }
+  
+        musicBox.children[2].loop = false
+        musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+  
+        musicBox.children[2].onended = function() {
+            console.log("next track")
+            let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+            let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+            let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                    return f.tagName == "LABEL"
+                }).map(f => f.children[0])
+                //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+            buttons[newSel].click()
+        }
+  
+        for (w = 0; w < 7; w++) {
+            document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+        }
+  
+        generateTime();
+    }
+  
+    clamp = function(a, max, min, overflow = true) {
+        if (overflow) {
+            return a > max ? min : a < min ? max : a;
+        }
+        return a > max ? max : a < min ? min : a;
+    }
+  
+  
+    // Track list
+  
+        var soundtracks = {
+        0: {
+            name: "Intro",
+            tracklist: [
+              {
+              "name": "DDLC Main Theme- Team Salvato",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Othello.mp3"
+            },
+            {
+              "name": "I Thought The Future Would Be Cooler- YACHT",
+              "url": "https://files.catbox.moe/a60mdy.mp3"
+            }
+          ]
+        },
+        1: {
+            name: "Monika",
+            tracklist: [
+              {
+              "name": "Daydream Believer- Anne Murray",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/DaydreamBeliever.mp3"
+            },
+            {
+              "name": "Electioneering- Radiohead",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Electioneering.mp3"
+            },
+            {
+              "name": "Lay All Your Love on Me- ABBA",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Lay%20All%20Your%20Love%20On%20Me.mp3"
+            },
+            {
+              "name": "Crazy- Willie Nelson",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/CrazyWillie.mp3"
+            },
+            {
+              "name": "Power and Sacrifice- Swans",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Power%20and%20Sacrifice.mp3"
+            },
+            {
+              "name": "Everybody's Got The Right (Reprise)- Stephen Sondheim",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/GotTheRight.mp3"
+            }
+          ]
+        },
+        2: {
+          name: "Sayori",
+          tracklist: [
+            {
+              "name": "Orange Colored Sky- Nat King Cole",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/OrangeColoredSky.mp3"
+            },
+            {
+              "name": "The Wanderer- U2, Johnny Cash",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/TheWanderer.mp3"
+            },
+            {
+              "name": "Spirit in the Sky- Norman Greenbaum",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpiritInTheSky.mp3"
+            },
+            {
+              "name": "The Tears of a Clown- The English Beat",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Tears.mp3"
+            },
+            {
+              "name": "Pressure- Billy Joel",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Pressure.mp3"
+            },
+            {
+              "name": "Gethsemane- Micheal Ball",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Gethsemane.mp3"
+            }
+        ]
+      },
+      3: {
+        name: "Yuri",
+        tracklist: [
+          {
+            "name": "Disturbia- Rihanna",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Disturbia.mp3"
+          },
+          {
+            "name": "Orgonon Gurlz- Neil Cicierega",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Orgonon.mp3"
+          },
+          {
+            "name": "Opportunities (Let's Make Lots of Money)- Pet Shop Boys",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Opportunities.mp3"
+          },
+          {
+            "name": "Puttin' On the Ritz- Taco",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Ritz.mp3"
+          },
+          {
+            "name": "Hurt- Johnny Cash",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Hurt.mp3"
+          },
+          {
+            "name": "End of the Road- Boyz II Men",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/End%20Of%20The%20Road.mp3"
+          }
+      ]
+    },
+      4: {
+        name: "Natsuki",
+        tracklist: [
+          {
+            "name": "A Little Less Conversation (JXL Remix)- Elvis Presley",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/A%20Little%20Less%20Conversation.mp3"
+          },
+          {
+            "name": "We're Not Gonna Take It- Twisted Sister",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/We're%20Not%20Gonna%20Take%20It.mp3"
+          },
+          {
+            "name": "I Am America- Krista Branch",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/I%20Am%20America.mp3"
+          },
+          {
+            "name": "American Bad Ass- Kid Rock",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/AmericanBadAss.mp3"
+          },
+          {
+            "name": "Rambozo The Clown- Dead Kennedys",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Rambozo.mp3"
+          },
+          {
+              "name": "Are You Man Enough?- The Four Tops",
+              "url": "https://file.garden/Z7qfmQZIZjO_xV5N/AreYouManEnough.mp3"
+  
+            }
+        ]
+      }            
+    }
+  
+    // Set up new music player
+  
+    newMusicPlayer()
+  }
+
+
+campaignTrail_temp.achievements = {
+    "Romneyshambles" : {
+        "image" : "https://i.imgur.com/OppBl3D.png",
+        "description" : "Reward persistence." //brokered convention goes brrrrr
+    },
+  "Non Carbondrum" : {
+        "image" : "https://i.imgur.com/DP2XNcM.png",
+        "description" : "Clear the field.", //Kill or expose every other candidate.
+        "cannotBeCheated" : true
+    },
+    "Way to Kill the Atmosphere" : {
+    "image" : "https://i.imgur.com/CRaDBNG.png",
+    "description" : "Go all the way.", //Pull a Dornan on Nat
+    "cannotBeCheated" : true
+  },
+    "90 Seconds to Nothing" : {
+      "image" : "https://i.imgur.com/3o0bZUM.png",
+      "description" : "Fail to delay the inevitable.", //As Sayori, lose the primaries 
+      "cannotBeCheated" : true
+  },
+  "Haul Out the Guillotine" : {
+    "image" : "https://i.imgur.com/IK9IdUP.png",
+    "description" : "Get a little too excited.", //As Monika, go to jail
+    "cannotBeCheated" : true
+  },
+  "Time to Be A Hero" : {
+    "image" : "https://i.imgur.com/neYgKKn.png",
+    "description" : "Keep your hands clean.",
+    "cannotBeCheated" : true
+  },
+  "Blowback" : {
+    "image" : "https://i.imgur.com/kSTQcFt.png",
+    "description" : "Give a sucker an even break.", //As Monika, have nobody's scandals but yours leak.
+    "cannotBeCheated" : true
+  },
+  "Fire and Fury" : {
+    "image" : "https://i.imgur.com/e0zuuqa.png",
+    "description" : "Stick your finger on the scales.", //As Monika, blow up the fucking RNC.
+    "cannotBeCheated" : true
+    },
+  "Just Asking Questions" : {
+    "image" : "https://i.imgur.com/EjEHhFT.png",
+    "description" : "Congratulations, you played yourself.", //not a bright idea to do a birtherism when youre secretly foreign born too
+    "cannotBeCheated" : true
+  },
+  "If You're Listening" : {
+    "image" : "https://i.imgur.com/PrGtTpf.png",
+    "description" : "Who says I don't know anything about foreign policy?", //As Yuri or Natsuki, agree to work with the Russians.
+    "cannotBeCheated" : true
+ },
+  "The Pretzel Candidate" : {
+    "image" : "https://i.imgur.com/2U4JRKI.png",
+    "description" : "Be a soft touch.", //As Natsuki, flip-flop on social issues after being outed.
+    "cannotBeCheated" : true
+   },
+  "Ah! Well. Nevertheless," : {
+    "image" : "https://i.imgur.com/UGDS4Fx.jpeg",
+    "description" : "Get away with it.", //As Monika, avoid having any dirty tricks leak.
+    "cannotBeCheated" : true
+  }
+}
+
+//#endcode
