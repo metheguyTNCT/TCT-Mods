@@ -387,6 +387,11 @@ document.body.background = "https://i.imgur.com/fbGN6mP.jpeg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#00a0ff!important;}</style>";
 
+ $("#game_start").click((event) => {
+    event.preventDefault();
+        musicMode()
+  })
+
   // MUSIC MODE
   
   musicMode = () => {
