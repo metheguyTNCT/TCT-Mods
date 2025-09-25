@@ -1,0 +1,390 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 74,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "display_year": "1980 The New Deal",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>The United States ends the 70s with malaise penetrating every corner of society. Four decades have passed since the first New Deal acts, and now they lie severely weakened, by two decades of Republican executives, and the rising fiscal conservatism of the Democrats. However as the nation enters the next decade, the winds blow toward great change to come.</p><p>For the past four years president Anderson has lead the nation. Despite his overwhelming victory against Connally in 76, due to the Rose Garden Scandal, the times have not looked kindly on his presidency. He has overseen through the rise of a recession, the second oil crisis, a rise in poverty, a rise in crime, and the news of hostages in revolutionary Iran. With these issues not yet solved, it appears the electorate may not keep Anderson around longer than his predecessor.</p><p>Two decades of Republicanism has Thoroughly changed the Democratic party. The old New Deal coalition now lies divided on the lines of civil rights, and the Connally administration has only further divided the north from the south. However with him now gone, the party must now choose between the two frontrunners that were denied in 72 and 76. With the dawn of the new decade, and victory surely certain, the party now moves into its time for choosing.</p>",
+            "image_url": "https://files.catbox.moe/3vug8u.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Reagan_1980_campaign.jpg",
+            "recommended_reading": "None",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1980 The New Deal"
+    }
+]
+
+campaignTrail_temp.credits = "UnpledgedElector"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "DNC",
+            "last_name": "",
+            "election": 10,
+            "party": "Democratic Party",
+            "state": "Maryland",
+            "priority": 1,
+            "description": "<p>The Democratic party stands as the oldest party in the united states. Born from the splitting of the Republican-Democrats over the issue of Jackson, the party has stood as the supporter of all free traders in the union, regardless of whether barnburner or fire-eater. Though the party was brought down by the conflict on slavery, it has then revitalized itself, now carrying the flag of liberalism.</p><p>As the new century goes on, it appears the party has come upon a similar situation as post the civil war. With the Republicans holding successive White Houses, and the party as divided as ever on its future, this next election will come to define what it is to become.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#a0a0ff",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/US_Democratic_Party_Logo.svg",
+            "electoral_victory_message": "Error",
+            "electoral_loss_message": "Error",
+            "no_electoral_majority_message": "Error",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 95,
+        "fields": {
+            "first_name": "Ted Kennedy",
+            "last_name": "Campaign",
+            "election": 10,
+            "party": "Democrats",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#a0a0ff",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/35z2mb.png",
+            "electoral_victory_message": "Error",
+            "electoral_loss_message": "Error",
+            "no_electoral_majority_message": "Error",
+            "description_as_running_mate": "<p>Edward Moore Kennedy, senator from Massachusetts, and the now head of the Kennedy family. Though for years, Joseph P. Kennedy has attempted to put one of his sons on the presidential throne, he has so far failed. Junior died in the war, John to sickness and Robert to an assassins bullet. Though the patriarch is now long gone, the youngest Kennedy now attempts to finish what he started. However, with the party divided on two choices, you have to convince them that you are the better of the two.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "RNC",
+            "last_name": "",
+            "election": 10,
+            "party": "GOP",
+            "state": "Wisconsin",
+            "priority": 1,
+            "description": "<p>INFO ONLY</p><p>Born from abolitionism, and the dying Whigs, the Grand Old Party has come to carry the torch of protection. With victory on the slavery issue, the party has come to command much of US history post. Though the party has suffered, from mugwumps to depression, it has made its mark as one of the two parties of America.</p><p>With the latter half of the century, the party has earned many victories in the post FDR age. However fatigue will come, and as the 70s draw to an end, it appears that it has. The party will now have to rely upon its last two legacies, of the spirit of Lincoln, and the gilded strings of business.</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": "#ffa0a0",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Republican_Party_Disc_%28alternate%29.svg",
+            "electoral_victory_message": "Error",
+            "electoral_loss_message": "Error",
+            "no_electoral_majority_message": "Error",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 97,
+        "fields": {
+            "first_name": "Re-Elect",
+            "last_name": "Anderson",
+            "election": 10,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": "#ffa0a0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/d2b5t3.png",
+            "electoral_victory_message": "Error",
+            "electoral_loss_message": "Error",
+            "no_electoral_majority_message": "Error",
+            "description_as_running_mate": "<p>INFO ONLY</p><p>John Bayard Anderson, former representative from Illinois, is the current and 38th president of the United States. Despite a decisive victory against Connally in 76, your presidency has not gone well. From the economy to foreign affairs, America is dealing with countless issues, which, in the eyes of the public, have not been sufficiently solved. With increasing distrust in your administrations policies, it appears that victory is unlikely. Though a democratic trifecta is expected, with the choices made and events that occur during the campaign, you might be able to pull of an upset.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "Ed",
+            "last_name": "Clark",
+            "election": 10,
+            "party": "Libertarian",
+            "state": "California",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffff00",
+            "secondary_color_hex": "#ffffa0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ed_Clark_%28cropped%2C_3x4%29.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 98,
+        "fields": {
+            "first_name": "Ed",
+            "last_name": "Koch",
+            "election": 10,
+            "party": "Libertarian",
+            "state": "Kansas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffff00",
+            "secondary_color_hex": "#ffffa0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/David_Koch_1980.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 94,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Other",
+            "election": 10,
+            "party": "Various",
+            "state": "America",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00ff00",
+            "secondary_color_hex": "#a0ffa0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Clifton_DeBerry.jpg/330px-Clifton_DeBerry.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 99,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Other",
+            "election": 10,
+            "party": "Various",
+            "state": "America",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00ff00",
+            "secondary_color_hex": "#dca0ff",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ellen_McCormack.jpg/330px-Ellen_McCormack.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 96,
+        "fields": {
+            "first_name": "",
+            "last_name": "Southern Delegates",
+            "election": 10,
+            "party": "Unpledged",
+            "state": "The South",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a000ff",
+            "secondary_color_hex": "#dca0ff",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/l8ncu0.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "",
+            "last_name": "Southern Delegates",
+            "election": 10,
+            "party": "Unpledged",
+            "state": "The South",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a000ff",
+            "secondary_color_hex": "#dca0ff",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Harry_F._Byrd_Jr._1977.jpg/173px-Harry_F._Byrd_Jr._1977.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 95687,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 95
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 114130,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 97
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 112950,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 98
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106302,
+        "fields": {
+            "candidate": 94,
+            "running_mate": 99
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 130946,
+        "fields": {
+            "candidate": 96,
+            "running_mate": 100
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94,
+            96
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94,
+            96
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#1e00ff",
+    "windowColor": "#00b4ff",
+    "containerColor": "#2846c8",
+    "innerWindowColor": "#00a0ff",
+    "bannerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/DNC_Nlc18572-21.jpg",
+    "backgroundImageUrl": "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-pastel-blue-solid-color-background.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "No arsenal or no weapon in the arsenals of the world is so formidable as the will and moral courage of free men and women."
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>No arsenal or no weapon in the arsenals of the world is so formidable as the will and moral courage of free men and women.</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1e00ff";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#00b4ff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#2846c8";
+
+document.getElementById("header").src = "https://files.catbox.moe/rg96ck.jpeg";
+
+document.body.background = "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-pastel-blue-solid-color-background.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#00a0ff!important;}</style>";
+
+//#endcode
