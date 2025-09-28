@@ -628,7 +628,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>I think you're being a little rough :(</p>",
+            "description_as_running_mate": "<p>Lincoln Chafee is a former Governor and Senator from Rhode Island, and he also ran for president this year. Chafee's run was mostly notable for the time he complained during a debate that an aggressive moderator was 'being a little rough.'</p><p>A former Republican with libertarian leanings, Chafee is an unlikely choice for running mate, to say the least. Still, Chafee's vote against the Iraq War in 2002 endeared him to anti-war types. He could help keep your rickety coalition together. Still, he's a wooden campaigner, and generally regarded with derision by the public.</p></p>",
             "candidate_score": 0,
             "running_mate": true
         }
