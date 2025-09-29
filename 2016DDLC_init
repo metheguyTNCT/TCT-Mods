@@ -1,5 +1,5 @@
 const gameThemes = {
-    "Polka Dots" : function() {
+    "Just a Normal Dating Sim" : function() {
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#fde7f3" 
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#fedbef" 
         $(".container")[0].style.backgroundColor = "#0b2566"
@@ -279,7 +279,7 @@ gameThemePicked();
 
 
     },
-    "Polka Dots" : function() {
+    "Just a Normal Dating Sim" : function() {
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#fde7f3" 
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ffbee1" 
         $(".container")[0].style.backgroundColor = "#ffffff"
