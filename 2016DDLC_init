@@ -582,7 +582,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Terry McAuliffe has built almost as many bridges to the establishment as you've burned. Fundraiser extraordinaire, swing-state governor, and Clinton confidante, McAuliffe would go a long way towards convincing apprehensive party elites that you're  a woman they can trust. progressives, however, would be boiling mad.</p><p>Selecting McAuliffe would completely flip this race on its head. Yuri would be practically eliminated as a threat to you, but progressive anger would know no bounds, potentially costing you crucial votes. Is 'Governor Macker' the sort of company you wish to keep?</p></p>",
+            "description_as_running_mate": "<p>Terry McAuliffe has built almost as many bridges to the establishment as you've burned. Fundraiser extraordinaire, swing-state governor, and Clinton confidante, McAuliffe would go a long way towards convincing apprehensive party elites that you're  a woman they can trust. progressives, however, would be boiling mad.</p><p>Selecting McAuliffe would completely flip this race on its head. Yuri would be practically eliminated as a threat to you, but progressive anger would know no bounds, potentially costing you crucial votes. On the other hand, if you needed to <b>do anything drastic,</b> McAuliffe's establishment heft could help. Still, is 'Governor Macker' the sort of company you wish to keep?</p></p>",
             "candidate_score": 0,
             "running_mate": true
         }
