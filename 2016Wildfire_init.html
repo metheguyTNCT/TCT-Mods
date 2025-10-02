@@ -331,4 +331,457 @@ document.body.background = "https://img.freepik.com/free-photo/beautiful-vertica
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
 
+  // Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Little Dark Age",
+      "MGMT",
+      "https://i.imgur.com/d2ctDiz.png",
+      "https://audio.jukehost.co.uk/LQF5RB2PrVcCeObaqQafC2FTwkysnWdT"
+    );
+    
+    const song2 = new Song(
+      "Arrest the President",
+      "Ice Cube",
+      "https://i.imgur.com/BBOMLln.png",
+      "https://audio.jukehost.co.uk/c2cWOAnjSfzh2YI3OhW923cClDn3Iqic"
+    );
+  
+    const song3 = new Song(
+      "This is America",
+      "Childish Gambino",
+      "https://i.imgur.com/cBtRj9K.png",
+      "https://audio.jukehost.co.uk/ZaGEkUEbz72UP4IMnC01mwSxwqX4gen6"
+    );
+  
+    const song4 = new Song(
+      "Troubled Times",
+      "Green Day",
+      "https://i.imgur.com/unNGqOH.png",
+      "https://audio.jukehost.co.uk/CeVuU7lokNQcuzCWWR2cJ6I6qJuSffzT"
+    );
+  
+    const song5 = new Song(
+      "Is This the Life We Really Want",
+      "Roger Waters",
+      "https://i.imgur.com/3NCgTGN.png",
+      "https://audio.jukehost.co.uk/ng58tjZYGQSrNKrGgmH5pFp4wobiaUPe"
+    );
+  
+    const song6 = new Song(
+      "The Kids are Alt-Right",
+      "Bad Religion",
+      "https://i.imgur.com/KzlAiiO.png",
+      "https://audio.jukehost.co.uk/f9HDWEKzRO8NtI5ePOLgh0Nn6pz4nXmQ"
+    );
+  
+    const song7 = new Song(
+      "Vigilante Man",
+      "Glen Hansard",
+      "https://i.imgur.com/SvUzGQH.png",
+      "https://audio.jukehost.co.uk/MasC7udHqmabHGNLCJdlD9sSHIx9gpnV"
+    );
+  
+    const song8 = new Song(
+      "Real American",
+      "Rick Derringer",
+      "https://i.imgur.com/CalYXXW.png",
+      "https://audio.jukehost.co.uk/5aZ2PQqoNvJN2kPuLCaOoGSHmkmI95lk"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/BB1ejv6.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+
+    #menu_container {
+        background-color: transparent;
+    }
+
+    #overall_result_container {
+        background-color: transparent;
+    }
+
+    #state_result_container {
+        background-color: transparent;
+    }
+
+    #map_container {
+        background-color: #f6f6f6;
+    }
+
+    .final_results_table {
+        color: black;
+      }
+
+      #state_result_data_summary table {
+        color: black;
+      }
+      
+      #state_result_data_summary table th,
+      #state_result_data_summary table td {
+        color: black; /* Ensure text color is black for both header and data cells */
+      }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+
 //#endcode
