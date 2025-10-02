@@ -1,0 +1,334 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 21,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2026,
+            "display_year": "2016 Wildfire",
+            "summary": "After two particularly brutal open conventions, a heart attack, and two unpopular main party candidates are found running against two newly founded parties which have begun ramping up in popular. \n\nOn the right, after a convention that was decisively split on the issue of whether or not to repeal the affordable care act, the anti-Obamacare candidate, Donald Trump died just after securing the nomination. In a nearly perfectly split second convention, back-up Senate minority leader Mitch McConnell won the nomination. The progressive branch of the party, headed by John McCain and Mitt Romney, had their delegates walk out of the convention to reform Teddy Roosevelt's Progressive Conservative party. \n\nOn the left, the quite unpopular with progressives Hilary Clinton had a similar situation over a split regarding corporate welfare, the more left wing Bernie Sanders has nearly split the party in half, getting behind the Green Party for the upcoming Senate race and easily winning their nomination.",
+            "image_url": "https://bestculturesolutions.ca/wp-content/uploads/2021/06/formac_644-e1622831688952.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://media.licdn.com/dms/image/C4D03AQHWt1kpGZ0R9w/profile-displayphoto-shrink_200_200/0/1517049307569?e=2147483647&v=beta&t=vQlKxCwTbWGXvz7pCJ8QVCUa3hCaedLICbzY4j_ZpVA",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2022-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2026,
+        "is_premium": 0,
+        "display_year": "2016 Wildfire"
+    }
+]
+
+campaignTrail_temp.credits = "Paul"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Mitch",
+            "last_name": "McConnell",
+            "election": 20,
+            "party": "The Old Guard",
+            "state": "Kentucky",
+            "priority": 1,
+            "description": "The reluctant nominee, the uncharismatic and slimy Mitch McDonnell had to fight a massive uphill battle for nomination, but by a tiny margin his cobbled coalition of anti-Obamacare republicans managed to beat McCain for the nomination. That didn't stop McCain of course, but it has put McConnell, ever unpopular, into a tough spot. He'll have to appeal to moderates and hardcore conservatives to steal from McCain's base. ",
+            "color_hex": "#b50303",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/5ouKSjR.png",
+            "electoral_victory_message": "You've done it, Mister Senator. McCain's coalition proved too weak",
+            "electoral_loss_message": "As expected, the race rolls on",
+            "no_electoral_majority_message": "d",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Sarah",
+            "last_name": "Palin",
+            "election": 20,
+            "party": "The Old Guard",
+            "state": "Alaska",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#940000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/IOYaPNp.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Sarah, Sarah, Mama Grizzly. Heading the 2020 Tea Party Movement. She is certainly a hard-conservative choice, and despite numerous controversies, and a tight loss at Republican nomination, she wasn't a sore loser like McCain and promises to be a dutiful VP so long as two or three of her tax cuts get passed. She could be a way to win hardcore Trump folk.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "John",
+            "last_name": "McCain",
+            "election": 20,
+            "party": "Progressive Conservative",
+            "state": "Arizona",
+            "priority": 1,
+            "description": "(Not Yet Playable) The maverick, the legend. After being clobbered by Obama in 2008, John McCain has fought McConnell and Trump's dogma since 2022, and in an unexpected move, has split the Republican party in two, moderates hemorrhaged from the old guard to his side, and he is making a convincing bid in the sun belt and among swing states. Particularly moderate Christian voters.",
+            "color_hex": "#bbff00",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/SNKSBvb.png",
+            "electoral_victory_message": "He wins",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Mitt",
+            "last_name": "Romney",
+            "election": 20,
+            "party": "Progressive Conservative",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#bbff00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/ZqXBx8p.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "A vicious attack dog for your Republican nomination, uncharactaristicaly. An excellent choice for VP, he may even bring Utah and Massachusetts into the fold, two states you're not competitive in. He's popular, moderate, and the Republican with the best track record on healthcare in a long while.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Bernie",
+            "last_name": "Sanders",
+            "election": 20,
+            "party": "Green",
+            "state": "Vermont",
+            "priority": 1,
+            "description": "(Not Yet Playable) After the circus show at the DNC this year Bernie's had enough damn, it! He's got a strong base in New England, but he'll need to broaden his support to win in the critical Midwestern and Sunbelt States this year",
+            "color_hex": "#02b105",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/LOUEq5X.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50004,
+        "fields": {
+            "first_name": "Jill",
+            "last_name": "Stein",
+            "election": 20,
+            "party": "Green",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#3dac02",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/no6hVB6.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "An obvious choice, but by no means an easy one, Jill got the Green PACs and delegates to side with Bernie, she expects her loyalty rewarded. Her positions on vaccination may be a thorn in your side, however",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Hillary",
+            "last_name": "Clinton",
+            "election": 20,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "(Not Yet Playable) The hand that caused all the trouble, it's not often a major party is so split as it was this year, Clinton will be hard pressed to impress progressives, but may leech some of McCain's voters and undecideds. Maintaining the party throughout the hemorrhage of voters will be critical, Sanders and McCain will constantly be taking pot-shots at you, and you need to be ready to cobble the party back together.",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/ZsQ3Lgf.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50006,
+        "fields": {
+            "first_name": "Tim",
+            "last_name": "Kaine",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Virginia",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/UQs2vql.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Tim Kaine's still a team player, unlike many of the progressive's that you've isolated. He's your only choice in that you've already picked him. He's a fine choice, may attract progressive conservatives from Virginia",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 157659,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 50002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 163112,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 50004
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 138731,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 50006
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 137497,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 1002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#003170",
+    "windowColor": "#00619e",
+    "containerColor": "#ff0000",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://techlifetoday.nait.ca/getmedia/810cbff9-ee8c-4ca9-a757-bab35b3ed18e/fire-on-mountainside-Don-White.jpg.aspx?width=1000&height=500",
+    "backgroundImageUrl": "https://img.freepik.com/free-photo/beautiful-vertical-shot-large-burning-fire-night_181624-31590.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"Oh, hard times, come again no more\""
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"Oh, hard times, come again no more"</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#003170";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#00619e";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ff0000";
+
+document.getElementById("header").src = "https://techlifetoday.nait.ca/getmedia/810cbff9-ee8c-4ca9-a757-bab35b3ed18e/fire-on-mountainside-Don-White.jpg.aspx?width=1000&height=500";
+
+document.body.background = "https://img.freepik.com/free-photo/beautiful-vertical-shot-large-burning-fire-night_181624-31590.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
