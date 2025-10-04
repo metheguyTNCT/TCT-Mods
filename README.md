@@ -46,6 +46,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *2000N* by Decstar
 - *2004 Maverick* by jackreacher
 - *2008Vice* by Galen
+- *2016Wildfire* by Paul
 - *1948: Identity War* by Efficient_Concert
 - *American Carnage* by Thatchmaster
 - *W.* by Mango
