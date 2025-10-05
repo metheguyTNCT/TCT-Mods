@@ -2,7 +2,7 @@
 
 Hi! I'm metheguy. This is the place where i plunk my TCT mods, as the name would imply.
 
-The mods here can generally be categorized into seven categories.
+The mods here can generally be categorized into six categories.
 
 **Mods I Have Made:**
 These are released. Finished. Done-zo. I made 'em. Go play 'em.
@@ -26,16 +26,11 @@ These mockups also have code 2s.
 - *2008: All The Way*
 - *2008Vice (Lieberman)*
 - *2016DDLC*
-
-**Someone Else's Mockup:**
-This is an edge case.
-- *2025NYC* by theMcCain
   
 **Recreations:**
 These mods were announced, but never released. These are my recreations of them.
 - *2024Way (DeSantis)* by Neo and Decstar
 - *2016Revolution* by Rubix
-- *Our American Carnage* by some redditor who deleted their account 
 
 **Facelifts:**
 These are mods that other people made, but i added some cosmetic changes too. I put them here so I can play with my changes applied whenever I play them.
@@ -51,3 +46,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *American Carnage* by Thatchmaster
 - *W.* by Mango
 - *Obamanation* by Accurate Feature
+
+**Edge Cases:**
+- *2025NYC* by theMcCain. This is someone else's mockup.
+- *Our American Carnage* by some redditor who deleted their account. This is a recreation of a mockup which made by someone else, which is based on a third person's mod. 
