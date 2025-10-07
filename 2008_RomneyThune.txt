@@ -28,7 +28,7 @@ function createEnding(engine, results) {
         else {
         engine.setNewMusic([{
     displayName: "Randy Newman- God's Song (That's Why I Love Mankind)",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/0/0a/Randy_Newman-Sail_Away_%28album_cover%29.jpg",
     url: "https://files.catbox.moe/pxk6wx.mp3",
   },
 ]);
@@ -48,9 +48,9 @@ function createEnding(engine, results) {
     else if(playerId == 78) {
         if(engine.playerWonEv(results)) {
         engine.setNewMusic([{
-    displayName: "It Was A Very Good Year",
-    imageUrl: "https://i.imgur.com/keIPc3u.png",
-    url: "https://audio.jukehost.co.uk/5uzjENpmS8lOnefDpYCmBJlSW6nTOhuH",
+    displayName: "John Mellencamp - Our Country",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b2733ee28d4df14ad63412668592",
+    url: "https://files.catbox.moe/4o6asj.mp3",
   },
 ]);
 
