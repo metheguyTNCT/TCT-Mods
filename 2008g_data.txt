@@ -38634,32 +38634,27 @@
         {
             "url": "https://files.catbox.moe/qhcz1s.mp3",
             "displayName": "U2- Pride (In The Name of Love)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Pride_%28In_the_Name_of_Love%29_%28U2_single%29_coverart.jpg"
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Unforgettable_Fire.png"
         },
         {
-            "url": "https://files.catbox.moe/oqxocc.mp3",
-            "displayName": "Elvis Presley- A Little Less Conversation (JXL Radio Edit)",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ff186ce2c8d8cdfe4e65d710"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/PartyBarge.mp3",
+            "displayName": "Silver Jews- Party Barge",
+            "imageUrl": "https://i.imgur.com/0SqmxFv.jpeg"
         },
         {
-            "url": "https://files.catbox.moe/4o6asj.mp3",
-            "displayName": "John Mellencamp - Our Country",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733ee28d4df14ad63412668592"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Trust%20Me%2C%20I%20Work%20for%20the%20Government%20-%20Robert%20Ellis%20Orrall.mp3",
+            "displayName": "Robert Ellis Orrall- Trust Me, I Work for the Government",
+            "imageUrl": "https://i.imgur.com/lpgdAIQ.jpeg"
         },
         {
-            "url": "https://audio.jukehost.co.uk/8XtO48kTRJBqN8hnaGXLysqCDAAC94iW",
-            "displayName": "Brooks & Dunn- Only in America",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b1cf1e8d17f4588d3f445fa4"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Disturbia.mp3",
+            "displayName": "Rihanna- Disturbia",
+            "imageUrl": "https://i.imgur.com/zKurn0j.jpeg"
         },
         {
-            "url": "https://files.catbox.moe/t1oqve.mp3",
-            "displayName": "Alabama- Dancin’, Shaggin’ on the Boulevard",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cb/Alabama_-_Dancin.jpg"
-        },
-        {
-            "url": "https://files.catbox.moe/kc1fbz.mp3",
-            "displayName": "Bachman-Turner Overdrive - You Ain’t Seen Nothing Yet",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732811f59402cee595b4319a2d"
+            "url": "https://files.catbox.moe/3glymi.mp3",
+            "displayName": "Anti-Flag- This Is the End (For You My Friend)",
+            "imageUrl": "https://i.ibb.co/ZM2m90b/Spotify-Mate-com-This-Is-the-End-For-You-My-Friend-Anti-Flag.jpg"
         }
     ],
     "questionsPerVisit": 1,
