@@ -1,14 +1,13 @@
-
 campaignTrail_temp.election_json = [
   {
       "model": "campaign_trail.election",
       "pk": 9,
       "fields": {
           "year": 2000,
-          "summary": "<p>Bill Clinton cannot believe he’s here. Gliding through town halls and across stages nationwide, he shared a modern vision, a ''third way'' forward. By uniting America’s diverse strands, he built a broad coalition that carried him through the wreckage of recession and into the White House, toppling the once-unshakable George Bush. \n</p><p>Now he sits in the same office once held by his hero, John F. Kennedy. He looks out the window and remembers where, and why, he started: <b style=\"color:#005B82; font-size: 15px;\">Hope</b>. The scandals, the pressure, the questions, they come with the territory. He’s learned that. But he understands the stakes now: to prove he’s not just the boy who made it out of Arkansas, but the man who can lead the free world, and change it.</p>",
-          "image_url": "https://file.garden/aOp8cCiQ5ho9r5b1/Hope_description_GIF.gif",
+          "summary": "<p>William Jefferson Clinton, Governor of Arkansas, has risen from leading a small southern state to taking his rightful place on the world stage. Gliding through town halls and stages across the country, he shared a hopeful, modern vision, a ''third way'' forward. By bringing together the diverse strands of America, he created a great sail, a grand coalition, that propelled his ship to victory over the once-popular George Bush. \n</p><p>Now, Clinton sits in the same office once held by his hero, John F. Kennedy, before his assassination. Like Kennedy, Clinton must navigate scandals and challenges, both at home and abroad, to prove he is the charismatic, modern president the nation needs, not just a clown for tabloid headlines. He must show the American people that the boy born in Hope, to a widow, is capable of leading the free world.</p>",
+          "image_url": "https://i.imgur.com/sq2U3xs.png",
           "winning_electoral_vote_number": 270,
-          "advisor_url": "https://files.catbox.moe/j9lmic.gif",
+          "advisor_url": "https://i.imgur.com/g5moPwD.png",
           "recommended_reading": "if we wanna put some sorta message or something here here's the space for that blah blah blah<h4 style=\"margin-top: 0.5em;\">General Overviews</h4></a><a href=\"https://www.amazon.com/My-Life-Bill-Clinton/dp/140003003X\" target=”_blank”>Bill Clinton - My Life</a></br><a href=\"https://www.amazon.com/Inside-Clinton-White-House-History/dp/0190605464\" target=”_blank”>Russell L. Riley - Inside the Clinton White House: An Oral History</a></br><a href=\"https://www.amazon.com/Fabulous-Failure-Presidency-Transformation-Capitalism-ebook/dp/B0BYRP2G4X\" target=”_blank”>Nelson Lichtenstein and Judith Stein - A Fabulous Failure: The Clinton Presidency and the Transformation of American Capitalism</a></br><a href=\"https://www.amazon.com/One-Left-Lie-Triangulations-Jefferson/dp/1859847366\" target=”_blank”>	Christopher Hitchens - No One Left to Lie To: The Triangulations of William Jefferson Clinton</a></br><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John Harris - The Survivor: Bill Clinton in the White House</a><br><a href=\"https://web.archive.org/web/20040808100222/http://www.cnn.com/ALLPOLITICS/1996/candidates\" target=”_blank”>CNN AllPolitics</a><h4>Specific Topics</h4><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br>",
           "has_visits": 1,
           "no_electoral_majority_image": "https://i.postimg.cc/NFm78C3B/2nkj42.png",
@@ -39,11 +38,11 @@ campaignTrail_temp.candidate_json = [
           "party": "Democrat",
           "state": "Arkansas",
           "priority": 1,
-          "description": "<p>William Jefferson Clinton came from nowhere. From a drug-devastated household off Park Street in Hope, Arkansas, to the highest office in the land, his journey reads like a Hollywood script. To get here, he has bucked trend and broken tradition, fighting hand-in-hand with Hillary, his political partner and wife. Clinton has been swept into office a ''New Democrat'', selling himself to the American people as the antidote to the liberal losers of days gone by.</p> <p>Having campaigned on bringing change to an ossified Washington establishment, the President is now tasked with fulfilling the new covenant he promised to the country. If he can lead the nation while staying true to his principles, re-election should be easy. But public opinion is fickle — every bit as slippery as his own charm. He can already hear the cogs of the Republican smear machine gurgling to life. Even in these good times, the Big Dog must tread carefully to avoid being dragged into the mire of Washington, where the muck can swallow a man whole. </p>",
+          "description": "<p>Bill Clinton cannot believe he’s here. From his childhood in Hope, Arkansas, to holding the highest office in the land, the presidency of the United States, his journey feels almost like a Hollywood script. To get here, he has challenged conventions and broken traditions, branding himself as a so-called, ''New Democrat,'' the kind of politician who believes today's problems can be solved with pragmatism, moderation, and ... hope. </p><p>If he can lead the nation while staying true to these principles, re-election should be easy. But public opinion is fickle, as slippery as his own charm. Even in these good times, the Big Dog must tread carefully to avoid being dragged into the mire of Washington, where the muck can swallow a man whole.\n\n</p>",
           "color_hex": "#08299B",
           "secondary_color_hex": "#547BE3",
           "is_active": 1,
-          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/BC",
+          "image_url": "https://files.catbox.moe/1q3s7q.png",
           "electoral_victory_message": "<h3>Congratulations! You have won the 1996 election.</h3><p>Congrats dude.</p>",
           "electoral_loss_message": "<h3>Sorry! You have lost the 1996 election.</h3><p>damn</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
@@ -135,11 +134,11 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0000f5",
           "secondary_color_hex": "#FFA0A0",
           "is_active": 0,
-          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/AlG",
+          "image_url": "https://files.catbox.moe/hyyugf.png",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
-          "description_as_running_mate": "<p>Al Gore is an enigma of a man. Each day of the week, a new pundit will have a new view on the new Senator from Tennessee; an Atari Democrat, a Southern-Fried conservative, the environmental conscience of the Congress. The truth? He has always aligned himself with what he believes is best for the country, even if it means straddling factions. The man raised by a politician and hardened by Vietnam has always carried a sense of duty transcending any furtive labelling. <p><p>When he was added to the ticket, pundits were baffled; two young, Southern Democrats? Yet, alongside Slick Willy, Ozone Man has proven himself to be a formidable force within Clintonworld, always possessing a keen eye for detail and legislation. From his seat in the Naval Observatory, his true role may be undefined, but one thing is clear: he will, come whatever may, be standing by his bosses' side through it all. \n\n</p>",
+          "description_as_running_mate": "<p>Al Gore has always dedicated himself to the people he serves. In Congress, he has been labeled at various times as a business-savvy Atari Democrat, a Southern-fried conservative, and an environmentalist crusader. The truth? He has always aligned himself with what he believes to be best for the country, even if it meant straddling factions. <p><p> When he was added to the ticket, pundits were baffled-two young Southern Democrats? Yet, alongside Slick Willy, he charmed the nation and helped usher in a new political era. Now, from his seat at the Naval Observatory, his role in the administration remains undefined, but one thing is clear: he is the natural heir apparent and like it or not, will remain by his boss's side. \n\n</p>",
           "candidate_score": 0,
           "running_mate": true
       }
@@ -346,7 +345,7 @@ document.getElementById("header").src = "https://file.garden/Zsz7wL96OyyJ2oZe/Ho
 
 
 
-document.body.background = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/DC%20Background";
+document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
 document.body.style.backgroundPosition = "25% 75%";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "cover"; // or "contain" depending on your needs
@@ -1532,48 +1531,48 @@ function setupMusicPlayer() {
 
 
   const song1 = new Song(
-    "Remember The Time",
-    "Michael Jackson",
-    "https://audio.jukehost.co.uk/EALwShkJnjWbMNL4XSdMQeAIyggmNoGS",
-    "4:00"
+    "Don't Stop",
+    "Fleetwood Mac",
+    "https://audio.jukehost.co.uk/TmLgh4fOUUg0XL5ld4SABZc0DlUOsp36",
+    "3:13"
   );
   const song2 = new Song(
-    "If I Like It, I Do It",
-    "Jamiroquai",
-    "https://files.catbox.moe/vjwy0t.mp3",
-    "4:53"
+    "Hound Dog",
+    "Elvis Presley",
+    "https://audio.jukehost.co.uk/V8Fc7ZhJh6tHRXk63vyygWVf88yVXEcZ",
+    "2:18"
   );
     const song3 = new Song(
-  "Basket Case",
-  "Green Day",
-  "https://files.catbox.moe/r6xs9a.mp3",
-  "3:01"
+    "For Once In My Life",
+    "Stevie Wonder",
+    "https://audio.jukehost.co.uk/JJZCEsKd9jgmEsE4N11eAE0OGcpJESFn",
+    "2:49"
 );
 
   const song4 = new Song(
+    "Uptown Girl",
+    "Billy Joel",
+    "https://audio.jukehost.co.uk/LpRATLUtWycgf6dpnk9d8DBuy3uXEu2H",
+    "3:19"
+  );
+  
+  const song5 = new Song(
     "Best Imitation Of Myself",
     "Ben Folds Five",
     "https://audio.jukehost.co.uk/hKHyrTCh9iiOKFoNc2AzYTxZgIsTr1t3",
     "2:38"
-  );
-  
-  const song5 = new Song(
-  "Roll With It",
-  "Oasis",
-  "https://audio.jukehost.co.uk/bIRPZih5KJxrG0rm6uKdwbB3WIUdCcDo",
-  "4:00"
 );
   const song6 = new Song(
-  "Ambitionz Az A Ridah",
-  "2Pac",
-  "https://audio.jukehost.co.uk/8ZMOxDCq19Ahv3yCnHCLfypo1fwuLELj",
-  "4:38"
+  "Everything You Know Is Wrong",
+  "Weird Al Yankovic",
+  "https://audio.jukehost.co.uk/SPIHfPTBVrdg3Xe4eW9aAbSCQeBtcbzC",
+  "3:37"
 );
 const song7 = new Song(
-  "One Headlight",
-  "The Wallflowers",
-  "https://file.garden/Z7qfmQZIZjO_xV5N/OneHeadlight.mp3",
-  "5:14"
+  "My Iron Lung",
+  "Radiohead",
+  "https://audio.jukehost.co.uk/Eo1j0lO1IAfevZYHDFgmWXMcEBCBgVHN",
+  "4:37"
 );
 
 	
@@ -1587,3 +1586,569 @@ const song7 = new Song(
   playlist.addSong(song7);
 	
   const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+
+
+
+
+const infoContainer = document.createElement("div");
+infoContainer.id = "info-container";
+playerContainer.appendChild(infoContainer);
+
+const songInfo = document.createElement("div");
+songInfo.id = "song-info";
+infoContainer.appendChild(songInfo);
+
+const tinyContainer = document.createElement("div"); //this is where all the tiny icons go at the bottom
+tinyContainer.id = "tiny-container";
+infoContainer.appendChild(tinyContainer);
+
+const timeContainer = document.createElement("div");
+timeContainer.id = "time-container";
+songInfo.appendChild(timeContainer);
+
+const infoText = document.createElement("div");
+infoText.id = "info-text";
+songInfo.appendChild(infoText);
+
+const titleElement = document.createElement("p");
+titleElement.id = "title";
+titleElement.style.animation = `scroll 10s steps(17) infinite`;
+infoText.appendChild(titleElement);
+
+const tinyPlay = document.createElement("div"); //this is where all the tiny icons go at the bottom
+tinyPlay.id = "tiny-play";
+tinyContainer.appendChild(tinyPlay);
+
+const tinyPause = document.createElement("div"); //this is where all the tiny icons go at the bottom
+tinyPause.id = "tiny-Pause";
+tinyContainer.appendChild(tinyPause);
+
+const volumeDisplay = document.createElement("div"); //this is where all the tiny icons go at the bottom
+volumeDisplay.id = "volume-display";
+tinyContainer.appendChild(volumeDisplay);
+
+const volume1 = document.createElement("div"); //this is where all the tiny icons go at the bottom
+volume1.id = "volume-1";
+volumeDisplay.appendChild(volume1);
+
+const volume2 = document.createElement("div"); //this is where all the tiny icons go at the bottom
+volume2.id = "volume-2";
+volumeDisplay.appendChild(volume2);
+
+const volume3 = document.createElement("div"); //this is where all the tiny icons go at the bottom
+volume3.id = "volume-3";
+volumeDisplay.appendChild(volume3);
+
+
+const artistElement = document.createElement("p");
+artistElement.id = "artist";
+infoText.appendChild(artistElement);
+
+const playIconTiny = document.createElement("div");
+playIconTiny.id = "tiny-p";
+songInfo.appendChild(infoText);
+
+
+const controlsContainer = document.createElement("div");
+controlsContainer.id = "controls-container";
+
+const controls = document.createElement("div");
+controls.id = "controls";
+
+const prevButton = document.createElement("img");
+prevButton.id = "prevButton";
+prevButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Music%20player/Previous";
+prevButton.alt = "Previous";
+controls.appendChild(prevButton);
+
+const playPauseButton = document.createElement("img");
+playPauseButton.id = "playPauseButton";
+playPauseButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Music%20player/Play%20Pause"; // Set the default play image
+playPauseButton.alt = "Play/Pause";
+controls.appendChild(playPauseButton);
+
+const nextButton = document.createElement("img");
+nextButton.id = "nextButton";
+nextButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Music%20player/Next";
+nextButton.alt = "Next";
+controls.appendChild(nextButton);
+
+controlsContainer.appendChild(controls);
+
+playPauseButton.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  if (audio.paused) {
+    audio.play();
+    tinyPlay.style.visibility = "visible";
+    tinyPause.style.visibility = "hidden";
+  } else {
+    audio.pause();
+    tinyPause.style.visibility = "visible";
+    tinyPlay.style.visibility = "hidden";
+  }
+});
+
+nextButton.addEventListener("click", function () {
+  playlist.playNext();
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+      tinyPlay.style.visibility = "visible";
+    tinyPause.style.visibility = "hidden";
+});
+
+prevButton.addEventListener("click", function () {
+  playlist.playPrevious();
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+      tinyPlay.style.visibility = "visible";
+    tinyPause.style.visibility = "hidden";
+});
+
+  const currentTimeElement = document.createElement("span");
+currentTimeElement.id = "current-time";
+currentTimeElement.textContent = "0:00"; // Default starting value
+timeContainer.appendChild(currentTimeElement);
+
+const totalTimeElement = document.createElement("span");
+totalTimeElement.id = "total-time";
+timeContainer.appendChild(totalTimeElement);
+
+  playerContainer.appendChild(controlsContainer);
+
+ const volumeContainer = document.createElement("div");
+	volumeContainer.id = "volume-container";
+
+    const volumeUpButton = document.createElement("div");
+    volumeUpButton.id = "volumeUpButton";
+    volumeUpButton.textContent = "+";
+    volumeContainer.appendChild(volumeUpButton);
+
+  const volumeDownButton = document.createElement("div");
+    volumeDownButton.id = "volumeDownButton";
+    volumeDownButton.textContent = "-";
+    volumeContainer.appendChild(volumeDownButton);
+  
+
+	controlsContainer.appendChild(volumeContainer);
+
+  gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+
+
+function updateTimeDisplay(audio) {
+  const currentTimeElement = document.getElementById("current-time");
+  const totalTimeElement = document.getElementById("total-time");
+
+  // Convert currentTime to mm:ss format
+  const currentMinutes = Math.floor(audio.currentTime / 60);
+  const currentSeconds = Math.floor(audio.currentTime % 60);
+  currentTimeElement.textContent = `${currentMinutes}:${currentSeconds < 10 ? "0" : ""}${currentSeconds}`;
+
+  // Total time (fixed) based on the song's duration
+  const currentSong = playlist.getCurrentSong();
+  totalTimeElement.textContent = currentSong.getDuration();
+}
+
+
+
+
+  const audio = document.createElement("audio");
+  audio.id = "audio";
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.volume = 1/9;
+
+
+audio.addEventListener("ended", function () {
+    // Play the next song when the current song ends
+    playlist.playNext();
+    updateUI(playlist);
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+
+    // Reset the time display when a new song starts
+    updateTimeDisplay(audio);
+});
+
+audio.addEventListener("timeupdate", function () {
+    updateTimeDisplay(audio);
+});
+
+      let currentVolume = 6; // Initial volume
+      const volume1Get = document.getElementById("volume1");
+        const volume2Get = document.getElementById("volume2");
+        const volume3Get = document.getElementById("volume3");
+
+  
+      volumeUpButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (currentVolume < 20) { // Increased max volume range
+            currentVolume++;
+            audio.volume = currentVolume / 20; // Adjusted for new range
+            updateVolumeIndicators(); // Call to update visibility
+        }
+    });
+    
+    volumeDownButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (currentVolume > 0) {
+            currentVolume--;
+            audio.volume = currentVolume / 20; // Adjusted for new range
+            updateVolumeIndicators(); // Call to update visibility
+        }
+    });
+  
+  function updateVolumeIndicators() {
+    // Update visibility based on currentVolume
+    updateVolume1();
+    updateVolume2();
+    updateVolume3();
+}
+  
+    function updateVolume1() {
+        if (currentVolume > 0) {
+          volume1.style.visibility = "visible";
+        }
+        else {
+          volume1.style.visibility = "hidden";
+        }
+    }
+
+        function updateVolume2() {
+        if (currentVolume > 4) {
+          volume2.style.visibility = "visible";
+        }
+        else {
+          volume2.style.visibility = "hidden";
+        }
+    }
+
+            function updateVolume3 () {
+        if (currentVolume > 8) {
+          volume3.style.visibility = "visible";
+        }
+        else {
+          volume3.style.visibility = "hidden";
+        }
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+
+  document.body.appendChild(audio);
+  audio.play();
+
+  const abButton = document.createElement("div");
+  abButton.id = "ab";
+  abButton.addEventListener("click", () => {
+  usingSecondary = !usingSecondary;
+
+  if (usingSecondary) {
+    changePlaylist(secondaryPlaylist);
+  } else {
+    changePlaylist(primaryPlaylist);
+  }
+});
+
+abButton.addEventListener("mousedown", () => {
+  abButton.style.transform = "translateY(1px)";
+});
+abButton.addEventListener("mouseup", () => {
+  abButton.style.transform = "translateY(0px)";
+});
+abButton.textContent = "A/B";
+
+playerContainer.appendChild(abButton);
+
+// Select the title element
+const titleTester = document.getElementById('title');
+
+
+
+
+
+
+  // Update the UI when the page loads
+  updateUI(playlist);
+}
+
+
+  let secondaryPlaylist;
+
+function setupSecondaryPlaylist() {
+  secondaryPlaylist = new Playlist();
+
+  const alt1 = new Song("Remember The Time (Live)", "Michael Jackson", "https://audio.jukehost.co.uk/EALwShkJnjWbMNL4XSdMQeAIyggmNoGS");
+  const alt2 = new Song("If I Like It, I Do It (Live)", "Jamiroquai", "https://files.catbox.moe/vjwy0t.mp3");
+  const alt3 = new Song("Basket Case (Live)", "Green Day", "https://files.catbox.moe/r6xs9a.mp3");
+  const alt4 = new Song("Best Imitation Of Myself (Live)", "Ben Folds Five", "https://audio.jukehost.co.uk/hKHyrTCh9iiOKFoNc2AzYTxZgIsTr1t3");
+  const alt5 = new Song("Roll With It (Live)", "Oasis", "https://audio.jukehost.co.uk/bIRPZih5KJxrG0rm6uKdwbB3WIUdCcDo");
+  const alt6 = new Song("My Iron Lung (Live)", "Radiohead", "https://audio.jukehost.co.uk/RuxwGLrfbYEIfD7OTWQwI3fcCyhq0cnC");
+
+
+  secondaryPlaylist.addSong(alt1);
+  secondaryPlaylist.addSong(alt2);
+  secondaryPlaylist.addSong(alt3);
+  secondaryPlaylist.addSong(alt4);
+  secondaryPlaylist.addSong(alt5);
+  secondaryPlaylist.addSong(alt6);
+}
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+  
+  document.head.innerHTML += '<link rel="stylesheet" href="https://unpkg.com/win95-theme@1.1.1/95.css">'
+  document.head.innerHTML += `<link
+    rel="stylesheet"
+    href="https://jetsimon.com/public/crt.css"
+  >`
+  
+  document.body.classList.add("crt");
+          // ——— vhs crt whatever overlay ———
+const grainVideo = document.createElement('video');
+Object.assign(grainVideo, {
+  src:      'https://files.catbox.moe/yby0oi.mp4',
+  autoplay: true,
+  loop:     true,
+  muted:    true,
+});
+Object.assign(grainVideo.style, {
+  position:        'absolute',
+  top:             '0',
+  left:            '0',
+  width:           '100%',
+  height:          '100%',
+  objectFit:       'cover',
+  opacity:         '0.051',            // dial this down until it’s as subtle as you like
+  pointerEvents:   'none',
+  zIndex:          '9998',
+  mixBlendMode:    'screen',          // ← add this
+  filter:          'blur(3px)'
+});
+
+function updateGrainOverlay() {
+  if (document.body.classList.contains('crt')) {
+    if (!document.body.contains(grainVideo)) {
+      document.body.appendChild(grainVideo);
+      grainVideo.currentTime = 0;   // rewind to start
+      grainVideo.play();            // restart playback
+    }
+  } else {
+    if (document.body.contains(grainVideo)) {
+      grainVideo.pause();           // stop it cleanly
+      document.body.removeChild(grainVideo);
+    }
+  }
+}
+
+// add it now if CRT is already on
+updateGrainOverlay();
+
+// and hook into your toggle
+// (assuming toggleCRT() is defined just below)
+const originalToggle = toggleCRT;
+toggleCRT = function(){
+  originalToggle();
+  updateGrainOverlay();
+};
+// ————————————————
+  document.head.innerHTML += `<link
+    rel="stylesheet"
+    href="https://unpkg.com/win95-theme@1.1.1/95.css"
+  >`
+  
+  let crtStyle = document.createElement('style');
+document.head.appendChild(crtStyle);
+let crtOn = true;
+function toggleCRT() {
+    crtOn = !crtOn; // Flip ON/OFF
+    if (crtOn) {
+        campaignTrail_temp.candidate_image_url = "https://files.catbox.moe/vpk7bp.gif";
+        campaignTrail_temp.running_mate_image_url = "https://files.catbox.moe/fcrql6.gif";
+    } else {
+        campaignTrail_temp.candidate_image_url = "https://files.catbox.moe/caux3s.png";
+        campaignTrail_temp.running_mate_image_url = "https://files.catbox.moe/8l930o.png";
+    }
+    updateCandidateImages(); // <- You might need to refresh the display if required.
+}
+var setCRTLines = (enabled) => {
+  crtStyle.innerText = enabled ? "" : ".crt::before {background: none;}";
+}
+footer = $(".footer")[0]
+var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
+button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
+button.innerHTML = "Toggle CRT Lines"
+footer.insertBefore(button, footer.firstChild);
+button.addEventListener("click", () => {
+  crtOn = !crtOn;
+  setCRTLines(crtOn);
+  document.body.classList.toggle("crt", crtOn);
+  updateGrainOverlay();    // ← ensure the grain video is added/removed
+});
+
+RecReading=true
+e.collect_results=true;
+
+campaignTrail_temp.achievements = {
+    "Where's The Outrage?" : {
+        "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Dole",
+        "description" : "Win reelection against Bob Dole.",
+        "cannotBeCheated" : true
+    },
+  "Suicide of a Superpower" : {
+        "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Buchanan",
+        "description" : "Win reelection against Pat Buchanan.",
+        "cannotBeCheated" : true
+    },
+    "Rage Against the Machine" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Forbes",
+    "description" : "Win reelection against Steve Forbes.",
+    "cannotBeCheated" : true
+  },
+    "Easy as ABC" : {
+      "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Alexander",
+      "description" : "Win reelection against Lamar Alexander.",
+      "cannotBeCheated" : true
+  },
+  "Damn Yankee" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Gramm",
+    "description" : "Win reelection against Phil Gramm.",
+    "cannotBeCheated" : true
+  },
+  "Life Among the Cannibals" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Specter",
+    "description" : "Win reelection against Arlen Specter.",
+    "cannotBeCheated" : true
+  },
+  "Great Incarcerator" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Wilson",
+    "description" : "Win reelection against Pete Wilson.",
+    "cannotBeCheated" : true
+  },
+  "Olympus Has Fallen" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Olympus",
+    "description" : "Fight. Win. Prevail.",
+    "cannotBeCheated" : true
+  },
+  "Goin' Home" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Star",
+    "description" : "Extinguish a star.",
+    "cannotBeCheated" : true
+  },
+  "Breach Of Contract" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Breach",
+    "description" : "Resist the Serpent's temptations.",
+    "cannotBeCheated" : true
+  },
+  "The Prosecution Rests" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Prosecution",
+    "description" : "Be found innocent.",
+    "cannotBeCheated" : true
+  },
+  "Decline of the West" : {
+    "image" : "https://i.imgur.com/0lKpGuW.png",
+    "description" : "March toward the end of civilization.",
+    "cannotBeCheated" : true
+  },
+  "Comeback Kid" : {
+    "image" : "https://i.imgur.com/92lHbxf.png",
+    "description" : "Beat insurmountable odds one more time.",
+    "cannotBeCheated" : true
+  },
+  "I Do" : {
+    "image" : "https://i.imgur.com/mVnha74.png",
+    "description" : "Fulfill your ultimate promise.",
+    "cannotBeCheated" : true
+  },
+  "Slicker" : {
+    "image" : "https://i.imgur.com/J4aPejA.png",
+    "description" : "Save your skin at the last second.",
+    "cannotBeCheated" : true
+  },
+  "With a Little Help From my Friends" : {
+    "image" : "https://i.imgur.com/JZQOM6L.png",
+    "description" : "Change courses and don't crash.",
+    "cannotBeCheated" : true
+  },
+  "Man of Zeal" : {
+    "image" : "https://i.imgur.com/mIgIExe.png",
+    "description" : "Let Congress work its magic.",
+    "cannotBeCheated" : true
+  },
+  "Cats and Dogs" : {
+    "image" : "https://i.imgur.com/F78kwnu.png",
+    "description" : "Prove your reputation for bipartisanship.",
+    "cannotBeCheated" : true
+  },
+  "Orange Tips Only" : {
+    "image" : "https://i.imgur.com/1iay2PV.png",
+    "description" : "End the root problem.",
+    "cannotBeCheated" : true
+  },
+  "Out and Proud" : {
+    "image" : "https://i.imgur.com/lbqbGyo.png",
+    "description" : "Make it all up.",
+    "cannotBeCheated" : true
+  },
+  "Chainsaw Man" : {
+    "image" : "https://i.imgur.com/cgvdWpt.png",
+    "description" : "Tear it all apart.",
+    "cannotBeCheated" : true
+  },
+  "Deficit Hawk" : {
+    "image" : "https://i.imgur.com/bmbs0Ro.png",
+    "description" : "Fix the roof while the sun shines.",
+    "cannotBeCheated" : true
+  },
+  "Renewal" : {
+    "image" : "https://i.imgur.com/bXna3p3.png",
+    "description" : "Cement the middle class.",
+    "cannotBeCheated" : true
+  },
+  "No Lie" : {
+    "image" : "https://i.imgur.com/7pOgqgw.png",
+    "description" : "Have your cake and eat it too.",
+    "cannotBeCheated" : true
+  },
+  "Counterrevolution" : {
+    "image" : "https://i.imgur.com/JsnzTF9.png",
+    "description" : "Ride the wave.",
+    "cannotBeCheated" : true
+  },
+  "Good Feelings" : {
+    "image" : "https://i.imgur.com/zVbXhEE.png",
+    "description" : "Prove that congressional deadlock isn't a fatality.",
+    "cannotBeCheated" : true
+  },
+  "Pandora's Box" : {
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Pandora",
+    "description" : "Find the cost of clean hands.",
+    "cannotBeCheated" : true
+  },
+  "Shir LaShalom" : {
+    "image" : "https://i.imgur.com/Bu0WfZA.png",
+    "description" : "Sing a song for peace.",
+    "cannotBeCheated" : true
+  },
+  "Color Revolution Theory" : {
+    "image" : "https://i.imgur.com/zKYEshp.png",
+    "description" : "Prove LaRouche right.",
+    "cannotBeCheated" : true
+  },
+  "Красный Призрак" : {
+      "image" : "https://i.imgur.com/SY0ngIW.png",
+      "description" : "Разбуди врага, которого считали побеждённым.",
+      "cannotBeCheated" : true
+  }
+  }
+
+
+      
