@@ -5,20 +5,29 @@ campaignTrail_temp.election_json = [
       "pk": 9,
       "fields": {
           "year": 2000,
-          "summary": "<p>William Jefferson Clinton, Governor of Arkansas, has risen from leading a small southern state to taking his rightful place on the world stage. Gliding through town halls and stages across the country, he shared a hopeful, modern vision, a ''third way'' forward. By bringing together the diverse strands of America, he created a great sail, a grand coalition, that propelled his ship to victory over the once-popular George Bush. \n</p><p>Now, Clinton sits in the same office once held by his hero, John F. Kennedy, before his assassination. Like Kennedy, Clinton must navigate scandals and challenges, both at home and abroad, to prove he is the charismatic, modern president the nation needs, not just a clown for tabloid headlines. He must show the American people that the boy born in Hope, to a widow, is capable of leading the free world.</p>",
-          "image_url": "https://i.imgur.com/sq2U3xs.png",
+          "summary": "<p>Bill Clinton cannot believe he’s here. Gliding through town halls and across stages nationwide, he shared a modern vision, a ''third way'' forward. By uniting America’s diverse strands, he built a broad coalition that carried him through the wreckage of recession and into the White House, toppling the once-unshakable George Bush. \n</p><p>Now he sits in the same office once held by his hero, John F. Kennedy. He looks out the window and remembers where, and why, he started: <b style=\"color:#005B82; font-size: 15px;\">Hope</b>. The scandals, the pressure, the questions, they come with the territory. He’s learned that. But he understands the stakes now: to prove he’s not just the boy who made it out of Arkansas, but the man who can lead the free world, and change it.</p>",
+          "image_url": "https://file.garden/aOp8cCiQ5ho9r5b1/Hope_description_GIF.gif",
           "winning_electoral_vote_number": 270,
-          "advisor_url": "https://i.imgur.com/g5moPwD.png",
-          "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+          "advisor_url": "https://files.catbox.moe/j9lmic.gif",
+          "recommended_reading": "if we wanna put some sorta message or something here here's the space for that blah blah blah<h4 style=\"margin-top: 0.5em;\">General Overviews</h4></a><a href=\"https://www.amazon.com/My-Life-Bill-Clinton/dp/140003003X\" target=”_blank”>Bill Clinton - My Life</a></br><a href=\"https://www.amazon.com/Inside-Clinton-White-House-History/dp/0190605464\" target=”_blank”>Russell L. Riley - Inside the Clinton White House: An Oral History</a></br><a href=\"https://www.amazon.com/Fabulous-Failure-Presidency-Transformation-Capitalism-ebook/dp/B0BYRP2G4X\" target=”_blank”>Nelson Lichtenstein and Judith Stein - A Fabulous Failure: The Clinton Presidency and the Transformation of American Capitalism</a></br><a href=\"https://www.amazon.com/One-Left-Lie-Triangulations-Jefferson/dp/1859847366\" target=”_blank”>	Christopher Hitchens - No One Left to Lie To: The Triangulations of William Jefferson Clinton</a></br><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John Harris - The Survivor: Bill Clinton in the White House</a><br><a href=\"https://web.archive.org/web/20040808100222/http://www.cnn.com/ALLPOLITICS/1996/candidates\" target=”_blank”>CNN AllPolitics</a><h4>Specific Topics</h4><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br>",
           "has_visits": 1,
-          "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+          "no_electoral_majority_image": "https://i.postimg.cc/NFm78C3B/2nkj42.png",
           "creator": "Dan Bryan",
-          "display_year": "2000"
+          "display_year": "1996"
       }
   }
 ]
 
-
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#004F6E",       // new teal
+  "header_image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Modbox%20Header",
+  "header_text_color": "#fff",
+  "description_text_color": "#000",
+  "description_background_color": "#ffffff",
+  "main_color": "#004F6E",
+  "secondary_color": "#011521",    // dark backdrop
+  "ui_text_color": "#E5E7EB"
+}
 campaignTrail_temp.candidate_json = [
   {
       "model": "campaign_trail.candidate",
@@ -30,13 +39,13 @@ campaignTrail_temp.candidate_json = [
           "party": "Democrat",
           "state": "Arkansas",
           "priority": 1,
-          "description": "<p>Bill Clinton cannot believe he’s here. From his childhood in Hope, Arkansas, to holding the highest office in the land, the presidency of the United States, his journey feels almost like a Hollywood script. To get here, he has challenged conventions and broken traditions, branding himself as a so-called, ''New Democrat,'' the kind of politician who believes today's problems can be solved with pragmatism, moderation, and ... hope. </p><p>If he can lead the nation while staying true to these principles, re-election should be easy. But public opinion is fickle, as slippery as his own charm. Even in these good times, the Big Dog must tread carefully to avoid being dragged into the mire of Washington, where the muck can swallow a man whole.\n\n</p>",
-          "color_hex": "#0910B5",
-          "secondary_color_hex": "#73A4FD",
+          "description": "<p>William Jefferson Clinton came from nowhere. From a drug-devastated household off Park Street in Hope, Arkansas, to the highest office in the land, his journey reads like a Hollywood script. To get here, he has bucked trend and broken tradition, fighting hand-in-hand with Hillary, his political partner and wife. Clinton has been swept into office a ''New Democrat'', selling himself to the American people as the antidote to the liberal losers of days gone by.</p> <p>Having campaigned on bringing change to an ossified Washington establishment, the President is now tasked with fulfilling the new covenant he promised to the country. If he can lead the nation while staying true to his principles, re-election should be easy. But public opinion is fickle — every bit as slippery as his own charm. He can already hear the cogs of the Republican smear machine gurgling to life. Even in these good times, the Big Dog must tread carefully to avoid being dragged into the mire of Washington, where the muck can swallow a man whole. </p>",
+          "color_hex": "#08299B",
+          "secondary_color_hex": "#547BE3",
           "is_active": 1,
-          "image_url": "https://i.imgur.com/boYi00h.png",
-          "electoral_victory_message": "<h3>Congratulations! Al Gore has won the 2000 election.</h3><p>This victory is a testament to how popular you were! Congrats dude.</p>",
-          "electoral_loss_message": "<h3>Sorry! Al Gore has lost the 2000 election.</h3><p>At least you were a two-term president</p>",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/BC",
+          "electoral_victory_message": "<h3>Congratulations! You have won the 1996 election.</h3><p>Congrats dude.</p>",
+          "electoral_loss_message": "<h3>Sorry! You have lost the 1996 election.</h3><p>damn</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
           "description_as_running_mate": "''",
           "candidate_score": 1,
@@ -47,17 +56,17 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 78,
       "fields": {
-          "first_name": "The",
-          "last_name": "Republican Party",
+          "first_name": "Placeholder",
+          "last_name": "Republican",
           "election": 9,
           "party": "Republican",
-          "state": "New Jersey",
+          "state": "Home State",
           "priority": 2,
           "description": "<p>GOP Candidate</p>",
           "color_hex": "#CD0B0A",
           "secondary_color_hex": "#DC5B5A",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/X4Lp3xC.png",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
           "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
           "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
@@ -70,8 +79,8 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 79,
       "fields": {
-          "first_name": "The",
-          "last_name": "Greens",
+          "first_name": "Ralph",
+          "last_name": "The Left",
           "election": 9,
           "party": "Green",
           "state": "Connecticut",
@@ -80,7 +89,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#00C100",
           "secondary_color_hex": "#A1FFA1",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/uo5cdR6.png",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
           "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
           "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
           "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
@@ -103,7 +112,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#800080",
           "secondary_color_hex": "#FFFFC0",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/ltYdDvv.png",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
           "electoral_victory_message": "Never happening",
           "electoral_loss_message": "Expected",
           "no_electoral_majority_message": "",
@@ -126,199 +135,15 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0000f5",
           "secondary_color_hex": "#FFA0A0",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/sbMsxIV.png",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/AlG",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
-          "description_as_running_mate": "<p>Al Gore has always dedicated himself to the people he serves. In Congress, he has been labeled at various times as a business-savvy Atari Democrat, a Southern-fried conservative, and an environmentalist crusader. The truth? He has always aligned himself with what he believes to be best for the country, even if it meant straddling factions. <p><p> When he was added to the ticket, pundits were baffled-two young Southern Democrats? Yet, alongside Slick Willy, he charmed the nation and helped usher in a new political era. Now, from his seat at the Naval Observatory, his role in the administration remains undefined, but one thing is clear: he is the natural heir apparent and like it or not, will remain by his boss's side. \n\n</p>",
+          "description_as_running_mate": "<p>Al Gore is an enigma of a man. Each day of the week, a new pundit will have a new view on the new Senator from Tennessee; an Atari Democrat, a Southern-Fried conservative, the environmental conscience of the Congress. The truth? He has always aligned himself with what he believes is best for the country, even if it means straddling factions. The man raised by a politician and hardened by Vietnam has always carried a sense of duty transcending any furtive labelling. <p><p>When he was added to the ticket, pundits were baffled; two young, Southern Democrats? Yet, alongside Slick Willy, Ozone Man has proven himself to be a formidable force within Clintonworld, always possessing a keen eye for detail and legislation. From his seat in the Naval Observatory, his true role may be undefined, but one thing is clear: he will, come whatever may, be standing by his bosses' side through it all. \n\n</p>",
           "candidate_score": 0,
           "running_mate": true
       }
   },
-  {
-      "model": "campaign_trail.candidate",
-      "pk": 85,
-      "fields": {
-          "first_name": "GOP",
-          "last_name": "VP",
-          "election": 9,
-          "party": "Republican",
-          "state": "Utah",
-          "priority": 9,
-          "description": "''",
-          "color_hex": "#e10000",
-          "secondary_color_hex": "#90C0FF",
-          "is_active": 0,
-          "image_url": "https://www.jetsimon.com/public/static/images/joe-lieberman-2000.jpg",
-          "electoral_victory_message": "''",
-          "electoral_loss_message": "''",
-          "no_electoral_majority_message": "''",
-          "description_as_running_mate": "<p>GOP VP</p>",
-          "candidate_score": 0,
-          "running_mate": true
-      }
-  },
-  {
-      "model": "campaign_trail.candidate",
-      "pk": 89,
-      "fields": {
-          "first_name": "Green",
-          "last_name": "VP",
-          "election": 9,
-          "party": "Green",
-          "state": "Minnesota",
-          "priority": 13,
-          "description": "''",
-          "color_hex": "#00C100",
-          "secondary_color_hex": "#A1FFA1",
-          "is_active": 0,
-          "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
-          "electoral_victory_message": "''",
-          "electoral_loss_message": "''",
-          "no_electoral_majority_message": "''",
-          "description_as_running_mate": "<p>Green VP</p>",
-          "candidate_score": 0,
-          "running_mate": true
-      }
-  },
-  {
-      "model": "campaign_trail.candidate",
-      "pk": 90,
-      "fields": {
-          "first_name": "Reform",
-          "last_name": "VP",
-          "election": 9,
-          "party": "Reform",
-          "state": "California",
-          "priority": 14,
-          "description": "''",
-          "color_hex": "#FFFF00",
-          "secondary_color_hex": "#FFFFC0",
-          "is_active": 0,
-          "image_url": "https://i.imgur.com/2QugOJq.png",
-          "electoral_victory_message": "''",
-          "electoral_loss_message": "''",
-          "no_electoral_majority_message": "''",
-          "description_as_running_mate": "Reform VP",
-          "candidate_score": 0,
-          "running_mate": true
-      }
-  },
-  {
-     "model": "campaign_trail.candidate",
-     "pk": 82,
-     "fields": {
-         "first_name": "Joe",
-         "last_name": "Biden",
-         "election": 9,
-         "party": "Democrat",
-         "state": "Delaware",
-         "priority": 6,
-         "description": "''",
-         "color_hex": "#0000ff",
-         "secondary_color_hex": "#FFA0A0",
-         "is_active": 0,
-         "image_url": "https://i.imgur.com/hdUFOOA.png",
-         "electoral_victory_message": "''",
-         "electoral_loss_message": "''",
-         "no_electoral_majority_message": "''",
-         "description_as_running_mate": "<p>Joe Biden? About a decade ago, all anyone was talking about was his imploding Presidential campaign. Now these days, most know him for his legislative efforts on crime, and working relationship with President Clinton as the prestigious Chair of the Judiciary Committee. </p></p>''Middle class Joe'' would likely be confirmed with relative ease, thanks to his long, and sturdy reputation on the Hill, but he will have to answer some of the unanswered questions surronding his 1988 campaign, but with any luck, the Senator should be able to play it off with one of his wide grins, right?</p>",
-         "candidate_score": 0,
-         "running_mate": true
-     }
- },
- {
-     "model": "campaign_trail.candidate",
-     "pk": 83,
-     "fields": {
-         "first_name": "Dianne",
-         "last_name": "Feinstein",
-         "election": 9,
-         "party": "Democrat",
-         "state": "California",
-         "priority": 7,
-         "description": "''",
-         "color_hex": "#0000ff",
-         "secondary_color_hex": "#FFA0A0",
-         "is_active": 0,
-         "image_url": "https://i.imgur.com/MkzM2tp.png",
-         "electoral_victory_message": "''",
-         "electoral_loss_message": "''",
-         "no_electoral_majority_message": "''",
-         "description_as_running_mate": "<p>Dianne Feinstein has a long history in politics, even if she only was mainstream in the start of this decade. She was first President of the San Francisco Board of Supervisors until George Moscone was assassinated, where she became mayor of San Francisco. Feinstein was seen as a relatively moderate mayor throughout her 10 years of leading the city. After being term-limited in 1987, she didn't do too much until 1990 where she ran for governor, but she lost against Senator, Pete Wilson.</p></p>Feinstein ran in a special election to find out who would fill out the remainder of Wilson's term. As a Senator Feinstein has pushed for many progressive ideals, which might get progressives to back you, but she might be too liberal for more moderate Democrats. Feinstein could also help with the female vote and the Jewish vote. If you pick Feinstein then she will be the first female vice president and the first Jewish vice president.",
-         "candidate_score": 0,
-         "running_mate": true
-     }
- },
- {
-     "model": "campaign_trail.candidate",
-     "pk": 84,
-     "fields": {
-         "first_name": "Zell",
-         "last_name": "Miller",
-         "election": 9,
-         "party": "Democrat",
-         "state": "Georgia",
-         "priority": 8,
-         "description": "''",
-         "color_hex": "#0000ff",
-         "secondary_color_hex": "#FFA0A0",
-         "is_active": 0,
-         "image_url": "https://i.imgur.com/ZXID2ba.png",
-         "electoral_victory_message": "''",
-         "electoral_loss_message": "''",
-         "no_electoral_majority_message": "''",
-         "description_as_running_mate": "<p>Doubling down on his Southern roots, it seems as if Zell Miller has been selected as Gore's running mate. A conservative ''Blue Dog'' Democrat from Georgia, the two-term governor would surely be an olive branch to the remnants of the conservative Democratic party of years bygone. His nearly 40 years in Georgian politics would shore up support in his home state and neighbouring Southern states.</p></p>However, his conservative streak may alienate more liberal supporters of the Gore campaign, and Gore's closest advisers heed the need for further background checks... just in case of any skeletons in his closet.</p>",
-         "candidate_score": 0,
-         "running_mate": true
-     }
- },
- {
-     "model": "campaign_trail.candidate",
-     "pk": 86,
-     "fields": {
-         "first_name": "Mario",
-         "last_name": "Cuomo",
-         "election": 9,
-         "party": "Democrat",
-         "state": "New York",
-         "priority": 10,
-         "description": "''",
-         "color_hex": "#0000FF",
-         "secondary_color_hex": "#90C0FF",
-         "is_active": 0,
-         "image_url": "https://i.imgur.com/nfMUAlZ.png",
-         "electoral_victory_message": "''",
-         "electoral_loss_message": "''",
-         "no_electoral_majority_message": "''",
-         "description_as_running_mate": "<p>Mario Matthew Cuomo, 11 years as Governor of New York. 3 years as Lieutenant Governor of New York and 3 years as Secretary of State of New York. All of this totals to a long 17 years of experience in politics. Cuomo's record is almost perfect with only one more job to add to it. That's the job of Vice President.</p>Similarly to Kerry, Cuomo is a Liberal from a Democratic stronghold. But, unlike Kerry, he wasn't born with a silver spoon in his mouth.</p>",
-         "candidate_score": 0,
-         "running_mate": true
-     }
- },
- {
-     "model": "campaign_trail.candidate",
-     "pk": 87,
-     "fields": {
-         "first_name": "John",
-         "last_name": "Kerry",
-         "election": 9,
-         "party": "Democrat",
-         "state": "Massachusetts",
-         "priority": 11,
-         "description": "''",
-         "color_hex": "#0000FF",
-         "secondary_color_hex": "#90C0FF",
-         "is_active": 0,
-         "image_url": "https://i.imgur.com/bgeStZD.png",
-         "electoral_victory_message": "''",
-         "electoral_loss_message": "''",
-         "no_electoral_majority_message": "''",
-         "description_as_running_mate": "<p>John Kerry is the Liberal Senator from Massachusetts, a former Vietnam Veteran, Lawyer, Businessman and diplomat, Kerry won't do you any geographically help as his homestate is pretty solidly Democratic anyway but his stance on issues like Social Security and immigration might satisfiy Liberals.</p>\nUnfortunately, the downside is that Kerry could turn away the Moderate coalition that Bill Clinton had created. </p>",
-         "candidate_score": 0,
-         "running_mate": true
-     }
- }
 ]
 
 
@@ -419,9 +244,9 @@ campaignTrail_temp.global_parameter_json = [
           "issue_stance_6_max": 0.71,
           "global_variance": 0.01,
           "state_variance": 0.005,
-          "question_count": 50,
-          "default_map_color_hex": "#C9C9C9",
-          "no_state_map_color_hex": "#999999"
+          "question_count": 33,
+          "default_map_color_hex": "#C5C1C4",
+          "no_state_map_color_hex": "#999599"
       }
   }
 ]
@@ -458,21 +283,30 @@ campaignTrail_temp.temp_election_list = [
       "id": 9,
       "year": 2000,
       "is_premium": 0,
-      "display_year": "Hope"
+      "display_year": "1996 - Hope"
   }
 ]
 
+campaignTrail_temp.credits = "<button onclick='credits()'>The Braindead Pilgrims</button>"
+
+credits = function() {
+  credits = [ "Lead: AgreeableMachine91", "Coders: AgreebleMachine91, theanswerisme, Naimina OS, Ronnie", "Writing: UlricMorningstarG, Halligan Elysium, Vivarouis, Pringlescanstan, Cecilia, Waflef, GoodGamer, DalTheFox, theanswerisme, Ronnie, gW3n_b1@D3!, .metheguylbj", "Assets: .metheguylbj , SirOrion"]
+  text = "CREDITS:\n\n"
+  for (i in credits) {
+      text += credits[i] + "\n"
+  }
+  alert(text)
+}
 
 jet_data = {
-  "headerColor": "#5687fb",
-  "windowColor": "#ffffff",
-  "containerColor": "#ffffff",
-  "innerWindowColor": "#5987F8",
-  "bannerImageUrl": "https://i.imgur.com/l7HIMBt.png",
-  "backgroundImageUrl": "https://i.imgur.com/qQ0B4wr.jpeg",
-  "endingTextColor": "#000000",
+  "headerColor": "#004F6E", 
+  "windowColor": "#011521",
+  "containerColor": "#011521",
+  "innerWindowColor": "#003D58",
+  "bannerImageUrl": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Banner",
+  "endingTextColor": "#fff",
   "customQuote": "",
-  "gameTitle": "Hope"
+  "gameTitle": "HOPE"
 }
 
 
@@ -486,21 +320,14 @@ jet_data = {
 
 
 
-quotes = ["<q>People like me are what stand between us and Auschwitz.</q> - Newt Gingrich", "<q> There is no them; there's only us.</q> - Bill Clinton", "<q>I must become my own man. I must not be your candidate.​</q> - Albert A. Gore Jr to his father, 1976"]
-customquote = quotes[Math.floor((Math.random() * quotes.length))]
-
-
-corrr=`\n<h2>HOPE</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#5987F8";
+corrr = `\n<h2 style="margin-bottom: 4px; color: white; font-weight: bold; text-shadow: 1px 1px 0 #026d93; font-size: 48px;"><span class="typewriter">HOPE</span></h2>`;
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#004F6E";
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
 
 
-$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/IMupOWE.png)"
-
-
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5987F8"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#004F6E"
 
 
 $("#game_window")[0].style.backgroundSize = "cover"; 
@@ -515,31 +342,1056 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 $(".container")[0].style.backgroundColor = "#ffffff";
 
 
-document.getElementById("header").src = "https://i.imgur.com/l7HIMBt.png";
+document.getElementById("header").src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Banner";
 
 
-document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
+
+document.body.background = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/DC%20Background";
+document.body.style.backgroundPosition = "25% 75%";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover"; // or "contain" depending on your needs
 
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5987F8!important;}</style>";
+
+document.getElementById("inner_window_1").children[0].innerHTML="<h3>Are you ready to be President of the United States?</i></h3>"
+
+document.getElementById("inner_window_1").children[1].innerHTML = "<li>After twelve long years, you and a new generation of Americans have ascended to power.</li><li>The challenges ahead are immense. Every decision will be tested in public; every pause will read as weakness.</li><li>You will face hard questions, craft policy, and chart a course for a new era.</li><li>A young global order rests on your shoulders — will it bring stability and renewal, or slide into upheaval?</li><li>At home, the mandate is simpler, at least on paper: turn promise into results before patience runs out.</li><li>The portraits on the wall will watch you, the Hill will count the votes, and the press will keep score.</li><li>Soon you will learn: there are no “right” answers, only the possible.";
 
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5987F8!important;}</style>";
 document.head.innerHTML +=`
 <style>
+
+    @font-face {
+  font-family: digital;
+  src: url(https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Fonts/digital);
+}
+    @font-face {
+  font-family: silkscreen;
+  src: url(https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Fonts/silkscreen);
+}
+
+
+#game_window {
+  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Window%20Cartoon"); 
+	font-smooth: never;
+  -webkit-font-smoothing: never;
+  -moz-osx-font-smoothing: never;
+}
+
+#election_description_window {
+    position: relative;
+}
+
+#election_description_window::after {
+  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Clinton%20ED");
+  height: 215px;
+  width: 215px;
+  display: inline-block;
+  position: absolute;
+  content: '';
+  left: 0px;
+  bottom: 0px;
+  background-size: cover;
+}
+
 .game_header {
-background-color: #5687fb;
+background: linear-gradient(to bottom, #004f6e 0%, #005b82 50%, #006d96 100%);
+border: 1px solid #003A4F;
+box-shadow: inset 0 0 5px rgba(60, 110, 255, 0.2);;
 }
+
+#map_container {
+  border: 2px double #003A4F;
+  box-shadow: 
+    inset 0 1px 2px rgba(120, 150, 255, 0.1),
+    1px 1px 0 #ffffff,
+    -1px -1px 0 #0183AD,
+    2px 2px 4px rgba(0, 0, 0, 0.04);
+  padding: 3px;
+  border-radius: 0;
+}
+
+.visit_text {
+  overflow-wrap: normal;
+  width: 700px;
+  left: 30px;
+  position: relative;
+}
+
+#results_container,
+#credits,
+.inner_window_w_desc h3,
+.visit_text,
+#overall_details_container,
+#main_content_area_reading,
+#state_info h3,
+#overall_result h3,
+#state_result h3 {
+    color: #fff;
+} 
+
+#recommended_reading_box {
+    color: #000;
+}
+
+#inner_window_2, #inner_window_3, #inner_window_4 {
+    background-color: rgba(4, 170, 109, 0);
+}
+
+
+#map_container,
+#opponent_selection_description_window,
+#inner_window_1,
+.inner_window_sign_display,
+#candidate_description_window,
+#running_mate_description_window,
+#election_description_window {
+  background: 
+  linear-gradient(145deg, #f3fafc 0%, #d7eef7 40%, #b7dff0 80%, #e9f7fb 100%),
+  linear-gradient(to bottom, #ffffff 0%, #f0f4fc 100%);
+  background-blend-mode: soft-light;
+}
+
+#election_summary{
+            width:auto;
+            z-index: 0;
+            color: #000000;
+            text-shadow: 
+  	      0px 0px 1px rgba(32, 29, 26, 0.15);
+          }
+
 .campaign_trail_start_emphasis {
-background-color: #5687FB;
+background: linear-gradient(to bottom, #004F6E 0%, #005B82 50%, #006D96 100%);
+border: 1px solid #003A4F;
+box-shadow: inset 0 0 4px rgba(60, 110, 255, 0.2);
 }
-.inner_window_question h3 {
-background-color: #DDE7FE;
-}
+
+.inner_window_question h3, 
 .overlay_window h3 {
-background-color: #DDE7FE;
+background: linear-gradient(180deg, #c7e8f2 0%, #a9d9ec 20%, #8ac9e4 40%, #a1d4ea 60%, #b6dfee 80%, #c9eaf3 100%);
+border: 1px solid #0183AD;
+box-shadow:
+  inset 0 0 3px rgba(90, 120, 255, 0.25),
+  inset 0 1px 0 rgba(255, 255, 255, 0.3),
+  inset 0 -1px 0 rgba(100, 130, 255, 0.1);
+padding: 2px 4px;
+text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+animation: fadeInScale 0.3s cubic-bezier(0.3, 1.2, 0.2, 1) forwards;
+}
+
+#menu_container, 
+#state_result_container, 
+#overall_result_container,
+#state_info h3,
+#overall_result h3,
+#state_result h3 {
+background: linear-gradient(to bottom, #004F6E 0%, #005B82 50%, #006D96 100%);
+border: 1px solid #003A4F;
+box-shadow: inset 0 0 4px rgba(60, 110, 255, 0.25);  
+}
+
+
+.inner_window_question h3,
+.overlay_window h3 {
+transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+
+.button,
+.game_header,
+.campaign_trail_start_emphasis {
+transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.button:hover,
+.game_header:hover,
+.campaign_trail_start_emphasis:hover {
+box-shadow: inset 0 0 6px rgba(60, 110, 255, 0.3), 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.inner_window_question h3:active,
+.overlay_window h3:active {
+box-shadow: inset 0 0 4px rgba(60, 110, 255, 0.35);
+}
+
+.window_frame {
+border: 2px solid #005B82;
+border-top-color: #0183AD;
+border-left-color: #0183AD;
+border-right-color: #003A4F;
+border-bottom-color: #003A4F;
+background: #024E71;
+}
+
+
+@keyframes windowPop {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.window {
+  animation: windowPop 0.34s ease-out;
+}
+
+/* BASIC STRUCTURE */
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #f4f4f4;
+  border: 2px outset #ccc;
+  margin: 0 6px 0 2px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow:
+    inset 2px 2px 0 #fff,
+    inset -2px -2px 0 #888;
+  position: relative;
+  cursor: pointer;
+}
+
+/* DOT (MOCK PHYSICAL BUTTON FEEL) */
+input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 7px;
+  height: 7px;
+  background: black;
+  border-radius: 0;
+  box-shadow:
+    inset 0 0 1px #000;
+}
+
+/* "CLICKED IN" FEEL */
+input[type="radio"]:active {
+  border: 2px inset #999;
+  box-shadow:
+    inset 1px 1px 0 #bbb,
+    inset -1px -1px 0 #666;
+}
+
+input[type="radio"]:checked {
+  transform: translateY(1px);
+}
+input[type="radio"]:hover {
+  box-shadow:
+    0 0 0 1px #aaa,
+    inset 1px 1px 0 #fff,
+    inset -1px -1px 0 #888;
+}
+.radio-bezel {
+  padding: 4px;
+  border: 2px solid #c0c0c0;
+  background: linear-gradient(to bottom, #2c4d5a, #263f4a);
+  box-shadow:
+    inset 1px 1px #ffffff,
+    inset -1px -1px #808080;
+  display: inline-block;
+  margin: 2px;
+}
+
+  h3 {
+      font-size:1.17em!important;
+  }
+
+label {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  font-size: 13px;
+  color: black;
+  font-size:1em!important;
+}
+
+body {
+cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1017.cur'), auto;
+-webkit-font-smoothing: none;
+-moz-osx-font-smoothing: grayscale;
+font-smooth: never;
+text-rendering: optimizeSpeed;
+}
+.window {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.window.done {
+  opacity: 1;
+  transform: scale(1);
+}
+.inner_window_w_desc {
+  border: none;
+}
+#question_form label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 1px;
+  border-bottom: 2px solid transparent;
+}
+
+#question_form input[type="radio"]:checked + label {
+  background: linear-gradient(180deg, #e9f7fb 0%, #d7eef7 100%);
+  border-bottom-color:#0183AD;
+}
+
+#question_form input[type="radio"] + label:hover,
+#question_form input[type="radio"] + label:focus {
+  font-size: 14px;
+  font-weight: 400;
+  background: linear-gradient(180deg, #f3fafc 0%, #e9f7fb 100%);
+}
+  .campaign_trail_start_emphasis{
+  background-color: #004F6E;
+}
+.overlay_window {
+  height: auto;
+}
+
+#campaign_sign {
+    background-image: url("https://files.catbox.moe/5ur165.png");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
+  }
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 59%;
+  position: relative;
+  clear: both;
+}
+
+#player::before {
+    content: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Fonts/marantz");
+    background-size: cover; /* Or contain, or specific dimensions */
+    background-repeat: no-repeat;
+position: relative;
+  right: 10px;
+  top: -5px;
+}
+#player {
+	height:191px;
+  background-image: linear-gradient(to bottom right,#535657, #222222);
+  border-radius: 12px;
+  border: 3px solid rgb(68, 68, 68);
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px, rgba(255, 255, 255, 0.04) 0px 0px 6px inset, rgba(0, 0, 0, 0.5) 0px -2px 2px inset, rgba(255, 255, 255, 0.05) 0px 2px 2px inset;
+    position: relative;
+  }
+
+  #info-container::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(186, 186, 186, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+  }
+  #info-container:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
+
+  #info-container {
+  height:100px;
+	width:470px;
+  text-shadow: rgba(222,255,251,0.9) 0px 0px 4px; 
+  color: #73ffe4;
+  background-color:#0a0a0a;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+    overflow: hidden; /* Prevent overflow outside the container */
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-between; /* Space out title and info-text */
+    padding-left: 30px; /* Optional padding to create space between elements */
+  border-radius: 6px;
+  outline: 6px inset #17171a;
+  border: 3px solid;
+  border-color: #2b2b2e #414145 #414145 #2b2b2e; 
+
+  }
+  
+  #tiny-container {
+    height: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    bottom: 0px;
+    right: 10px;
+  position: absolute;
+  overflow: hidden;
+  padding-bottom: 5px;
+  gap: 2px;
+  align-items: end;
+  }
+
+  #tiny-play {
+    height: 0px;
+    width: 0px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 9px solid #73ffe4;
+  }
+
+  #tiny-Pause {
+    height: 9px;
+    width: 9px;
+    background: #73FFE4;
+    background: linear-gradient(90deg,rgba(115, 255, 228, 1) 0%, rgba(115, 255, 228, 1) 33%, rgba(237, 221, 83, 0) 33%, rgba(115, 255, 228, 0) 66%, rgba(115, 255, 228, 1) 66%, rgba(115, 255, 228, 1) 100%);
+    visibility: hidden;
+  }
+
+
+  #volume-display {
+        height: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: end;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  #volume-1,
+  #volume-2,
+  #volume-3 {
+    width: 5px;
+    background-color: #73ffe4;
+    box-shadow: rgba(222,255,251,0.9) 0px 0px 4px; 
+  }
+
+  #volume-1 {
+    height: 3px;
+  }
+
+    #volume-2 {
+    height: 6px;
+  }
+
+    #volume-3 {
+    height: 9px;
+    visibility: hidden;
+  }
+
+  #info-text {
+    width: 204.2505px; 
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #time-container {
+    width: 50%;
+    height:100%;
+    padding-top: 30px;
+    position: relative;
+    background-color: #0a0a0a;
+    font-family: digital;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    gap: 100px;
+  }
+
+  #current-time,
+  #total-time:{
+    width: 100px;
+
+  }
+
+  #current-time::before {
+    content: "TIME";
+    position: absolute;
+    top: 5px;
+    font-family: "verdana";
+      letter-spacing: 2px;
+          background-color: #0a0a0a;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #total-time::before {
+    content: "TOTAL";
+    position: absolute;
+    top: 5px;
+    font-family: "verdana";
+      letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #song-info::before {
+    content: "TRACK";
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    font-family: "verdana";
+      letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #song-info {
+    width: 100%;
+    text-align: left;
+    height: 80px;
+    font-size: 15px;
+    display: flex;
+    top: -4px;
+    position: relative;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  }
+
+  #title {
+    font-family: digital;
+    text-align:right;
+    font-size: 30px;
+    width: auto;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 0; 
+	top: -4px;
+  	position: absolute;
+  }
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+  p#artist {
+    font-family: silkscreen;
+    font-size: 13px;
+    width: auto;
+    position: absolute;
+    float: left;
+    bottom: -20px
+  }
+
+  #controls-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #AF9186;
+    font-family: "verdana";
+    font-weight: bold;
+    letter-spacing: 2px;
+    float: right;
+    padding-right: 30px;
+    width: auto;
+  	top: 20%;
+    position: relative;
+    text-align: center;
+
+  }
+
+ #controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+    padding-bottom: 30px;
+  }
+
+    #controls::before {
+    content: "BACK PLAY/PAUSE NEXT";
+    position: absolute;
+    top: -20px;
+    font-size: 8px;
+    word-spacing: 29px;
+    text-align: center;
+  }
+
+
+  #playPauseButton:active,
+  #nextButton:active,
+  #prevButton:active,
+  #volumeUpButton:active,
+  #volumeDownButton:active {
+    border: 2px outset #17171a;
+  }
+
+  #playPauseButton,
+  #nextButton,
+  #prevButton {
+    width: 60px;
+    height: 48px;
+	cursor: pointer;
+    background-image: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+    border-radius: 4px;
+    border: 2px outset #7a7979;
+    outline: 4px inset #17171a;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px, rgba(255, 255, 255, 0.04) 0px 0px 6px inset, rgba(0, 0, 0, 0.5) 0px -2px 2px inset, rgba(255, 255, 255, 0.05) 0px 2px 2px inset;
+  }
+
+  #volume-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    float: right;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+
+  #volumeUpButton::after {
+    content: "VOLUME UP";
+	cursor: default;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    font-size: 8px;
+  }
+    #volumeDownButton::after {
+    content: "VOLUME DOWN";
+	cursor: default;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    font-size: 8px;
+  }
+
+  #volumeUpButton,
+  #volumeDownButton {
+    height: 20px;
+    width: 100px;
+	cursor: pointer;
+    background-image: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+    border-radius: 4px;
+    border: 2px outset #7a7979;
+    outline: 4px inset #17171a;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px, rgba(255, 255, 255, 0.04) 0px 0px 6px inset, rgba(0, 0, 0, 0.5) 0px -2px 2px inset, rgba(255, 255, 255, 0.05) 0px 2px 2px inset;
+      -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  #ab {
+    background-color: blue;
+    position: absolute;
+    bottom: 40px;
+    visibility: hidden
+  }
+
+  #campaign_sign {
+    background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%202%20Misc/Init%20Sign");
+    background-size: cover;
+    border-color: #c9c9c9;    
+    border-width: .01em;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%; 
+    height: 104px; 
+    margin-left: -0.033em;
+    margin-right: -0.033em;
+  }
+#campaign_sign p {
+    color: rgb(0 0 0 / 0%);
+}
+.inner_window_sign_display {
+  margin: 0;
+    margin-right: 0.033px;
+    margin-left: 0.033px;
+  height: 25%;
+  position: relative;
+  width: 35%;
+  height: 28%;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+#state_info {
+  margin: 5% 0 0;
+  height: 120%;
+  background-color: #FFFFFF;
+  border-style: double;
+  border-color: #C9C9C9;
+}
+.inner_window_question {
+  background-color: #FFFFFF;
+  margin: 0
+  padding-top: .3em;
+  border-style: double;
+  border-color: #C9C9C9;
+  text-align: center;
+  height: 59%;
+  position: relative;
+  clear: both;
 }
 </style>`
+
+styling = document.createElement("style");
+document.head.appendChild(styling);          
+styling.innerHTML = `
+body {
+    background-size: cover;
+}
+`
+
+// Tooltips
+
+
+function addDynamicCSS() {
+  var css = `
+
+      .mytooltip {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          text-decoration: underline;
+          color: blue;
+      }
+     .mytooltip .mytooltiptext::before {
+      content: "Tooltip - Microsoft Internet Explorer"; /* The text to display */
+      top: -20px;
+      left: 0px;
+      outline: solid 2px #C0C0C0; 
+      text-shadow: none;
+      text-align: left;
+      position: absolute;
+      padding-right: 35px;
+      padding-left: 4px;
+      color: white;
+      background: linear-gradient(90deg,navy,#1084d0); /* Match the background to "cut out" the border */
+      font-weight: bold;
+    }
+      .mytooltip:hover {
+          color: purple;
+      }
+
+      .mytooltip .mytooltiptext {
+         max-width: 240px;
+          background: linear-gradient(to bottom, #004F6E 0%, #005B82 50%, #006D96 100%);
+          color: #d8fffd;
+          text-shadow: 1px 1px 2px #313b44;
+          text-align: center;
+          padding: 10px;
+          position: absolute;
+          z-index: 99;
+          bottom: 20%;
+          left: 20%;
+          margin-left: -90px;
+          opacity: 0;
+          overflow: visible;
+          transition: opacity 0.3s;
+          border-top: 20px solid #000;
+          border-left: 1px inset #000;
+          border-right: 1px inset #000;
+          border-bottom: 1px inset #000;
+          outline: outset 3px #C0C0C0;  
+          pointer-events: none;
+          font-size: 13px !important;
+          line-height: 1.5em !important;
+          font-weight: normal !important;
+          font-style: normal !important;
+      }
+
+      .mytooltip .mytooltiptext img {
+          max-width: 240px;
+          height: auto;
+      }
+
+      .mytooltip:hover .mytooltiptext {
+          opacity: 1;
+          transition-delay: 0.5s;
+          box-shadow: inset 0 0 3px rgba(90, 120, 255, 0.25), 0 0 6px rgba(60, 110, 255, 0.15);
+          transition-delay: 0.6s;
+          @keyframes crtFlicker {
+          0%   { opacity: 1; }
+          5%   { opacity: 0.9; }
+          10%  { opacity: 1; }
+          15%  { opacity: 0.95; }
+          100% { opacity: 1; }}
+}
+      }
+  `;
+
+  var styleElem = document.createElement('style');
+  styleElem.type = 'text/css';
+  
+  styleElem.appendChild(document.createTextNode(css));
+  
+  document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+// Personal people
+{searchString: "John F. Kennedy", explanationText: "<img src=https://files.catbox.moe/4fecja.png> My Hero"}, // surely we can come up with something better than this right
+{searchString: "Hillary", explanationText: "<img src=https://files.catbox.moe/d5bw4k.png> My dream and nightmare. The smartest person in the room, and sometimes the hardest to love."},
+{searchString: "Chelsea", explanationText: "<img src=https://files.catbox.moe/rrzwd3.png> Energy. Light of my life, and the reason I stay grounded"},
+{searchString: "Socks", explanationText: "<img src=https://files.catbox.moe/5z63q1.png> White House royalty"},
+
+// Scandals
+{searchString: "Travelgate", explanationText: "<img src=https://files.catbox.moe/pmd622.png> Several Travel Office staffers were fired, allegedly to make room for personal friends."},
+{searchString: "Troopergate", explanationText: "<img src=https://files.catbox.moe/ycmlcn.png> Arkansas State Troopers allege that they procured women for then-Governor Clinton."},
+{searchString: "Nannygate", explanationText: "<img src=https://files.catbox.moe/ldxi6f.png> Zoë Baird and Kimba Wood, nominees for positions in the Justice Department, were found to have employed illegal immigrants as nannies."},
+{searchString: "haircut", explanationText: "<img src=https://files.catbox.moe/r0fwfj.png> Allegation that Air Force One was delayed for two hours while President Clinton had a haircut."},
+{searchString: "Whitewater", explanationText: "<img src=https://files.catbox.moe/81n3jh.png> Allegations of shady dealings tied to a failed Arkansas real estate venture. "},
+
+
+// Administration people
+{searchString: "Mack McLarty", explanationText: "<img src=https://files.catbox.moe/4mlch0.png> Childhood buddy turned Chief of Staff, a nice man in over his head"},
+{searchString: "Rubin", explanationText: "<img src=https://files.catbox.moe/y5r62q.png> Wall Street banker turned economic czar. Calm, credible, and centrist. "},
+{searchString: "Reich", explanationText: "<img src=https://files.catbox.moe/lfbx6p.png> Secretary of Labour. Probably the most liberal man in the cabinet."},
+{searchString: "Panetta", explanationText: "<img src=https://files.catbox.moe/8up2kq.png> A California budget hawk with an iron fist in a velvet glove."},
+{searchString: "Bentsen", explanationText: "<img src=https://files.catbox.moe/1lmiyw.png> He knew Jack Kennedy, he was a friend of his... The veteran Texas senator is one of the biggest names in your cabinet."},
+{searchString: "Carville", explanationText: "<img src=https://files.catbox.moe/ameceb.png> It's the economy, stupid"},
+{searchString: "Betsy", explanationText: "<img src=https://files.catbox.moe/ya5dky.png> Current chief-of-staff, former hatchetman. She can play double duty still."},
+{searchString: "Perry", explanationText: "<img src=https://files.catbox.moe/tgn9qg.png> Sec. of Defense"},
+{searchString: "Morris", explanationText: "<img src=https://files.catbox.moe/ucwvqg.png> Your private whisperer"},
+{searchString: "Dick Morris", explanationText: "<img src=https://files.catbox.moe/ucwvqg.png> Your private whisperer"},
+{searchString: "Anthony Lake", explanationText: "<img src=https://files.catbox.moe/j2od7e.png> Last of the liberal internationalists, still backing diplomacy in a town run by Reaganites and neocons."},
+{searchString: "Lake", explanationText: "<img src=https://files.catbox.moe/j2od7e.png> Last of the liberal internationalists, still backing diplomacy in a town run by Reaganites and neocons. "},
+{searchString: "Alan Greenspan", explanationText: "<img src=https://files.catbox.moe/dsfqil.png> Chairman of the Fed. "}, // add some more stuff about him later
+{searchString: "Greenspan", explanationText: "<img src=https://files.catbox.moe/dsfqil.png> Chairman of the Fed. "},
+{searchString: "Secretary Christopher", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/WarrenChristopherTooltip.jpg> Thank you very much, Mr. Secretary of State. "},
+{searchString: "Gore", explanationText: "<img src=https://i.postimg.cc/rsH9fn61/algoreandbillclinton.png> Your Vice President, second in command, heir apparent, and the policy conscience you can’t always afford. "},
+{searchString: "Al Gore", explanationText: "<img src=https://i.postimg.cc/rsH9fn61/algoreandbillclinton.png> Your Vice President, second in command, heir apparent, and the policy conscience you can’t always afford. "},
+{searchString: "Vice-President", explanationText: "<img src=https://i.postimg.cc/rsH9fn61/algoreandbillclinton.png> Al Gore, your second in command, heir apparent, and the policy conscience you can’t always afford. "},
+{searchString: "Gene Sperling", explanationText: "<img src=https://i.postimg.cc/KYNq2pQr/gene.png>Deputy Director of the National Economic Council, a young policy wonk who will produce the best plan out of this whole mess if given the guarantee it will pass Congress."},
+{searchString: "Sperling", explanationText: "<img src=https://i.postimg.cc/KYNq2pQr/gene.png>Deputy Director of the National Economic Council, a young policy wonk who will produce the best plan out of this whole mess if given the guarantee it will pass Congress."},
+{searchString: "Roger Altman", explanationText: "<img src=https://i.postimg.cc/VsrqBs2P/crime.png>Bentsen's Robin has the uncanny ability to never sleep and to remember every comma of every memo during budget negotiations."},
+{searchString: "Altman", explanationText: "<img src=https://i.postimg.cc/VsrqBs2P/crime.png>Bentsen's Robin has the uncanny ability to never sleep and to remember every comma of every memo during budget negotiations."},
+{searchString: "Alice Rivlin", explanationText: "<img src=https://i.postimg.cc/G20yXGW0/alice.png>Tough-as-nails economist and former director of the Congressional Budget Office. She has the experience to craft solid budgets and the ability to make people understand their necessity."},
+{searchString: "Rivlin", explanationText: "<img src=https://i.postimg.cc/G20yXGW0/alice.png>Tough-as-nails economist and former director of the Congressional Budget Office. She has the experience to craft solid budgets and the ability to make people understand their necessity."},
+
+
+// Political people
+{searchString: "the Gipper", explanationText: "<img src=https://files.catbox.moe/bunzyj.png> Rode into Washington with a smile, a teleprompter, and rewrote the script of American politics."},
+{searchString: "Reagan", explanationText: "<img src=https://files.catbox.moe/bunzyj.png> Rode into Washington with a smile, a teleprompter, and rewrote the script of American politics."},
+{searchString: "41", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> CIA hand. UN man. Yale skull. A Cold Warrior to the core, kind, cunning, and out of step with his party by the end."},
+{searchString: "Bush", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> CIA hand. UN man. Yale skull. A Cold Warrior to the core, kind, cunning, and out of step with his party by the end."},
+{searchString: "Ted Kennedy", explanationText: "<img src=https://files.catbox.moe/t6dqxt.png> The last one"},
+{searchString: "Ted", explanationText: "<img src=https://files.catbox.moe/t6dqxt.png> The last one"},
+{searchString: "Teddy", explanationText: "<img src=https://files.catbox.moe/t6dqxt.png> The last one"},
+{searchString: "Mitchell", explanationText: "<img src=https://files.catbox.moe/ya0jbl.png> Senate Majority Leader. Quiet thunder from Maine, and the last liberal anyone listens to."},
+{searchString: "Foley", explanationText: "<img src=https://files.catbox.moe/p9b7gz.png> Speaker of the House. Courteous to a fault, and unfit for the age of knives."},
+{searchString: "Larry Craig", explanationText: "<img src=https://files.catbox.moe/fhx0vg.png> A Singing Senator from Idaho who isn't and never has been gay"},
+{searchString: "Michael Huffington", explanationText: "<img src=https://files.catbox.moe/py98xl.png> Swinging both ways in California"},
+{searchString: "Chuck Haytaian", explanationText: "<img src=https://files.catbox.moe/ah82of.png> Senator from New Jersey, walking harassment lawsuit"},
+{searchString: "Hatch", explanationText: "<img src=https://files.catbox.moe/3qmd92.png> Former chair of the Judiciary. A conservative, but not a bomb-thrower. Carries weight."},
+{searchString: "Orrin Hatch", explanationText: "<img src=https://files.catbox.moe/3qmd92.png> Former chair of the Judiciary. A conservative, but not a bomb-thrower. Carries weight."},
+{searchString: "Al D'Amato", explanationText: "<img src=https://files.catbox.moe/owbw2h.png> Senator Pothole"},
+{searchString: "Limbaugh", explanationText: "<img src=https://files.catbox.moe/1mm05p.png> The modern Charles Coughlin, half as eloquent, twice as cruel. When he’s not calling your teenage daughter a dog, he's rallying for your destruction. "},
+{searchString: "Rush Limbaugh", explanationText: "<img src=https://files.catbox.moe/1mm05p.png> The modern Charles Coughlin, half as eloquent, twice as cruel. When he’s not calling your teenage daughter a dog, he's rallying for your destruction. "},
+{searchString: "Joe Biden", explanationText: "<img src=https://files.catbox.moe/cjc70m.png> Veteran Senator of Delaware, big on law and order"},
+{searchString: "Jimmy Carter", explanationText: "<img src=https://files.catbox.moe/4qxyy8.png> Former President, current pain in the ass"},
+{searchString: "Carter", explanationText: "<img src=https://files.catbox.moe/4qxyy8.png> Former President, current pain in the ass"},
+{searchString: "Evan Bayh", explanationText: "<img src=https://files.catbox.moe/gcj6g1.png> Your brand of politics adapted for the Midwestern market"},
+{searchString: "Howard Dean", explanationText: "<img src=https://files.catbox.moe/gb8uke.png> The best thing to come out of Vermont since Ben and Jerry's"},
+{searchString: "Mary Landrieu", explanationText: "<img src=https://files.catbox.moe/5ydy9v.png> A good Christian mother from Louisiana"},
+{searchString: "Danforth", explanationText: "<img src=https://files.catbox.moe/5s2xb6.png> A moral anchor of the GOP, civil, religious, and unshakably moderate "},
+{searchString: "Kerrey", explanationText: "<img src=https://files.catbox.moe/0cidqk.png> Decorated war hero, straight-talker, and prairie pragmatist "},
+{searchString: "Claiborne Pell", explanationText: "<img src=https://files.catbox.moe/37io3l.png> The greatest, least famous war hero"},
+{searchString: "Moynihan", explanationText: "<img src=https://files.catbox.moe/159ugh.png> The foremost authority on welfare and a perennial thorn in your side."},
+{searchString: "Gephardt", explanationText: "<img src=https://files.catbox.moe/vnw31w.png>House Minority Leader and political hack par excellence."},
+{searchString: "John Chafee", explanationText: "<img src=https://files.catbox.moe/aai1d0.png>GOP moderate and sponsor of the HEART act."},
+{searchString: "Begala", explanationText: "<img src=https://files.catbox.moe/igiub5.png>Chief stragetist of your 1992 bid, current informal advisor, and brains of the New Democrat project."},
+{searchString: "Paul Begala", explanationText: "<img src=https://files.catbox.moe/igiub5.png>Chief stragetist of your 1992 bid, current informal advisor, and brains of the New Democrat project."},
+{searchString: "Chomsky", explanationText: "<img src=https://i.postimg.cc/G2HZQdh4/Noam.png>The MIT linguist turned radical critic of American power will criticize imperialism everywhere, even if it means playing defense for genocidal dictators."},
+{searchString: "Anthony Pellicano", explanationText: "<img src=https://i.postimg.cc/25hDRzNg/Pellicano.png>A competent Hollywood fixer must not fall."},
+{searchString: "Pellicano", explanationText: "<img src=https://i.postimg.cc/25hDRzNg/Pellicano.png>A competent Hollywood fixer must not fall."},
+{searchString: "Radovan Karadžić", explanationText: "<img src=https://i.postimg.cc/q7c1XJFG/Karad-i.png>President of the Bosnian separatist Republika Srpska and convicted war criminal."},
+{searchString: "Karadžić", explanationText: "<img src=https://i.postimg.cc/q7c1XJFG/Karad-i.png>President of the Bosnian separatist Republika Srpska and convicted war criminal."},
+{searchString: "Dorgan and Bonior", explanationText: "<img src=https://i.postimg.cc/Rvz3QrWn/collage-equalized-1.png>Two Midwestern Democrats, both staunch critics of NAFTA and its potential impact on organized labor."},
+{searchString: "wild haired freak", explanationText: "<img src=https://i.postimg.cc/4ymqzHR7/Vermontfool.png>Too radical for prime time, destined to be a gadfly from Vermont."},
+{searchString: "Henry Hyde", explanationText: "<img src=https://i.postimg.cc/zXmYnp3q/Henry-Hyde.png>Chairman of the Senate Judiciary Committee, a gentlemanly Virginia Republican."},
+{searchString: "Hyde", explanationText: "<img src=https://i.postimg.cc/zXmYnp3q/Henry-Hyde.png>Chairman of the Senate Judiciary Committee, a gentlemanly Virginia Republican."},
+{searchString: "former presidents", explanationText: "<img src=https://i.postimg.cc/8kmmHzzs/formerpresidents.png>Your unofficial and unlikely circle of advisors. Ironically, you find yourself getting along with the Republicans better than you do with Carter."},
+{searchString: "Jerry Falwell", explanationText: "<img src=https://i.postimg.cc/4NryHzRc/jerry.png>The most devout and the farthest right of the Religious Right."},
+{searchString: "Falwell", explanationText: "<img src=https://i.postimg.cc/4NryHzRc/jerry.png>The most devout and the farthest right of the Religious Right."},
+{searchString: "John McCain", explanationText: "<img src=https://i.postimg.cc/d17fN49Q/Fire.png>Arizona senator, ex-Navy pilot and former POW, a rising GOP hawk with a reformer’s itch."},
+{searchString: "McCain", explanationText: "<img src=https://i.postimg.cc/d17fN49Q/Fire.png>Arizona senator, ex-Navy pilot and former POW, a rising GOP hawk with a reformer’s itch."},
+{searchString: "Governor Tucker and Susan McDougal", explanationText: "<img src=https://i.postimg.cc/4X56FvHP/collage-gov-susan-cropped-like-heads.png>Two Arkansans at the crater’s edge, your successor Jim Guy Tucker subpoenaed as the probe ignites and Whitewater partner Susan McDougal in prosecutors’ sights."},
+{searchString: "Tucker and McDougal", explanationText: "<img src=https://i.postimg.cc/4X56FvHP/collage-gov-susan-cropped-like-heads.png>Two Arkansans at the crater’s edge, your successor Jim Guy Tucker subpoenaed as the probe ignites and Whitewater partner Susan McDougal in prosecutors’ sights."},
+            
+
+
+
+
+
+// Legal people
+{searchString: "Kenneth Starr", explanationText: "<img src=https://files.catbox.moe/2k59l3.png> Whitewater prosecutor, always needs to “figure something out”"},
+{searchString: "Starr", explanationText: "<img src=https://files.catbox.moe/2k59l3.png> Whitewater prosecutor, always needs to “figure something out”"},
+{searchString: "Fiske", explanationText: "<img src=https://files.catbox.moe/icb8w8.png> Dignified proseuctor, pushed out in favor of Ken Starr"},
+{searchString: "Robert Fiske", explanationText: "<img src=https://files.catbox.moe/icb8w8.png> Dignified proseuctor, pushed out in favor of Ken Starr"},
+{searchString: "Webster Hubbell", explanationText: "<img src=https://files.catbox.moe/zfeom3.png> Former Mayor of Little Rock. Loyal friend. Quiet fixer."},
+{searchString: "Hubbell", explanationText: "<img src=https://files.catbox.moe/zfeom3.png> Former Mayor of Little Rock. Loyal friend. Quiet fixer."},
+{searchString: "Hale", explanationText: "<img src=https://i.postimg.cc/VsTyn39G/Hale-1-1.png> Arkansas banker and convicted fraudster, whose tales of shady loans helped turn Whitewater into a federal case. "},
+{searchString: "David Hale", explanationText: "<img src=https://i.postimg.cc/VsTyn39G/Hale-1-1.png> Arkansas banker and convicted fraudster, whose tales of shady loans helped turn Whitewater into a federal case. "},
+{searchString: "Freeh", explanationText: "<img src=https://i.postimg.cc/9McJm5Nx/Louisfreeh.png> Your FBI Director, a Republican, but that’s part of what makes him loyal to you. "},
+{searchString: "Louis Freeh", explanationText: "<img src=https://i.postimg.cc/9McJm5Nx/Louisfreeh.png> Your FBI Director, a Republican, but that’s part of what makes him loyal to you. "},
+{searchString: "Kimba Wood", explanationText: "<img src=https://i.postimg.cc/jdXfq33Z/woddsy.png> Your second choice for Attorney general. Liberal judge from New York and part-time Playmate. "},
+{searchString: "Kimba", explanationText: "<img src=https://i.postimg.cc/jdXfq33Z/woddsy.png> Your second choice for Attorney general. Liberal judge from New York and part-time Playmate. "},
+{searchString: "Zoe Baird", explanationText: "<img src=https://i.postimg.cc/CLPK63QT/kdfkf.png> Your first choice for Attorney General, establishment pick under fire for her treatment of her illegal immigrant nanny. "},
+{searchString: "Zoë", explanationText: "<img src=https://i.postimg.cc/CLPK63QT/kdfkf.png> Your first choice for Attorney General, establishment pick under fire for her treatment of her illegal immigrant nanny. "},
+{searchString: "Reno", explanationText: "<img src=https://i.postimg.cc/tR62JTkg/vvbl7d-1.png> Hillary's Choice for AG. Non-controversial and bullet proof."},
+{searchString: "Janet Reno", explanationText: "<img src=https://i.postimg.cc/tR62JTkg/vvbl7d-1.png> Hillary's Choice for AG. Non-controversial and bullet proof."},
+{searchString: "Janet", explanationText: "<img src=https://i.postimg.cc/tR62JTkg/vvbl7d-1.png> Hillary's Choice for AG. Non-controversial and bullet proof."},
+{searchString: "James Woolsey", explanationText: "<img src=https://files.catbox.moe/3uck2z.png> CIA Director"},
+{searchString: "Woolsey", explanationText: "<img src=https://files.catbox.moe/3uck2z.png> CIA Director"},
+  
+
+// Foreign people
+{searchString: "Yeltsin", explanationText: "<img src=https://files.catbox.moe/5iue9q.png> Elected, erratic, and armed. Friend or foe?"},
+{searchString: "Boris Yeltsin", explanationText: "<img src=https://files.catbox.moe/5iue9q.png> Elected, erratic, and armed. Friend or foe?"},
+{searchString: "Boris", explanationText: "<img src=https://files.catbox.moe/5iue9q.png> Elected, erratic, and armed. Friend or foe?"},
+{searchString: "Castro", explanationText: "<img src=https://files.catbox.moe/0e1ktt.png> A revolutionary, a dictator, and a headache that won’t go away. "},
+{searchString: "Kim Il Sung", explanationText: "<img src=https://files.catbox.moe/hhb51g.png> Supreme Leader of North Korea, scum of the Earth, father of the dynasty, architect of starvation, and a relic of Stalin's world"},
+{searchString: "Slobodan Milosevic", explanationText: "<img src=https://files.catbox.moe/q8fxay.png> The last communist dictator in Europe, and would-be peacemaker turned war criminal."},
+{searchString: "Milosevic", explanationText: "<img src=https://files.catbox.moe/q8fxay.png> The last communist dictator in Europe, and would-be peacemaker turned war criminal."},
+{searchString: "Saddam Hussein", explanationText: "<img src=https://files.catbox.moe/qats12.png> President of Iraq, Ba'athist strongman, butcher of the Kurds, and a modern-day Mussolini with oil wells and palaces. "},
+{searchString: "Saddam", explanationText: "<img src=https://files.catbox.moe/qats12.png> President of Iraq, Ba'athist strongman, butcher of the Kurds, and a modern-day Mussolini with oil wells and palaces."},
+{searchString: "Gennady Zyuganov", explanationText: "<img src=https://files.catbox.moe/eg8lxn.png> The other path. Is he the new Gorbachev or Stalin?"},
+{searchString: "Rwanda", explanationText: "<img src=https://files.catbox.moe/t6m418.png> A genocide is underway. Hundreds of thousands of Tutsis are being hunted and slaughtered by Hutu extremists."},
+{searchString: "Raoul Cédras", explanationText: "<img src=https://files.catbox.moe/cgqnw6.png> Dictator of Haiti, trained in Georgia, backed by the CIA, and now blamed for every corpse that washes up in the Caribbean."},
+{searchString: "Vietnam", explanationText: "<img src=https://i.imgur.com/7SBxDZa.png> Thank God I dodged"},
+{searchString: "Aidid", explanationText: "<img src=https://files.catbox.moe/bff7p7.png> Somali warlord. Former U.S. ally, Soviet-trained, and now the strongest man in Mogadishu, at the cost of half the country. "},
+{searchString: "President Salinas", explanationText: "<img src=https://i.postimg.cc/261YfmFW/3ntwda-1-1.png> An actual economist running the country, the possibly illegitimate, pro-NAFTA president of Mexico."},
+{searchString: "Salinas", explanationText: "<img src=https://i.postimg.cc/261YfmFW/3ntwda-1-1.png> An actual economist running the country, the possibly illegitimate, pro-NAFTA president of Mexico."},
+{searchString: "Prime Minister Chrétien", explanationText: "<img src=https://i.postimg.cc/Hn5CV2Ns/uiijah-2-1.png> The liberal, French-Canadian Prime Minister of Canada, fluent in speaking from both sides of his mouth."},
+{searchString: "Jean Chrétien", explanationText: "<img src=https://i.postimg.cc/Hn5CV2Ns/uiijah-2-1.png> The liberal, French-Canadian Prime Minister of Canada, fluent in speaking from both sides of his mouth."},
+{searchString: "Chrétien", explanationText: "<img src=https://i.postimg.cc/Hn5CV2Ns/uiijah-2-1.png> The liberal, French-Canadian Prime Minister of Canada, fluent in speaking from both sides of his mouth."},
+{searchString: "Yitzhak Rabin", explanationText: "<img src=https://files.catbox.moe/klnmr4.png> A soldier fighting for peace"},
+{searchString: "Rabin", explanationText: "<img src=https://files.catbox.moe/klnmr4.png> A soldier fighting for peace"},
+{searchString: "Yasser Arafat", explanationText: "<img src=https://files.catbox.moe/d85z6t.png> The Palestinian Che Guevara"},
+{searchString: "Arafat", explanationText: "<img src=https://files.catbox.moe/d85z6t.png> The Palestinian Che Guevara"},
+{searchString: "Benjamin Netanyahu", explanationText: "<img src=https://files.catbox.moe/lratin.png> Who the fuck does he think he is? Who’s the fucking superpower here?"},
+{searchString: "Netanyahu", explanationText: "<img src=https://files.catbox.moe/lratin.png> Who the fuck does he think he is? Who’s the fucking superpower here?"},
+{searchString: "Shimon Peres", explanationText: "<img src=https://files.catbox.moe/7ebrkk.png> Yitzakh Rabin's greatest friend and rival."},
+{searchString: "Peres", explanationText: "<img src=https://files.catbox.moe/7ebrkk.png> Yitzakh Rabin's greatest friend and rival."},
+{searchString: "Assad", explanationText: "<img src=https://files.catbox.moe/u7na54.png> The second-worst monster in the Middle East"},
+{searchString: "Hafez Al-Assad", explanationText: "<img src=https://files.catbox.moe/u7na54.png> The second-worst monster in the Middle East"},
+{searchString: "Franjo Tuđman", explanationText: "<img src=https://i.postimg.cc/Hxtjm0CG/Franjo-Tudjman.png> President of Croatia, ex-communist partisan, and opportunistic irredentist."},
+{searchString: "Tuđman", explanationText: "<img src=https://i.postimg.cc/Hxtjm0CG/Franjo-Tudjman.png> President of Croatia, ex-communist partisan, and opportunistic irredentist."},
+{searchString: "Tudman", explanationText: "<img src=https://i.postimg.cc/Hxtjm0CG/Franjo-Tudjman.png> President of Croatia, ex-communist partisan, and opportunistic irredentist."},
+{searchString: "Alija Izetbegović", explanationText: "<img src=https://i.postimg.cc/9MKVVfQh/Izetbegovi.png> President and occasional abusive grandfather of Bosnia."},
+{searchString: "Izetbegović", explanationText: "<img src=https://i.postimg.cc/9MKVVfQh/Izetbegovi.png> President and occasional abusive grandfather of Bosnia."},
+{searchString: "Izetbegovic", explanationText: "<img src=https://i.postimg.cc/9MKVVfQh/Izetbegovi.png> President and occasional abusive grandfather of Bosnia."},
+{searchString: "François Mitterrand", explanationText: "<img src=https://i.postimg.cc/SRc0h7P6/fm.png> France’s President, the rotting corpse of what was once a great statesman."},
+{searchString: "Mitterrand", explanationText: "<img src=https://i.postimg.cc/SRc0h7P6/fm.png> France’s President, the rotting corpse of what was once a great statesman."},
+{searchString: "John Major", explanationText: "<img src=https://i.postimg.cc/c1RwGR6X/John-Major.png> British Prime Minister, Thatcher’s heir, and the driest person currently alive."},
+{searchString: "Major", explanationText: "<img src=https://i.postimg.cc/c1RwGR6X/John-Major.png> British Prime Minister, Thatcher’s heir, and the driest person currently alive."},
+
+// Miscellaneous tooltips
+{searchString: "Piss Christ", explanationText: "<img src=https://files.catbox.moe/vwsq4r.png> A photo of a crucifix submerged in the artist’s urine. Meant as a commentary on the commercialization of faith, but in Buchanan’s eyes, proof the White House is funding a war on religion."},
+{searchString: "bizarre laugh", explanationText: "<img src=https://files.catbox.moe/sizudl.png> Is he okay?"},
+{searchString: "Dole-Gingrich", explanationText: "<img src=https://files.catbox.moe/rf4an7.png> The ticket"},
+{searchString: "Dole–Gingrich", explanationText: "<img src=https://files.catbox.moe/rf4an7.png> The ticket"},
+{searchString: "ISS", explanationText: "<img src=https://files.catbox.moe/vdwhqp.png> A science project in orbit, if Congress lets it live. A Cold War handshake held together by duct tape, dreams, and $100 billion."},
+{searchString: "International Space Station", explanationText: "<img src=https://files.catbox.moe/vdwhqp.png> A science project in orbit, if Congress lets it live. A Cold War handshake held together by duct tape, dreams, and $100 billion."},
+{searchString: "Texas Super Collider", explanationText: "<img src=https://files.catbox.moe/ebapto.png> Half a hole in Texas, meant to unlock the universe. Billions spent, tunnels carved—but will Congress finish the job or pull the plug?"},
+{searchString: "fourth fucking marriage", explanationText: "<img src=https://files.catbox.moe/kbsqd3.png> 3 girls and a Cher."},
+{searchString: "Ryan White", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/Ryan%20White%20Tooltip> A hemophiliac teenage boy from Indiana who, at just 13, was infected with HIV following a contaminated blood treatment. His fight to continue attending school despite a wave of backlash from a misinformed public made him and his mother national celebrities in the fight to destigmatize the disease. He tragically passed away in 1990 at age 18. Within a year, Congress passed the Ryan White CARE Act, the main provider of medical services for people with HIV/AIDS in the country."},
+{searchString: "heart of Chicago", explanationText: "<img src=https://files.catbox.moe/9rtl3i.png> Host of the '96 DNC, where you'll be crowned, in front of the world. "},
+{searchString: "inauguration", explanationText: "<img src=https://files.catbox.moe/n8lhdg.png> The moment it began. Cold wind, warm crowd. Fleetwood Mac in your ears, hope in the air, and the Baby Boomer dream on your shoulders."},
+{searchString: "debt", explanationText: "<img src=https://files.catbox.moe/w7leau.png> The new red scare "},
+{searchString: "AFDC", explanationText: "<img src=https://files.catbox.moe/4svci9.png> Aid to Families with Dependent Children- The current welfare system, conservatives hate it, moderates are losing patience. "},
+{searchString: "Lyndon LaRouche", explanationText: "<img src=https://files.catbox.moe/gjmky1.png> Somewhere between Kafka and cable access. A convicted felon who thinks the Queen of England runs the drug trade. "},
+{searchString: "fever dreams", explanationText: "<img src=https://files.catbox.moe/mrzh3m.png> Best-selling VHS, The Clinton Chronicles accuses you of drug smuggling, adultery, and murder."},
+{searchString: "Gore–Chernomyrdin", explanationText: "<img src=https://files.catbox.moe/2gzprl.png> U.S.–Russia task force to promote cooperation in energy, trade, science, and a multitude of other issues."},
+{searchString: "Clinton thumb", explanationText: "<img src=https://files.catbox.moe/hd14a9.png>Your characteristic hand gesture."},
+{searchString: "those tears you cried in 1980", explanationText: "<img src=https://files.catbox.moe/ttgm52.png> Thanks to Carter, you were defeated for re-election as Governor by Frank White."},
+{searchString: "This plan", explanationText: "<img src=https://files.catbox.moe/75sfqt.png>The only way."},
+{searchString: "UNOSOM II", explanationText: "<img src=https://i.postimg.cc/Znnfghp4/un-mission.png> United Nations Operation in Somalia II"},
+{searchString: "your attempts to destigmatize drug use", explanationText: "<img src=https://files.catbox.moe/wqbbgx.png> I smoked"},
+{searchString: "UNOSOM", explanationText: "<img src=https://i.postimg.cc/Znnfghp4/un-mission.png> United Nations Operation in Somalia II"},
+{searchString: "Vance–Owen agreement", explanationText: "<img src=https://i.postimg.cc/dtqqc6rs/540161-1-En-4-Fig1-HTML-1.png> Ceasefire and peace plan sponsored by the UN and UK splitting Bosnia into ten semi-autonomous regions. For it to pass, we'll need approval from faction leaders as well as the people they represent."},
+{searchString: "Vance–Owen plan", explanationText: "<img src=https://i.postimg.cc/dtqqc6rs/540161-1-En-4-Fig1-HTML-1.png> Ceasefire and peace plan sponsored by the UN and UK splitting Bosnia into ten semi-autonomous regions. For it to pass, we'll need approval from faction leaders as well as the people they represent."},
+{searchString: "Vance-Owen Peace plan", explanationText: "<img src=https://i.postimg.cc/dtqqc6rs/540161-1-En-4-Fig1-HTML-1.png> Ceasefire and peace plan sponsored by the UN and UK splitting Bosnia into ten semi-autonomous regions. For it to pass, we'll need approval from faction leaders as well as the people they represent."},
+{searchString: "Israeli Knesset", explanationText: "<img src=https://i.postimg.cc/MKSJ1hBD/ijp.png> Israel’s parliament, 120 seats of coalition chaos, and shouting matches that somehow still pass laws."},
+{searchString: "Social Market", explanationText: "<img src=https://i.postimg.cc/QC1btQgG/socialmarket.png> Robert Reich’s social-market-economy proposals are based on the German model. Unlike the traditional Anglo-Saxon model, the state should not only regulate markets but also maintain socioeconomic justice. To some critics, that’s just a line in the tax code away from communism."},
+
+
+// Healthcare plans
+{searchString: "a deal that would save the plan", explanationText: "<img src=https://files.catbox.moe/rlvih0.jpg> A flexible plan requiring many companies to buy insurance for their employees in exchange for subsidies, as well as an expansion of Medicaid for the poor. Would reduce the number of uninsured in America by a quarter."},
+{searchString: "The alternative was at the same time more liberal and moderate", explanationText: "<img src=https://files.catbox.moe/4wnw46.png> An expandable plan requiring most companies to buy insurance for their employees in exchange for subsidies for smaller enterprises as well as a federaly negotiated rates on fees and discount on prescription. Will reach universal coverage in 1998."},
+{searchString: "the complete transformation", explanationText: "Requires all Americans to buy insurance, with subsidies for low income households."},
+{searchString: "you think the bill is as good as it will be while having general support", explanationText: "The bill requires all Americans to buy insurance with subsidies for low income households with voluntary pooling rules. As part of the cost are taken from corporations directly, the plan remains low in cost."},
+{searchString: "ripped out everything that made the bill anything worthwhile", explanationText: "The HEART plan requires all Americans to buy Insurance with subsidies for low income households with voluntary pooling rules. As all costs are assumed by the government, the subsidies are constantly in question."},
+{searchString: "Mitchell's plan", explanationText: "<img src=https://files.catbox.moe/ep27nx.png> Plan requiring all companies to buy insurance for their employees, reducing the number of the uninsured to less than a million while being tied to the budget."},
+{searchString: "Hillarycare", explanationText: "<img src=https://files.catbox.moe/tezgr1.webp> Plan requiring all companies to buy Insurance for their employees in exchange for subsidies."},
+{searchString: "HIAA", explanationText: "<img src=https://files.catbox.moe/lypehu.png>The Health Insurance Association of America, one of the biggest lobbies in the country. Currently flooding the airwaves, and spending millions opposing your agenda. "},
+{searchString: "Harry and Louise", explanationText: "<img src=https://i.postimg.cc/X7TsqdKK/Sometime-In-The-Future-ad.png>Fictional characters created by the pharmaceutical industry to attack your healthcare agenda. "},
+{searchString: "Magaziner", explanationText: "<img src=https://i.postimg.cc/pVjjKJry/Ira-m.png>Hillarycare’s chief architect, brilliant, relentless, and infamous for thousand-page plans that spook Congress. "},
+            
+            
+];
   // Select the node that will be observed for mutations
   const windowsAdvisorTargetNode = document.getElementById("game_window");
   
@@ -560,32 +1412,49 @@ background-color: #DDE7FE;
       titleBar.classList.add("title-bar-text")
       titleBar.style.paddingLeft = "3px";
   };
+
   
-  class Song {
-    constructor(title, artist, audioLink) {
-      this.title = title;
-      this.artist = artist;
-      this.audioLink = audioLink;
-    }
-    getTitle() {
-      return this.title;
-    }
-  
-    getArtist() {
-      return this.artist;
-    }
-  
-    getAudioLink() {
-      return this.audioLink;
-    }
+class Song {
+  constructor(title, artist, audioLink, duration) {
+    this.title = title;
+    this.artist = artist;
+    this.audioLink = audioLink;
+    this.duration = duration; // e.g., "4:00"
+    this.durationInSeconds = this.convertDurationToSeconds(duration);
   }
-  
-  // Update the Playlist class
+
+  // Convert the duration string to seconds
+  convertDurationToSeconds(duration) {
+    const [minutes, seconds] = duration.split(":").map(Number);
+    return minutes * 60 + seconds;
+  }
+
+  getTitle() {
+    return this.title;
+  }
+
+  getArtist() {
+    return this.artist;
+  }
+
+  getAudioLink() {
+    return this.audioLink;
+  }
+
+  getDuration() {
+    return this.duration; // Return the duration in "mm:ss" format
+  }
+
+  getDurationInSeconds() {
+    return this.durationInSeconds; // Duration in seconds for calculations
+  }
+}
+
+
 class Playlist {
   constructor() {
     this.songs = [];
     this.currentSongIndex = 0;
-    this.randomizeEnabled = false; // New flag for randomization
   }
 
   addSong(song) {
@@ -597,634 +1466,124 @@ class Playlist {
   }
 
   playNext() {
-    if (this.randomizeEnabled && this.currentSongIndex === 0) {
-      this.randomizeAfterFirst();
-    }
     this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
   }
 
   playPrevious() {
     this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
   }
-
-  randomizeAfterFirst() {
-    const firstSong = this.songs[0];
-    const restOfSongs = this.songs.slice(1);
-    for (let i = restOfSongs.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [restOfSongs[i], restOfSongs[j]] = [restOfSongs[j], restOfSongs[i]];
-    }
-    this.songs = [firstSong, ...restOfSongs];
-  }
 }
+window.Playlist=Playlist
+window.Song=Song
 
-// Add the button to the UI
-function setupRandomizeButton() {
-  const randomizeButton = document.createElement("button");
-  randomizeButton.id = "randomizeButton";
-  randomizeButton.textContent = "Randomize Songs";
-  randomizeButton.style.margin = "10px";
 
-  randomizeButton.addEventListener("click", function () {
-    playlist.randomizeEnabled = !playlist.randomizeEnabled;
-    alert(
-      playlist.randomizeEnabled
-        ? "Randomization after 'Don't Stop' is enabled."
-        : "Randomization after 'Don't Stop' is disabled."
-    );
-  });
-
-  const playerContainer = document.getElementById("player");
-  playerContainer.appendChild(randomizeButton);
-}
-
-  window.Playlist=Playlist
-  window.Song=Song
-  
-  function changePlaylist(newPlaylist) {
-    playlist = newPlaylist;
-    playlist.currentSongIndex = 0;
-    updateUI(playlist);
-    const audio = document.getElementById("audio");
-    audio.src = playlist.getCurrentSong().audioLink;
-    audio.play();
-  }
-  window.changePlaylist=changePlaylist
-  
-  function updateUI(playlist) {
-      const currentSong = playlist.getCurrentSong();
-      var player = document.getElementById("player");
-      player.querySelector("#title").textContent = currentSong.getTitle();
-      player.querySelector("#artist").textContent = currentSong.getArtist();
-  }
-  
-  window.updateUI=updateUI
-  
-  
-  function setupMusicPlayer() {
-    playlist = new Playlist();
-  
-  
-    const song1 = new Song(
-      "Don't Stop",
-      "Fleetwood Mac",
-      "https://audio.jukehost.co.uk/TmLgh4fOUUg0XL5ld4SABZc0DlUOsp36"
-    );
-    
-    const song2 = new Song(
-      "Don't Be Cruel",
-      "Elvis Presley",
-      "https://audio.jukehost.co.uk/vYR9FNLcSamfvChwwL6O7qX2VCwGyVhL"
-    );
-  
-    const song3 = new Song(
-      "Take Five",
-      "Paul Desmond",
-      "https://audio.jukehost.co.uk/Iyw0AOUb34dJQugmqoBMdr4ISxxtW6e5"
-    );
-  
-    const song4 = new Song(
-      "For Once In My Life",
-      "Stevie Wonder",
-      "https://audio.jukehost.co.uk/JJZCEsKd9jgmEsE4N11eAE0OGcpJESFn"
-    );
-  
-    const song5 = new Song(
-      "You Make Loving Fun",
-      "Fleetwood Mac",
-      "https://audio.jukehost.co.uk/lEeD3Y8rRhxnn7eJgYMHxeBGwJ3LYh3j"
-    );
-  
-    const song6 = new Song(
-      "In My Life",
-      "The Beatles",
-      "https://audio.jukehost.co.uk/Awqc2QRizsPgyopz0kgBdpnbBHvpeOyr"
-    );
-  
-    const song7 = new Song(
-      "Desafinado",
-      "João Gilberto & Stan Getz",
-      "https://audio.jukehost.co.uk/2tKooBxyZvKJhmWMsHG4TNpvoBVGMz2I"
-    );
-
-    const song8 = new Song(
-      "Macarena",
-      "Los Del Rio",
-      "https://audio.jukehost.co.uk/dZTZX8Z6AU5XAnHk8M3AGyIVMJPrPdRs"
-    );
-
-    const song9 = new Song(
-    "Go Your Own Way",
-    "Fleetwood Mac",
-    "https://audio.jukehost.co.uk/1VK4UhrKRBbbd5kozuyW2WQBm2eWmUxr"
-    );
-    
-    const song10 = new Song(
-    "A Song For You",
-    "Leon Russell",
-    "https://audio.jukehost.co.uk/10sbgg4yzHdGQFz241gS8du6rVFLZOVf"
-    );
-
-    const song11 = new Song(
-      "Everything You Know Is Wrong",
-      "Weird Al Yankovic",
-      "https://audio.jukehost.co.uk/SPIHfPTBVrdg3Xe4eW9aAbSCQeBtcbzC"
-    );
-
-    playlist.addSong(song1);
-    playlist.addSong(song2);
-    playlist.addSong(song3);
-    playlist.addSong(song4);
-    playlist.addSong(song5);
-    playlist.addSong(song6);
-    playlist.addSong(song7);
-    playlist.addSong(song8);
-    playlist.addSong(song9);
-    playlist.addSong(song10);
-    playlist.addSong(song11);
-  
-    const playerContainer = document.createElement("div");
-    playerContainer.id = "player";
-  
-   const displayBox = document.createElement("div");
-  displayBox.id = "display-box";
-  
-// Create the MP3 display
-const mp3Display = document.createElement("div");
-mp3Display.id = "mp3Player"; // Add the ID to the MP3 display
-mp3Display.style.width = "300px";
-playerContainer.id = "player";
-mp3Display.style.height = "100px";
-mp3Display.style.backgroundColor = "black";
-mp3Display.style.borderRadius = "10px";
-mp3Display.style.color = "white";
-mp3Display.style.fontFamily = "Arial, sans-serif";
-mp3Display.style.textAlign = "center";
-mp3Display.style.position = "relative";
-mp3Display.style.overflow = "hidden";
-
-// Add top text
-const topText = document.createElement("div");
-topText.textContent = "DIGITAL MP3 PLAYER";
-topText.style.position = "absolute";
-topText.style.top = "10px";
-topText.style.left = "0";
-topText.style.right = "0";
-topText.style.fontSize = "14px";
-topText.style.fontWeight = "bold";
-mp3Display.appendChild(topText);
-
-// Add the screen area
-const screen = document.createElement("div");
-screen.style.width = "80%";
-screen.style.height = "40%";
-screen.style.backgroundColor = "#e8ffe8";
-screen.style.margin = "30px auto";
-screen.style.border = "2px solid white";
-screen.style.borderRadius = "5px";
-screen.style.display = "flex";
-screen.style.justifyContent = "center";
-screen.style.alignItems = "center";
-screen.style.fontSize = "16px";
-screen.style.color = "black";
-mp3Display.appendChild(screen);
-
-// Add bottom text
-const bottomText = document.createElement("div");
-bottomText.textContent = "MP3/WMA/REC";
-bottomText.style.position = "absolute";
-bottomText.style.bottom = "10px";
-bottomText.style.left = "0";
-bottomText.style.right = "0";
-bottomText.style.fontSize = "14px";
-bottomText.style.fontWeight = "bold";
-mp3Display.appendChild(bottomText);
-
-// Add the MP3 display to the display box
-displayBox.appendChild(mp3Display);
-
-// Append displayBox to the main container
-playerContainer.appendChild(displayBox);
-
-// Create container for the scrolling elements
-const scrollContainer = document.createElement("div");
-scrollContainer.style.display = "flex"; // Use flexbox to align the elements horizontally
-scrollContainer.style.overflow = "hidden"; // Hide anything that goes out of bounds
-// Finally, append the player container to the body
-document.body.appendChild(playerContainer);
-  const songInfo = document.createElement("div");
-  songInfo.id = "song-info";
-  
-  screen.appendChild(songInfo);
-
-  songInfo.appendChild(scrollContainer);
-  
-  scrollContainer.style.animation = "scrollText 10s linear infinite"; // Adjust duration to change scroll speed
-
-  // Add the animation to the document
-const style = document.createElement("style");
-style.textContent = `
-  @keyframes scrollText {
-    0% {
-      transform: translateX(100%); /* Start from the right edge */
-    }
-    100% {
-      transform: translateX(-100%); /* Move to the left edge */
-    }
-  }
-`;
-
-document.head.appendChild(style);
-// Append songInfo to the screen element
-screen.appendChild(songInfo);
-// Create the controls container
-const controlsContainer = document.createElement("div");
-controlsContainer.id = "controls-container";
-controlsContainer.style.display = "flex";  // Use flexbox for layout
-controlsContainer.style.flexDirection = "column";  // Stack the buttons vertically
-controlsContainer.style.justifyContent = "center";  // Center the buttons vertically
-
-// Create the controls (previous, play/pause, next)
-const controls = document.createElement("div");
-controls.id = "controls";
-controls.style.display = "flex";  // Use flexbox for buttons
-controls.style.flexDirection = "column";  // Stack the buttons vertically
-controls.style.alignItems = "center";  // Center buttons horizontally
-
-// Create the previous button
-const prevButton = document.createElement("img");
-prevButton.id = "prevButton";
-prevButton.src = "https://i.imgur.com/WRtZweK.png";
-prevButton.alt = "Previous";
-// Set the width and height to make the button bigger
-prevButton.style.width = "50px";  // Increase the width
-prevButton.style.height = "50px";  // Increase the height
-controls.appendChild(prevButton);
-
-// Create the play/pause button
-const playPauseButton = document.createElement("img");
-playPauseButton.id = "playPauseButton";
-playPauseButton.src = "https://i.imgur.com/OAe5dOF.png";  // Set the default play image
-playPauseButton.alt = "Play/Pause";
-// Set the width and height to make the button bigger
-playPauseButton.style.width = "50px";  // Increase the width
-playPauseButton.style.height = "50px";  // Increase the height
-controls.appendChild(playPauseButton);
-
-// Create the next button
-const nextButton = document.createElement("img");
-nextButton.id = "nextButton";
-nextButton.src = "https://i.imgur.com/hQRF36J.png";
-nextButton.alt = "Next";
-nextButton.style.width = "50px";  // Increase the widthnextButton.style.height = "50px";  // Increase the height
-nextButton.style.height = "50px";  // Increase the height
-controls.appendChild(nextButton);
-
-// Append the controls to the controlsContainer
-controlsContainer.appendChild(controls);
-
-// Event listeners for play/pause, next, and previous buttons
-playPauseButton.addEventListener("click", function () {
+function changePlaylist(newPlaylist) {
+  playlist = newPlaylist;
+  playlist.currentSongIndex = 0;
+  updateUI(playlist);
   const audio = document.getElementById("audio");
-  if (audio.paused) {
-    audio.play();
-    playPauseButton.src = "https://i.imgur.com/OAe5dOF.png";  // Set the pause image
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+}
+window.changePlaylist=changePlaylist
+
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  var player = document.getElementById("player");
+  const titleElement = player.querySelector("#title");
+  const artistElement = player.querySelector("#artist");
+
+  titleElement.textContent = currentSong.getTitle();
+  artistElement.textContent = currentSong.getArtist();
+
+  // Update the total time
+const titleTester = document.getElementById("title");
+if (!titleTester) return; // Safety check
+
+const titleText = titleTester.textContent;
+const steps = titleText.length;
+
+// Function to check if text overflows
+function checkOverflow() {
+  const container = titleTester.parentElement;  // Assuming titleTester is inside a container
+  if (titleTester.scrollWidth > container.clientWidth) {
+    // If text overflows, apply animation
+    titleTester.style.animation = "none";  // Restart animation cleanly
+    void titleTester.offsetWidth;  // Force reflow
+    titleTester.style.animation = `scroll 10s steps(${steps}) infinite`;
   } else {
-    audio.pause();
-    playPauseButton.src = "https://i.imgur.com/OAe5dOF.png";  // Set the play image
+    // If text does not overflow, remove animation
+    titleTester.style.animation = "none";
   }
-});
-
-nextButton.addEventListener("click", function () {
-  playlist.playNext();
-  updateUI(playlist);
-  const audio = document.getElementById("audio");
-  audio.src = playlist.getCurrentSong().audioLink;
-  audio.play();
-});
-
-prevButton.addEventListener("click", function () {
-  playlist.playPrevious();
-  updateUI(playlist);
-  const audio = document.getElementById("audio");
-  audio.src = playlist.getCurrentSong().audioLink;
-  audio.play();
-});
-// Append the controls container to the player container
-playerContainer.appendChild(controlsContainer);
-  const titleElement = document.createElement("p");
-  titleElement.id = "title";
-  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
-  titleElement.style.marginRight = "20px"; // Add some space between title and artist
-  songInfo.appendChild(titleElement);
-  scrollContainer.appendChild(titleElement);
-  
-  const artistElement = document.createElement("p");
-  artistElement.id = "artist";
-  songInfo.appendChild(artistElement);
-  scrollContainer.appendChild(artistElement);
-  
-  displayBox.appendChild(mp3Display);
-  playerContainer.appendChild(displayBox);
-  
-    const progressBarContainer = document.createElement("div");
-    progressBarContainer.id = "progress-bar-container";
-  
-    const progressBar = document.createElement("progress");
-    progressBar.type = "range";
-    progressBar.id = "progress-bar";
-    progressBar.value = "0";
-    progressBar.max = "100";
-  
-  
-    progressBarContainer.appendChild(progressBar);
-  
-   const volumeContainer = document.createElement("div");
-    volumeContainer.id = "volume-container";
-  
-  const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.imgur.com/R4ezatp.png";
-  volumeLabel.alt = "Volume";
-  volumeLabel.style.width = "50px";  // Increase the widthnextButton.style.height = "50px";  // Increase the height
-volumeLabel.style.height = "50px";  // Increase the height
-  volumeContainer.appendChild(volumeLabel);
-  
-    const volumeSliderContainer = document.createElement("div");
-    volumeSliderContainer.classList.add("is-vertical");
-    volumeSliderContainer.style.marginLeft = "23%";
-    volumeSliderContainer.style.height = "126px";
-  
-    const volumeSlider = document.createElement("input");
-    volumeSlider.type = "range";
-    volumeSlider.id = "volumeSlider";
-    volumeSlider.min = 0;
-    volumeSlider.max = 9;
-    volumeSlider.step = 1;
-    volumeSlider.value = 1; // Initial volume
-  
-    volumeSliderContainer.appendChild(volumeSlider);
-  
-    const volumeDisplay = document.createElement("span");
-    volumeDisplay.id = "volume-display";
-    volumeDisplay.style.fontWeight = 'bold'; 
-    volumeDisplay.style.display = 'none';
-    volumeDisplay.textContent = "1";
-  
-    volumeContainer.appendChild(volumeSliderContainer);
-    volumeContainer.appendChild(volumeDisplay);
-  
-    playerContainer.appendChild(volumeContainer);
-  
-    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
-  
-  
-    function updateProgressBar() {
-      const audio = document.getElementById("audio");
-      const progress = (audio.currentTime / audio.duration) * 100;
-  
-      try {
-          progressBar.value = progress;
-      } catch (error) {
-      }
-  }
-    progressBar.addEventListener("input", function () {
-      const audio = document.getElementById("audio");
-      const seekTime = (progressBar.value / 100) * audio.duration;
-      audio.currentTime = seekTime;
-    });
-  
-    const audio = document.createElement("audio");
-    audio.id = "audio";
-    audio.src = playlist.getCurrentSong().audioLink;
-    audio.volume = 1/9;
-  
-    audio.addEventListener("timeupdate", updateProgressBar);
-    audio.addEventListener("ended", function () {
-      // Play the next song when the current song ends
-      playlist.playNext();
-      updateUI(playlist);
-      audio.src = playlist.getCurrentSong().audioLink;
-      audio.play();
-    });
-  
-      let currentVolume = 1; // Initial volume
-  
-    volumeSlider.addEventListener("input", function () {
-      currentVolume = parseInt(volumeSlider.value, 10);
-      updateVolumeDisplay();
-      updateAudioVolume();
-    });
-  
-    function updateVolumeDisplay() {
-      volumeDisplay.textContent = currentVolume;
-    }
-  
-     function updateAudioVolume() {
-      const audio = document.getElementById("audio");
-      audio.volume = currentVolume / 9; // Set volume between 0 and 1
-    }
-  
-    document.body.appendChild(audio);
-    audio.play();
-  
-    // Update the UI when the page loads
-    updateUI(playlist);
-  }
-  
-  const style = document.createElement("style");
-  style.textContent = `
-  #player {
-      border: 3px solid #C9C9C9; /* Add your desired border style */
-      display: flex;
-      flex-direction: row;
-    height:191px;
-      background-Image: url("https://i.imgur.com/zaNdCgw.png");
-    }
-  
-    #display-box {
-      display: flex;
-      justify-content: center; /* Center horizontally */
-      align-items: center; /* Center vertically */
-      width: 100%;
-      height: 100%;
-      position: relative; /* Ensures absolute positioning of child elements work properly */  
-    }
-  
-    #info-container {
-      display: flex;
-      flex-direction: row;
-      height:178px;
-    width:127px;
-    margin-top: 3px;
-    }
-  
-    #song-info {
-      width: 100%;
-    padding:5px;
-    }
-  
-    #controls-container {
-      display: flex;
-      justify-content: flex-start; /* Aligns buttons to the left */
-      align-items: center;
-      width: 100%;
-  }
-    .is-vertical #volumeSlider {
-    width: 125px;
-  }
-  
-  #controls {
-    display: flex;
-    align-items: center;  /* Vertically centers the buttons */
-    gap: 10px;             /* Optional: Adds space between buttons */
 }
 
-#controls img {
-    width: 30px;  /* Size of the buttons, you can adjust this */
-    height: 30px;
-    cursor: pointer;
+// Initial check if the title overflows
+checkOverflow();
 }
-    #progress-bar-container {
-      width: 100%;
-    }
-  
-    #progress-bar {
-      width: 80%;
-      margin: auto;
-      display: flex;
-      margin-Top: 20px;
-    }
-    #mp3Player {
-      margin-left: 0;  /* Ensure there's no extra margin on the left */
-      margin-right: 125px;
-      align-items: center;
-      /* No need for absolute positioning here */
-      width: 300px;   /* Your preferred width */
-      height: 100px;  /* Your preferred height */
-      background-color: black;
-      border-radius: 10px;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      overflow: hidden;
-  }
-    
-  `;
-  
-  document.head.appendChild(style);
-                
-  const gameWindow_player = document.getElementById("game_window");
-  //use this function directly or put it in an event listener to start the music on the press of a certain button
-  setupMusicPlayer();
-  setupRandomizeButton();
 
 
-RecReading=true
-e.collect_results=true;
-campaignTrail_temp.achievements = {
-    "His Turn" : {
-        "image" : "https://i.imgur.com/YkgRwhg.png",
-        "description" : "Face off against Bob Dole in 1996.",
-        "cannotBeCheated" : true
-    },
-  "Pitchfork Pat" : {
-        "image" : "https://i.imgur.com/4SDVSb0.png",
-        "description" : "Face off against Pat Buchanan in 1996.",
-        "cannotBeCheated" : true
-    },
-    "Easy as ABC" : {
-      "image" : "https://i.imgur.com/g2iUWoo.png",
-      "description" : "Face off against Lamar Alexander in 1996.",
-      "cannotBeCheated" : true
-  },
-  "Porno-Gramm" : {
-    "image" : "https://i.imgur.com/1QNzvAz.png",
-    "description" : "Face off against Phil Gramm in 1996.",
-    "cannotBeCheated" : true
-  },
-  "Snarlin' Arlen" : {
-    "image" : "https://i.imgur.com/11s3UqU.png",
-    "description" : "Face off against Arlen Specter in 1996.",
-    "cannotBeCheated" : true
-  },
-  "Standing Firm" : {
-    "image" : "https://i.imgur.com/zuz5TSQ.png",
-    "description" : "Face off against Dan Quayle in 2000.",
-    "cannotBeCheated" : true
-  },
-  "King of the Hill" : {
-    "image" : "https://i.imgur.com/gUW0oMc.png",
-    "description" : "Face off against Newt Gingrich in 2000.",
-    "cannotBeCheated" : true
-  },
-  "More of the Same" : {
-    "image" : "https://i.imgur.com/0sFu3nv.png",
-    "description" : "Face off against George H.W. Bush in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Mistakes Were Made" : {
-    "image" : "https://i.imgur.com/Wzedkcr.png",
-    "description" : "Face off against Oliver North in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Surviving at the Top" : {
-    "image" : "https://i.imgur.com/Urtn1gM.png",
-    "description" : "Face off against Donald Trump in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Multiple Choice" : {
-    "image" : "https://i.imgur.com/fV8ahCd.png",
-    "description" : "Face off against Mitt Romney in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Rage Against the Machine" : {
-    "image" : "https://i.imgur.com/dnNYmEN.png",
-    "description" : "Face off against Steve Forbes in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Misunderestimated" : {
-    "image" : "https://i.imgur.com/J6RRIlq.png",
-    "description" : "Face off against George W. Bush in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Two for the Price of One" : {
-    "image" : "https://i.imgur.com/wyR8gSw.png",
-    "description" : "Face off against Elizabeth Dole in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Fortunate Son" : {
-    "image" : "https://i.imgur.com/ZtR1zQW.png",
-    "description" : "Face off against Jeb Bush in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Maverick" : {
-    "image" : "https://i.imgur.com/frE7TSH.png",
-    "description" : "Face off against John McCain in 2000.",
-    "cannotBeCheated" : true
-  },
-  "Heartbreak Hotel" : {
-    "image" : "https://i.imgur.com/dXkXpk2.png",
-    "description" : "Lose reelection.",
-    "cannotBeCheated" : true
-  },
-  "The Work Goes On" : {
-    "image" : "https://i.imgur.com/seiCoF8.png",
-    "description" : "Fulfill Ted's dream.",
-    "cannotBeCheated" : true
-  },
-  "His Cheatin' Heart" : {
-    "image" : "https://i.imgur.com/TOpqwOh.png",
-    "description" : "Suffer the ultimate indignity.",
-    "cannotBeCheated" : true
-  },
-  "One Brief, Shining Moment" : {
-    "image" : "https://i.imgur.com/s3dty5t.png",
-    "description" : "Emulate your idol.",
-    "cannotBeCheated" : true
-  },
-  "Counterrevolution" : {
-    "image" : "https://i.imgur.com/3XKoZdw.png",
-    "description" : "Keep control of Congress.",
-    "cannotBeCheated" : true
-  }
-  }
+
+window.updateUI=updateUI
+
+
+function setupMusicPlayer() {
+  playlist = new Playlist();
+
+
+  const song1 = new Song(
+    "Remember The Time",
+    "Michael Jackson",
+    "https://audio.jukehost.co.uk/EALwShkJnjWbMNL4XSdMQeAIyggmNoGS",
+    "4:00"
+  );
+  const song2 = new Song(
+    "If I Like It, I Do It",
+    "Jamiroquai",
+    "https://files.catbox.moe/vjwy0t.mp3",
+    "4:53"
+  );
+    const song3 = new Song(
+  "Basket Case",
+  "Green Day",
+  "https://files.catbox.moe/r6xs9a.mp3",
+  "3:01"
+);
+
+  const song4 = new Song(
+    "Best Imitation Of Myself",
+    "Ben Folds Five",
+    "https://audio.jukehost.co.uk/hKHyrTCh9iiOKFoNc2AzYTxZgIsTr1t3",
+    "2:38"
+  );
+  
+  const song5 = new Song(
+  "Roll With It",
+  "Oasis",
+  "https://audio.jukehost.co.uk/bIRPZih5KJxrG0rm6uKdwbB3WIUdCcDo",
+  "4:00"
+);
+  const song6 = new Song(
+  "Ambitionz Az A Ridah",
+  "2Pac",
+  "https://audio.jukehost.co.uk/8ZMOxDCq19Ahv3yCnHCLfypo1fwuLELj",
+  "4:38"
+);
+const song7 = new Song(
+  "One Headlight",
+  "The Wallflowers",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/OneHeadlight.mp3",
+  "5:14"
+);
+
+	
+
+  playlist.addSong(song1);
+  playlist.addSong(song2);
+  playlist.addSong(song3);
+  playlist.addSong(song4);
+  playlist.addSong(song5);
+  playlist.addSong(song6);
+  playlist.addSong(song7);
+	
+  const playerContainer = document.createElement("div");
