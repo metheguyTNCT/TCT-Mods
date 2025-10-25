@@ -637,10 +637,10 @@ function setupMusicPlayer() {
 playlist = new Playlist();
 
 const song1 = new Song(
-  "Only an Expert",
-  "Laurie Anderson",
-  "https://i.scdn.co/image/ab67616d0000b2736c101467832e76c1be95f59c",
-  "https://audio.jukehost.co.uk/r17Miq6R4m4OBkULFCV8ojmVZYVVzzcf"
+  "Mr. President",
+  "Janelle Monáe",
+  "https://t2.genius.com/unsafe/232x232/https%3A%2F%2Fimages.genius.com%2F3d581fc425a8b2b580436fbc30449c18.407x407x1.jpg",
+  "https://file.garden/Zrv1pPC1HzBK0svl/Mr.%20President.mp3"
 );
 
 const song2 = new Song(
