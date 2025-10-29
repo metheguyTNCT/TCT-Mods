@@ -842,38 +842,38 @@ input {
     );
   
     const song3 = new Song(
+      "Armed and Dangerous",
+      "King Von",
+      "https://i.imgur.com/pQpf8SY.jpeg",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/ArmedDangerous.mp3"
+    );
+  
+    const song4 = new Song(
       "Money Game, Pt. 2",
       "Ren",
       "https://i.imgur.com/r8lQGbz.jpeg",
       "https://files.catbox.moe/2e1ckh.mp3"
     );
   
-    const song4 = new Song(
-      "The Moon Is Made of Cheese (But I Can't Taste It)",
-      "Bill Wurtz",
-      "https://i.imgur.com/ZkAI3JN.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/MoonCheese.mp3"
-    );
-  
     const song5 = new Song(
       "You Need To Calm Down",
       "Taylor Swift",
-      "https://i.imgur.com/ImJFVr0.jpeg",
+      "https://files.catbox.moe/gcaq5n.png",
       "https://file.garden/Z7qfmQZIZjO_xV5N/CalmDown.mp3"
     );
   
     const song6 = new Song(
-      "History Has Its Eyes on You",
-      "Christopher Jackson",
-      "https://i.imgur.com/33DKuF2.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/Hamilton.mp3"
-    );
-  
-    const song7 = new Song(
       "Feed The Machine",
       "Poor Man's Poison",
       "https://i.imgur.com/megpKwa.jpeg",
       "https://file.garden/Z7qfmQZIZjO_xV5N/FeedTheMachine.mp3"
+    );
+  
+    const song7 = new Song(
+      "History Has Its Eyes on You",
+      "Christopher Jackson",
+      "https://i.imgur.com/33DKuF2.jpeg",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/Hamilton.mp3"
     );
   
     const song8 = new Song(
