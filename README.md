@@ -19,6 +19,9 @@ These are not done yet, but I intend on making them soon, or did at one point.
 **Mockups:**
 Pretty straightforward.
 - *1996Way*
+- *2020DDLC*
+- *American Calamity*
+
 
 **Unesscarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
@@ -38,6 +41,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *1964 Midnight Redux* by Gardfeld
 - *Midnight '68* by Gardfeld
 - *1980: A New Deal* by UnpledgedElector
+- *1980: Fordland* by jackreacher
 - *2000N* by Decstar
 - *2004 Maverick* by jackreacher
 - *2008Vice* by Galen
