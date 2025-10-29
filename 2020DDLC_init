@@ -5,24 +5,7 @@ campaignTrail_temp.election_json = [
       "pk": 9,
       "fields": {
           "year": 2020,
-          "summary": "<div style='max-height: 200px; overflow-y: auto;'>\
-              <style>\
-                  @keyframes flash {\
-                      0% { color: blue; }\
-                      33% { color: red; }\
-                      66% { color: black; }\
-                      100% { color: blue; }\
-                  }\
-                  .flashing-text {\
-                      font-weight: bold;\
-                      animation: flash 1s infinite;\
-                  }\
-              </style>\
-              <p><strong style='font-size: 1.2em;'>Rod Blagojevich</strong>, the princeling billionaire real-estate mogul, chief jester of the New York tabloid circuit, a reactionary game show host with a spray tan and a cheap suit. He has destroyed the fabric of the American body politic; in only a few short years, his stint in American politics has morphed from a joke to a nightmare. </p>\
-              <p>Through fear, misogyny, and hatred. All combined with a pitiless void for an ego, this gremlin has suckered in enough hicks and rubes to buy his narrative of ‘Making America Great Again.’ With the support of America’s enemies, he has manipulated the decaying framework of the American electorate and contorted a gutless media to allow this epic tragedy to unfold.</p>\
-              <p>Can you even imagine the mind of such a low creature, the inner workings of its minute poisoned conscience, the depravities just waiting to be unleashed?</p>\
-              <p>This is <span class='flashing-text' style='font-size: 1.2em;'>American Carnage</span> …</p>\
-          </div>",
+          "summary": "<p>The dog has caught the car. Having employed every dirty tricks in the book to win a campaign she only entered in the first place for petty revenge, Monika is now President of the United States.</p><p>As if in reaction to her hubristic folly, the world has erupted into a confluence of crises that would test even the most experienced public servant, and downright impossible for a jumped-up computer program in over her head. With the Republicans baying for her blood, an unprecedented pandemic sweeping the nation, unrest abroad, and more, the question isn't if she'll win, but if she'll survive.</p>",
           "image_url": "https://i.imgur.com/jwuZJyV.png",
           "winning_electoral_vote_number": 270,
           "advisor_url": "https://i.imgur.com/UrGd31s.gif",
