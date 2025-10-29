@@ -842,10 +842,10 @@ input {
     );
   
     const song3 = new Song(
-      "Nothin New",
-      "21 Savage",
-      "https://i.imgur.com/vSYzSHa.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/NothinNew.mp3"
+      "Money Game, Pt. 2",
+      "Ren",
+      "https://i.imgur.com/r8lQGbz.jpeg",
+      "https://files.catbox.moe/2e1ckh.mp3"
     );
   
     const song4 = new Song(
