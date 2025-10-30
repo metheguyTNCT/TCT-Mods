@@ -68,7 +68,7 @@ campaignTrail_temp.candidate_json = [
           "state": "New York",
           "priority": 2,
           "description": "<p>No, she hasn't revealed her last name. That in and of itself should tell you all you need to know about Monika's administration. Elected on a promise of a total reshaping of Washington, she has found herself mired in an all-too familiar cycle of gridlock. This town chews up and spits out idealists, and she's no different.</p> <p>Still, she knows things could always be worse. The wailing ghosts of her past claw at her at every waking moment. The investigations are already underway, and if they manage to find anything? It's too horrible to even contemplate. But for now, the bodies remain buried. The world burns. The question is, which one will destroy her first- if she doesn't do it herself?</p>",
-          "color_hex": "#002668",
+          "color_hex": "#8cd63a",
           "secondary_color_hex": "#002668",
           "is_active": 1,
           "image_url": "https://i.imgur.com/M1rNAZ2.png",
