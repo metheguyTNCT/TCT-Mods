@@ -1288,15 +1288,15 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
   },
 
-  "Cuomosexual" : {
-    "image" : "https://i.imgur.com/f7e3JoD.png",
-    "description" : "Win Despite a Coup",
+  "Gently" : {
+    "image" : "https://i.imgur.com/QMsORwb.png",
+    "description" : "Take it All Back",
     "cannotBeCheated" : true
   },
 
-  "You're Fired" : {
-    "image" : "https://i.imgur.com/Vv5mEQI.gif",
-    "description" : "Lose",
+  "Cuomosexual" : {
+    "image" : "https://i.imgur.com/f7e3JoD.png",
+    "description" : "Win Despite a Coup",
     "cannotBeCheated" : true
  },
 
