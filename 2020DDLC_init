@@ -856,10 +856,10 @@ input {
     );
   
     const song5 = new Song(
-      "You Need To Calm Down",
-      "Taylor Swift",
-      "https://files.catbox.moe/gcaq5n.png",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/CalmDown.mp3"
+      "The End",
+      "Neil Cicireiga",
+      "https://i.imgur.com/NPqk8pn.jpeg",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/The%20End.mp3"
     );
   
     const song6 = new Song(
