@@ -1222,9 +1222,9 @@ campaignTrail_temp.achievements = {
   "cannotBeCheated" : true
   },
 
-  "Alt-Delete" : {
-      "image" : "https://i.imgur.com/e46KJt9.png",
-      "description" : "Bankrupt a Gambler",
+  "Esau" : {
+      "image" : "https://i.imgur.com/MtiM28x.png",
+      "description" : "Damn an Evangelical",
       "cannotBeCheated" : true
   },
 
