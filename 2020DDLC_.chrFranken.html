@@ -192,7 +192,7 @@ campaignTrail_temp.questions_json = [
         "pk": 42548,
         "fields": {
             "priority": 0,
-            "description": "That’s it? That’s who they pick Paul Ryan—what a jerk, he’s a joke, a choke artist. A complete disaster, and a total LOSER. The Democrats should be embarrassed, how can I possibly lose to this guy. I mean did you see him speak, could barely get the words out—not all there. And the debates, he got trampled, flattened. I was saying ‘he’s asleep!’ on the stage, right there. And Kamala!? She’s the one who flattened him, I told Hannity, they've practically handed me the election. ",
+            "description": "That’s it? That’s who they pick Paul Ryan—what a jerk, he’s a joke, a choke artist. A complete disaster, and a total LOSER. The Republicans should be embarrassed, how can I possibly lose to this guy. I mean did you see him speak, could barely get the words out—not all there. And the debates, he got trampled, flattened. I was saying ‘he’s asleep!’ on the stage, right there. And Abbott!? She’s the one who flattened him, I told Hannity, they've practically handed me the election. ",
             "likelihood": 1
         }
     },
@@ -291,7 +291,7 @@ campaignTrail_temp.questions_json = [
         "pk": 42562,
         "fields": {
             "priority": 0,
-            "description": "It’s a dream, a hundred-year-old radical nazi Donald Trump is the new head of the Republicans—Goodbye. It’s over, why even vote? all my supporters could stay home and we’d still win, in a complete landslide. But, he’s sneaky—like me, everyone in the party hated his guts, and he still won, beat the crooked establishment. And now, him and his partner in socialism Ms Tammy Baldwin are going to lose. Not pretty.",
+            "description": "A spectre is haunting this election- the spectre of Donald J. Trump. The outspoken media mogul has declined to run this year, returning to his form of teasing a run but never going through with it. Nats was his preferred stalking horse in 2016, but this year he's placed his hopes in the gifted hands of Ben Carson. Paired with Louisiana firebrand John Neely Kennedy, Carson promises to 'put America first' in words almost certainly not written by himself. How do we put him down?",
             "likelihood": 1
         }
     },
@@ -30043,16 +30043,16 @@ function switcheroo1() {
 }
 function switcheroo2() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-    e.candidate_json[id].fields.first_name = "Donald"
-    e.candidate_json[id].fields.last_name = "Trump"  
-    e.candidate_json[id].fields.color_hex = "#d17c75" 
+    e.candidate_json[id].fields.first_name = "Ben"
+    e.candidate_json[id].fields.last_name = "Carson"  
+    e.candidate_json[id].fields.color_hex = "#f7323f" 
 
 }
 function switcheroo3() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(78)
     e.candidate_json[id].fields.first_name = "John"
     e.candidate_json[id].fields.last_name = "Kasich"  
-    e.candidate_json[id].fields.color_hex = "#ed0d2e" 
+    e.candidate_json[id].fields.color_hex = "#ed0d2d" 
 
 }
 function switcheroo4() {
@@ -30087,7 +30087,7 @@ function switcheroo8() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(78)
     e.candidate_json[id].fields.first_name = "Chris"
     e.candidate_json[id].fields.last_name = "Christie"  
-    e.candidate_json[id].fields.color_hex = "#7203" 
+    e.candidate_json[id].fields.color_hex = "#ce0d0d" 
 
 }
 function switcheroo9() {
@@ -32667,7 +32667,7 @@ vpTable = {
     "Donald J. Trump†" : "Mike Pence",
 
     "Paul Ryan" : "Greg Abbott",
-    "Donald Trump" : "John Kennedy",
+    "Ben Carson" : "John Kennedy",
     "Chris Christie" : "Nikki Haley",
     "Marco Rubio" : "Tim Scott",
     "Ted Cruz" : "James Lankford",
@@ -33416,10 +33416,10 @@ construct = (a = 1) => {
      const trumpWinSanders = new Playlist();
     ctsAchievement("Alt-Delete");
     const trumpwinSong = new Song(
-    "Y.M.C.A",
-    "The Village People",
-    "https://i.imgur.com/6nRaJ79.png",
-    "https://audio.jukehost.co.uk/coIcrh3oWWEBTxht066r8pJO4hZVZn9B"
+    "Flag Song",
+    "Raul Esparza",
+    "https://i.imgur.com/JmDouoK.jpeg",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/FlagSong.mp3"
     );
     trumpWinSanders.addSong(trumpwinSong);
      songChange = 1
@@ -33428,7 +33428,7 @@ construct = (a = 1) => {
     
     if (quickstats[0] <= 268 && quickstats[0] >= 151 && Dem == 2 && (SecretEnding == 0 || SecretEnding == 2 ||SecretEnding == 1 && quickstats[0] < 200)) { //Loss - Sanders
     e.pages.push(`<h3 style="text-align: center;">
-    <span style="font-size: 24px; text-decoration: underline;">Trump Defeats Monika</span><br>
+    <span style="font-size: 24px; text-decoration: underline;">Carson Defeats Monika</span><br>
     <span style="font-size: 18px; text-decoration: underline;">Pledges 'A Brighter Tomorrow'</span>
     </h3>
     <p><p><span style="padding-left: 5em;">Where was it? It doesn’t make any sense. We were doing so well, nobody had seen anything like it, and everyone was saying it. The crowds—massive, unbelievable. They were chanting, so many, all chanting it ‘We love you’ It still echoed in his head, bouncing off the walls, the floor throbbing, from the passion.</p>
@@ -33472,14 +33472,14 @@ construct = (a = 1) => {
     <p>We’ll be back, you say to yourself, America loves a comeback story...</p>`)
     // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
     //e.image = ""
-    e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/ddlrSJT.gif'})])
+    e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/RUsbeqx.png'})])
      if (songChange != 1) {    
      const trumpLossSanders = new Playlist();
     const trumpLossong = new Song(
-    "Nessun dorma",
-    "Giacomo Puccini, Luciano Pavarotti",
-    "https://i.imgur.com/Yam2mbH.png",
-    "https://audio.jukehost.co.uk/oC6gklcJuvZ7Oynaax3S6C8Uii4KpRXv"
+    "Lose Yourself",
+    "Eminem",
+    "https://i.imgur.com/GNrcAqj.jpeg",
+    "https://audio.jukehost.co.uk/Sz37vQvj3REAW7dleQ8paQF3Qhgp3A8v"
     );
     trumpLossSanders.addSong(trumpLossong);
      songChange = 1
@@ -37130,11 +37130,11 @@ e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/ohIZ86e.g
 if (quickstats[0] < 269 && quickstats[0] > 150 && Dem == 2 && (SecretEnding == 0 || SecretEnding == 2 ||SecretEnding == 1 && quickstats[0] < 200)) { // Trump - American Carnage
 e.pages.push(`<h3 style="font-weight: bold;"><span style="font-size: 20px;">r/thecampaigntrail </span></h3>
 <p style="font-size: 10px; margin-top: 8px;"><span style="background-color: orange;">Announcement</span></p>
-<p style="font-size: 16px;"><strong>Mod Announcement - American Carnage</strong></span></p>
-<p>An upset without precedent! <strong>American Carnage</strong> follows President Donald J. Trump after his norm-shattering victory in 2016. Who must now adapt to the office of the Presidency, craft an administration, and deal with domestic and foreign policy, while combating internal investigations and global catastrophes.</p>
+<p style="font-size: 16px;"><strong>Mod Announcement - Gifted Hands</strong></span></p>
+<p>An upset without precedent! <strong>Gifted Hands</strong> follows President Ben Carson after his norm-shattering victory in 2020 Who must now adapt to the office of the Presidency, craft an administration, and deal with domestic and foreign policy, while combating internal investigations and global catastrophes.</p>
 <p>In the quest for a second term.</p>
 <p>Can he do it, or will the crooked media, nasty Democrats and the whole Washington swamp steal it.</p>
-<p><img src="https://i.imgur.com/nL69x1C.gif" alt="Image" style="width: 95%;"></p>
+<p><img src="https://i.imgur.com/Hda9m3S.png" alt="Image" style="width: 95%;"></p>
 <p><strong>The Campaign Trail</strong></p>
 <p>The Campaign Trail is a browser game that lets you play as candidates running for President of the United States. You can play at <a href="https://tinyurl.com/thecampaigntrail" target="_blank">https://tinyurl.com/thecampaigntrail</a>. Created by Dan Bryan and users like you.</p>
 `)
