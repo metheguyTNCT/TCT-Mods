@@ -651,11 +651,11 @@ input {
       {searchString: "Melania", explanationText: "<img src=https://i.imgur.com/V0ScJRj.gif><br> No.3"},
   
       //Sanders
-      {searchString: "Squad", explanationText: "<img src=https://i.imgur.com/0ZpKEZv.gif><br> Nasty Women"},
+      {searchString: "Trump", explanationText: "<img src=https://i.imgur.com/mH2fwK7.gif><br> TNN founder, 2016 candidate, King of the Crazies"},
       {searchString: "Jon Tester", explanationText: "<img src=https://i.imgur.com/s0BrYS7.gif><br> Looks Pregnant"},
       {searchString: "Levin", explanationText: "<img src=https://i.imgur.com/mnYC83g.gif><br> So Great"},
       {searchString: "Musk", explanationText: "<img src=https://i.imgur.com/oLbvNUc.gif><br> Total Bitch"},
-      {searchString: "Eric", explanationText: "<img src=https://i.imgur.com/uOevoL8.gif><br> Dumber"},
+      {searchString: "Nats", explanationText: "<img src=https://files.catbox.moe/ffs48m.png><br> Kids say the darndest things."},
   
       //Warren
       {searchString: "George Soros", explanationText: "<img src=https://i.imgur.com/3wZllCP.gif><br> Satan"},
