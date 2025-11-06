@@ -856,10 +856,10 @@ input {
     );
   
     const song5 = new Song(
-      "The End",
-      "Neil Cicireiga",
-      "https://i.imgur.com/NPqk8pn.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/The%20End.mp3"
+      "You Need to Calm Down",
+      "Taylor Swift",
+      "https://files.catbox.moe/gcaq5n.png",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/CalmDown.mp3"
     );
   
     const song6 = new Song(
@@ -879,7 +879,7 @@ input {
     const song8 = new Song(
       "Just Monika",
       "Random Encounters",
-      "https://i.imgur.com/TsUekM9.jpeg",
+      "https://files.catbox.moe/xwjbi5.jpeg",
       "https://file.garden/Z7qfmQZIZjO_xV5N/embarrasment/Random%20Encounters.mp3"
     );
   
