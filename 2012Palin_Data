@@ -6,7 +6,7 @@
             "lastName": "Palin",
             "party": "Republican",
             "homeState": "Alaska",
-            "color": "#FF0000",
+            "color": "#c18082",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -34,7 +34,7 @@
                     "weight": 1
                 }
             ],
-            "description": "'",
+            "description": "you betcha",
             "imageUrl": "https://i.imgur.com/KaOWPDo.png",
             "runningMateIds": [
                 204,
@@ -51,11 +51,11 @@
             "lastName": "Webb",
             "party": "Democratic",
             "homeState": "Virginia",
-            "color": "#0000FF",
+            "color": "#002354",
             "issueScores": [
                 {
                     "issueId": 100,
-                    "issueScore": 0.35,
+                    "issueScore": 0.03,
                     "weight": 1
                 },
                 {
@@ -65,17 +65,17 @@
                 },
                 {
                     "issueId": 102,
-                    "issueScore": 0,
+                    "issueScore": -0.16,
                     "weight": 1
                 },
                 {
                     "issueId": 103,
-                    "issueScore": 0.55,
+                    "issueScore": 0.09,
                     "weight": 1
                 },
                 {
                     "issueId": 104,
-                    "issueScore": 0.55,
+                    "issueScore": 0.22,
                     "weight": 1
                 }
             ],
@@ -92,11 +92,11 @@
         },
         {
             "id": 202,
-            "firstName": "Gary",
-            "lastName": "Johnson",
-            "party": "Libertarian",
-            "homeState": "New Mexico",
-            "color": "#FFFF00",
+            "firstName": "Jon",
+            "lastName": "Huntsman",
+            "party": "Americans Elect",
+            "homeState": "Utah",
+            "color": "#767060",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -125,7 +125,7 @@
                 }
             ],
             "description": "'",
-            "imageUrl": "'",
+            "imageUrl": "https://i.imgur.com/EVOx8hi.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -135,7 +135,7 @@
             "lastName": "Biafra",
             "party": "Green",
             "homeState": "Massachusetts",
-            "color": "#00C100",
+            "color": "#037203",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -171,39 +171,39 @@
         {
             "id": 204,
             "firstName": "Mike",
-            "lastName": "Pence",
+            "lastName": "Huckabee",
             "party": "Republican",
-            "homeState": "Indiana",
+            "homeState": "Arkansas",
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/mike-pence-2016.jpg",
+            "imageUrl": "https://i.imgur.com/EZjdKES.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 205,
-            "firstName": "Chris",
-            "lastName": "Christie",
+            "firstName": "Bobby",
+            "lastName": "Jindal",
             "party": "Republican",
-            "homeState": "New Jersey",
+            "homeState": "Louisiana",
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/chris-christie-2016.jpg",
+            "imageUrl": "https://i.imgur.com/YIgwA9S.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 208,
-            "firstName": "Sarah",
-            "lastName": "Palin",
+            "firstName": "John",
+            "lastName": "Thune",
             "party": "Republican",
-            "homeState": "Alaska",
+            "homeState": "South Dakota",
             "color": "#FF0000",
             "issueScores": [],
             "description": "<p>Sarah Palin is the former Governor of Alaska and ill-fated running mate on John McCain's 2008 ticket. Many people believe that she alienated some moderate support and may have cost McCain the election. On the other hand, she endorsed your candidacy relatively early and is still something of a folk hero on the right. In any case, she would certainly help you grab an even greater share of the headlines this fall.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/sarah-palin-2016.jpg",
+            "imageUrl": "https://i.imgur.com/vueyVfA.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -235,66 +235,66 @@
         },
         {
             "id": 209,
-            "firstName": "Tim",
-            "lastName": "Kaine",
-            "party": "Democrat",
-            "homeState": "Virginia",
+            "firstName": "Deval",
+            "lastName": "Patrick",
+            "party": "Democratic",
+            "homeState": "Massachusetts",
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/tim-kaine-2016.jpg",
+            "imageUrl": "https://i.imgur.com/VJ4GKDX.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 210,
-            "firstName": "Bernie",
-            "lastName": "Sanders",
-            "party": "Democrat",
-            "homeState": "Vermont",
+            "firstName": "Russ",
+            "lastName": "Feingold",
+            "party": "Democratic",
+            "homeState": "Wisconsin",
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Bernie Sanders was your main opponent in the nomination battle. There's no pretending that the two of you have a warm relationship, but he does have fierce support from many of your potential voters. On the other hand, if you want to make the case that you're a moderate alternative to Trump's extremism, having Bernie on the ticket will not help on that front.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/bernie-sanders-2016.jpg",
+            "imageUrl": "https://i.imgur.com/s3uvDcV.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 211,
-            "firstName": "Cory",
-            "lastName": "Booker",
-            "party": "Democrat",
-            "homeState": "New Jersey",
+            "firstName": "Brian",
+            "lastName": "Schweitzer",
+            "party": "Democratic",
+            "homeState": "Montana",
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Cory Booker is a Senator from New Jersey and was also the Mayor of Newark for several years. Politically, he is a mainstream Democrat, relatively similar to Barack Obama. He is also relatively youthful, with somewhat of a national profile. Turning out the black vote, and preventing even a handful of defectors to Trump, will be essential to a Clinton victory. However, Booker inspires limited enthusiasm amongst Sanders supporters.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/cory-booker-2016.jpg",
+            "imageUrl": "https://i.imgur.com/I7QzNQD.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 212,
-            "firstName": "Elizabeth",
-            "lastName": "Warren",
-            "party": "Democrat",
-            "homeState": "Massachusetts",
+            "firstName": "Mary",
+            "lastName": "Landrieu",
+            "party": "Democratic",
+            "homeState": "Louisiana",
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Elizabeth Warren is a Senator from Massachusetts and an icon to progressive Democrats. Selecting her could be a good way to appeal to supporters of Bernie Sanders, but she will expect Clinton to adhere to progressive stances throughout the campaign, as a condition of joining the ticket. Some observers think that having two women on the ticket may be a bit much, and also point out that Warren's home state is safely Democratic.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/elizabeth-warren-2016.jpg",
+            "imageUrl": "https://i.imgur.com/lN9InzO.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 213,
-            "firstName": "Sherrod",
-            "lastName": "Brown",
-            "party": "Democrat",
+            "firstName": "Ted",
+            "lastName": "Strickland",
+            "party": "Democratic",
             "homeState": "Ohio",
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Sherrod Brown is a Senator from Ohio with a long history in that crucial state. He has generally been on the liberal end of the Democratic spectrum, but could help Clinton compete in the Midwest. Brown is reluctant to serve as a running mate this year. Clinton will need to give assurances that her change of position on trade issues, like the Trans-Pacific Partnership, is a permanent change, and was not one of political expediency.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/sherrod-brown-2016.jpg",
+            "imageUrl": "https://i.imgur.com/9ulhiPn.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -6537,7 +6537,7 @@
             "questions": [
                 {
                     "id": 1000,
-                    "description": "Gramm and Lieberman",
+                    "description": "Gramm and Lieberman and Huntsman",
                     "answers": [
                         {
                             "id": 5000,
@@ -8820,20 +8820,24 @@
                     "keepInPlaceIfQuestionsShuffled": false
                 }
             ]
+        },
+        {
+            "playerId": 202,
+            "questions": []
         }
     ],
     "theme": {
-        "backgroundImageUrl": "",
+        "backgroundImageUrl": "https://www.northescambia.com/wp-content/uploads/2008/10/palin20.jpg",
         "backgroundColor": "#BFE6FF",
-        "headerImageUrl": "https://campaigntrailshowcase.com/static/images/banners/banner_classic.png",
-        "primaryGameWindowColor": "#e8fbff",
-        "secondaryGameWindowColor": "#004080",
-        "primaryGameWindowTextColor": "#000000",
+        "headerImageUrl": "https://i.imgur.com/FltVb2o.jpeg",
+        "primaryGameWindowColor": "#0b2135",
+        "secondaryGameWindowColor": "#132b43",
+        "primaryGameWindowTextColor": "#ffffff",
         "secondaryGameWindowTextColor": "#e9e9e9",
-        "bottomBannerBackgroundColor": "#0000D1",
+        "bottomBannerBackgroundColor": "#123656",
         "bottomBannerTextColor": "#FFFFFF",
-        "advisorImage": "https://www.jetsimon.com/public/static/images/kendall-weed-1844.jpg",
-        "quote": "\"John was the decider.\""
+        "advisorImage": "https://i.imgur.com/0VFWa4q.png",
+        "quote": "\"I'm mad as hell, and I'm not going to take this anymore!\""
     },
     "historicalResults": {
         "popularVotes": {
@@ -8850,8 +8854,8 @@
         }
     },
     "hasStateVisits": false,
-    "scenarioName": "2012: Sarahcuda",
-    "scenarioDescription": "<p>Donald Trump and Hillary Clinton face off in the 2016 election. While he is well-known among the American public, Trump has never served in elected office. Clinton has served as First Lady, Senator, and Secretary of State. Clinton was the presumptive nominee from start to finish, while Trump has shocked the political world.</p><p>How will their campaign play out? Can Trump pull off an upset? Can Clinton continue the legacy of Obama?</p>",
+    "scenarioName": "2012: Double Down",
+    "scenarioDescription": "<p>With John McCain shockingly declining to run for a second term, the American people are fed up. One need only look at the candidates running to succeed him for proof.</p> <ul><li>Scraping by after a divided primary, Jim Webb hopes to rally the working class in order to create a winning coalition.</li><li>Vice President Sarah Palin must strike a balance between defending the toxically unpopular McCain administration and appealing to her conservative base.</li> <li>Fresh off of nearly knocking Palin off her perch during the Republican primary, Jon Huntsman aims to show both candidates that the center cannot be ignored.</ul>",
     "scenarioImageUrl": "https://i.imgur.com/IwD1lz5.png",
     "credits": "by Dan Bryan, converted by Jet",
     "music": [
@@ -8861,18 +8865,28 @@
             "imageUrl": "https://f4.bcbits.com/img/a2103506501_65"
         },
         {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Radicals.mp3",
+            "displayName": "Radicals- Tyler, the Creator",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d8c1b5fc9a7b58bd3a1c0a7c"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Backpackers%20-%20Childish%20Gambino.mp3",
+            "displayName": "Backpackers- Childish Gambino",
+            "imageUrl": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F84e84f918a6b65616031289ce5ab2f4d.1000x1000x1.png"
+        },
+        {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Primadonna.mp3",
             "displayName": "Primadonna- Marina and the Diamonds",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/81/Marina_and_the_Diamonds_-_Electra_Heart.png"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Stronger.mp3",
-            "displayName": "Stronger- Kelly Clarkson",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273253e3f8fce535f72a6b2c4ba"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Million%20Dollar%20Man.mp3",
+            "displayName": "Million Dollar Man- Lana Del Ray",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f894be72a77b1488292672c7"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/PalinPolka.mp3",
-            "displayName": "Sherman and Larsen- The Palin for President Polka",
+            "displayName": "The Palin for President Polka- Sherman and Larsen",
             "imageUrl": "https://i.imgur.com/lHqNnhT.jpeg"
         },
         {
