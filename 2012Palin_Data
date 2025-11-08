@@ -34,7 +34,7 @@
                     "weight": 1
                 }
             ],
-            "description": "you betcha",
+            "description": "<p>Dan Quayle is  the former Vice President of the United States. After a strong showing in Iowa, (triumphing over his former boss's son, among others), Quayle ran away with the nomination. <br><br> The Quayle campaign is equal parts populist tirades against 'liberal Republicans' and stressing his experience as Vice President (especially in foreign policy). With Pat Buchanan declining a run with the Reform Party to endorse him, the Republican party faithful are fired up and united behind Quayle. However, the thing most Americans know Quayle for is his numerous and embarrassing gaffes in office, from his misspelling of 'potato' to his feud with Murphy Brown. But if Quayle can get past all that, the prospect of a Quayle presidency- long derided by comedians - might not be so far-fetched.</p>",
             "imageUrl": "https://i.imgur.com/KaOWPDo.png",
             "runningMateIds": [
                 204,
@@ -79,7 +79,7 @@
                     "weight": 1
                 }
             ],
-            "description": "'",
+            "description": "<p>Dan Quayle is  the former Vice President of the United States. After a strong showing in Iowa, (triumphing over his former boss's son, among others), Quayle ran away with the nomination. <br><br> The Quayle campaign is equal parts populist tirades against 'liberal Republicans' and stressing his experience as Vice President (especially in foreign policy). With Pat Buchanan declining a run with the Reform Party to endorse him, the Republican party faithful are fired up and united behind Quayle. However, the thing most Americans know Quayle for is his numerous and embarrassing gaffes in office, from his misspelling of 'potato' to his feud with Murphy Brown. But if Quayle can get past all that, the prospect of a Quayle presidency- long derided by comedians - might not be so far-fetched.</p>",
             "imageUrl": "https://i.imgur.com/j5WuaqG.png",
             "runningMateIds": [
                 211,
@@ -124,9 +124,11 @@
                     "weight": 1
                 }
             ],
-            "description": "'",
+            "description": "<b>[NOT PLAYABLE, CONTEXT ONLY]</b><br>Al Gore  enters the 2000 election as the current Vice President of the United States, after previously serving as Senator from Tennessee for several years, becoming known for his strong stances on environmental issues. Gore’s father was also in Congress for many years, and he has himself been a well-respected VP, contrasting the record of Quayle.<br>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision, as this means that Gore is essentially campaigning on two fronts. Due to Quayle's poor history in the public eye, Gore starts out with a solid lead, but he has to be careful in order to not let it slip. Will Gore succeed and continue the Third-Way policies of Clinton, or will he fail to rise to the occasion?\n",
             "imageUrl": "https://i.imgur.com/EVOx8hi.png",
-            "runningMateIds": [],
+            "runningMateIds": [
+                214
+            ],
             "startingGlobalMultiplier": 1
         },
         {
@@ -300,14 +302,14 @@
         },
         {
             "id": 214,
-            "firstName": "Jim",
-            "lastName": "Gray",
-            "party": "Libertarian",
-            "homeState": "Massachusetts",
+            "firstName": "Chuck",
+            "lastName": "Hagel",
+            "party": "Republican",
+            "homeState": "Nebraska",
             "color": "#FFFF00",
             "issueScores": [],
             "description": "'",
-            "imageUrl": "'",
+            "imageUrl": "https://i.imgur.com/rMl3p2p.jpeg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -3102,7 +3104,7 @@
             "questions": [
                 {
                     "id": 1042,
-                    "description": "Let's step back a couple years. In the run-up to the 2016 election, you have the luxury of being your party's presumptive nominee, along with a significant amount of time to prepare for the campaign. How will you take advantage of this time?",
+                    "description": "Webb announces his candidacy",
                     "answers": [
                         {
                             "id": 5139,
@@ -3291,11 +3293,11 @@
                 },
                 {
                     "id": 1044,
-                    "description": "There was a mass shooting at a gay nightclub in Orlando overnight, perpetrated by a Muslim, resulting in 50 people killed. What is your reaction?",
+                    "description": "You take your place alongside Hillary Clinton, Bernie Sanders, Evan Bayh, Deval Patrick, Brian Schweitzer, Dennis Kucinich, Stephen Colbert, and Alvin Greene on the debate stage. You're seen as a bit of a long shot right now, but this is your chance to break out of the pack. ",
                     "answers": [
                         {
                             "id": 5147,
-                            "description": "Donald Trump is already using this shooting as an excuse for his vile and unfounded attacks on an entire religion. We are better than that as a nation, and we deserve better than that from our President.",
+                            "description": "Hillary's the frontrunner here; it only makes sense to come out swinging at her. She's everything wrong with Washington politics. Do we really need four more years of the Clinton soap opera?",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -3323,7 +3325,7 @@
                         },
                         {
                             "id": 5148,
-                            "description": "Thoughts and prayers are not enough. Every American should be outraged that the assault rifles used in these attacks are freely available and affordable.",
+                            "description": "We need to expand our coalition. Obama lost because he turned off the ancestral Democrats- I'm the guy who can bring them back in. I'll never call our voters 'bitter clingers.'",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -3351,8 +3353,8 @@
                         },
                         {
                             "id": 5149,
-                            "description": "My heart goes out the victims of this shooting. I will be going to Orlando in the next couple of days to pay my respects to the victims.",
-                            "feedback": "",
+                            "description": "The reason i'm not higher up in the polls is that people don't know me. Let's talk about my story, from my heroism in the Marines to my multiple books. It's all-American stuff, and it should play well.",
+                            "feedback": "grenade",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -3372,7 +3374,7 @@
                         },
                         {
                             "id": 5150,
-                            "description": "We don't know yet the exact motives behind this attack, but I condemn religious terrorism in the strongest terms if that is the motive. And my heart especially goes out to the Hispanic and LGBT communities that were affected by this terrible act of violence.",
+                            "description": "Bipartisanship is what's sorely needed in our politics. I served as Secretary of the Navy under Reagan, and I got the Post 9/11 GI Bill passed- I know how to get things done.",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -8837,7 +8839,7 @@
         "bottomBannerBackgroundColor": "#123656",
         "bottomBannerTextColor": "#FFFFFF",
         "advisorImage": "https://i.imgur.com/0VFWa4q.png",
-        "quote": "\"I'm mad as hell, and I'm not going to take this anymore!\""
+        "quote": "\"I would have to say the enemy soldier that threw the grenade that wounded me, but he's not around right now to talk to.\""
     },
     "historicalResults": {
         "popularVotes": {
@@ -8857,7 +8859,7 @@
     "scenarioName": "2012: Double Down",
     "scenarioDescription": "<p>With John McCain shockingly declining to run for a second term, the American people are fed up. One need only look at the candidates running to succeed him for proof.</p> <ul><li>Scraping by after a divided primary, Jim Webb hopes to rally the working class in order to create a winning coalition.</li><li>Vice President Sarah Palin must strike a balance between defending the toxically unpopular McCain administration and appealing to her conservative base.</li> <li>Fresh off of nearly knocking Palin off her perch during the Republican primary, Jon Huntsman aims to show both candidates that the center cannot be ignored.</ul>",
     "scenarioImageUrl": "https://i.imgur.com/IwD1lz5.png",
-    "credits": "by Dan Bryan, converted by Jet",
+    "credits": "This scenario was made by metheguy.",
     "music": [
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/AmericanSpring.mp3",
@@ -8875,6 +8877,11 @@
             "imageUrl": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F84e84f918a6b65616031289ce5ab2f4d.1000x1000x1.png"
         },
         {
+            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Killer%20Mike%20-%20Reagan%20(Official%20Music%20Video).mp3",
+            "displayName": "Reagan- Killer Mike",
+            "imageUrl": "https://www.shazam.com/mkimage/image/thumb/Music124/v4/82/5b/e4/825be449-6658-622e-1816-5bcb305cfc0c/838446001851.jpg/255x255bb-60.webp"
+        },
+        {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Primadonna.mp3",
             "displayName": "Primadonna- Marina and the Diamonds",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/81/Marina_and_the_Diamonds_-_Electra_Heart.png"
@@ -8885,9 +8892,9 @@
             "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f894be72a77b1488292672c7"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/PalinPolka.mp3",
-            "displayName": "The Palin for President Polka- Sherman and Larsen",
-            "imageUrl": "https://i.imgur.com/lHqNnhT.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Stronger.mp3",
+            "displayName": "Stronger- Kelly Clarkson",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ca/Kelly_Clarkson_-_Stronger.jpg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Trophy%20Vice.mp3",
@@ -8895,7 +8902,7 @@
             "imageUrl": "https://files.catbox.moe/1xhl2d.avif"
         }
     ],
-    "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://slate.com/news-and-politics/2015/01/jim-webb-wants-to-be-a-white-mans-democrat-the-former-virginia-senators-message-shouldnt-be-dismissed.html\" target=”_blank”>Jamelle Bouie- A White Man’s Democrat\n</a></br><a href=\"https://www.salon.com/2009/06/16/president_mccain/\" target=”_blank”>Micheal Lind- It is summer 2009, and John McCain is president</a></br><a href=\"https://www.amazon.com/Profiles-Ignorance-Americas-Politicians-Dumber/dp/1668003880\" target=”_blank”>Andy Borowitz- Profiles in Ignorance</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a></br><a href=\"https://archive.org/details/choosemeportrait0000grac/page/62/mode/2up\" target=”_blank”>Arthur Grase - Choose Me: Portraits of a Presidential Race</a></br><a href='https://www.presidency.ucsb.edu/documents' target='_blank'>The American Presidency Project</a> ",
+    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://slate.com/news-and-politics/2015/01/jim-webb-wants-to-be-a-white-mans-democrat-the-former-virginia-senators-message-shouldnt-be-dismissed.html\" target=”_blank”>Jamelle Bouie- A White Man’s Democrat\n</a></br><a href=\"https://www.salon.com/2009/06/16/president_mccain/\" target=”_blank”>Micheal Lind- It is summer 2009, and John McCain is president</a></br><a href=\"https://www.amazon.com/Profiles-Ignorance-Americas-Politicians-Dumber/dp/1668003880\" target=”_blank”>Andy Borowitz- Profiles in Ignorance</br><a href=\"https://archive.org/details/gamechange00john\" target=”_blank”> John Heilemann and Mark Halperin - Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime</a>",
     "tooltips": [
         {
             "key": "Gramm",
@@ -8904,6 +8911,34 @@
         {
             "key": "Lieberman",
             "value": "<img src=https://i.imgur.com/uyhutTI.png>  McCain's man for State."
+        },
+        {
+            "key": "Hillary Clinton",
+            "value": "<img src=https://i.imgur.com/Njvj4XE.png>  The frontrunner, for now. Does this seem familiar to anyone else?"
+        },
+        {
+            "key": "Bernie Sanders",
+            "value": "<img src=https://i.imgur.com/uBPVgm0.png>  The insurgent voice of the left. Not even a real Democrat."
+        },
+        {
+            "key": "Stephen Colbert",
+            "value": "<img src=https://i.imgur.com/acOeOdO.jpeg>  Comedian running a half-joke, half serious campaign for the nomination."
+        },
+        {
+            "key": "Evan Bayh",
+            "value": "<img src=https://i.imgur.com/xvYtj5P.png>  The smart money's pick for the nomination. Bill Clinton without the charisma."
+        },
+        {
+            "key": "Dennis Kucinich",
+            "value": "<img src=https://i.imgur.com/jT4bsos.png>  Fiery peacenik activist, taking a third shot at it."
+        },
+        {
+            "key": "Alvin Greene",
+            "value": "<img src=https://i.imgur.com/y7kr3pK.jpeg>  Just plain bizarre. Ensuring Colbert is only the second-funniest man running for the nomination."
+        },
+        {
+            "key": "Clinton soap opera",
+            "value": "<img src=https://i.imgur.com/n4wTYxp.jpeg> "
         }
     ]
 }
