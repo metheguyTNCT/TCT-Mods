@@ -15,20 +15,22 @@ These are not done yet, but I intend on making them soon, or did at one point.
 - *1996Perot*
 -  *2008g*
 -  *2024Way (Cruz)*
+-  *2012Palin*
   
 **Mockups:**
 Pretty straightforward.
 - *1996Way*
-- *2020DDLC*
 - *American Calamity*
 
 
-**Unesscarily Complex Mockups [UCMs]:**
+**Unnecessarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
 - *Al.*
 - *2008: All The Way*
 - *2008Vice (Lieberman)*
 - *2016DDLC*
+- *2020DDLC*
+
   
 **Recreations:**
 These mods were announced, but never released. These are my recreations of them.
@@ -46,6 +48,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *2004 Maverick* by jackreacher
 - *2008Vice* by Galen
 - *2016Wildfire* by Paul
+- *2016: Tough as Texas* by theMcCain
 - *1948: Identity War* by Efficient_Concert
 - *American Carnage* by Thatchmaster
 - *W.* by Mango
