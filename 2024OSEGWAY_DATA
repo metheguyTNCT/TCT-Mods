@@ -42,7 +42,8 @@
                 208,
                 206
             ],
-            "startingGlobalMultiplier": 1
+            "startingGlobalMultiplier": 1,
+            "bannerImageUrl": ""
         },
         {
             "id": 201,
@@ -78,8 +79,8 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>By all rights, Joe Biden shouldn't be here right now. His time was 1988. Or was it 1992? 2004? '08? Maybe 2016? Whenever it was, it's clear to anyone who watches him in action that it's long passed.</p><p>Nonetheless, Biden couldn't just stand idly by as Trump made a mockery of his country. He jumped into the 2020 race, and he's ruing the consequences of that decision to this day. Grappling with rising prices at home and rising tensions abroad, along with record low approval ratings, it'll be a tough fight for Joe. But he'll win. He has to. For the soul of the nation.</p>",
-            "imageUrl": "https://i.imgur.com/QxprMNw.png",
+            "description": "<p>By all rights, Joe Biden shouldn't be here right now. His time was 1988. Or was it 1992? 2004? '08? Maybe 2016? Whenever it was, it's clear to anyone who watches him in action that it's long passed. The segregationist-loving Senator behind the draconian Clinton crime bill has given way to a feeble old man.</p><p>Nonetheless, Biden couldn't just stand idly by as Trump made a mockery of his country. He jumped into the 2020 race, and he's ruing the consequences of that decision to this day. Grappling with rising prices at home and rising tensions abroad, along with record low approval ratings, it'll be a tough fight for Joe. But he'll win. He has to. For the soul of the nation.</p>",
+            "imageUrl": "https://i.imgur.com/fRsm3SG.jpeg",
             "runningMateIds": [
                 209
             ],
@@ -119,7 +120,7 @@
                     "weight": 1
                 }
             ],
-            "description": "</p>This was Donald Trump's election to  lose. Twice-impeached, indicted many times over, and aged, he nonetheless was set to sweep the Republican primaries with ease and then move on to the general. He was the king of the party.<p>Until he wasn't. Lyin' Ted, of all people, managed to steal the nomination.</p>",
+            "description": "</p>This was Donald Trump's election to  lose. Twice-impeached, indicted many times over, and aged, he nonetheless was set to sweep the Republican primaries with ease and then move on to the general. He was the king of the party.<p>Until he wasn't. Lyin' Ted, of all people, managed to steal the nomination. Trump's objective in this election is clear. He must make Cruz rue the day he challenged him, and reassert his wing in time for 2028. On the way, he must deal  with the standard challenges for third parties, continued legal woes, and an electorate growing tired of him, all without the backing, however tentative, of the Republican establishment. This election will be the ultimate test of Trump as a political force. Will he pass?</p>",
             "imageUrl": "https://i.imgur.com/Atomj4S.png",
             "runningMateIds": [
                 210,
@@ -164,7 +165,7 @@
                 }
             ],
             "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
-            "imageUrl": "https://i.imgur.com/sEGo9Ph.png",
+            "imageUrl": "https://i.imgur.com/7eLDnli.png",
             "runningMateIds": [
                 214,
                 207,
@@ -194,7 +195,7 @@
             "homeState": "Kansas",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>Mike Pompeo has certainly come a long way. Starting out as a fierce critic of Trump when he was running in 2016, he became famous for his deference to him after he was elected, to the point he was called a 'heat-seeking missile for Trump's ass.' Now, as Trump ventures ever farther into the radical right, they're back at odds.</p><p>Pompeo mulled a presidential bid himself, but eventually opted not to. Selecting him would orient this campaign firmly in an interventionist direction, glavanizing Trump's base, but if that's what you want, then by all means pick him.</p>",
+            "description": "<p>Mike Pompeo has certainly come a long way. Starting out as a fierce critic of Trump when he was running in 2016, he became famous for his deference to him after he was elected, to the point he was called a 'heat-seeking missile for Trump's ass.' Now, as Trump ventures ever farther into the radical right, they're back at odds.</p><p>Pompeo mulled a presidential bid himself, but eventually opted not to. Selecting him would orient this campaign firmly in an interventionist direction, galvanizing Trump's base against you, but if that's what you want, then by all means pick him.</p>",
             "imageUrl": "https://i.imgur.com/bngoFvU.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -220,7 +221,7 @@
             "homeState": "New Jersey",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>On the other hand, what has being nice to Donald Trump ever done for you recently? You're running against the guy, after all. If you want to take an aggressive stance against the Donald, there are few better choices than Chris Christie.</p><p>placeholder second paragraph.</p>",
+            "description": "<p>On the other hand, what has being nice to Donald Trump ever done for you recently? You're running against the guy, after all. If you want to take an aggressive stance against the Donald, there are few better choices than Chris Christie.</p><p>After the humiliation of Bridgegate and the farce that was his tenure in the Trump White House, Christie was presumed to be a spent force in politics. In a real sense, he is, but his presidential campaign this year, building its foundation on virulent attacks on Christie's ex-boss, thrust him back into the national conversation. Christie was propositioned as a candidate for No Labels, but Trump's loss rendered that moot. Christie would signal that you intend to bring the fight to Trump, and would moderate your image. But Christie has a mountain of skeletons in his closet, skeletons your opponents would only be too happy to unearth.</p>",
             "imageUrl": "https://i.imgur.com/D1jefHq.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -9576,7 +9577,7 @@
     },
     "hasStateVisits": true,
     "scenarioName": "2024-Way",
-    "scenarioDescription": "<p>As Joe Biden's tumultuous first term comes to an end, malaise grips America. After a shock loss to Ted Cruz, a vengeful Donald Trump has announced an independent bid, as has longtime Biden foe Joe Manchin.</p><ul><li>Cruz attempts to tamp down the MAGA revolt and offer conservative solutions to the problems of Biden's term.</li><li>Biden must allay concerns about his age and defend his presidency.</li><li>Donald Trump must wreck Cruz's chances and show the continued viability of MAGA as a political force.</li><li>Manchin must leverage the unpopularity of the three other candidates to prove there's a significant demand for a centrist course.</li></ul>",
+    "scenarioDescription": "<p>As Joe Biden's tumultuous first term comes to an end, malaise grips America. After a shock loss to Ted Cruz, a vengeful Donald Trump has announced an independent bid, as has longtime Biden foe Joe Manchin.</p><ul><li>Cruz attempts to tamp down the MAGA revolt and offer conservative solutions to the problems of Biden's term.</li><li>Biden must allay concerns about his age and defend his presidency.</li><li>Donald Trump must wreck Cruz's chances and show the continued viability of MAGA as a political force.</li><li>Manchin must leverage dissatisfaction with the three other candidates to prove there's a significant demand for a centrist course.</li></ul>Despite the expanded field, all four candidates are still historically unpopular. Who'll win the race to the bottom?",
     "scenarioImageUrl": "https://i.imgur.com/dXWzAjD.png",
     "credits": "This scenario was made by Metheguy.",
     "music": [
@@ -9586,19 +9587,19 @@
             "imageUrl": "https://i.imgur.com/3KuY0BJ.jpeg"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Crooks.mp3",
-            "displayName": "Liars, Cheats, & Crooks- Five Times August",
-            "imageUrl": "https://i.imgur.com/kASwWlf.jpeg"
-        },
-        {
-            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Justice%20for%20All.mp3",
-            "displayName": "Justice For All- J6 Prison Choir ft. Donald Trump",
-            "imageUrl": "https://i.imgur.com/OMimje8.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Exum.mp3",
+            "displayName": "Come On!- Kyle Exum",
+            "imageUrl": "https://i.imgur.com/MopiECJ.jpeg"
         },
         {
             "url": "https://files.catbox.moe/yunbs8.mp3",
             "displayName": "AMERICA HAS A PROBLEM- Beyoncé ft. Kendrick Lamar)",
             "imageUrl": "https://i.imgur.com/PDzoUys.jpeg"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Crooks.mp3",
+            "displayName": "Liars, Cheats, & Crooks- Five Times August",
+            "imageUrl": "https://i.imgur.com/kASwWlf.jpeg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Mackleless.mp3",
@@ -9609,11 +9610,6 @@
             "url": "https://files.catbox.moe/ipb503.mp3",
             "displayName": "Living In The '20s- Green Day",
             "imageUrl": "https://i.imgur.com/NuZ8izI.jpeg"
-        },
-        {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/TOP%20OF%20THE%20WORLD.mp3",
-            "displayName": "TOP OF THE WORLD- Pleasantries",
-            "imageUrl": "https://files.catbox.moe/uc783n.jpg"
         }
     ],
     "furtherReading": "The <a href='https://www.presidency.ucsb.edu/documents' target='_blank'>American Presidency Project</a> is a great place to find nearly every sort of document you could need for a mod. It was especially useful for getting a general idea of everyone's speaking styles. Other than that, my main source was the fact that I lived through the damn thing.</a>",
@@ -9636,11 +9632,11 @@
         },
         {
             "key": "a fair world",
-            "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again....."
+            "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again..."
         },
         {
             "key": "things that never were",
-            "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again....."
+            "value": "<img src=https://i.imgur.com/pCcMLOb.png> Say that again..."
         }
     ]
 }
