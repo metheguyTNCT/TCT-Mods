@@ -20,6 +20,7 @@ These are not done yet, but I intend on making them soon, or did at one point.
 **Mockups:**
 Pretty straightforward.
 - *1996Way*
+- *1996: Despair*
 - *American Calamity*
 
 
