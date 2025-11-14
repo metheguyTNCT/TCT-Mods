@@ -19,7 +19,7 @@ campaignTrail_temp.election_json = [
 
 campaignTrail_temp.modBoxTheme = {
   "header_color": "#004F6E",       // new teal
-  "header_image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Modbox%20Header",
+  "header_image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Modbox%20Header",
   "header_text_color": "#fff",
   "description_text_color": "#000",
   "description_background_color": "#ffffff",
@@ -65,7 +65,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#CD0B0A",
           "secondary_color_hex": "#DC5B5A",
           "is_active": 0,
-          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
           "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
           "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Despairfully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Despairfully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
@@ -88,7 +88,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#09C100",
           "secondary_color_hex": "#A1FFA1",
           "is_active": 0,
-          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
           "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
           "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Despairfully that doesn't lead to a backlash.</p>",
           "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Despairfully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
@@ -111,7 +111,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#800080",
           "secondary_color_hex": "#FFFFC0",
           "is_active": 0,
-          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Republicans...%20Broke%3F",
           "electoral_victory_message": "Never happening",
           "electoral_loss_message": "Expected",
           "no_electoral_majority_message": "",
@@ -134,7 +134,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0000f5",
           "secondary_color_hex": "#FFA0A0",
           "is_active": 0,
-          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/AlG%20Background",
+          "image_url": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/AlG%20Background",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
@@ -300,7 +300,7 @@ jet_data = {
   "windowColor": "#011521",
   "containerColor": "#011521",
   "innerWindowColor": "#003D58",
-  "bannerImageUrl": "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Banner",
+  "bannerImageUrl": "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Banner",
   "endingTextColor": "#fff",
   "customQuote": "",
   "gameTitle": "DESPAIR"
@@ -339,11 +339,11 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 $(".container")[0].style.backgroundColor = "#ffffff";
 
 
-document.getElementById("header").src = "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Banner";
+document.getElementById("header").src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Banner";
 
 
 
-document.body.background = "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/DC%20Background";
+document.body.background = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/DC%20Background";
 document.body.style.backgroundPosition = "25% 75%";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "cover"; // or "contain" depending on your needs
@@ -434,11 +434,11 @@ const css = `
 /* fonts!*/
     @font-face {
   font-family: digital;
-  src: url(https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Fonts/digital);
+  src: url(https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Fonts/digital);
 }
     @font-face {
   font-family: silkscreen;
-  src: url(https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Fonts/silkscreen);
+  src: url(https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Fonts/silkscreen);
 }
 
 @font-face {
@@ -467,7 +467,7 @@ const css = `
 }
 	
 #game_window {
-  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Window%20Cartoon"); 
+  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Window%20Cartoon"); 
 	font-smooth: never;
   -webkit-font-smoothing: never;
   -moz-osx-font-smoothing: never;
@@ -494,25 +494,25 @@ const css = `
 
 /*cool image popouts*/
 #election_description_window::after {
-  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/Clinton%20ED");
+  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/Clinton%20ED");
   height: 215px;
   width: 215px;
 }
 
 #candidate_description_window::after {
-  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/BC");
+  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/BC");
   height: 360px;
   width: 244px;
 }
 
 #running_mate_description_window::after {
-  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%201%20Misc/AlG");
+  background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%201%20Misc/AlG");
   height: 280px;
   width: 250px;
 }
 /*code 2 setup*/
 #campaign_sign {
-    background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Code%202%20Misc/Init%20Sign");
+    background-image: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Code%202%20Misc/Init%20Sign");
     background-size: cover;
     border-color: #c9c9c9;    
     border-width: .01em;
@@ -978,7 +978,7 @@ text-rendering: optimizeSpeed;
 /*music player (it's long)*/
 
 #player::before {
-    content: url("https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Fonts/marantz");
+    content: url("https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Fonts/marantz");
     background-size: cover; /* Or contain, or specific dimensions */
     background-repeat: no-repeat;
 position: relative;
@@ -1900,19 +1900,19 @@ controls.id = "controls";
 
 const prevButton = document.createElement("img");
 prevButton.id = "prevButton";
-prevButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Music%20player/Previous";
+prevButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Music%20player/Previous";
 prevButton.alt = "Previous";
 controls.appendChild(prevButton);
 
 const playPauseButton = document.createElement("img");
 playPauseButton.id = "playPauseButton";
-playPauseButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Music%20player/Play%20Pause"; // Set the default play image
+playPauseButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Music%20player/Play%20Pause"; // Set the default play image
 playPauseButton.alt = "Play/Pause";
 controls.appendChild(playPauseButton);
 
 const nextButton = document.createElement("img");
 nextButton.id = "nextButton";
-nextButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Music%20player/Next";
+nextButton.src = "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Music%20player/Next";
 nextButton.alt = "Next";
 controls.appendChild(nextButton);
 
@@ -2214,42 +2214,42 @@ e.collect_results=true;
 
 campaignTrail_temp.achievements = {
     "Where's The Outrage?" : {
-        "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Dole",
+        "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Dole",
         "description" : "Win reelection against Bob Dole.",
         "cannotBeCheated" : true
     },
   "Suicide of a Superpower" : {
-        "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Buchanan",
+        "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Buchanan",
         "description" : "Win reelection against Pat Buchanan.",
         "cannotBeCheated" : true
     },
     "Rage Against the Machine" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Forbes",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Forbes",
     "description" : "Win reelection against Steve Forbes.",
     "cannotBeCheated" : true
   },
     "Easy as ABC" : {
-      "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Alexander",
+      "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Alexander",
       "description" : "Win reelection against Lamar Alexander.",
       "cannotBeCheated" : true
   },
   "Damn Yankee" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Gramm",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Gramm",
     "description" : "Win reelection against Phil Gramm.",
     "cannotBeCheated" : true
   },
   "Life Among the Cannibals" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Specter",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Specter",
     "description" : "Win reelection against Arlen Specter.",
     "cannotBeCheated" : true
   },
   "Great Incarcerator" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Opponents/Wilson",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Opponents/Wilson",
     "description" : "Win reelection against Pete Wilson.",
     "cannotBeCheated" : true
   },
   "Olympus Has Fallen" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Secret%20Opponents/Olympus",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Olympus",
     "description" : "Fight. Win. Prevail.",
     "cannotBeCheated" : true
   },
@@ -2259,17 +2259,17 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
   },
   "Goin' Home" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Secret%20Opponents/Star",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Star",
     "description" : "Extinguish a star.",
     "cannotBeCheated" : true
   },
   "Breach Of Contract" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Secret%20Opponents/Breach",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Breach",
     "description" : "Resist the Serpent's temptations.",
     "cannotBeCheated" : true
   },
   "The Prosecution Rests" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Secret%20Opponents/Prosecution",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Secret%20Opponents/Prosecution",
     "description" : "Be found innocent.",
     "cannotBeCheated" : true
   },
@@ -2304,7 +2304,7 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
   },
   "Man of Zeal" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Win%20Conditions/Man%20of%20Zeal",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Win%20Conditions/Man%20of%20Zeal",
     "description" : "Let Congress work its magic.",
     "cannotBeCheated" : true
   },
@@ -2334,7 +2334,7 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
   },
   "Renewal" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Win%20Conditions/Renewal",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Win%20Conditions/Renewal",
     "description" : "Cement the middle class.",
     "cannotBeCheated" : true
   },
@@ -2354,7 +2354,7 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
   },
   "Pandora's Box" : {
-    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Despair%20Images/Achievements/Pandora",
+    "image" : "https://file.garden/Zsz7wL96OyyJ2oZe/Hope%20Images/Achievements/Pandora",
     "description" : "Find the cost of clean hands.",
     "cannotBeCheated" : true
   },
