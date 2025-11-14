@@ -1785,8 +1785,8 @@ function setupMusicPlayer() {
     "3:17"
   );
     const song3 = new Song(
-  "Love Me, Im A Liberal",
-  "Jello Biafra",
+  "Love Me, I'm A Liberal",
+  "Jello Biafra, Mojo Nixon",
   "https://file.garden/Z7qfmQZIZjO_xV5N/Love%20Me%2C%20I'm%20a%20Liberal.mp3",
   "4:03"
 );
@@ -1799,22 +1799,22 @@ function setupMusicPlayer() {
   );
   
   const song5 = new Song(
-  "Roll With It",
-  "Oasis",
-  "https://audio.jukehost.co.uk/dTAcK0HcGyvlDNhuKM3Rw4e8XpOWmnEr",
-  "4:00"
+  "Hook",
+  "Blues Traveler",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/Hook.mp3",
+  "4:49"
 );
   const song6 = new Song(
   "My Iron Lung",
   "Radiohead",
-  "https://audio.jukehost.co.uk/Eo1j0lO1IAfevZYHDFgmWXMcEBCBgVHN",
+  "https://audio.jukehost.co.uk/RuxwGLrfbYEIfD7OTWQwI3fcCyhq0cnC",
   "4:37"
 );
 const song7 = new Song(
-  "Ambitionz Az A Ridah",
-  "2Pac",
-  "https://audio.jukehost.co.uk/8ZMOxDCq19Ahv3yCnHCLfypo1fwuLELj",
-  "4:38"
+  "They Don't Care About Us",
+  "Micheal Jackson",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/TheyDontCare.mp3",
+  "4:44"
 );
 
 	
