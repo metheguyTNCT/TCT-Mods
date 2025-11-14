@@ -1779,23 +1779,23 @@ function setupMusicPlayer() {
     "3:39"
   );
   const song2 = new Song(
-    "If I Like It, I Do It",
-    "Jamiroquai",
-    "https://audio.jukehost.co.uk/pmA6w3xNc1KSvZZ68NWyleCM2QDz3xqq",
-    "4:53"
+    "American Jesus",
+    "Bad Religion",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/American%20Jesus.mp3",
+    "3:17"
   );
     const song3 = new Song(
-  "When I Come Around",
-  "Green Day",
-  "https://audio.jukehost.co.uk/a7u66X8FobTgCuPtdGj91PD3RqTR8nbV",
-  "2:58"
+  "Love Me, Im A Liberal",
+  "Jello Biafra",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/Love%20Me%2C%20I'm%20a%20Liberal.mp3",
+  "4:03"
 );
 
   const song4 = new Song(
-    "Best Imitation Of Myself",
-    "Ben Folds Five",
-    "https://audio.jukehost.co.uk/kndnZicFxfNmpFL1oZm1zHfsuQOMt0k8",
-    "2:38"
+    "Mister Bellows",
+    "John Mellencamp",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Bellows.mp3",
+    "4:26"
   );
   
   const song5 = new Song(
