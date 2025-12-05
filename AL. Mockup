@@ -727,17 +727,17 @@ if(!campaignTrail_temp.loaded1){
     );
   
     const song6 = new Song(
-      "Love Me, I'm a Liberal",
-      "Jello Biafra",
-      "https://i.scdn.co/image/ab67616d0000b273b79cc4b3ecfbb32b8ca78c6a",
-      "https://audio.jukehost.co.uk/9oOaNn0HQwCSGnTjzwCXnybZnnClVZ99"
+      "Jesus Walks",
+      "Kanye West",
+      "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/Jesus%20Walks.mp3"
     );
   
     const song7 = new Song(
-      "Virtual Insanity",
-      "Jamiroquai",
-      "https://i.scdn.co/image/ab67616d0000b2739f0d8f5039a572dbfc21e368",
-      "https://audio.jukehost.co.uk/R1rX5dSAQ0ViwsOpYBqtgNDoMQJH6NLd"
+      "John and Elvis are Dead",
+      "George Michael",
+      "https://i.scdn.co/image/ab67616d00001e022d7847e92ea987a81adb699f",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/JohnAndElvis.mp3"
     );
   
     playlist.addSong(song1);
@@ -1012,64 +1012,84 @@ if(!campaignTrail_temp.loaded1){
   }
   
   campaignTrail_temp.achievements = {    
-  "Best Served Cold" : {
+  "Wrong Church, Wrong Pew" : {
     "image" : "https://i.imgur.com/wfniYvg.png",
-    "description" : "Face Jeb Bush for re-election.",
+    "description" : "Face George Pataki for re-election.",
     "cannotBeCheated" : true
   },
-  "Faith of My Fathers" : {
+  "Brown Sugar" : {
     "image" : "https://i.imgur.com/o02Nrte.png",
-    "description" : "Face John McCain for re-election.",
+    "description" : "Face Condi Rice for re-election.",
     "cannotBeCheated" : true
   },
-  "Hope to Higher Ground" : {
+  "Break It, Own It" : {
     "image" : "https://i.imgur.com/wGJdJmc.png",
-    "description" : "Face Mike Huckabee for re-election.",
-    "cannotBeCheated" : true
-  },
-  "Sundance" : {
-    "image" : "https://i.imgur.com/HVzc22K.png",
-    "description" : "Face Rudy Giuliani for re-election.",
-    "cannotBeCheated" : true
-  },
-  "Poor Little Rich Boy" : {
-      "image" : "https://i.imgur.com/Pbh5m2O.png",
-      "description" : "Face Steve Forbes for re-election.",
-      "cannotBeCheated" : true
-  },
-  "Golden Opportunity" : {
-      "image" : "https://i.imgur.com/04dXX1l.png",
-      "description" : "Face Ronald Paul for re-election.",
-      "cannotBeCheated" : true
-  },
-  "You Break It, You Buy It" : {
-    "image" : "https://i.imgur.com/srtEUUh.png",
     "description" : "Face Colin Powell for re-election.",
     "cannotBeCheated" : true
   },
-  "Surviving at the Top" : {
+  "Exit, Pursued by a Bear" : {
+    "image" : "https://i.imgur.com/HVzc22K.png",
+    "description" : "Face Norman Schwarzkopf for re-election.",
+    "cannotBeCheated" : true
+  },
+  "These Are Their Stories" : {
+      "image" : "https://i.imgur.com/Pbh5m2O.png",
+      "description" : "Face Fred Thompson for re-election.",
+      "cannotBeCheated" : true
+  },
+  "A Place Called Hope" : {
+      "image" : "https://files.catbox.moe/paqd1e.png",
+      "description" : "Face Mike Huckabee for re-election.",
+      "cannotBeCheated" : true
+  },
+  "That One" : {
+    "image" : "https://i.imgur.com/srtEUUh.png",
+    "description" : "Face John McCain for re-election.",
+    "cannotBeCheated" : true
+  },
+  "It Connotes Excitement" : {
     "image" : "https://i.imgur.com/N7TuA1Q.png",
-    "description" : "Face Donald Trump for re-election.",
+    "description" : "Face Jeb Bush for re-election.",
     "cannotBeCheated" : true
   },
-  "Fort Sumter" : {
-    "image" : "https://i.imgur.com/BQ5EzS8.png",
-    "description" : "Face Newt Gingrich for re-election.",
+  "Golden Opportunity" : {
+    "image" : "https://i.imgur.com/HvwfoIQ.png",
+    "description" : "Face Ron Paul for re-election.",
     "cannotBeCheated" : true
   },
-  "Cotton on the Roadside" : {
-    "image" : "https://i.imgur.com/xozHLtS.png",
+  "Big Hair" : {
+    "image" : "https://files.catbox.moe/4cnerc.png",
     "description" : "Face Trent Lott for re-election.",
     "cannotBeCheated" : true
   },
-  "Angler" : {
+  "Truth Isn't Truth" : {
     "image" : "https://i.imgur.com/bR6wPj8.png",
-    "description" : "Face Dick Cheney for re-election.",
+    "description" : "Face Rudy Giuliani for re-election.",
     "cannotBeCheated" : true
   },
-  "The Nuclear Option" : {
-    "image" : "https://i.imgur.com/q1z1cMT.png",
-    "description" : "Face Richard Lugar for re-election.",
+  "McGoverniks" : {
+    "image" : "https://files.catbox.moe/9fy3ni.jpg",
+    "description" : "Face Newt Gingrich for re-election.",
+    "cannotBeCheated" : true
+  },
+  "Earth Quaker" : {
+    "image" : "https://i.imgur.com/srtEUUh.png",
+    "description" : "Face Pete Wilson for re-election.",
+    "cannotBeCheated" : true
+  },
+  "Mosh Through the Marsh" : {
+    "image" : "https://i.imgur.com/N7TuA1Q.png",
+    "description" : "Face Alan Keyes for re-election.",
+    "cannotBeCheated" : true
+  },
+  "Wealthcare" : {
+    "image" : "https://files.catbox.moe/1gvp5j.png",
+    "description" : "Face Steve Forbes for re-election.",
+    "cannotBeCheated" : true
+  },
+  "Fruit-Loopy Things" : {
+    "image" : "https://i.imgur.com/xozHLtS.png",
+    "description" : "Face Ross Perot for re-election.",
     "cannotBeCheated" : true
   }
-  }
+}
