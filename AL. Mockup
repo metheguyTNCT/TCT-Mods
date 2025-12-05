@@ -706,10 +706,10 @@ if(!campaignTrail_temp.loaded1){
     );
   
     const song3 = new Song(
-      "Sleep Now in the Fire",
-      "Rage Against the Machine",
-      "https://upload.wikimedia.org/wikipedia/en/5/51/RAtM-BattleofLosAngeles.jpeg",
-      "https://audio.jukehost.co.uk/qozzcT2pN8to9iZLd5rrOoXVLIXF24mo"
+      "Trust Me, I Work for the Government",
+      "Robert Ellis Orrall",
+      "https://i.imgur.com/lpgdAIQ.jpeg",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Trust%20Me%2C%20I%20Work%20for%20the%20Government%20-%20Robert%20Ellis%20Orrall.mp3"
     );
   
     const song4 = new Song(
@@ -720,10 +720,10 @@ if(!campaignTrail_temp.loaded1){
     );
   
     const song5 = new Song(
-      "The List",
-      "The Right Brothers",
-      "https://lastfm.freetls.fastly.net/i/u/300x300/e19882848b4a4c3f9611adb461721b3c.bin",
-      "https://audio.jukehost.co.uk/87yCsTF6rPJcmBNQqFpRuBD8o2RcCk1S"
+      "Idiots are Taking Over",
+      "NOFX",
+      "https://files.catbox.moe/fqoxoe.jpg",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/Idiots.mp3"
     );
   
     const song6 = new Song(
