@@ -699,17 +699,17 @@ if(!campaignTrail_temp.loaded1){
     );
     
     const song2 = new Song(
-      "The Love of Richard Nixon",
-      "Manic Street Preachers",
-      "https://i.discogs.com/bj6cfOHDGdKSI456r0xhINxmUn8r8yeFr0hVTExFcwE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4Nzc0/MjAtMTQ5NDcwOTAw/Mi0zNTg2LmpwZWc.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/LoveOfNixon.mp3"
+      "Anatomy of Your Enemy",
+      "Anti-Flag",
+      "https://i.scdn.co/image/ab67616d0000b273840d1bea5c1c255e8bf19c91",
+      "https://file.garden/aR6kfGEzxHQ5DUic/Anatomy%20of%20Your%20Enemy.mp3"
     );
   
     const song3 = new Song(
-      "Trust Me, I Work for the Government",
-      "Robert Ellis Orrall",
-      "https://i.imgur.com/lpgdAIQ.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Trust%20Me%2C%20I%20Work%20for%20the%20Government%20-%20Robert%20Ellis%20Orrall.mp3"
+      "Freedom",
+      "Rage Against the Machine",
+      "https://i.scdn.co/image/ab67616d0000b273d819be879538f7cb8f0a5309",
+      "https://file.garden/aR6kfGEzxHQ5DUic/Freedom.mp3"
     );
   
     const song4 = new Song(
@@ -1013,27 +1013,27 @@ if(!campaignTrail_temp.loaded1){
   
   campaignTrail_temp.achievements = {    
   "Wrong Church, Wrong Pew" : {
-    "image" : "https://i.imgur.com/wfniYvg.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/PatakiAchievement.png",
     "description" : "Face George Pataki for re-election.",
     "cannotBeCheated" : true
   },
   "Brown Sugar" : {
-    "image" : "https://i.imgur.com/o02Nrte.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/RiceAchievement.png",
     "description" : "Face Condi Rice for re-election.",
     "cannotBeCheated" : true
   },
   "Break It, Own It" : {
-    "image" : "https://i.imgur.com/wGJdJmc.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/PowellAchievement.png",
     "description" : "Face Colin Powell for re-election.",
     "cannotBeCheated" : true
   },
   "Exit, Pursued by a Bear" : {
-    "image" : "https://i.imgur.com/HVzc22K.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/SchwarzkopfAchievement.png",
     "description" : "Face Norman Schwarzkopf for re-election.",
     "cannotBeCheated" : true
   },
   "These Are Their Stories" : {
-      "image" : "https://i.imgur.com/Pbh5m2O.png",
+      "image" : "https://file.garden/aR6kfGEzxHQ5DUic/ThompsonAchievement.png",
       "description" : "Face Fred Thompson for re-election.",
       "cannotBeCheated" : true
   },
@@ -1043,12 +1043,12 @@ if(!campaignTrail_temp.loaded1){
       "cannotBeCheated" : true
   },
   "That One" : {
-    "image" : "https://i.imgur.com/srtEUUh.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/McCainAchievement.png",
     "description" : "Face John McCain for re-election.",
     "cannotBeCheated" : true
   },
   "It Connotes Excitement" : {
-    "image" : "https://i.imgur.com/N7TuA1Q.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/BushAchievement.png",
     "description" : "Face Jeb Bush for re-election.",
     "cannotBeCheated" : true
   },
@@ -1063,7 +1063,7 @@ if(!campaignTrail_temp.loaded1){
     "cannotBeCheated" : true
   },
   "Truth Isn't Truth" : {
-    "image" : "https://i.imgur.com/bR6wPj8.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/RudyAchievement.png",
     "description" : "Face Rudy Giuliani for re-election.",
     "cannotBeCheated" : true
   },
@@ -1073,12 +1073,12 @@ if(!campaignTrail_temp.loaded1){
     "cannotBeCheated" : true
   },
   "Earth Quaker" : {
-    "image" : "https://i.imgur.com/srtEUUh.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/WilsonAchievement.png",
     "description" : "Face Pete Wilson for re-election.",
     "cannotBeCheated" : true
   },
-  "Mosh Through the Marsh" : {
-    "image" : "https://i.imgur.com/N7TuA1Q.png",
+  "Try Decaf" : {
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/KeyesAchievement.png",
     "description" : "Face Alan Keyes for re-election.",
     "cannotBeCheated" : true
   },
@@ -1088,7 +1088,7 @@ if(!campaignTrail_temp.loaded1){
     "cannotBeCheated" : true
   },
   "Fruit-Loopy Things" : {
-    "image" : "https://i.imgur.com/xozHLtS.png",
+    "image" : "https://file.garden/aR6kfGEzxHQ5DUic/PerotAchievement.png",
     "description" : "Face Ross Perot for re-election.",
     "cannotBeCheated" : true
   }
