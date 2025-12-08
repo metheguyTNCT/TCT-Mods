@@ -54,6 +54,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *1948: Identity War* by Efficient_Concert
 - *American Carnage* by Thatchmaster
 - *W.* by Mango
+- *Unburdened* by IjbolVeteran (Astro? Mango?)
 - *Obamanation* by Accurate Feature
 
 **Edge Cases:**
