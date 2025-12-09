@@ -58297,50 +58297,50 @@ const ads = [
 	
     function switcheroo1() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Hillary"
-        e.candidate_json[id].fields.last_name = "Clinton" 
-        e.candidate_json[id].fields.color_hex = "#4E809C" 
+        e.candidate_json[id].fields.first_name = "John"
+        e.candidate_json[id].fields.last_name = "McCain" 
+        e.candidate_json[id].fields.color_hex = "#ff6763" 
     }
     function switcheroo2() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Al"
-        e.candidate_json[id].fields.last_name = "Gore"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#cc4545"
+        e.candidate_json[id].fields.first_name = "Jeb"
+        e.candidate_json[id].fields.last_name = "Bush"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#e52340"
         var id = campaignTrail_temp.candidate_json.map(p=>p.pk).indexOf(77)
         campaignTrail_temp.candidate_json[id].fields.color_hex = "#1a3170"
     }
     function switcheroo3() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "John"
-        e.candidate_json[id].fields.last_name = "Edwards"   
-        e.candidate_json[id].fields.color_hex = "#6e7096" 
+        e.candidate_json[id].fields.first_name = "Mike"
+        e.candidate_json[id].fields.last_name = "Huckabee"   
+        e.candidate_json[id].fields.color_hex = "#690000" 
     }
     function switcheroo4() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Paul"
-        e.candidate_json[id].fields.last_name = "Wellstone"  
-        e.candidate_json[id].fields.color_hex = "#5478c7" 
+        e.candidate_json[id].fields.first_name = "Rudy"
+        e.candidate_json[id].fields.last_name = "Giuliani"  
+        e.candidate_json[id].fields.color_hex = "#cb0104" 
     
     }
     function switcheroo5() {
         var id = campaignTrail_temp.candidate_json.map(p=>p.pk).indexOf(78)
-        campaignTrail_temp.candidate_json[id].fields.first_name = "Joe"
-        campaignTrail_temp.candidate_json[id].fields.last_name = "Lieberman"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#524970"
+        campaignTrail_temp.candidate_json[id].fields.first_name = "Newt"
+        campaignTrail_temp.candidate_json[id].fields.last_name = "Gingrich"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#8d1011"
     
     }
     function switcheroo6() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Al"
-        e.candidate_json[id].fields.last_name = "Sharpton"  
-        e.candidate_json[id].fields.color_hex = "#808fd1" 
+        e.candidate_json[id].fields.first_name = "Ron"
+        e.candidate_json[id].fields.last_name = "Paul"  
+        e.candidate_json[id].fields.color_hex = "#d0622c" 
     
     }
     function switcheroo7() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Edward"
-        e.candidate_json[id].fields.last_name = "Kennedy"   
-        e.candidate_json[id].fields.color_hex = "#4b5a82"
+        e.candidate_json[id].fields.first_name = "Colin"
+        e.candidate_json[id].fields.last_name = "Powell"   
+        e.candidate_json[id].fields.color_hex = "#ae1146"
         var id = campaignTrail_temp.candidate_json.map(p=>p.pk).indexOf(77)
         campaignTrail_temp.candidate_json[id].fields.color_hex = "#8f3838"
     
@@ -58348,8 +58348,8 @@ const ads = [
 	// 3rd party 
 	function switcheroo8() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
-        e.candidate_json[id].fields.first_name = "Ron"
-        e.candidate_json[id].fields.last_name = "Paul"
+        e.candidate_json[id].fields.first_name = "Gary"
+        e.candidate_json[id].fields.last_name = "Johnson"
         
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 80 && x.fields.issue == 27)[0].fields.issue_score = -1.1
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 80 && x.fields.issue == 28)[0].fields.issue_score = -1.1
@@ -58359,10 +58359,10 @@ const ads = [
     }
     function switcheroo9() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
-        e.candidate_json[id].fields.first_name = "Jesse"
-        e.candidate_json[id].fields.last_name = "Ventura"
+        e.candidate_json[id].fields.first_name = "Pat"
+        e.candidate_json[id].fields.last_name = "Buchanan"
         VenturaRunning += 1;
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#826187"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#d095e3"
     }
     function switcheroo10() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
@@ -58427,21 +58427,21 @@ const ads = [
 	// W Plus Candidates 
     function switcheroo17() { // Killary
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Hillary R."
-        e.candidate_json[id].fields.last_name = "Clinton"   
-        e.candidate_json[id].fields.color_hex = "#66748a"    
+        e.candidate_json[id].fields.first_name = "Condoleezza"
+        e.candidate_json[id].fields.last_name = "Rice"   
+        e.candidate_json[id].fields.color_hex = "#cd303e"    
     }
     function switcheroo18() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Richard"
-        e.candidate_json[id].fields.last_name = "Gephardt"   
-        e.candidate_json[id].fields.color_hex = "#3655a8"    
+        e.candidate_json[id].fields.first_name = "George"
+        e.candidate_json[id].fields.last_name = "Pataki"   
+        e.candidate_json[id].fields.color_hex = "#ff9899"    
     }
     function switcheroo19() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Robert"
-        e.candidate_json[id].fields.last_name = "Byrd"   
-        e.candidate_json[id].fields.color_hex = "#25314f"   
+        e.candidate_json[id].fields.first_name = "Alan"
+        e.candidate_json[id].fields.last_name = "Keyes"   
+        e.candidate_json[id].fields.color_hex = "#240102"   
         
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 78 && x.fields.issue == 27)[0].fields.issue_score = 0.0
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 78 && x.fields.issue == 28)[0].fields.issue_score = 0.4
@@ -58451,21 +58451,21 @@ const ads = [
     }
     function switcheroo20() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Wesley"
-        e.candidate_json[id].fields.last_name = "Clark"   
-        e.candidate_json[id].fields.color_hex = "#346f99"    
+        e.candidate_json[id].fields.first_name = "Trent"
+        e.candidate_json[id].fields.last_name = "Lott"   
+        e.candidate_json[id].fields.color_hex = "#ad2324"    
     }
     function switcheroo21() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Gary"
-        e.candidate_json[id].fields.last_name = "Hart"   
-        e.candidate_json[id].fields.color_hex = "#1f3394"    
+        e.candidate_json[id].fields.first_name = "Pete"
+        e.candidate_json[id].fields.last_name = "Wilson"   
+        e.candidate_json[id].fields.color_hex = "#67211f"    
     }
     function switcheroo22() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Steve"
-        e.candidate_json[id].fields.last_name = "Jobs"   
-        e.candidate_json[id].fields.color_hex = "#828c99"    
+        e.candidate_json[id].fields.last_name = "Forbes"   
+        e.candidate_json[id].fields.color_hex = "#d43534"    
 
         pictureDict[19] = "https://i.imgur.com/zgdItLf.png"
         pictureDict[23] = "https://i.imgur.com/h2FOZ39.png"
@@ -58474,9 +58474,9 @@ const ads = [
     }
     function switcheroo23() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Robert"
-        e.candidate_json[id].fields.last_name = "Rubin"   
-        e.candidate_json[id].fields.color_hex = "#8b8091"    
+        e.candidate_json[id].fields.first_name = "Ross"
+        e.candidate_json[id].fields.last_name = "Perot"   
+        e.candidate_json[id].fields.color_hex = "#e14d4c"    
 
         let index = menuItemsA.findIndex(item => item.id === 'JOBS_A');
         if (index !== -1) {
@@ -59026,9 +59026,9 @@ const ads = [
 
 
         if(ans == 9301 || ans == 9038 ){
-            campaignTrail_temp.running_mate_last_name="Frist"
-            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/ibW2MSz.png"
-            vpTable["George W. Bush"] = "Bill Frist";
+            campaignTrail_temp.running_mate_last_name="Graham"
+            campaignTrail_temp.running_mate_image_url="https://i.imgur.com/dfPak9R.png"
+            vpTable["Al Gore"] = "Bob Graham";
 			e.VPisCandidate += 1;
 			VicePres += 1;
 			
@@ -60037,26 +60037,26 @@ const ads = [
 let vpName = "ERROR YOU DIDN'T SET ME";
 
 vpTable = {
-    "George W. Bush" : vpName,
+    "Al Gore" : vpName,
 	
-    "Paul Wellstone" : "Max Cleland",
-    "Al Gore" : "Barbara Boxer",
-    "Hillary Clinton" : "Mark Warner",
-	"Joe Lieberman" : "Mary Landrieu",
-    "John Edwards" : "Ed Rendell",
-	"Al Sharpton" : "Dick Durbin",
-	"Edward Kennedy" : "Roy Barnes",
+    "Rudy Giuliani" : "Rick Santorum",
+    "Jeb Bush" : "Bill Frist",
+    "John McCain" : "Tim Pawlenty",
+	"Newt Gingrich" : "Bob Taft",
+    "Mike Huckabee" : "Elizabeth Dole",
+	"Ron Paul" : "Lincoln Chafee",
+	"Colin Powell" : "Kay Bailey Hutchison",
 
-	"Robert Byrd" : "John Conyers",
-	"Hillary R. Clinton" : "John McCain",
-	"Richard Gephardt" : "Bill Richardson",
-	"Gary Hart" : "Bob Graham",
-	"Wesley Clark" : "Jim Hodges",
-	"Steve Jobs" : "Robert Rubin",
-	"Robert Rubin" : "Barack Obama",
+	"Alan Keyes" : "Joe Scarborough",
+	"Condoleezza Rice" : "George Allen",
+	"George Pataki" : "Jack Kingston",
+	"Pete Wilson" : "Lindsey Graham",
+	"Trent Lott" : "Mitt Romney",
+	"Steve Forbes" : "Sam Brownback",
+	"Ross Perot" : "Chuck Hagel",
 	
-	"Ron Paul" : "Aaron Russo",
-	"Jesse Ventura" : "Paul Newman",
+	"Gary Johnson" : "Aaron Russo",
+	"Pat Buchanan" : "Betsy McCaughey",
 	"Bob Dornan" : "Chuck Baldwin",
 	"Ted Turner" : "Lenora Fulani",
 	"Lowell Weicker" : "Tom Golisano",
@@ -60148,7 +60148,7 @@ let KucinichFake = { photo: 'https://i.imgur.com/bWmy4I5.png', name: 'Lincoln Ch
 
 const menuItemsA = [
     { photo: 'https://i.imgur.com/CYekD0E.png', name: 'Jeb Bush', text: 'Just as much a cowboy as his brother but half as compassionate, Governor Jeb Bush is for all intents and purposes the H.W successor he wanted all along. A shrewd fighter, Jeb will only enter the fray if no one else will.', button: 'Defer', id: 'GORE_A'},
-    { photo: 'https://i.imgur.com/LzBQn3o.png', name: 'John McCain', text: 'Senator Clinton has publicly ruled out a run for the White House, though a divided field and wavering agenda may lure her into the race.', button: 'Defer', id: 'CLINTON_A'},
+    { photo: 'https://i.imgur.com/LzBQn3o.png', name: 'John McCain', text: 'Senator McCain is champing at the bit to make another run for the White House, though a divided field and wavering agenda may lure her into the race.', button: 'Defer', id: 'CLINTON_A'},
     { photo: 'https://i.imgur.com/QcnkO7T.png', name: 'Mike Huckabee', text: 'Not exactly the successor your ex-boss had in mind. Mike Huckabee is as far right as it gets while still being electable. If the race is focused on domestic issues, Huckabee would be the man who gets feet stamping on the floor.', button: 'Defer', id: 'WELLSTONE_A'},
     { photo: 'https://i.imgur.com/KewJ3js.png', name: 'Rudy Giuliani', text: 'The moderate mayor of New York and three time divorcee, to call Rudy bizarre would be generous. He thinks he can insult his way to the Presidency, but you would have to be a pretty poor President for that to be the case.', button: 'Defer', id: 'EDWARDS_A'},
     { photo: 'https://i.imgur.com/ih7W8c5.png', name: 'Steve Forbes', text: 'The flat-tax apostle is taking a third shot at it it. The magic has worn off by this point. If he gains any traction whatsoever, something must have gone horribly wrong.', button: 'Defer', id: 'SHARPTON_A'},
@@ -63028,74 +63028,74 @@ else if ( quickstats[0] < 270 && Dem == 11 && e.player_answers.includes(13163)) 
               <p>By Mika Aaltola, <i>Intelligent Life</i> | The Economist<br>Op-ed, April 12th, 2007<br><br>Last month, I was alongside a gaggle of other journalists invited to watch the President of the United States give an address at the Senato de Publica (Senate of the Republic) in Rome, Italy. Now usually it is the other way around, with foreign leaders coming to America to address Congress as a display of international camaraderie, but surprisingly, President Clark has decided to stick it the other way.<br><br>With the elegant poise of a general, President Clark would waste no time in addressing the elephant in the room: the specter of Russian influence in Europe. And the agenda was covered concisely with the simple request to the allies of Moscow, stop backing the regime. But this time, the President went a step further. <br><br>“Up north, in the Italian heartland, is a small nation that has, regrettably, chosen to align itself with the authoritarians in the Kremlin. Right in your own backyard.”<br><br>San Marino, a landlocked enclave nestled within the Italian Peninsula, has traditionally maintained a neutral stance in foreign affairs. Recently however, an uptick in Gazprom investments, such as a cheque for one-hundred-thousand US dollars to reportedly “build a new medical school” display that the Captains Regent in the Palazzo has made his stance clear. To some, President Clark’s directness may come off as ‘brash’ or ‘impulsive’. However, such criticisms fail to grasp the game of geopolitical chess being played by the Clark administration. It is clear that his actions are guided by a deep-seated conviction in the righteousness of the Western cause above all else.<br><br>In an article from <i>The Politico</i> that was released just yesterday, a European diplomat, speaking candidly on the condition of anonymity, stated: “What we are seeing is a dangerous game of brinkmanship,” and in that same article, the magazine stated that sources close to Chancellor Merz suggest that he is “pissed off” at the perceived disregard for European interests in the face of American assertiveness.<br><br>But the leadership in both Berlin and Brussels must realize that the alternative to Clark is far grimmer. And to Chancellor Merz, I say this: instead of dwelling on perceived slights and petty squabbles over diplomatic protocol, focus on the broader stratagems at hand. Democracy in the western world cannot afford anything else. <br><br>In President Clark, we finally have a leader who is not content to stand by and watch as the forces of authoritarianism gather strength against us. Instead, he is leading the charge against tyranny with courage and conviction. Thus reminding us all that the fight for freedom is always one worth fighting.</p>`)
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/JN9jlVf.pngg'})])
 }
-else if ( quickstats[0] >= 270 && Dem == 1 ) { // Base - Clinton 
+else if ( quickstats[0] >= 270 && Dem == 1 ) { // Base - McCain 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/o4VkSr6.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Hillary Clinton plays on the nostalgia of her husband’s presidency in hopes of becoming the nation’s first female president.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/Q21NHzR.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Hillary Clinton plays on the nostalgia of her husband’s presidency in hopes of becoming the nation’s first female president.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
-else if ( quickstats[0] >= 270 && Dem == 2 ) { // Base - Gore 
+else if ( quickstats[0] >= 270 && Dem == 2 ) { // Base - Bush 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/CgSMAVu.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Al Gore returns to rematch Bush following a sobering loss at the hands of the Supreme Court 4 years ago.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/FCFGZ42.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Al Gore returns to rematch Bush following a sobering loss at the hands of the Supreme Court 4 years ago.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
-else if ( quickstats[0] >= 270 && Dem == 3 ) { // Base - Edwards 
+else if ( quickstats[0] >= 270 && Dem == 3 ) { // Base - Giuliani 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/5j8sIdR.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while John Edwards characterizes the administration as out of touch with the American working class in a populist turn from the previous Democratic ticket.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/fo2fzhq.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while John Edwards characterizes the administration as out of touch with the American working class in a populist turn from the previous Democratic ticket.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
-else if ( quickstats[0] >= 270 && Dem == 4 ) { // Base - Wellstone 
+else if ( quickstats[0] >= 270 && Dem == 4 ) { // Base - Gingrich 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/vUYlmLI.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Paul Wellstone crashes onto the national scene to rekindle the flame of liberalism in the Democratic Party to stand toe to toe with a wartime president.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/4mXVuOK.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Paul Wellstone crashes onto the national scene to rekindle the flame of liberalism in the Democratic Party to stand toe to toe with a wartime president.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
-else if ( quickstats[0] >= 270 && Dem == 5 ) { // Base - Lieberman 
+else if ( quickstats[0] >= 270 && Dem == 5 ) { // Base - Forbes 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/GCXST2w.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Joseph Lieberman rematches with Bush following their clash 4 years ago to explain why he provides a more sensible path forward for the nation.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/KbvFB9u.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Joseph Lieberman rematches with Bush following their clash 4 years ago to explain why he provides a more sensible path forward for the nation.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
-else if ( quickstats[0] >= 270 && Dem == 6 ) { // Base - Sharpton 
+else if ( quickstats[0] >= 270 && Dem == 6 ) { // Base - Paul 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/dkzq1nb.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Al Shartpon comes off of a losing streak to make his case that the Bush administration can’t be trusted to handle the problems of domestic America.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/Lobk9nW.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Al Shartpon comes off of a losing streak to make his case that the Bush administration can’t be trusted to handle the problems of domestic America.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 7 ) { // Base - Kennedy 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/j3lpyjz.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Edward Kennedy invokes his brothers’ legacies in a vindictive run for the past of the Democratic Party.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/4VVwmCT.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Edward Kennedy invokes his brothers’ legacies in a vindictive run for the past of the Democratic Party.<br>Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 8 ) { // Base - Killary 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/bWVJ8Xl.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Hillary Clinton utilizes nostalgia for the better days of unity in Washington in hopes of becoming the nation’s first female president. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/pTQJ01o.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Hillary Clinton utilizes nostalgia for the better days of unity in Washington in hopes of becoming the nation’s first female president. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 9 ) { // Base - Gephardt 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/eEoiXum.png>	<br>Moderates in both parties breathe a sigh of relief as moderate House Speaker Dick Gephardt champions the Democratic nomination from a slate of various student-backed candidates.<ul><li>George Bush is seeking re-election as a war time president who has lacking domestic accomplishments.</li><li>Dick Gephardt has moderate rapport with strong credentials, and seems to be up to the task of uniting his party.</li></ul>The candidates are discussing how best to handle the war in the middle east, social security, and other issues. Bush leads in the polls, while Gephardt has a bit of a trust problem with the left.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/XG5yJ5M.png>	<br>Moderates in both parties breathe a sigh of relief as moderate House Speaker Dick Gephardt champions the Democratic nomination from a slate of various student-backed candidates.<ul><li>George Bush is seeking re-election as a war time president who has lacking domestic accomplishments.</li><li>Dick Gephardt has moderate rapport with strong credentials, and seems to be up to the task of uniting his party.</li></ul>The candidates are discussing how best to handle the war in the middle east, social security, and other issues. Bush leads in the polls, while Gephardt has a bit of a trust problem with the left.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 10 ) { // Base - Byrd 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/vQqNyix.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Robert Byrd scrambles to create a winning coalition from scrap in an effort to stop the warpath he believes the country is on. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/4H9f8EU.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Robert Byrd scrambles to create a winning coalition from scrap in an effort to stop the warpath he believes the country is on. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 11 ) { // Base - Clark 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/vq0o0Nv.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Wesley Clark rallies the troops against what he believes is a lacking foreign policy from the Bush Administration. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/3Prs9lq.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Wesley Clark rallies the troops against what he believes is a lacking foreign policy from the Bush Administration. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 12 ) { // Base - Hart 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/d8vc3c8.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Gary Hart warns the country of its complacency and ignorance of foreign threats. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/avegBv0.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Gary Hart warns the country of its complacency and ignorance of foreign threats. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 13 ) { // Base - Jobs 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/iERyjim.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Steve Jobs rides a wave of popular support through the cycle, commanding the nation's attention. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/mZaOiFg.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Steve Jobs rides a wave of popular support through the cycle, commanding the nation's attention. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] >= 270 && Dem == 14 ) { // Base - Rubin 
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/X5CyUMN.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Robert Rubin salvages the remains of the Jobs campaign, hoping to pull off a comeback. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2004</option></select><br><img src=https://i.imgur.com/5UXzg51.png>	<br>George W. Bush attempts to reunite his party following a troublesome first term, while Robert Rubin salvages the remains of the Jobs campaign, hoping to pull off a comeback. Bush's scandals between missing Pentagon funds, the bankruptcy of Enron, and personal tensions between him and vice president Cheney take the forefront of the election all the while tensions across the world crescendo upon the unpopular president.<br><button>Continue</button></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
 }
 else if ( quickstats[0] < 270 && Dem == 1 ) { // Losses - Clinton 
