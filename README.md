@@ -27,7 +27,7 @@ Pretty straightforward.
 
 **Unnecessarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
-- *Al.*
+- *The Prince of Tennessee*
 - *2008: All The Way*
 - *2008Vice (Lieberman)*
 - *2016DDLC*
@@ -50,6 +50,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *2004 Maverick* by jackreacher
 - *2008Vice* by Galen
 - *2016Wildfire* by Paul
+- *1948b* by Senator Cringe
 - *2012: Razistorija* by Memorandum Teloptnik
 - *1948: Identity War* by Efficient_Concert
 - *American Carnage* by Thatchmaster
