@@ -38,6 +38,7 @@ These mockups also have code 2s.
 These mods were announced, but never released. These are my recreations of them.
 - *2024Way (DeSantis)* by Neo and Decstar
 - *2016Revolution* by Rubix
+- *1984b* by Tex
 
 **Facelifts:**
 These are mods that other people made, but i added some cosmetic changes too. I put them here so I can play with my changes applied whenever I play them.
