@@ -3999,44 +3999,44 @@ document.addEventListener('keydown', function(event) {
 });
 
 campaignTrail_temp.achievements = {
-  "Fidelity<br>⠀" : {
-    "image" : "https://i.imgur.com/3kWc1Q4.png",
-    "description" : "Win re-election with Long by your side.",
+  "Cowboy Actors⠀" : {
+    "image" : "https://i.imgur.com/Kvggw2G.png",
+    "description" : "Defeat the Gipper.",
     "cannotBeCheated" : true
   },
-  "Obedience<br>⠀" : {
-    "image" : "https://i.imgur.com/sAqWotP.png",
-    "description" : "Win re-election with the assistance of Mephistopheles.",
+  "A True Trophy⠀" : {
+    "image" : "https://i.imgur.com/BYbyKHA.png",
+    "description" : "Defeat the American Grendel.",
     "cannotBeCheated" : true
   },  
-  "Principalities<br>⠀" : {
-    "image" : "https://i.imgur.com/MX1Lmzb.png",
-    "description" : "Defeat Nelson Rockefeller.",
+  "Fair is Foul and Foul is Fair : {
+    "image" : "https://i.imgur.com/2mPuMkH.png",
+    "description" : "Defeat the false face.",
     "cannotBeCheated" : true
   },
-  "Virtues<br>⠀" : {
-    "image" : "https://i.imgur.com/43ulV7K.png",
-    "description" : "Defeat Chuck Percy.",
+  "Presidential Hopeful" : {
+    "image" : "https://i.imgur.com/c51XJhh.png",
+    "description" : "Defeat the empty man.",
     "cannotBeCheated" : true
   },
-  "Powers<br>⠀" : {
-    "image" : "https://i.imgur.com/N5JTglP.png",
-    "description" : "Defeat Barry Goldwater.",
+  "To Everything There Is A Season" : {
+    "image" : "https://i.imgur.com/N2kQKcT.png",
+    "description" : "Defeat the Lone Ranger.",
     "cannotBeCheated" : true
   },
   "Cherubim<br>⠀" : {
-    "image" : "https://i.imgur.com/sVvGpRZ.png",
+    "image" : "https://i.imgur.com/iA4rGj6.png",
     "description" : "Defeat John Lindsay.",
     "cannotBeCheated" : true
   },
-  "Angels<br>⠀" : {
-    "image" : "https://i.imgur.com/6mldUV3.png",
-    "description" : "Defeat Ted Agnew.",
+  "The Song of Napalm" : {
+    "image" : "https://i.imgur.com/TftEjd0.png",
+    "description" : "Keep on living, despite those who burn behind your eyes.",
     "cannotBeCheated" : true
   },
-  "Archangels<br>⠀" : {
-    "image" : "https://i.imgur.com/gbRcOgf.png",
-    "description" : "Defeat Ronald Reagan.",
+  "The Battle Hymm" : {
+    "image" : "https://i.imgur.com/NCZurlp.png",
+    "description" : "March on.",
     "cannotBeCheated" : true
   },
   "Dominions<br>⠀" : {
