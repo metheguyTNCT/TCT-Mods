@@ -965,7 +965,7 @@ document.body.background = "https://i.imgur.com/lRtDE0o.png";
 
 document.getElementById("header").src = "https://file.garden/Z7qfmQZIZjO_xV5N/AmericaIsHard.webp";
 
-document.body.background = "https://i.imgur.com/AW3OKHP.png";
+document.body.background = "https://file.garden/Z7qfmQZIZjO_xV5N/il_794xN.6255538723_bl1n.webp";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;}</style>";
 
