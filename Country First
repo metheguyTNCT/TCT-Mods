@@ -73,7 +73,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Heartland",
             "priority": 2,
             "description": "<p></p>",
-            "color_hex": '#910c0c',// "#0000",
+            "color_hex": '#00346b',// "#0000",
             "secondary_color_hex": '#9badc4',// "#90C0",
             "is_active": 0,
             "image_url": "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/a4od9z3.jpeg",
