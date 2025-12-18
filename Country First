@@ -67,7 +67,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 78,
         "fields": {
             "first_name": "The",
-            "last_name": "Republican Party",
+            "last_name": "Democratic Party",
             "election": 9,
             "party": "Republican",
             "state": "The Heartland",
@@ -2220,12 +2220,12 @@ function playSong(audio, uiElements) {
 
 function setupMusicPlayer() {
     const songData = [
-        { title: "Mr. President", artist: "LL COOL J", genre: "Hip-Hop", cover: "https://i.scdn.co/image/ab67616d0000b273b3fe5e4addac88e3d07e476c", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Mr.%20President.mp3" },
-        { title: "American Spring", artist: "Rebel Diaz", genre: "Rap", cover: "https://i.imgur.com/TXHqm1I.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/AmericanSpring.mp3" },
-        { title: "Trust Me, I Work for the Government", artist: "Robert Ellis Orrall", genre: "Pop", cover: "https://i.imgur.com/lpgdAIQ.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Trust%20Me%2C%20I%20Work%20for%20the%20Government%20-%20Robert%20Ellis%20Orrall.mp3" },
-        { title: "This Is the End (For You My Friend)", artist: "Anti-Flag", genre: "Punk", cover: "https://i.ibb.co/ZM2m90b/Spotify-Mate-com-This-Is-the-End-For-You-My-Friend-Anti-Flag.jpg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/ThisIsTheEnd.mp3" },
-        { title: "The Terror of Tiny Town", artist: "Jello Biafra", genre: "Punk", cover: "https://i.scdn.co/image/ab67616d0000b27314f7a69940a3bbd09c6af0da", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/The%20Terror%20of%20Tinytown.mp3" },
-        { title: "Old School", artist: "headzup", genre: "Rap", cover: "https://i.imgur.com/KpIxsX2.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Old%20School.mp3" },
+        { title: "Going the Distance", artist: "Bill Conti", genre: "Soundtrack", cover: "https://i.imgur.com/ky1HnuE.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Rocky.mp3" },
+        { title: "A Little Less Conversation", artist: "Elvis Presley, JXL", genre: "Big Beat", cover: "https://i.imgur.com/wHslKlK.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/A%20Little%20Less%20Conversation.mp3" },
+        { title: "Take a Chance on Me", artist: "ABBA", genre: "Pop", cover: "https://i.imgur.com/JoWfHQA.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Take%20A%20Chance%20On%20Me%20-%20ABBA.mp3" },
+        { title: "My Hero", artist: "Foo Fighters", genre: "Rock", cover: "https://i.imgur.com/rWSR1r0.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/My%20Hero.mp3" },
+        { title: "Start Me Up", artist: "The Rolling Stones", genre: "Rock", cover: "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Start%20Me%20Up.mp3" },
+        { title: "Only in America", artist: "Brooks and Dunn", genre: "Country", cover: "https://upload.wikimedia.org/wikipedia/en/7/7b/SteersStripes.jpg", audio: "https://audio.jukehost.co.uk/8XtO48kTRJBqN8hnaGXLysqCDAAC94iW" },
         { title: "Danger Zone", artist: "Kenny Loggins", genre: "Pop", cover: "https://file.garden/aNtAfG887DiA_7lO/Obamanation/BLAdNQN.jpeg", audio: "https://file.garden/aGMtX3HRbS8W-RJ6/Kenny%20Loggins%20-%20Danger%20Zone%20(Official%20Audio%20-%20Top%20Gun).mp3" }
     ];
 
