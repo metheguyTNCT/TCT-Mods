@@ -2220,7 +2220,7 @@ function playSong(audio, uiElements) {
 
 function setupMusicPlayer() {
     const songData = [
-        { title: "Going the Distance", artist: "Bill Conti", genre: "Soundtrack", cover: "https://i.imgur.com/ky1HnuE.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Rocky.mp3" },
+        { title: "Gonna Fly Now", artist: "Bill Conti", genre: "Soundtrack", cover: "https://i.imgur.com/ky1HnuE.jpeg", audio: "https://audio.jukehost.co.uk/FrksQCzDpwcKtoXLvGSJI6gvXvCTgcBg" },
         { title: "A Little Less Conversation", artist: "Elvis Presley, JXL", genre: "Big Beat", cover: "https://i.imgur.com/wHslKlK.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/A%20Little%20Less%20Conversation.mp3" },
         { title: "Take a Chance on Me", artist: "ABBA", genre: "Pop", cover: "https://i.imgur.com/JoWfHQA.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Take%20A%20Chance%20On%20Me%20-%20ABBA.mp3" },
         { title: "My Hero", artist: "Foo Fighters", genre: "Rock", cover: "https://i.imgur.com/rWSR1r0.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/My%20Hero.mp3" },
