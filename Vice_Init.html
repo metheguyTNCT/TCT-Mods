@@ -4,8 +4,8 @@ campaignTrail_temp.election_json = [
         "pk": 20,
         "fields": {
             "year": 2008,
-            "display_year": "2008Vice",
-            "summary": "As much as pacemaker-laden Richard Bruce Cheney would prefer you not say so, his time is ticking. His legacy? Tarnished by an incompetent Texas buffoon who did perhaps 20% of this Administration's policies and efforts. He understands that, equipped with the lowest approval rating of a Veep in perhaps all of American history, he will be relegated to either the butt of every political joke for a century, or he will be feared as a great tyrant in his own right, much above the warmth and gentleness of his predecessor. After a frankly ridiculous and anemic primary, his position as POTUS is only impeded by the will of the Common Man himself.<br>Thus, the archetypal frontier man finds himself in the last duel of his life, faced with insurmountable odds, the baddies right on his tail.<br><br>This is 𝖛𝖎𝖈𝖊.",
+            "display_year": "2008𝖇𝖗𝖚𝖈𝖊",
+            "summary": " As much as pacemaker-laden Richard Bruce Cheney would prefer you not say so, his time is ticking. His legacy? Tarnished by an incompetent Texas buffoon who did perhaps 20% of this Administration's policies and efforts. He understands that, equipped with the lowest approval rating of a Veep in perhaps all of American history, he will be relegated to either the butt of every political joke for a century, or he will be feared as a great tyrant in his own right, much above the warmth and gentleness of his predecessor. After a frankly ridiculous and anemic primary, his position as POTUS is only impeded by the will of the Common Man himself. Thus, the archetypal frontier man finds himself in the last duel of his life, faced with insurmountable odds, the baddies right on his tail. This is 𝖇𝖗𝖚𝖈𝖊.",
             "image_url": "https://i.imgur.com/306zeFu.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/HRTp7py.png",
@@ -15,26 +15,25 @@ campaignTrail_temp.election_json = [
         }
     }
 ]
-document.getElementById("inner_window_1").children[0].innerHTML = `<h3>Welcome to 𝖛𝖎𝖈𝖊.</h3>`;
+document.getElementById("inner_window_1").children[0].innerHTML = `<h3>Welcome to 𝖇𝖗𝖚𝖈𝖊.</h3>`;
 document.getElementById("game_start").innerHTML = `<strong>Click here to begin.</strong>`;
 document.getElementById("inner_window_1").children[1].innerHTML = `<p>A hypnagogic and semi-surreal account of the events following Dick Cheney's ascendancy to power.</p><br><br><br><br><br><br><br><br><br>`;
 
-  RecReading=true
 campaignTrail_temp.temp_election_list = [
     {
         "id": 20,
         "year": 2008,
         "is_premium": 0,
-        "display_year": "2008 - 𝖛𝖎𝖈𝖊."
+        "display_year": "2008 - 𝖇𝖗𝖚𝖈𝖊."
     }
 ]
 
 campaignTrail_temp.credits = "<button onclick='credits()'>Richard Bruce Cheney</button>";
   credits = function() {
-    credits = ["LEAD CODER: Galen/RTKH", "LEAD GFX DESIGN: Galen/RTKH", "WRITING TEAM:  Krypto, Charlie, Octosteel, Everynametaken, Mrtidepod, Big D", "SPECIAL THANKS, APPRECIATION AND ADDITIONAL CREDITS: NaiminaOS, Corsaire, Mr. Rockefeller, SimonJet, LikeHumansDo and the OpenTCT community for your unrelenting, uncompromising support and love through the months of development."]
-    text = ""
-    for (i in credits) {
-        text += credits[i] + "\n"
+    c = ["TheMcCain: Bugfixing/Making the mod playable on CTS\n\nCredits to SamTheGreatestMan and Phoebe for some ideas"]
+    text = "CREDITS:\n\n"
+    for (i in c) {
+        text += c[i] + "\n"
     }
     alert(text)
   }
@@ -281,16 +280,16 @@ jet_data = {
     "backgroundImageUrl": "https://i.ibb.co/sRVgXWZ/image.png",
     "endingTextColor": "#000000",
     "customQuote": "",
-    "gameTitle": "𝖛𝖎𝖈𝖊."
+    "gameTitle": "𝖇𝖗𝖚𝖈𝖊."
 }
 
 //#startcode
-//corrr = '\n              <chen>𝖛𝖎𝖈𝖊.</chen>\n            ';
+//corrr = '\n              <chen>𝖇𝖗𝖚𝖈𝖊.</chen>\n            ';
 
 
 corrr = `
 <div class="window glass active" style="--window-background-color: #000;">
-<chen>𝖛𝖎𝖈𝖊.</chen>
+<chen>𝖇𝖗𝖚𝖈𝖊.</chen>
 </div>
 `;
 
@@ -728,21 +727,20 @@ addDynamicCSS();
       "Johnny Cash",
       "https://i.discogs.com/frAo_jFpvADbLkA1sIOGd1ZcwvqOxcZ8wnQwkP-QINo/rs:fit/g:sm/q:90/h:541/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0Mzg5/Ni0xMTc1NjgwNTE0/LmpwZWc.jpeg",
       "https://audio.jukehost.co.uk/SCDltsYbrsPSuduqNCpq5McZsxzNCN1p"
-
     );
   
     const song5 = new Song(
-      "The Future",
-      "Leonard Cohen",
-      "https://i.scdn.co/image/ab67616d0000b273c590964fc4f433f500ebf0b6",
-      "https://audio.jukehost.co.uk/ditU7bH9e2CYjmPg5ZuFheXfT2M31PQj"
-    );
-  
-    const song6 = new Song(
       "It's Now Or Never",
       "Elvis Presley (with The Jordanaires)",
       "https://i.discogs.com/djEdPaDpIqN4GvP9FhvupiuKuiUl14ijC50pjqkVZkE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NjYz/OTItMTUyMDQ3OTY2/NS02NjQ5LmpwZWc.jpeg",
       "https://audio.jukehost.co.uk/THrX5btRj32sfOzgP8JBYND4giKafKJF"
+    );
+  
+    const song6 = new Song(
+      "1812 Overture",
+      "Pyotr Ilyich Tchaikovsky",
+      "https://i.discogs.com/0H3W7VhUlOtHQXaG7ZgRLBgwL3oh3HZArdiD8whHL2E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODM0/MzQzLTE3MjczNjUz/OTAtMTI3MS5qcGVn.jpeg",
+      "https://audio.jukehost.co.uk/MT5gEkIqdx0J1UGU2uKDjD473miHVDHg"
     );
   
     playlist.addSong(song1);
@@ -1044,12 +1042,11 @@ dyslexiaToggle = function() {
         return;
     }
 }
-document.styleSheets[0].insertRule("#difficulty_level form {display: inline-block !important; padding: 0 1em !important;", 0);
-document.styleSheets[0].insertRule("#difficulty_level form p {margin: 0 !important;", 0); //ty sundance
+
 const gamewindowthingy = document.getElementById("game_window");
-const initConfigVice = { attributes: true, childList: true, subtree: true };
-const changeObserverVice = new MutationObserver(dyslexiaToggle);
-changeObserverVice.observe(gamewindowthingy, initConfigVice);
+const initConfig𝖇𝖗𝖚𝖈𝖊 = { attributes: true, childList: true, subtree: true };
+const changeObserver𝖇𝖗𝖚𝖈𝖊 = new MutationObserver(dyslexiaToggle);
+changeObserver𝖇𝖗𝖚𝖈𝖊.observe(gamewindowthingy, initConfig𝖇𝖗𝖚𝖈𝖊);
 
 vpTableHistorical = {
     "Dick Cheney" : "Donald Rumsfeld",
@@ -1156,7 +1153,7 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
   "The Youngold Will Overcome" : {
-      "image" : "https://i.imgur.com/a5siuSQ.png",
+      "image" : "https://i.ibb.co/S3BPJzW/image.png",
       "description" : "Create catastrophic destruction in your wake.",
       "cannotBeCheated" : true
   },
@@ -1181,7 +1178,7 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
   "Hillbilly FAILogy" : {
-      "image" : "https://i.imgur.com/CdLCAE3.png",
+      "image" : "https://i.ibb.co/ykPL38J/image.png",
       "description" : "Strike down a high-priced prostitute.",
       "cannotBeCheated" : true
   },
@@ -1201,7 +1198,7 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
   "Under God" : {
-      "image" : "https://www.newcampaigntrail.com/static/mod_icons/1992McGovern.png",
+      "image" : "https://i.ibb.co/XDx8scT/image.png",
       "description" : "Bring an Old Man back to life.",
       "cannotBeCheated" : true
   },
@@ -1211,12 +1208,12 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
   "Stay Frosty" : {
-      "image" : "https://i.imgur.com/j8b8CT5.png",
+      "image" : "https://i.ibb.co/hKQz0kG/image.png",
       "description" : "Beat down a grandpa.",
       "cannotBeCheated" : true
   },
   "Slant-eye Necktie" : {
-      "image" : "https://i.imgur.com/zOkph8N.png",
+      "image" : "https://i.ibb.co/QkMf5Zv/image.png",
       "description" : "Gain sweet, sweet revenge.",
       "cannotBeCheated" : true
   },
@@ -1238,6 +1235,11 @@ campaignTrail_temp.achievements = {
   "Midnight, The Stars And You" : {
     "image" : "https://i.imgur.com/1Ht4ITS.png",
     "description" : "Command through the Divine.",
+    "cannotBeCheated" : true
+},
+  "Deez Ruins You See" : {
+    "image" : "https://i.imgur.com/jMRElkC.png",
+    "description" : "Win against the hardest opponent on 𝕮𝖗𝖚𝖊𝖑𝖙𝖞. God help you.",
     "cannotBeCheated" : true
 },
   "𝖆𝖑𝖑𝖊𝖌𝖗𝖔!" : {
