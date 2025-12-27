@@ -8,10 +8,10 @@ The mods here can generally be categorized into six categories.
 These are released. Finished. Done-zo. I made 'em. Go play 'em.
 - *2000Q*
 - *2024GOP*
+- *1996: Hope*
 
 **Mods I Will Make:**
 These are not done yet, but I intend on making them soon, or did at one point.
-- *1996: Hope*
 - *1996Perot*
 -  *2008g*
 -  *2024Way (Cruz)*
