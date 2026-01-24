@@ -1773,16 +1773,16 @@ function setupMusicPlayer() {
 
 
   const song1 = new Song(
+    "Welcome to Paradise",
+    "Green Day",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Welcome%20to%20Paradise.mp3",
+    "3:44"
+  );
+  const song2 = new Song(
     "ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart",
     "Manic Street Preachers",
     "https://file.garden/Z7qfmQZIZjO_xV5N/whiteamerica.mp3",
     "3:39"
-  );
-  const song2 = new Song(
-    "American Jesus",
-    "Bad Religion",
-    "https://file.garden/Z7qfmQZIZjO_xV5N/American%20Jesus.mp3",
-    "3:17"
   );
     const song3 = new Song(
   "Love Me, I'm A Liberal",
