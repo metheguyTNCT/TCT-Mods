@@ -20,7 +20,7 @@
                 },
                 {
                     "issueId": 102,
-                    "issueScore": 0.1,
+                    "issueScore": -0.48,
                     "weight": 1
                 },
                 {
@@ -35,7 +35,7 @@
                 }
             ],
             "description": "<p>Just eight years ago, Ted Cruz was the most dangerous man in American politics. The big kahuna of the Tea Party, the man who read Dr. Seuss on the Senate floor- how could such a man possibly be President? Funny how times change. As Donald Trump once again stormed through the Republican primaries, once again Cruz is the establishment's last hope. But this time, he's succeeded.</p><p>Not only must Cruz attempt to heal a party split in two, he must also deal with massive unfavorables and a perception that he's still the same showboating radical he was all those years ago.</p>",
-            "imageUrl": "https://i.imgur.com/GXgrLKM.png",
+            "imageUrl": "https://file.garden/Z7qfmQZIZjO_xV5N/CruzinForABruising.png",
             "runningMateIds": [
                 204,
                 205,
@@ -70,12 +70,12 @@
                 },
                 {
                     "issueId": 103,
-                    "issueScore": 0.55,
+                    "issueScore": 0.45,
                     "weight": 1
                 },
                 {
                     "issueId": 104,
-                    "issueScore": 0.4,
+                    "issueScore": -0.1,
                     "weight": 1
                 }
             ],
@@ -116,7 +116,7 @@
                 },
                 {
                     "issueId": 104,
-                    "issueScore": -0.64,
+                    "issueScore": -0.74,
                     "weight": 1
                 }
             ],
@@ -165,7 +165,7 @@
                 }
             ],
             "description": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
-            "imageUrl": "https://i.imgur.com/7eLDnli.png",
+            "imageUrl": "https://file.garden/Z7qfmQZIZjO_xV5N/TheCoalLord.png",
             "runningMateIds": [
                 214,
                 207,
@@ -3707,7 +3707,7 @@
             "name": "Polarization",
             "description": "",
             "stances": [
-                "Red 'Till I'm Dead",
+                "Ultra MAGA",
                 "MAGA",
                 "Conservative",
                 "Forward",
@@ -3776,13 +3776,13 @@
             "name": "Culture War",
             "description": "",
             "stances": [
-                "Very Conservative",
-                "Conservative",
-                "Leans Conservative",
+                "RETVRN",
+                "Anti-Woke",
+                "Traditionalist",
                 "Moderate",
-                "Leans Liberal",
-                "Liberal",
-                "Very Liberal"
+                "Socially Liberal",
+                "Progressive",
+                "Woke and Proud"
             ],
             "stanceDescriptions": [
                 "",
@@ -3799,13 +3799,13 @@
             "name": "The Border",
             "description": "",
             "stances": [
-                "Very Conservative",
-                "Conservative",
-                "Leans Conservative",
-                "Moderate",
-                "Leans Liberal",
-                "Liberal",
-                "Very Liberal"
+                "Mass Deportations Now",
+                "Build A Wall",
+                "Illegals Out",
+                "Humane Enforcement",
+                "Open Borders",
+                "No Human is Illegal",
+                "Not a Problem"
             ],
             "stanceDescriptions": [
                 "",
