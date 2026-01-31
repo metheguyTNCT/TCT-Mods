@@ -24,6 +24,7 @@ Pretty straightforward.
 - *American Calamity*
 - *2028Way*
 - *America is Hard to See*
+- *1976RNC*
 
 
 **Unnecessarily Complex Mockups [UCMs]:**
