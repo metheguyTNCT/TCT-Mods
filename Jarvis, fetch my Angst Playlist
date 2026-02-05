@@ -10097,9 +10097,9 @@
     "credits": "by Dan Bryan, converted by Jet",
     "music": [
         {
-            "url": "https://audio.jukehost.co.uk/eoioX3Yjh7HYV6DVgf3bphpHUpLUKqV6",
-            "displayName": "Suicide is Painless",
-            "imageUrl": "https://i.imgur.com/ESrPQF0.png"
+            "url": "https://audio.jukehost.co.uk/o8dkA6LpnVzcENI03aLxjWit8AnQtdyh",
+            "displayName": "In a Shanty in Old Shanty Town",
+            "imageUrl": "https://file.garden/aI9Kl6CdkxABOmSP/1936%20MOW/Album%20Covers/MOW%20Ink%20Spots.png"
         },
         {
             "url": "https://audio.jukehost.co.uk/bMmCPdb4CgeXI5Z9uDflll1CRnfY16vH",
@@ -10205,6 +10205,11 @@
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Time%20is%20Running%20Out.mp3",
             "displayName": "Time is Running Out",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Muse_-_Absolution_Cover_UK.jpg"
+        },
+        {
+            "url": "https://file.garden/Zmvf_kGfBgouz-z5/Theresa%20May%20Music/Ending%20Songs/No%20Surprises_%20Theresa%20May%20resigns%20as%20Prime%20Minister%20(Radiohead%20x%20Brexit).mp3",
+            "displayName": "No Surprises",
+            "imageUrl": "https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/MusicNoSurprises.png"
         }
     ]
 }
