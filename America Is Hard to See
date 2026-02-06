@@ -2762,10 +2762,10 @@ function setupMusicPlayer() {
   );
 
   const song4 = new Song(
-    "Three Dog Night",
-    "An Old Fashioned Love Song",
-    "https://i.imgur.com/Pw9Jidu.png",
-    "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20An%20Old%20Fashioned%20Love%20Song%20-%20Three%20Dog%20Night.mp3"
+    "Don McLean",
+    "American Pie",
+    "https://upload.wikimedia.org/wikipedia/en/c/c0/Don_McLean_-_American_Pie_%28album%29_Coverart.png",
+    "https://files.catbox.moe/do1q79.mp3"
   );
 
   const song5 = new Song(
