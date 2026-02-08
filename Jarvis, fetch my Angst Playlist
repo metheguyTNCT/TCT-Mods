@@ -45,7 +45,8 @@
                 220,
                 209,
                 210,
-                212
+                212,
+                221
             ],
             "startingGlobalMultiplier": 1
         },
@@ -527,6 +528,45 @@
             "imageUrl": "https://i.ibb.co/7XyXMSY/eeltwo.jpg",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
+        },
+        {
+            "id": 221,
+            "firstName": "Nelson",
+            "lastName": "Rockefeller",
+            "party": "Republican",
+            "homeState": "New York",
+            "color": "#FF0000",
+            "issueScores": [
+                {
+                    "issueId": 100,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 101,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 102,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 103,
+                    "issueScore": 0,
+                    "weight": 1
+                },
+                {
+                    "issueId": 104,
+                    "issueScore": 0,
+                    "weight": 1
+                }
+            ],
+            "description": "They said nothing as they drove quietly in the Presidential motorcade. It had been a strange situation, taking over a Cabinet that he had only chosen half, but Archibald Cox was one of the ones that the Vice President hadn't distrusted. While everyone knew Cox was a Kennedy creature (he even invited Bobby's widow to his swearing in as Special Counsel!), he had taken his job as Attorney General seriously, appointing Specter when Rockefeller suggested him. He had not resisted Rockefeller's authority to act the way some of the other Democratic Cabinet members supposedly had, with Cox talking them off the cliff or preventing a resignation. It was good that he was here.\n</p><p>The Beast slowed down and then stopped in front of Walter Reed. A Secret Service agent opened the door and Cox stepped out first and Rockefeller afterwards. Flashes from awaiting photographers, waiting to capture this historic moment and perhaps win a Pulitzer. The two leaders of the Coalition Government, that had been the framing. It had to do. When O'Neill had woken up, it had seriously harmed Rockefeller's position. Stevens's nomination had crawled to a halt. The only thing giving him any leverage was the knowledge that it would take Tip months and months before he was ready.\n</p><p>The two grim-faced men walked without a word through the halls of the hospital, up the elevators, and then outside the door of Tip's room where Kirk O'Donnell was waiting for them.\n</p><p>\"Mr. Vice President. General Cox.\" Kirk O'Donnell stood in front of the door like he was a sentinel. \"I'm glad you could make it.\"\n</p><p>\"Well, you didn't give us many options in terms of time,\" Rockefeller said. \"Bright and early, huh?\"\n</p><p>O'Donnell gave a polite but tight-lipped smile. \"The President has asked the Attorney General to speak with him first.\"\n</p><p>Rockefeller frowned. \"Did he now? Isn't that— right, of course.\" And the Vice President and Acting Commander in Chief stepped back and took a seat on a chair set in the hallway.\n</p><p>\"General Cox, if you will...\" O'Donnell pushed open the door and directed the Attorney General in.\n</p><p></p><p>\nWhen Cox stepped inside, he immediately felt a wave of relief come over him. He hadn't known this whole time whether the President was actually fine. He half expected to see an extremely weak and feeble Tip. He had lost significant weight for sure, but the man who saw him when he stepped in donned a big grin upon familiar sight.\n</p><p>\"Aaaarchie! You're a sight for sore eyes.\" Tip tried to pull himself up. O'Donnell rushed towards him to lend a helping hand. \"Thank you, Kirk. You know, Archie, I knew Kirk was solid but never knew he'd be so helpful when I have no power.\"\n</p><p>A bitter chuckle that convalesced into a wet cough. The President downed a paper cup of water by his bedside and went back to his jovial grin.\n</p><p>\"Somehow, despite having slept for a couple months, I don't feel very well rested.\"\n</p><p>Cox laughed. That Irish wit, it somehow worked wonders for a patrician like himself. \"Mr. President, I'm relieved that your recovery is going well.\"\n</p><p>\"As am I! Rocky had his moment in the sun but it's time for the real President to step in, don't you think?\"\n</p><p>\"If you're ready, sir.\" Cox didn't give too much.\n</p><p>O'Neill didn't seem to like that. \"Archie, look at me. I'm fine. What more do you need. Do I have to do a somersault and a pirouette for you? Or has that boy Rockefeller pulled you into his grasp.\"\n</p><p>\"The Vice President has served his role as caretaker well,\" Cox said.\n</p><p>\"Oh, is that so?\" O'Neill's eyes narrowed. \"Is that what you call stealing a Supreme Court Justice? That's what he's trying to do, isn't it, Archie? Steal a Justice right from under me, while I was asleep and unable, he thought he could put some Republican hack on the court?!\"</p><p>\nCox took a step back. O'Donnell pressed a hand on O'Neill's shoulder. Suddenly, he seemed to relax.</p><p>\n\"Right right right.\" The President slouched back, like some instant relief was going through his veins. \"Look, Archie, I don't blame you for what you did with that seat or that business in Australia. I get it. You were in a bind. You had to do what you felt was appropriate at the time because you weren't sure if I'd return. Look, just... let the rest of the Cabinet know I'm fine, and I'll forget it all, okay Archie? There's no... there's... um...\"\n</p><p>\"No hard feelings,\" O'Donnell jumped in.\n</p><p>\"Exactly,\" Tip said. \"I'll put it all beside us. Just... um... um...\"\n</p><p>\"Do the right thing,\" O'Donnell offered.\n</p><p>\"Yes, Archie, do the right thing, okay? I'll remember. I promise.\"\n</p><p>O'Donnell moved towards the door, indicating their interview was over. Cox hesitated.\n</p><p>\"Mr. President, I...\" But Tip wasn't listening. He was staring out the window, his gaze fixed on a plane in the distance, slowing making its way across the sky.\n</p><p>Cox slipped through the door and kept his eyes on the ground, even as the Vice President stepped into the hospital room. But rather than staying inside the room and overseeing the meeting, Kirk O'Donnell slipped out of the room and left the President and the Vice President alone to meet. O'Donnell across the hall and took a seat next to the Attorney General.\n</p><p>\"Kirk, Stevens was on the shortlist. And Australia? I don't know why he's—\"\n</p><p>O'Donnell put a hand up. \"The President is still recovering.\"\n</p><p>\"Then why didn't you wait a week?\" Cox pleaded.\n</p><p>\"I didn't sign the letter, Archie. The President did.\"\n</p><p>\"He didn't sign anything,\" Cox snapped. \"A man out of a coma writes his name perfectly without any shakes or errors? You used the autopen.\"\n</p><p>\"Under his direction.\"\n</p><p>\"Can he not even sign two pieces of paper?\"\n</p><p>\"You need to relax.\"\n</p><p>\"He's getting things mixed up, misremembering things.\"\n</p><p>O'Donnell leaned towards the Attorney General. \"Look at me. Yes. Sometimes things get mixed up. He's 64-years old. He just got shot. He's not exactly a spring chicken, I'll be the first to admit that. But he can think quickly, make decisions, certainly still the old decisive Tip we know. And he's only going to get better from here. Every day after this, he will be sharper and quicker. But his memory, believe it or not, is still pretty damn good. So are you really going to tell this man that he's incapable of serving as President? Look, Archie, he likes you. He still likes you.\"\n</p><p>Cox wanted to say something. But then, at this point, a loud noise was coming from the President's hospital room. They both instinctively stood up and flinched towards the door until they realized what the sound was. It was the muffled sounds of a man yelling. And in response, the sounds of another man responding in a raised but not yelling voice. The ping pong continued until cutting through everything came a sharp but unmistakable roar.\n</p><p>\"TRAITOR!!!\"\n</p><p>Unmistakably Tip. And Rockefeller, the sounds of him trying to respond, then cut off with another, muffled by the door but easily interpretable here.\n</p><p>\"IT WAS A COUP! YOU AND YOUR LITTLE MINIONS!\"\n</p><p>The doors swung open and Rockefeller stormed out as Tip pointed his finger and roared at him. \"You want this job? You're going to have to try harder than some housewife your FBI goons sicked on me! You're going to need more bullets to stop me, you son of a BITCH!\"\n</p><p>The Vice President didn't look back as he marched past O'Donnell and Cox, staring straight ahead until he was far away from Tip O'Neill.\n</p><p>\nHe sat there in silence, pretending to read the report he had written, but in reality he was just waiting for the Cabinet to finish reading the report. He could feel the tension in the air as they reached each of the key phrases.\n</p><p>President O'Neill failed to express clear and sensible reasons for his anger. He spoke in jumbled sentences about a stolen Supreme Court seat, a coup in Australia, destruction of the economy, and genocide in East Timor. Perhaps most shockingly, President O'Neill seemed to believe that I was responsible for his assassination attempt. He spoke of the Sara Jane Moore's FBI informant status and connected that to a direct order by the Vice President to murder him.\n</p><p>The President seemed unfocused and incoherent. He would change topics at a whim, sometimes mid-sentence. The only consistency was his anger which seemed to overpower all other aspects of his mind. I believe that his behavior did not indicate that he was capable of serving as President of the United States of America at this time.\n</p><p>The Cabinet members, once they had finished reading, set down the report and sat in silence.\n</p><p>\"I'm very sorry to report back this news,\" Rockefeller said. \"I was... startled to say the least. It was not a pleasant conversation, as I'm sure you can imagine. But I personally don't see how he is ready to serve in these circumstances.\"\n</p><p>Even Vance and Galbraith could say nothing after reading the report. If true, it was deeply disturbing, an indication of a man who had lost his grip with reality.\n</p><p>\"Well, that's all I have to say.\" Rockefeller turned to his right and looked past Henry Kissinger towards the Attorney General. \"Archie, do you have your report?\"\n</p><p>Cox said nothing for several seconds. In front of him was not a folder full of his own reports to distribute around the room. Instead, he had noticeably only the Rockefeller report sitting by itself on the table.\n</p><p>\"I do not have a report. I felt it would be better to speak off the cuff about what happened,\" Cox said. \"When I met with President O'Neill, I saw a man that, though certainly affected physically, had largely recovered mentally. He asked me about the state of the country and even made jokes. He seemed to be keeping up with the news, and perhaps he has heard things that are incorrect, but I believe that is an issue of information rather than his brain. I do not believe President O'Neill is unable to serve.\"\n</p><p>Cox's monologue was slow and deliberate, a completely memorized speech. How long had he worked on his exact wording? How many drafts had he gone through?\n</p><p>\"I do not say that anything in Vice President Rockefeller's report is false,\" Cox said carefully. \"I only note that nobody else was in the room except Vice President Rockefeller and President O'Neill. However, in my interview with the President, Kirk O'Donnell was in the room and I'm sure would be willing to testify as to the veracity of what I say.\"\n</p><p>Pandemonium. Rockefeller's jaw dropped. The Republicans on the Cabinet seemed completely confounded. The Democrats, well, they looked angry.\n</p><p>\"Mr. Vice President,\" Defense Secretary Vance said. \"If what Attorney General Cox says is true, then... then...\"\n</p><p>Vance didn't want to say it, but they were all thinking it. Rockefeller was still frozen. What was the right response?\n</p><p>\"If this is true,\" Secretary Galbraith went ahead and cut to the chase, \"then I believe that the Vice President let his conflict of interest color his report.\"\n</p><p>\"Are you calling the Vice President a liar?\" Secretary Ronan snapped.\n</p><p>\"I'm simply stating an incongruence and hypothesizing why that may be,\" Galbraith responded.\n</p><p>\"I've known Nelson Rockefeller a long time,\" Bill Ruckelshaus, the Interior Secretary and a man who had earned his stripes as an honest man, finally spoke. \"And I don't think I've ever known Nelson Rockefeller to be a man to violate his ethics the way you are suggesting.\"\n</p><p>It was Agriculture Secretary Fred Harris's turn to speak. \"Bill, well I've known Archie Cox for a long time, and just like you, he's a man of complete integrity, so much so that your old boss, Dick Nixon tried to fire his ass.\"\n</p><p>\"Fred, I resigned rather than fire Archie,\" Ruckelshaus shot back.\n</p><p>\"Good for you,\" Harris replied. \"But you told Bork to stay on so he could fire him instead, right, Bill? Asked Bob Bork to do your dirty work.\"\n</p><p>This was not good. Not good at all. Cabinet members insulting each other, hurling accusations. What was going on? Rockefeller turned to Cox.\n</p><p>\"Archibald, please,\" he said. \"You were there. You heard what he said as I left. The insanity he was muttering. You heard it. He called me a traitor, said I had tried to kill him. You have to agree that it's madness!\"\n</p><p>Cox didn't change his tone. \"Mr. Vice President, I believe that is an issue of information rather than mental state. It has no bearing on his—\"\n</p><p>\"That's nonsense and you know it!\" Rockefeller thrust his finger at Cox. \"You're just repeating your memorized talking points. Talk to me like a human. Tell me to my damn face that what he said wasn't delusional nonsense!\"\n</p><p>Cox stiffened. The whole room stiffened. And all eyes were glued on Cox.\n</p><p>\"Mr. Vice President, Tip got mad at you because you let the Indonesians slaughter tens of thousands in East Timor,\" he finally said. \"Tip was upset because he, whether fairly or not, believed you should have waited for him to recover rather than appoint a Justice without him. So he used invectives to make his displeasure known. We've all been on the other end of Tip's anger. That's nothing new. And that's certainly no excuse for blocking him from exercising the powers that he has full legal right to.\"\n</p><p>Rockefeller glared at Cox, past Kissinger who looked deeply uncomfortable and scooted his chair back to let Rockefeller glare directly at the Attorney General. \"Dear God,\" the Vice President muttered, \"I can't believe it. You... you...\"\n</p><p>He knew what he wanted to say. Traitor. Son of a bitch. Same words that Tip threw at him.\n</p><p>Ruckelshaus coughed. \"Well, it appears that we have two differing reports, but we cannot really wait any longer on deciding whether we send the letter now. Unless there's anything further to discuss...\" He looked around the room, but nobody said anything. Rockefeller surveyed the expressions. It seemed, that for all this talk of a nonpartisan unity government, the people that been convinced were exactly those of the same party. That was what it all came down to. All the high-minded idealism, ultimately it came to naught. The people Rockefeller handpicked wanted to believe Rockefeller, and the people that O'Neill had handpicked wanted to believe O'Neill was fine. He could almost laugh.\n</p><p>He had once thought what party he chose didn't matter, that he could get things done either way. He had done it in New York, where he went to whichever party was willing to help him pass. But now he saw it so clearly now. Lindsay had shown something similar, not too many years ago. Old grudges don't just disappear in a flash. Of course, he too had fallen into the same hole. He had turned to Jerry Ford and Hugh Scott to plot the next stage. He was no different. He had thought himself immune. He had fooled himself over the years as King of New York. But the label mattered. It always did. It said something about you, whichever one you picked. And it said something about you if you ever betrayed it, as so many in his party believed he had when he sat on his hands in '64 rather than fight for the ticket like Nixon did.\n</p><p>\nRockefeller leaned forward. \"I suppose we should just get this going.\" He looked around. \"Does everyone know how they're going to vote.\"\n</p><p>The lack of response told him essentially yes. \"Okay then. Under Section Four of the 25th Amendment, if the Vice President and a majority of the Cabinet Department heads believe the President is still unable to serve his duties, we sign a letter and send it to the Speaker and the President Pro Tempore. As Vice President, I believe that President O'Neill is unable to exercise his duties. And under my official role as Secretary of the Treasury, I also believe that President O'Neill is unable to serve.\"\n</p><p>Harris was the one to open his mouth. \"Mr. Vice President, I object to you voting as a member of this Cabinet in addition to voting as Vice President.\"\n</p><p>\"Fred, Birch Bayh said I can vote as both. Are you really going to quibble over this when the guy who wrote it told national television that three days ago?\" Harris didn't respond. Rockefeller resisted the urge to roll his eyes. \"We'll count to our left. Cy, go ahead.\"\n</p><p>Secretary of Defense Cyrus Vance, an O'Neill man, stated it simply. \"Based on my own interactions with the President as well General Cox's report, I believe Tip O'Neill is able to exercise his duties as President and would not sign the letter.\"\n</p><p>Next up was Bill Ruckelshaus, a environmentalist Republican, appointed to the Interior Secretary. \"I believe the Vice President and would sign the letter. I believe the evidence shows that it would be a disservice to our country to return the President to his duties at this moment in time.\"\n</p><p>Ken Galbraith, a Harvard economics professor and personal friends with Tip, was no mystery. \"I believe Archie, and I support our President serving as President again.\"\n</p><p>HEW was run by a Rockefeller ally, Jack Veneman. \"I believe the Vice President's report and agree that the President seems unable to serve at this time. I will sign the letter.\"\n</p><p>Same with Transportation, led by Bill Ronan, a 17-year Rockefeller veteran. \"I will sign the letter. We can't play games with the Presidency.\"\n</p><p>It was 4 votes to sign, 2 votes against. So far, it had been going in an exactly partisan split. That would be enough. Even though the actual Cabinet had more Democrats, the heads of executive departments was six Republicans versus five Democrats. If it held up. Rockefeller held his breath as it swung around the table.\n</p><p>Housing and Urban Development Secretary William Coleman was only the second black man appointed to be HUD Secretary. He had a career fighting for housing rights and also was a registered Republican, handpicked by Rockefeller. \"I believe the Vice President and will also sign the letter. I echo what Secretary Ronan said, that we cannot be careless with the Presidency.\n</p><p>Labor Secretary Leonard Woodcock, former President of the UAW and picked by Tip to develop the administration's labor policy, was blunt. \"I believe that the President is able to serve and will not sign this letter.\"\n</p><p>5-3. There was only three men left. No defections from the party line.\n</p><p>Next up was Agriculture Secretary, close ally of Hubert Humphrey and a Democratic presidential candidate of his own, staked his stance. \"I trust Archie Cox far more than I trust Nelson Rockefeller. I think this process has been a disgrace, the way you've sought to promote yourself.\"\n</p><p>\"Mr. Harris, please, we are holding a quick poll, not giving you a chance to filibuster,\" Rockefeller said. Harris mumbled and said nothing more. It was a good sign that he was filibustering. He must have done the math already.\n</p><p>Archibald Cox spoke next. \"I believe the standard placed in the 25th Amendment, to be not 'unable to discharge the duties' of President is not a high one. I believe our President has reached that standard. Therefore, I will not sign.\"\n</p><p>It was a weak statement, one almost designed to protect himself and left those who relied on his verbal report hanging on as thin stuff as \"not unable to discharge.\" But that was that. It was 5-5. It was a complete partisan vote, everyone voting exactly as the man who put them there.\n</p><p>Next up was Secretary of State Henry Kissinger, the one and only holdover from the last administration. Kissinger was discovered by Rockefeller, his career promoted by Rockefeller, even if it was Nixon who turned him into a superstar. Rockefeller had been offered State, but he gave it to Henry because Kissinger was really an appendage of Rockefeller. So it was clear how Kissinger would vote. Then it would go to Burton and Eastland, where there'd be a fight over accepting Rockefeller's vote, while Ford and Scott would work on forcing a hearing.\n</p><p>Kissinger said nothing. He stared at the table intensely. The Vice President leaned over. \"Henry, it's your turn.\" But Kissinger continued to say nothing and maintained his study of the grains of the table. Kissinger finally opened his mouth but then closed it again.\n</p><p>\"Henry, are you okay?\" Rockefeller asked. \"Henry?\"\n</p><p>Kissinger slowly moved his head, to face his former and current boss. His face was pale. He looked like he was carrying a tremendous burden.\n</p><p>And a horrible realization crept over Rockefeller.\n</p><p>\"Henry. No. No no no. No, Henry, please,\" Rockefeller blurted out, like speaking faster would change something, as if all his capacity for sophistry and rhetoric had left him. \"Henry, what are you doing? Henry, Henry, what are you doing? Henry, no no no no. Henry, please.\"\n</p><p>\"Mr. Vice President,\" he finally said, his bass voice tinged with sadness, \"I'm so sorry, Mr. Vice President.\"\n</p><p>\"Henry, please, don't do this. He's clearly very ill. Everyone can see that! You believe me, right.\"\n</p><p>Kissinger shook his head. \"It is clear that the House will not vote to sustain a vote to declare him unfit. It would be nothing but foolishness to declare him unfit only to have it reversed shortly afterwards.\"\n</p><p>\"There's movement, Henry,\" Rockefeller whispered. \"There's a plan. It can work. Hearings will be held. Jerry, he can make it happen. The people would demand to know!\"\n</p><p>Kissinger shook his head. \"There will be no hearings. You know that, Nelson.\"\n</p><p>Rockefeller spun his head around towards the rest of the room, in a state of near delirium. \"Henry, let's take a break. Let's take a time out. I want to talk to you, one on one, Henry.\"\n</p><p>\"Nelson, it's too late. I'm casting my vote.\"\n</p><p>Pity. Don't give me your fucking pity. Just do something. Dear God, do something. Somebody. Anybody.\n</p><p>\"HENRY!\"\n</p><p>\"I agree with General Cox's report.\"\n</p><p>\"HENRY!\"\n</p><p>\"And I will not—\"\n</p><p>\"LISTEN TO ME—\"\n</p><p>\"—sign the—\"\n</p><p>\"—YOU FUCKING—\"\n</p><p>\"—letter.\"\n</p><p>\"—SNAKE!\"\n</p><p>Rockefeller collapsed into his chair. Everything around him was turning white. It was over. Just like that. What. What even was these last few days. His energy felt sapped. Like he had aged twenty years. He furious kept his eyes closed, as if something would change if he squeezed them shut before he opened them again. Like he'd wake up and it would turn out this was some bad awful dream. Like with sheer will, he could just reverse time and change everything.\n</p><p>But no. He was in a Cabinet Room, with everyone, bastard and ally alike, staring at him. Waiting to see what he'd do next. It was done. It was out of his hands. He felt his strength return.\n</p><p>He rose from the table. And every other Cabinet member, whether it was by choice or muscle memory, rose from the table as well. He wouldn't look at their faces, not even those who sided with him. He pushed back his chair, stepped away, and walked out of the room, letting the heavy oak door slam behind him.",
+            "imageUrl": "https://www.alternatehistory.com/forum/attachments/20141018_bkp001_0-jpeg.1017635/",
+            "runningMateIds": [],
+            "startingGlobalMultiplier": 1
         }
     ],
     "states": [
@@ -598,6 +638,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -671,6 +715,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -742,6 +790,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -815,6 +867,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -886,6 +942,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -959,6 +1019,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1030,6 +1094,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1103,6 +1171,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1174,6 +1246,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1247,6 +1323,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1318,6 +1398,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1391,6 +1475,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1462,6 +1550,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1535,6 +1627,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1606,6 +1702,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1679,6 +1779,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1750,6 +1854,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1823,6 +1931,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -1894,6 +2006,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -1967,6 +2083,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2038,6 +2158,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2111,6 +2235,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2182,6 +2310,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2255,6 +2387,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2326,6 +2462,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2399,6 +2539,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2470,6 +2614,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2543,6 +2691,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2614,6 +2766,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2687,6 +2843,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2758,6 +2918,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2831,6 +2995,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -2902,6 +3070,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -2975,6 +3147,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3046,6 +3222,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3119,6 +3299,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3190,6 +3374,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3263,6 +3451,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3334,6 +3526,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3407,6 +3603,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3478,6 +3678,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3551,6 +3755,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3622,6 +3830,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3695,6 +3907,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3766,6 +3982,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3839,6 +4059,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -3910,6 +4134,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -3983,6 +4211,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -4054,6 +4286,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -4127,6 +4363,10 @@
                 {
                     "candidateId": 220,
                     "amount": 1
+                },
+                {
+                    "candidateId": 221,
+                    "amount": 1
                 }
             ]
         },
@@ -4198,6 +4438,10 @@
                 },
                 {
                     "candidateId": 220,
+                    "amount": 1
+                },
+                {
+                    "candidateId": 221,
                     "amount": 1
                 }
             ]
@@ -10097,9 +10341,9 @@
     "credits": "by Dan Bryan, converted by Jet",
     "music": [
         {
-            "url": "https://audio.jukehost.co.uk/o8dkA6LpnVzcENI03aLxjWit8AnQtdyh",
-            "displayName": "In a Shanty in Old Shanty Town",
-            "imageUrl": "https://file.garden/aI9Kl6CdkxABOmSP/1936%20MOW/Album%20Covers/MOW%20Ink%20Spots.png"
+            "url": "https://audio.jukehost.co.uk/ZHFqzv2KGcZuU3oz7h6Yx4eOODVUiuQO",
+            "displayName": "Yesterday",
+            "imageUrl": "https://i.imgur.com/vLhgDHR.png"
         },
         {
             "url": "https://audio.jukehost.co.uk/bMmCPdb4CgeXI5Z9uDflll1CRnfY16vH",
@@ -10192,6 +10436,16 @@
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/WallflowersBringingDowntheHorse.jpg"
         },
         {
+            "url": "https://files.catbox.moe/7o7j8p.mp3",
+            "displayName": "Heaven Knows I'm Miserable Now",
+            "imageUrl": "https://files.catbox.moe/2vvs0v.jpg"
+        },
+        {
+            "url": "https://file.garden/Zmvf_kGfBgouz-z5/Theresa%20May%20Music/Ending%20Songs/No%20Surprises_%20Theresa%20May%20resigns%20as%20Prime%20Minister%20(Radiohead%20x%20Brexit).mp3",
+            "displayName": "No Surprises",
+            "imageUrl": "https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/MusicNoSurprises.png"
+        },
+        {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Terrible%20Lie.mp3",
             "displayName": "Terrible Lie",
             "imageUrl": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa9321c5cea3e50908fdc2aef0441f273.1000x1000x1.png"
@@ -10207,9 +10461,9 @@
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Muse_-_Absolution_Cover_UK.jpg"
         },
         {
-            "url": "https://file.garden/Zmvf_kGfBgouz-z5/Theresa%20May%20Music/Ending%20Songs/No%20Surprises_%20Theresa%20May%20resigns%20as%20Prime%20Minister%20(Radiohead%20x%20Brexit).mp3",
-            "displayName": "No Surprises",
-            "imageUrl": "https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/MusicNoSurprises.png"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/WLive.mp3",
+            "displayName": "Counting Bodies Like Sheep to the Rhythm of the War Drums (Live)",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b2733d6808868a01627bd840cc07"
         }
     ]
 }
