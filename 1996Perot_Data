@@ -62316,32 +62316,22 @@
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
-            "url": "https://files.catbox.moe/03p86t.mp3",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Leonard%20Cohen%20-%20Democracy%20(Later%20Archive%201993).mp3",
             "displayName": "Leonard Cohen- Democracy",
             "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
         },
         {
-            "url": "https://files.catbox.moe/2c20r4.mp3",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/D_Ream%20-%20Things%20Can%20Only%20Get%20Better%20-%20TOTP%20-%202%20May%201997.mp3",
             "displayName": "D:Ream- Things Can Only Get Better",
             "imageUrl": "https://i.imgur.com/KQZDp3q.jpeg"
         },
         {
-            "url": "https://files.catbox.moe/8949im.mp3",
-            "displayName": "Randy Newman- Strange Things",
-            "imageUrl": "https://i.imgur.com/Pv9LONG.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Green%20Day%20-%20Welcome%20To%20Paradise%20%5BLive%5D.mp3",
+            "displayName": "Green Day- Welcome to Paradise",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg"
         },
         {
-            "url": "https://files.catbox.moe/lneyty.mp3",
-            "displayName": "Pete Seeger- The Ross Perot Guide To Answering Embarrassing Questions",
-            "imageUrl": "https://i.imgur.com/OzZW2xB.jpeg"
-        },
-        {
-            "url": "https://files.catbox.moe/f5s7on.mp3",
-            "displayName": "\"Weird Al\" Yankovic- Headline News",
-            "imageUrl": "https://i.imgur.com/xW0e4Ms.jpeg"
-        },
-        {
-            "url": "https://audio.jukehost.co.uk/R1rX5dSAQ0ViwsOpYBqtgNDoMQJH6NLd",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Jamiroquai%20-%20Virtual%20Insanity%20(Live%20from%20Jools'%20Millennium%20Hootenanny%2C%201999).mp3",
             "displayName": "Jamiroquai- Virtual Insanity",
             "imageUrl": "https://i.imgur.com/Oji55jo.jpeg"
         },
@@ -62351,9 +62341,9 @@
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Fugees_-_The_Score.png"
         },
         {
-            "url": "https://files.catbox.moe/1qtb44.mp3",
-            "displayName": "Manic Street Preachers- Ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart",
-            "imageUrl": "https://i.imgur.com/xHyl5wG.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20O%20Superman%20-%20Live%20at%20the%20Phoenix%20Festival_%20Long%20Marston_%2020th%20July_%201997%20-%20David%20Bowie.mp3",
+            "displayName": "O Superman- David Bowie",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b27370bca9136fa9a2fc25345321"
         }
     ],
     "tooltips": [
