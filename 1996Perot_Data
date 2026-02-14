@@ -34,7 +34,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. Ever since the spectacular failure of George McGovern, the white whale of the party has been a modernized party, one that could champion sensible policy and win elections. Al Gore is the latest in thr long lineage of candidates who have claimed to be able to deliver it.</p><p>Gore has longed to be president all his life. He came close in '88 but eventually faltered. His son's illness kept him out of '92, and Perot swooped in to ruin his bid for VP too. But this time, although dealing with an irate left flank, Gore looks to be the man to beat. Then again, so did a lot of Democrats before him...</p>",
+            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. Ever since the spectacular failure of George McGovern, the white whale of the party has been a modernized party, one that could champion sensible policy and win elections. Al Gore is the latest in the long lineage of candidates who have claimed to be able to deliver it.</p><p>Gore has longed to be president all his life. He came close in '88 but eventually faltered. His son's illness kept him out of '92, and Perot swooped in to ruin his bid for VP too. But this time, although dealing with an irate left flank, Gore looks to be the man to beat. Then again, so did a lot of Democrats before him...</p>",
             "imageUrl": "https://i.imgur.com/lMGdQ3l.png",
             "runningMateIds": [
                 85,
@@ -136,20 +136,20 @@
         },
         {
             "id": 80,
-            "firstName": "Ralph",
-            "lastName": "Nader",
+            "firstName": "John",
+            "lastName": "Hagelin",
             "party": "Green",
             "homeState": "Connecticut",
-            "color": "#008d51",
+            "color": "#ff7f2a",
             "issueScores": [
                 {
                     "issueId": 27,
-                    "issueScore": -0.85,
+                    "issueScore": -0.76,
                     "weight": 1
                 },
                 {
                     "issueId": 28,
-                    "issueScore": 0.76,
+                    "issueScore": -0.54,
                     "weight": 1
                 },
                 {
@@ -164,7 +164,7 @@
                 },
                 {
                     "issueId": 31,
-                    "issueScore": 0.65,
+                    "issueScore": 0.48,
                     "weight": 1
                 }
             ],
@@ -209,7 +209,7 @@
             "homeState": "Virginia",
             "color": "#FF0000",
             "issueScores": [],
-            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. Plus, between Gore and Perot, the south might be more competitive than usual elections, and Allen could help there. Perhaps a little too much...Make sure to watch out for any skeletons oni his closet.</p>",
+            "description": "<p>A certified rising star in conservative circles, George Allen is the Governor of Virginia. Only 44, Allen has already racked up an impressive record. He is term-limited, so he's eager to join the ticket.</p><p>Allen is a good choice if you want to energize the Religious Right. Plus, between Gore and Perot, the south might be more competitive than usual elections, and Allen could help there. Perhaps a little <i>too</i> much...Make sure to watch out for any skeletons in his closet.</p>",
             "imageUrl": "https://i.imgur.com/Tv9srK8.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
@@ -3398,7 +3398,7 @@
                         },
                         {
                             "id": 3494,
-                            "description": "Dick Cheney is the best person for the job. He has served in all kinds of roles and performed admirably in every case.",
+                            "description": "Our country is at a crossroads.",
                             "feedback": "",
                             "answerEffects": [
                                 {
@@ -20872,11 +20872,11 @@
             "questions": [
                 {
                     "id": 397,
-                    "description": "The Democratic field hasn't been quite as large as its opposite number, it's still been a tough fight. Now, though, the convention has come, and it's time to lay your claim. Who are you, Al Gore?",
+                    "description": "After hacking and slashing your way through the Democratic field, you have finally become the presumptive nominee. Your lifelong quest for the Presidency is nearly reaching its conclusion. Now, though, the convention has come, and it's time to lay your claim. Who are you, Al Gore?",
                     "answers": [
                         {
                             "id": 3501,
-                            "description": "I am not satisfied with the course this nation is on. We must do more to provide for working families.",
+                            "description": "I am not satisfied with the course this nation is on. We must do more to provide for working families. We must do more to protect the rights of the vulnerable. We must do more to ensure the prosperity flows to all people.",
                             "feedback": "So it seems you've really turned over a new leaf. Gramm and Perot harp on your 'pessimism,' but this should go far to reduce Nader's numbers. You wonder what Dad thinks.",
                             "answerEffects": [
                                 {
@@ -20897,7 +20897,7 @@
                         },
                         {
                             "id": 3502,
-                            "description": "What we've seen from the White House has been a perfect example of adhocracy in action. As the last four years have shown, the White House requires an occupant with the experience necessary to get things done.  ",
+                            "description": "What we've seen from Ross Perot recently has been a perfect example of adhocracy in action. As the last four years have shown, the White House requires an occupant with the experience necessary to get things done.  ",
                             "feedback": "Competence, eh? Sounds familiar...Anyhow, this a fairly good attack, though advisors recommend focusing on Gramm over Perot as your main threat. Perot's supporters argue that his experience is what's great about him, but most of the public disagrees.",
                             "answerEffects": [
                                 {
@@ -20919,7 +20919,7 @@
                         {
                             "id": 3503,
                             "description": "Democrats come from all walks of life, but there is more that unites us than divides us. We can disagree, but we must come together as a party in order to win the presidency.",
-                            "feedback": "Cuomo, Jackson, and the rest are quick to endorse you, and presenting a united front is crucial to victory this November. However, this speech fails to make an impression with most viewers.",
+                            "feedback": "Cuomo, Jackson, and the rest (except for LaRouche, of course) are quick to endorse you, and presenting a united front is crucial to victory this November. However, this speech fails to make an impression with most viewers.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -62311,7 +62311,7 @@
     },
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
-    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions</p> <ul><li>Al Gore hopes to exploit dissatisfaction with Perot's chaotic style of government to become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
+    "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions.</p> <ul><li>Al Gore hopes to exploit dissatisfaction with Perot's chaotic style of government to become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
     "scenarioImageUrl": "https://i.imgur.com/OURFKVn.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
@@ -62374,11 +62374,11 @@
         },
         {
             "key": "crush of candidates",
-            "value": "<img src=https://i.imgur.com/BXChzjA.jpeg> Bob Dole, Pat Buchanan, Pete Wilson, Richard Lugar, Bill Weld, Dick Cheney, Jack Kemp, Lamar Alexander,  Dan Quayle, Alan Keyes, Bob Dornan, Arthur Fletcher, Jack Fellure, and Harold Stassen, not to mention yourself."
+            "value": "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/UWSGOP.gif> "
         },
         {
             "key": "The Democratic field",
-            "value": "Along with you, Bob Casey, Mario Cuomo, Jesse Jackson, Dick Gephardt, Joe Biden, Bob Kerrey, and Lyndon LaRouche also ran."
+            "value": "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/UWSDems.gif> A party desperate for victory is willing to consider anyone."
         },
         {
             "key": "Al Sr.",
@@ -62387,6 +62387,10 @@
         {
             "key": "Dad",
             "value": "<img src=https://i.imgur.com/dcYqu8l.jpeg> I must become my own man. I must not be your candidate."
+        },
+        {
+            "key": "Cuomo, Jackson, and the rest (except for LaRouche, of course) ",
+            "value": "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/UWSDems.gif>"
         }
     ],
     "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/campaign1996whos0000srod/page/n7/mode/2up\" target=”_blank”>James L. Srodes and Arthur Jones- Campaign 1996 : Who's Who in The Race for the White House</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a></br><a href=\"https://archive.org/details/choosemeportrait0000grac/page/62/mode/2up\" target=”_blank”>Arthur Grase - Choose Me: Portraits of a Presidential Race</a></br><a href='https://www.presidency.ucsb.edu/documents' target='_blank'>The American Presidency Project</a> "
