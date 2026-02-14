@@ -39863,11 +39863,11 @@
                 },
                 {
                     "id": 368,
-                    "description": "While both parties are big tents, Independence's coalition is uniquely rickety. Libertarian-ish types, Northeastern moderates, and paleoconservatives are all joined together by nothing more than their dissatisfaction with the Democrats and Republicans. How will you possibly turn this into a workable party?",
+                    "description": "While both parties are big tents, Independence's coalition is uniquely rickety. Personal loyalists to you, Libertarian-ish types, Northeastern moderates, and paleoconservatives, along with your sui generis Trumps, Naders, and what have you, are all joined together by nothing more than their dissatisfaction with the Democrats and Republicans. How will you possibly turn this into a workable party?",
                     "answers": [
                         {
                             "id": 3401,
-                            "description": "The most important priority is to prevent the election of George W. Bush to President. I will not put my name on the ballot in any contested state. I expect that people in other places will see that a vote for me symbolizes a vote for a new kind of politics in the long term.",
+                            "description": "These Buchananites- they're nuts. Wacko birds. I do not want them in my party. No way, no how. We're a reasonable party, not some lunatic asylum. They can go vote for whatever fool the Taxpayer's Party puts up, for all I care.",
                             "feedback": "Interesting campaign strategy. But you will lose a good number of votes in states like Florida and Ohio, and every little bit helps if you want to hit 5% nationally.",
                             "answerEffects": [
                                 {
@@ -40070,19 +40070,19 @@
                         },
                         {
                             "id": 3402,
-                            "description": "The two parties are almost the same on every major issue. Neither supports meaningful campaign finance reform, universal health care, free college education, a peaceful foreign policy, or the protection of American workers. I present a true alternative to the American people.",
+                            "description": "Look. This is my party. I'm the President here. Obviously, this party is going to be structured around <i>my<,i> policies. If they don't like it, too bad.",
                             "feedback": "Alright. Way to get that crowd fired up.",
                             "answerEffects": []
                         },
                         {
                             "id": 3403,
-                            "description": "If victory for the left means eight years of Bill Clinton and a term for Al Gore, then it is a shallow victory indeed. Bill Clinton has pushed cherished Republican proposals like NAFTA and welfare reform to fruition. I will end this betrayal of the American worker.",
+                            "description": "I'm not going to rain on anybody's parade here. If these people want to join my party, that's just fine by me. We're not in any position to be turning anyone away here. We're all united in sharing common sense principles anyway.",
                             "feedback": "Alright. Way to get that crowd fired up.",
                             "answerEffects": []
                         },
                         {
                             "id": 3404,
-                            "description": "I am the true choice for Americans concerned about the environment and Social Security. I will enact strict regulation of the oil and coal industry, fight against big agriculture and GMO's, and support research and subsidies for alternative energy. I will increase funding and benefits for Social Security.",
+                            "description": "",
                             "feedback": "Alright. Way to get that crowd fired up.",
                             "answerEffects": []
                         }
@@ -62316,9 +62316,9 @@
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Democracy%20-%20Live%20in%20London%20-%20Leonard%20Cohen.mp3",
-            "displayName": "Leonard Cohen- Democracy",
-            "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Welcome%20to%20Paradise%20-%20Live%20at%20Woodstock%201994%20-%20Green%20Day.mp3",
+            "displayName": "Green Day- Welcome to Paradise",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/D_Ream%20-%20Things%20Can%20Only%20Get%20Better%20-%20TOTP%20-%202%20May%201997.mp3",
@@ -62336,9 +62336,9 @@
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Fugees_-_The_Score.png"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Welcome%20to%20Paradise%20-%20Live%20at%20Woodstock%201994%20-%20Green%20Day.mp3",
-            "displayName": "Green Day- Welcome to Paradise",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Democracy%20-%20Live%20in%20London%20-%20Leonard%20Cohen.mp3",
+            "displayName": "Leonard Cohen- Democracy",
+            "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Jamiroquai%20-%20Virtual%20Insanity%20(Live%20from%20Jools'%20Millennium%20Hootenanny%2C%201999).mp3",
@@ -62354,19 +62354,19 @@
     "tooltips": [
         {
             "key": "Stockdale",
-            "value": "<img src=https://i.imgur.com/cjzvaES.jpeg> Your old Vice President. Emphasis on 'old.'"
+            "value": "<img src=https://i.imgur.com/3kbMJAW.png> Your old Vice President. Emphasis on 'old.'"
         },
         {
             "key": "Libertarian-ish types",
-            "value": "<img src=https://i.imgur.com/oWvMyKi.jpeg>  One of the major factions of the Independence Party. Key figures include yourself, Jerry Brown and Ron Paul. Most prominent in the West."
+            "value": "<img src=https://i.imgur.com/Gb0ObIV.png>  One of the major factions of the Independence Party. Key figures include Ron Paul, Jesse Ventura, and Dean Barkley. They're most prominent in the West."
         },
         {
             "key": "Northeastern moderates",
-            "value": "<img src=https://i.imgur.com/jKcFoDA.jpeg>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
+            "value": "<img src=https://i.imgur.com/HWFlWDj.png>  One of the major factions of the Independence Party. Key figures include Lowell Weicker and Angus King. Think the Republicans have shifted too far to the right."
         },
         {
             "key": "paleoconservatives",
-            "value": "<img src=https://i.imgur.com/H5hZ0yv.jpeg>  One of the major factions of the Independence Party. Key figures include Jim Traficant, David Duke, and Ron Paul (again), plus Pat Buchanan looking on from the sidelines. Think the Republicans haven't shifted nearly far enough to the right. They worry you sometimes, but they're enthusiastic and they vote for you, so what else you gonna do?"
+            "value": "<img src=https://i.imgur.com/8LMQ28S.png>  One of the major factions of the Independence Party. Key figures include Jim Traficant, David Duke, and Ron Paul (again), plus Pat Buchanan looking on from the sidelines. Think the Republicans haven't shifted nearly far enough to the right. They worry you sometimes, but they're enthusiastic and they vote for you, so what else you gonna do?"
         },
         {
             "key": "Gary Johnson",
@@ -62391,6 +62391,22 @@
         {
             "key": "Cuomo, Jackson, and the rest (except for LaRouche, of course) ",
             "value": "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/UWSDems.gif>"
+        },
+        {
+            "key": "loyalists to you",
+            "value": "<img src=https://i.imgur.com/myoBh37.png>  One of the major factions of the Independence Party. Key figures include Jim Stockdale, Ham Jordan, and Orson Swindle. You could shoot someone on fifth avenue and they'd support you."
+        },
+        {
+            "key": "Orson Swindle",
+            "value": "<img src=https://i.imgur.com/9Funs7F.png> Your first Chief of Staff (1993)"
+        },
+        {
+            "key": "Hamilton Jordan",
+            "value": "<img src=https://i.imgur.com/ZRetp7o.png> Your first Chief of Staff (1993-1994)"
+        },
+        {
+            "key": "Russ Verney",
+            "value": "<img src=https://i.imgur.com/S0SY4E0.png> Your third Chief of Staff (1994-present)"
         }
     ],
     "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/campaign1996whos0000srod/page/n7/mode/2up\" target=”_blank”>James L. Srodes and Arthur Jones- Campaign 1996 : Who's Who in The Race for the White House</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a></br><a href=\"https://archive.org/details/choosemeportrait0000grac/page/62/mode/2up\" target=”_blank”>Arthur Grase - Choose Me: Portraits of a Presidential Race</a></br><a href='https://www.presidency.ucsb.edu/documents' target='_blank'>The American Presidency Project</a> "
