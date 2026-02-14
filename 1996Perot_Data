@@ -34,7 +34,7 @@
                     "weight": 1
                 }
             ],
-            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. Ever since the spectacular failure of George McGovern, the white whale of the party has been a modernized party, one that could champion sensible policy and win elections. Al Gore is the latest in this long lineage.</p><p>Gore has longed to be president all his life. He came close in '88 but eventually faltered. His son's illness kept him out of '92, and Perot swooped in to ruin his bid for VP too. But this time, although dealing with an irate left flank, Gore looks to be the man to beat. Then again, so did a lot of Democrats before him...</p>",
+            "description": "<p>The past 30 years have not been an especially good time to be a Democrat. From landslide defeats like '72 and '84, to heartbreaking upsets like '68, the party just can't seem to catch a break. Ever since the spectacular failure of George McGovern, the white whale of the party has been a modernized party, one that could champion sensible policy and win elections. Al Gore is the latest in thr long lineage of candidates who have claimed to be able to deliver it.</p><p>Gore has longed to be president all his life. He came close in '88 but eventually faltered. His son's illness kept him out of '92, and Perot swooped in to ruin his bid for VP too. But this time, although dealing with an irate left flank, Gore looks to be the man to beat. Then again, so did a lot of Democrats before him...</p>",
             "imageUrl": "https://i.imgur.com/lMGdQ3l.png",
             "runningMateIds": [
                 85,
@@ -62316,7 +62316,7 @@
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Leonard%20Cohen%20-%20Democracy%20(Later%20Archive%201993).mp3",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Democracy%20-%20Live%20in%20London%20-%20Leonard%20Cohen.mp3",
             "displayName": "Leonard Cohen- Democracy",
             "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
         },
@@ -62326,7 +62326,17 @@
             "imageUrl": "https://i.imgur.com/KQZDp3q.jpeg"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Green%20Day%20-%20Welcome%20To%20Paradise%20%5BLive%5D.mp3",
+            "url": "https://audio.jukehost.co.uk/bIRPZih5KJxrG0rm6uKdwbB3WIUdCcDo",
+            "displayName": "Oasis- Roll With It",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Killing%20Me%20Softly%20Live.mp3",
+            "displayName": "Fugees- Killing Me Softly With His Song",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Fugees_-_The_Score.png"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Welcome%20to%20Paradise%20-%20Live%20at%20Woodstock%201994%20-%20Green%20Day.mp3",
             "displayName": "Green Day- Welcome to Paradise",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg"
         },
@@ -62336,13 +62346,8 @@
             "imageUrl": "https://i.imgur.com/Oji55jo.jpeg"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Killing%20Me%20Softly%20Live.mp3",
-            "displayName": "Killing Me Softly With His Song- Fugees",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Fugees_-_The_Score.png"
-        },
-        {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20O%20Superman%20-%20Live%20at%20the%20Phoenix%20Festival_%20Long%20Marston_%2020th%20July_%201997%20-%20David%20Bowie.mp3",
-            "displayName": "O Superman- David Bowie",
+            "displayName": "David Bowie- O Superman",
             "imageUrl": "https://i.scdn.co/image/ab67616d0000b27370bca9136fa9a2fc25345321"
         }
     ],
