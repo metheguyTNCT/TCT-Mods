@@ -10,7 +10,7 @@ function createEnding(engine, results) {
         if(engine.playerWonEv(results)) { //Gramm win
         engine.setNewMusic([{
     displayName: "Peter Gabriel- Steam",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/b/bd/Us_%28Original%29_-_Peter_Gabriel.jpg",
+    imageUrl: "https://i.imgur.com/sahSH55.jpeg",
     url: "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Steam%20-%20Live%20-%20Peter%20Gabriel.mp3",
   },
 ]);
@@ -49,7 +49,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
         else { // Gramm loss
         engine.setNewMusic([{ 
     displayName: "Aden- DC Song",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b273339c3a43f1f4d944698da7a3",
+    imageUrl: "https://i.imgur.com/AldAHlH.jpeg",
     url: "https://file.garden/Z7qfmQZIZjO_xV5N/DC%20Song.mp3",
   },
 ]);
@@ -94,7 +94,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         engine.setNewMusic([
   {
     displayName: "Cake - The Distance",
-    imageUrl: "https://i.imgur.com/DUPSZOi.jpeg",
+    imageUrl: "https://i.imgur.com/v7rsxmc.jpeg",
     url: "https://file.garden/Z7qfmQZIZjO_xV5N/CAKE%20-%20The%20Distance%20(Live).mp3",
   },
 ]);
@@ -114,7 +114,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         else { //Gore loss
         engine.setNewMusic([{
     displayName: "Blues Traveler - Run-Around",
-    imageUrl: "https://i.imgur.com/DUPSZOi.jpeg",
+    imageUrl: "https://i.imgur.com/NThtETp.jpeg",
     url: "https://file.garden/Z7qfmQZIZjO_xV5N/Run-AroundLive.mp3",
   },
 ]);
@@ -135,8 +135,8 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         if(engine.playerWonEv(results)&& trump == false) {
         engine.setNewMusic([{
     displayName: "Ben Folds Five - One Angry Dwarf and 200 Solemn Faces",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b27398dc5ccf21dd6bc171962cb9",
-    url: "https://file.garden/Z7qfmQZIZjO_xV5N/One%20Angry%20Dwarf.mp3",
+    imageUrl: "https://i.imgur.com/S9Vp71Z.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/AngryDwarf.mp3",
   },
 ]);
 
@@ -172,9 +172,9 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
                 else if(engine.isDeadlock(results) && trump == false) { //Narrowish loss
         engine.setNewMusic([
   {
-    displayName: "Alice in Chains -  Man in the Box",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/4/43/Alice_In_Chains-Facelift.jpg",
-    url: "https://file.garden/Z7qfmQZIZjO_xV5N/ManInTheBoxLive.mp3",
+    displayName: "Pete Seeger - The Ross Perot Guide to Answering Embarrassing Questions",
+    imageUrl: "https://i.imgur.com/OzZW2xB.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/ILie.mp3",
   },
 ]);
 
