@@ -136,20 +136,20 @@
         },
         {
             "id": 80,
-            "firstName": "John",
-            "lastName": "Hagelin",
-            "party": "Green",
+            "firstName": "Monica",
+            "lastName": "Moorehead",
+            "party": "Socialism and Liberation",
             "homeState": "Connecticut",
-            "color": "#ff7f2a",
+            "color": "#520505",
             "issueScores": [
                 {
                     "issueId": 27,
-                    "issueScore": -0.76,
+                    "issueScore": -1,
                     "weight": 1
                 },
                 {
                     "issueId": 28,
-                    "issueScore": -0.54,
+                    "issueScore": 1,
                     "weight": 1
                 },
                 {
@@ -159,12 +159,12 @@
                 },
                 {
                     "issueId": 30,
-                    "issueScore": 0.8,
+                    "issueScore": 1,
                     "weight": 1
                 },
                 {
                     "issueId": 31,
-                    "issueScore": 0.48,
+                    "issueScore": 1,
                     "weight": 1
                 }
             ],
@@ -21359,7 +21359,14 @@
                 {
                     "id": 400,
                     "description": "You've selected Vermont governor Howard Dean as your second-in-command. Dean is certainly an idiosyncratic character, to say the least.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 3510,
+                            "description": "hes a young feller",
+                            "feedback": "Answer feedback here, leave blank for none",
+                            "answerEffects": []
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": true,
                     "onlyEnableAtStartIfRunningMateId": 88
@@ -39805,7 +39812,7 @@
                         {
                             "id": 3414,
                             "description": "Look, I never wanted to be President in the first place. I only ran to clean up the mess the Republicans and Democrats made. I feel like I've done an awful lot of good for this nation. But if the Do-Nothing Congress is just gonna keep obstructing me, I might as well give them what they want.",
-                            "feedback": "This is the signal for all-out war in the Independence Party. After a bruising primary, Jerry Brown narrowly comes out on top. In an apparent olive branch to the right of the party, he taps Dick Lamm for VP. Let's see how he does.",
+                            "feedback": "This is the signal for all-out war in the Independence Party. After a bruising primary, Donald Trump narrowly comes out on top. In an apparent olive branch to the right of the party, he taps Dick Lamm for VP. Let's see how he does.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -39832,29 +39839,22 @@
                                     "answerEffectType": "State",
                                     "candidateId": 79,
                                     "issueId": -1,
-                                    "stateId": 185,
+                                    "stateId": 212,
                                     "amount": 0.075
                                 },
                                 {
-                                    "answerEffectType": "Issue",
-                                    "candidateId": 78,
-                                    "issueId": 29,
-                                    "stateId": 181,
-                                    "amount": 0.35
-                                },
-                                {
-                                    "answerEffectType": "Issue",
-                                    "candidateId": 78,
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 79,
                                     "issueId": 28,
                                     "stateId": 181,
-                                    "amount": -0.01
+                                    "amount": 0.14
                                 },
                                 {
-                                    "answerEffectType": "Issue",
-                                    "candidateId": 78,
-                                    "issueId": 30,
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 79,
+                                    "issueId": 31,
                                     "stateId": 181,
-                                    "amount": 0.17
+                                    "amount": 0.34
                                 }
                             ]
                         }
@@ -40070,7 +40070,7 @@
                         },
                         {
                             "id": 3402,
-                            "description": "Look. This is my party. I'm the President here. Obviously, this party is going to be structured around <i>my<,i> policies. If they don't like it, too bad.",
+                            "description": "Look. This is my party. I'm the President here. Obviously, this party is going to be structured around <i>my</i> policies. If they don't like it, too bad.",
                             "feedback": "Alright. Way to get that crowd fired up.",
                             "answerEffects": []
                         },
@@ -40082,21 +40082,22 @@
                         },
                         {
                             "id": 3404,
-                            "description": "",
+                            "description": "Well. There are a few things we all agree on. NAFTA, for one. Emphasize that.",
                             "feedback": "Alright. Way to get that crowd fired up.",
                             "answerEffects": []
                         }
                     ],
-                    "keepInPlaceIfQuestionsShuffled": false
+                    "keepInPlaceIfQuestionsShuffled": false,
+                    "onlyEnableAtStartIfRunningMateId": 89
                 },
                 {
                     "id": 349,
-                    "description": "Did you support Bill Clinton's actions leading to the bombing of Serbia?",
+                    "description": "The very first Independence National Convention is at hand. Before you go to deliver your speech, a keynote speaker must be selected. Who will you select?",
                     "answers": [
                         {
                             "id": 3333,
-                            "description": "This was an issue that had no bearing on the security of the United States. We also ruined any chance of mediation by insisting on the autonomy of Kosovo.",
-                            "feedback": "Support and opposition to the Serbia air strikes is all over the place. Mainstream politicians support the action, while a combination of anti-war leftists and anti-Clinton Republicans oppose it.",
+                            "description": "Vice-President Stockdale might not be staying on the ticket, but he's been a good number two these past few years. Have him get this rodeo started.",
+                            "feedback": "Stockdale",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -40139,8 +40140,8 @@
                         },
                         {
                             "id": 3334,
-                            "description": "This certainly helped unseat Slobodan Milosevic, but as President I will make sure that America treads carefully before intervening in foreign nations' affairs.",
-                            "feedback": "Support and opposition to the Serbia air strikes is all over the place. Mainstream politicians support the action, while a combination of anti-war leftists and anti-Clinton Republicans oppose it.",
+                            "description": "Who better than the man who started this movement in the first place? Get Jack Gargan on the horn, and have him tell the world \"We're still mad as hell!\"",
+                            "feedback": "ts is NOT tuff Ross hang yourself",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -40874,7 +40875,7 @@
                         },
                         {
                             "id": 3335,
-                            "description": "I support our actions in this theatre. For minimal cost we were able to stop a potential genocide and put a dictator to justice.",
+                            "description": "Ron Paul",
                             "feedback": "Support and opposition to the Serbia air strikes is all over the place. Mainstream politicians support the action, while a combination of anti-war leftists and anti-Clinton Republicans oppose it.",
                             "answerEffects": [
                                 {
@@ -41617,8 +41618,8 @@
                         },
                         {
                             "id": 3336,
-                            "description": "The bombing of Serbia killed many innocent civilians and increased antagonism with Russia and China. I believe military intervention should be a last resort.",
-                            "feedback": "Support and opposition to the Serbia air strikes is all over the place. Mainstream politicians support the action, while a combination of anti-war leftists and anti-Clinton Republicans oppose it.",
+                            "description": "Dean Barkley has a done a fantastic job leading the party Congress.",
+                            "feedback": "\"I LOVE PENIS\"- Dean Barkley",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -62321,14 +62322,14 @@
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/D_Ream%20-%20Things%20Can%20Only%20Get%20Better%20-%20TOTP%20-%202%20May%201997.mp3",
-            "displayName": "D:Ream- Things Can Only Get Better",
-            "imageUrl": "https://i.imgur.com/KQZDp3q.jpeg"
-        },
-        {
             "url": "https://audio.jukehost.co.uk/bIRPZih5KJxrG0rm6uKdwbB3WIUdCcDo",
             "displayName": "Oasis- Roll With It",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg"
+        },
+        {
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/U2%20-%20The%20Wanderer%20-%20RARE.mp3",
+            "displayName": "U2- The Wanderer",
+            "imageUrl": "https://i.imgur.com/OoMUvkK.jpeg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Killing%20Me%20Softly%20Live.mp3",
@@ -62377,16 +62378,16 @@
             "value": "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/UWSGOP.gif> "
         },
         {
-            "key": "The Democratic field",
+            "key": "the Democratic field",
             "value": "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/UWSDems.gif> A party desperate for victory is willing to consider anyone."
         },
         {
             "key": "Al Sr.",
-            "value": "<img src=https://i.imgur.com/dcYqu8l.jpeg> I must become my own man. I must not be your candidate."
+            "value": "<img src=https://i.imgur.com/XntTBmX.png> I must become my own man. I must not be your candidate."
         },
         {
             "key": "Dad",
-            "value": "<img src=https://i.imgur.com/dcYqu8l.jpeg> I must become my own man. I must not be your candidate."
+            "value": "<img src=https://i.imgur.com/XntTBmX.png> I must become my own man. I must not be your candidate."
         },
         {
             "key": "Cuomo, Jackson, and the rest (except for LaRouche, of course) ",
@@ -62407,6 +62408,18 @@
         {
             "key": "Verney",
             "value": "<img src=https://i.imgur.com/S0SY4E0.png> Your third Chief of Staff (1994-present)"
+        },
+        {
+            "key": "Jack Gargan",
+            "value": "<img src=https://i.imgur.com/H0li9KI.png> Mad as hell."
+        },
+        {
+            "key": "Ron Paul",
+            "value": "<img src=https://i.imgur.com/DOrE4v2.png> <img src=https://i.imgur.com/NcAMo.gif> "
+        },
+        {
+            "key": "Dean Barkley",
+            "value": "<img src=https://i.imgur.com/U1Yuorm.png> House Independence Leader (I-MN)."
         }
     ],
     "furtherReading": "A redux of sorts to 'the Maverick, the Reactionary, the Establishment: 1996' by Figet<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\" target=”_blank”>John F. Harris - The Survivor: Bill Clinton in the White House</a></br><a href=\"https://archive.org/details/presidentialfoll00hall\" target=”_blank”>Ralph Z. Hallow and Bradley S. O'Leary - Presidential Follies : Those who would be President and those who should think again!</a></br><a href=\"https://archive.org/details/campaign1996whos0000srod/page/n7/mode/2up\" target=”_blank”>James L. Srodes and Arthur Jones- Campaign 1996 : Who's Who in The Race for the White House</br><a href=\"https://web.archive.org/web/20171022074448/http://www.cnn.com/ALLPOLITICS/1996/candidates/\" target=”_blank”>CNN AllPolitics</a></br><a href=\"https://archive.org/details/choosemeportrait0000grac/page/62/mode/2up\" target=”_blank”>Arthur Grase - Choose Me: Portraits of a Presidential Race</a></br><a href='https://www.presidency.ucsb.edu/documents' target='_blank'>The American Presidency Project</a> "
