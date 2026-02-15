@@ -132,7 +132,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
     }
   // If you played as Perot
     else if(playerId == 79) {
-        if(engine.playerWonEv(results)&& brown == false) {
+        if(engine.playerWonEv(results)&& trump == false) {
         engine.setNewMusic([{
     displayName: "Ben Folds Five - One Angry Dwarf and 200 Solemn Faces",
     imageUrl: "https://i.scdn.co/image/ab67616d0000b27398dc5ccf21dd6bc171962cb9",
@@ -150,7 +150,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
             ]
             }
         }
-        else  if(engine.playerWonEv(results)&& brown == true) {
+        else  if(engine.playerWonEv(results)&& trump == true) {
         engine.setNewMusic([{
     displayName: "Andrew Lloyd Webber - The Phantom of the Opera",
     imageUrl: "https://i.imgur.com/KRzMM8E.jpeg",
@@ -169,7 +169,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
             }
         }
 
-                else if(engine.isDeadlock(results) && brown == false) { //Narrowish loss
+                else if(engine.isDeadlock(results) && trump == false) { //Narrowish loss
         engine.setNewMusic([
   {
     displayName: "Alice in Chains -  Man in the Box",
@@ -190,7 +190,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         }
 
 
-        else if(engine.isDeadlock(results) && brown == true) { //Narrowish loss
+        else if(engine.isDeadlock(results) && trump == true) { //Narrowish loss
         engine.setNewMusic([
   {
     displayName: "Andrew Lloyd Webber -  Could We Start Again, Please?",
@@ -209,7 +209,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
             ]
             }
         }
-        else if(engine.playerEvAtLeast(results, 3) && brown == true) { //Narrowish loss
+        else if(engine.playerEvAtLeast(results, 3) && trump == true) { //Narrowish loss
         engine.setNewMusic([
   {
     displayName: "Andrew Lloyd Webber - Memory",
@@ -269,7 +269,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
     }
 }
 
-var brown = false;
+var trump = false;
 
 function onAnswerPicked(engine, answerPicked) {
     // This scenario has mild CYOA
@@ -282,7 +282,7 @@ function onAnswerPicked(engine, answerPicked) {
 
         engine.setNewRunningMateImage("https://i.imgur.com/fsSEtHR.png");
         engine.setNewRunningMateName("Richard", "Lamm");
-        brown = true;
+        trump = true;
         engine.currentQuestionIndex = 25
 
     }
@@ -293,3 +293,4 @@ function onScenarioStarted(engine) {
 }
 
 export {createEnding, onAnswerPicked, onScenarioStarted}
+
