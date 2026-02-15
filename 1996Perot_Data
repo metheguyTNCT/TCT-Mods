@@ -39867,218 +39867,59 @@
                     "answers": [
                         {
                             "id": 3401,
-                            "description": "These Buchananites- they're nuts. Wacko birds. I do not want them in my party. No way, no how. We're a reasonable party, not some lunatic asylum. They can go vote for whatever fool the Taxpayer's Party puts up, for all I care.",
-                            "feedback": "Interesting campaign strategy. But you will lose a good number of votes in states like Florida and Ohio, and every little bit helps if you want to hit 5% nationally.",
+                            "description": "These Buchananites- they're nuts. Wacko birds. I do not want them in my party. No way, no how. We're a reasonable party, not some lunatic asylum. They can go vote for Porno-Gramm, for all I care.",
+                            "feedback": "The fair right fumes and defects en masse to Gramm, as you predicted. Still, this reassures centrists nervous about Independence letting in extremists.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": -1,
-                                    "amount": -0.033
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 79,
+                                    "candidateId": 77,
                                     "issueId": -1,
                                     "stateId": -1,
                                     "amount": 0.33
                                 },
                                 {
-                                    "answerEffectType": "State",
+                                    "answerEffectType": "TctIssue",
                                     "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 188,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 189,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 195,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 202,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 203,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 209,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 211,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 215,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 217,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 218,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 222,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 227,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 79,
-                                    "issueId": -1,
-                                    "stateId": 230,
-                                    "amount": -2
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 188,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 189,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 195,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 202,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 203,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 209,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 211,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 215,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 217,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 218,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 222,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 227,
-                                    "amount": 0.05
-                                },
-                                {
-                                    "answerEffectType": "State",
-                                    "candidateId": 78,
-                                    "issueId": -1,
-                                    "stateId": 230,
-                                    "amount": 0.05
+                                    "issueId": 31,
+                                    "stateId": 181,
+                                    "amount": 0.4
                                 }
                             ]
                         },
                         {
                             "id": 3402,
                             "description": "Look. This is my party. I'm the President here. Obviously, this party is going to be structured around <i>my</i> policies. If they don't like it, too bad.",
-                            "feedback": "Alright. Way to get that crowd fired up.",
-                            "answerEffects": []
+                            "feedback": "Your authoritarian streak is showing once again. Your loyalists are enthused, but the more ideological types grumble about 'personality cultism.' What's more, this makes this election a referendum on your term in office- a battle you are unlikely to win.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Issue",
+                                    "candidateId": 79,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 1.5
+                                },
+                                {
+                                    "answerEffectType": "Issue",
+                                    "candidateId": 79,
+                                    "issueId": 29,
+                                    "stateId": 181,
+                                    "amount": 1.5
+                                }
+                            ]
                         },
                         {
                             "id": 3403,
                             "description": "I'm not going to rain on anybody's parade here. If these people want to join my party, that's just fine by me. We're not in any position to be turning anyone away here. We're all united in sharing common sense principles anyway.",
-                            "feedback": "Alright. Way to get that crowd fired up.",
-                            "answerEffects": []
+                            "feedback": "While this is the safest option in the short run, this does nothing to alleviate the rampant factionalism in the party.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 79,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.09
+                                }
+                            ]
                         },
                         {
                             "id": 3404,
@@ -62307,7 +62148,7 @@
         "secondaryGameWindowTextColor": "#e9e9e9",
         "bottomBannerBackgroundColor": "#d10000",
         "bottomBannerTextColor": "#FFFFFF",
-        "advisorImage": "https://i.imgur.com/3kexWXN.png",
+        "advisorImage": "https://i.imgur.com/rpg1pQE.png",
         "quote": "\"If you just want Lawrence Welk music, wunnerful, wunnerful, I'm not your man.\"- Ross Perot"
     },
     "hasStateVisits": true,
@@ -62317,9 +62158,9 @@
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Welcome%20to%20Paradise%20-%20Live%20at%20Woodstock%201994%20-%20Green%20Day.mp3",
-            "displayName": "Green Day- Welcome to Paradise",
-            "imageUrl": "https://i.imgur.com/qTrLqdP.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Democracy%20-%20Live%20in%20London%20-%20Leonard%20Cohen.mp3",
+            "displayName": "Leonard Cohen- Democracy",
+            "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
         },
         {
             "url": "https://audio.jukehost.co.uk/bIRPZih5KJxrG0rm6uKdwbB3WIUdCcDo",
@@ -62332,14 +62173,9 @@
             "imageUrl": "https://i.imgur.com/OoMUvkK.jpeg"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Killing%20Me%20Softly%20Live.mp3",
-            "displayName": "Fugees- Killing Me Softly With His Song",
-            "imageUrl": "https://i.imgur.com/CmO77GN.png"
-        },
-        {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Democracy%20-%20Live%20in%20London%20-%20Leonard%20Cohen.mp3",
-            "displayName": "Leonard Cohen- Democracy",
-            "imageUrl": "https://i.imgur.com/qYwg3yU.jpeg"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Run-AroundLive.mp3",
+            "displayName": "Blues Traveler - Run-Around",
+            "imageUrl": "https://i.imgur.com/NThtETp.jpeg"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Jamiroquai%20-%20Virtual%20Insanity%20(Live%20from%20Jools'%20Millennium%20Hootenanny%2C%201999).mp3",
