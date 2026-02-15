@@ -9,9 +9,9 @@ function createEnding(engine, results) {
     if(playerId == 77) {
         if(engine.playerWonEv(results)) { //Gramm win
         engine.setNewMusic([{
-    displayName: "Johnny Cash, U2- The Wanderer",
-    imageUrl: "https://i.imgur.com/OoMUvkK.jpeg",
-    url: "https://files.catbox.moe/nlvcks.mp3",
+    displayName: "Peter Gabriel- Steam",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/b/bd/Us_%28Original%29_-_Peter_Gabriel.jpg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDown.App%20-%20Steam%20-%20Live%20-%20Peter%20Gabriel.mp3",
   },
 ]);
 
@@ -30,7 +30,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
   {
     displayName: "Nirvana- The Man Who Sold The World",
     imageUrl: "https://i.imgur.com/lJsxGWS.jpeg",
-    url: "https://audio.jukehost.co.uk/PMIK6WHngYsr7d4xxyS20DihNYcuBHaN",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/SoldTheWorldNirvana.mp3",
   },
 ]);
 
@@ -48,9 +48,9 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
     
         else { // Gramm loss
         engine.setNewMusic([{ 
-    displayName: "The Beach Boys- Lookin' at Tomorrow (A Welfare Song)",
-    imageUrl: "https://i.imgur.com/4sbb0JA.png",
-    url: "https://audio.jukehost.co.uk/lTvoXB9Io94ZgGJkmS0x5TVQmnMh8O1l",
+    displayName: "Aden- DC Song",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b273339c3a43f1f4d944698da7a3",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/DC%20Song.mp3",
   },
 ]);
 
@@ -69,9 +69,9 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
     else if(playerId == 78) {
         if(engine.playerWonEv(results)) { //Gore win
         engine.setNewMusic([{
-    displayName: "Stevie Wonder - Sir Duke",
-    imageUrl: "https://i.imgur.com/XLkPPoi.jpeg",
-    url: "https://files.catbox.moe/bn546f.mp3",
+    displayName: "D:Ream- Things Can Only Get Better",
+    imageUrl: "https://i.imgur.com/KQZDp3q.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/D_Ream%20-%20Things%20Can%20Only%20Get%20Better%20-%20TOTP%20-%202%20May%201997.mp3",
   },
 ]);
 
@@ -85,7 +85,7 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
                 {
                     endingHeader: "r/Presidents- What would a Clinton presidency look like if he won in 1992?",
                     imageUrl: "https://i.imgur.com/cLKrz6P.png",
-                    endingText: "<p> Posted by u/DatsHowItWuz<br><br></p><center><img src='https://i.imgur.com/nEshuW6.jpeg'><br>Who would he face in 1996? Would he win reelection?<br><br><br>u/NewShadowPatriot1999 - +5<br>It would probably be similar to Gore's. Maybe a little further to the right. As for '96, maybe Dole or Wilson don't flame out. I don't think either would win though. <br><br>u/thatmarylander12 - +2<br>I think Weld had a fighting chance.<br>"
+                    endingText: "<p> Posted by u/Fancy-Blackberry-471<br><br></p><center><img src='https://i.imgur.com/nEshuW6.jpeg'><br>Who would he face in 1996? Would he win reelection?<br><br><br>u/NewShadowPatriot1999 - +5<br>It would probably be similar to Gore's. Maybe a little further to the right. As for '96, maybe Dole or Wilson don't flame out. I don't think either would win though. <br><br>u/thatmarylander12 - +2<br>I think Cheney could be the nominee. He had the 'experienced' angle to play. He wouldn't win the election obv but still<br><br><br>u/Yuno_Ball - +2<br>He would break JFK's record for shacking up in the WH i bet<br>"
                 },  
             ]
         }
@@ -93,9 +93,9 @@ else if(engine.isDeadlock(results)) { //Gramm deadlock
 else if(engine.isDeadlock(results)) { //Gore deadlock
         engine.setNewMusic([
   {
-    displayName: "Mark Morrison - Return of the Mack",
-    imageUrl: "https://i.imgur.com/6MJ1CMe.jpeg",
-    url: "https://files.catbox.moe/ffz58r.mp3",
+    displayName: "Cake - The Distance",
+    imageUrl: "https://i.imgur.com/DUPSZOi.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/CAKE%20-%20The%20Distance%20(Live).mp3",
   },
 ]);
 
@@ -115,7 +115,7 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         engine.setNewMusic([{
     displayName: "Blues Traveler - Run-Around",
     imageUrl: "https://i.imgur.com/DUPSZOi.jpeg",
-    url: "https://files.catbox.moe/516s0w.mp3",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/Run-AroundLive.mp3",
   },
 ]);
 
@@ -134,9 +134,9 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
     else if(playerId == 79) {
         if(engine.playerWonEv(results)&& brown == false) {
         engine.setNewMusic([{
-    displayName: "Frank Sinatra - They All Laughed",
-    imageUrl: "https://i.imgur.com/tWyl8V9.jpeg",
-    url: "https://files.catbox.moe/8x1mtf.mp3",
+    displayName: "Ben Folds Five - One Angry Dwarf and 200 Solemn Faces",
+    imageUrl: "https://i.scdn.co/image/ab67616d0000b27398dc5ccf21dd6bc171962cb9",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/One%20Angry%20Dwarf.mp3",
   },
 ]);
 
@@ -152,17 +152,17 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         }
         else  if(engine.playerWonEv(results)&& brown == true) {
         engine.setNewMusic([{
-    displayName: "California Uber Alles - Dead Kennedies",
-    imageUrl: "https://i.imgur.com/SBPbiLo.jpeg",
-    url: "https://files.catbox.moe/x5waq4.mp3",
+    displayName: "Andrew Lloyd Webber - The Phantom of the Opera",
+    imageUrl: "https://i.imgur.com/KRzMM8E.jpeg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/Phantom.mp3",
   },
 ]);
 
         return {
             slides: [
                     {
-                        endingHeader: "Brown win",
-                        imageUrl: "https://i.imgur.com/EV6Du5B.jpeg",
+                        endingHeader: "Trump win",
+                        imageUrl: "https://i.imgur.com/00KSHoy.jpeg",
                         endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
                 } 
             ]
@@ -172,9 +172,9 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
                 else if(engine.isDeadlock(results) && brown == false) { //Narrowish loss
         engine.setNewMusic([
   {
-    displayName: "Sheldon Harnick, Jerry Bock -  Politics and Poker",
-    imageUrl: "https://i.imgur.com/nWqrvG5.jpeg",
-    url: "https://files.catbox.moe/ep5w9y.mp3",
+    displayName: "Alice in Chains -  Man in the Box",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/4/43/Alice_In_Chains-Facelift.jpg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/ManInTheBoxLive.mp3",
   },
 ]);
 
@@ -193,17 +193,17 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         else if(engine.isDeadlock(results) && brown == true) { //Narrowish loss
         engine.setNewMusic([
   {
-    displayName: "The Mamas and the Papas -  California Dreamin'",
-    imageUrl: "https://i.imgur.com/baj25RC.jpeg",
-    url: "https://files.catbox.moe/50zp5f.mp3",
+    displayName: "Andrew Lloyd Webber -  Could We Start Again, Please?",
+    imageUrl: "https://m.media-amazon.com/images/I/81gVXYUXj-L._UF1000,1000_QL80_.jpg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/TrumpLock.mp3",
   },
 ]);
 
         return {
             slides: [
                 {
-                    endingHeader: "brown deadlock",
-                    imageUrl: "https://i.imgur.com/mHP6MkD.jpeg",
+                    endingHeader: "Trump deadlock",
+                    imageUrl: "https://i.imgur.com/UQ4fPLU.jpeg",
                     endingText: "<p>Sad!</p>"
                 } 
             ]
@@ -212,17 +212,17 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
         else if(engine.playerEvAtLeast(results, 3) && brown == true) { //Narrowish loss
         engine.setNewMusic([
   {
-    displayName: "Where Are You Now When We Need You Ross Perot - Don Mason",
-    imageUrl: "https://i.imgur.com/jJq6c2M.jpeg",
-    url: "https://files.catbox.moe/v6jvgw.mp3",
+    displayName: "Andrew Lloyd Webber - Memory",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/1/1a/Cats_Complete_Original_Broadway_Cast_Recording.jpg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/Memory.mp3",
   },
 ]);
 
         return {
             slides: [
                 {
-                    endingHeader: "brown loss",
-                    imageUrl: "https://i.imgur.com/eaGXZzV.jpeg",
+                    endingHeader: "Trump loss",
+                    imageUrl: "https://i.imgur.com/1KolLQ7.jpeg",
                     endingText: "<p>Sad!</p>"
                 } 
             ]
@@ -231,9 +231,9 @@ else if(engine.isDeadlock(results)) { //Gore deadlock
 
         else {
         engine.setNewMusic([{
-    displayName: "Crazy - Patsy Cline",
-    imageUrl: "https://i.imgur.com/cwe6HJX.jpeg",
-    url: "https://files.catbox.moe/0t5b9l.mp3",
+    displayName: "Crazy - Julio Iglesias",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/cf/Crazy_%28Julio_Iglesias%29.jpg",
+    url: "https://file.garden/Z7qfmQZIZjO_xV5N/Julio%20Iglesias%20Crazy%20%5B4aIlNXpVdsY%5D.mp3",
   },
 ]);
 
@@ -277,8 +277,8 @@ function onAnswerPicked(engine, answerPicked) {
     const playerId = engine.getPlayerCandidateController().getId();
 
     if (ans == 3414 && playerId == 79) {
-        engine.setNewPlayerCandidateImage("https://i.imgur.com/XBvkeE8.png");
-        engine.setNewPlayerCandidateName("Jerry", "Brown");
+        engine.setNewPlayerCandidateImage("https://i.imgur.com/g5bVAlq.png");
+        engine.setNewPlayerCandidateName("Donald J.", "Trump");
 
         engine.setNewRunningMateImage("https://i.imgur.com/fsSEtHR.png");
         engine.setNewRunningMateName("Richard", "Lamm");
