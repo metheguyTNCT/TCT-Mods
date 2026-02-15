@@ -6,7 +6,7 @@
             "lastName": "Gore",
             "party": "Democratic",
             "homeState": "Tennessee",
-            "color": "#6c8da4",
+            "color": "#4e5cb3",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -125,7 +125,7 @@
                 }
             ],
             "description": "<p>Ross Perot is having a devil of a time. Elected on a promise to end Washington gridlock, he's found himself encumbered like no President before by it. The same anti-establishment fervor that carried Perot to the Presidency means that Congress is in no mood to work with him, to no end of pain for him. While he's succeeded in passing the Balanced Budget Amendment. Perot's signature electoral reform initiative has been a wash, as has his attempted scrapping of NAFTA.</p><p>Perot has governed as a moderate conservative,  though he would be more likely to describe his views as simply common sense.  After a brief flirtation with rejoining the Republicans, Perot founded the Independence Party. Famously wishy-washy on the specifics of his ideology, sooner or later he'll have to define who he is and what he and his newly-constructed party believe in.  It'll take more than wisecracks to win this time, but Perot has beaten the odds before...</p>",
-            "imageUrl": "https://i.imgur.com/30nTX8k.png",
+            "imageUrl": "https://i.imgur.com/fcDKRQo.png",
             "runningMateIds": [
                 89,
                 90,
@@ -20872,12 +20872,12 @@
             "questions": [
                 {
                     "id": 397,
-                    "description": "After hacking and slashing your way through the Democratic field, you have finally become the presumptive nominee. Your lifelong quest for the Presidency is nearly reaching its conclusion. Now, though, the convention has come, and it's time to lay your claim. Who are you, Al Gore?",
+                    "description": "After hacking and slashing your way through the Democratic field, you have finally become the presumptive nominee. Your lifelong quest for the Presidency is nearly reaching its conclusion. Now, though, the convention has come, and, as Dad watches from the stands, it's time to lay your claim. Who are you, Al Gore?",
                     "answers": [
                         {
                             "id": 3501,
                             "description": "I am not satisfied with the course this nation is on. We must do more to provide for working families. We must do more to protect the rights of the vulnerable. We must do more to ensure the prosperity flows to all people.",
-                            "feedback": "So it seems you've really turned over a new leaf. Gramm and Perot harp on your 'pessimism,' but this should go far to reduce Nader's numbers. You wonder what Dad thinks.",
+                            "feedback": "So it seems you've really turned over a new leaf. Gramm and Perot harp on your 'pessimism,' but this should go far to reduce Nader's numbers.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "TctIssue",
@@ -20898,7 +20898,7 @@
                         {
                             "id": 3502,
                             "description": "What we've seen from Ross Perot recently has been a perfect example of adhocracy in action. As the last four years have shown, the White House requires an occupant with the experience necessary to get things done.  ",
-                            "feedback": "Competence, eh? Sounds familiar...Anyhow, this a fairly good attack, though advisors recommend focusing on Gramm over Perot as your main threat. Perot's supporters argue that his experience is what's great about him, but most of the public disagrees.",
+                            "feedback": "Competence, eh? Sounds familiar...Anyhow, this a fairly good attack, though advisors recommend focusing on Gramm over Perot as your main threat. Also, in this current anti-establishment climate, bragging about experience might not be as effective as it once was.",
                             "answerEffects": [
                                 {
                                     "answerEffectType": "Global",
@@ -62141,7 +62141,7 @@
     "theme": {
         "backgroundImageUrl": "https://i.imgur.com/gSy5pHF.jpeg",
         "backgroundColor": "#BFE6FF",
-        "headerImageUrl": "https://i.imgur.com/eHsHgVi.jpeg",
+        "headerImageUrl": "https://i.imgur.com/sucPali.jpeg",
         "primaryGameWindowColor": "#af5555",
         "secondaryGameWindowColor": "#800000",
         "primaryGameWindowTextColor": "#000000",
@@ -62154,7 +62154,7 @@
     "hasStateVisits": true,
     "scenarioName": "1996: United We Stand",
     "scenarioDescription": "<p>As Ross Perot's tumultuous first term comes to a close, the three parties each decide to go in radically different directions.</p> <ul><li>Al Gore hopes to exploit dissatisfaction with Perot's chaotic style of government to become the first Democratic president since Carter.</li><li>Phil Gramm attempts to strike a blow for conservatism and restore the Republican dominance of the '80s.</li> <li>Perot must defend his term in office and forge an identity for the Independence Party.</ul>",
-    "scenarioImageUrl": "https://i.imgur.com/OURFKVn.png",
+    "scenarioImageUrl": "https://i.imgur.com/nXpPA1p.png",
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
