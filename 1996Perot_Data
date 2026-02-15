@@ -6,7 +6,7 @@
             "lastName": "Gore",
             "party": "Democratic",
             "homeState": "Tennessee",
-            "color": "#003066",
+            "color": "#6c8da4",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -51,7 +51,7 @@
             "lastName": "Gramm",
             "party": "Republican",
             "homeState": "Texas",
-            "color": "#df2516",
+            "color": "#b5494d",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -96,7 +96,7 @@
             "lastName": "Perot",
             "party": "Independence",
             "homeState": "Texas",
-            "color": "#ffb921",
+            "color": "#5e615d",
             "issueScores": [
                 {
                     "issueId": 27,
@@ -62141,7 +62141,7 @@
     "theme": {
         "backgroundImageUrl": "https://i.imgur.com/gSy5pHF.jpeg",
         "backgroundColor": "#BFE6FF",
-        "headerImageUrl": "https://i.imgur.com/ckFcV9J.png",
+        "headerImageUrl": "https://i.imgur.com/eHsHgVi.jpeg",
         "primaryGameWindowColor": "#af5555",
         "secondaryGameWindowColor": "#800000",
         "primaryGameWindowTextColor": "#000000",
