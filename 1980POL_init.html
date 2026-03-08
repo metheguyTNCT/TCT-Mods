@@ -42,3 +42,1177 @@ campaignTrail_temp.credits = 'u/yupperdoo97. Help for banner and theme from Bail
 nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
 
 HistHexcolour=["#003cff","#ff0000","#ffe100","#16cf00"]; HistName=[" Ronald Reagan"," Jimmy Carter"," John B. Anderson"," Clark/Others"]; HistEV=[489,49,0,0]; HistPV=["43,903,230","35,481,115","5,719,850","1,406,483"]; HistPVP=["50.75%","41.01%","6.61%","1.62%"];
+class Song {
+constructor(title, artist, coverLink, audioLink) {
+  this.title = title;
+  this.artist = artist;
+  this.coverLink = coverLink;
+  this.audioLink = audioLink;
+}
+getTitle() {
+  return this.title;
+}
+
+getArtist() {
+  return this.artist;
+}
+
+getCoverLink() {
+  return this.coverLink;
+}
+
+getAudioLink() {
+  return this.audioLink;
+}
+}
+
+class Playlist {
+constructor() {
+  this.songs = [];
+  this.currentSongIndex = 0;
+}
+
+addSong(song) {
+  this.songs.push(song);
+}
+
+getCurrentSong() {
+  return this.songs[this.currentSongIndex];
+}
+
+playNext() {
+  this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+}
+
+playPrevious() {
+  this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+}
+}
+window.Playlist=Playlist
+window.Song=Song
+
+function changePlaylist(newPlaylist) {
+playlist = newPlaylist;
+playlist.currentSongIndex = 0;
+updateUI(playlist);
+const audio = document.getElementById("audio");
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio();
+audio.play();
+}
+window.changePlaylist=changePlaylist
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  var player = document.getElementById("player");
+  player.querySelector("#cover").src = currentSong.getCoverLink();
+  player.querySelector("#title").textContent = currentSong.getTitle();
+  player.querySelector("#artist").textContent = currentSong.getArtist();
+}
+
+window.updateUI=updateUI
+
+let getAudioAmplitude = (time) => 0;
+
+async function isBraveBrowser() {
+  if (window.navigator.brave && await window.navigator.brave.isBrave()) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+async function decodeAudio(audioSrc) {
+try {
+  if (await isBraveBrowser()) return null; 
+
+  const audioContext = new AudioContext();
+  const response = await fetch(audioSrc);
+  const arrayBuffer = await response.arrayBuffer();
+  const buffer = await audioContext.decodeAudioData(arrayBuffer);
+
+  const sampleRate = buffer.sampleRate;
+  const totalSamples = buffer.length;
+  const numChannels = buffer.numberOfChannels;
+
+  // Reduce memory usage by processing every 32nd sample
+  const downsampleFactor = 32;
+  const reducedSize = Math.floor(totalSamples / downsampleFactor);
+  
+  let amplitudes = new Float32Array(reducedSize);
+  let meanAmplitude = 0;
+
+  for (let i = 0; i < reducedSize; i++) {
+    let sum = 0;
+    for (let channel = 0; channel < numChannels; channel++) {
+      sum += buffer.getChannelData(channel)[i * downsampleFactor] ** 2; 
+    }
+    amplitudes[i] = sum / numChannels; 
+    meanAmplitude += amplitudes[i];
+  }
+
+  meanAmplitude /= reducedSize;
+
+  getAudioAmplitude = function (time) {
+    const delay = 0.17;
+    let index = Math.floor((time + delay) * sampleRate / downsampleFactor);
+    index = Math.min(index, reducedSize - 1);
+    let amplitudeNorm = amplitudes[index] / (2 * meanAmplitude);
+    return Math.min(amplitudeNorm, 1);
+  };
+
+  console.log("Audio decoded successfully!");
+
+} catch (error) {
+  console.error("Error decoding audio:", error);
+}
+}
+
+  
+function setupMusicPlayer() {
+
+playlist = new Playlist();
+
+const song1 = new Song(
+  "The Logical Song",
+  "Supertramp",
+  "https://i.scdn.co/image/ab67616d0000b2735405ef9e393f5f1e53b4b42e",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/Logical.mp3"
+);
+
+const song2 = new Song(
+"I'll Bet He's Nice",
+"The Beach Boys",
+"https://brutallyhonestrockalbumreviews.wordpress.com/wp-content/uploads/2020/11/67a5322b-ae20-42c4-9351-84a8bd7ec3f9.jpeg",
+"https://file.garden/Z7qfmQZIZjO_xV5N/BetHesNice.mp3"
+);
+
+const song3 = new Song(
+"Southbound Again",
+"Dire Straits",
+"https://upload.wikimedia.org/wikipedia/en/1/15/DS_Dire_Straits.jpg",
+"https://file.garden/Z7qfmQZIZjO_xV5N/SouthboundAgain.mp3"
+);
+
+const song4 = new Song(
+  "Upside Down",
+  "Diana Ross",
+  "https://www.theparisreview.org/blog/wp-content/uploads/2015/04/diana-ross-upside-down-motown-4.jpg",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/UpsideDown.mp3"
+);
+
+const song5 = new Song(
+  "Paradise By the Dashboard Light",
+  "Meat Loaf",
+  "https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Song%20Covers/Paradise%20By%20the%20Dashboard%20Light",
+  "https://audio.jukehost.co.uk/30ysZumO82CY4tJkOpXzkKmfPSyzW7y3"
+);
+
+const song6 = new Song(
+  "Off the Wall",
+  "Michael Jackson",
+  "https://m.media-amazon.com/images/I/812EgYpATnL._UF1000,1000_QL80_.jpg",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/Off%20the%20Wall.mp3"
+);
+
+const song7 = new Song(
+  "M.E.",
+  "Gary Numan",
+  "https://i.scdn.co/image/ab67616d0000b27368c6ff057d32ba4834f4ea43",
+  "https://file.garden/Z7qfmQZIZjO_xV5N/M.E..mp3"
+);
+
+const song8 = new Song(
+"O Superman",
+"Laurie Anderson",
+"https://f4.bcbits.com/img/a3105825986_10.jpg",
+"https://file.garden/Z7qfmQZIZjO_xV5N/O%20Superman.mp3"
+              );
+
+
+
+playlist.addSong(song1);
+playlist.addSong(song2);
+playlist.addSong(song3);
+playlist.addSong(song4);
+playlist.addSong(song5);
+playlist.addSong(song6);
+playlist.addSong(song7);
+playlist.addSong(song8);
+
+const playerContainer = document.createElement("div");
+playerContainer.id = "player";
+
+const displayBox = document.createElement("div");
+displayBox.id = "display-box";
+
+const coverElement = document.createElement("img");
+coverElement.id = "cover";
+displayBox.appendChild(coverElement);
+
+const infoContainer = document.createElement("div");
+infoContainer.id = "info-container";
+infoContainer.style.backgroundSize = "cover";
+infoContainer.style.color = "#71d4c1";
+infoContainer.style.position = "relative";
+infoContainer.style.border = "1px solid #71d4c1";
+infoContainer.style.marginLeft = "2px";
+infoContainer.style.backgroundColor = "black";
+infoContainer.style.textShadow = "0 0 20px #71d4c1";
+
+// Local time display (user's device time)
+const localTime = document.createElement("div");
+localTime.id = "local-time";
+localTime.style.position = "absolute";
+localTime.style.bottom = "4%";
+localTime.style.right = "4%";
+localTime.style.minWidth = "70px";
+localTime.style.display = "inline-block";
+localTime.style.textAlign = "right";
+localTime.style.whiteSpace = "nowrap";
+localTime.style.fontVariantNumeric = "tabular-nums";
+localTime.style.fontFeatureSettings = '"tnum"';
+localTime.style.fontFamily = "Inter";
+localTime.style.fontSize = "12px";
+localTime.style.color = "#71d4c1";
+localTime.style.textShadow = "0 0 10px #71d4c1";
+infoContainer.appendChild(localTime);
+
+// Build time DOM so blinking colons don't change layout width
+const localTimeHours = document.createElement("span");
+localTimeHours.id = "local-time-hours";
+
+const localTimeColon1 = document.createElement("span");
+localTimeColon1.id = "local-time-colon-1";
+localTimeColon1.textContent = ":";
+
+const localTimeMinutes = document.createElement("span");
+localTimeMinutes.id = "local-time-minutes";
+
+const localTimeColon2 = document.createElement("span");
+localTimeColon2.id = "local-time-colon-2";
+localTimeColon2.textContent = ":";
+
+const localTimeSeconds = document.createElement("span");
+localTimeSeconds.id = "local-time-seconds";
+
+localTime.appendChild(localTimeHours);
+localTime.appendChild(localTimeColon1);
+localTime.appendChild(localTimeMinutes);
+localTime.appendChild(localTimeColon2);
+localTime.appendChild(localTimeSeconds);
+
+const updateLocalTime = () => {
+  const now = new Date();
+  localTimeHours.textContent = String(now.getHours()).padStart(2, "0");
+  localTimeMinutes.textContent = String(now.getMinutes()).padStart(2, "0");
+  localTimeSeconds.textContent = String(now.getSeconds()).padStart(2, "0");
+
+  const showColons = Math.floor(Date.now() / 1000) % 2 === 0;
+  const visibility = showColons ? "visible" : "hidden";
+  localTimeColon1.style.visibility = visibility;
+  localTimeColon2.style.visibility = visibility;
+};
+updateLocalTime();
+setInterval(updateLocalTime, 500);
+
+
+const songInfo = document.createElement("div");
+songInfo.id = "song-info";
+
+const titleElement = document.createElement("h3");
+titleElement.id = "title";
+titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+songInfo.appendChild(titleElement);
+
+const artistElement = document.createElement("p");
+artistElement.id = "artist";
+songInfo.appendChild(artistElement);
+
+infoContainer.appendChild(songInfo);
+displayBox.appendChild(infoContainer);
+
+playerContainer.appendChild(displayBox);
+
+const controlsContainer = document.createElement("div");
+controlsContainer.id = "controls-container";
+
+const controls = document.createElement("div");
+controls.id = "controls";
+
+// Create the image element for the button
+const prevButton = document.createElement("img");
+prevButton.id = "prevButton";
+prevButton.src = "https://i.imgur.com/HOLAKL2.png"; // Default image
+prevButton.alt = "Previous";
+controls.appendChild(prevButton);
+
+// Add event listeners for mousedown and mouseup
+prevButton.addEventListener("mousedown", function() {
+  prevButton.style.filter = "brightness(0.4)";
+});
+
+prevButton.addEventListener("mouseup", function() {
+  prevButton.style.filter = "brightness(1)";
+});
+
+
+prevButton.addEventListener("mouseleave", function() {
+  prevButton.style.filter = "brightness(1)";
+});
+
+const playPauseButton = document.createElement("img");
+playPauseButton.id = "playPauseButton";
+playPauseButton.src = "https://i.imgur.com/MUCxlaS.png"; // Set the default Pause image
+playPauseButton.alt = "Play/Pause";
+controls.appendChild(playPauseButton);
+
+const nextButton = document.createElement("img");
+nextButton.id = "nextButton";
+nextButton.src = "https://i.imgur.com/HVfruxg.png"; // Default image for "Next"
+nextButton.alt = "Next";
+controls.appendChild(nextButton);
+
+
+nextButton.addEventListener("mousedown", function() {
+  nextButton.style.filter = "brightness(0.4)";
+});
+
+nextButton.addEventListener("mouseup", function() {
+  nextButton.style.filter = "brightness(1)";
+});
+
+
+nextButton.addEventListener("mouseleave", function() {
+  nextButton.style.filter = "brightness(1)";
+});
+
+const frequencyContainer = document.createElement("div");
+frequencyContainer.id = "frequency-container";
+
+const frequency1 = document.createElement("div");
+frequency1.id = "frequency1";
+
+const frequency2 = document.createElement("div");
+frequency2.id = "frequency2";
+
+const frequency3 = document.createElement("div");
+frequency3.id = "frequency3";
+
+frequencyContainer.appendChild(frequency1);
+frequencyContainer.appendChild(frequency2);
+frequencyContainer.appendChild(frequency3);
+
+controlsContainer.appendChild(frequencyContainer);
+controlsContainer.appendChild(controls);
+
+// Play/Pause functionality with image toggle
+playPauseButton.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  if (audio.paused) {
+    audio.play();
+    playPauseButton.src = "https://i.imgur.com/MUCxlaS.png"; // Pause image
+  } else {
+    audio.pause();
+    playPauseButton.src = "https://i.imgur.com/BKXWOcD.png"; // Set the play image
+    updateProgressBar();
+  }
+});
+
+
+// Press effect for the play/pause button
+playPauseButton.addEventListener("mousedown", function() {
+    playPauseButton.style.filter = "brightness(0.4)"; 
+});
+
+
+playPauseButton.addEventListener("mouseup", function() {
+    playPauseButton.style.filter = "brightness(1)"; 
+});
+
+playPauseButton.addEventListener("mouseleave", function() {
+    playPauseButton.style.filter = "brightness(1)"; 
+});
+
+nextButton.addEventListener("click", function () {
+playlist.playNext();
+updateUI(playlist);
+const audio = document.getElementById("audio");
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio(audio.src);
+audio.play();
+});
+
+prevButton.addEventListener("click", function () {
+playlist.playPrevious();
+updateUI(playlist);
+const audio = document.getElementById("audio");
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio(audio.src);
+audio.play();
+});
+
+
+
+// Create the progress bar container
+const progressBarContainer = document.createElement("div");
+progressBarContainer.id = "progress-bar-container";
+
+// Create time displays (current / total)
+const currentTimeDisplay = document.createElement("span");
+currentTimeDisplay.id = "current-time";
+currentTimeDisplay.textContent = "0:00";
+
+const totalTimeDisplay = document.createElement("span");
+totalTimeDisplay.id = "total-time";
+totalTimeDisplay.textContent = "0:00";
+
+// Create the progress bar slider
+const progressBar = document.createElement("input");
+progressBar.type = "range"; // Change to range type for a slider
+progressBar.id = "progress-bar";
+progressBar.value = "0";
+progressBar.max = "100";
+progressBar.step = "0.1"; // Optional: sets the granularity of the slider
+
+progressBarContainer.appendChild(currentTimeDisplay);
+progressBarContainer.appendChild(progressBar);
+progressBarContainer.appendChild(totalTimeDisplay);
+controlsContainer.appendChild(progressBarContainer);
+playerContainer.appendChild(controlsContainer);
+
+const volumeContainer = document.createElement("div");
+volumeContainer.id = "volume-container";
+
+const volumeLabel = document.createElement("img");
+volumeLabel.src = "https://i.imgur.com/NsLicIu.png"; // Set the volume image
+volumeLabel.alt = "Volume";
+volumeContainer.appendChild(volumeLabel);
+
+const volumeSliderContainer = document.createElement("div");
+volumeSliderContainer.classList.add("is-vertical");
+volumeSliderContainer.style.marginLeft = "29%";
+volumeSliderContainer.style.height = "126px";
+
+const volumeSlider = document.createElement("input");
+volumeSlider.type = "range";
+volumeSlider.id = "volumeSlider";
+volumeSlider.min = 0;
+volumeSlider.max = 9;
+volumeSlider.step = 1;
+volumeSlider.value = 4; // Initial volume
+
+volumeSliderContainer.appendChild(volumeSlider);
+
+const volumeDisplay = document.createElement("span");
+volumeDisplay.id = "volume-display";
+volumeDisplay.style.fontWeight = 'bold'; 
+volumeDisplay.style.display = 'none';
+volumeDisplay.textContent = "1";
+
+volumeContainer.appendChild(volumeSliderContainer);
+volumeContainer.appendChild(volumeDisplay);
+
+playerContainer.appendChild(volumeContainer);
+
+gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+
+// Update progress bar as the song plays
+function updateProgressBar() {
+const audio = document.getElementById("audio");
+
+function formatTime(totalSeconds) {
+  if (!Number.isFinite(totalSeconds) || totalSeconds < 0) return "0:00";
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = Math.floor(totalSeconds % 60);
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
+const progress = duration > 0 ? (audio.currentTime / duration) * 100 : 0;
+progressBar.value = progress;
+
+const currentTimeEl = document.getElementById("current-time");
+const totalTimeEl = document.getElementById("total-time");
+if (currentTimeEl) currentTimeEl.textContent = formatTime(audio.currentTime);
+if (totalTimeEl) totalTimeEl.textContent = formatTime(audio.duration);
+
+const MIN_DEG = -45, MAX_DEG = 45;
+
+// If paused, use amplitude=0 so it rotates to -45.
+let amplitude = audio.paused 
+                ? 0 
+                : getAudioAmplitude(audio.currentTime);
+
+let degrees = MIN_DEG + amplitude * (MAX_DEG - MIN_DEG);
+needle.style.transform = "rotate(" + degrees + "deg)";
+}
+
+
+// Seek functionality when the slider is moved
+progressBar.addEventListener("input", function () {
+  const audio = document.getElementById("audio");
+  const seekTime = (progressBar.value / 100) * audio.duration;
+  audio.currentTime = seekTime;
+});
+
+// Setup the audio element and event listeners
+const audio = document.createElement("audio");
+audio.id = "audio";
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio(audio.src);
+audio.volume = 4 / 9;
+
+audio.addEventListener("timeupdate", updateProgressBar);
+audio.addEventListener("loadedmetadata", updateProgressBar);
+audio.addEventListener("ended", function () {
+  // Play the next song when the current song ends
+  playlist.playNext();
+  updateUI(playlist);
+  audio.src = playlist.getCurrentSong().audioLink;
+  decodeAudio(audio.src);
+  updateProgressBar();
+  audio.play();
+});
+
+  let currentVolume = 4; // Initial volume
+
+volumeSlider.addEventListener("input", function () {
+  currentVolume = parseInt(volumeSlider.value, 10);
+  updateVolumeDisplay();
+  updateAudioVolume();
+});
+
+function updateVolumeDisplay() {
+  volumeDisplay.textContent = currentVolume;
+}
+
+ function updateAudioVolume() {
+  const audio = document.getElementById("audio");
+  audio.volume = currentVolume / 9; // Set volume between 0 and 1
+}
+
+document.body.appendChild(audio);
+audio.play();
+
+
+// Update the UI when the page loads
+updateUI(playlist);
+}
+
+
+
+const style = document.createElement("style");
+style.textContent = `
+#player {
+  border: 3px solid #59c7c2; 
+  display: flex;
+  flex-direction: row;
+  height:191px;
+  background-Image: url(https://i.imgur.com/VKb0al5.png);
+  background-color: #0c0c0ceb;
+  box-shadow: inset 0 0 20px 13px #000000;
+}
+
+#display-box {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+  h3#title {
+    font-size: 34px;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+  }
+
+  #cover {
+    width: 176px;
+    height: 176px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #71d4c1;
+    z-index: 9992;
+  }
+
+  #cover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 0px #71d4c1;
+    transition: all 0.2s 
+    cubic-bezier(0.00, 0.00, 1.00, 1.00);
+  }
+
+    p#artist {
+    font-size: 24px;
+    text-shadow: 0 0 20px #71d4c1;
+    transform: translateY(-1.34em);
+    }
+
+ #info-container {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 163px;
+    margin-top: 3px;
+ }
+
+  #song-info {
+    width: 100%;
+    padding: 7px;
+    font-family: Six Caps;
+    padding-right: 2px;
+    padding-top: 3px;
+  }
+
+  #controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width:100%;
+  }
+
+#frequency-container {
+  width: 100%;
+  height: 2rem;
+  background-image: url(https://via.placeholder.com/20);
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 2px;
+  outline: 1px solid #71d4c1;
+}
+
+#frequency1 {
+  width: 53px;
+    height: 20px;
+    background-image: url(https://i.imgur.com/FBctr8K.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0.2rem;
+}
+
+#frequency2 {
+    width: 223px;
+    height: 20px;
+    background-image: url(https://i.imgur.com/qTaJJdt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1em;
+}
+
+#frequency3 {
+    width: 218px;
+    height: 23px;
+    background-image: url(https://i.imgur.com/AVv02pU.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1.5rem;
+}
+
+.is-vertical #volumeSlider {
+  width: 8px;
+  height: 133px;
+  -webkit-appearance: none;
+  appearance: none;
+  writing-mode: vertical-lr;
+  border-radius: 15px;
+  background-color: #242424;
+  border: 1px solid #71d4c1;
+  transform: rotate(180deg);
+}
+
+.is-vertical #volumeSlider::-webkit-slider-runnable-track {
+  width: 8px;
+  height: 133px;
+  background: #242424;
+  border-radius: 15px;
+}
+
+.is-vertical #volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #333;
+  border-radius: 50%;
+  transform: translateX(-3.5px);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.is-vertical #volumeSlider::-moz-range-track {
+  width: 8px;
+  height: 133px;
+  background: #242424;
+  border-radius: 15px;
+  border: 1px solid #71d4c1;
+}
+
+.is-vertical #volumeSlider::-moz-range-thumb {
+  background-color: #71d4c1;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+  #controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-top: 3.8rem;
+    transform: scale(0.8);
+  }
+
+    #progress-bar-container {
+    width: 98%;
+    display: flex;
+    align-items: end;
+    gap: 8px;
+    }
+
+    #current-time, #total-time {
+    color: #71d4c1;
+    font-family: Inter;
+    font-size: 13px;
+    text-shadow: 0 0 7px #71d4c1;
+    user-select: none;
+    transform: translateY(26%);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+    }
+
+    #progress-bar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    appearance: none;
+    background: #242424;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #71d4c1;
+    }
+
+#progress-bar::-webkit-slider-thumb {
+  appearance: none; /* Remove default styling for consistency across browsers */
+  width: 15px;
+  height: 15px;
+  background: #333; /* Slider thumb color */
+  border-radius: 50%; /* Round thumb */
+  cursor: pointer;
+}
+
+#progress-bar::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+  .is-vertical #volumeSlider::-webkit-slider-thumb {
+    appearance: none;
+    background-color: #71d4c1;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 9998;
+  }
+
+#question_form {
+  color: #59c7c2;
+  overflow: visible;
+}
+
+.inner_window_question {
+  background-color:#000000;
+  border-radius: 5px; 
+  position: relative;
+  overflow: visible;
+}
+
+.inner_window_question h3 {
+  background: linear-gradient(90deg, rgba(36, 36, 36, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 75%, rgba(36, 36, 36, 1) 100%);
+  border-radius: 5px;
+  box-shadow: 
+  0 0 5px rgba(224, 255, 255, 0.5),  
+  0 0 10px rgba(224, 255, 255, 0.3),  
+  0 0 20px rgba(224, 255, 255, 0.1); 
+  
+}
+    
+@keyframes fadeInScale {
+  0% {
+      opacity: 0;
+      transform: scale(0.8);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.overlay_window {
+  position: absolute;
+  opacity: 0; /* Start hidden */
+  transform: scale(0.8); /* Start slightly smaller */
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow:
+      0 0 10px rgba(224, 255, 255, 0.5),  
+      0 0 20px rgba(224, 255, 255, 0.3),  
+      0 0 40px rgba(224, 255, 255, 0.1);
+  
+  height: 62%;
+  width: 50%;
+  top: 17%;
+  left: 25%;
+  
+  border-style: double;
+  border-color: #59c7c2;
+
+  animation: fadeInScale 0.3s cubic-bezier(0.3, 1.2, 0.2, 1) forwards;
+}
+
+
+.overlay_window h3 {
+  background-color: #000000;
+}
+
+.overlay_window_content {
+  color: #000000;
+}
+
+#progress_bar h3 {
+  color: #000000;
+  }
+
+  .inner_inner_window h3 {
+      color: #ffffff;
+      }
+
+  .inner_window_sign_display {
+    margin: 0;
+    height: 25%;
+    position: relative;
+    width: 30%;
+    height: 80%;
+    background-color: #000000;
+    margin: 0;
+    border-style: ridge;
+    border-color: #59c7c2;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 7px;
+}
+
+  .overlay_window img {
+    width: 251px;
+    height: 134px;
+}
+
+.final_results_table {
+  color: black;
+}
+
+#state_result_data_summary table {
+  color: black;
+}
+
+#state_result_data_summary table th,
+#state_result_data_summary table td {
+  color: black; 
+}
+
+#overall_result_container,
+#menu_container,
+#state_result_container {
+  background-color:transparent
+}
+
+#map_container{
+  background-color:#000000;
+  border-radius: 25px; 
+  box-shadow: 
+  0 0 10px rgba(224, 255, 255, 0.5),  
+  0 0 20px rgba(224, 255, 255, 0.3),  
+  0 0 40px rgba(224, 255, 255, 0.1); 
+  position: relative;
+  overflow: hidden;
+}
+
+.cheatIndicator {
+position: absolute;
+}
+#difficulty_mult {
+display: none;
+}
+#results_container{
+  overflow: auto;
+}
+.person_image {
+  position: sticky;
+  top: 16px; 
+  align-self: flex-start;
+  z-index: 1;
+  float: left;
+  margin: 1.2em 1em 0;
+  border: double;
+  border-color: #59c7c2;
+  height: 250px;
+}
+
+.final_results_table {
+width: 66% !important;
+table-layout: fixed !important;
+border-collapse: collapse !important;
+margin-right: 3% !important;
+font-family: Georgia, serif !important;
+background-color: #e6ecf5 !important;
+box-shadow: 0 0 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.final_results_table th,
+.final_results_table td {
+padding: 2px 4px !important;
+border: 1px solid #ccc !important;
+text-align: center !important;
+white-space: nowrap !important; /* â¬… Prevents wrapping */
+}
+
+.final_results_table td:first-child {
+text-align: left !important;
+width: 40% !important; /* â¬… Makes room for long names */
+}
+
+ #candidate_description_window {
+    box-shadow: inset 0 0 18px 4px #000;
+ }
+
+ .inner_window_w_desc {
+    background-image: url(https://files.catbox.moe/nuvrfv.png);
+ }
+
+ .person_summary ul {
+    font-weight: 900;
+ }
+
+
+ #election_image img {
+    outline: 3px ridge #59c7c2;
+    box-shadow: 3px 3px 5px 0px #000;
+ }
+
+ button {
+    background-color: #000000;
+    color: #59c7c2;
+    font-weight: 900;
+  }
+    
+  .base {
+    font-family: 'Inter';
+  }
+
+  #answer_select_button {
+    margin-top: .4em;
+    font-weight: 900;
+    margin-right: 1.5em;
+  }
+
+  #campaign_sign p {
+    font-size: 0;
+  }
+
+  #campaign_sign {
+    background-color: #000000;
+    border-style: solid;
+    border-width: 0;
+    border-color: #59c7c2;
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    height: 94px;
+    background-image: url(https://i.postimg.cc/Qd811kCm/Untitled111-20260217014529.png);
+    outline-style: ridge;
+    outline-color: #59c7c2;
+    margin-bottom: 4px;
+  } 
+
+  #progress_bar h3 {
+    color: #71d4c1;
+    font-weight: 900;
+    text-shadow: 0 0 15px rgba(89, 199, 194, 1), 0 0 30px rgba(89, 199, 194, 1);
+  }
+
+  #candidate_pic {
+    height: 15em;
+    border: ridge;
+    border-color: #59c7c2;
+    float: unset;
+    margin: 0;
+    order: 1;
+  }
+
+  #running_mate_pic {
+    height: 15em;
+    border: ridge;
+    border-color: #59c7c2;
+    float: unset;
+    margin: 0;
+    order: 3;
+  }
+
+  #game_window g {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 36%;
+  }
+
+  #map_footer {
+    clear: both;
+    padding-top: 0.8em;
+  }
+
+  #menu_container button {
+    font-weight: 400;
+  }
+
+.campaign_trail_start_emphasis {
+  background-color: #f8f8f8;
+}
+#final_results_description h3 {
+			color: white;
+		}
+		#overall_details_container h3 {
+			color: white;
+		}
+		#overall_election_details h4 {
+			color: white;
+		}
+		#main_content_area_reading p {
+			color: white;
+		}
+		#main_content_area_reading h3.results_tab_header {
+			color: white;
+		}
+		.inner_window_w_desc h3 {
+			color: white;
+		}
+		.overlay_window h3 {
+			color: #59c7c2;
+				}
+p#credits {
+		color: white;
+	}
+
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: rgb(0, 0, 0);
+    color: #59c7c2;
+    padding: 2px 27px 2px 4px;
+    background-position: top 2px right 2px;
+    background-image: url(https://files.catbox.moe/auvq4w.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border: 1px solid #59c7c2;
+    font-family: 'Inter';
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
+  }
+
+  .container {
+  box-shadow: inset 0 0 15px 2px #000000;
+  }
+
+  #header {
+    border: 1px solid black;
+    box-shadow: 0.5px 1px 6px 3px #000000;
+  }
+
+  #cover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 0px #71d4c1;
+    transition: all 0.1s 
+  cubic-bezier(0.65, 0.21, 0.29, 0.65);
+  }
+
+
+
+}
+
+
+`;
+
+document.head.appendChild(style);
+
+async function appendStyle() {
+  var metaTag=document.createElement('meta');
+  metaTag.name = "viewport";
+  metaTag.content = "width=device-width, initial-scale=1";
+  document.getElementsByTagName('head')[0].appendChild(metaTag);
+
+  if (!document.querySelector('#radio-option-style')) {
+      let style = document.createElement('style');
+      style.type = 'text/css';
+      style.id = 'radio-option-style';
+      style.innerHTML = `
+      #visit_window {
+          height: auto;
+      }
+      #visit_content {
+          height: 79%;
+      }
+
+.person_button{
+margin-top:0.2em
+}
+      @media only screen and (max-width: 768px) {
+
+          #inner_window_2,
+          #inner_window_3,
+          #inner_window_4{
+              overflow:visible;
+          }
+          #visit_window {
+              font-size: 1.8em;
+              width: 90%;
+              left:5%;
+          }
+          .inner_window_question button,
+              #visit_window button,
+              #map_footer{
+                  line-height: 2.5em;
+              }
+          #drop_down_area_state {
+              margin-left: auto;
+              margin-right: auto;
+          }
+      }
+      `;
+
+      document.head.appendChild(style);
+  }
+}
+appendStyle();
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+//#endcode            
+            
