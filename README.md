@@ -62,6 +62,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *Obamanation* by Accurate Feature
 - *1988 Kennedy* by jackreacher
 - *1976 Udall* by jackreacher
+- *1980: Points of Light* by Yupperdoo
 - **Edge Cases:**
 - *2025NYC* by theMcCain and *1968- Age of Aquarius* by Halligan. These are someone else's mockups.
 - *Our American Carnage* by some redditor who deleted their account. This is a recreation of a mockup which made by someone else, which is based on a third person's mod. 
