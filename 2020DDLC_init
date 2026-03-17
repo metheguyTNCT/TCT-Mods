@@ -849,10 +849,10 @@ input {
     );
   
     const song4 = new Song(
-      "Nothin New",
-      "21 Savage",
-      "https://i.imgur.com/vSYzSHa.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/NothinNew.mp3"
+      "Superkiller",
+      "Neil Cicierega",
+      "https://upload.wikimedia.org/wikipedia/en/2/2b/Mouth_Dreams.png",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/Superkiller.mp3"
     );
   
     const song5 = new Song(
