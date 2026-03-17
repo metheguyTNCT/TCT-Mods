@@ -877,10 +877,10 @@ input {
     );
   
     const song8 = new Song(
-      "Just Monika",
-      "Random Encounters",
-      "https://files.catbox.moe/xwjbi5.jpeg",
-      "https://file.garden/Z7qfmQZIZjO_xV5N/embarrasment/Random%20Encounters.mp3"
+      "The DDLC Theme, You Know",
+      "SilvaGunner",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/embarrasment/SiIvaCover.jpg",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/embarrasment/Dreams%20Of%20Love%20and%20Literature%20(OST%20Version)%20-%20Doki%20Doki%20Literature%20Club!.mp3"
     );
   
     playlist.addSong(song1);
