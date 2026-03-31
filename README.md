@@ -26,6 +26,7 @@ Pretty straightforward.
 - *America is Hard to See*
 - *1976RNC*
 - *2008McCain*
+- *2028b*
 
 **Unnecessarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
