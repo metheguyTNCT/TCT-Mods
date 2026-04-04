@@ -80,7 +80,8 @@
             "description": "<p>Reduced to nothing more than a pure opposition party, the Democratic party's main defining feature is it's disdain for President Donald J. Trump. This relationship is the primary vector of it's importance. The party has tried, and failed thusfar, to create a new consensus, with disparate factions vying for power, yet no matter how much they push and pull, it only serves to tear it at the seams. The party's power is expressed in short bursts of energy, culminating in upsets and setbacks, yet lacking consistency to gain ground.<br><br>Some wish it could be more. That it could return to its glory days; the nostalgia for the past administrations—Obama, Clinton, Kennedy. It all weighs so heavy. They fantasize about times when they weren't relegated to playing catchup, trying to throw themselves against the shifting waters. Some believe in this dream becoming true, but many simply have lost the faith, cynically accepting the position as a secondary party, or wishing for a new party to supplant it.",
             "imageUrl": "https://files.catbox.moe/uutsw9.webp",
             "runningMateIds": [
-                211
+                211,
+                212
             ],
             "startingGlobalMultiplier": 1,
             "bannerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/US_Democratic_Party_2025_logo.svg/1200px-US_Democratic_Party_2025_logo.svg.png"
@@ -263,20 +264,20 @@
             "color": "#0000FF",
             "issueScores": [],
             "description": "<p>Kenneth Nathan Martin. A desperate man. A functionary of Minnesota's Democratic Farmer-Labor organs, Ken Martin has made his reputation as a reliable steward of the Democratic brand and a liberal, making him the party elite's choice of leader. He is tasked with the nigh impossible task of reviving a dying opposition party into a valiant fighting force which can overcome the institutional pressures keeping him down.<br><br>He must contend with progressives, moderates, liberals, and everything in between. It will take work, it will require maneuvering and negotiation and coordination with Congress Democrats to prove they are capable of shaping policy, even at a disadvantage. If he is unable to do this, the Democrats, and even America, may be lost in the wind, swept up in the currents of nationalism that has been the undoing of many democracies before it.",
-            "imageUrl": "https://files.catbox.moe/wxvfgp.jpg",
+            "imageUrl": "https://images.wsj.net/im-84632350?width=700&size=1.499",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
         {
             "id": 212,
-            "firstName": "Elizabeth",
-            "lastName": "Warren",
+            "firstName": "Gavin",
+            "lastName": "Newsom",
             "party": "Democrat",
-            "homeState": "Massachusetts",
+            "homeState": "Calfornia",
             "color": "#0000FF",
             "issueScores": [],
-            "description": "<p>Elizabeth Warren is a Senator from Massachusetts and an icon to progressive Democrats. Selecting her could be a good way to appeal to supporters of Bernie Sanders, but she will expect Clinton to adhere to progressive stances throughout the campaign, as a condition of joining the ticket. Some observers think that having two women on the ticket may be a bit much, and also point out that Warren's home state is safely Democratic.</p>",
-            "imageUrl": "https://www.jetsimon.com/public/static/images/elizabeth-warren-2016.jpg",
+            "description": "<p>Devilishly handsome, the dictionary definition of a corporate \"woke\" neoliberal, and nearly universally reviled; former governor of California Gavin Newsom is the Democratic party's cold sore. He is the very epitome of what let Trump run amok in the white house for the past half-decade. Have they, in 12 years, and after two humiliating defeats, learned nothing? Millions across the country suddenly find themselves clairvoyant; they see visions of an electoral map on the night of November 7 as red as the state of the bloodied corspes of DNC committee-members will be found in the following morning, after Bernie Sanders has his way with them.<br><br>In other news, numerous residents in the DC area have filed noise complaints due to sounds of exceptionally boisterous laughter and what was described by witnesses as \"jubilant noises\" coming from Number One Observatory Circle.",
+            "imageUrl": "https://westgov.org/images/governor/Untitled_design_(1)_1.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         },
@@ -8887,8 +8888,8 @@
             "imageUrl": "https://tiermaker.com/images/media/template_images/2024/16059288/potential-2028-candidates-new-version-16059288/fled.png"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Newsom1.mp3",
-            "displayName": "Troglodyte",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/DeSantist.mp3",
+            "displayName": "STOP TRYING TO BE GOD",
             "imageUrl": "https://tiermaker.com/images/media/template_images/2024/16059288/potential-2028-candidates-new-version-16059288/urfurf.png"
         },
         {
@@ -8897,8 +8898,8 @@
             "imageUrl": "https://tiermaker.com/images/media/template_images/2024/16059288/potential-2028-candidates-new-version-16059288/control.png"
         },
         {
-            "url": "https://audio.jukehost.co.uk/1MrAYcjHVGI1ldMQoLvEFkByR0qNtldI",
-            "displayName": "Company",
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/RFKompanyJr.mp3",
+            "displayName": "Side By Side By Side",
             "imageUrl": "https://tiermaker.com/images/media/template_images/2024/16059288/potential-2028-candidates-new-version-16059288/easles.png"
         },
         {
