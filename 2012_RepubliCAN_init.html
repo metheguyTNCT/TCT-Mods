@@ -1,0 +1,777 @@
+// const startScreenUpdater = setInterval(function() {
+//     const goBackButton = document.getElementById("candidate_id_back");
+//     const candidateButton = document.getElementById("candidate_id_button");
+//     const runningMateButton = document.getElementById("running_mate_id_button");
+//     const finalScreenBB = document.getElementById("opponent_selection_id_back");
+//     const finalScreenID = document.getElementById("opponent_selection_id_button");
+//     
+//     if((candidateButton || c != 0)&& !runningMateButton){ // change theme on candidate viewing
+//         var c = document.getElementById("candidate_id")?.value ?? -1;
+//         if(c == 17) {
+//         document.getElementById("header").src = "https://files.catbox.moe/l9fa6j.png";
+//         }
+//     }
+// }, 1);
+
+/* thanks TTNW devs for the code, will be sure to credit (even if I literally just took it) */ 
+
+ document.getElementById("inner_window_1").children[0].innerHTML = `<h2 style="margin-left:190px;text-align: left;color: white;"><span class='drop-cap'>T</span>here is no such thing as 'America' anymore.<br>What remains is decay brought on by the horrid stench of delinquency.</h2>`
+  document.getElementById("inner_window_1").children[1].style.marginLeft = "-20px";
+  document.getElementById("inner_window_1").children[1].style.width = "calc(100% + -40px)"; // Adjust the value as needed
+  document.getElementById("inner_window_1").children[1].innerHTML = `<br><br><img src="https://files.catbox.moe/fd35i5.png" alt="Image" style="display flex;position: absolute;left: 10px;top: 40px; border: 1px solid white;"><p style="margin-left: 170px;text-align: left;margin-top: -30px;color: white;">Or, at least, that is what the people you work with, you labor with, think.<br><br>They drone on and on about the boogeymen of all time, those responsible for the infernal chaos you find yourself stuck deep in, the counterculture of the 1960s, the communist sympathizers who spearheaded it, Woodstock, the back-stabbing Democrats, the activists, the liberal protestors, the socialists, the progressives, fancy names to hide behind so no one sees what they truly are, pure, freedom-repressing Communists, the Rot.<br><br>These conversations, above all else, are what separate you, Ronald Ernest Paul, from the rest of the GOP.<br><br>They talk about proving to the world that America is not a force to be reckoned with, you talk about putting America first. They talk about implementing a police state, you talk about reducing government. They talk about outlawing homosexuality as an idea in itself, you talk about privatizing marriage so that the government stops poking its nose where it doesn't belong. Even if you share their concerns in regards to several issues, anyone even remotely involved in Republican politics would know that you belong to a different breed of Tea Party politicians: one that puts civil liberties over pointless culture wars.<br><br>Yet, this is what has stuck you into the center of a dilemma. Being President isn't easy, and anyone who has experience would agree with you. You spend hours in offices and Congress trying to please everyone you can, but there is simply one problem that prevents you from fulfilling this desired task: it is simply impossible, and anyone who thinks otherwise is foolish. Thus, you are stuck trying to appease everyone, giving right-wing radio show hosts lip service, throwing liberal types bones, being pulled into two different corners of the political spectrum at once.<br>I've lost sight of you a while ago, now, Mr. President. Where are you, and what do you want to be?</p>`;
+  document.getElementById("game_start").innerHTML = "<strong>I wanna be...</strong>";
+
+RecReading=true
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 3,
+        "fields": {
+            "year": 2012,
+            "summary": "<div style='overflow-y:scroll; max-height:auto;'><b><span class='drop-cap'>M</span>ore than three years have now passed</b> since Ron Paul, a hopeless zealot, a doomed idealist, torpedoed conventional politico and crossed the Rubicon to become the fourty-forth President of the United States in one of the most tense stand-offs in American history. Once the dust had settled, everyone thought that that was it for Doctor No. They thoughe he was satisfied now that he had explored everything the United States had in store. They would soon be proven wrong.<br><br>It is not ambition forged from lunacy—it is the final duel of his life. Many dare to dream, but  few are brave enough to see it through. Ron Paul is one of them. He sees the ultimate chance to crest the mountain he has been climbing for years once and for all, the dream to rebuild the Dream from scratch as the Founders intended. He finds comfort nowhere else but the quiet spot in the White House on which history was built. Each document is not just another piece of bureaucracy, each one has its own memory engraved into it. Memories that Ron Paul, like no one else, holds as dear as friends and family.",
+            "image_url": "https://files.catbox.moe/9lqpvq.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://files.catbox.moe/n0rztv.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Political News and Analysis</h4> <a href=\"http://www.realclearpolitics.com/\" target=\"_blank\">Real Clear Politics</a> -- <a href=\"http://www.theatlantic.com/\" target=\"_blank\">The Atlantic</a> -- <a href=\"http://www.politico.com/\" target=\"_blank\">Politico</a> -- <a href=\"http://www.huffingtonpost.com/\" target=\"_blank\">Huffington Post</a> -- <a href=\"http://www.foxnews.com/politics/index.html\" target=\"_blank\">Fox News Politics</a> <h4>Books by the Candidates</h4>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1400082773/amhius20-20\" target=\"_blank\">Dreams from My Father: A Story of Race and Inheritance</a><br>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0307455874/amhius20-20\" target=\"_blank\">The Audacity of Hope: Thoughts on Reclaiming the American Dream (Vintage)</a><br> Mitt Romney - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0312671733/amhius20-20\" target=\"_blank\">No Apology: Believe in America</a><br> Gary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a><h4>Politics in 2012</h4> Edward Klein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1596987855/amhius20-20\" target=\"_blank\">The Amateur</a><br>Michael Kranish & Scott Helman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0062123289/amhius20-20\" target=\"_blank\">The Real Romney</a><br>Lawrence Lessig - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0446576433/amhius20-20\" target=\"_blank\">Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It</a><br>Ron Suskind - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061429252/amhius20-20\" target=\"_blank\">Confidence Men: Wall Street, Washington, and the Education of a President</a><h4>The Financial Crisis</h4> Johan Norberg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1935308130/amhius20-20\" target=\"_blank\">Financial Fiasco: How America's Infatuation with Home Ownership and Easy Money Created the Economic Crisis</a><br>John Bellamy Foster & Fred Magdoff - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1583671846/amhius20-20\" target=\"_blank\">The Great Financial Crisis: Causes and Consequences</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2012"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 16,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Paul",
+            "election": 3,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll; max-height:auto;'><span class='drop-cap'>T</span>he sound of a gas guzzler's roaring engine caterwauls to a halt as it closes the distance betwixt itself and a large, suburban house. As the automobile's rubber-made tires settle on the cold surface of the driveway, the door opens wide, and, emerging from the large interior of the now-asleep beast, is a shriveling, balding figure. From a distance, you would never, in a million years, be able to tell that this elderly man was the President of the United States of America, warmer of the most powerful seat on this Earth, arguably in history, however, like many things on this planet, looks can be decieving—four words that <b>Ron Paul</b> would come to know.\n<br>\n<br>\nAs Ron steps out of his car, he takes a look at the environment that surrounds him, before the sound of keys jingling makes itself known as Ron takes a stroll towards the house's door. A key is impelled into the wooden door's keyhole and twisted around until it reveals the humble yet familiar abode that is the interior of his house, and allows him to step in. Ron steps inside, and is promptly enveloped by the light until the door slams shut behind him.</div>",
+            "color_hex": "#c4ae9f",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/e6oels.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought challenge from Mitt Romney, you have held on to the Presidency.</p><p>On the political front, it appears that your health care legislation that was passed in early 2010 will survive and go into effect. While the economy has not yet recovered as strongly as you hoped and promised, you will now have four more years to leave a strong legacy to your Democratic successor.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your spirited defense, Mitt Romney has won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, Romney will become America's first Mormon president.</p><p>On the political front, it appears that Romney will make a push for more tax cuts to revive the economy. He will also try to repeal your health care law. If your defeat was narrow enough, you may be able to attempt a comeback in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for Mitt Romney.</p><p>Given the incredibly close nature of the election, you can probably set your sights on a political comeback in 2016, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 17,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Gore",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Tennessee",
+            "priority": 2,
+            "description": "<div style='overflow-y:scroll; height:auto;'><span class='drop-cap'>A</span> hybrid motorcade appears into the view and a good hour of driving ceases once the car arrives in front of an $8,875,000 villa in Montecito, and is promptly silenced. As it does, the car's door opens and from it comes the former President-elect, slightly above average in terms of weight, victim of what many percieve to have been a judicial coup, <b>Al Gore Jr.</b><br><br>Unrecognizable compared to his vice-presidential days, Mr. Gore takes a moment to reflect on these last twelve years. He nearly had the Presidency in his fist, one step away from making a more just and equal world, all for it to be ripped away from him with one strike of the gavel. But, it's not about him anymore, especially with someone like Ron Paul sitting in the Oval Office. The country's future verges on hanging in the balance—if America is to make it out alive, she must rid her government of unserious, serial complainers—and reinstall true leadership, and he shall, if nothing else, see it through.<br><br>Hopefully.<div>",
+            "color_hex": "#3c4493",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/auovcn.png",
+            "electoral_victory_message": "<p></p>",
+            "electoral_loss_message": "<p></p>",
+            "no_electoral_majority_message": "<p></p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.8,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 18,
+        "fields": {
+            "first_name": "",
+            "last_name": "Green",
+            "election": 3,
+            "party": "",
+            "state": "",
+            "priority": 3,
+            "description": "<p></p>",
+            "color_hex": "#00ff00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ron-paul-2012.jpg",
+            "electoral_victory_message": "<p></p>",
+            "electoral_loss_message": "<p></p>",
+            "no_electoral_majority_message": "<p></p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 19,
+        "fields": {
+            "first_name": "",
+            "last_name": "Blank Ballots",
+            "election": 3,
+            "party": "",
+            "state": "",
+            "priority": 4,
+            "description": "<p><p>",
+            "color_hex": "#808080",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "<p></p>",
+            "electoral_loss_message": "<p></p>",
+            "no_electoral_majority_message": "<p></p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 27,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Pence",
+            "election": 3,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 5,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After an upset in the Republican nomination battle, Newt Gingrich heads into the general election with strong support from fiscal and social conservatives. Better known for his House leadership in the 1990s, he must find a way to regain popularity and relevance, and to convince American voters that he can address their economic concerns more effectively than Obama.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/07whmn.png",
+            "electoral_victory_message": "<h3>Congratulations</h3>",
+            "electoral_loss_message": "<h3>Better luck next time</h3>",
+            "no_electoral_majority_message": "<h3>Interesting</h3>",
+            "description_as_running_mate": "<div style='overflow-y:scroll; height:195px;'><span class='drop-cap'>E</span>very time you sit across him in his office droning on about the importance of keeping the GOP united, why selling out your morals and ideals is, actually, a good thing, you can't help but only think of the same seven words: \"why did it have to be him?\"\n<br><br>\nIf you've made one thing clear, you didn't want him, you wanted someone who would fight for individual liberty, someone like Johnson, DeMint, or, drats, even a liberal like Weld—not someone who would so gracefully drop everything they've ever stood for to appease big government so completely. Not him. His Vice Presidency was birthed by a bureaucratic nightmare, a less-than-ideal byproduct of the electoral deadlock that came out of 2008. 269-269—a true first, historic one of its kind—it's a shame it led to him in the Observatory Circle.\n<br><br>\nWhile he's been a worthy ally despite the circumstances, framing your unorthodox agenda as quintessential Republican ideology, whipping your agenda through the Senate—perhaps it's time for a change this year.</div>",
+            "candidate_score": 0.12,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 29,
+        "fields": {
+            "first_name": "Gary",
+            "last_name": "Johnson",
+            "election": 3,
+            "party": "Republican",
+            "state": "New Mexico",
+            "priority": 6,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After an upset in the Republican nomination battle, Rick Santorum heads into the general election with staunch support from social conservatives. He also has several years of experience as a U.S. Senator.</p><p>Santorum's challenge will be the unite the business wing of the Republicans after defeating their preferred candidate, and to offer something to swing voters in the electorate at large.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/rick-santorum-2012.jpg",
+            "electoral_victory_message": "<h3>Congratulations!</h3>",
+            "electoral_loss_message": "<h3>oops</h3>",
+            "no_electoral_majority_message": "<h3>hmm</h3>",
+            "description_as_running_mate": "<p>After competing as rivals for the Republican nomination, a Rick Santorum and Newt Gingrich ticket would effectively act as a compromise between those camps and consolidate their support and campaign resources.</p><p>After both candidates spent months making the case that Romney was too moderate, their joining of forces in the general election leaves little doubt as to the tone they intend to strike.</p>",
+            "candidate_score": 0.08,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 30,
+        "fields": {
+            "first_name": "Sarah",
+            "last_name": "Palin",
+            "election": 3,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-biden-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Joe Biden is the current Vice President and Obama's presumptive pick for 2012. He served as a Senator from Delaware for many years.</p><p>Well connected to the mainstream Democratic establishment, there are few complaints about Biden's performance thus far, though he does have a reputation as being gaffe-prone.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 31,
+        "fields": {
+            "first_name": "Dwindling",
+            "last_name": "Time",
+            "election": 3,
+            "party": "Wrath",
+            "state": "Despondency",
+            "priority": 8,
+            "description": "<p>V.P.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/a6lzwr.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<div style='overflow-y:scroll; height:208px;'>The red telephone's ringing abruptly halts when Michael picks it up, still incredulous, his face frozen in shock.<br><br>\n<b>PENCE:</b> \"Hello?\"\n<br>\n<b>GINGRICH:</b> \"Well, tough break for Ronnie, huh?\"\n<br>\nThe façade of obliviousness cracks and fades in an instant, an air of sternness seeping into Michael's voice.\n<br>\n<b>PENCE:</b> \"You've just started a war.\"\n<br>\n<b>GINGRICH:</b> \"No, I'm going to end one. I'm finishing the oldest war in human history.\"\n<br>\n<b>PENCE:</b> \"I am going to do everything I can in my power to end you.\"\n<br>\n<b>GINGRICH:</b> \"Michael, listen. I've been around for a lot longer than you. I've been hiding skeletons from these people for twenty fucking years. You don't know—you don't understand how this really worked.\"\n<br>\n<b>PENCE:</b> \"I knew you were fucking stupid, but this is insane. They're going to erase your name from history.\"\n<br>\n<b>GINGRICH:</b> \"Oh, and prove it. If we don't do this shit now, in a few months time, Sanders will be your president, and then, what? Half the party can kiss their seats goodbye. You don't want that, do you? And, do you seriously think the books will be kind to a Bernie administration? They'll hail me as a liberator. Me and you, depending on if you want that, or not.\"\n<br>\n<b>PENCE:</b> \"This kind of petty shit will just make us look worse. Four years ago, maybe, but the nuts have grown way too much in size for something like this shit to happen. We can't just break with Paul when they can all threaten to simply walk out and vote third-party.\"\n<br>\n<b>GINGRICH:</b> \"We'll come up with something, evidently. We'll have to do it fast, though. I think we both know the deadlines to get his name changed are coming up, and fast.\"\n<br>\n<b>PENCE:</b> \"Well, then. What's the plan, genius? We can't just pause time until we can figure something out.\"\n<br>\n<b>GINGRICH:</b> \"I can't just fucking come up with one in seconds. Besides, we shouldn't have nominated this guy in the first place. His beliefs are insane. It's shit that you would expect from left-wing Democrats, not a fucking Tea Party politician, if you can even call him one.\"\n<br>\n<b>PENCE:</b> \"Newt, this shit will explode the party on day one. You haven't seen the people who like him. God help you if this shit comes out.\"\n<br>\n<b>GINGRICH:</b> \"God help <i>me?</i> Mike, I think that you'll be more fucked than I will be between the two of us if this call gets leaked right now. Hell, even Gore, as much of a slob as he is, was right when he talked about mob rule. The government is a ceremonial entity at this point. Just wait, Mike, if this shit comes out, when it does, they'll come for you, and it will be very bad for you when they catch up. Then, we'll see who runs the country. It's not the Jews or the Rothschilds or the Irish or whoever the fuck those Alex Jones people say this government answers to, it's them. If there is a Deep State, and there is, it's them.\"\n<br>\n<b>PENCE:</b> \"Newt, it's going to get worse. And it already has. The internal polling numbers are already going to shit. It's getting worse, they're not going to stop until I'm in a cell, or you are. We both know what I know will happen if you go through with this and it doesn't go as planned, don't put me in this! Do you realize how fucked I am if you lose?\"\n<br>\n<b>GINGRICH:</b> \"Michael, we're both serious characters, right? Good, conservative politicians? Well, serious people do serious things to save their country—\"\n<br>\n<b>GINGRICH:</b> \"—in times of need. It's not some referendum in Lake Jackson, it's an election, <i>elections</i>, might I add, in the entirety of the sole, global hyperpower. If the voters don't see that, we'll make them see it for them. Again, it's elections in the whole of the United States; if we don't take matters into our own hands now, Bernie, again, will be your president. And then, what? What happens to this country, then? Those Chinamen bribe this government to continue letting them savagely exploit our workers? Whites become a minority in this country? I know about some of the things he's said on immigration, but I don't buy it one second. He is a con artist, plain and simple. What else? Cocaine is legalised to smoke on the streets? And you won't even be allowed under any circumstances to purchase a firearm to defend yourself from them? Believe me, on any other day, I wouldn't agree with this, but whatever is done to prevent tyranny is done.\"\n<br>\n<b>PENCE:</b> \"You're going to make important people, uhh, very nervous, with this. What even is your plan, then, anyway?\"\n<br>\n<b>GINGRICH:</b> \"Like I said, I can't come up with one this fast. But, I think I have a plan. We have a lot of people in low places who are willing to get their hands dirty for us. We'll purge enough voters from the rolls in key battleground states. If that's not enough, we'll open up archives, we'll dig. We'll get Fox, everything we can, in on the game. I hear his wife, uh, was involved in some shady dealings with the college in Vermont, the city Bernie was the mayor of, whatever it's named, again— \n\n\n</div>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 32,
+        "fields": {
+            "first_name": "Rob",
+            "last_name": "Portman",
+            "election": 3,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 9,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/rob-portman-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>As a Senator from Ohio and former cabinet member for George W. Bush, Rob Portman would bring insider experience to a Republican Administration. He has worked with a particular focus on fiscal and economic issues, where he has advocated for much conservative legislation.</p><p>Ohio is a must-win state for both candidates, and Portman's presence could be crucial to a Republican victory there.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 33,
+        "fields": {
+            "first_name": "Marco",
+            "last_name": "Rubio",
+            "election": 3,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 10,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/marco-rubio-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>A recently elected Senator from Florida, Marco Rubio brings strong political connections from that state. As a member of the Cuban-American community, he could help blunt the charge that Romney is indifferent to the rapidly-growing Hispanic community.</p><p>Rubio is also considered more conservative than some of Romney's other options, and is on good terms with the Tea Party movement. Florida is another must-win state for the Republicans in 2012.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 34,
+        "fields": {
+            "first_name": "Hillary",
+            "last_name": "Clinton",
+            "election": 3,
+            "party": "Democrat",
+            "state": "New York",
+            "priority": 11,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/hillary-clinton-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Hillary Clinton would be a change for Obama if he chose her as his running mate. Her current home state is New York, though she lived in Arkansas for many years. Her husband is former President Bill Clinton.</p><p>Clinton has served as Secretary of State since 2009 and won high praise for her performance, and she would bring added star power to Obama's reelection bid. The risks include offending Joe Biden as well as making Obama appear indecisive to some voters.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 37,
+        "fields": {
+            "first_name": "Tim",
+            "last_name": "Pawlenty",
+            "election": 3,
+            "party": "Republican",
+            "state": "Minnesota",
+            "priority": 12,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/tim-pawlenty-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Tim Pawlenty served as the Governor of Minnesota for eight years and briefly sought the Republican nomination in 2011. He brings a reputation as a moderate and a strong manager, and could help burnish Romney's credentials in the upper Midwest.</p><p>However, if Romney wants to unite the conservative base of his party, Pawlenty may not be the best choice.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 38,
+        "fields": {
+            "first_name": "James P.",
+            "last_name": "Gray",
+            "election": 3,
+            "party": "Libertarian",
+            "state": "California",
+            "priority": 13,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 39,
+        "fields": {
+            "first_name": "Cheri",
+            "last_name": "Honkala",
+            "election": 3,
+            "party": "Green",
+            "state": "Pennsylvania",
+            "priority": 14,
+            "description": "n/a",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 40,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Huckabee",
+            "election": 3,
+            "party": "Republican",
+            "state": "Arkansas",
+            "priority": 15,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mike-huckabee-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>As the former Governor of Arkansas and a 2008 Presidential candidate, Mike Huckabee is well known nationally, and contains impeccable credentials as a social and religious conservative. He has also spent several years in the media spotlight and is a comfortable public speaker and debater.</p><p>The risk with Huckabee is his potential to turn off moderate voters in swing states with religious pronouncements.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 41,
+        "fields": {
+            "first_name": "Andrew",
+            "last_name": "Napolitano",
+            "election": 3,
+            "party": "Independent",
+            "state": "New Jersey",
+            "priority": 16,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/andrew-napolitano-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Andrew Napolitano is a former New Jersey judge, a writer, and political commentator from the libertarian end of the political spectrum.</p><p>As a running mate, Napolitano would bring proven eloquence and media-savvy, and would raise the profile of the Ron Paul campaign, particularly on cable news.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 42,
+        "fields": {
+            "first_name": "Dennis",
+            "last_name": "Kucinich",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 17,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/dennis-kucinich-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Dennis Kucinich is a former Congressman from Ohio, and also served as the mayor of Cleveland for two years in the 1970s.</p><p>Since Kucinich is a proponent of many left-wing views on economics, he could be a bridge candidate for Paul to draw protest votes from both the far left and right of the political spectrum. Paul could certainly use Kucinich to emphasize his anti-war, anti-DEA, and anti-Federal Reserve views as a common cause amongst both of these groups.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 43,
+        "fields": {
+            "first_name": "Rand",
+            "last_name": "Paul",
+            "election": 3,
+            "party": "Republican",
+            "state": "Kentucky",
+            "priority": 18,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/rand-paul-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>As a sitting U.S. Senator and son of Ron Paul, Rand Paul would make a natural running mate in many ways. He would immediately bring name recognition and political experience to an independent run by the elder Paul.</p><p>In reality though, it's unclear if Rand Paul would want to take on this role, as it would alienate him from the Republican Party and make a successful run for him in 2016 almost impossible.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 15,
+        "fields": {
+            "candidate": 29,
+            "running_mate": 40
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 20,
+        "fields": {
+            "candidate": 36,
+            "running_mate": 42
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 19,
+        "fields": {
+            "candidate": 36,
+            "running_mate": 41
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 16,
+        "fields": {
+            "candidate": 29,
+            "running_mate": 33
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 4,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 32
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 5,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 33
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 6,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 37
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 21,
+        "fields": {
+            "candidate": 36,
+            "running_mate": 43
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 120652,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 27
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 129269,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 29
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 144338,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 30
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 131669,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 31
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 139691,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 34
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Dan Bryan"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 3,
+        "year": 2012,
+        "is_premium": 0,
+        "display_year": "2012"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#3a3a3a",
+    "containerColor": "#ae113d",
+    "innerWindowColor": "#222222",
+    "bannerImageUrl": "https://files.catbox.moe/o1yupi.png",
+    "backgroundImageUrl": "https://files.catbox.moe/lluthz.png",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#3a3a3a";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ae113d";
+
+document.getElementById("header").src = "https://files.catbox.moe/pbz3g9.png";
+
+document.body.background = "https://files.catbox.moe/lluthz.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#fff0!important;}</style>";
+
+document.head.innerHTML += `<link
+	rel="stylesheet"
+	href="https://files.catbox.moe/vxgk93.css"
+>`
+
+document.head.innerHTML += `<style>
+ .game_header {
+   display: none;
+ }
+
+ .menu_bar_login {
+   padding: none;
+ }
+
+ #election_description_window {
+   display: flex;
+   border: none;
+   background-color: #FFF0;
+ }
+
+ .inner_window_w_desc {
+   border-style: none;
+   padding-top: .5em;
+ }
+
+ .container {
+  border: none;
+}
+
+ .base {
+   font-family: Segoe UI;
+}
+
+ .inner_window_front {
+   border-style: none;
+ }
+
+ .container {
+   padding: unset;
+   border: none;
+   width: 100em;
+}
+
+ .content_single {
+   border-color: #FFF0;
+   padding: 0px;
+}
+
+
+/* I spent a whole day trying to figure out what was the error with the code below was. Turns out I put a fucking dot instead of a hashtag. Well fuck me. */
+
+ #game_window {
+   margin: inherit;
+   border: none;
+   background-image: url(https://files.catbox.moe/a08k3z.png);
+   background-size: cover;
+}
+
+ .inner_window_front {
+   background-color: #FFF0;
+   padding: 2.5em 0 0em;
+}
+
+ .campaign_trail_start_emphasis {
+   background-color: #FFF0;
+}
+
+ #election_id_button {
+   margin-top: 4em;
+}
+
+ .inner_window_w_desc p {
+   color: white;
+}
+ 
+ .inner_window_w_desc h3 {
+   color: white;
+}
+
+ #election_summary {
+   color: white;
+}
+
+ #election_image {
+   border-width: 1px;
+   border-color: white;
+   border-style: solid;
+   height: 229px;
+}
+
+ .person_description_window {
+   display: contents;
+ }
+
+ .person_summary {
+   color: white;
+ }
+
+ .person_image {
+   border-width: 1px;
+   border-style: solid;
+ }
+
+ #election_image img {
+   height: auto;
+ }
+ 
+ .person_summary ul {
+   font-size: initial;
+ }
+
+ .drop-cap {
+   color: #AE113D;
+   float: left;
+   font-family: Georgia;
+   font-size: 75px;
+   line-height: 60px;
+   padding-top: 4px;
+   padding-right: 8px;
+   padding-left: 3px;
+ }
+
+ .content_single p {
+   margin-top: -.1px; 
+ }
+ 
+ .inner_window_question h3 {
+   border-color: #FFF0;
+   background-color: #FFF0;
+   text-align: left; 
+ }
+
+ .overlay_window {
+    position: absolute;
+    opacity: 0%;
+    transform: scale(0.8);
+    height: 62%;
+    width: 50%;
+    top: 17%;
+    left: 25%;
+    animation: fadeInScale 0.3s cubic-bezier(0.3, 1.2, 0.2, 1) forwards;
+ }
+</style>`
+
+//#endcode
