@@ -27,6 +27,8 @@ Pretty straightforward.
 - *1976RNC*
 - *2008McCain*
 - *2028b*
+- *2012: RepubliCAN*
+- *1972: The Bright Sunshine*
 
 **Unnecessarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
