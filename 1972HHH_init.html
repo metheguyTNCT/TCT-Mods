@@ -228,13 +228,13 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 116,
         "fields": {
-            "first_name": "Hubert Horatio",
+            "first_name": "Hubert",
             "last_name": "Humphrey",
             "election": 12,
             "party": "Democratic",
             "state": "Minnesota",
             "priority": 1,
-            "description": "<div style='overflow-y:scroll;height:180px;padding-right:7px'><h2><b><strong>Bodies.</strong></b></h2> <i>It was the bodies of the men who came before you that paved the road to the presidency.</i><p>First it was John Kennedy, whose life was lost before your shared vision could be realized. Then it was Martin, the man who helped build your legacy with nonviolence, ended by the most cruel act of violence there is. After him it was Bobby. God help Bobby, he would have done everything that you wished you could have had he lived. Finally, it was the thousands of Vietnamese forced to meet an early grave, all while Dick played them like political pawns. The colossal Texan who got us into this whole mess wasn’t too far behind all these people, resigned to his own sorrow in the face of a nation unified only in hatred for Lyndon Baines Johnson.<p>Now it is the fate of millions of soldiers, innocent young men, which rests upon your shoulders as you put pen to paper and begin your presidential term. Civil rights lie unfinished, the natural lands of North America are still tainted by oil and coal, and the country remains deadlocked in a never ending conflict with its ideological enemy. But with the power vested in him by the voters, <strong><b>Hubert Humphrey</b></strong> can change all of that.<p></div>",
+            "description": "<div style='overflow-y:scroll;height:180px;padding-right:7px'><h2><b><strong>Who is Hubert Horatio Humphrey?</strong></b></h2> <p>What does he believe? Is he the firebrand progressive of 1948? Is he the establishment lapdog he won the nomination as, or the peacenik he won the election as? Or perhaps he's the good ol' boys's friend, crusader for law and order? In fact, Humphrey is that most pitiful of things- the ideological liberal. He finds himself emasculated at every turn by more forceful personalities.<p>Humphrey has twisted himself into knots trying to please everyone, but in doing so has pleased no one. The hippies jeer him. The hicks spit at him. The party bosses roll their eyes at his weepy altruism. Johnson, the man he's sacrificed so much to appease, seems to take special glee in tormenting him. But, he thinks to himself, that's all going to change. Finally, he stands in the Oval Office. Finally, he can make a change in the nation he loves so much. Finally, all his humiliations will be worth something.<p>Right?<p></div>",
             "color_hex": "#6d8ba2",
             "secondary_color_hex": "#999999",
             "is_active": 1,
@@ -476,7 +476,7 @@ campaignTrail_temp.temp_election_list = [
         "id": 12,
         "year": 1936,
         "is_premium": 0,
-        "display_year": "1972ButAMan"
+        "display_year": "1972HHH"
     }
 ]
 
@@ -495,7 +495,7 @@ document.body.style.backgroundSize="cover";
 
 //#startcode
 
-corrr = '\n              <h2>The Bright Sunshine</h2><font id="wittyquote" size="4" color="white"><em>“Hubert Humphrey is a treacherous, gutless old ward-heeler who should be put in a goddamn bottle and sent out with the Japanese current.” - Hunter S. Thompson</em></font>\n            ';
+corrr = '\n              <h2>The Bright Sunshine</h2><font id="wittyquote" size="4" color="white"><em>“You only live a short time. You ought to enjoy every fleeting moment.” - HHH</em></font>\n            ';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";
 
@@ -537,6 +537,7 @@ e.creditsPage = () => {
   credits_html = `
     <h3>Writing and Coding</h3>
     <p>Mayfly aka SilverCheetah</p>
+    <p>Metheguy</p>
     <h3>Proofreading</h3>
     <p>Makhfren</p>
     <p>Ohas</p>
@@ -707,10 +708,10 @@ function setupMusicPlayer() {
     playlist = new Playlist();
 
     const song1 = new Song(
-        "Overture",
+        "Amazing Journey",
         "The Who",
         "https://i.scdn.co/image/ab67616d0000b27374ecb94bc3e5d851a39a0334",
-        "https://file.garden/Z7qfmQZIZjO_xV5N/Overture.mp3"
+        "https://file.garden/Z7qfmQZIZjO_xV5N/AmazingJourney.mp3"
     );
     const song2 = new Song(
         "21st Century Schizoid Man",
@@ -737,10 +738,10 @@ function setupMusicPlayer() {
         "https://file.garden/Z7qfmQZIZjO_xV5N/IronMan.mp3"
     );
     const song6 = new Song(
-        "Keep the Customer Satisfied",
-        "Simon & Garfunkel",
-        "https://i.scdn.co/image/ab67616d0000b2738453b853c2cc9c077828eefb",
-        "https://file.garden/Z7qfmQZIZjO_xV5N/Satisfied.mp3"
+        "Peace Frog",
+        "The Doors",
+        "https://i.scdn.co/image/ab67616d0000b273f12a8a7e0b2cbe16d2bef4dc",
+        "https://file.garden/Z7qfmQZIZjO_xV5N/PeaceFrog.mp3"
 
 
     );
@@ -1064,13 +1065,13 @@ setupMusicPlayer();
 //Achievements
 campaignTrail_temp.achievements = {
     "Playing Defense": {
-      "image": "https://i.imgur.com/uMcldUb.png",
+      "image": "https://i.imgur.com/htODmaq.png",
       "description": "Defeat John Tower.",
       "cannotBeCheated": true
   },
-    "Dirty Books": {
-      "image": "https://i.imgur.com/mAg0dCj.png",
-      "description": "Defeat Claude Kirk.",
+    "The Demon": {
+      "image": "https://i.imgur.com/htODmaq.png",
+      "description": "Defeat Curtis LeMay.",
       "cannotBeCheated": true
   },
     "Fun City": {
