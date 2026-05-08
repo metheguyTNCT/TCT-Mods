@@ -1,0 +1,120 @@
+function createEnding(engine, results) {
+
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    // I am defining some endings below. Note I have to check who the player played as first in this scenario.
+    // You could also add more slides to have endings with pages
+
+    // If you played as Trump
+    if(playerId == 200) {
+        if(engine.playerWonEv(results)) {
+        engine.setNewMusic([{
+    displayName: "You Cant Always Get What You Want- The Rolling Stones",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/c0/LetitbleedRS.jpg",
+    url: "https://audio.jukehost.co.uk/PsZHFAuZ9IdHhFO11FCOulS8Os7WQuOn",
+  },
+]);
+
+        return {
+            slides: [
+                {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/b0BGY93.png",
+                        endingText: "<p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>"
+                    }
+                ]
+            }
+        }
+        else {
+        engine.setNewMusic([{
+    displayName: "Fight Song- Rachel Platten",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/db/Rachel_Platten_-_Wildfire_%28Official_Album_Cover%29.png",
+    url: "https://audio.jukehost.co.uk/JSinviqHrtSmcxIwMRh33VgE1npms77q",
+  },
+]);
+
+        return {
+            slides: [
+                {                    
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/eQhTefN.png",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>"
+                    }
+                ]
+            }
+        }
+    }
+    // If you played as Hillary
+    else if(playerId == 201) {
+        if(engine.playerWonEv(results)) {
+            return {
+                slides: [
+                    {
+                        endingHeader: "Congratulations! You have won the 2016 election.",
+                        imageUrl: "https://i.imgur.com/eQhTefN.png",
+                        endingText: "<p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>"
+                    }
+                ]
+            }
+        }
+        else {
+            return {
+                slides: [
+                    {
+                        endingHeader: "Sorry! You have lost the 2016 election.",
+                        imageUrl: "https://i.imgur.com/b0BGY93.png",
+                        endingText: "<p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>"
+                    }
+                ]
+            }
+        }
+    }
+    // No other endings defined, return an error
+    else {
+        return {
+            slides: [
+                {
+                    endingHeader: "Error",
+                    imageUrl: "https://i.imgur.com/aM3FmKi.png",
+                    endingText: "Bad ending"
+                }
+            ]
+        }
+    }
+}
+
+var wheeler = false;
+var wallace = false;
+
+function onAnswerPicked(engine, answerPicked) {
+    // This scenario has mild CYOA
+    const ans = answerPicked.id;
+    const playerId = engine.getPlayerCandidateController().getId();
+
+    if (ans == 5267 && playerId == 200) {
+        engine.setNewPlayerCandidateImage("https://i.imgur.com/b0BGY93.png");
+        engine.setNewPlayerCandidateName("Donald", "Trump");
+
+        engine.setNewRunningMateImage("https://i.imgur.com/M9F7F8P.png");
+        engine.setNewRunningMateName("Scott", "Walker");
+        wallace = true;
+
+    }
+
+    if (ans == 5065 && playerId == 201) {
+        wheeler = true;
+        engine.setNewPlayerCandidateImage("https://itsastronomical.com/assets/1936b/wheeler.png");
+        engine.setNewPlayerCandidateName("Burton K.", "Wheeler");
+
+        engine.setNewRunningMateImage("https://itsastronomical.com/assets/1936b/wallace.png");
+        engine.setNewRunningMateName("Henry", "Wallace");
+
+        engine.currentQuestionIndex = 25
+    }
+}
+
+function onScenarioStarted(engine) {
+    
+}
+
+export {createEnding, onAnswerPicked, onScenarioStarted}
