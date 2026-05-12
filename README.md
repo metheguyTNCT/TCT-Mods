@@ -9,6 +9,7 @@ These are released. Finished. Done-zo. I made 'em. Go play 'em.
 - *2000Q*
 - *2024GOP*
 - *1996: Hope*
+- *2016TrumpVPs*
 
 **Mods I Will Make:**
 These are not done yet, but I intend on making them soon, or did at one point.
@@ -27,7 +28,6 @@ Pretty straightforward.
 - *1976RNC*
 - *2008McCain*
 - *2028b*
-- *2012: RepubliCAN*
 - *1972HHH*
   
 **Unnecessarily Complex Mockups [UCMs]:**
@@ -44,6 +44,8 @@ These mods were announced, but never released. These are my recreations of them.
 - *2024Way (DeSantis)* by Neo and Decstar
 - *2016Revolution* by Rubix
 - *1984b* by Tex
+- *2012: RepubliCAN*
+
 
 **Facelifts:**
 These are mods that other people made, but i added some cosmetic changes too. I put them here so I can play with my changes applied whenever I play them.
@@ -66,6 +68,7 @@ These are mods that other people made, but i added some cosmetic changes too. I 
 - *1988 Kennedy* by jackreacher
 - *1976 Udall* by jackreacher
 - *1980: Points of Light* by Yupperdoo
+- *2012Mitt* by FishFrog
 - **Edge Cases:**
 - *2025NYC* by theMcCain and *1968- Age of Aquarius* by Halligan. These are someone else's mockups.
 - *Our American Carnage* by some redditor who deleted their account. This is a recreation of a mockup which made by someone else, which is based on a third person's mod. 
