@@ -1,0 +1,749 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2016 - No Apology",
+            "summary": "Mitt Romney. The last gasp of polite America. The Christ Killer boardroom messiah who mistook managerial jargon for conviction and PowerPoint slides for destiny. He has risen — not by passion, not by movement, but by the exhausted sigh of a nation too tired to believe in anything more dangerous than a Harvard MBA. Draped in the smug moderation of a man allergic to both chaos and authenticity, Romney stands at the podium, smiling that perfect, plastic smile.\nAnd yet, the cruel joke is that fate has chosen him for an era of fire.</p>\n\nCollapse looms, tempers boil, and the American empire teeters — and here stands Mitt Romney, spreadsheet in hand, convinced the apocalypse can be out-sourced and the moral rot audited away. Once in office, he governs as he lives: timidly, antiseptically, as if leadership were a PR risk. The border burns, the culture rots, the debt swells — and Mitt, ever the management-class aristocrat, commissions another task force to polish America’s tombstone.</p>",
+            "image_url": "https://i.imgur.com/1BRITGc.gif",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/YV8JS7a.png",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2016 - No Apology"
+    }
+]
+
+campaignTrail_temp.credits = "Ohas"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Mitt",
+            "last_name": "Romney",
+            "election": 20,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>For some sort of unexplainable reason, even to his closest aides, President Romney seems to find his happiest hours when he's in the oval office signing bills and passing executive orders. It wouldn't be a stretch to assume, then, that Romney finds his brief trips away from the white house tiresome, with his long stays in the oval office keeping him sane. Regardless, there's something sorely missing to him: an air of respect. Even back when he was governor, facing democratic supermajorities in the state legislature, people treated him with appropriate admiration. A recognition that he’s a man of intellect, discipline, and drive.<br><br>Now, he’s not so lucky. Ever since this epiphany dawned on the President, he's felt a wave of dread overwhelm him. From his incomplete plans to reform the Affordable Care Act to re-establishing America's place on the global stage, dread follows him. This dread has only been exacerbated by the aforementioned lack of courtesy from his peers on the hill. Romney is not a man to massage egos, he's a man to rustle bills and statistics, alone.</p>",
+            "color_hex": "#a30000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/INMjbYf.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Paul",
+            "last_name": "Ryan",
+            "election": 20,
+            "party": "Republican",
+            "state": "Wisconsin",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/QOf9ZLx.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Put description here</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Democrats",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Dissident Left",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Dissident Right",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109261,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#c4c4c4",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#808080",
+    "innerWindowColor": "#e6e6e6",
+    "bannerImageUrl": "https://i.imgur.com/Kv7M5S8.png",
+    "backgroundImageUrl": "https://i.imgur.com/qtPgjGt.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "Mittens"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Mittens</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#c4c4c4";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#808080";
+
+document.getElementById("header").src = "https://i.imgur.com/Kv7M5S8.png";
+
+document.body.background = "https://i.imgur.com/qtPgjGt.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#e6e6e6!important;}</style>";
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/CXLq6I8.png)" 
+
+e = campaignTrail_temp
+
+
+function ensureStylesheet(url, id) {
+	// if an id is provided and exists, bail out
+	if (id && document.getElementById(id)) return;
+	// if a link with same href already exists, bail out
+	if (document.querySelector('link[rel="stylesheet"][href="' + url + '"]')) return;
+	const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = url;
+	if (id) link.id = id;
+	document.head.appendChild(link);
+}
+
+ensureStylesheet('https://unpkg.com/7.css', 'unpkg-7css');
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+
+RecReading = true
+
+// the music player
+class Song {
+    constructor(title, artist, genre, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.genre = genre;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist
+window.Song = Song
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+    playSong(audio, uiElements);
+}
+window.changePlaylist = changePlaylist
+
+//  function to update the UI
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+    uiElements.genre.textContent = song.genre;
+}
+
+// function to play a song
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+    uiElements.playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png";
+}
+
+function setupMusicPlayer() {
+    const songData = [
+        { title: "I Earn My Life", artist: "Lemon Demon", genre: "Pop", cover: "https://i.imgur.com/BSBdE3I.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/IEarnMyLife.mp3" },
+        { title: "Ballad of the Mighty I", artist: "Noel Gallagher's High Flying Birds", genre: "Rock", cover: "https://i.scdn.co/image/ab67616d0000b273c78a5e50657f448b0b048213", audio: "https://audio.jukehost.co.uk/5NNc7lVHPMYitcfiodfipgwMEmefNJbT" },
+        { title: "I Am Alone", artist: "They Might Be Giants", genre: "Alternative", cover: "https://i.imgur.com/VYzIBAa.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/I%20Am%20Alone.mp3" },
+        { title: "Pompeii", artist: "Bastille", genre: "Alternative", cover: "https://i.imgur.com/mV9Ag6e.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Pompeii.mp3" },
+        { title: "I Thought The Future Would Be Cooler", artist: "YACHT", genre: "Electronic", cover: "https://i.imgur.com/NkUcVDk.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Future.mp3" },
+        { title: "I Don't Wanna Be An Asshole Anymore", artist: "The Menzingers", genre: "Punk", cover: "https://i.imgur.com/ZT11Rt7.jpeg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/Asshole.mp3" },
+    ];
+
+    playlist = new Playlist();
+    songData.forEach(s => playlist.addSong(new Song(s.title, s.artist, s.genre, s.cover, s.audio)));
+
+    function addAndPlaySong(song) {
+        const audio = document.getElementById("audio");
+        const uiElements = {
+            cover: document.getElementById("cover"),
+            title: document.getElementById("title"),
+            artist: document.getElementById("artist"),
+            genre: document.getElementById("genre"),
+            playPauseButton: document.getElementById("playPauseButton")
+        };
+
+        playlist.addSong(song);
+        playlist.currentSongIndex = playlist.songs.length - 1;
+
+        playSong(audio, uiElements);
+    }
+    window.addAndPlaySong = addAndPlaySong;
+
+    // build the player structure
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+    playerContainer.innerHTML = `
+			<img id="cover" />
+			<div id="rightPanel">
+				<div id="info-container">
+					<div id="song-info">
+						<h3 id="title"></h3>
+						<p id="artist"></p>
+						<p id="genre"></p>
+					</div>
+				</div>
+				<div id="controls-container">
+					<div id="progress-bar-container">
+						<div id="progress"></div>
+					</div>
+					<div id="bottom-controls">
+						<div id="controls">
+							<img id="prevButton" src="https://i.imgur.com/tbB2NMq.png" alt="Previous">
+							<img id="playPauseButton" src="https://i.imgur.com/gZME5QC.png" alt="Play/Pause">
+							<img id="nextButton" src="https://i.imgur.com/e69GXWV.png" alt="Next">
+						</div>
+						<div id="volume-container">
+							<img src="https://i.imgur.com/fvct8dN.png" alt="Volume">
+							<input type="range" id="volumeSlider" min="0" max="9" step="1" value="2">
+						</div>
+					</div>
+				</div>
+			</div>
+		`;
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    // cache all DOM elements
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        prevButton: document.getElementById("prevButton"),
+        playPauseButton: document.getElementById("playPauseButton"),
+        nextButton: document.getElementById("nextButton"),
+        progressBar: document.getElementById("progress"),
+        progressBarContainer: document.getElementById("progress-bar-container"),
+        volumeSlider: document.getElementById("volumeSlider")
+    };
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.volume = uiElements.volumeSlider.value / 9;
+
+    // setup event listeners
+    uiElements.playPauseButton.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            uiElements.playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png";
+        } else {
+            audio.pause();
+            uiElements.playPauseButton.src = "https://i.imgur.com/gZME5QC.png";
+        }
+    });
+
+    uiElements.nextButton.addEventListener("click", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.prevButton.addEventListener("click", () => {
+        playlist.playPrevious();
+        playSong(audio, uiElements);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            uiElements.progressBar.style.width = progress + "%";
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.progressBarContainer.addEventListener("click", (e) => {
+        const rect = uiElements.progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = uiElements.progressBarContainer.offsetWidth;
+        audio.currentTime = (clickX / width) * audio.duration;
+    });
+
+    uiElements.volumeSlider.addEventListener("input", (e) => {
+        audio.volume = e.target.value / 9;
+    });
+
+    document.body.appendChild(audio);
+
+    // initial load
+    const initialSong = playlist.getCurrentSong();
+    updateUI(initialSong, uiElements);
+    audio.src = initialSong.audioLink;
+
+    audio.play().then(() => {
+        uiElements.playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png";
+    }).catch(error => {
+        uiElements.playPauseButton.src = "https://i.imgur.com/gZME5QC.png";
+        console.log("Audio autoplay was prevented. User must interact with the page first.");
+    });
+}
+
+const musicPlayer = `
+	#player {
+		font-family: 'Segoe UI', sans-serif;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 15px;
+		padding: 0 10px;
+		height: 191px;
+		background: linear-gradient(to bottom, #4a4a4a, #1a1a1a);
+		border-radius: 5px;
+		border: 1px solid #666;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		color: white;
+		overflow: hidden;
+	}
+
+	#cover {
+		width: 180px;
+		height: 180px;
+		border: 2px solid #fff;
+		box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+		flex-shrink: 0;
+	}
+
+	#rightPanel {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		min-width: 0;
+	}
+
+	#info-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-grow: 1;
+		padding-left: 5px;
+	}
+
+	#song-info #title {
+		font-size: 1.5em;
+		font-weight: 600;
+		margin: 0 0 5px 0;
+		color: #ffffff;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	#song-info #artist, #song-info #genre {
+		font-size: 1em;
+		margin: 0;
+		color: #cccccc;
+	}
+
+	#controls-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.3);
+		margin-top: .5em;
+		padding: 8px;
+		border-radius: 4px;
+	}
+	
+	#bottom-controls {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+
+	#controls {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+	
+	#controls img {
+		cursor: pointer;
+		opacity: 0.9;
+		transition: opacity 0.2s;
+	}
+	
+	#prevButton, #nextButton {
+		height: 36px;
+	}
+
+	#controls img:hover {
+		opacity: 1;
+	}
+
+	#progress-bar-container {
+		width: 100%;
+		height: 6px;
+		background-color: #333;
+		border-radius: 3px;
+		cursor: pointer;
+		margin-bottom: 8px;
+	}
+
+	#progress {
+		height: 100%;
+		width: 0%;
+		background-color: #aaa;
+		border-radius: 3px;
+	}
+	
+	#volume-container {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	
+	#volumeSlider {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 100px;
+		height: 4px;
+		outline: none;
+		border-radius: 2px;
+		opacity: 0.8;
+		transition: opacity .2s;
+		background: #666;
+	}
+	
+	#volumeSlider:hover {
+		opacity: 1;
+	}
+
+	#volumeSlider::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 14px;
+		height: 14px;
+		background: #ffffff;
+		cursor: pointer;
+		border-radius: 50%;
+		border: 1px solid #444;
+		margin-top: 2px;
+	}
+
+	#volumeSlider::-moz-range-thumb {
+		width: 14px;
+		height: 14px;
+		background: #ffffff;
+		cursor: pointer;
+		border-radius: 50%;
+		border: 1px solid #444;
+	}
+ .campaign_trail_start_emphasis {
+    background-color: #F8F8F8;
+  }
+`;
+
+applyGlobalStyles(musicPlayer, 'music-player');
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+const vignetteCSS = `
+  #game_window::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* ensures it doesn’t block clicks */
+    background: radial-gradient(circle, rgba(0,0,0,0) 70%, rgba(0,0,0,0.35) 100%);
+    z-index: 9999; /* on top */
+  }
+  /* Make sure the parent is positioned relative so the pseudo-element aligns correctly */
+  #game_window {
+    position: relative;
+    overflow: hidden;
+  }
+`;
+
+applyGlobalStyles(vignetteCSS, 'vignette-effect');
+
+campaignTrail_temp.achievements = {
+    "Malarkey" : {
+        "image" : "https://i.imgur.com/lpOmhl6.png",
+        "description" : "Smash Scranton's oldest antique." 
+    },
+  "Wonderboy" : {
+        "image" : "https://i.imgur.com/Aek05dh.png",
+        "description" : "Turn off a rerun.", 
+        "cannotBeCheated" : true
+    },
+    "Class War" : {
+    "image" : "https://i.imgur.com/8aOavrI.png",
+    "description" : "Dispel a revolutionary.", 
+    "cannotBeCheated" : true
+  },
+    "As A New Yorker, I Am Gay" : {
+      "image" : "https://i.imgur.com/B73EuhH.png",
+      "description" : "Be the better of two evils.",  
+      "cannotBeCheated" : true
+  },
+  "Stuart Saves the Country" : {
+    "image" : "https://i.imgur.com/HDlXq6l.png",
+    "description" : "Cancel a comedian.", 
+    "cannotBeCheated" : true
+  },
+  "Quiet Quitter" : {
+    "image" : "https://i.imgur.com/GklcXOF.png",
+    "description" : "Pour out Coffeeboy.",
+    "cannotBeCheated" : true
+  },
+  "Mighty Moonworm" : {
+    "image" : "https://i.imgur.com/saETAS5.png",
+    "description" : "Win, no Supreme Court required.", 
+    "cannotBeCheated" : true
+  },
+  "Song of the Neptune Spear" : {
+    "image" : "https://i.imgur.com/lDcKdsB.png",
+    "description" : "Sink a sailor.", 
+    "cannotBeCheated" : true
+    },
+  "A Kinder, Gentler Union" : {
+    "image" : "https://i.imgur.com/jNSt8yY.png",
+    "description" : "Fire a working man.", 
+    "cannotBeCheated" : true
+  },
+  "Destiny" : {
+    "image" : "https://i.imgur.com/nE0NoOo.png",
+    "description" : "Dump a basket of deplorables.", 
+    "cannotBeCheated" : true
+ },
+  "Viva Mitt" : {
+    "image" : "https://i.imgur.com/fGkHnFu.png",
+    "description" : "Self-deport a mayor.", 
+    "cannotBeCheated" : true
+   },
+  "Cut For Time" : {
+    "image" : "https://i.imgur.com/wWSHRnQ.png",
+    "description" : "Defeat an enemy soldier.", 
+    "cannotBeCheated" : true
+  }
+}
+
+//#endcode
