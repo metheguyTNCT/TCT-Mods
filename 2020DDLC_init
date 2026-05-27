@@ -8,7 +8,7 @@ campaignTrail_temp.election_json = [
           "summary": "<p>The dog has caught the car. Having employed every dirty trick in the book to win a campaign she only entered in the first place for petty revenge, Monika is now President of the United States.</p><p>As if in reaction to her hubristic folly, the world has erupted into a confluence of crises that would test even the most experienced public servant, and downright impossible for a jumped-up computer program in over her head. With the Republicans baying for her blood, an unprecedented pandemic sweeping the nation, unrest abroad, and more, the question isn't if she'll win, but if she'll survive.</p>",
           "image_url": "https://i.imgur.com/jwuZJyV.png",
           "winning_electoral_vote_number": 270,
-          "advisor_url": "https://files.catbox.moe/enagwh.gif",
+          "advisor_url": "https://i.imgur.com/TCJl8nM.gif",
           "recommended_reading": "<div style='text-align: center;'><a href='https://en.wikipedia.org/wiki/Rod_Blagojevich_corruption_charges' class='flashing-text' style='font-size: 20px;'>The Governor</a></div><style>@keyframes flash { 0% { color: blue; } 33% { color: red; } 66% { color: black; } 100% { color: blue; } } .flashing-text { font-weight: bold; animation: flash 1s infinite; }</style>",
           "has_visits": 1,
           "no_electoral_majority_image": "https://files.catbox.moe/akb30w.gif",
@@ -38,14 +38,14 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 78,
         "fields": {
-            "first_name": "Mr",
-            "last_name": "The Repubs",
+            "first_name": "Nick",
+            "last_name": "Ayers",
             "election": 9,
             "party": "Democrat",
             "state": "Delaware",
             "priority": 1,
             "description": "<p></p>",
-            "color_hex": "#971b1b",
+            "color_hex": "#EE4228",
             "secondary_color_hex": "#4c6dc9",
             "is_active": 0,
             "image_url": "https://i.imgur.com/5gdezUv.png",
@@ -68,7 +68,7 @@ campaignTrail_temp.candidate_json = [
           "state": "New York",
           "priority": 2,
           "description": "<p>No, she hasn't revealed her last name. That in and of itself should tell you all you need to know about Monika's administration. Elected on a promise of a total reshaping of Washington, she has found herself mired in an all-too familiar cycle of gridlock. This town chews up and spits out idealists, and she's no different.</p> <p>Still, she knows things could always be worse. The wailing ghosts of her past claw at her at every waking moment. The investigations are already underway, and if they manage to find anything? It's too horrible to even contemplate. But for now, the bodies remain buried. The world burns. The question is, which one will destroy her first- if she doesn't do it herself?</p>",
-          "color_hex": "#8cd63a",
+          "color_hex": "#8CD63A",
           "secondary_color_hex": "#002668",
           "is_active": 1,
           "image_url": "https://i.imgur.com/M1rNAZ2.png",
@@ -623,7 +623,6 @@ input {
       {searchString: "Newsom", explanationText: "<img src=https://i.imgur.com/ZB1eH25.gif><br> Gruesome"},
 
       //Q27
-      {searchString: "Mark", explanationText: "<img src=https://i.imgur.com/5vV2QPP.gif><br> A Mess"},
       {searchString: "Stephen", explanationText: "<img src=https://i.imgur.com/dt3PNa0.gif><br> The Gifted One"},
       {searchString: "Antifa", explanationText: "<img src=https://i.imgur.com/Vxjuy75.gif><br> Fascists"},
       {searchString: "Mark Milley", explanationText: "<img src=https://i.imgur.com/W7RjGLC.gif><br> Traitor"},
@@ -652,7 +651,7 @@ input {
   
       //Sanders
       {searchString: "Trump", explanationText: "<img src=https://i.imgur.com/mH2fwK7.gif><br> TNN founder, 2016 candidate, King of the Crazies"},
-      {searchString: "Jon Tester", explanationText: "<img src=https://i.imgur.com/s0BrYS7.gif><br> Looks Pregnant"},
+      {searchString: "Tulsi Gabbard", explanationText: "<img src=https://i.imgur.com/s0BrYS7.gif><br> Hawaii Congresswoman, dollar-store Bernie"},
       {searchString: "Levin", explanationText: "<img src=https://i.imgur.com/mnYC83g.gif><br> So Great"},
       {searchString: "Musk", explanationText: "<img src=https://i.imgur.com/oLbvNUc.gif><br> Total Bitch"},
       {searchString: "Nats", explanationText: "<img src=https://files.catbox.moe/ffs48m.png><br> Kids say the darndest things."},
