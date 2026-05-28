@@ -1176,24 +1176,24 @@ const gameThemes = {
     corrr = `
       <div style="font-size: 11px; font-family: monospace; color: white;">
         <h2 style="font-style: normal;">
-          <img src="https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/Title4%20-%20Copy%20-%20Copy.gif" alt="AMERICAN CARNAGE" style="margin-top: 5px;">
+          <img src="https://i.imgur.com/1Fbfg38.jpeg" alt="AMERICAN CARNAGE" style="margin-top: 5px;">
         </h2>
       </div>
     `;
-    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#d8dadc" 
-    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#dd262b" 
-    $(".container")[0].style.backgroundColor = "#dee3e6"
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#fde7f2" 
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#f9f9f9" 
+    $(".container")[0].style.backgroundColor = "#ffdbef"
     $("#game_window")[0].style.backgroundImage = "url(https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/ChACkRO.gif)" 
-    document.body.background = "https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/M2WTVZw.gif" 
+    document.body.background = "https://i.imgur.com/KNTznwN.png" 
     document.body.style.backgroundSize = "99.4% auto"
     const electionSelect = document.getElementById("election_id");
     const selectedElection = electionSelect?.options[electionSelect.selectedIndex]?.textContent?.trim();
     if (selectedElection === "2024b") {
     document.getElementById("header").src = "https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/whitmerpence.png";
-    } else { document.getElementById("header").src = "https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/headermain.gif";}
+    } else { document.getElementById("header").src = "https://i.imgur.com/ajdsBjv.jpeg";}
     document.getElementById("wittyquote").color = "red" 
     nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
-    document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#9e191c !important;}</style>";
+    document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#fde7f2 !important;}</style>";
     quotes = [""]
     customquote = quotes[Math.floor((Math.random() * quotes.length))]
     localStorage.setItem("darkMAGAActive", "false");
@@ -2642,7 +2642,7 @@ const startScreenUpdater = setInterval(function () {
   const electionSelect = document.getElementById("election_id");
   const header = document.getElementById("header");
 
-  const defaultHeader = "https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/headermain.gif";
+  const defaultHeader = "https://i.imgur.com/ajdsBjv.jpeg";
   const darkMagaHeader = "https://i.imgur.com/H4WNKl1.png";
   const signatureHeader = "https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/Signature-Edition.gif";
 
@@ -3366,7 +3366,7 @@ function addDarkMAGADynamicCSS() {
       .overlay_window,
       #main_content_area table,
       #recommended_reading_box {
-          background-color: #1A1A1A !important;
+          background-color: #250c0c !important;
           color: white !important;
       }
 
@@ -3446,104 +3446,104 @@ campaignTrail_temp.achievements = {
       description: "Pass 0 Major Bills, And Win",
       cannotBeCheated: true
     },
-    "Hunter Killer": {
-      image: "https://i.imgur.com/cqkcPbR.gif",
-      description: "Put an Old Man to Bed",
+    "Testify": {
+      image: "https://i.imgur.com/znOSkif.png",
+      description: "Defeat Paul Ryan.",
       cannotBeCheated: true
     },
-    "Bern Out": {
-      image: "https://i.imgur.com/N4ZhWbm.gif",
-      description: "Halt the Revolution",
+    "The Zodiac Speaking": {
+      image: "https://i.imgur.com/VOLfxXY.png",
+      description: "Defeat Ted Cruz.",
       cannotBeCheated: true
     },
-    "Washington red. Skinned": {
-      image: "https://i.imgur.com/etnF8lc.gif",
-      description: "School a Professor",
+    "Foul Ball": {
+      image: "https://i.imgur.com/B2QwtK5.png",
+      description: "Defeat Charlie Baker.",
       cannotBeCheated: true
     },
-    "Pride Before the Fall": {
-      image: "https://i.imgur.com/pKyfmzH.gif",
-      description: "Send a Mayor Packing",
+    "Vuvzela No IPhone": {
+      image: "https://i.imgur.com/4H8crgz.png",
+      description: "Defeat Marco Rubio",
       cannotBeCheated: true
     },
-    "Minnesota à trois": {
-      image: "https://i.imgur.com/gyZ2YkP.gif",
-      description: "Melt a Snowwoman",
+    "Poodle Hat": {
+      image: "https://i.imgur.com/8ZGFrTC.png",
+      description: "Defeat Rand Paul.",
       cannotBeCheated: true
     },
     "Bloomberg Terminal": {
-      image: "https://i.imgur.com/lEYDah3.gif",
-      description: "Best an Old Friend",
+      image: "https://i.imgur.com/tHE4T9W.png",
+      description: "Defeat Mike Bloomberg.",
       cannotBeCheated: true
     },
-    "Don't Stop Believ---": {
-      image: "https://i.imgur.com/ZJZOjp8.gif",
-      description: "Whack a Jerseyboy",
+    "Dead Fish": {
+      image: "https://i.imgur.com/g8ddHeU.png",
+      description: "Defeat Sarah Palin.",
       cannotBeCheated: true
     },
-    "Texas Told'Em": {
-      image: "https://i.imgur.com/D9tcDzB.gif",
-      description: "Eclipse a Rising Star",
+    "Foxy Lady": {
+      image: "https://i.imgur.com/pevIytE.png",
+      description: "Defeat Tucker Carlson.",
       cannotBeCheated: true
     },
-    "Do the MATH": {
-      image: "https://i.imgur.com/jmPZIv2.gif",
-      description: "Bankrupt a Businessman",
+    "No Second Chances": {
+      image: "https://i.imgur.com/8Az7gmP.png",
+      description: "Defeat Chris Christie.",
       cannotBeCheated: true
     },
-    "Hawaii Cried-Oh": {
-      image: "https://i.imgur.com/1q1rYKk.gif",
-      description: "Wipeout a Surfer",
+    "Succubus with Goblins": {
+      image: "https://i.imgur.com/XmHkP8B.png",
+      description: "Defeat Alex Jones.",
       cannotBeCheated: true
     },
-    "Flat White Sharks": {
-      image: "https://i.imgur.com/qsFAc7b.gif",
-      description: "Break The 3 Party System",
+    "Esau": {
+      image: "https://i.imgur.com/AYDyg7b.png",
+      description: "Defeat Ben Carson.",
       cannotBeCheated: true
     },
-    "Too Big? Too Fail!": {
-      image: "https://i.imgur.com/SA6QP9U.gif",
-      description: "Break a Banker",
+    "Ladybugs": {
+      image: "https://i.imgur.com/BMAQJoj.png",
+      description: "Defeat Lindsey Graham.",
       cannotBeCheated: true
     },
-    "Pollut-o-crat": {
-      image: "https://i.imgur.com/5SHwSQi.gif",
-      description: "Eat the Rich",
+    "You're No Ross Perot": {
+      image: "https://i.imgur.com/gEP9Yph.png",
+      description: "Defeat Mark Cuban.",
       cannotBeCheated: true
     },
-    "#TimesUp": {
-      image: "https://i.imgur.com/aV45Xbe.gif",
-      description: "Defang a Feminist",
+    "The Demons Told Me To": {
+      image: "https://i.imgur.com/rmEdQ2I.png",
+      description: "Defeat Micheal Flynn.",
       cannotBeCheated: true
     },
-    "Manifest Destiny": {
-      image: "https://i.imgur.com/dHOB7iN.gif",
-      description: "Cull a Cult",
+    "BlacKKKlansman": {
+      image: "https://i.imgur.com/TrNW2Dr.png",
+      description: "Defeat Ye.",
       cannotBeCheated: true
     },
-    "Dizzoner": {
-      image: "https://i.imgur.com/Gy8gX2q.gif",
-      description: "Dwarf a Giant",
+    "Back in Chains": {
+      image: "https://i.imgur.com/SQGoPaV.png",
+      description: "Defeat Mitt Romney.",
       cannotBeCheated: true
     },
-    "What Happened": {
-      image: "https://i.imgur.com/Zs27olV.gif",
-      description: "Banish a Spectre",
+    "Gently": {
+      image: "https://i.imgur.com/QMsORwb.png",
+      description: "Take it all back.",
       cannotBeCheated: true
     },
-    "It's Joever": {
-      image: "https://i.imgur.com/wbCrX6c.gif",
-      description: "Usurp an Understudy",
+    "Motion to Vacate": {
+      image: "https://i.imgur.com/BmocNQk.png",
+      description: "Defeat Tom Cotton.",
       cannotBeCheated: true
     },
-    "Audacity of Nope": {
-      image: "https://i.imgur.com/AAn89bR.gif",
-      description: "Beat the Best",
+    "Maimed Character": {
+      image: "https://i.imgur.com/tE5j9te.png",
+      description: "Erase a traitor.",
       cannotBeCheated: true
     },
-    "Where's My Jet?": {
-      image: "https://i.imgur.com/K0PY9GQ.gif",
-      description: "Beat the Bastard",
+    "Low Energy": {
+      image: "https://i.imgur.com/dWGh8X9.png",
+      description: "Defeat Jeb Bush.",
       cannotBeCheated: true
     },
     "Phantom of the O...": {
