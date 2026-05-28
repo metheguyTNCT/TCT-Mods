@@ -2768,9 +2768,9 @@ function setupMusicPlayer() {
 
   const allPlaylists = [
     [
-      new Song("Little Dark Age", "MGMT", "https://i.imgur.com/d2ctDiz.png", "https://youtu.be/ETEg-SB01QY"),
-      new Song("Arrest the President", "Ice Cube", "https://i.imgur.com/BBOMLln.png", "https://youtu.be/y9oUnC8JtXY?list=RDy9oUnC8JtXY"),
-      new Song("This is America", "Childish Gambino", "https://i.imgur.com/cBtRj9K.png", "https://youtu.be/ddJqNY__9U8?list=RDddJqNY__9U8"),
+      new Song("The DDLC Theme, You Know", "SilvaGunner", "https://file.garden/Z7qfmQZIZjO_xV5N/embarrasment/SiIvaCover.jpg", "https://youtu.be/IYf4vW0BJag"),
+      new Song("Superkiller", "Neil Cicierega", "https://i.imgur.com/DY48LGG.jpeg", "https://youtu.be/4ijo9nk0PZM"),
+      new Song("Sucker is a new and original song which doesn't plagiarize at all", "TripleQ", "https://i.imgur.com/bZw4DGU.jpeg", "https://youtu.be/PN-zHSvDc1g"),
       new Song("Is This the Life We Really Want", "Roger Waters", "https://i.imgur.com/3NCgTGN.png", "https://youtu.be/Htjj7NJiNBA?list=RDHtjj7NJiNBA"),
       new Song("The Kids are Alt-Right", "Bad Religion", "https://i.imgur.com/KzlAiiO.png", "https://youtu.be/Br5VbSFtcpc?list=RDBr5VbSFtcpc"),
       new Song("Vigilante Man", "Glen Hansard", "https://i.imgur.com/SvUzGQH.png", "https://youtu.be/8EiNuYedGPk?list=RD8EiNuYedGPk"),
@@ -3643,3 +3643,4 @@ campaignTrail_temp.achievements = {
     }
 
   };
+
