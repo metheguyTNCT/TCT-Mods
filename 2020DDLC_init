@@ -2783,7 +2783,7 @@ function setupMusicPlayer() {
       new Song("Alyssa Interlude", "Vince Staples", "https://i.scdn.co/image/ab67616d0000b2737ba7b4d23c717f3211717946", "https://youtu.be/94PJe7SeQRo"),
       new Song("FEAR.", "Kendrick Lamar", "https://i.scdn.co/image/ab67616d00001e028b52c6b9bc4e43d873869699", "https://youtu.be/jdbQYDkNjfk"),
       new Song("Blood of the Fang", "clipping.", "https://i.scdn.co/image/ab67616d00001e024d1c35edb0aafeb16ef7c7df", "https://youtu.be/mtyTrcNInuk"),
-      new Song("45\n(A Matter of Time)", "Sum 41", "https://i.imgur.com/Vk6p3wJ.png", "https://youtu.be/EHVm2rXv0OE?list=RDEHVm2rXv0OE"),
+      new Song("A BOY IS A GUN*", "Tyler, The Creator", "https://i.imgur.com/1sW214d.jpeg", "https://youtu.be/9JQDPjpfiGw"),
       new Song("March March", "The Chicks", "https://i.imgur.com/UgKgJMH.png", "https://youtu.be/KYCzDiVSems?list=PLKfqhS8sZngzG3JtCMPmoG4xEeB1ACrjU"),
       new Song("Forty Five", "Surfbot", "https://i.imgur.com/TKEdl4t.png", "https://youtu.be/TUo8vt_Ye_g?list=RDTUo8vt_Ye_g"),
       new Song("The Man", "The Killers", "https://i.imgur.com/ctzC6N1.png", "https://youtu.be/D-pwB753qJM?list=RDD-pwB753qJM")
@@ -3641,5 +3641,7 @@ campaignTrail_temp.achievements = {
       description: "Win all 50 States",
       cannotBeCheated: true
     }
+
+  };
 
   };
