@@ -2771,10 +2771,10 @@ function setupMusicPlayer() {
       new Song("The DDLC Theme, You Know", "SilvaGunner", "https://file.garden/Z7qfmQZIZjO_xV5N/embarrasment/SiIvaCover.jpg", "https://youtu.be/IYf4vW0BJag"),
       new Song("Superkiller", "Neil Cicierega", "https://i.imgur.com/DY48LGG.jpeg", "https://youtu.be/4ijo9nk0PZM"),
       new Song("Sucker is a new and original song which doesn't plagiarize at all", "TripleQ", "https://i.imgur.com/bZw4DGU.jpeg", "https://youtu.be/PN-zHSvDc1g"),
-      new Song("Is This the Life We Really Want", "Roger Waters", "https://i.imgur.com/3NCgTGN.png", "https://youtu.be/Htjj7NJiNBA?list=RDHtjj7NJiNBA"),
-      new Song("The Kids are Alt-Right", "Bad Religion", "https://i.imgur.com/KzlAiiO.png", "https://youtu.be/Br5VbSFtcpc?list=RDBr5VbSFtcpc"),
-      new Song("Vigilante Man", "Glen Hansard", "https://i.imgur.com/SvUzGQH.png", "https://youtu.be/8EiNuYedGPk?list=RD8EiNuYedGPk"),
-      new Song("Real American", "Rick Derringer", "https://i.imgur.com/CalYXXW.png", "https://youtu.be/CRur6KgYDkg?list=RDCRur6KgYDkg")
+      new Song("Nobody Ever Spoke", "William Maranci", "https://cdn.sonemic.net/i/600/w/e505a945f32efce0da0712b7e5937ab0/14256127/coffeedude-the-great-patrician-mashup-album-disc-2-Cover-Art.jpg", "https://youtu.be/PF9kNf5_7qU"),
+      new Song("More Data", "Negativland", "https://i.imgur.com/yCLXn28.jpeg", "https://youtu.be/sTWD0j4tec4"),
+      new Song("deans_america", "AJCW", "https://i.imgur.com/yHkyviS.png", "https://youtu.be/KlHT8XrAXuc"),
+      new Song("I Thought The Future Would Be Cooler", "YACHT", "https://i.imgur.com/NkUcVDk.jpeg", "https://youtu.be/R8cavxA10Gc")
     ]
   ];
 
@@ -3643,4 +3643,3 @@ campaignTrail_temp.achievements = {
     }
 
   };
-
