@@ -387,11 +387,11 @@ campaignTrail_temp.candidate_json = [
     "model": "campaign_trail.candidate",
     "pk": 8855,
     "fields": {
-        "first_name": "Mike",
-        "last_name": "Pence",
+        "first_name": "Al",
+        "last_name": "Franken",
         "election": 10,
-        "party": "Republican",
-        "state": "Indiana",
+        "party": "DFL",
+        "state": "Minnesota",
         "priority": 10,
         "description": "'",
         "color_hex": "#FF0000",
@@ -401,7 +401,7 @@ campaignTrail_temp.candidate_json = [
         "electoral_victory_message": "'",
         "electoral_loss_message": "'",
         "no_electoral_majority_message": "'",
-        "description_as_running_mate": "<div id=\"carnageText\" style=\"max-height: 200px; overflow-y: auto; transition: color 1s, background-color 1s; background-color: transparent;\"><p><b style=\\\"font-size: 1.2em;\\\">Ladies and gentlemen</b>, roll up and witness the 8th wonder of the world: the magnificent, the frightening, Spineless Man. It’s a wonderous feat how he can even stand, let alone walk, talk, and even run for office, without a single indication of the daily humiliations laid upon him.</p><p>In fact, he can even do backflips! Yes, witness him, the avowed devout evangelical, sing the praises of a serial philanderer. Watch as he dances to the tune of the ringmaster’s orchestra, proud and even pleased to take his lashings to the delight of the crowd.</p><p>“It’s a privilege,” he says, with the same vacant, corpse-like stare he is genetically predisposed to display, “to serve such a competent and organized administration.”</p><p>What must Mother think?</p></div><script>setTimeout(function(){function glitchText(text){var chars='АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ';return text.replace(/\\S/g,function(){return chars.charAt(Math.floor(Math.random()*chars.length));});}var ps=document.querySelectorAll('#carnageText p');ps.forEach(function(p,i){setTimeout(function(){p.innerText=glitchText(p.innerText);},500*i);});},2500);</script>",
+        "description_as_running_mate": "<p>This administration isn't so much a ticking time bomb as it is a cluster bomb, each potential revaluation more damaging than the one before it. First in line is Vice President Franken himself. While controversial remarks of his from his comedy days surfaced during his Senate race, Monika knows that's just the tip of the iceberg.</p> <p>While she managed to keep it under wraps during the campaign, in the age of MeToo, the damning photo evidence of the veep groping a sleeping woman could come out at any second. In case of a vacancy in the Vice Presidency, Mitch McConnell has suggested leaving the spot open until the election, which could spell disaster if the case against the President advances. Leaving all that aside, Franken proved surprisingly timid on the campaign trail, which could prove a liability in 2020. Monika and Al just barely tolerate each other, but just one slip-up on either end could end both of the careers in seconds.</p>",
         "candidate_score": 0,
         "running_mate": true
     }
