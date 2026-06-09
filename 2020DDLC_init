@@ -74,6 +74,7 @@ document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}
 campaignTrail_temp.modBoxTheme = {
   "header_color": "#4c4c4c",
   "header_text_color": "#f5f3f4",
+  "header_image_url": "https://file.garden/aZpOy1sRbiDb3nw_/AC%20File%20Change/modbox.png",
   "description_text_color": "#000000",
   "description_background_color": "#f5f3f4",
   "main_color": "#4c4c4c",
@@ -3530,7 +3531,7 @@ campaignTrail_temp.achievements = {
       description: "Take it all back.",
       cannotBeCheated: true
     },
-    "Cotton Pickin' Minute": {
+    "Cotton Picking Minute": {
       image: "https://i.imgur.com/BmocNQk.png",
       description: "Defeat Tom Cotton.",
       cannotBeCheated: true
