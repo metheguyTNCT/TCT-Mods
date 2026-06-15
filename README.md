@@ -29,6 +29,7 @@ Pretty straightforward.
 - *2008McCain*
 - *2028b*
 - *1972HHH*
+- *1981-1984: American Crucifixion*
   
 **Unnecessarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
