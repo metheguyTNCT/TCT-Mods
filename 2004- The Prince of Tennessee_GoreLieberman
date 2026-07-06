@@ -58299,13 +58299,13 @@ const ads = [
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "John"
         e.candidate_json[id].fields.last_name = "McCain" 
-        e.candidate_json[id].fields.color_hex = "#ff6763" 
+        e.candidate_json[id].fields.color_hex = "#FC6664" 
     }
     function switcheroo2() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Jeb"
         e.candidate_json[id].fields.last_name = "Bush"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#e52340"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#CB2045"
         var id = campaignTrail_temp.candidate_json.map(p=>p.pk).indexOf(77)
         campaignTrail_temp.candidate_json[id].fields.color_hex = "#1a3170"
     }
@@ -58313,43 +58313,43 @@ const ads = [
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Mike"
         e.candidate_json[id].fields.last_name = "Huckabee"   
-        e.candidate_json[id].fields.color_hex = "#690000" 
+        e.candidate_json[id].fields.color_hex = "#680000" 
     }
     function switcheroo4() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Rudy"
         e.candidate_json[id].fields.last_name = "Giuliani"  
-        e.candidate_json[id].fields.color_hex = "#cb0104" 
+        e.candidate_json[id].fields.color_hex = "#CA0300" 
     
     }
     function switcheroo5() {
         var id = campaignTrail_temp.candidate_json.map(p=>p.pk).indexOf(78)
         campaignTrail_temp.candidate_json[id].fields.first_name = "Newt"
         campaignTrail_temp.candidate_json[id].fields.last_name = "Gingrich"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#8d1011"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#8B100E"
     
     }
     function switcheroo6() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Ron"
         e.candidate_json[id].fields.last_name = "Paul"  
-        e.candidate_json[id].fields.color_hex = "#d0622c" 
+        e.candidate_json[id].fields.color_hex = "#D6DF43" 
     
     }
     function switcheroo7() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Colin"
         e.candidate_json[id].fields.last_name = "Powell"   
-        e.candidate_json[id].fields.color_hex = "#ae1146"
+        e.candidate_json[id].fields.color_hex = "#FB66C4"
         var id = campaignTrail_temp.candidate_json.map(p=>p.pk).indexOf(77)
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#8f3838"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#4069BF"
     
     }
 	// 3rd party 
 	function switcheroo8() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
-        e.candidate_json[id].fields.first_name = "Gary"
-        e.candidate_json[id].fields.last_name = "Johnson"
+        e.candidate_json[id].fields.first_name = "Richard"
+        e.candidate_json[id].fields.last_name = "Mack"
         
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 80 && x.fields.issue == 27)[0].fields.issue_score = -1.1
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 80 && x.fields.issue == 28)[0].fields.issue_score = -1.1
@@ -58366,21 +58366,21 @@ const ads = [
     }
     function switcheroo10() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
-        e.candidate_json[id].fields.first_name = "Bob"
-        e.candidate_json[id].fields.last_name = "Dornan"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#b08293"
+        e.candidate_json[id].fields.first_name = "Bernie"
+        e.candidate_json[id].fields.last_name = "Goetz"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#824c7e"
     }
     function switcheroo11() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
-        e.candidate_json[id].fields.first_name = "Ted"
-        e.candidate_json[id].fields.last_name = "Turner"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#547558"
+        e.candidate_json[id].fields.first_name = "Dennis"
+        e.candidate_json[id].fields.last_name = "Prager"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#42535f"
     }
     function switcheroo12() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(80)
-        e.candidate_json[id].fields.first_name = "John"
-        e.candidate_json[id].fields.last_name = "Anderson"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#c4b978"
+        e.candidate_json[id].fields.first_name = "Tim"
+        e.candidate_json[id].fields.last_name = "Penny"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#beac05"
     }
     function switcheroo13() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(79)
@@ -58396,9 +58396,9 @@ const ads = [
     }
     function switcheroo15() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(79)
-        e.candidate_json[id].fields.first_name = "Michael"
-        e.candidate_json[id].fields.last_name = "Parenti"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#a80d15"
+        e.candidate_json[id].fields.first_name = "Daniel"
+        e.candidate_json[id].fields.last_name = "Ellsberg"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#297c13"
         
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 79 && x.fields.issue == 27)[0].fields.issue_score = 0.97
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 79 && x.fields.issue == 28)[0].fields.issue_score = 0.97
@@ -58408,9 +58408,9 @@ const ads = [
     }
     function switcheroo16() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(79)
-        e.candidate_json[id].fields.first_name = "Roseanne"
-        e.candidate_json[id].fields.last_name = "Barr"
-        campaignTrail_temp.candidate_json[id].fields.color_hex = "#3c7d4a"
+        e.candidate_json[id].fields.first_name = "Lawrence"
+        e.candidate_json[id].fields.last_name = "Lessig"
+        campaignTrail_temp.candidate_json[id].fields.color_hex = "#0da7c7"
     }
     function switcheroo22a() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(79)
@@ -58429,19 +58429,19 @@ const ads = [
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Condoleezza"
         e.candidate_json[id].fields.last_name = "Rice"   
-        e.candidate_json[id].fields.color_hex = "#cd303e"    
+        e.candidate_json[id].fields.color_hex = "#CC3040"    
     }
     function switcheroo18() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "George"
-        e.candidate_json[id].fields.last_name = "Pataki"   
-        e.candidate_json[id].fields.color_hex = "#ff9899"    
+        e.candidate_json[id].fields.first_name = "Chuck"
+        e.candidate_json[id].fields.last_name = "Hagel"   
+        e.candidate_json[id].fields.color_hex = "#FE8130"    
     }
     function switcheroo19() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
         e.candidate_json[id].fields.first_name = "Alan"
         e.candidate_json[id].fields.last_name = "Keyes"   
-        e.candidate_json[id].fields.color_hex = "#240102"   
+        e.candidate_json[id].fields.color_hex = "#250303"   
         
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 78 && x.fields.issue == 27)[0].fields.issue_score = 0.0
         e.candidate_issue_score_json.filter((x) => x.fields.candidate == 78 && x.fields.issue == 28)[0].fields.issue_score = 0.4
@@ -58457,15 +58457,15 @@ const ads = [
     }
     function switcheroo21() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Pete"
-        e.candidate_json[id].fields.last_name = "Wilson"   
-        e.candidate_json[id].fields.color_hex = "#67211f"    
+        e.candidate_json[id].fields.first_name = "Rush"
+        e.candidate_json[id].fields.last_name = "Limbaugh"   
+        e.candidate_json[id].fields.color_hex = "#750A0A"    
     }
     function switcheroo22() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Steve"
-        e.candidate_json[id].fields.last_name = "Forbes"   
-        e.candidate_json[id].fields.color_hex = "#d43534"    
+        e.candidate_json[id].fields.first_name = "Donald"
+        e.candidate_json[id].fields.last_name = "Trump"   
+        e.candidate_json[id].fields.color_hex = "#B65929"    
 
         pictureDict[19] = "https://i.imgur.com/zgdItLf.png"
         pictureDict[23] = "https://i.imgur.com/h2FOZ39.png"
@@ -58474,9 +58474,9 @@ const ads = [
     }
     function switcheroo23() {
         var id = e.candidate_json.map(p=>p.pk).indexOf(78)
-        e.candidate_json[id].fields.first_name = "Ross"
-        e.candidate_json[id].fields.last_name = "Perot"   
-        e.candidate_json[id].fields.color_hex = "#e14d4c"    
+        e.candidate_json[id].fields.first_name = "Christie"
+        e.candidate_json[id].fields.last_name = "Whitman"   
+        e.candidate_json[id].fields.color_hex = "#FC3504"    
 
         let index = menuItemsA.findIndex(item => item.id === 'JOBS_A');
         if (index !== -1) {
@@ -58914,7 +58914,7 @@ const ads = [
 			else if(Wins > 4 && Wars > 0){ // Sharpton  
 				switcheroo6();            
 				Dem += 6;  
-                pictureDict[17] = "https://i.imgur.com/myb6X0d.png"
+                pictureDict[17] = "https://i.imgur.com/7idenDl.png"
 
 				if((Cred < 4) && (ConRep < 4)){
 					campaignTrail_temp.questions_json[17] = tunnel(9678);   
@@ -59309,26 +59309,26 @@ const ads = [
         if(Dem == 1){ // Clinton
             // Convention Above 
             campaignTrail_temp.questions_json[19] = tunnel(9709);   
-                pictureDict[19] = "https://i.imgur.com/sYYN8QL.png"
+                pictureDict[19] = "https://i.imgur.com/ywya8bo.png"
             campaignTrail_temp.questions_json[23] = tunnel(9710);   
                 pictureDict[23] = "https://i.imgur.com/3oJinVn.png"
             campaignTrail_temp.questions_json[24] = tunnel(9711);
                 pictureDict[24] = "https://i.imgur.com/L3ksY1F.png"
             campaignTrail_temp.questions_json[26] = tunnel(9712);   
                 pictureDict[26] = "https://i.imgur.com/R1VSuTI.png"
-            ctsAchievement("I'm With Her");  
+            ctsAchievement("That One");  
         }
         if(Dem == 2){ // Gore
             // Convention Above 
             campaignTrail_temp.questions_json[19] = tunnel(9703);   
-                pictureDict[19] = "https://i.imgur.com/rOStUG8.png"
+                pictureDict[19] = "https://i.imgur.com/6Qxn5ZS.png"
             campaignTrail_temp.questions_json[23] = tunnel(9704);   
                 pictureDict[23] = "https://i.imgur.com/QLP0x7H.png"
             campaignTrail_temp.questions_json[24] = tunnel(9705);
                 pictureDict[24] = "https://i.imgur.com/QF7BszD.png"
             campaignTrail_temp.questions_json[26] = tunnel(9706);   
                 pictureDict[26] = "https://i.imgur.com/hBmT2Lc.png"  
-            ctsAchievement("Oops!...I Did It Again"); 
+            ctsAchievement("It Connotes Excitement"); 
         }
         if(Dem == 3){
             // Convention Above  
@@ -60034,7 +60034,7 @@ const ads = [
         refreshSurrogates()
 	}
 
-let vpName = "ERROR YOU DIDN'T SET ME";
+let vpName = "Joe Lieberman";
 
 vpTable = {
     "Al Gore" : vpName,
@@ -60044,27 +60044,27 @@ vpTable = {
     "John McCain" : "Tim Pawlenty",
 	"Newt Gingrich" : "Bob Taft",
     "Mike Huckabee" : "Elizabeth Dole",
-	"Ron Paul" : "Lincoln Chafee",
+	"Ron Paul" : "Gary Johnson",
 	"Colin Powell" : "Kay Bailey Hutchison",
 
 	"Alan Keyes" : "Joe Scarborough",
 	"Condoleezza Rice" : "George Allen",
-	"George Pataki" : "Jack Kingston",
-	"Pete Wilson" : "Lindsey Graham",
-	"Trent Lott" : "Mitt Romney",
-	"Steve Forbes" : "Sam Brownback",
-	"Ross Perot" : "Chuck Hagel",
+	"Chuck Hagel" : "Lincoln Chafee",
+	"Rush Limbaugh" : "JC Watts",
+	"Trent Lott" : "Bill Owens",
+	"Donald Trump" : "Jon Kyl",
+	"Christie Whitman" : "Paul Cellucci",
 	
-	"Gary Johnson" : "Aaron Russo",
-	"Pat Buchanan" : "Betsy McCaughey",
-	"Bob Dornan" : "Chuck Baldwin",
-	"Ted Turner" : "Lenora Fulani",
+	"Richard Mack" : "John Stossell",
+	"Pat Buchanan" : "Bill White",
+	"Bernie Goetz" : "Joe Arpaio",
+	"Dennis Prager" : "L. Brent Bozell III",
 	"Lowell Weicker" : "Tom Golisano",
 	
 	"Ralph Nader" : "Peter Camejo",
-	"John Anderson" : "Pete McCloskey",
-	"Michael Parenti" : "Peter Diamondstone",
-	"Roseanne Barr" : "Erin Brockovich",
+	"Tim Penny" : "Jim Leach",
+	"Daniel Ellsberg" : "Dan Hamburg",
+	"Lawrence Lessig" : "Matt Mullenweg",
     "Stеve Jobs" : ""
 }
 
@@ -60709,10 +60709,10 @@ e.pages.push(`<h3>The Need for Honorable Men</h3>
         songChange = 1
         const clintonWin = new Playlist();
         const clintonWinSong = new Song(
-            "Not Ready To Make Nice",
-            "The Chicks",
-            "https://upload.wikimedia.org/wikipedia/en/8/8d/Dixie_Chicks_-_Not_Ready_to_Make_Nice.png",
-            "https://audio.jukehost.co.uk/cJegQbtaTl4GPIdUIu7kaEyRiu8bLFWT"
+            "A Little Less Conversation",
+            "Evlis Presley, JXL",
+            "https://i.scdn.co/image/ab67616d00001e0253f941c094e3f95ff33034da",
+            "https://file.garden/Z7qfmQZIZjO_xV5N/A%20Little%20Less%20Conversation.mp3"
         );
         clintonWin.addSong(clintonWinSong);
         changePlaylist(clintonWin);
@@ -60729,10 +60729,10 @@ e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/2ZBBtVJ.p
         songChange = 1
         const goreWin = new Playlist();
         const goreWinSong = new Song(
-            "Beautiful Enemy",
-            "Dar Williams",
-            "https://i.imgur.com/tq1hqFb.jpeg",
-            "https://audio.jukehost.co.uk/fGb2FosmrSjpx8SSZODpS5i8M1mA3O3Y"
+    "Black Hole Sun",
+    "Paul Anka",
+    "https://i.scdn.co/image/ab67616d00001e02978b53ca47acb53b617bd958",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/BlackHoleSwing.mp3"
         );
         goreWin.addSong(goreWinSong);
         changePlaylist(goreWin);
@@ -60749,10 +60749,10 @@ e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/2ZBBtVJ.p
         songChange = 1
         const edwardsWin = new Playlist();
         const edwardsWinSong = new Song(
-            "Bad Day",
-            "R.E.M.",
-            "https://upload.wikimedia.org/wikipedia/en/3/3e/R.E.M._-_Bad_Day.jpg",
-            "https://audio.jukehost.co.uk/Ldt20cjLE0xtlM48NNYSoHLrZPjM7xZV"
+        "Hurt",
+        "Johnny Cash",
+        "https://i.scdn.co/image/ab67616d00001e026f4f62da3d811b6501a69ffa",
+        "https://file.garden/Z7qfmQZIZjO_xV5N/Hurt.mp3"
         );
         edwardsWin.addSong(edwardsWinSong);
         changePlaylist(edwardsWin);
@@ -60769,10 +60769,10 @@ e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/2ZBBtVJ.p
         songChange = 1
         const wellstoneWin = new Playlist();
         const wellstoneWinSong = new Song(
-            "21 Guns",
-            "Green Day",
-            "https://upload.wikimedia.org/wikipedia/en/c/c8/Green_Day_-_21st_Century_Breakdown_cover.jpg",
-            "https://audio.jukehost.co.uk/OaGgKzUVxgMFrSRBHJc4vLoXJbH0DulK"
+            "A Ballad For The Fallen Soldier- Skit",
+            "Jay-Z, DJ Clue",
+            "https://i.scdn.co/image/ab67616d00001e02b7c45af95aaf599cee3acf08",
+            "https://file.garden/Z7qfmQZIZjO_xV5N/Fallen%20Soldier%20.mp3"
         );
         wellstoneWin.addSong(wellstoneWinSong);
         changePlaylist(wellstoneWin);
@@ -60789,10 +60789,10 @@ if (songChange != 1) {
         songChange = 1
         const liebermanWin = new Playlist();
         const liebermanWinSong = new Song(
-            "Another Day in America",
-            "Laurie Anderson",
-            "https://i.scdn.co/image/ab67616d0000b2736c101467832e76c1be95f59c",
-            "https://audio.jukehost.co.uk/HvMWu7C4GtM5Qv2sSM5ym5fl0oT3S4ka"
+    "Let's Have A War",
+    "A Perfect Circle",
+    "https://i.scdn.co/image/ab67616d00001e02b899c5d781cdb8bd0788b27f",
+    "https://files.catbox.moe/ng54wc.mp3"
         );
         liebermanWin.addSong(liebermanWinSong);
         changePlaylist(liebermanWin);
@@ -60849,10 +60849,10 @@ if (songChange != 1) {
         songChange = 1
     const killaryWin = new Playlist();
     const killaryWinSong = new Song(
-        "BAPTISM",
-        "Crystal Castles",
-        "https://i.imgur.com/EykbLHk.png",
-        "https://audio.jukehost.co.uk/UJo6kuzBmjvBttajTIBvGFi6JB3cEghk"
+        "Extraordinary Girl/Letterbomb",
+        "Green Day",
+        "https://i.scdn.co/image/ab67616d00001e0208a1b1e0674086d3f1995e1b",
+        "https://audio.jukehost.co.uk/wMJlyYwhjL5dkSslPWiOYrxprZVe9BFa"
     );
     killaryWin.addSong(killaryWinSong);
     changePlaylist(killaryWin);
@@ -61073,10 +61073,10 @@ if (songChange != 1) {
         songChange = 1
     const clintonWin = new Playlist();
     const clintonWinSong = new Song(
-        "Not Ready To Make Nice",
-        "The Chicks",
-        "https://upload.wikimedia.org/wikipedia/en/8/8d/Dixie_Chicks_-_Not_Ready_to_Make_Nice.png",
-        "https://audio.jukehost.co.uk/cJegQbtaTl4GPIdUIu7kaEyRiu8bLFWT"
+            "A Little Less Conversation",
+            "Evlis Presley, JXL",
+            "https://i.scdn.co/image/ab67616d00001e0253f941c094e3f95ff33034da",
+            "https://file.garden/Z7qfmQZIZjO_xV5N/A%20Little%20Less%20Conversation.mp3"
     );
     clintonWin.addSong(clintonWinSong);
     changePlaylist(clintonWin);
@@ -61093,10 +61093,10 @@ if (songChange != 1) {
         songChange = 1
     const goreWin = new Playlist();
     const goreWinSong = new Song(
-        "Beautiful Enemy",
-        "Dar Williams",
-        "https://i.imgur.com/tq1hqFb.jpeg",
-        "https://audio.jukehost.co.uk/fGb2FosmrSjpx8SSZODpS5i8M1mA3O3Y"
+    "Black Hole Sun",
+    "Paul Anka",
+    "https://i.scdn.co/image/ab67616d00001e02978b53ca47acb53b617bd958",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/BlackHoleSwing.mp3"
     );
     goreWin.addSong(goreWinSong);
     changePlaylist(goreWin);
@@ -61113,10 +61113,10 @@ if (songChange != 1) {
         songChange = 1
     const edwardsWin = new Playlist();
     const edwardsWinSong = new Song(
-        "Bad Day",
-        "R.E.M.",
-        "https://upload.wikimedia.org/wikipedia/en/3/3e/R.E.M._-_Bad_Day.jpg",
-        "https://audio.jukehost.co.uk/Ldt20cjLE0xtlM48NNYSoHLrZPjM7xZV"
+        "Hurt",
+        "Johnny Cash",
+        "https://i.scdn.co/image/ab67616d00001e026f4f62da3d811b6501a69ffa",
+        "https://file.garden/Z7qfmQZIZjO_xV5N/Hurt.mp3"
     );
     edwardsWin.addSong(edwardsWinSong);
     changePlaylist(edwardsWin);
@@ -61133,10 +61133,10 @@ if (songChange != 1) {
         songChange = 1
     const wellstoneWin = new Playlist();
     const wellstoneWinSong = new Song(
-        "21 Guns",
-        "Green Day",
-        "https://upload.wikimedia.org/wikipedia/en/c/c8/Green_Day_-_21st_Century_Breakdown_cover.jpg",
-        "https://audio.jukehost.co.uk/OaGgKzUVxgMFrSRBHJc4vLoXJbH0DulK"
+            "A Ballad For The Fallen Soldier- Skit",
+            "Jay-Z, DJ Clue",
+            "https://i.scdn.co/image/ab67616d00001e02b7c45af95aaf599cee3acf08",
+            "https://file.garden/Z7qfmQZIZjO_xV5N/Fallen%20Soldier%20.mp3"
     );
     wellstoneWin.addSong(wellstoneWinSong);
     changePlaylist(wellstoneWin);
@@ -61153,10 +61153,10 @@ if (songChange != 1) {
         songChange = 1
     const liebermanWin = new Playlist();
     const liebermanWinSong = new Song(
-        "Another Day in America",
-        "Laurie Anderson",
-        "https://i.scdn.co/image/ab67616d0000b2736c101467832e76c1be95f59c",
-        "https://audio.jukehost.co.uk/HvMWu7C4GtM5Qv2sSM5ym5fl0oT3S4ka"
+    "Let's Have A War",
+    "A Perfect Circle",
+    "https://i.scdn.co/image/ab67616d00001e02b899c5d781cdb8bd0788b27f",
+    "https://files.catbox.moe/ng54wc.mp3"
     );
     liebermanWin.addSong(liebermanWinSong);
     changePlaylist(liebermanWin);
@@ -61213,10 +61213,10 @@ if (songChange != 1) {
         songChange = 1
 const killaryWin = new Playlist();
   const killaryWinSong = new Song(
-    "BAPTISM",
-    "Crystal Castles",
-    "https://i.imgur.com/EykbLHk.png",
-    "https://audio.jukehost.co.uk/UJo6kuzBmjvBttajTIBvGFi6JB3cEghk"
+    "Extraordinary Girl/Letterbomb",
+        "Green Day",
+        "https://i.scdn.co/image/ab67616d00001e0208a1b1e0674086d3f1995e1b",
+        "https://audio.jukehost.co.uk/wMJlyYwhjL5dkSslPWiOYrxprZVe9BFa"
   );
   killaryWin.addSong(killaryWinSong);
 changePlaylist(killaryWin);
@@ -61369,10 +61369,10 @@ if (songChange != 1) {
         songChange = 1
 const clintonWin = new Playlist();
   const clintonWinSong = new Song(
-    "Not Ready To Make Nice",
-    "The Chicks",
-    "https://upload.wikimedia.org/wikipedia/en/8/8d/Dixie_Chicks_-_Not_Ready_to_Make_Nice.png",
-    "https://audio.jukehost.co.uk/cJegQbtaTl4GPIdUIu7kaEyRiu8bLFWT"
+            "A Little Less Conversation",
+            "Evlis Presley, JXL",
+            "https://i.scdn.co/image/ab67616d00001e0253f941c094e3f95ff33034da",
+            "https://file.garden/Z7qfmQZIZjO_xV5N/A%20Little%20Less%20Conversation.mp3"
   );
 clintonWin.addSong(clintonWinSong);
 changePlaylist(clintonWin);
@@ -61389,10 +61389,10 @@ if (songChange != 1) {
         songChange = 1
 const goreWin = new Playlist();
   const goreWinSong = new Song(
-    "Beautiful Enemy",
-    "Dar Williams",
-    "https://i.imgur.com/tq1hqFb.jpeg",
-    "https://audio.jukehost.co.uk/fGb2FosmrSjpx8SSZODpS5i8M1mA3O3Y"
+    "Black Hole Sun",
+    "Paul Anka",
+    "https://i.scdn.co/image/ab67616d00001e02978b53ca47acb53b617bd958",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/BlackHoleSwing.mp3"
   );
 goreWin.addSong(goreWinSong);
 changePlaylist(goreWin);
@@ -61409,10 +61409,10 @@ if (songChange != 1) {
     songChange = 1
     const edwardsWin = new Playlist();
     const edwardsWinSong = new Song(
-        "Bad Day",
-        "R.E.M.",
-        "https://upload.wikimedia.org/wikipedia/en/3/3e/R.E.M._-_Bad_Day.jpg",
-        "https://audio.jukehost.co.uk/Ldt20cjLE0xtlM48NNYSoHLrZPjM7xZV"
+        "Hurt",
+        "Johnny Cash",
+        "https://i.scdn.co/image/ab67616d00001e026f4f62da3d811b6501a69ffa",
+        "https://file.garden/Z7qfmQZIZjO_xV5N/Hurt.mp3"
     );
     edwardsWin.addSong(edwardsWinSong);
     changePlaylist(edwardsWin);
@@ -61429,10 +61429,10 @@ if (songChange != 1) {
         songChange = 1
 const wellstoneWin = new Playlist();
   const wellstoneWinSong = new Song(
-    "21 Guns",
-    "Green Day",
-    "https://upload.wikimedia.org/wikipedia/en/c/c8/Green_Day_-_21st_Century_Breakdown_cover.jpg",
-    "https://audio.jukehost.co.uk/OaGgKzUVxgMFrSRBHJc4vLoXJbH0DulK"
+            "A Ballad For The Fallen Soldier- Skit",
+            "Jay-Z, DJ Clue",
+            "https://i.scdn.co/image/ab67616d00001e02b7c45af95aaf599cee3acf08",
+            "https://file.garden/Z7qfmQZIZjO_xV5N/Fallen%20Soldier%20.mp3"
   );
 wellstoneWin.addSong(wellstoneWinSong);
 changePlaylist(wellstoneWin);
@@ -61449,10 +61449,10 @@ if (songChange != 1) {
         songChange = 1
 const liebermanWin = new Playlist();
   const liebermanWinSong = new Song(
-    "Another Day in America",
-    "Laurie Anderson",
-    "https://i.scdn.co/image/ab67616d0000b2736c101467832e76c1be95f59c",
-    "https://audio.jukehost.co.uk/HvMWu7C4GtM5Qv2sSM5ym5fl0oT3S4ka"
+    "Let's Have A War",
+    "A Perfect Circle",
+    "https://i.scdn.co/image/ab67616d00001e02b899c5d781cdb8bd0788b27f",
+    "https://files.catbox.moe/ng54wc.mp3"
   );
 liebermanWin.addSong(liebermanWinSong);
 changePlaylist(liebermanWin);
@@ -61509,10 +61509,10 @@ if (songChange != 1) {
         songChange = 1
 const killaryWin = new Playlist();
   const killaryWinSong = new Song(
-    "BAPTISM",
-    "Crystal Castles",
-    "https://i.imgur.com/EykbLHk.png",
-    "https://audio.jukehost.co.uk/UJo6kuzBmjvBttajTIBvGFi6JB3cEghk"
+    "Extraordinary Girl/Letterbomb",
+        "Green Day",
+        "https://i.scdn.co/image/ab67616d00001e0208a1b1e0674086d3f1995e1b",
+        "https://audio.jukehost.co.uk/wMJlyYwhjL5dkSslPWiOYrxprZVe9BFa"
   );
   killaryWin.addSong(killaryWinSong);
 changePlaylist(killaryWin);
@@ -61689,10 +61689,10 @@ if (songChange != 1) {
         songChange = 1
 const bushWinClinton = new Playlist();
   const bushWinSong = new Song(
-    "Hallelujah",
-    "Leonard Cohen",
-    "https://images.saymedia-content.com/.image/t_share/MTg2MDU3NjYyNzUwNzk0ODgx/the-origin-and-history-of-the-song-hallelujah.png",
-    "https://audio.jukehost.co.uk/9uKDWe06tDh8AWeBJ9CJOO6hlOCDu2YA"
+    "Angels",
+    "Junkie XL, Gary Numan",
+    "https://i.scdn.co/image/ab67616d00001e0282629e9f614da4c1f8db4dbe",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Angels.mp3"
   );
 bushWinClinton.addSong(bushWinSong);
 changePlaylist(bushWinClinton);
@@ -61709,10 +61709,10 @@ if (songChange != 1) {
         songChange = 1
 const bushWinGore = new Playlist();
   const bushWinSong = new Song(
-    "Empire",
-    "Dar Williams",
-    "https://i.imgur.com/tq1hqFb.jpeg",
-    "https://audio.jukehost.co.uk/NvFMawPNTJwaSDpPRUI87C4woUL33Sww"
+    "Wonderwall",
+    "Paul Anka",
+    "https://i.scdn.co/image/ab67616d00001e02978b53ca47acb53b617bd958",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Wonderwall.mp3"
   );
 bushWinGore.addSong(bushWinSong);
 changePlaylist(bushWinGore);
@@ -61729,9 +61729,9 @@ if (songChange != 1) {
         songChange = 1
 const bushWinEdwards = new Playlist();
   const bushWinSong = new Song(
-    "Imitation Of Life",
+    "Personal Jesus",
     "R.E.M.",
-    "https://upload.wikimedia.org/wikipedia/en/c/c2/R.E.M._-_Imitation_of_Life.jpg",
+    "https://i.scdn.co/image/ab67616d0000b2736f4f62da3d811b6501a69ffa",
     "https://audio.jukehost.co.uk/xoJir7dyPcOhG1OUAM8HW2SAppKGCVkz"
   );
 bushWinEdwards.addSong(bushWinSong);
@@ -61749,10 +61749,10 @@ if (songChange != 1) {
         songChange = 1
 const bushWinWellstone = new Playlist();
   const bushWinSong = new Song(
-    "Walking Contradiction",
-    "Green Day",
-    "https://i1.sndcdn.com/artworks-4lgGnEDf5RX2-0-t500x500.jpg",
-    "https://audio.jukehost.co.uk/4mEki6lOEV83WTdNwhExMmEjSx2QeAIZ"
+    "I Did It My Way",
+    "Jay Z",
+    "https://i.scdn.co/image/ab67616d0000b273b7c45af95aaf599cee3acf08",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/JaysWay.mp3"
   );
 bushWinWellstone.addSong(bushWinSong);
 changePlaylist(bushWinWellstone);
@@ -61769,10 +61769,10 @@ if (songChange != 1) {
         songChange = 1
 const bushWinLiebrman = new Playlist();
   const bushWinSong = new Song(
-    "Only an Expert",
+    "What's Going On",
     "Laurie Anderson",
-    "https://i.scdn.co/image/ab67616d0000b2736c101467832e76c1be95f59c",
-    "https://audio.jukehost.co.uk/r17Miq6R4m4OBkULFCV8ojmVZYVVzzcf"
+    "https://i.scdn.co/image/ab67616d0000b273b899c5d781cdb8bd0788b27f",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/WhatsGoingOn.mp3"
   );
 bushWinLiebrman.addSong(bushWinSong);
 changePlaylist(bushWinLiebrman);
@@ -61789,10 +61789,10 @@ if (songChange != 1) {
         songChange = 1
 const bushWinSharpton = new Playlist();
   const bushWinSong = new Song(
-    "Ain't That A Kick In The Head",
-    "Dean Martin",
-    "https://i1.sndcdn.com/artworks-000019270289-04r8yn-t500x500.jpg",
-    "https://audio.jukehost.co.uk/4y6h2YdzlXLeqaV8XilyDu73VvPKaBGs"
+    "I've Got Some Falling to Do",
+    "Lemon Demon",
+    "https://i.scdn.co/image/ab67616d00001e02d8ff4401df5d8ac72535dc74",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/FallingToDo.mp3"
   );
 bushWinSharpton.addSong(bushWinSong);
 changePlaylist(bushWinSharpton);
@@ -63275,4 +63275,3 @@ function applyTooltipsToObject(obj) {
 applyTooltipsToObject(campaignTrail_temp.questions_json);
 applyTooltipsToObject(campaignTrail_temp.answers_json);
 applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
-
