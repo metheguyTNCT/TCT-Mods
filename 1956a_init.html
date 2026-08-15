@@ -1,0 +1,441 @@
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `
+#main_content_area_reading {
+    color: black;
+  }
+`;
+document.head.appendChild(customStyling);
+e = campaignTrail_temp;
+e.collect_results = true;
+document.getElementById("music_player").children[0].remove()
+document.getElementById("music_player").children[0].remove()
+document.getElementById("music_player").children[0].outerHTML = '<audio id="campaigntrailmusic" loop="true" style="display:none" src="https://files.catbox.moe/a4qoyl.mp3" autoplay="true"></audio>'
+document.getElementById("campaigntrailmusic").volume = 0.5
+    
+RecReading=true
+quotes = ["“Whoever kindles the flame of intolerance in America is lighting a fire underneath his own home.” ~ Harold Stassen"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+corrr=`\n<h2>CAMPAIGN TRAIL SHOWCASE</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#3a0000",
+  "header_text_color": "#bbbbbb",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#676767",
+  "main_color": "#0d0b0a",
+  "secondary_color": "#3a0000",
+  "ui_text_color": "#bbbbbb"
+}
+campaignTrail_temp.election_json = [{
+    "model": "campaign_trail.election",
+    "pk": 4,
+    "fields": {
+        "year": 1956,
+        "summary": "<p>With Harold Stassen's second term coming to an end, the 1956 presidential election is set to be a referendum on Republican governance and the ongoing Red Scare.</p><ul><li>The incumbent vice president, William Knowland must distance himself from his previous arch-conservative positions and effectively utilize Stassen's popularity.</li><li>After a strong showing in the 1954 midterms, House Majority Leader John W. McCormack champions the Democratic effort to return America to the halcyon days of the New Deal majority. He would be the first Catholic elected to the presidency, and his religion could create undue controversy.</li>",
+        "image_url": "https://i.imgur.com/ir2owWT.png",
+        "winning_electoral_vote_number": 266,
+        "advisor_url": "https://i.imgur.com/hfoJkPQ.png",
+        "recommended_reading": "<div style='overflow-y:scroll;height:357.133px;font-size:1em;'><h2 style='margin-top: 0.5em;'>Let's listen in America today . . .</h2><img src='https://i.imgur.com/fFN2xOo.png' width='530px'/><p>EVENING STAR: <b> UNCOVERED: KNOWLAND'S YEARS OF INFIDELITY</b><br><br><p>BALTIMORE SUN: <b> JOE McCARTHY, REPUBLICAN NOMINEE FOR PRESIDENT</b><br><br><p>LOS ANGELES TIMES: <b> McCARTHY DECLARED WINNER, THANKS TO CALIFORNIA VOTE</b><br><br><p style='margin-left:1em;margin-right:1em;'>Hello folks. It's me, /u/astrohunch_o. This is a mini-mod I managed to whip up start to finish within about 15 hours.<br>It takes the Knowland side we were promised, but makes it real only so much as the lore permits -- he's still kicked to the wayside, and now you can see how he felt. The Knowland side was never actually made, so this is just my estimation of it. Hope you all enjoy it!</p></div>",
+        "has_visits": 1,
+        "no_electoral_majority_image": "/static/images/2012-no-majority.jpg"
+    }
+  }, ]
+  campaignTrail_temp.candidate_json = [{
+    "model": "campaign_trail.candidate",
+    "pk": 23,
+    "fields": {
+        "first_name": "William F.",
+        "last_name": "Knowland",
+        "election": 4,
+        "party": "Republican",
+        "state": "California",
+        "priority": 1,
+        "description": "<p>As a major in the army, William Knowland's affairs were mostly civilian. It was in the political arena where he would come to know combat.</p><p>Young and ambitious, William Knowland was a titan of California politics before being commissioned by President Harold Stassen to take the deceased Arthur Vandenberg's spot as vice president. Though he left his post in the Senate, who can really say his work has changed all that much? Given Stassen's own difficulties with Congress, Knowland has spent most of his time as Vice President still at the Capitol, seeing bills through and serving as Stassen's occasional olive branch to the party's conservative elements. Due to this, Knowland has largely failed to make a splash with the public, and enters the 1956 race as a close second. If he is to win, he must distance himself from his conservative past and press for a continuation of Stassen's legacy.</p>",
+        "color_hex": "#c44141",
+        "secondary_color_hex": "#d06868",
+        "is_active": 1,
+        "image_url": "https://i.imgur.com/1XRyGJt.png",
+        "electoral_victory_message": "<h3></h3><p></p>",
+        "electoral_loss_message": "<h3></h3><p></p>",
+        "no_electoral_majority_message": "<h3></h3><p></p>",
+        "description_as_running_mate": "''",
+        "candidate_score": 1
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 24,
+    "fields": {
+        "first_name": "John",
+        "last_name": "McCormack",
+        "election": 4,
+        "party": "Democratic",
+        "state": "Massachusetts",
+        "priority": 3,
+        "description": "<p>Tall, gaunt, a loyal party man.  That's John W. McCormack, the self-made man.  The competent legislator.  The brilliant orator.  The prudish narcissist; it just depends who you ask.  McCormack's ideological leanings are as elusive as the congressman is effective.  Something of a maverick, McCormack co-founded the HUAC, aided Stassen in gaining congressional support for much of his foreign policy adventures and fought for anti-lynching legislation.</p><p>McCormack embarked on a longshot bid for the presidency from his modest post as House Majority Leader.  As Senator Truman's campaign crashed, the establishmentarian center—eager not to nominate the segregationist Fulbright or the progressive Williams—thrust McCormack into the nomination.  Did he use his towering cunning to meander himself into this position, or was he simply in the right place at the right time?  No matter, he has much more pressing business now than to dwell on circumstance.</p>",
+        "color_hex": "#0F2667",
+        "secondary_color_hex": " #0F2667",
+        "is_active": 1,
+        "image_url": "https://i.imgur.com/8pPB6ZV.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "''",
+        "candidate_score": 1
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 25,
+    "fields": {
+        "first_name": "Tom",
+        "last_name": "Connally",
+        "election": 4,
+        "party": "Democrat",
+        "state": "Texas",
+        "priority": 3,
+        "description": "''",
+        "color_hex": "#3F302A",
+        "secondary_color_hex": "#3F302A",
+        "is_active": 0,
+        "image_url": "https://images.squarespace-cdn.com/content/v1/59677d48be6594487644e27a/1527206003950-FC461ZKE9XYLBIBHJIIO/C000684.jpg",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "''",
+        "candidate_score": 1
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 26,
+    "fields": {
+        "first_name": "Eric",
+        "last_name": "Hass/Others",
+        "election": 4,
+        "party": "Commie",
+        "state": "New York",
+        "priority": 4,
+        "description": "''",
+        "color_hex": "#3b0000",
+        "secondary_color_hex": "#3b0000",
+        "is_active": 0,
+        "image_url": "https://www.marxists.org/glossary/people/h/pics/hass-eric-1964.jpg",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "''",
+        "candidate_score": 1
+    }
+  }, {//running mates
+    "model": "campaign_trail.candidate",
+    "pk": 95,
+    "fields": {
+        "first_name": "Henry Cabot",
+        "last_name": "Lodge Jr",
+        "election": 4,
+        "party": "Republican",
+        "state": "Massachusetts",
+        "priority": 5,
+        "description": "``",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/5cSOOCi.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>The latest member of his elite family to achieve national prominence, Henry Cabot Lodge Jr. was pried away from his hard-earned senate seat in 1950 in order to serve as Stassen's Ambassador to the UN.  In that chamber, Lodge pushed a friendly—if opportunistic approach to foreign relations, frequently defending America's imperial allies in France and Britain, as well as advancing the interests of American global power itself, most notably in backing the coups in Guatemala and Argentina.</p><p>Since 1954, Lodge has served as Stassen's Secretary of State, and has worked diligently to repair America's reputation after the election of Togliatti's Communist Party in Italy and the failed intervention for France in Indochina.</p><p>Overall, Lodge is a solid pick who would repair the ties between yourslef and the party's eastern wing.</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 96,
+    "fields": {
+        "first_name": "Joe",
+        "last_name": "Foss",
+        "election": 4,
+        "party": "Republican",
+        "state": "South Dakota",
+        "priority": 5,
+        "description": "``",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/R8E3EMF.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>Joe Foss grew up on a farm in the 1920s and 30s. It wasn't easy, but those sorts of tough times teaches a kid a thing or two about hard work, and enough time in the fields to think sincerely about fleeting things like hopes or dreams. Joe Foss wanted to be a fighter pilot, and worked damn hard until he was. His first assignment in the Pacific was at Guadalcanal—by the time he was recalled in 1944 to promote the war effort at home he had shot down twenty-six planes, and many more during the ill-fated Operation Downfall a year later.</p><p>Foss is a war hero and a celebrity, and doubtless attract good headlines. He's also had a modest career in South Dakota politics, and has served as the state's governor. He is a moderate in the party, but you're not likely to need the votes of the Plains. Still, he could work to smooth things over with the farmers.</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 97,
+    "fields": {
+        "first_name": "Dr. Walter H.",
+        "last_name": "Judd",
+        "election": 4,
+        "party": "Republican",
+        "state": "Minnesota",
+        "priority": 5,
+        "description": "``",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/WEpGRck.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>Dr. Walter Judd worked as a physician and missionary to China from 1925 to 1931 before returning to America to work on behalf of the Mayo Clinic. Entering Congress in 1942, Judd has spent much of his energy in Congress working for furthered support for the Kuomintang in China. In that capacity, he pushed for increased aid after the Soviet-backed coup in Beijing that ousted Mao last year.</p><p>Judd and you line up on most issues, and selecting him as your running mate could be a signal to your supporters and independents alike that you intend to push for a renewed Stassenite vision on foreign policy whilst maintaining your hitherto conservative positions on matters of economics.</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 196,
+    "fields": {
+        "first_name": "Lyndon B.",
+        "last_name": "Johnson",
+        "election": 4,
+        "party": "Democratic",
+        "state": "Texas",
+        "priority": 6,
+        "description": "''",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/sZla8Jo.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>The so-called 'master' of the Senate and of the power of persuasion, Lyndon B. Johnson is a brilliant legislator and an ambitious figure in his own right.  An apprentice of both Sam Rayburn and J. William Fulbright, Johnson would certainly help you build bridges with the southern states—as many that can at this point be built after that convention—and gain Fulbright's own commitment to campaigning for the ticket.  Given the senator from Arkansas' popularity nationally for his maverick foreign policy positions, that'd likely be a boon for your campaign.</p><p>Johnson is also a competent retail politician—if unflinchingly aggressive—and will campaign hard for the ticket.  Just keep in mind his recent heart attack.</p><p>If your goal is unifying the party and expanding your lead going into the election, Johnson is a solid, effective pick.</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 197,
+    "fields": {
+        "first_name": "John William",
+        "last_name": "Bricker",
+        "election": 4,
+        "party": "Republican",
+        "state": "Ohio",
+        "priority": 6,
+        "description": "''",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/WcDeMWZ.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>John Bricker is a storied member of the Republican Party, having served as the nominee for vice president in Tom Dewey's ill-fated 1944 run. Despite this, Bricker is decidedly the heir apparent of the Taft Wing of the party, and has attempted to push the conservative path in his own right since Robert Taft's death in 1953.</p><p>By selecting Bricker as your running mate, it'd seem as though you're planning to pivot to your conservative roots on the trail. Such a strategy could aid in parts of the Steel Belt, New England and the South, but would likely be anathema elsewhere.</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 198,
+    "fields": {
+        "first_name": "Robert S.",
+        "last_name": "Kerr",
+        "election": 4,
+        "party": "Democratic",
+        "state": "Oklahoma",
+        "priority": 6,
+        "description": "''",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://files.catbox.moe/kos8n9.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>Robert Kerr is not the sort of man to give up easily, Sam Rayburn put it best when he said, “Bob Kerr is the kind of man who would charge hell with a bucket of water and believe he could put it out.”</p><p>Kerr was an oil entrepreneur and self-made man before becoming Governor then Senator of Oklahoma. As Governor, Kerr brought competent government to the oft unstable state, and as Senator proved himself not only an impressive orator but one of the Senate’s premier backroom operators and a close ally of Lyndon Johnson. </p><p>Kerr is beloved in his home state and popular in much of the farm belt for his support for farmers and oil workers. Rather than grandstand on civil rights or anti-communism, Kerr prefers to focus his efforts on infrastructure and economic issues. Infamous as an ambitious special interest politician but deeply respected for his work on infrastructure, Kerr is always looking for new opportunities, so picking him could open up significant ones for you</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 199,
+    "fields": {
+        "first_name": "William",
+        "last_name": "Proxmire",
+        "election": 4,
+        "party": "Democratic",
+        "state": "Wisconsin",
+        "priority": 6,
+        "description": "''",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://files.catbox.moe/2w63z8.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>William Proxmire prides himself on his efficiency; as a state legislator in Wisconsin, he never missed a vote and was known for his frugal campaigns. As Governor,  he has focused on cutting waste and refining the tax code.</p><p>But Proxmire counts not only efficiency as a skill; before he came along, the Wisconsin Democratic Party was the third biggest party in the state and lacked organization and support. Proxmire and his allies began the tough process of rebuilding the state party and making it competitive. After a decent performance in 1952, Proxmire shocked the state by narrowly defeating incumbent Governor Walter Kohler Jr. two years later.</p><p>Proxmire would bring impressive and youthful energy to your campaign; he is liberal but with a fiscally conservative streak and has great appeal in his home state and with farmers and organized labor. And of course, picking Proxmire would signal your plans to sweep Joe McCarthy’s home state from under him.</p>",
+        "candidate_score": 0
+    }
+  }, {
+    "model": "campaign_trail.candidate",
+    "pk": 200,
+    "fields": {
+        "first_name": "Wayne",
+        "last_name": "Morse",
+        "election": 4,
+        "party": "Republican",
+        "state": "Oregon",
+        "priority": 6,
+        "description": "''",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://files.catbox.moe/li3anq.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>Wayne Morse has always followed a simple guiding principle: “Principles over politics.” The Senator for Oregon is generally viewed as a maverick, both for his views and his independence from the GOP. </p><p>First elected as a Senator in 1944, Morse positioned himself as a populist, progressive Republican. Increasingly at odds with the Republican leadership, he emerged as a prominent critic of Joseph McCarthy and President Stassen, going so far as to refuse to endorse the Stassen/Knowland ticket in '52 due to its 'reactionary nature.'</p><p>Morse would be interested in becoming your running mate and may even consider joining the Democrats as well. He could help you with liberal Republicans, and his anti-interventionism would appeal to both Fulbrighters and Gideon’s Army, but he will expect you to take a strong stance against McCarthyism and will not hold back in speaking his mind.</p>",
+        "candidate_score": 0
+    }
+  }, {//southern runningmate
+    "model": "campaign_trail.candidate",
+    "pk": 120,
+    "fields": {
+        "first_name": "",
+        "last_name": "Criswell",
+        "election": 4,
+        "party": "Commie",
+        "state": "California",
+        "priority": 3,
+        "description": "''",
+        "color_hex": "#49246d",
+        "secondary_color_hex": "#49246d",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/cJ31SEY.png",
+        "electoral_victory_message": "''",
+        "electoral_loss_message": "''",
+        "no_electoral_majority_message": "''",
+        "description_as_running_mate": "<p>Bobby Seale is perhaps the embodiment of the Black Panther Party, and he's received unanimous condemnation from mainstream politics for it. Having co-founded the group with Huey Newton, he's seen his share of media attention, infamously being bound and gagged before the judge in the Chicago Eight trial – indeed earning contempt charges that will have him in prison to start the campaign. Among activists, his name is revered – among the general public, it's quite the opposite.<br><br>As a figure so unanimously popular within the Black Power movement, he would help to spread the Communist message within a key part of any coalition the CPUSA builds. His rhetorical ability is also unparalleled in the organization, and indeed far outstrip Hall's. He would generate large enthusiasm in the radical student population, where he has widespread support. Of course, there's no telling when they'll let him out of the slammer...</p>",
+        "candidate_score": 0
+    }
+  }, {//commie runningmate
+    "model": "campaign_trail.candidate",
+    "pk": 170,
+    "fields": {
+        "first_name": "some",
+        "last_name": "commie bitch",
+        "election": 4,
+        "party": "Other",
+        "state": "Indiana",
+        "priority": 4,
+        "description": "'",
+        "color_hex": "#0000FF",
+        "secondary_color_hex": "#90C0FF",
+        "is_active": 0,
+        "image_url": "https://i.imgur.com/D1P3BU7.png",
+        "electoral_victory_message": "'",
+        "electoral_loss_message": "'",
+        "no_electoral_majority_message": "'",
+        "description_as_running_mate": "<p>Edward Sadlowski is a labor leader who appeared on Hall’s radar following his 'Steelworkers Fightback' movement, in which he led a crusade against corruption in the United Steelworkers of America. He’s relatively unknown nationally, but romantically dedicated to the cause of labor and more agreeable to the general public than any of your other options will ever be.<br><br>Reconciliation with the New Left is largely regarded as CPUSA’s only path forward. If Hall has a strategy that eschews that, Sadlowski would be a powerful pick. Sadlowski would signal an old-left, blue collar turn to the campaign, perhaps rallying support among white ethnics – but no matter his progressive stances, he will always be viewed with distrust by the activist New Left that will be so vital to success. He will also do little to appeal to Black power organizations.</p>",
+        "candidate_score": 0
+    }
+  }]
+  campaignTrail_temp.running_mate_json = [{
+    "model": "campaign_trail.running_mate",
+    "pk": 58,
+    "fields": {
+        "candidate": 23,
+        "running_mate": 95
+    }
+  }]
+  
+  campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 250, \"fields\": {\"candidate\": 24, \"running_mate\": 196}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 253, \"fields\": {\"candidate\": 23, \"running_mate\": 95}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 258, \"fields\": {\"candidate\": 25, \"running_mate\": 120}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 259, \"fields\": {\"candidate\": 26, \"running_mate\": 170}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 260, \"fields\": {\"candidate\": 23, \"running_mate\": 96}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 261, \"fields\": {\"candidate\": 23, \"running_mate\": 97}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 261, \"fields\": {\"candidate\": 23, \"running_mate\": 197}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 262, \"fields\": {\"candidate\": 24, \"running_mate\": 198}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 263, \"fields\": {\"candidate\": 24, \"running_mate\": 199}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 264, \"fields\": {\"candidate\": 24, \"running_mate\": 200}}]"); 
+campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 4, \"candidates\": [23, 24, 25, 26]}]"); 
+campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 4, \"candidates\": [23, 24, 25, 26]}]"); 
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.01, \"state_variance\": 0.005, \"question_count\": 30, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]"); //REmember! too CHANGE VARIANCE'SS!!!
+  campaignTrail_temp.temp_election_list = [{
+    "id": 4,
+    "year": 1956,
+    "is_premium": 0,
+    "display_year": "1956Red"
+  }];
+  
+  campaignTrail_temp.difficulty_level_json = JSON.parse("[{\"model\": \"campaign_trail.difficulty_level\", \"pk\": 1, \"fields\": {\"name\": \"Cakewalk\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 2, \"fields\": {\"name\": \"Very Easy\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 3, \"fields\": {\"name\": \"Easy\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 4, \"fields\": {\"name\": \"Normal\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 5, \"fields\": {\"name\": \"Hard\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 6, \"fields\": {\"name\": \"Impossible\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 7, \"fields\": {\"name\": \"Unthinkable\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 8, \"fields\": {\"name\": \"Blowout\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 9, \"fields\": {\"name\": \"Disaster\", \"multiplier\": 0.97}}]");
+  
+  $("#game_window")[0].style.borderColor = "#a10000" 
+$(".container")[0].style.backgroundColor = "#6e0000"
+
+$("#game_window")[0].style.backgroundColor = "#d5d5d5"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ab0000"  
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#cdcee4" 
+document.getElementById("header").src = "https://files.catbox.moe/zx85sl.png"
+document.body.background = "https://i.imgur.com/Sy676wI.png" 
+
+
+  RecReading = true
+  
+  var changeGameDisp = (hide) => {
+    disp = "";
+    if (hide) {
+      disp = "none";
+    }
+    document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+  };
+  var changeGameDisp = (hide) => {
+      disp = "";
+      if (hide) {
+        disp = "none";
+      }
+      document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+    };
+    e.creditsPage = () => {
+      credits_html = `
+        <h2 style='color: #000000;'>Devs</h2>
+        <h3 style='color: #000000;'>Tom</h3>
+        <p style='color: #000000;'>Co-Creator. Lead Writer, Story/Universe Creator.</p>
+        <h3 style='color: #000000;'>Aiden</h3>
+        <p style='color: #000000;'>Co-Creator. Lead Coder, and (Colors of the site, and backround)</p>
+        <h3 style='color: #000000;'>Calgar77</h3
+        <br style='color: #000000;'>
+        <p style='color: #000000;'>Writer and researcher</p>
+        <h3 style='color: #000000;'>profesordino</h3
+        <br style='color: #000000;'>
+        <p style='color: #000000;'>Graphic Designer and writer</p>
+        <h3 style='color: #000000;'>Playtesters</h3>
+        <p style='color: #000000;'>Neo, duplicator, tedthing, marin, rmngaming5068, usbccable, Lurker, finnhomosapien, cdocwra and lucasiguess.</p>
+        <h3 style='color: #000000;'>Contributors</h3>
+        <p style='color: #000000;'>Knowland banner by TedThing. Sign code, CYOA and STSS help Decstar. Lib Counter from 1968Romney. Music Player, 2000N. vpTable code from 1972PWH. CYOA help from Nina.</p>
+      `
+      changeGameDisp(true);
+      var spacer = document.createElement("amongusspacerthisisntarealelement");
+      spacer.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+      document
+        .getElementsByClassName("inner_window_w_desc")[0]
+        .children[1].appendChild(spacer);
+        changeGameDisp(true);
+        var menuHeader = document.createElement("div");
+        menuHeader.classList.add("inner_window_front");
+        menuHeader.innerHTML = `<h1 style='font-family: "Cinzel";'>The 1956Red Credits</font></h1>`;
+        menuHeader.id = "SOTUheader";
+        menuHeader.style = "height: 50px;background-color:#A9A9A9";
+        var newMenu = document.createElement("div");
+        newMenu.classList.add("inner_window_front");
+        newMenu.id = "SOTUmenu";
+        newMenu.style = `height:260px;background-color:#A9A9A9;color:white;overflow-y: scroll;`;
+    
+        newMenu.innerHTML = credits_html;
+        let z = document.getElementById("game_window");
+        var backButton = document.createElement("button");
+        backButton.style =
+          "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
+        backButton.id = "backSOTUBtn";
+        backButton.innerHTML = `<b>BACK</b>`;
+        backButton.onclick = function () {
+          document.getElementById("SOTUheader").remove();
+          document.getElementById("SOTUmenu").remove();
+          document.getElementById("backSOTUBtn").remove();
+          changeGameDisp(false);
+        };
+        z.appendChild(menuHeader);
+        z.appendChild(newMenu);
+        z.appendChild(backButton);
+    
+  }
+    
+  e.credits = "<button onclick='e.creditsPage()'>The Redmod Team</button>"
+
+ HistHexcolour=["#721D1D","#0F2667","#3F302A","#3b0000"]; HistName=[" Joseph McCarthy"," John McCormack"," Tom Connally"," Eric Hass/Others"]; HistEV=[274,238,19,0]; HistPV=["29,708,572","29,584,483","2,604,923","245,709"]; HistPVP=["47.9%","47.7%","4.2%","0.2%"];
