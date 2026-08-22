@@ -137,17 +137,17 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 82,
         "fields": {
-            "first_name": "John",
-            "last_name": "Danforth",
+            "first_name": "Tommy",
+            "last_name": "Thompson",
             "election": 9,
             "party": "Republican",
-            "state": "Missouri",
+            "state": "Wisconsin",
             "priority": 6,
             "description": "''",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/john-danforth-2000.jpg",
+            "image_url": "https://i.imgur.com/rJpdHEu.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
@@ -206,17 +206,17 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 85,
         "fields": {
-            "first_name": "Joe",
-            "last_name": "Lieberman",
+            "first_name": "Evan",
+            "last_name": "Bayh",
             "election": 9,
-            "party": "Democrat",
-            "state": "Connecticut",
+            "party": "Democratic",
+            "state": "Indiana",
             "priority": 9,
             "description": "''",
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/joe-lieberman-2000.jpg",
+            "image_url": "https://i.imgur.com/xgi5qTG.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
@@ -275,17 +275,17 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 88,
         "fields": {
-            "first_name": "Evan",
-            "last_name": "Bayh",
+            "first_name": "Bill",
+            "last_name": "Bradley",
             "election": 9,
-            "party": "Democrat",
-            "state": "Indiana",
+            "party": "Democratic",
+            "state": "New Jersey",
             "priority": 12,
             "description": "''",
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/evan-bayh-2000.jpg",
+            "image_url": "https://i.imgur.com/8NfqmhN.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
@@ -499,6 +499,11 @@ jet_data = {
 
 //#startcode
 
+
+quotes = ["<q>There is nothing wrong with America that cannot be fixed by what is right with America.</q> - Bill Clinton", "<q>There are always going to be people who want to be president, and some days I'd like to give it to them.</q> - Bill Clinton", "<q>That man is like 500 pounds of Jello.</q> - Willie Brown", "<q>There's nothing wrong with being an anarchist.</q> - Jerry Brown", "<q>I need to know the price of a gallon of milk and a dozen eggs. I need to know right now.</q> - Lamar Alexander", "<q>I don't question Mr. Bush's terrorism.</q> - Mike Dukakis"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>The Clash of Civilizations</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
 
 corrr = '\n              <h2>The Clash of Civilizations</h2>\n            ';
 
@@ -734,7 +739,7 @@ function setupMusicPlayer() {
   surplusPlaylist.addSong(new Song("Ironic", "Alanis Morissette", "https://i.scdn.co/image/ab67616d00001e0292c885317fbe4bfa680109b4", "https://file.garden/Z7qfmQZIZjO_xV5N/Ironic.mp3"));
 
   const flipFloppingPlaylist = new Playlist("The Vital Center");
-  flipFloppingPlaylist.addSong(new Song("Don't Stop", "Fleetwood Mac", "https://i.scdn.co/image/ab67616d00001e020b8de3e1eb45d3b13bdb7057", "https://file.garden/Z7qfmQZIZjO_xV5N/DontStopLive.mp3"));
+  flipFloppingPlaylist.addSong(new Song("Don't Stop (Live at Warner Brothers Studios in Burbank, CA 5/23/97)", "Fleetwood Mac", "https://i.scdn.co/image/ab67616d00001e020b8de3e1eb45d3b13bdb7057", "https://file.garden/Z7qfmQZIZjO_xV5N/DontStopLive.mp3"));
   flipFloppingPlaylist.addSong(new Song("Swamp Thing", "The Grid", "https://i.scdn.co/image/ab67616d00001e025410adfc473d1e5eed4f328a", "https://audio.jukehost.co.uk/qQzQY6U7UJ0EBST6A8IJjHadPQ7QJs5R"));
   flipFloppingPlaylist.addSong(new Song("Around the World", "Daft Punk", "https://i.scdn.co/image/ab67616d00001e028ac778cc7d88779f74d33311", "https://files.catbox.moe/qpk2i0.mp3"));
   flipFloppingPlaylist.addSong(new Song("Better Man", "Pearl Jam", "https://i.scdn.co/image/ab67616d00001e020ccbe4584f7827e66fa2ab3a", "https://files.catbox.moe/18fekv.mp3"));
