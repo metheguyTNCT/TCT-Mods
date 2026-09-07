@@ -30,6 +30,8 @@ Pretty straightforward.
 - *2028b*
 - *1972HHH*
 - *1981-1984: American Crucifixion*
+- *1996: The Clash of Civilisations*
+- *2004Way*
   
 **Unnecessarily Complex Mockups [UCMs]:**
 These mockups also have code 2s.
