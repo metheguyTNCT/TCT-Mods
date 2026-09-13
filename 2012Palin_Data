@@ -6,7 +6,7 @@
             "lastName": "Palin",
             "party": "Republican",
             "homeState": "Alaska",
-            "color": "#c18082",
+            "color": "#d0437c",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -51,7 +51,7 @@
             "lastName": "Webb",
             "party": "Democratic",
             "homeState": "Virginia",
-            "color": "#002354",
+            "color": "#5f7d9b",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -96,7 +96,7 @@
             "lastName": "Huntsman",
             "party": "Americans Elect",
             "homeState": "Utah",
-            "color": "#767060",
+            "color": "#87a998",
             "issueScores": [
                 {
                     "issueId": 100,
@@ -8862,14 +8862,14 @@
     "credits": "This scenario was made by metheguy.",
     "music": [
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/AmericanSpring.mp3",
-            "displayName": "American Spring- Rebel Diaz",
-            "imageUrl": "https://f4.bcbits.com/img/a2103506501_65"
+            "url": "https://files.catbox.moe/v2twuv.mp3",
+            "displayName": "Rock Star- Micheal Freidman",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f50cd0e76e81f2fc63381809"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Radicals.mp3",
-            "displayName": "Radicals- Tyler, the Creator",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d8c1b5fc9a7b58bd3a1c0a7c"
+            "url": "https://files.catbox.moe/8srp12.mp3",
+            "displayName": "You're Going Down- Sick Puppies",
+            "imageUrl": "https://i.scdn.co/image/ab67616d00001e02335f7a7a00b228e3f1a34abb"
         },
         {
             "url": "https://file.garden/Z7qfmQZIZjO_xV5N/SpotiDownloader.com%20-%20Backpackers%20-%20Childish%20Gambino.mp3",
@@ -8877,29 +8877,34 @@
             "imageUrl": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F84e84f918a6b65616031289ce5ab2f4d.1000x1000x1.png"
         },
         {
-            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Killer%20Mike%20-%20Reagan%20(Official%20Music%20Video).mp3",
-            "displayName": "Reagan- Killer Mike",
-            "imageUrl": "https://www.shazam.com/mkimage/image/thumb/Music124/v4/82/5b/e4/825be449-6658-622e-1816-5bcb305cfc0c/838446001851.jpg/255x255bb-60.webp"
+            "url": "https://files.catbox.moe/7ebo20.mp3",
+            "displayName": "Black Skinhead- Kanye West",
+            "imageUrl": "https://i.scdn.co/image/ab67616d00001e021dacfbc31cc873d132958af9"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Primadonna.mp3",
-            "displayName": "Primadonna- Marina and the Diamonds",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/81/Marina_and_the_Diamonds_-_Electra_Heart.png"
+            "url": "https://files.catbox.moe/lkdydf.mp3",
+            "displayName": "Murders- Miracle Musical",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b3d0bf02a5fb2f676c748432"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Million%20Dollar%20Man.mp3",
-            "displayName": "Million Dollar Man- Lana Del Ray",
-            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f894be72a77b1488292672c7"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/AmericanSpring.mp3",
+            "displayName": "American Spring- Rebel Diaz",
+            "imageUrl": "https://f4.bcbits.com/img/a2103506501_65"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Stronger.mp3",
-            "displayName": "Stronger- Kelly Clarkson",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ca/Kelly_Clarkson_-_Stronger.jpg"
+            "url": "https://files.catbox.moe/6413gp.mp3",
+            "displayName": "Supremacy- Muse",
+            "imageUrl": "https://i.scdn.co/image/ab67616d00001e02fc192c54d1823a04ffb6c8c9"
         },
         {
-            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/Trophy%20Vice.mp3",
-            "displayName": "Asathecomic- McCain's Trophy Vice",
-            "imageUrl": "https://files.catbox.moe/1xhl2d.avif"
+            "url": "https://file.garden/Z7qfmQZIZjO_xV5N/REVENGE./A%20Mask%20of%20My%20Own%20Face.mp3",
+            "displayName": "A Mask of My Own Face- Lemon Demon",
+            "imageUrl": "https://file.garden/Z7qfmQZIZjO_xV5N/REVENGE./AMaskOfMyOwnFace.jpg"
+        },
+        {
+            "url": "https://file.garden/Zrv1pPC1HzBK0svl/Want%20You%20Gone.mp3",
+            "displayName": "Want You Gone- Jonathan Coulton",
+            "imageUrl": "https://i.postimg.cc/Xv9NBF7X/P2songstotestbyv1cover.webp"
         }
     ],
     "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\"https://slate.com/news-and-politics/2015/01/jim-webb-wants-to-be-a-white-mans-democrat-the-former-virginia-senators-message-shouldnt-be-dismissed.html\" target=”_blank”>Jamelle Bouie- A White Man’s Democrat\n</a></br><a href=\"https://www.salon.com/2009/06/16/president_mccain/\" target=”_blank”>Micheal Lind- It is summer 2009, and John McCain is president</a></br><a href=\"https://www.amazon.com/Profiles-Ignorance-Americas-Politicians-Dumber/dp/1668003880\" target=”_blank”>Andy Borowitz- Profiles in Ignorance</br><a href=\"https://archive.org/details/gamechange00john\" target=”_blank”> John Heilemann and Mark Halperin - Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime</a>",
