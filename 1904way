@@ -1,0 +1,484 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 2,
+        "fields": {
+            "year": 1908,
+            "summary": "<p>After a war in Cuba, a financial panic, the establishment of bimetallism, and the breakup of multiple companies, President Bryan has decided that he hasn't done enough. Denied a third term at the Democratic Convention by Grover Cleveland, Bryan has chosen to run with his old electoral partner- the Populist Party.</p><p>Meanwhile, newspaper magnate William Randolph Hearst, enraged by anti-trust actions taken against him by President Bryan, has taken the Republican nomination in an upset, prompting several prominent Republicans to walk out of the convention, nominating Henry Cabot Lodge under the National Republican banner.</p><br><button onclick='next0()'>More</button></p>",
+            "image_url": "https://i.imgur.com/3KtMzIe.png",
+            "winning_electoral_vote_number": 239,
+            "advisor_url": "https://thecampaigntrail.net/static/images/advisors.png",
+            "recommended_reading": "<h4 style='margin-top: 0.5em;'>Books and Links</h4><a href='https://archive.nytimes.com/www.nytimes.com/library/politics/camp/whouse/convention-ra.html#1908' target='_blank'><i> The New York Times</i> - 1908 Convention Coverage</a><br><a href='https://elections.harpweek.com/1908/Overview-1908-1.asp' target='_blank'>HarpWeek | 1908 Overview</a><br> Donald F. Anderson -- William Howard Taft: A Conservative's Conception of the Presidency<br>Paul W. Glad -- <a href='https://archive.org/details/trumpetsoundethw0000glad' target='_blank'>The trumpet soundeth: William Jennings Bryan and his democracy, 1896-1912</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "ItsAstronomical",
+            "display_year": "1904way",
+            "is_historical": true,
+            "recommended_reading_enabled": true,
+            "site_description": "<p>After a war in Cuba, a financial panic, the establishment of bimetallism, and the breakup of multiple companies, President Bryan has decided that he hasn't done enough. Denied a third term at the Democratic Convention by Grover Cleveland, Bryan has chosen to run with his old electoral partner- the Populist Party.</p><p>Meanwhile, newspaper magnate William Randolph Hearst, enraged by anti-trust actions taken against him by President Bryan, has taken the Republican nomination in an upset, prompting several prominent Republicans to walk out of the convention, nominating Henry Cabot Lodge under the National Republican banner.</p>"
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 2,
+        "year": 1908,
+        "is_premium": 0,
+        "display_year": "1904way"
+    }
+];
+
+RecReading = true;
+
+campaignTrail_temp.credits = "RouteVenus. Exported by metheguy";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 400,
+        "fields": {
+            "first_name": "William Randolph",
+            "last_name": "Hearst",
+            "election": 2,
+            "party": "Republican",
+            "state": "California",
+            "priority": 2,
+            "description": "<p>He is not just a newspaper man, he is the king of the press. He owns the largest media empire in the country, with papers in every major city. He shapes public opinion and influences policy with his sensational headlines and misleading journalism. He is William Randolph Hearst, and he is running for president.</p><p>Hearst is a titan of the modern era, and he covets the throne of power. In 1901, Bryan, outraged with Hearst's frequent use of <I>yellow journalism</I> to denigrate the administration's handling of the war in Cuba, threatened to use antitrust action against Hearst's empire. Hearst quickly changed parties, and vowed to make Bryan's last years in office a brutal affair. In 1903, suspecting that Bryan's ego would lead to him seeking a third term, Hearst put his hat in the ring, coming out on top during the sordid affair that was the Republican National Convention in Chicago. He is a master of sensationalism and propaganda, and ready to use his colossal media empire to any ends necessary.",
+            "color_hex": "#1180b9",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/qeI45tU.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1908 election.</h3><p>This was to be expected, of course, given the prosperity of the time. You have managed to defeat Bryan in his third, and likely final attempt at the Presidency.</p><p>Where you go from here is up to you. Many are expecting tariff reform, and other progressive measures. Some worry about a rift in the party, which you should take note of when dealing with Theodore Roosevelt. Who knows what the Colonel might do...</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1908 election.</h3><p>It appears that Bryan's quixotic crusade has captured the imagination of enough voters. Many Republicans believe that this election was winnable, and the party may split further along a progressive-conservative divide.</p><p>It's unknown where this leaves the country. Bryan enters office at a time of great prosperity, but he will have to deal with a Republican Senate. Hopefully, divided government can restrain his worst tendancies. It's unlikely you will be nominated again, but you don't mind all too much.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has captured an Electoral College majority.</h3><p>Elections for Congress have also resulted in an even split among members, and it is extremely unclear who might ultimately win this election. Best of luck in what is sure to be a contentious process.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 401,
+        "fields": {
+            "first_name": "William Jennings",
+            "last_name": "Bryan",
+            "election": 2,
+            "party": "Populist",
+            "state": "Nebraska",
+            "priority": 1,
+            "description": "<p>In 1896, William Jennings Bryan electrified the Democratic National Convention with his famous Cross of Gold speech. Eight years later, he looks back on two terms of accomplishment and change, and has decided that he hasn't done enough. After his play for a third term at the Democratic National Convention took a turn for the worse as Grover Cleveland snatched the nomination from under his nose, Bryan turned to the Populist Party to eke out another four years.</p><p>While his popularity with farmers and populists is all but guaranteed, his path to victory rests in the laboring classes -a generation of whom were turned off from him after the Silver Fiasco of 1897 caused a financial panic. If he can rally the populist movement and make sufficient inroads among the workers, he may see a third term yet.</p>",
+            "color_hex": "#43964f",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/l0RTSZJ.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1908 election.</h3><p>After three attempts, it appears that ''The Great Commoner'' will finally become President of the United States. This will be a shock to many -- most of all, the Republicans, who mocked your campaign as a quixotic crusade. Many of your supporters are overwhelmed with joy.</p><p>It appears that with these returns, the House will be won by the Democrats, while Republicans will retain the Senate. The defeat of Speaker Joseph Cannon is <i>cause célèbre</i> for progressives and Democrats alike.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1908 election.</h3><p>You have failed on your third attempt to capture the Presidency. Hopefully, your returns were stronger than those you had in 1896 or 1900. Down the ballot, many progressive Democrats were able to outperform you.</p><p>It appears that Taft has been able to secure a workable Congressional majority and will put forth his agenda -- some members of Congress have begun to discuss tariff increases. Your political career is very likely over, but perhaps 1912 will be the year Democrats finally regain executive power.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has captured an Electoral College majority.</h3><p>Elections for Congress have also resulted in an even split among members, and it is extremely unclear who might ultimately win this election. Best of luck in what is sure to be a contentious process.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 402,
+        "fields": {
+            "first_name": "S. Grover",
+            "last_name": "Cleveland",
+            "election": 2,
+            "party": "Democrat",
+            "state": "New York",
+            "priority": 3,
+            "description": "<p>In his early days, Grover Cleveland made a name for himself as an anti-corruption crusader, defying political machines in his native New York in order to win bipartisan support from reform-minded Republicans and Democrats in the hotly-divided late reconstruction era, propelling him into victory in the 1884 and 1892 elections.</p><p>Cleveland's popularity has since collapsed. The Panic of 1893 made a generation of moderates revile him. His actions during the Pullman strike made populists and labor unions despise him. His staunch anti-imperialism made him persona non-grata among Republicans. The only demographic left that loves him so is his home team - the conservative Bourbon Democrats. It was these Bourbons who denied Bryan a third term and elevated Cleveland to victory at the Democratic Convention in St. Louis. Cleveland will need all his wits, his political skills, and a bit of luck if he wants a chance at redeeming his once-lustrous reputation.",
+            "color_hex": "#ffd14e",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/EDdvtA2.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 403,
+        "fields": {
+            "first_name": "Henry Cabot",
+            "last_name": "Lodge",
+            "election": 2,
+            "party": "National Republican",
+            "state": "Massachusetts",
+            "priority": 4,
+            "description": "<p>For such an upstart to seize the nomination of the party of Lincoln would have been unheard of in Henry Cabot Lodge's day. The same buzzard that picked the corpse of the Democratic Party clean has descended upon the Republican Party: Populism. William Randolph Hearst's upset victory at the Chicago Convention has outraged and frustrated diehard Republicans, who were hoping for an easy victory after the disaster of the last eight years.</p><p>Two weeks after the Republican National Convention, a group of bereaved Republicans convened in Buffalo to nominate Henry Cabot Lodge as their own splinter candidate - under the \"National Republican\" banner. Lodge hopes to win the election outright or at least throw it to the House of Representatives, where the narrow Republican majority is sure to elevate Lodge.",
+            "color_hex": "#a91500",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/QDgxQlH.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 405,
+        "fields": {
+            "first_name": "James S.",
+            "last_name": "Sherman",
+            "election": 2,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/sherman.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Congressman James Sherman is the candidate of the New York delegation and, more importantly, Speaker Joe Cannon. Roosevelt's rivals hope that his nomination will provide much-needed balance to the ticket, given your role as his successor. Still, Sherman has minimal appeal to progressives within the party, which means your campaign will need to spend more time securing their support.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 406,
+        "fields": {
+            "first_name": "Albert",
+            "last_name": "Beveridge",
+            "election": 2,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/beveridge.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>If Sherman is unappealing to Taft, Senator Beveridge of Indiana is the most likely choice should he choose to rally delegates behind him. Though hesitant to accept the nomination, Taft's managers believe he can be won over for the role with enough convincing. Beveridge has had a far more progressive tenure and is quite reform-focused. Of course, his selection may cause issues with the conservative sectors of the Republican party.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 407,
+        "fields": {
+            "first_name": "John W.",
+            "last_name": "Kern",
+            "election": 2,
+            "party": "Democrat",
+            "state": "Indiana",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/johnkern.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>John Kern has served as a state Senator in Indiana and ran twice for Governor of Indiana. Kern has a progressive reputation and is known within his state as a strong, reform-minded individual. It should come as no surprise that the Democratic Convention is more than happy to nominate him by acclamation. Still, Kern lacks serious experience and has low name recognition outside of his home state -- admittedly, an electorally important one.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 408,
+        "fields": {
+            "first_name": "Charles A.",
+            "last_name": "Towne",
+            "election": 2,
+            "party": "Democrat",
+            "state": "New York",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/towne.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Charles Towne is a former Congressman -- serving as both a Representative and a Senator from Minnesota, before later serving a single term in the House from New York. His ties to Minnesota, though partially severed, may help unite the party after Minnesota Governor John Johnson's failed bid against Bryan. In addition, a former Republican may be an unorthodox selection that could help him appeal to reform-minded Republicans.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 409,
+        "fields": {
+            "first_name": "Archibald",
+            "last_name": "McNeill",
+            "election": 2,
+            "party": "Democratic",
+            "state": "Connecticut",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#3400c2",
+            "secondary_color_hex": "#a3a9ff",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/mcneil.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Archibald McNeill is a businessman and former State Senator from Connecticut. Much like Bryan's running mate during his first campaign, McNeill has wealth that can help fund a campaign and appeal to the conservative wing of the party, largely located within the northeast. However, selecting a businessman with few political connections has plenty of downsides, especially with so many reform-minded voters up for grabs.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 19081,
+        "fields": {
+            "candidate": 400,
+            "running_mate": 405
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 19082,
+        "fields": {
+            "candidate": 400,
+            "running_mate": 406
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 19083,
+        "fields": {
+            "candidate": 401,
+            "running_mate": 407
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 19084,
+        "fields": {
+            "candidate": 401,
+            "running_mate": 408
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 19085,
+        "fields": {
+            "candidate": 401,
+            "running_mate": 409
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 2,
+        "candidates": [
+            400,
+            401,
+            402,
+            403
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 2,
+        "candidates": [
+            400,
+            401,
+            402,
+            403
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#222222",
+    "header_text_color": "#ffffff",
+    "header_text_shadow": "1px 1px 2px rgba(0, 0, 0, 0.7)",
+    "description_background_color": "#f8f8f8",
+    "description_text_color": "#000000",
+    "main_color": "#f2bc8f",
+    "secondary_color": "#f7d1af",
+    "secondary_hover_color": "#d5b59b",
+    "scrollbar_color": "#f7d1af #f2bc8f",
+    "scrollbar_width": "auto",
+    "image_border": "4px solid #111827",
+    "ui_text_color": "#111827"
+};
+
+jet_data = {
+    "headerColor": "#222222",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#f7d1af",
+    "containerColor": "#f2bc8f",
+    "innerWindowColor": "#f3cfb2",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#e8e8e8",
+    "bannerImageUrl": "https://files.catbox.moe/uv6kph.webp",
+    "backgroundImageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Four_Seasons_by_Alfons_Mucha%2C_circa_1896.jpg/960px-Four_Seasons_by_Alfons_Mucha%2C_circa_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20210428175223",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000",
+    "modBoxTheme": {
+        "header_color": "#222222",
+        "header_text_color": "#ffffff",
+        "header_image_url": "",
+        "header_text_shadow": "1px 1px 2px rgba(0, 0, 0, 0.7)",
+        "header_font": "",
+        "header_margin": "",
+        "description_background_color": "#f8f8f8",
+        "description_text_color": "#000000",
+        "main_color": "#f2bc8f",
+        "secondary_color": "#f7d1af",
+        "secondary_hover_color": "#d5b59b",
+        "scrollbar_color": "#f7d1af #f2bc8f",
+        "scrollbar_width": "auto",
+        "image_border": "4px solid #111827",
+        "election_image_display": "",
+        "ui_text_color": "#111827"
+    }
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #f3cfb2 !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #e8e8e8 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#222222";
+theme.coloring_window    = "#f7d1af";
+theme.coloring_container = "#f2bc8f";
+theme.header_image = "https://files.catbox.moe/uv6kph.webp";
+theme.body_background = "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Four_Seasons_by_Alfons_Mucha%2C_circa_1896.jpg/960px-Four_Seasons_by_Alfons_Mucha%2C_circa_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20210428175223";
+
+applyTheme(theme);
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #525252;
+  }
+  a:-webkit-any-link {
+    color: #525252;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+HistHexcolour=["#ffd14e","#43964f","#1180b9","#a91500"];
+    HistName=[" S. Grover Cleveland"," William Jennings Bryan"," William R. Hearst"," Henry Cabot Lodge"];
+    HistEV=[101,144,133,98];
+    HistPV=["3,584,468","3,907,848","3,472,471","2,599,905"];
+    HistPVP=["26.42%","28.1%","25.60%","19.17%"];
+
+next0 = function() {
+
+        text = "<ul><li>Cleveland will have to convince the public that he's learned from the mistakes of the 1890s and can be trusted with another nonconsecutive term.</li> <li>Bryan will have to rally his populist base and gain inroads among the urban classes in order to secure a third term.</li> <li>Hearst will need to unite his party after the old-guard walk-out, and use his vast media empire to turn public opinion.</li> <li>Lodge will have to unite the conservative elements of the Republican Party and deny Hearst the presidency.</li><br><br></li></ul><button onclick='back0()'>Back</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+
+back0 = function() {
+
+        text = "<p>After a war in Cuba, a financial panic, the establishment of bimetallism, and the breakup of multiple companies, President Bryan has decided that he hasn't done enough. Denied a third term at the Democratic Convention by Grover Cleveland, Bryan has chosen to run with his old electoral partner- the Populist Party.</p><p>Meanwhile, newspaper magnate William Randolph Hearst, enraged by anti-trust actions taken against him by President Bryan, has taken the Republican nomination in an upset, prompting several prominent Republicans to walk out of the convention, nominating Henry Cabot Lodge under the National Republican banner.<br><br><button onclick='next0()'>More</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+//#endcode
